@@ -1,0 +1,15 @@
+# Environment
+.env.local
+.env*.local
+.env
+
+# Obsidian
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
