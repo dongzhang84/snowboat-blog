@@ -20,6 +20,15 @@ The whitepaper is written in Chinese and covers:
 2. 公司的五座大山 — The five structural cost pressures every business faces
 3. AI改变游戏规则 — How AI transforms each layer of the business stack
 
+## Reading List
+
+A curated reading list ([reading-list.md](reading-list.md)) accompanies the whitepaper, organized in four stages:
+
+1. **Death Traps** — understanding why traditional businesses fail (*E-Myth Revisited*, *Profit First*, *The Mom Test*)
+2. **AI-Native Architecture** — the new paradigm (*Co-Intelligence*, *The AI-First Company*, *Company of One*, *Superagency*)
+3. **Acquisition & Growth** — rebuilding the customer engine (*$100M Offers*, *$100M Leads*, *Predictable Revenue*, *Never Split the Difference*)
+4. **Data Sources** — McKinsey, a16z, CB Insights, BLS, and more
+
 ## Status
 
 Work in progress.
