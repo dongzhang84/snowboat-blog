@@ -13,3 +13,7 @@ Thumbs.db
 
 # Node
 node_modules/
+
+# Generated images (kept local only)
+cover-images/
+infographic/

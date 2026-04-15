@@ -6,6 +6,7 @@ A collection of deep-analysis articles written in Chinese, covering AI & busines
 
 | Article | Topic |
 |---------|-------|
+| [估值290亿美元的套壳公司，正在被自己的房东杀死](估值290亿美元的套壳公司，正在被自己的房东杀死.md) | Cursor's $29B rise and the structural risk of building on someone else's model |
 | [AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位](AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位.md) | AI reshaping education: vibe learning, school's role, and business opportunities |
 | [学物理的八方英雄们，物理学已死，请转行搞AI](学物理的八方英雄们，物理学已死，请转行搞AI.md) | Physics is dead, AI is the new frontier for physicists |
 | [不会编程、没有融资、没有员工，他怎么一个人做到年入2000万](不会编程、没有融资、没有员工，他怎么一个人做到年入2000万.md) | Pieter Levels: the clean version of a one-person company |
