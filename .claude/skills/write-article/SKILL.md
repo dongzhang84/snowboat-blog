@@ -11,15 +11,15 @@ argument-hint: [输入文件或内容描述]
 
 ## 第零步：加载配置（必做）
 
-开始任何素材处理前，用 Read 工具依次加载以下配置文件，把其中所有规则作为硬性约束：
+开始任何素材处理前，用 Read 工具依次加载以下配置文件（路径相对项目根目录），把其中所有规则作为硬性约束：
 
-1. `./persona.md`：作者人设
-2. `./style.md`：语言、段落、标题、数字、地域范围
-3. `./structure.md`：章节编号、案例、数据、理论联系现实、结论要求
-4. `./error-log.md`：错题本（append-only 禁区清单）
-5. `./output-format.md`：参考文献与原始草稿附录格式
+1. `.claude/skills/write-article/persona.md`：作者人设
+2. `.claude/skills/write-article/style.md`：语言、段落、标题、数字、地域范围
+3. `.claude/skills/write-article/structure.md`：章节编号、案例、数据、理论联系现实、结论要求
+4. `.claude/skills/write-article/error-log.md`：错题本（append-only 禁区清单）
+5. `.claude/skills/write-article/output-format.md`：参考文献与原始草稿附录格式
 
-配图相关（`./references/images.md`）只在用户主动询问配图时加载。
+配图相关（`.claude/skills/write-article/references/images.md`）只在用户主动询问配图时加载。
 
 ## 第一步：收集素材
 
@@ -44,11 +44,7 @@ argument-hint: [输入文件或内容描述]
 
 ## 第四步：撰写
 
-按大纲扩写，同时遵守：
-
-- `persona.md`：人设与写作底色
-- `style.md`：语言、段落、数字、地域范围
-- `structure.md`：章节结构、案例要求、理论联系现实
+按大纲扩写，同时遵守第零步加载的 persona / style / structure 三份规则。
 
 去除重复，合并相似观点，补充必要过渡句。
 
@@ -77,4 +73,4 @@ argument-hint: [输入文件或内容描述]
 
 ## 错题追加
 
-用户反馈"别再 X"时，向 `./error-log.md` 追加一条新条目（append-only，不修改历史条目），不要动 `SKILL.md` 或其他配置文件。
+用户反馈"别再 X"时，向 `.claude/skills/write-article/error-log.md` 追加一条新条目（append-only，不修改历史条目），不要动 `SKILL.md` 或其他配置文件。
