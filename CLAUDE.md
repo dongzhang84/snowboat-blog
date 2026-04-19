@@ -16,9 +16,13 @@
 ## 可用 Skill
 
 - `/write-article [文件路径或主题]`：把零散笔记整理成结构完整的文章。流程：收集素材 → 分析规划 → 事实核查 → 撰写 → 输出带参考文献的 Markdown 文件
+- `/traffic-review [时间范围或文章编号]`：基于 README 里的 X 流量数据和文章开头，分析题材/标题/开头框架与流量的关系，输出复盘到 `analysis/` 文件夹
 
 ## 项目结构
 
 - `*.md`（根目录）：各篇文章
+- `archive/`：10 天以上的旧文章
+- `analysis/`：流量复盘分析
 - `.claude/skills/write-article/`：文章整理 skill
+- `.claude/skills/traffic-review/`：流量复盘 skill
 - `reading-list.md`：推荐阅读书单
