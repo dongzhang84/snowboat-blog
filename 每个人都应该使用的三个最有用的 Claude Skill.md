@@ -1,5 +1,5 @@
 
-市面上的 Claude Skill 仓库少说几百个，官方的、社区的、个人博主随手扔在 GitHub 的，看不完。我写过、抄过、改过 12 个，到如今，仍在每周使用的只剩三个。
+市面上的 Claude Skill 仓库少说几百个，官方的、社区的、个人博主随手扔在 GitHub 的，看不完。我写过、抄过、改过 十多个，到如今，仍在每周使用的只剩三个。
 
 今天把这 3 个拎出来讲一遍。我强烈建议每个人都装上这 3 个 skill。至于剩下的那些 skills 为什么被我弃用，我后面再说。
 
@@ -27,6 +27,8 @@ SKILL.md 的核心流程：
 
 你完全可以 fork 这个仓库，把 persona.md 换成你自己的人设，把 writing-rules.md 换成你自己常踩的坑。骨架我搭好了，填自己的真实材料就行。
 
+提醒一句：vibe writing 这套方法论本身涉及人设沉淀、规则迭代、事实核查闭环几个更底层的东西，今天这篇只讲 skill 这一层，改天我会单独写一篇把 vibe writing 这个概念系统讲清楚。
+
 # 二、/code-review 
 
 **来源**：Anthropic 官方 [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) 仓库里的 code-review 插件。也是 Anthropic 内部每个 PR 都在跑的那套系统。
@@ -37,13 +39,29 @@ SKILL.md 的核心流程：
 
 我装这个之前每周至少有一次"上线后才发现一个傻 bug"。装上以后 agent 会在合之前指出来，命中率不算高（大概三成），但那三成里有至少一条是真能救你的。对比手动请同事 review 要排期等反馈，这个 3 分钟就能跑完。
 
-fork 成本近乎为零，clone 过来就用。
+安装门槛也低：Claude Code 官方插件，按 [Anthropic 官方文档](https://claude.com/plugins/code-review) 里的步骤在 Claude Code 里启用就行，不用自己写 SKILL.md，也不用 clone 仓库。命令行小白跟着文档点几下就能装上。
 
-# 三、/baoyu-diagram 
+# 三、/baoyu-diagram 以及宝玉整套 skill
 
-**来源**：来自宝玉（[@dotey](https://x.com/dotey)）的 [baoyu-skills](https://github.com/JimLiu/baoyu-skills) 仓库。我直接把他的 skill 目录 clone 进自己的 `.claude/skills/` 就开箱即用。
+**来源**：宝玉（[@dotey](https://x.com/dotey)）的 [baoyu-skills](https://github.com/JimLiu/baoyu-skills) 仓库。
 
-干的事：从一个概念或数据点，生成可嵌入文章的 SVG 示意图。自带亮 / 暗模式切换，有统一的设计系统。
+宝玉这个仓库里装着一整套中文内容生产的全家桶，diagram 只是其中一个：
+
+- `baoyu-diagram` · 概念示意图 / 流程图 / 架构图，输出 SVG
+- `baoyu-infographic` · 高信息密度信息图
+- `baoyu-cover-image` · 文章封面图
+- `baoyu-article-illustrator` · 文内智能配图
+- `baoyu-comic` · 知识漫画
+- `baoyu-slide-deck` · 幻灯片 / PPT
+- `baoyu-xhs-images` · 小红书九宫格图文
+- `baoyu-post-to-x` · X 发布自动化
+- `baoyu-post-to-wechat` · 公众号发布
+
+一篇长文从构思、画图、配图、封面一直到跨平台分发，宝玉这一整套基本能全流程接住。我在根本没有设计师的情况下能把视觉这一块做到看得过去，全靠这一套。
+
+我挑 /baoyu-diagram 细讲，因为它最能说明宝玉这一套为啥值得推荐。
+
+干的事：从一个概念或数据点，生成可嵌入文章的 SVG（概念示意图、流程图、架构图都通吃）。自带亮 / 暗模式切换，有统一的设计系统。
 
 为啥强烈推荐：中文读者对配图很敏感。纯文字长文在 X 上的划走率明显高一档。以前我每次画图要在 Figma 里手搓 30 分钟，现在 3 分钟一张。
 
@@ -51,7 +69,9 @@ fork 成本近乎为零，clone 过来就用。
 
 这是 skill 最被低估的能力。references/ 目录让"一致性"不靠记忆，靠写在文件里的约束。以前我每次画图都要翻之前的文件看"上次那个蓝用的是哪个 hex"，现在这些值都在 reference 文件里，skill 自动遵守。
 
-# 四、反面参考：被我弃用的 9 个里挑 5 个说
+宝玉这套仓库里别的 skill 也都沿用同一套设计系统，diagram / infographic / cover-image 三张图放在一起看视觉风格完全对齐。这是单独写 9 个 skill 很难做到的。
+
+# 四、反面参考：被我弃用的 9 个skills，我挑 5 个说
 
 如果你只看留下的 3 个会觉得"skill 都值得写"，这是误读。大部分 skill 都进不了"每周跑一次"的门槛。挑 5 个弃用理由有代表性的说。
 
@@ -95,7 +115,7 @@ fork 成本近乎为零，clone 过来就用。
 
 工程师的直觉是"多造工具"。Skill 的反直觉是"少造、深用、敢借"。
 
-你弃用过的 skill 里有哪几个？弃用理由一句话，我收。
+你推荐什么日常可用的skill？你弃用过的 skill 里有哪几个？
 
 ---
 
