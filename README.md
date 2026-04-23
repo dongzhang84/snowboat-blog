@@ -32,19 +32,9 @@ Articles are drafted as rough notes, then expanded into structured pieces using 
 
 所有文章封面统一用 **typography-dark** 风格：黑底，两行中文标题，第一行白色（铺垫），第二行橙色（主句）。16:9。
 
-一条命令生成新封面：
+跟 Claude 说一句："**做封面：第一行文字 / 第二行文字**" 就行，Claude 会自己跑命令出图。
 
-```bash
-python3 scripts/cover.py <slug> "第一行文字" "第二行文字"
-```
-
-示例：
-
-```bash
-python3 scripts/cover.py three-claude-skills "每个人都应该使用的" "三个最有用的 Claude Skill"
-```
-
-输出路径：`cover-image/<slug>/cover.png`。要换配色 / 尺寸，直接改 `scripts/cover.py` 顶部的常量。
+底层是 `python3 scripts/cover.py <slug> "第一行" "第二行"`，要换配色 / 尺寸直接改 `scripts/cover.py` 顶部常量。
 
 ## Reading List
 
