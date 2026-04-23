@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 16 | 4/23 | [全网最详细的AI学习路线图](全网最详细的AI学习路线图.md) | — | — | — |
 | 15 | 4/22 | [长篇科普：卡拉比—丘成桐定理，及其物理意义（下）](长篇科普：卡拉比—丘成桐定理，及其物理意义（下）.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2029339354934289203) |
 | 14 | 4/22 | [每个人都应该使用的三个最有用的 Claude Skill](每个人都应该使用的三个最有用的%20Claude%20Skill.md) | [link](https://x.com/snowboat84/status/2047110768773197834) | — | — |
 | 13 | 4/21 | [SpaceX 立志传（一）：赌上全部的最后一次发射](SpaceX%20立志传（一）：赌上全部的最后一次发射.md) | [link](https://x.com/snowboat84/status/2046743964192276766) | — | [link](https://zhuanlan.zhihu.com/p/2028372635839394803) |
