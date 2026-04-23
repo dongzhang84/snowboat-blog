@@ -83,7 +83,7 @@ ChatGPT 之后，这堆任务几乎全被一个通用大模型收编了。翻译
 
 这是 2026 年最火的方向，没有之一。热度不是凭感觉说的，有几条量化信号可以印证。LinkedIn 2026 "Jobs on the Rise" 榜单全球增速第一的岗位是 AI Engineer，基本就是 LLM 工程师。ChatGPT 全球周活用户已经到 8 亿量级，OpenAI 最新估值 5000 亿美元，Anthropic 估值 1000 亿美元以上，国产阵营 DeepSeek、Qwen、智谱、Kimi、百川全部在高速扩张。过去两年美股涨幅里绝大多数头部公司都和 LLM 直接相关。国内中大型互联网公司几乎每家都在搭自己的大模型团队。
 
-岗位需求、薪资水平、创业机会这三条线，这个方向全部压过其他任何方向。如果你是零基础转 AI 且目标是找工作，直接从这里切入，别的方向真需要时再补。
+岗位需求、薪资水平、创业机会这三条线，这个方向全部压过其他任何方向。如果你是零基础转 AI 且目标是找工作，我直接从这里切入，别的方向真需要时再补。
 
 ## 1.4 推荐系统（Recommendation Systems）
 
@@ -93,9 +93,24 @@ ChatGPT 之后，这堆任务几乎全被一个通用大模型收编了。翻译
 
 中国互联网大厂"算法工程师"这个 title，一半以上实际做的就是推荐。如果你看到某个 JD 写"熟悉 embedding、双塔、ctr 模型"，那就是推荐岗。这是我最建议中国读者认真考虑的第四条主线，在国内的落地机会甚至比 LLM 本身还多。
 
-## 1.5 其他你可能听说过的方向
+## 1.5 其他你可能听说过的方向，报些菜名
 
-多模态（CLIP、GPT-4V、Sora 这一支）算 CV 和 LLM 的结合，2026 年最热的新兴领域，等你把 LLM 主线走完自然会接触到。语音识别和合成（ASR/TTS）相对小众，岗位少，除非你对语音本身特别感兴趣，跳过。强化学习在 LLM 里以 RLHF 和 DPO 的形式存活下来，纯 RL 研究更多集中在机器人和游戏 AI，普通转行者没必要把它当主线。
+你已经打过预防针了，这一节就是报菜名。下面这些方向都和 AI 沾边，有的真在快速长，有的只是听着高级实际小众。快速扫一眼心里有个数就够，不值得当主线去卷。
+
+- **多模态（Multimodal）** · CLIP、GPT-4V、Gemini、Sora、Kling 这一批。本质是 CV 和 LLM 的结合，让模型同时"看"和"说"。2026 年最热的新兴方向之一，但主要玩家仍集中在头部大厂。等你把 LLM 主线走熟会自然接触到。
+- **语音（Speech）** · 语音识别（ASR）、语音合成（TTS）、声纹、语音克隆。OpenAI 的 Whisper、ElevenLabs 是代表性工作。岗位相对小众，消费端 app 有零星需求（语音助手、有声书、数字人配音），转行者通常不主攻。
+- **强化学习（Reinforcement Learning, RL）** · 纯 RL 研究这两年在 LLM 里以 RLHF 和 DPO 的形式换了个壳活下来。传统意义上的 RL 研究更多在机器人控制、自动驾驶决策、游戏 AI（AlphaGo、AlphaStar 那一支）。学 LLM 会顺带接触到 PPO、DPO，够用。
+- **机器人与具身智能（Robotics / Embodied AI）** · 让模型不只活在屏幕里，还能控制机械臂、机器狗、人形机器人去操作物理世界。Google DeepMind、Physical Intelligence、Figure AI、宇树、智元这些公司在 2025-2026 吸了大量融资。技术栈融合 CV、RL、LLM。入行门槛高（需要接触真实硬件），但天花板非常高。
+- **AI for Science** · AI 在科研领域的应用。DeepMind 的 AlphaFold 预测蛋白质结构（2024 年因此拿了诺贝尔化学奖），还有 AlphaMissense 预测基因致病性、材料发现、气候建模、天体物理数据分析、数学定理证明（AlphaProof）。这个方向对有理工科博士背景的人特别友好，用本行学科的专业知识加 AI 工具，是一条非常好的切入路径。
+- **AI 安全与对齐（AI Safety / Alignment）** · 研究怎么让 AI 真正按人类意图行事，控制住它自己的偏差。具体方向包括 scalable oversight、interpretability、red teaming、evaluation。主要玩家是 Anthropic、OpenAI safety team、DeepMind alignment team 以及一些独立研究机构（METR、Redwood、Apollo）。岗位少但每个都很硬核，适合走研究路线，偏工程实战的同学不建议主攻。
+- **图神经网络（Graph Neural Networks, GNN）** · 处理"节点加边"这类图结构数据。典型场景：社交网络分析、药物分子设计、知识图谱、代码依赖图、金融风控关联图。工业界用得上，但相比 LLM 方向岗位池小很多。
+- **时间序列预测（Time Series Forecasting）** · 预测未来的数值序列。金融量化、电商销量、供应链、气象、能源调度都需要。底层很多时候还是传统 ML 加深度学习的混合，近两年也有专门的 time series foundation models 在尝试（TimeGPT、Chronos）。算法岗里单独的"时序工程师"title 不多，通常融入推荐系统或风控团队。
+- **模型压缩与推理优化** · 把一个几百亿参数的模型塞进手机或者一块便宜的 GPU 里跑起来。包括量化（INT4、INT8）、蒸馏、剪枝、KV cache 优化、speculative decoding 这些。随着端侧 AI 起来（手机上跑模型、机器人上跑模型），这个方向的工程岗需求在涨。
+- **AI 基础设施 / MLOps** · 训练、部署、监控、版本管理一整套工程底座。LangSmith、Weights & Biases、Hugging Face、Modal、Ray、vLLM 这些项目和公司都在这块。虽然听着"不够性感"，但实际是 LLM 时代最稳的饭碗之一。懂 Kubernetes、分布式训练、推理 serving 的工程师在哪个公司都稀缺。
+- **数据工程与合成数据（Data Engineering / Synthetic Data）** · 模型效果的天花板归根到底是数据。怎么清洗、去重、标注、生成合成数据，是所有 AI 团队都在头疼的问题。Scale AI、Snorkel、Argilla 这些公司专门做这一块。岗位没有纯建模岗"光鲜"，但对工程能力强、对业务理解深的人是一条好路线。
+- **可解释性与机械式解读（Mechanistic Interpretability）** · 把 LLM 内部当成电路图拆开看，搞清楚每个 attention head 到底在做什么。Anthropic 的 Circuits 团队、Neel Nanda、EleutherAI 是代表性工作。极度偏研究，适合对神经网络内部运作着迷的人。
+
+上面每一条都够独立写一整篇长文甚至一门课。但作为"选方向"的参考，看一眼有个印象就够。真正值得 all-in 的仍然是前面四大主线。
 
 # 二、倒三角思考：从方向倒推学什么
 
