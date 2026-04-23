@@ -375,23 +375,197 @@ Agent 领域严格意义上的"经典书"还不多，更多养分来自论文和
 
 多数有野心的读者两者都要。既要懂一点黑盒子里在发生什么，也要把工程护城河做深。下面按"两者都做"的路径排：第四层走 LLM 原理（偏理论，但依然项目驱动），第五、第六层工程深化。走完这三层，你就是能同时进 research 面试房和工程 staff 面试房的那种人。
 
-## 第四层（选修）：微调与 Production 化
+## 3.5 第四层：LLM 背后的原理
 
-这一层看你目标公司的技术栈。如果去做 API 层应用的公司，前三层够用。如果去大厂做自有模型的公司，这一层是门票。
+这一层的目标是知道"黑盒子里到底在做什么"。不追求发论文级的深度，但要让你在面试和工程决策里，不会被"你对 attention 怎么理解"这种问题难住，同时给第五、第六层的工程深化打下理解底座。方法依然是项目驱动，不啃 paper 啃代码。
 
-**项目 10** · LoRA 微调。选一个开源小模型（7B 级别），用 LoRA 微调它做一个特定任务（中文文案生成、SQL 生成、特定风格模仿都可以）。
+### 项目 10 · 手搓一个 mini-Transformer
 
-**项目 11** · 数据 pipeline。为微调配套一条完整的数据准备流程：采集、清洗、去重、合成数据增强、质量评估。数据工程的深度决定微调效果的上限。
+从零用 PyTorch 写一个小型 Transformer（GPT 风格，约 100-200 行代码），在莎士比亚数据集或任何小语料上训练，让它能生成出像那么回事的文本。Karpathy 的 nanoGPT / minGPT 是最好的参考。
 
-**项目 12** · Production 部署。把微调后的模型量化到 INT4 或 INT8，用 vLLM 或 TensorRT-LLM 部署，做好推理 latency 监控、成本跟踪、A/B 评估。
+带着这些问题做：
 
-到这层，你已经能 cover LLM 工程岗从 API 应用到模型微调的全栈。
+1. Transformer 之前主流的是 RNN / LSTM。Transformer 出来之后为什么一举取代了它们？本质上解决了什么问题？
+2. self-attention 的数学公式 `softmax(Q·Kᵀ/√dₖ) · V` 里每一步在做什么？为什么必须除以 √dₖ？去掉 softmax 会怎样？
+3. 为什么是 multi-head attention 而不是 single head？多头之间是否真的会学到不同的东西？
+4. positional encoding 为什么需要？为什么用 sin/cos，而不是直接把 position index 当数字喂进去？
+5. 训练时模型用 causal mask（只看前面的 token），推理时每次只生成一个 token。为什么训练和推理的流程不完全对称？
+6. 你的 mini-GPT 训完 loss 从 10 降到 2，它到底学到了什么？能不能分析出一两种它"记住"的模式？
+
+### 项目 11 · Attention 可视化
+
+给你训好的（或任何开源的）小 Transformer 做 attention 可视化。在一段文本上跑 forward，把每一层每一头的 attention weights 画出来，观察模型在"看"什么。
+
+带着这些问题做：
+
+1. 不同层的 attention 为什么看起来完全不一样？浅层和深层分别关注什么？
+2. 有些 head 像在做"下一个词预测"，有些像在做"回指消解"，有些似乎什么都没学到。这种分化为什么会发生？
+3. Anthropic 提出的 induction head 指的是哪一种 attention 模式？为什么被认为是 in-context learning 的关键？
+4. 如果把某个看似重要的 attention head 权重随机化（ablation），模型输出会怎么变？为什么 ablation 是理解大模型的核心工具？
+5. 对一个真正的大模型做 attention 可视化比小模型难得多，为什么？logit lens、activation patching 这些替代手段各自补了什么？
+6. Mechanistic Interpretability 这个方向具体在做什么？和传统 XAI（explainable AI）有什么区别？
+
+### 项目 12 · 从头训一个 tokenizer
+
+给你手头的数据（中文古文、代码、法律文档任选），从零训练一个 BPE tokenizer，和 GPT-4 或 Claude 的 tokenizer 对比同一段文本的切分结果。
+
+带着这些问题做：
+
+1. Tokenization 为什么不走 character-level 或 word-level？BPE 到底为什么赢了？
+2. BPE 训练过程的每一步在做什么？从字符出发、不断合并最高频 pair，为什么最后会收敛出 "ing" / "##tion" 这样有意义的片段？
+3. 你的 tokenizer 切中文和 GPT-4 的 tokenizer 切中文，差在哪？为什么中文在很多模型上 token 效率明显比英文差？
+4. 为什么 context window 说的是 "128K token" 而不是 "128K 字符"？tokenization 是不是模型"有效容量"的决定因素？
+5. 模型遇到训练里没见过的词（OOV），BPE 怎么处理？和 word-level tokenizer 的 `<unk>` 相比好在哪？
+6. tokenizer 一旦训好就很难替换，这带来了什么 lock-in 后果？GPT-4 换 tokenizer 的代价会有多大？
+
+### 带着问题去读的几本书
+
+LLM 原理这一层，好资料集中在论文 + 交互式可视化 + 开源实现，书反而不多。
+
+- **Karpathy 的 "Let's build GPT: from scratch" 视频系列**（YouTube）· 2 小时手搓 GPT，整个 AI 圈公认的启蒙课，看完项目 10 直接能做
+- **《The Illustrated Transformer》· Jay Alammar**（博客）· 最好的 Transformer 图解，十年老博客，今天依然是入门首选
+- **Anthropic 的 Transformer Circuits Thread**（transformer-circuits.pub）· Mechanistic Interpretability 的权威材料库，项目 11 的主要参考
+- **《Build a Large Language Model (From Scratch)》· Sebastian Raschka**（2024, Manning）· 想看一本正经书就这一本，用 PyTorch 从零实现 GPT，和项目 10 互为补充
+
+### 基础知识回补
+
+- **深度学习基础** · 反向传播、梯度下降、优化器（SGD、Adam、AdamW）、loss。入口：3Blue1Brown 的《深度学习》YouTube 三集
+- **PyTorch 核心** · tensor、autograd、nn.Module、DataLoader。入口：PyTorch 官方的 60-Minute Blitz 教程
+- **自注意力（Attention）的历史** · attention 不是 Transformer 发明的，2014 Bahdanau 就有。入口：Bahdanau 原论文加 Jay Alammar 的 "Visualizing Neural Machine Translation"
+- **信息论基础** · cross-entropy、KL divergence、perplexity 在 loss 和评估里反复出现。入口：3Blue1Brown 的信息论相关视频
+- **几篇必过的 transformer 经典 paper** · Attention Is All You Need（2017）、BERT（2018）、GPT-2（2019）、GPT-3（2020）。入口：arxiv 原文，每篇只读 abstract + intro + conclusion 即可
+
+做完三个项目、Karpathy 视频看过、几篇经典 paper 的 abstract 翻过，这一层就通关了。通关标准：别人问你"什么是 attention"，你能解释为什么需要、怎么计算、在真实模型里怎么表现，不停留在背一段 Q·K·V 公式的水平。
+
+## 3.6 第五层：微调一个属于你的模型
+
+这一层的目标是把前四层的知识串起来做一件事：为一个你关心的具体任务，微调出一个真正可用的 LLM。要求自己端到端搭一条"数据 → 训练 → 评估 → 上线"的完整链路，走完一份教程的水平不算。
+
+### 项目 13 · 数据准备
+
+选一个具体任务（你公司的 SQL 生成、某个小众语种的翻译、你自己的写作风格复刻、domain-specific 客服机器人都行），建立一份 2000-10000 条的高质量训练集。
+
+带着这些问题做：
+
+1. 一份"高质量"微调数据到底长什么样？quality 和 quantity 哪个更重要？
+2. 合成数据（用更大模型造训练集）和真实人工数据各自的优劣是什么？混用时比例怎么控？
+3. 数据清洗、near-duplicate detection、质量评估用哪些工具和方法？为什么这几步决定了微调效果的上限？
+4. 什么是 instruction tuning 格式？Alpaca、ShareGPT、ChatML 这几种格式差在哪，你选哪个？
+5. 训练集、验证集、测试集怎么划分？对微调而言和传统 ML 的划分原则有什么不同？
+6. 如何避免数据泄露（训练集里悄悄混进了评估题）？这件事在微调里为什么特别容易发生？
+
+### 项目 14 · LoRA 微调
+
+用 Hugging Face PEFT（或 Unsloth、LLaMA-Factory 任选）在你的数据集上做 LoRA 微调。起步选一个 7B 级别的开源模型（Qwen、LLaMA、Mistral 都行），一张消费级 GPU 能跑完。
+
+带着这些问题做：
+
+1. LoRA 的核心思路是"在每个权重矩阵上加两个小 rank 的矩阵"。为什么只更新 0.1% 的参数却能达到接近全参微调的效果？
+2. rank、alpha、target modules 这三个 LoRA 超参分别控制什么？起始值怎么选？
+3. learning rate、batch size、epoch 数这几个训练超参的选择原则？为什么微调的 lr 通常比预训练小一到两个量级？
+4. Training loss 一直降但 eval loss 开始上升，这是 overfitting。怎么检测、怎么救？early stopping 的触发点怎么定？
+5. QLoRA 在 LoRA 上加了 4-bit 量化。它怎么做到"一张 24G 卡训 70B 模型"？
+6. DPO、ORPO、SimPO 这几种偏好优化方法是什么？和普通 SFT 什么时候该用、什么时候不该用？
+
+### 项目 15 · 评估与上线
+
+为你的微调模型搭一套完整的评估体系，把它部署到一个能让别人试用的地方。
+
+带着这些问题做：
+
+1. 微调模型的评估比普通 LLM 难在哪？为什么 LLM-as-judge（用 GPT-4 打分）会变成事实上的标准？
+2. 怎么设计一份能真正诊断你模型强弱项的 eval set？100 条精心挑选的样例和 10000 条随机样例，哪个更有价值？
+3. 微调完要不要保留原模型的通用能力？怎么避免 catastrophic forgetting（学了新任务、丢了原本的通用能力）？
+4. 把你的微调模型、原版开源 base model、GPT/Claude 并排对比，你发现什么 pattern？什么场景下你的微调真的赢了？
+5. 部署微调模型到 production 有哪几条路径？vLLM + 自建 API / Together AI / Fireworks 这些托管平台 / 私有化部署，各自的 tradeoff？
+6. 用户反馈"效果不如 GPT-4"，你怎么回应、怎么定位根因？
+
+### 带着问题去读的几本书
+
+微调方向的好资料在官方文档 + 博客 + 社区帖子，传统书滞后明显。
+
+- **Hugging Face PEFT 官方文档 + blog**· LoRA / QLoRA / DPO 的权威教材，社区实战最多
+- **Philipp Schmid 的博客**（philschmid.de）· 微调教程最接地气的来源，经常有 end-to-end 的可跑案例
+- **《AI Engineering》· Chip Huyen**（前面层推过）· Fine-tuning 和 Eval 两章是这本书的精华
+- **Unsloth 官方文档**· 单卡微调速度最快的开源实现，文档本身就是极好的 tutorial
+
+### 基础知识回补
+
+- **深度学习的"训练循环"** · dataloader → forward → loss → backward → optimizer.step()。入口：PyTorch Fundamentals 的 Training 章节
+- **梯度检查点（gradient checkpointing）** · 训练大模型时的显存优化关键技术。入口：Hugging Face blog 的 gradient checkpointing 文章
+- **混合精度训练（fp16 / bf16 / fp8）** · 为什么 bf16 训练更稳。入口：NVIDIA 的 Mixed Precision Training 白皮书
+- **评估指标体系（BLEU、ROUGE、BERTScore、LLM-as-judge）** · 每个指标适合什么任务。入口：维基百科相关词条加 Hugging Face evaluate 库文档
+- **分布式训练基础（DDP、FSDP、DeepSpeed）** · 一张卡不够用时的逃生路径。入口：PyTorch 官方的 Distributed Training tutorial
+
+做完三个项目、资料翻过、基础有地图级印象，这一层就通关了。通关标准：别人看你的微调模型 demo，问"为什么这个 case 你的模型比 GPT-4 好/差"，你能从数据质量、训练超参、评估盲区里至少挑一个角度说清楚。
+
+## 3.7 第六层：Ship 一个 production-grade AI 产品
+
+这一层把前五层的所有能力集中到一件事上：做一个能让陌生人付费使用的 AI 产品。重心从"做得动"转向"跑得稳 + 跑得省 + 扛得住"。
+
+### 项目 16 · 多租户架构 + 付费
+
+为前面做过的任何一个 app（或新做一个）加上多用户系统、API key 管理、按量计费、登录鉴权、用户 dashboard。从免费 demo 升级到能收费的 SaaS。
+
+带着这些问题做：
+
+1. Multi-tenancy 是什么？单租户架构在用户过 100 人之后为什么通常扛不住？
+2. 用户身份系统怎么设计？托管方案（Supabase、Clerk）和自建（NextAuth）各自的坑？
+3. Usage-based billing 怎么做？Stripe Meter、Metronome、Orb 这些工具各自擅长什么？自己做账单系统难在哪？
+4. API key 的生命周期（生成、分发、轮换、吊销）怎么设计才安全？常见的几种泄露渠道是什么？
+5. 不同用户的数据怎么隔离？向量库里的 tenant isolation、日志中的 PII 屏蔽怎么做？
+6. Free / Pro / Enterprise 三档的功能边界怎么划？feature flag 还是 config 驱动？
+
+### 项目 17 · Observability + 事故响应
+
+给产品搭一套完整的可观测性栈：traces、metrics、logs、alerts。至少模拟一次事故（rate limit 被打爆、上游模型 API 宕机、数据库连接池耗尽任选），走一遍从告警到回滚的完整流程。
+
+带着这些问题做：
+
+1. Observability 的三支柱（traces、metrics、logs）各自解决什么问题？在 LLM 系统里哪一支最重要？
+2. OpenTelemetry 为什么正在成为事实标准？LangSmith、Langfuse、Helicone 这些 LLM 专用工具和它什么关系？
+3. SLO 和 SLI 怎么为一个 LLM 产品定义？"模型回答得不好"算不算 SLO 违规？
+4. 事故响应（detect → triage → mitigate → resolve → postmortem）每一步的具体动作是什么？
+5. 上游 API（OpenAI、Anthropic）宕机时，你的产品应该自己挂还是 fallback 到备用模型？graceful degradation 怎么实现？
+6. Postmortem 为什么要写成 blameless？这个文化背后的工程哲学是什么？
+
+### 项目 18 · 成本优化 + SLA 保证
+
+把产品的单位成本（每用户每月、每次调用）降下来，同时把可靠性指标（uptime、p99 latency）拉起来。这两件事看似冲突但经常能同时做。
+
+带着这些问题做：
+
+1. LLM 产品的成本结构怎么拆？token cost、infra cost、storage cost、egress cost 各占多少？
+2. Prompt caching、response caching、embedding cache 这三层缓存分别适合什么场景？命中率能到多少？
+3. 小模型兜底 + 大模型托底的 routing 策略怎么设计？怎么衡量"省了多少钱 vs 掉了多少质量"？
+4. Batching 和 streaming 的 tradeoff：哪种能降成本、哪种能改善用户体验？能兼得吗？
+5. 你承诺 99.9% uptime，但上游 OpenAI 只给 99.5%。架构上怎么补上这 0.4%？
+6. Scaling 到 10000 并发用户时，瓶颈通常先出在哪？数据库、向量库、模型 API、自己的 app 服务器？怎么提前预防？
+
+### 带着问题去读的几本书
+
+Production 工程这一层的经典书反而不是 AI 专属的。
+
+- **《Designing Data-Intensive Applications》· Martin Kleppmann**（前面层提过）· Production 系统设计的事实标准教材，AI 产品本质也是数据密集型应用
+- **《Site Reliability Engineering》· Google SRE 团队**（免费在线 sre.google/books）· Observability、SLO、事故响应的工程鼻祖
+- **《The Art of Scalability》· Martin Abbott & Michael Fisher** · Scale 架构的经典，原则直接可用
+- **Increment 杂志的 incident response 相关文章** · 行业一线团队的事故 postmortem 分享，比书更实战
+
+### 基础知识回补
+
+- **分布式系统（再一次）** · 第三层已经点过 Kleppmann DDIA，这层深读 Chapter 5-9（replication、partitioning、transaction、consensus）
+- **云平台基础** · AWS / GCP / 阿里云的核心服务（compute、storage、networking、identity）。入口：AWS Solutions Architect Associate 的官方学习路径，不考证，过一遍知识点
+- **网络基础** · TCP、TLS、HTTP/2、CDN、DNS。入口：Cloudflare Learning Center（learn.cloudflare.com）
+- **数据库 production 能力** · read replica、sharding、transaction isolation。入口：PostgreSQL 官方文档 Chapter 13 Concurrency Control
+- **安全基础（OWASP Top 10）** · 做 production 不懂安全迟早出事。入口：OWASP 官方的 Top 10 页面加 PortSwigger 的 Web Security Academy
+
+做完三个项目、至少一次真实事故演练、资料扫过，这一层就通关了。通关标准：把你的 production app 讲给一个运维或 SRE 背景的朋友听，他不会觉得你是"AI 工程师但不懂工程"。
 
 ## 升级节奏
 
-每层 3 个项目只是节奏锚点，实际次数可以根据你的进度调。第一层你可能一周做一个项目，三周升完；第二层两周一个，六周一层；第四层每个项目可能要一个月。整体算下来，从完全零基础到能拿 LLM 工程岗 offer，全力投入大约 4-6 个月。
+每层 3 个项目只是节奏锚点，实际次数可以根据你的进度调。第一层你可能一周做一个项目，三周升完；第二层两周一个，六周一层；第五、六层每个项目可能要一到两个月。整体算下来，六层全部走完、全力投入大约需要 12-18 个月。
 
-重要的是每层都真正"做完"再升下一层。做完的标准很简单：把 project 讲给另一个技术人员听，他能复述清楚你的设计决策、踩过的坑和最后的效果。
+重要的是每层都真正"做完"再升下一层。做完的标准：把 project 讲给另一个技术人员听，他能复述清楚你的设计决策、踩过的坑、最后的效果。
 
 # 三、对应的项目选题
 
