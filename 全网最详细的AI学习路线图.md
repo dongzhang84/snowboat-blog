@@ -17,15 +17,17 @@
 这个问题不先回答，后面全是浪费时间。大致上，你可能有以下四种目标之一：
 
 - **大概知道一下（了解就够）**：你不打算以此为业，只是想跟得上行业话题。几门 Coursera 公开课加几篇科普文就够（比如我这篇），不用往下读了。
-- **研究算法（写论文 / 搞前沿）**：目标是进入AI领域的学术圈或工业实验室。路径跟下面完全不同，需要数学根基、阅读论文、做 novel contribution 的能力。更关键的sh
+- **研究算法（写论文 / 搞前沿）**：目标是进入AI领域的学术圈或工业实验室。路径跟下面完全不同，需要数学根基、阅读论文、做 novel contribution 的能力。更关键的是，你要攀上学术界的大佬，效果无限大于自己埋头自学。
 - **找工作 · 算法岗**：要会公式推导、会调模型、会做实验。顶端的纯研究岗（顶校 PhD + novel research）门槛仍然很高，但只会调模型、不会工程化的中低端，2026 年已经不好找。
 - **找工作 · 工程岗**：要会把模型塞进 production、会部署、会优化 latency。这个方向的人才缺口最大。
 
-如果你真的想集中一段时间内学到一定的 AI 知识，并且最终可以落地，我建议大多数人走第四条，即 AI/ML 工程岗。理由是供需关系摆在那里：
+如果你真的想集中一段时间内学到一定的 AI 知识，并且最终可以落地，我建议大多数人走第四条，即 AI/ML 工程岗。工程岗需求比算法岗大一个量级，这个差距在数据上很直观：
 
-全球 2026 年 AI 人才供需比 3.2:1，1.6M 个岗位缺口对 518K 合格候选人（[Second Talent 2026 数据](https://www.secondtalent.com/resources/global-ai-talent-shortage-statistics/)）。中国这边，智联招聘显示 AI 工程师供需比约 3:1，2026 年初岗位申请量同比 +33%；百度 2026 年 AI 岗扩招同比 +60%，是其史上最大一轮（[Global Times 报道](https://www.globaltimes.cn/page/202506/1336180.shtml)）。
+全球层面，LinkedIn 美国市场实时数据显示 ML 工程类岗位在招 85,000+ 个，ML Research Engineer 27,000+ 个，纯 ML Researcher 只有 11,000+ 个，工程岗对研究岗大约 8:1（[LinkedIn ML jobs](https://www.linkedin.com/jobs/machine-learning-jobs)）。AI Engineer 在 LinkedIn 2026 "Jobs on the Rise" 榜单上位列全球增速第一（[HR Leader 报道](https://www.hrleader.com.au/business/27698-ai-engineer-tops-linkedin-s-2026-jobs-on-the-rise-list)）。
 
-真正有付费意愿的公司要的是能 ship 的人。只会推导 AI 模型背后数学公式的博士，面试反而卡在工程关。
+中国层面，纯研究型职位集中在百度研究院、阿里达摩院、字节 AI Lab、腾讯 AI Lab 这几家，全国加起来每年招聘名额只有几百到上千。部署 AI 的工程岗遍布几乎所有中大型互联网公司、金融、医疗、制造业。百度 2026 年 AI 扩招同比 +60%，其中绝大多数是能把模型落地的工程岗（[Global Times 报道](https://www.globaltimes.cn/page/202506/1336180.shtml)）。
+
+结构性原因很清楚：做 AI 基础研究的公司全球几百家，部署 AI 的公司 2026 年已经是几万家。研究岗是漏斗顶端的一小撮，工程岗是漏斗下游的大盘。真正有付费意愿的公司要的是能 ship 的人。只会推导 AI 模型背后数学公式的博士，面试反而卡在工程关。
 
 但是具体的目标，还是要你自己来定。
 
@@ -202,6 +204,9 @@ AI 这个词太大，不拆分就没法学。当前主要分三块。
 - [ICML 官方](https://icml.cc/) · 机器学习顶级学术会议
 - [arXiv cs.LG](https://arxiv.org/list/cs.LG/recent) · 机器学习预印本每日更新
 - [LoRA 原论文](https://arxiv.org/abs/2106.09685) · 正文里提到的主流微调方法
+- [LinkedIn ML jobs](https://www.linkedin.com/jobs/machine-learning-jobs) · 正文里工程岗 vs 算法岗实时供给数据
+- [HR Leader · AI Engineer tops LinkedIn 2026 Jobs on the Rise](https://www.hrleader.com.au/business/27698-ai-engineer-tops-linkedin-s-2026-jobs-on-the-rise-list) · LinkedIn 2026 增速第一的职位榜
+- [Global Times · Chinese tech giants AI talent recruitment](https://www.globaltimes.cn/page/202506/1336180.shtml) · 中国大厂 AI 扩招数据
 - [snowboat-blog](https://github.com/dongzhang84/snowboat-blog) · 我的文章仓库
 
 ---
