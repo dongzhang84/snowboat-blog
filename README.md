@@ -32,6 +32,41 @@ Articles are drafted as rough notes, then expanded into structured pieces using 
 
 Article covers use a single house style: **typography-dark**. Black background, two-line Chinese title, line 1 in off-white (setup), line 2 in orange (the main claim). No illustrations, no decoration. 16:9, 2400×1350.
 
+### 封面设计 prompt（中文）
+
+这段是给 AI 或自己每次生成封面时的完整设计说明。新文章要做封面，直接照这个 prompt 出图，保持风格统一。
+
+```
+整体风格：typography-dark（黑底双色粗体标题）
+
+画布：
+  - 宽高比 16:9，尺寸 2400×1350
+  - 背景纯黑 #000000
+  - 无边框、无图形、无图标、无插画、无装饰线条、无渐变、无阴影
+
+文字：
+  - 中文主标题拆成两行
+  - 第一行：铺垫/setup，颜色 #F5F5F5（接近白）
+  - 第二行：主句/payload（承载文章核心论点的一句），颜色 #F26B2C（橙）
+  - 两行都居中对齐（水平 + 垂直居中）
+  - 字体：Hiragino Sans GB W6（macOS 系统粗黑，或同等粗度的无衬线中文字体）
+  - 英文部分（如 Claude、SpaceX）用同一字体族下的无衬线西文
+  - 字号自动计算：较长那一行占画布宽度的 88%
+  - 行间距：字号的 22%
+  - 不加描边、不加阴影、不加倾斜
+
+排版心法：
+  - 读者视线先落在橙色那一行，橙色必须承载标题里最刺眼的那半句
+  - 两行互为衬托：白色铺垫 → 橙色命题
+  - 通篇只有两种文字颜色 + 一个纯黑背景，没有第四个颜色
+
+禁止：
+  - 不要加图案、emoji、Claude/AI 图标、logo、引号装饰
+  - 不要加副标题、作者名、日期、水印
+  - 不要用衬线字体
+  - 不要斜体、不要艺术字变形
+```
+
 ### How to make a new cover
 
 One command:
