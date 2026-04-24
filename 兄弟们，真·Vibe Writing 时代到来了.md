@@ -1,4 +1,4 @@
-# 兄弟们，真·Vibe Writing 时代到来了
+# 朋友们，真·Vibe Writing 时代到来了
 
 2025 年 2 月 3 日，前 Tesla AI 总监 Andrej Karpathy 在 X 上发了一条推文，说自己发现了一种新的编程方式，叫 "vibe coding"：你用自然语言告诉 AI 你想要什么，它帮你写代码，你连键盘都很少碰，bug 直接把报错贴回去让它改，大部分时候能跑通就行。这条推文被浏览了 450 万次，"vibe coding" 入选 Collins Dictionary 2026 年度词汇，连 Merriam-Webster 都把它标成新词。
 
@@ -251,6 +251,12 @@ Clone下来放到 `.claude/skills/write-article/` 目录，改改配置就能用
 
 ## 作者其它文章
 
+- [全网最详细的AI学习路线图](https://x.com/snowboat84/status/2047457686070141051)
+- [每个人都应该使用的三个最有用的 Claude Skill](https://x.com/snowboat84/status/2047110768773197834)
+- [SpaceX 立志传（一）：赌上全部的最后一次发射](https://x.com/snowboat84/status/2046743964192276766)
+- [估值290亿美元的套壳公司，正在被自己的房东杀死](https://x.com/snowboat84/status/2046380497627230607)
+- [黄仁勋和主持人吵红了脸：芯片封锁中国，美国到底能不能打赢？](https://x.com/snowboat84/status/2046022377830801725)
+- [AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位](https://x.com/snowboat84/status/2044932338262667509)
 - [学物理的八方英雄们，物理学已死，请转行搞AI](https://x.com/snowboat84/status/2044584627046920278)
 - [不会编程、没有融资、没有员工，他怎么一个人做到年入2000万](https://x.com/snowboat84/status/2044216044575998136)
 - [兄弟们想清楚：究竟是你为X打工，还是X为你打工？](https://x.com/snowboat84/status/2043842017260908743)
