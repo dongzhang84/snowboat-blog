@@ -35,7 +35,7 @@ IDE（程序员的代码编辑器）这一层也在试图帮人。Microsoft Visu
 
 要讲清楚 GPT 这条线怎么把整个行业改写，得先把 GPT 是什么交代一下。
 
-GPT 全称 Generative Pre-trained Transformer，"生成式预训练 Transformer"。这是 OpenAI 2018 年 6 月在论文《Improving Language Understanding by Generative Pre-Training》里提出的一种思路：先用海量自然文本做预训练，让模型学会"猜下一个词"的通用能力，再针对具体任务微调。第一代 GPT-1 只有 1.17 亿参数，是个研究原型。2019 年 2 月发的 GPT-2 涨到 15 亿参数，OpenAI 一度因为安全顾虑没全量开放。2020 年 5 月发的 GPT-3 直接做到 1750 亿参数，比 GPT-2 大 100 倍，是大语言模型这个范式真正成立的拐点。
+GPT 全称 Generative Pre-trained Transformer，"生成式预训练 Transformer"。这是 OpenAI 2018 年 6 月在论文《Improving Language Understanding by Generative Pre-Training》里提出的一种思路：先用海量自然文本做预训练，让模型学会"猜下一个词"的通用能力，再针对具体任务微调。第一代 GPT-1 只有 0.117B（billion）参数，是个研究原型。2019 年 2 月发的 GPT-2 涨到 1.5B 参数，OpenAI 一度因为安全顾虑没全量开放。2020 年 5 月发的 GPT-3 直接做到 175B 参数，比 GPT-2 大 100 倍，是大语言模型这个范式真正成立的拐点。
 
 把过去五年压成几个关键拐点。
 
