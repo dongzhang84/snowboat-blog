@@ -1,4 +1,6 @@
 
+这是一篇关于AI工程概念演化的历程。
+
 你是否听说过Prompt Engineering、Context Engineering、Harness Engineering、Agentic Engineering……等等词汇？
 
 自从 2022 年底 ChatGPT 出圈以来，AI 领域的新词像下饺子一样往外冒。每隔几个月就有人造一个新概念，配上一篇博客或一条推文，然后整个行业跟着转发、解读、开课。如果你觉得晕，不是你的问题。三年多时间，这个领域的词汇膨胀速度比技术本身还快。
