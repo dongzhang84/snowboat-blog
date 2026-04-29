@@ -150,3 +150,5 @@ When regenerating diagrams, covers, or infographics, preserve existing outputs b
 Never print or expose secrets from `.env.local` or remote URLs. Do not add secrets to commits.
 
 The repository may have user changes already present. Do not revert or discard changes unless the user explicitly asks. When committing user-provided work, include only files intended for the task and avoid unrelated local configuration.
+
+When you finish a file-changing task that should be delivered to GitHub, push the commit before replying.
