@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 1000" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 13px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 15px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 11px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+</style>
+
+<rect class="bg" x="0" y="0" width="680" height="1000"/>
+
+<text class="title" x="60" y="42">退款 agent 的 8 层壳</text>
+<text class="subtitle" x="60" y="64">只有第 3 层真正跑 LLM，其他 7 层都是传统工程控制</text>
+
+<rect class="layer" x="60" y="96" width="580" height="82" rx="8"/>
+<text class="eyebrow" x="82" y="118">LAYER 1</text>
+<text class="th" x="82" y="146">入口验证</text>
+<text class="ts" x="82" y="164">sanitize + classifier</text>
+<text class="eyebrow" x="618" y="118" text-anchor="end">→ gate</text>
+<line class="divider" x1="220" y1="110" x2="220" y2="170"/>
+<text class="t" x="238" y="146">先拦掉恶意注入和明显异常</text>
+
+<rect class="layer" x="60" y="186" width="580" height="82" rx="8"/>
+<text class="eyebrow" x="82" y="208">LAYER 2</text>
+<text class="th" x="82" y="236">上下文准备</text>
+<text class="ts" x="82" y="254">客户 / 订单 / 政策 / 物流</text>
+<text class="eyebrow" x="618" y="208" text-anchor="end">→ context</text>
+<line class="divider" x1="220" y1="200" x2="220" y2="260"/>
+<text class="t" x="238" y="236">把业务事实塞进模型能读懂的上下文</text>
+
+<rect class="layer-key" x="60" y="276" width="580" height="82" rx="8"/>
+<text class="eyebrow eyebrow-accent" x="82" y="298">LAYER 3</text>
+<text class="th" x="82" y="326">结构化输出约束</text>
+<text class="ts" x="82" y="344">LLM 输出 JSON</text>
+<text class="eyebrow eyebrow-accent" x="618" y="298" text-anchor="end">→ model</text>
+<line class="divider-accent" x1="220" y1="290" x2="220" y2="350"/>
+<text class="t" x="238" y="326">让模型只能按固定字段回答</text>
+
+<rect class="layer" x="60" y="366" width="580" height="82" rx="8"/>
+<text class="eyebrow" x="82" y="388">LAYER 4</text>
+<text class="th" x="82" y="416">输出验证</text>
+<text class="ts" x="82" y="434">金额 / 置信度 / reason / action</text>
+<text class="eyebrow" x="618" y="388" text-anchor="end">→ validator</text>
+<line class="divider" x1="220" y1="380" x2="220" y2="440"/>
+<text class="t" x="238" y="416">把模型的 JSON 再过一遍规则</text>
+
+<rect class="layer" x="60" y="456" width="580" height="82" rx="8"/>
+<text class="eyebrow" x="82" y="478">LAYER 5</text>
+<text class="th" x="82" y="506">执行</text>
+<text class="ts" x="82" y="524">退款 API + 幂等 key + 人工审批</text>
+<text class="eyebrow" x="618" y="478" text-anchor="end">→ api</text>
+<line class="divider" x1="220" y1="470" x2="220" y2="530"/>
+<text class="t" x="238" y="506">真正扣款，必须可回溯、可重试</text>
+
+<rect class="layer" x="60" y="546" width="580" height="82" rx="8"/>
+<text class="eyebrow" x="82" y="568">LAYER 6</text>
+<text class="th" x="82" y="596">执行后验证</text>
+<text class="ts" x="82" y="614">支付系统复查 + 对账</text>
+<text class="eyebrow" x="618" y="568" text-anchor="end">→ reconciliation</text>
+<line class="divider" x1="220" y1="560" x2="220" y2="620"/>
+<text class="t" x="238" y="596">退完以后再查一次，防止表面成功</text>
+
+<rect class="layer" x="60" y="636" width="580" height="82" rx="8"/>
+<text class="eyebrow" x="82" y="658">LAYER 7</text>
+<text class="th" x="82" y="686">可观测性</text>
+<text class="ts" x="82" y="704">logs / trace / metrics</text>
+<text class="eyebrow" x="618" y="658" text-anchor="end">→ observability</text>
+<line class="divider" x1="220" y1="650" x2="220" y2="710"/>
+<text class="t" x="238" y="686">所有步骤都要可追踪、可诊断</text>
+
+<rect class="layer-key" x="60" y="726" width="580" height="82" rx="8"/>
+<text class="eyebrow eyebrow-accent" x="82" y="748">LAYER 8</text>
+<text class="th" x="82" y="776">熔断 + 人工介入</text>
+<text class="ts" x="82" y="794">失败率 / 异常流量 / oncall</text>
+<text class="eyebrow eyebrow-accent" x="618" y="748" text-anchor="end">→ breaker</text>
+<line class="divider-accent" x1="220" y1="740" x2="220" y2="800"/>
+<text class="t" x="238" y="776">一旦异常，立刻切回人工</text>
+
+<text class="caption-strong" x="60" y="944">这个壳的意思很直接：真正跑 LLM 的只有一层，其他七层负责把它关在可控范围里。</text>
+
+</svg>

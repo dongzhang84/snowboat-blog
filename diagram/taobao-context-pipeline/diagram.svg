@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 820" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 13px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 15px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 11px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+.arrow { stroke: var(--fg-soft); stroke-width: 1.4; fill: none; }
+</style>
+
+<rect class="bg" x="0" y="0" width="680" height="820"/>
+
+<text class="title" x="60" y="42">淘宝客服 agent 的 context 管道</text>
+<text class="subtitle" x="60" y="64">真正费工夫的不是问一句话，而是把该喂的信息按顺序喂进去</text>
+
+<rect class="layer" x="60" y="96" width="580" height="92" rx="8"/>
+<text class="eyebrow" x="82" y="118">STEP 0</text>
+<text class="th" x="82" y="146">投诉邮件进入</text>
+<text class="ts" x="82" y="166">例如：iPhone 开不开机，要求退款赔偿</text>
+<text class="eyebrow" x="618" y="118" text-anchor="end">→ 原始文本</text>
+<line class="divider" x1="220" y1="110" x2="220" y2="178"/>
+<text class="t" x="238" y="154">不是上下文，先识别是谁</text>
+
+<path class="arrow" d="M340 188 L340 202"/>
+<polygon points="335,202 345,202 340,210" fill="var(--fg-soft)"/>
+
+<rect class="layer" x="60" y="210" width="580" height="92" rx="8"/>
+<text class="eyebrow" x="82" y="232">STEP 1</text>
+<text class="th" x="82" y="260">识别身份</text>
+<text class="ts" x="82" y="280">邮箱 → UID / 会员等级 / 历史投诉</text>
+<text class="eyebrow" x="618" y="232" text-anchor="end">→ 找到人</text>
+<line class="divider" x1="220" y1="224" x2="220" y2="292"/>
+<text class="t" x="238" y="268">先把身份搞清楚，后面才对得上</text>
+
+<path class="arrow" d="M340 302 L340 316"/>
+<polygon points="335,316 345,316 340,324" fill="var(--fg-soft)"/>
+
+<rect class="layer" x="60" y="324" width="580" height="92" rx="8"/>
+<text class="eyebrow" x="82" y="346">STEP 2</text>
+<text class="th" x="82" y="374">拉订单和互动档案</text>
+<text class="ts" x="82" y="394">订单 / 物流 / 工单 / 评价画像</text>
+<text class="eyebrow" x="618" y="346" text-anchor="end">→ 拉业务事实</text>
+<line class="divider" x1="220" y1="338" x2="220" y2="406"/>
+<text class="t" x="238" y="382">把业务事实拼成摘要，不是原始表</text>
+
+<path class="arrow" d="M340 416 L340 430"/>
+<polygon points="335,430 345,430 340,438" fill="var(--fg-soft)"/>
+
+<rect class="layer" x="60" y="438" width="580" height="92" rx="8"/>
+<text class="eyebrow" x="82" y="460">STEP 3</text>
+<text class="th" x="82" y="488">拉规则和实时状态</text>
+<text class="ts" x="82" y="508">品类政策 / 审批阈值 / 库存 / 法律红线</text>
+<text class="eyebrow" x="618" y="460" text-anchor="end">→ 业务边界</text>
+<line class="divider" x1="220" y1="452" x2="220" y2="520"/>
+<text class="t" x="238" y="496">规则先于诉求，边界要先写清</text>
+
+<path class="arrow" d="M340 530 L340 544"/>
+<polygon points="335,544 345,544 340,552" fill="var(--fg-soft)"/>
+
+<rect class="layer-key" x="60" y="552" width="580" height="92" rx="8"/>
+<text class="eyebrow eyebrow-accent" x="82" y="574">STEP 4</text>
+<text class="th" x="82" y="602">按 token 预算组装 prompt</text>
+<text class="ts" x="82" y="622">规则放开头，用户邮件放末尾</text>
+<text class="eyebrow eyebrow-accent" x="618" y="574" text-anchor="end">→ 排序很重要</text>
+<line class="divider-accent" x1="220" y1="566" x2="220" y2="634"/>
+<text class="t" x="238" y="614">不是越多越好，而是越准越好</text>
+
+<path class="arrow" d="M340 644 L340 658"/>
+<polygon points="335,658 345,658 340,666" fill="var(--accent-stroke)"/>
+
+<rect class="layer" x="60" y="666" width="580" height="92" rx="8"/>
+<text class="eyebrow" x="82" y="688">STEP 5</text>
+<text class="th" x="82" y="716">调用 LLM，拿结构化输出</text>
+<text class="ts" x="82" y="736">reply_draft / action / amount / reason_code</text>
+<text class="eyebrow" x="618" y="688" text-anchor="end">→ 最后才轮到模型</text>
+<line class="divider" x1="220" y1="680" x2="220" y2="748"/>
+<text class="t" x="238" y="724">模型只在这一步登场，前面 4 步已决定它看到什么</text>
+
+<text class="caption-strong" x="60" y="804">这条管道的核心不是“喂资料”，而是按身份、事实、规则和预算，把上下文排成模型能用的样子。</text>
+
+</svg>

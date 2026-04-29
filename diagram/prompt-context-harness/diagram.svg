@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 580" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 13px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 15px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 11px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+</style>
+
+<rect class="bg" x="0" y="0" width="680" height="580"/>
+
+<text class="title" x="60" y="42">AI 工程主干：Prompt → Context → Harness</text>
+<text class="subtitle" x="60" y="64">从怎么问，到喂什么，再到怎么管住动手后的后果</text>
+
+<rect class="layer" x="60" y="96" width="580" height="112" rx="8"/>
+<text class="eyebrow" x="82" y="118">LAYER 1 · TALK</text>
+<text class="th" x="82" y="146">Prompt</text>
+<text class="ts" x="82" y="166">怎么和 AI 说话</text>
+<text class="eyebrow" x="618" y="118" text-anchor="end">→ 角色设定 / Few-shot / 格式</text>
+<line class="divider" x1="220" y1="110" x2="220" y2="196"/>
+<text class="t" x="238" y="146">最早期的主战场，靠说清楚意图换取更像样的回复</text>
+<text class="t" x="238" y="168">后来门槛下移，人人都会一点</text>
+<text class="t" x="238" y="190">技术含量被模型本身吃掉了一大半</text>
+
+<rect class="layer" x="60" y="228" width="580" height="112" rx="8"/>
+<text class="eyebrow" x="82" y="250">LAYER 2 · FEED</text>
+<text class="th" x="82" y="278">Context</text>
+<text class="ts" x="82" y="298">怎么让 AI 了解背景内容</text>
+<text class="eyebrow" x="618" y="250" text-anchor="end">→ RAG / 数据管道 / Structured Outputs</text>
+<line class="divider" x1="220" y1="242" x2="220" y2="328"/>
+<text class="t" x="238" y="278">现场把客户、订单、规则、历史记录组装进 prompt</text>
+<text class="t" x="238" y="300">这层落在后端、数据、平台工程师手里</text>
+<text class="t" x="238" y="322">真正的红利开始从写咒语转到做系统</text>
+
+<rect class="layer-key" x="60" y="360" width="580" height="112" rx="8"/>
+<text class="eyebrow eyebrow-accent" x="82" y="382">LAYER 3 · ACT</text>
+<text class="th" x="82" y="410">Harness</text>
+<text class="ts" x="82" y="430">怎么让 AI 正确动手</text>
+<text class="eyebrow eyebrow-accent" x="618" y="382" text-anchor="end">→ 熔断 / 幂等 / 审批 / 对账</text>
+<line class="divider-accent" x1="220" y1="374" x2="220" y2="460"/>
+<text class="t" x="238" y="410">给 agent 套壳，确保它能做事但不乱做</text>
+<text class="t" x="238" y="432">大部分是传统 SRE 和基础设施老本行</text>
+<text class="t" x="238" y="454">只有最后那 10% 是 LLM 时代的新问题</text>
+
+<text class="caption-strong" x="60" y="532">这三层不是并列的新词，而是 AI 从会说，到会看，到会动手的三次升级。</text>
+
+</svg>
