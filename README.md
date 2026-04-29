@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 18 | 4/28 | [别再被 AI 新词绕晕了：Prompt、Context、Agent 背后的工程主线](别再被%20AI%20新词绕晕了：Prompt、Context、Agent%20背后的工程主线.md) | [link](https://x.com/snowboat84/status/2049286033427349809) | — | [link](https://zhuanlan.zhihu.com/p/2032710620353664658) |
 | 17 | 4/27 | [两万字科普：AI 为什么会编程——原理、历史与未来](入门科普：AI%20为什么会编程——原理、历史与未来.md) | [link](https://x.com/snowboat84/status/2048919554882215954) | — | [link](https://zhuanlan.zhihu.com/p/2032360512311271425) |
 | 16 | 4/24 | [兄弟们，真·Vibe Writing 时代到来了](兄弟们，真·Vibe%20Writing%20时代到来了.md) | [link](https://x.com/snowboat84/status/2047828585537548574) | — | [link](https://zhuanlan.zhihu.com/p/2031301474458805899) |
 | * | 4/24 | [Jensen vs. the Hawks - Can America Actually Win the Chip Blockade on China?](Jensen%20vs.%20the%20Hawks%20-%20Can%20America%20Actually%20Win%20the%20Chip%20Blockade%20on%20China%3F.md) | [medium](https://medium.com/@dongzhanghz/jensen-vs-the-hawks-can-america-actually-win-the-chip-blockade-on-china-3ecf22e9a12f) | — | [substack](https://substack.com/home/post/p-195400632) |
