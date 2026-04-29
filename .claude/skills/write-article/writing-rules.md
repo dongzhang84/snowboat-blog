@@ -4,6 +4,32 @@
 
 新规则追加到所属分组末尾。写作时必须把每一条当作硬性约束，写完后对照自检。
 
+## ⚠️ 最高优先级规则（每次写完必跑）
+
+**中文与数字/英文之间不留空格（标题除外）**。这是用户反复强调的格式硬约束，每次写完文章必须跑一遍下面这段 Python 才能交付：
+
+```python
+import re
+path = "/path/to/article.md"
+with open(path, 'r', encoding='utf-8') as f:
+    lines = f.readlines()
+new_lines = []
+for line in lines:
+    s = line.lstrip()
+    if s.startswith('#') or s.startswith('>'):
+        new_lines.append(line)
+        continue
+    nl = line
+    for _ in range(3):
+        nl = re.sub(r'([\u4e00-\u9fff]) +([A-Za-z0-9])', r'\1\2', nl)
+        nl = re.sub(r'([A-Za-z0-9]) +([\u4e00-\u9fff])', r'\1\2', nl)
+    new_lines.append(nl)
+with open(path, 'w', encoding='utf-8') as f:
+    f.writelines(new_lines)
+```
+
+跳过 `^#`（标题）和 `^>`（附录原始草稿引用块）。详细规则见 C 节 [2026-04-28]。
+
 ## 条目格式
 
 ```
