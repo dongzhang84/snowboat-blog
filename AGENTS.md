@@ -89,6 +89,7 @@ Follow the Claude writing rules as hard project rules:
 - Avoid the negative parallel pattern "不是 X，而是 Y" / "不是 X，是 Y" unless it is truly unavoidable.
 - Use direct, opinionated, data-backed prose. Avoid empty balance, generic summaries, and inflated abstractions.
 - Paragraphs should usually be 2 to 4 sentences and focused on one point.
+- New long-form articles must include meaningful second-level subsections under main chapters, using the `## 1.1 ...`, `## 1.2 ...` format from `structure.md`. Do not leave articles with only top-level chapters like `# 一、...`, `# 二、...` unless the piece is intentionally very short and the user explicitly asks for that.
 - Cases need names and data. Do not invent examples.
 - For facts, dates, names, numbers, events, policies, and current claims, verify with web search before writing them into article prose.
 - Preserve the user's original draft verbatim when it is included as an appendix.

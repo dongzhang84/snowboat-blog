@@ -1,4 +1,32 @@
 
+## 目录
+
+- 一、从两个例子展开
+- 二、Prompt Engineering："你怎么问 AI"
+  - 2.1 时代背景：一个被炒到年薪 30 万美元的新职业
+  - 2.2 看起来像"写作"，其实是调试一个黑盒
+  - 2.3 门槛下移，问题上移
+- 三、Context Engineering："怎么让 AI 了解背景内容"
+  - 3.1 从 Shopify CEO 的一条推文开始
+  - 3.2 为什么"喂资料"在工程上这么难
+  - 3.3 回到上面的具体例子：淘宝客服 agent 的 context 管道
+  - 3.4 这波红利归了谁
+- 四、Agent 崛起：当 AI 开始真的动手
+  - 4.1 从"嘴说"到"动手"的关键三步
+  - 4.2 一旦动手，问题彻底变了
+- 五、Harness Engineering："怎么让 AI 正确动手"
+  - 5.1 一个用了 47 年的老词，被重新启用
+  - 5.2 一个完整例子：退款 agent 的 8 层壳
+  - 5.3 90% 是 SRE 老本行，10% 才是真新问题
+- 六、三层主干，以及未来的新词
+  - 6.1 三层主干
+  - 6.2 未来的新词怎么归位
+- 七、两个月后：Harness Engineering 长成了什么样
+  - 7.1 OpenAI 和 Anthropic 把 harness 写成了方法论
+  - 7.2 Martin Fowler 给这个词贡献了标准分类
+  - 7.3 实战模式、工具生态、和 80% 数据瓶颈
+  - 7.4 下一个新词，用这把尺量
+
 
 你是否听说过Prompt Engineering、Context Engineering、Harness Engineering、Agentic Engineering……等等词汇？
 
