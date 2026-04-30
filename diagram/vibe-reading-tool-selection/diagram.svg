@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 590" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+  <style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+  </style>
+  <rect class="bg" x="0" y="0" width="680" height="590"/>
+  <text class="title" x="60" y="42">工具选型：别把容器当系统</text>
+  <text class="subtitle" x="60" y="64">Vibe Reading 需要的不是万能工具，而是能反复运行的挑错流程</text>
+
+  <rect class="layer" x="60" y="96" width="580" height="125" rx="8"/>
+  <text class="eyebrow" x="82" y="118">TOOL 1</text>
+  <text class="eyebrow eyebrow-accent" x="618" y="118" text-anchor="end">→ 原文检索</text>
+  <text class="th" x="82" y="150">NotebookLM</text>
+  <text class="ts" x="82" y="170">Step 2 匹配</text>
+  <line class="divider" x1="220" y1="110" x2="220" y2="206"/>
+  <text class="t" x="238" y="150">适合问“书里有没有讲 X”，引用回原文。</text>
+  <text class="t" x="238" y="172">它顺着问题找答案，不会逆着理解挑错。</text>
+  <text class="t" x="238" y="194">Audio Overview 好听，但容易变成一键压缩。</text>
+
+  <rect class="layer" x="60" y="237" width="580" height="125" rx="8"/>
+  <text class="eyebrow" x="82" y="259">TOOL 2</text>
+  <text class="eyebrow eyebrow-accent" x="618" y="259" text-anchor="end">→ 挑错窗口</text>
+  <text class="th" x="82" y="291">Claude / ChatGPT</text>
+  <text class="ts" x="82" y="311">Projects</text>
+  <line class="divider" x1="220" y1="251" x2="220" y2="347"/>
+  <text class="t" x="238" y="291">把书、笔记、摘要和记录放到同一处。</text>
+  <text class="t" x="238" y="313">关键是系统提示，把助理切成挑错者。</text>
+  <text class="t" x="238" y="335">它能指出漏洞，但仍不是自动阅读系统。</text>
+
+  <rect class="layer" x="60" y="378" width="580" height="125" rx="8"/>
+  <text class="eyebrow" x="82" y="400">TOOL 3</text>
+  <text class="eyebrow eyebrow-accent" x="618" y="400" text-anchor="end">→ 可复用资产</text>
+  <text class="th" x="82" y="432">Claude Cowork</text>
+  <text class="ts" x="82" y="452">Project + Skill</text>
+  <line class="divider" x1="220" y1="392" x2="220" y2="488"/>
+  <text class="t" x="238" y="432">适合放 source、requirements、map、notes。</text>
+  <text class="t" x="238" y="454">Skill / Plugin 能把六步法变成固定动作。</text>
+  <text class="t" x="238" y="476">Project 负责装材料，判断仍然在你手里。</text>
+
+  <text class="caption-strong" x="60" y="535">工具可以换，不能换的是“挑错者”系统提示和六步流程。</text>
+  <text class="caption" x="60" y="557">真正资产不是某个产品，而是可复用的 reading environment。</text>
+</svg>
