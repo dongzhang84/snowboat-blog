@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 780 860" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #111827;
+      --fg-muted: #6b7280;
+      --fg-soft: #9ca3af;
+      --layer-bg: #f9fafb;
+      --layer-stroke: #e5e7eb;
+      --accent: #ec4899;
+      --accent-bg: #fff1f5;
+      --accent-stroke: #f9a8d4;
+      --teal: #0f766e;
+      --teal-bg: #ecfdf5;
+      --teal-stroke: #99f6e4;
+      --guide: #d1d5db;
+      --phase-bg: #fafaf9;
+      --phase-stroke: #e7e5e4;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0f17;
+        --fg: #f3f4f6;
+        --fg-muted: #9ca3af;
+        --fg-soft: #6b7280;
+        --layer-bg: #1f2937;
+        --layer-stroke: #374151;
+        --accent: #f9a8d4;
+        --accent-bg: #3f1d2c;
+        --accent-stroke: #be185d;
+        --teal: #5eead4;
+        --teal-bg: #0f2f2b;
+        --teal-stroke: #115e59;
+        --guide: #4b5563;
+        --phase-bg: #111827;
+        --phase-stroke: #374151;
+      }
+    }
+    .bg { fill: var(--bg); }
+    .title { font-size: 20px; font-weight: 600; fill: var(--fg); }
+    .subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+    .step { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+    .step-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+    .step-patch { fill: var(--teal-bg); stroke: var(--teal-stroke); stroke-width: 1.2; stroke-dasharray: 5 4; }
+    .phase { fill: var(--phase-bg); stroke: var(--phase-stroke); stroke-width: 1; }
+    .eyebrow { font-size: 10px; font-weight: 600; fill: var(--fg-soft); letter-spacing: 0.08em; }
+    .eyebrow-accent { fill: var(--accent); }
+    .eyebrow-teal { fill: var(--teal); }
+    .h1 { font-size: 15px; font-weight: 600; fill: var(--fg); }
+    .body { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+    .body-strong { font-size: 12px; font-weight: 500; fill: var(--fg); }
+    .badge { fill: #6b7280; }
+    .badge-key { fill: var(--accent); }
+    .badge-patch { fill: var(--teal); }
+    .badge-text { font-size: 12px; font-weight: 600; fill: #ffffff; }
+    .arrow { stroke: var(--guide); stroke-width: 1.5; fill: none; }
+    .arrow-accent { stroke: var(--accent-stroke); stroke-width: 1.6; fill: none; }
+    .arrow-teal { stroke: var(--teal-stroke); stroke-width: 1.4; fill: none; stroke-dasharray: 5 4; }
+    .phase-label { font-size: 12px; font-weight: 500; fill: var(--fg); }
+    .phase-note { font-size: 11px; font-weight: 400; fill: var(--fg-muted); }
+    .foot { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+    .foot-strong { font-size: 13px; font-weight: 500; fill: var(--fg); }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="780" height="860" />
+
+  <text class="title" x="60" y="42">Vibe Reading 六步法</text>
+  <text class="subtitle" x="60" y="64">先定需求，再匹配、压缩、应用，最后用费曼把知识压成自己的</text>
+
+  <rect class="step-patch" x="60" y="88" width="200" height="76" rx="8"/>
+  <text class="eyebrow eyebrow-teal" x="80" y="110">STEP 0 · 可选补丁</text>
+  <text class="h1" x="80" y="136">最小可读框架</text>
+  <text class="body" x="80" y="156">零基础时先搭一张能挂钩子的地图</text>
+
+  <path class="arrow-teal" d="M260 126 L286 126"/>
+  <polygon points="286,121 286,131 294,126" fill="var(--teal-stroke)"/>
+
+  <rect class="step" x="300" y="88" width="420" height="92" rx="8"/>
+  <text class="eyebrow" x="322" y="110">STEP 1</text>
+  <text class="h1" x="322" y="136">定需求</text>
+  <text class="body" x="322" y="158">先写清楚自己要从这本书拿到什么，三到五条就够</text>
+  <circle class="badge" cx="696" cy="134" r="15"/>
+  <text class="badge-text" x="696" y="139" text-anchor="middle">①</text>
+
+  <path class="arrow" d="M510 180 L510 194"/>
+  <polygon points="505,194 515,194 510,202" fill="var(--guide)"/>
+
+  <rect class="step" x="300" y="202" width="420" height="92" rx="8"/>
+  <text class="eyebrow" x="322" y="224">STEP 2</text>
+  <text class="h1" x="322" y="250">对书做匹配</text>
+  <text class="body" x="322" y="272">目录、摘要和需求清单放一起，只保留精读、跳过和外找三类标签</text>
+  <circle class="badge" cx="696" cy="248" r="15"/>
+  <text class="badge-text" x="696" y="253" text-anchor="middle">②</text>
+
+  <path class="arrow" d="M510 294 L510 308"/>
+  <polygon points="505,308 515,308 510,316" fill="var(--guide)"/>
+
+  <rect class="step" x="300" y="316" width="420" height="92" rx="8"/>
+  <text class="eyebrow" x="322" y="338">STEP 3</text>
+  <text class="h1" x="322" y="364">决定优先级</text>
+  <text class="body" x="322" y="386">先掌握、只留印象、暂时不用，三种结果分开处理</text>
+  <circle class="badge" cx="696" cy="362" r="15"/>
+  <text class="badge-text" x="696" y="367" text-anchor="middle">③</text>
+
+  <path class="arrow" d="M510 408 L510 422"/>
+  <polygon points="505,422 515,422 510,430" fill="var(--guide)"/>
+
+  <rect class="step" x="300" y="430" width="420" height="92" rx="8"/>
+  <text class="eyebrow" x="322" y="452">STEP 4</text>
+  <text class="h1" x="322" y="478">获取内容</text>
+  <text class="body" x="322" y="500">自己读，或者让 AI 转述，但都要接到下一步</text>
+  <circle class="badge" cx="696" cy="476" r="15"/>
+  <text class="badge-text" x="696" y="481" text-anchor="middle">④</text>
+
+  <path class="arrow" d="M510 522 L510 536"/>
+  <polygon points="505,536 515,536 510,544" fill="var(--guide)"/>
+
+  <rect class="step-key" x="300" y="544" width="420" height="102" rx="8"/>
+  <text class="eyebrow eyebrow-accent" x="322" y="566">STEP 5 · 质量闸门</text>
+  <text class="h1" x="322" y="592">压缩 + 应用</text>
+  <text class="body-strong" x="322" y="614">用自己的话写一句，再问它现在能拿来干什么</text>
+  <text class="body" x="322" y="636">这一关不过，前面四步都白走</text>
+  <circle class="badge badge-key" cx="696" cy="596" r="16"/>
+  <text class="badge-text" x="696" y="601" text-anchor="middle">⑤</text>
+
+  <path class="arrow" d="M510 646 L510 660"/>
+  <polygon points="505,660 515,660 510,668" fill="var(--accent-stroke)"/>
+
+  <rect class="step" x="300" y="668" width="420" height="92" rx="8"/>
+  <text class="eyebrow" x="322" y="690">STEP 6</text>
+  <text class="h1" x="322" y="716">费曼</text>
+  <text class="body" x="322" y="738">试着把它讲给别人听，讲不顺就说明压缩还没到位</text>
+  <circle class="badge" cx="696" cy="714" r="15"/>
+  <text class="badge-text" x="696" y="719" text-anchor="middle">⑥</text>
+
+  <rect class="phase" x="60" y="790" width="660" height="44" rx="8"/>
+  <text class="phase-label" x="84" y="817">锚定阶段</text>
+  <text class="phase-note" x="84" y="834">Step 1-3 · 先定需求，再匹配，再排优先级</text>
+  <line class="arrow" x1="270" y1="798" x2="270" y2="826"/>
+  <text class="phase-label" x="286" y="817">摄入阶段</text>
+  <text class="phase-note" x="286" y="834">Step 4-5 · 获取内容，压缩成自己的语言</text>
+  <line class="arrow" x1="498" y1="798" x2="498" y2="826"/>
+  <text class="phase-label" x="514" y="817">掌握阶段</text>
+  <text class="phase-note" x="514" y="834">Step 6 · 讲得出来，才算真的会了</text>
+
+  <text class="foot" x="60" y="764">Step 0 只在零基础时启用，真正的主线还是 1 到 6。</text>
+  <text class="foot-strong" x="60" y="778">核心不是读完，而是把书压成你自己能调用的模型。</text>
+</svg>
