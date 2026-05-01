@@ -18,7 +18,7 @@ flowchart TD
 
 ## Layout
 
-- Canvas: `viewBox="0 0 680 675"`
+- Canvas: `viewBox="0 0 680 645"`
 - Title: y=42, subtitle: y=64
 - Four containers:
   - Geometry: x=60, y=96, w=580, h=104
@@ -26,8 +26,7 @@ flowchart TD
   - Analysis: x=60, y=328, w=580, h=104
   - Foundations: x=60, y=456, w=580, h=132, highlighted as the pressure point
 - Footer:
-  - caption-strong y=626
-  - caption y=648
+  - caption y=626
 
 ## Labels
 
