@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 655" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 675" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
   <style>
 :root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
 @media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
@@ -17,46 +17,48 @@
 .divider { stroke: var(--divider); stroke-width: 1; }
 .divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
   </style>
-  <rect class="bg" x="0" y="0" width="680" height="655"/>
+  <rect class="bg" x="0" y="0" width="680" height="675"/>
   <text class="title" x="60" y="42">十九世纪数学的四条主线</text>
-  <text class="subtitle" x="60" y="64">从计算术转向结构、空间、无穷、公理和可证明性</text>
+  <text class="subtitle" x="60" y="64">几何公理化和分析严格化，最后共同把问题压到基础层</text>
 
-  <rect class="layer" x="60" y="96" width="580" height="112" rx="8"/>
+  <rect class="layer" x="60" y="96" width="580" height="104" rx="8"/>
   <text class="eyebrow" x="82" y="118">GEOMETRY</text>
   <text class="eyebrow eyebrow-accent" x="618" y="118" text-anchor="end">→ 空间</text>
-  <text class="th" x="82" y="150">几何线</text>
-  <text class="ts" x="82" y="170">空间被重写</text>
-  <line class="divider" x1="220" y1="110" x2="220" y2="190"/>
-  <text class="t" x="238" y="148">高斯 → 罗巴切夫斯基 / 鲍耶 → 黎曼 → 克莱因</text>
-  <text class="t" x="238" y="172">非欧几何、流形、射影几何、几何公理化</text>
+  <text class="th" x="82" y="148">几何线</text>
+  <text class="ts" x="82" y="168">空间被重写</text>
+  <line class="divider" x1="220" y1="110" x2="220" y2="182"/>
+  <text class="t" x="238" y="146">高斯 → 罗巴切夫斯基 / 鲍耶 → 黎曼 → 克莱因</text>
+  <text class="t" x="238" y="170">非欧几何、流形、射影几何、几何公理化</text>
 
-  <rect class="layer" x="60" y="220" width="580" height="112" rx="8"/>
-  <text class="eyebrow" x="82" y="242">ALGEBRA</text>
-  <text class="eyebrow eyebrow-accent" x="618" y="242" text-anchor="end">→ 结构</text>
-  <text class="th" x="82" y="274">代数线</text>
-  <text class="ts" x="82" y="294">公式让位于结构</text>
-  <line class="divider" x1="220" y1="234" x2="220" y2="314"/>
-  <text class="t" x="238" y="272">拉格朗日 → 阿贝尔 / 伽罗瓦 → 凯莱 / 西尔维斯特</text>
-  <text class="t" x="238" y="296">群、不可解性、不变量理论、抽象代数</text>
+  <rect class="layer" x="60" y="212" width="580" height="104" rx="8"/>
+  <text class="eyebrow" x="82" y="234">ALGEBRA</text>
+  <text class="eyebrow eyebrow-accent" x="618" y="234" text-anchor="end">→ 结构</text>
+  <text class="th" x="82" y="264">代数线</text>
+  <text class="ts" x="82" y="284">公式让位于结构</text>
+  <line class="divider" x1="220" y1="226" x2="220" y2="298"/>
+  <text class="t" x="238" y="262">拉格朗日 → 阿贝尔 / 伽罗瓦 → 凯莱 / 西尔维斯特</text>
+  <text class="t" x="238" y="286">群、不可解性、不变量理论、抽象代数</text>
 
-  <rect class="layer" x="60" y="344" width="580" height="112" rx="8"/>
-  <text class="eyebrow" x="82" y="366">ANALYSIS</text>
-  <text class="eyebrow eyebrow-accent" x="618" y="366" text-anchor="end">→ 严格化</text>
-  <text class="th" x="82" y="398">分析线</text>
-  <text class="ts" x="82" y="418">直觉退回定义</text>
-  <line class="divider" x1="220" y1="358" x2="220" y2="438"/>
-  <text class="t" x="238" y="396">贝克莱 → 柯西 / 魏尔斯特拉斯 → 傅里叶</text>
-  <text class="t" x="238" y="420">极限、ε-δ、实数、集合论、分析学地基</text>
+  <rect class="layer" x="60" y="328" width="580" height="104" rx="8"/>
+  <text class="eyebrow" x="82" y="350">ANALYSIS</text>
+  <text class="eyebrow eyebrow-accent" x="618" y="350" text-anchor="end">→ 严格化</text>
+  <text class="th" x="82" y="380">分析线</text>
+  <text class="ts" x="82" y="400">直觉退回定义</text>
+  <line class="divider" x1="220" y1="342" x2="220" y2="414"/>
+  <text class="t" x="238" y="378">贝克莱 → 柯西 / 魏尔斯特拉斯 → 傅里叶</text>
+  <text class="t" x="238" y="402">极限、ε-δ、实数、集合论、分析学地基</text>
 
-  <rect class="layer" x="60" y="468" width="580" height="112" rx="8"/>
-  <text class="eyebrow" x="82" y="490">FOUNDATION</text>
-  <text class="eyebrow eyebrow-accent" x="618" y="490" text-anchor="end">→ 公理</text>
-  <text class="th" x="82" y="522">基础线</text>
-  <text class="ts" x="82" y="542">数学审查地基</text>
-  <line class="divider" x1="220" y1="482" x2="220" y2="562"/>
-  <text class="t" x="238" y="520">康托尔 → 弗雷格 / 皮亚诺 → 罗素悖论 → 希尔伯特</text>
-  <text class="t" x="238" y="544">集合论、逻辑、公理系统、存在性追问</text>
+  <line class="divider-accent" x1="340" y1="432" x2="340" y2="456"/>
+  <rect class="layer-key" x="60" y="456" width="580" height="132" rx="8"/>
+  <text class="eyebrow eyebrow-accent" x="82" y="478">FOUNDATION</text>
+  <text class="eyebrow eyebrow-accent" x="618" y="478" text-anchor="end">→ 地基危机</text>
+  <text class="th" x="82" y="510">基础线</text>
+  <text class="ts" x="82" y="530">几何 + 分析共同逼出</text>
+  <line class="divider-accent" x1="220" y1="470" x2="220" y2="570"/>
+  <text class="t" x="238" y="502">几何公理化追问模型与一致性</text>
+  <text class="t" x="238" y="526">分析严格化依赖集合论语言</text>
+  <text class="t" x="238" y="550">集合论、逻辑、公理系统、存在性追问</text>
 
-  <text class="caption-strong" x="60" y="614">十九世纪的核心变化：数学开始研究自己的内部结构。</text>
-  <text class="caption" x="60" y="636">后来的相对论、量子力学、密码学和计算机理论，都沿着这些线继续生长。</text>
+  <text class="caption-strong" x="60" y="626">基础线不是孤立第四条线，而是几何线和分析线向下追问后的压力点。</text>
+  <text class="caption" x="60" y="648">十九世纪把数学从计算术推进到结构、空间、无穷、公理和可证明性。</text>
 </svg>
