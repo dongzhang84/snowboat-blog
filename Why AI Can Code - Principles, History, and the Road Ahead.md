@@ -7,7 +7,7 @@
   - 1.4 RLVR: From "Able to Write" to "Able to Write Correctly"
 - II. A Brief History of AI Coding Companies
   - 2.1 Origins: The Two Camps and Early Tools (2020 – 2022)
-  - 2.2 Paradigm Shifts: From Editor Revolution to the Agent Era (2023 – 2026)
+  - 2.2 From Editor Tools to Agents (2023 – 2026)
   - 2.3 The Chinese Market and the Non-Programmer Track
 - III. The Road Ahead
   - 3.1 Building an App Is Systems Engineering; AI Coding Solves Only One Piece
@@ -20,17 +20,17 @@ Let's take stock of AI coding.
 
 Back in 2021 it was still mostly an academic topic. Insider programmers treated it as a side tool. GitHub Copilot launched that year and got attention for a while; the debate was mostly "should I use this thing, will it make me dumber?"
 
-By April 2026 everything had changed. About 135,000 public GitHub commits per day are now produced directly by Claude Code, roughly 4% of all public commits across the platform. OpenAI's Codex CLI, one year after its relaunch, has crossed 3 million weekly active developers. Cursor's parent company Anysphere went from 0 to $2 billion in ARR over two years, the fastest curve in SaaS history.
+By April 2026 the picture looked completely different. About 135,000 public GitHub commits per day are now produced directly by Claude Code, roughly 4% of all public commits across the platform. OpenAI's Codex CLI, one year after its relaunch, has crossed 3 million weekly active developers. Cursor's parent company Anysphere went from 0 to $2 billion in ARR over two years, the fastest curve in SaaS history.
 
 In four or five years, AI coding moved from a paper topic to a productivity tool with tens of millions of daily users.
 
-I have been writing professional code for over ten years, and these tools have been part of my daily workflow for the last three. This article uses my own perspective to give a clean answer to three questions that get asked over and over but rarely answered systematically:
+I have been writing professional code for over ten years, and these tools have been part of my daily workflow for the last three. This article is my attempt to answer three questions that keep coming up but rarely get answered in one place:
 
 - How does AI manage to write code at all?
 - How did this happen over the past five years?
 - In the next few years, can ordinary people really build their own apps?
 
-I'll go in order: principles, history, future. No technical background required.
+I'll go in order: principles, history, future. You do not need a technical background.
 
 # I. Principles: From Prehistory to Now
 
@@ -50,7 +50,7 @@ Lay all these lines side by side and the underlying problem is obvious: for a ma
 
 ## 1.2 The Turning Point: How the GPT Series Broke the Door Open
 
-The turning point was the GPT series. In June 2018 OpenAI proposed an approach: pretrain on a massive corpus of natural text so the model learns the general skill of "guessing the next word," then fine-tune for specific tasks. GPT was the result. GPT-1 had 0.117B parameters and was a research prototype; GPT-2 (February 2019) jumped to 1.5B; GPT-3 (May 2020) hit 175B, 100 times bigger than GPT-2. Once the scale crossed that threshold, "understanding natural language" became real for the first time, and the path to code was wide open.
+The turning point was the GPT series. In June 2018 OpenAI proposed a simple recipe: pretrain on a massive corpus of natural text so the model learns the general skill of "guessing the next word," then fine-tune for specific tasks. GPT was the result. GPT-1 had 0.117B parameters and was a research prototype; GPT-2 (February 2019) jumped to 1.5B; GPT-3 (May 2020) hit 175B, 100 times bigger than GPT-2. Once scale crossed that threshold, natural-language understanding became good enough to use, and code became a reachable target.
 
 The model that writes code and the model that chats use the exact same Transformer network and do the exact same thing: look at the tokens that came before, predict the next token. To the model, a chunk of Python code looks just like a Chinese novel: both are token sequences. The model doesn't "know" it's writing code. It just runs the highest-probability next-token prediction along the context.
 
@@ -67,27 +67,27 @@ The way the model generates this is one token at a time. Given `def fib(n):`, th
 
 ## 1.3 Why Code Is Especially Good Training Data
 
-Code is particularly well-suited to being learned by a language model. A few reasons why.
+Code is unusually good material for language models. There are a few reasons.
 
 The most direct one is regularity. After `for i in range(10):`, what comes next is an indented loop body. The rule is fixed, much more stable than natural language. The same idea can be expressed ten ways in natural language; in code there are usually two or three. This means the "compressed rules" the model extracts from a finite corpus are far denser in code than in ordinary text.
 
-A deeper reason: code has objective right-or-wrong. Give a function and a test suite, run the tests, and you know whether it works. Natural language has nothing like this. Whether a poem is good, whether an essay moves you — there is no automatic grader. This property of code becomes a nuclear weapon later on.
+A deeper reason: code has objective right-or-wrong. Give a function and a test suite, run the tests, and you know whether it works. Natural language has nothing like this. Whether a poem is good, whether an essay moves you — there is no automatic grader. This property of code becomes decisive later on.
 
 Another reason is the data itself. Every open-source repo's README, every docstring before a function, every commit message — all of it is free "natural language ↔ code" parallel data. This is the data dividend that every code model after GPT-3 has been feeding on, and the volume is far beyond anything human annotation could produce.
 
-The first wave of people walking this path treated code as a specialized skill to train. In 2021 OpenAI took GPT-3 and continued training it on over 100 GB of public code from GitHub (this technique is called continued pretraining). The result was a derived model, Codex. Codex hit 28.8% pass-at-1 on HumanEval (a 164-problem coding dataset OpenAI built), the SOTA at the time. During that period, OpenAI's API had `code-davinci` and `text-davinci` as two separate models — one wrote code, the other wrote prose.
+The first wave treated code as a specialized skill. In 2021 OpenAI took GPT-3 and continued training it on over 100 GB of public code from GitHub (this technique is called continued pretraining). The result was Codex. Codex hit 28.8% pass-at-1 on HumanEval, a 164-problem coding dataset OpenAI built, which was the best result at the time. During that period, OpenAI's API had `code-davinci` and `text-davinci` as two separate models — one wrote code, the other wrote prose.
 
 After GPT-4, this split closed. Anthropic, OpenAI, and Google all started mixing large amounts of code directly into the pretraining data of their general models (public estimates put the share at 20% to 40%). There's no longer a separate code model; one Claude / GPT / Gemini handles both prose and code.
 
-Why did the merge happen? Because of a counterintuitive finding: adding lots of code to training makes the model stronger at math, logic, and even natural language tasks. DeepMind, Google Brain, and OpenAI all observed this between 2022 and 2023. The intuition is straightforward: code as a corpus forces the model to learn "strict step-by-step reasoning" — every step has to hold, otherwise the next step collapses. Once that mode of thinking is learned, it transfers to non-code tasks. In other words, code training has become one of the core ingredients that makes general models smarter, well beyond a "side activity."
+Why did the merge happen? Because adding lots of code to training makes the model stronger at math, logic, and even natural language tasks. DeepMind, Google Brain, and OpenAI all observed this between 2022 and 2023. The intuition is straightforward: code forces the model to learn strict step-by-step reasoning. Every step has to hold, otherwise the next step collapses. Once the model learns that mode of thinking, it transfers to non-code tasks. Code training has become one of the core ingredients that makes general models smarter.
 
 ## 1.4 RLVR: From "Able to Write" to "Able to Write Correctly"
 
-The killer technique unique to code models is reinforcement learning from execution feedback. The training loop looks like this: the model generates a piece of code, it gets dropped into a real runtime, the test suite runs, the result (pass / fail) is fed back as a reward signal, and the model learns to write better next time. This method is called RLVR (Reinforcement Learning from Verifiable Rewards). "Verifiable" is the keyword: the reward signal does not come from human annotation (expensive, slow, biased) but from automatic machine grading (cheap, scalable, objective). Code, math problems, and formal logic all satisfy "verifiable" — they are RLVR's natural homes.
+The key technique for code models is reinforcement learning from execution feedback. The training loop looks like this: the model generates a piece of code, the code runs in a real runtime, the test suite runs, the result (pass / fail) comes back as a reward signal, and the model learns to write better next time. This method is called RLVR (Reinforcement Learning from Verifiable Rewards). "Verifiable" is the keyword: the reward signal does not come from human annotation, which is expensive and noisy, but from automatic machine grading. Code, math problems, and formal logic all fit this setup.
 
-The R1 model DeepSeek released in early 2025 pushed this approach to its extreme: train reasoning ability with reinforcement learning on math and code first, then transfer back to ordinary conversation, and on multiple benchmarks it caught up with the closed-source frontier models of the same period. The bulk of the training behind Claude Code, OpenAI o3, and Codex follows the same RLVR template. This only became mainstream after 2024, and it is the core reason coding ability has shot up so fast in the last two years.
+The R1 model DeepSeek released in early 2025 pushed this approach hard: train reasoning ability with reinforcement learning on math and code first, then transfer back to ordinary conversation. On multiple benchmarks it caught up with the closed-source frontier models of the same period. The bulk of the training behind Claude Code, OpenAI o3, and Codex follows the same RLVR template. This only became mainstream after 2024, and it is the main reason coding ability improved so fast in the last two years.
 
-A summary. Today's coding ability is a fusion of two things. One: code training has lifted general models to a new plateau, embedding "break a problem into steps, then make every step hold" into the model's default behavior. Two: large-scale reinforcement learning on tasks with objective right-or-wrong (code, math, reasoning) has been layered on top of real execution feedback, training the model from "can write" to "writes correctly." Together, these two are the actual engine of AI coding.
+In short, today's coding ability comes from two things. One: code training has lifted general models to a new level, pushing "break a problem into steps, then make every step hold" into the model's default behavior. Two: large-scale reinforcement learning on tasks with objective right-or-wrong (code, math, reasoning) has been layered on top of real execution feedback, training the model from "can write" to "writes correctly." Together, these two are the engine of AI coding.
 
 # II. A Brief History of AI Coding Companies
 
@@ -103,11 +103,11 @@ In November 2022 OpenAI released ChatGPT and the form of AI coding shifted from 
 
 After ChatGPT took off, the entire ecosystem of "external brains for programmers" started getting rewritten. Stack Overflow took the most direct hit. Founded September 2008 by Joel Spolsky and Jeff Atwood, the global Q&A site for programmers peaked in 2017: over 300,000 new questions per month, over 100 million monthly visits, 10 million registered users. After ChatGPT, monthly new questions slid from that 2017 peak to about 87,000 in 2023, then under 60,000 in 2024. By December 2025 the count was fewer than 4,000 — back to the level of 2008 when the site had just launched. CSDN was on the same slope. Kite, an early AI-completion startup founded in 2014, shut down in November 2022 with a parting line from its founder Adam Smith: the company "failed to deliver our vision of AI-assisted programming because we were 10+ years too early to market, i.e., the tech is not ready yet." Even 500,000 monthly actives could not keep it alive. Codecademy and W3Schools — the tutorial sites — kept losing traffic too.
 
-## 2.2 Paradigm Shifts: From Editor Revolution to the Agent Era (2023 – 2026)
+## 2.2 From Editor Tools to Agents (2023 – 2026)
 
 In 2023 GitHub extended Copilot into chat with Copilot Chat. But a sidebar chat plus an IDE main area for code was a split experience. The AI was kept in the corner.
 
-The product that actually changed the paradigm was Cursor. Anysphere, the parent, was started by four MIT students in 2022. Their key bet was to fork all of VS Code and rewrite it. A fork is much harder than a plugin, but it lets you change the editor's interaction itself. Cursor's real technical contribution was codebase indexing: vectorizing the entire project so the AI could, for the first time, "see the whole codebase." This pattern later became the industry standard: use someone else's model (Anthropic / OpenAI), build your own engineering layer (project indexing, context organization, UI workflow).
+The product that actually changed the editor was Cursor. Anysphere, the parent company, was started by four MIT students in 2022. Their key bet was to fork VS Code and rewrite it. A fork is much harder than a plugin, but it lets you change how the editor itself works. Cursor's real technical contribution was codebase indexing: vectorizing the entire project so the AI could, for the first time, "see the whole codebase." This pattern later became the industry default: use someone else's model (Anthropic / OpenAI), then build your own engineering layer around project indexing, context organization, and UI workflow.
 
 In October 2024 the upgraded Claude 3.5 Sonnet launched, and its score on SWE-bench Verified (a real GitHub bug-fix benchmark with human-verified problems) jumped from the previous generation's 33% to 49%. "AI can really write code" became true for the first time at that moment. Cursor's experience changed qualitatively over the following months, and engineers migrated from Copilot to Cursor + Claude in large numbers. I made the switch myself in late 2024; within three months my code output felt like it had doubled.
 
@@ -115,81 +115,81 @@ Then, through 2024 and 2025, the whole line jumped from "completion inside the I
 
 Since then, the bulk of competition has fallen on three top products. Codex is OpenAI's second use of that name: first as a 2021 GPT-3 derivative powering Copilot, deprecated in 2023 in favor of GPT-4, and relaunched on April 16, 2025 as a "product name" — this time a Rust-written CLI agent. The relaunch picked up momentum fast. By March 2026 weekly actives had crossed 2 million; April pushed past 3 million, up 50% month over month. Inside ChatGPT Enterprise, Codex users grew six-fold from January to April.
 
-Claude Code went deeper into the engineering community. Released by Anthropic in 2025, it leveraged Claude's natural advantage on long codebases, hit roughly $2.5 billion ARR by early 2026, and is producing about 135,000 public GitHub commits per day — 4% of all public commits on the platform. SemiAnalysis projects that share will pass 20% by end of 2026.
+Claude Code went deeper into the engineering community. Released by Anthropic in 2025, it used Claude's natural advantage on long codebases, hit roughly $2.5 billion ARR by early 2026, and is producing about 135,000 public GitHub commits per day — 4% of all public commits on the platform. SemiAnalysis projects that share will pass 20% by end of 2026.
 
 Cursor's own scale kept climbing. By February 2026 it was at $2 billion ARR. In April it raised at a $50 billion valuation — the fastest 0-to-$2-billion ARR curve in SaaS history.
 
-A few other players have their own niches. Windsurf (formerly Codeium) is another AI-native IDE; things got complicated after it was acquired in mid-2025. The veteran GitHub upgraded Copilot into Agent Mode and Coding Agent; existing users converted naturally.
+A few other players have their own niches. Windsurf (formerly Codeium) is another AI-native IDE; things got complicated after it was acquired in mid-2025. GitHub upgraded Copilot into Agent Mode and Coding Agent, and many existing users followed the upgrade path.
 
-The overall layout in the engineering community today: the mainstream stack for senior programmers is Cursor + Claude Code, an IDE for writing code and a CLI for running large tasks.
+In the engineering community today, the mainstream stack for senior programmers is Cursor plus Claude Code: an IDE for writing code and a CLI for running large tasks.
 
 ## 2.3 The Chinese Market and the Non-Programmer Track
 
 Beyond the main line, two threads deserve their own treatment: domestic Chinese vendors, and the non-programmer track.
 
-The Chinese market developed in parallel with the overseas market. Several big tech companies each took their slot, and the open-source camp took its own.
+The Chinese market developed in parallel with the overseas market. Big tech companies each took a position, and the open-source camp took another.
 
-ByteDance built Trae, the AI-native IDE in China most similar in feel to Cursor. It launched around late 2024. The strategy of being completely free for individual users helped it spread fast through the domestic developer community. Trae plugs into ByteDance's own Doubao model, and on Chinese-language projects with Chinese comments the experience is smoother than using Cursor directly. ByteDance also has an earlier product called MarsCode, more cloud-IDE oriented, forming an internal split.
+ByteDance built Trae, the AI-native IDE in China closest in feel to Cursor. It launched around late 2024. Being free for individual users helped it spread quickly through the domestic developer community. Trae plugs into ByteDance's own Doubao model, and on Chinese-language projects with Chinese comments the experience is smoother than using Cursor directly. ByteDance also has an earlier product called MarsCode, which is more cloud-IDE oriented.
 
-Alibaba's Tongyi Lingma is one of the earliest Chinese AI coding assistants, released in 2023 as a plugin for VS Code and the JetBrains family, plugged into the Qwen series of Tongyi models. It has the deepest reach into enterprise customers inside the Alibaba Cloud ecosystem: DingTalk, Alibaba Cloud's internal teams, and many of their cloud customers all use it. Qwen is also the strongest open-source Chinese code LLM family.
+Alibaba's Tongyi Lingma is one of the earliest Chinese AI coding assistants. Released in 2023 as a plugin for VS Code and the JetBrains family, it is plugged into the Qwen series of Tongyi models. Its strongest position is inside the Alibaba Cloud ecosystem: DingTalk, Alibaba Cloud's internal teams, and many cloud customers all use it. Qwen is also the strongest open-source Chinese code LLM family.
 
-Baidu's Wenxin Comate has one feature worth singling out: SPEC mode. It forces you to write a requirements document first, then has the AI write code against the document — packing the "PRD → design → development" engineering flow into the IDE. This approach has gained traction inside large Chinese enterprise R&D environments, because their code standards and compliance reviews are strict enough that freely-improvised AI code often can't pass review. Wenxin Comate is one of the few Chinese products to differentiate through engineering depth.
+Baidu's Wenxin Comate has one feature worth singling out: SPEC mode. It forces you to write a requirements document first, then has the AI write code against that document — packing the "PRD → design → development" engineering flow into the IDE. This approach has gained traction inside large Chinese enterprise R&D environments, where code standards and compliance reviews are strict enough that freely improvised AI code often can't pass review. Wenxin Comate is one of the few Chinese products that differentiates through engineering process rather than just model access.
 
 A few others. Tencent's CodeBuddy plugs into the Hunyuan model and lives inside the Tencent Cloud ecosystem. Zhipu's CodeGeeX is one of the earliest dedicated code models in China, going back to 2022, and today is the most fully open-sourced domestic code LLM. Huawei's CodeArts comes bundled with the Huawei Cloud DevOps suite and targets state-owned enterprises and large central-government clients.
 
-Looking at the whole picture, China's real edges come down to three: noticeably better fit for Chinese-language scenarios, tight integration with domestic clouds, and a short path to enterprise deployment (plus mostly-free individual versions). The weak points are equally real: frontier model capability still lags Claude Opus and the GPT-5 line, and on complex multi-file, cross-repo agent tasks the gap is visible. The genuine room for differentiation runs along two lanes — one is to keep closing the model-capability gap, which DeepSeek, Qwen, and Zhipu are all working on; the other is to push specific industry workflows directly into the tool, which is exactly what Wenxin Comate's SPEC mode is doing.
+Looking at the whole picture, China's real edges come down to three: better fit for Chinese-language scenarios, tight integration with domestic clouds, and a short path to enterprise deployment, often with free individual versions. The weak points are just as real: frontier model capability still lags Claude Opus and the GPT-5 line, and on complex multi-file, cross-repo agent tasks the gap is visible. The room for differentiation runs along two lanes. One is to keep closing the model-capability gap, which DeepSeek, Qwen, and Zhipu are all working on. The other is to push specific industry workflows directly into the tool, which is exactly what Wenxin Comate's SPEC mode is doing.
 
-Now the non-programmer track. These tools — often labeled "Vibe Coding" — aim to let non-programmers build apps. You describe what you want in natural language, and the AI gives you a running app. The space has moved fast over the last year, with each player taking a different angle.
+Now the non-programmer track. These tools — often labeled "Vibe Coding" — aim to let non-programmers build apps. You describe what you want in natural language, and the AI gives you a running app. The market has moved fast over the last year, with each product taking a different angle.
 
-Lovable has been the runaway leader of this wave. Built by Swedish founder Anton Osika in 2024, it went from $0 to $400 million ARR in under a year, with only 146 employees. The product form is a chat box plus live preview: you type "I want a kanban board, draggable cards, syncing with Slack," and Lovable generates the full stack — frontend plus a Supabase database — that runs in your browser within minutes.
+Lovable has been the clear leader of this wave. Built by Swedish founder Anton Osika in 2024, it went from $0 to $400 million ARR in under a year, with only 146 employees. The product form is a chat box plus live preview: you type "I want a kanban board, draggable cards, syncing with Slack," and Lovable generates the full stack — frontend plus a Supabase database — that runs in your browser within minutes.
 
 StackBlitz's Bolt.new takes a different route: it builds a complete full-stack app inside the browser, with no local backend, running inside an embedded WebContainer. You describe what you want, it generates the code, installs dependencies, and runs the app — all without you setting up any local environment. Bolt has spread fast in the founder and education segments.
 
-Vercel's v0 carves out the UI design slice. You give it a description or a sketch, it generates a React component, and you can drop it straight into an existing project. v0 doesn't try to build whole apps. It nails the frontend component layer and is a high-frequency tool for designers and frontend engineers.
+Vercel's v0 takes the UI design slice. You give it a description or a sketch, it generates a React component, and you can drop it straight into an existing project. v0 doesn't try to build whole apps. It focuses on the frontend component layer and is a high-frequency tool for designers and frontend engineers.
 
 Replit Agent is the agent product from veteran online IDE Replit, released in September 2024. Its pitch is "from requirements to deployment, one agent runs the whole thing." Replit's edge is that it already has a complete cloud runtime; once the agent finishes, the app runs in their cloud immediately. Newer entrants like Base44, Mocha, and Glide target enterprise internal tooling — solving "a 5-person team needs an internal form or dashboard" type long-tail demand.
 
-One sentence on the whole non-programmer track: Vibe Coding has driven the cost of building a demo to the floor. A person with product taste who has an idea used to need a week or more to build something demo-able. Now an afternoon is enough. But the gap between a demo and a real product still contains the entire software engineering industry. I'll get into that in Part III.
+The short version: Vibe Coding has driven the cost of building a demo to the floor. A person with product taste who has an idea used to need a week or more to build something demo-able. Now an afternoon is enough. But the gap between a demo and a real product still contains the entire software engineering industry. I'll get into that in Part III.
 
 # III. The Road Ahead
 
 ## 3.1 Building an App Is Systems Engineering; AI Coding Solves Only One Piece
 
-You see slogans these days: anyone who can't write a line of code can build an app and rake in money in their sleep. Set aside the demand side for a moment — let's look at the technical side first.
+You see slogans these days: anyone who can't write a line of code can build an app and make money in their sleep. Set aside the demand side for a moment — let's look at the technical side first.
 
-"A non-programmer can build an app directly" is partly true and partly needs discounting. To start, take a look at what building a serious feature inside a real company actually involves.
+"A non-programmer can build an app directly" is partly true, but it needs a discount. Start with what building a serious feature inside a real company actually involves.
 
 Software engineering breaks the work into stages, and there are formal standards for it. The most authoritative is ISO/IEC/IEEE 12207 — Systems and software engineering: Software life cycle processes. First released in 1995, last updated in 2017, it defines dozens of standard processes across the full software lifecycle. University software engineering textbooks across countries teach the same lifecycle: requirements, design, development, testing, release, operations.
 
-Beyond the international standard, large Chinese companies have turned the lifecycle into their own published engineering specifications. In 2017 Alibaba released the Alibaba Java Coding Guidelines (project codename P3C), broken into six dimensions — coding rules, exception logging, unit testing, security rules, project structure, MySQL — with a companion IDE plugin downloaded over 1.6 million times. Meituan's tech blog (tech.meituan.com) has a long list of practical writeups on canary releases, incident postmortems, and launch flows. GitLab has gone the most extreme, open-sourcing its entire company R&D process as a public handbook (the GitLab Handbook, hundreds of thousands of words). All of these let outsiders see large-company R&D rhythms directly. Underneath, they all follow the same lifecycle.
+Beyond the international standard, large Chinese companies have turned the lifecycle into their own published engineering specifications. In 2017 Alibaba released the Alibaba Java Coding Guidelines (project codename P3C), broken into six dimensions — coding rules, exception logging, unit testing, security rules, project structure, MySQL — with a companion IDE plugin downloaded over 1.6 million times. Meituan's tech blog (tech.meituan.com) has a long list of practical writeups on canary releases, incident postmortems, and launch flows. GitLab went the furthest, publishing its company R&D process as a public handbook with hundreds of thousands of words. All of these let outsiders see large-company R&D rhythms directly. Underneath, they all follow the same lifecycle.
 
 A serious feature inside a large company runs through this flow: requirements (PRD + review), design (UI/UX + review + technical design + technical review), development (task breakdown + frontend/backend coding + integration + code review), testing (self-test + QA + bug loop + UAT), release (canary + full rollout + monitoring), and verification & wrap-up (data validation + retrospective + archiving). Two weeks on the short side, two to three months on the long side.
 
 Every step in this flow plugs a real hole. PRD review plugs "what we built isn't what was wanted." Technical review plugs "we picked the wrong architecture and have to rebuild in six months." Code review plugs "the code runs but no one can maintain it." QA plugs "it crashes on launch." Canary release plugs "a bug ships to all users at once." Each step is the residue of decades of painful experience.
 
-Back to AI. The pieces it can actually swallow today are not just code-writing. Walk through every stage and substep, and look at how much AI can really cut.
+Back to AI. The pieces it can take over today go beyond code-writing. Walk through every stage and substep, and the limits become clearer.
 
 ### 3.1.1 Requirements Stage (PRD + Review)
 
-AI can already do quite a bit on the PRD itself: turn scattered ideas into a structured document (background, user persona, flow diagrams, acceptance criteria), scan for conflicts with existing features, list edge cases, even auto-generate analytics events and A/B test designs. But the PRD review meeting itself can't be replaced. The review needs four to six people from different roles in a room, arguing: business cares about ROI and release timing, product cares about user experience, engineering cares about implementation cost and tech debt, QA cares about testability. That kind of cross-role tug-of-war and consensus-building requires organizational coordination. AI can't help.
+AI can already do quite a bit on the PRD itself: turn scattered ideas into a structured document (background, user persona, flow diagrams, acceptance criteria), scan for conflicts with existing features, list edge cases, even auto-generate analytics events and A/B test designs. But the PRD review meeting itself can't be replaced. The review needs four to six people from different roles in a room, arguing: business cares about ROI and release timing, product cares about user experience, engineering cares about implementation cost and tech debt, QA cares about testability. That kind of cross-role tug-of-war and consensus-building requires organizational coordination. AI can help prepare the meeting, but it cannot replace the meeting.
 
 ### 3.1.2 Design Stage (UI/UX and Technical Design)
 
 The design stage actually has two tracks running in parallel: UI/UX and technical design. Each carries its own review.
 
-The UI/UX track is the most thoroughly absorbed by AI. Tools like v0 and Figma AI can generate a runnable React component from a sentence in minutes, with the styling system wired up. The formal checks in design review — does the style match brand guidelines, are existing components being reused — can also be run by AI. But whether an interaction actually fits the brand voice, or what the user will do after this step, still needs a senior designer to call.
+The UI/UX track has been absorbed the most. Tools like v0 and Figma AI can generate a runnable React component from a sentence in minutes, with the styling system wired up. The formal checks in design review — does the style match brand guidelines, are existing components being reused — can also be run by AI. But whether an interaction fits the brand voice, or what the user will do after this step, still needs a senior designer to call.
 
 The technical-design track is also already useful with AI. Hand it a requirement, and it will list three candidate architectures with throughput, latency, and cost compared cleanly. But the final pick is still a human call, because the choice rides on a pile of organizational constraints AI doesn't know: which stack the team is fluent in, what compliance requirements apply, what SLA was promised externally, whether the key engineer is staying. And the technical review meeting is even more so. The arguments tend to be: why not X, why not Y, why does it have to be Z this time. Every line carries team history. AI hasn't sat through those meetings; it can't follow.
 
 ### 3.1.3 Development Stage (Coding and Review)
 
-Development is AI's true main battlefield, but there are still hard bones inside it that AI can't crack.
+Development is AI's main battlefield, but some parts are still hard.
 
 Start with what AI directly handles. For task breakdown, Claude Code can already turn a PRD straight into an issue list and a dependency graph. Frontend and backend coding are the core use cases for Cursor + Claude / Codex; among senior engineers, 2x to 10x productivity gains are widely reported. For integration (getting frontend and backend talking through an API), AI can spin up a mock server, run contract tests, and flag schema mismatches. For code review, AI can run static analysis, check coding rules, and flag potential bugs.
 
 But there is one layer of code review AI struggles with: architectural judgment. Will this change blur module boundaries, will this abstraction be maintainable three years out, does this decoupling fit the team's next-phase plan — those reviews still need a senior reviewer.
 
-The harder bones are where the system meets the outside world. To wire up a third-party API (WeChat Pay, Stripe, Google Maps), AI can write the call code cleanly, but applying for the API key, negotiating commercial terms, passing KYC, registering callback URLs — those steps need a real person to walk the process. To set up access control (OAuth, SSO, internal IAM, cloud RBAC), AI can write the rule layer and the code layer, but who should have what access, whether GDPR compliance is met, who takes the blame when things go wrong — those remain organizational decisions. This class of blockers shares the same root cause as the problems the next section will hit on "non-programmer app building."
+The harder parts are where the system meets the outside world. To wire up a third-party API (WeChat Pay, Stripe, Google Maps), AI can write the call code cleanly, but applying for the API key, negotiating commercial terms, passing KYC, registering callback URLs — those steps need a real person to walk the process. To set up access control (OAuth, SSO, internal IAM, cloud RBAC), AI can write the rule layer and the code layer, but who should have what access, whether GDPR compliance is met, who takes the blame when things go wrong — those remain organizational decisions. This class of blockers shares the same root cause as the problems the next section will hit on "non-programmer app building."
 
 Putting it all together: in the development stage, 70% to 80% of the pure coding work is direct AI territory, and the remaining 20% to 30% splits between architectural judgment and gnarly debugging on one side, and external API integration / identity and permissions on the other — the parts that need humans to walk real-world processes.
 
@@ -207,7 +207,7 @@ UAT (user acceptance testing) AI can't replace. This step needs real users in re
 
 Release splits into two sub-stages: execution and decision-making.
 
-Execution, AI can fully take over. The details of canary release (release by percentage, by region, by user cohort) and full rollout can run automatically. Monitoring, alerting, anomaly detection, automatic rollback for predefined scenarios — all mature.
+AI can take over release execution. The details of canary release (release by percentage, by region, by user cohort) and full rollout can run automatically. Monitoring, alerting, anomaly detection, automatic rollback for predefined scenarios — all of that is mature.
 
 Decision-making is still on humans. Canary hits 10%, the core metric wobbles — do we keep pushing, roll back, or hold and investigate? Every action is a tradeoff: a 5% rollback cost moving forward, the risk of full release moving back. That kind of go/no-go call can't be made by staring at the dashboard. There's a layer of business rhythm, partner coordination, and market timing AI can't see.
 
@@ -225,9 +225,9 @@ Another way to put it: AI has driven the cost of "getting each stage done" way d
 
 Can the remaining 40% to 50% of human work keep getting eaten? That's the central question for predicting the next several years. There are two categories.
 
-One is technically still short, but with a path forward: architecture choices grounded in team history, complex root-cause analysis, multi-file / cross-repo gnarly debugging, response to unprecedented incidents. Today AI can't do these mainly because context windows aren't long enough, organizational context isn't internalized, and long-term evolution isn't grasped. As models keep extending context, gain long-term memory, and get continually trained on team codebases, there's a real chance over five years of eating most of this work — pushing the overall pipeline to 70% to 80% AI.
+One category is still technically hard, but there is a path forward: architecture choices grounded in team history, complex root-cause analysis, multi-file / cross-repo debugging, response to unprecedented incidents. Today AI can't do these mainly because context windows aren't long enough, organizational context isn't internalized, and long-term evolution isn't grasped. As models keep extending context, gain long-term memory, and get continually trained on team codebases, there is a real chance over five years that AI takes over most of this work, pushing the overall pipeline to 70% to 80% AI.
 
-The second category is what won't yield to more model capability: cross-person consensus, accountability, and dealing with the real world (KYC, commercial negotiation, compliance, legal liability). The blocker here is institutional, not capability-related. For AI to take over, it has to be able to exist as a legal entity — sign contracts, hold accounts, take consequences. There are already startups working on legal entities that "hold accounts, take responsibility, and carry insurance for AI agents," but this path involves law, regulation, and social acceptance. The window is 5 to 10 years. Once it opens, the remaining 20% to 30% gets eaten too, and software development moves to its next paradigm: humans reduced to two roles — problem-setter and final-decision-maker — and everything else is AI.
+The second category won't yield to more model capability: cross-person consensus, accountability, and dealing with the real world (KYC, commercial negotiation, compliance, legal liability). The blocker here is institutional, not capability-related. For AI to take over, it has to be able to exist as a legal entity — sign contracts, hold accounts, take consequences. There are already startups working on legal entities that "hold accounts, take responsibility, and carry insurance for AI agents," but this path involves law, regulation, and social acceptance. The window is 5 to 10 years. If that opens, the remaining 20% to 30% gets eaten too, and software development moves to its next phase: humans set the problem, make the final decision, and AI handles the rest.
 
 In the short term (next 2 to 3 years), pushing the pipeline from today's 50%-to-60% AI to 70%-to-80% AI is high-probability, driven by continued model capability gains and tooling fill-in. To go higher than 90%, model capability alone won't cut it. The institutional layer has to break.
 
@@ -257,7 +257,7 @@ After all those cuts, the actual one-click flow has three steps left: you descri
 
 This category is basically AI-ized today. But internally, there are two architectures.
 
-The cleanest one is pure frontend, runs in the browser, and is gone when you close the tab. Anthropic's Artifact, OpenAI's Canvas, Vercel's v0, and Bolt.new all fall in this bucket. They generate tools with no backend, no database, no user login — just a chunk of HTML + JavaScript running in the browser, the stack as simple as React + Tailwind in one or two files. Throwaway calculators, UI prototypes, data visualizations, document format converters are typical use cases. Today these really are: one sentence to describe, a few minutes to get, no account needed. AI handles the whole thing end to end.
+The cleanest one is pure frontend, runs in the browser, and is gone when you close the tab. Anthropic's Artifact, OpenAI's Canvas, Vercel's v0, and Bolt.new all fall in this bucket. They generate tools with no backend, no database, no user login — just a chunk of HTML + JavaScript running in the browser, with a stack as simple as React + Tailwind in one or two files. Throwaway calculators, UI prototypes, data visualizations, and document format converters are typical use cases. Today you can describe one of these tools in a sentence, wait a few minutes, and use it without creating an account. AI handles the whole thing end to end.
 
 The slightly more complex case is a simple backend, with persistent data, possibly multi-user. Lovable's "frontend + Supabase" combo is the canonical example. Stack is roughly Next.js + Tailwind + Supabase (database + Auth) + Vercel deployment — basically the same standard stack I use myself for indie projects. AI writes 100% of the code, but the human still has to do a few dashboard operations: register a Supabase account, create a project, copy the URL and key; import the repo into Vercel, paste environment variables, hit Redeploy. AI can't open a browser console, so this part stays stuck. Personal expense tracking with cloud sync, small internal approval workflows, collaboration tools shared between a few friends — all in this tier.
 
@@ -265,7 +265,7 @@ Adding the two together, personal and internal small tools are about 95% AI-ized
 
 ### 3.2.2 Apps for Other People — App Store, or Anything That Takes Money
 
-What's actually happening here: AI can write 95%+ of the code, and the human's main work is console clicking and going through compliance flows. Drilling down, the console-clicking layer further splits into technical and institutional pieces.
+What's actually happening here: AI can write 95%+ of the code, and the human's main work is console clicking and compliance. Drill down, and that console-clicking layer splits into technical and institutional pieces.
 
 The technical layer: AI writes the code, the human pastes credentials. Spinning up a standard indie App stack (Next.js + Supabase + Stripe + Resend + Vercel), AI handles roughly: writing all the TypeScript code, writing the Prisma schema, running db push, writing Stripe checkout and webhook handlers, writing email templates, installing dependencies, git push to trigger deployment. The human still does dashboard work, for example:
 
@@ -283,7 +283,7 @@ The institutional layer is what AI will never handle:
 - Legal liability (when user data leaks, fraud occurs, or IP is infringed, someone has to be on the hook).
 - App Store distribution (Apple and Google won't issue developer accounts to AI agents; the annual real-name verification and fees go to a human).
 
-Putting both layers together: an app meant for other people is roughly 90% AI plus 10% human dashboard today. "Build a real app from one sentence" is, strictly speaking, not possible. But "one sentence plus 10 console paste-keys" to build a real app — that we already have.
+Putting both layers together: an app meant for other people is roughly 90% AI plus 10% human dashboard work today. "Build a real app from a prompt" is, strictly speaking, not possible. But a prompt plus 10 console paste-keys can already build a real app.
 
 Does this match the "non-programmers can build apps" slogan? It matches it on the technical layer, and doesn't on the institutional one. A complete non-coder following Lovable + Stripe + Vercel onboarding docs can ship a SaaS that takes money. The precondition is that they're willing to register a company, pass Stripe KYC, sign compliance documents, and serve as the legal representative. That part has nothing to do with AI capability. It's about whether they're willing to be the boss.
 
@@ -295,21 +295,21 @@ The technical path eats the 5% left in 3.2.1 and the 10% technical layer in 3.2.
 
 The institutional path moves much slower and takes the institutional layer in 3.2.2. Whether AI legal entities can exist, hold accounts, sign contracts, and bear liability — those are questions for legislation and regulation, not for model capability. Some startups are building the legal scaffolding for "AI-agent-held accounts, with assigned liability and insurance coverage." But getting there requires legislation, case law, and social acceptance to align at once. The window is 5 to 10 years. Once it opens, real apps for strangers — apps that take money and ship to stores — become reachable through one-click tools too. The whole map of software distribution gets rewritten.
 
-In one sentence: personal tools are one-click today; apps for others are at "one sentence plus 10 paste-keys"; in 1 to 2 years browser agents take the paste-key layer too; in 5 to 10 years AI legal entities go live and the last institutional blocker is finally crossed.
+The short version: personal tools are one-click today; apps for others are at "prompt plus 10 paste-keys"; in 1 to 2 years browser agents take the paste-key layer too; in 5 to 10 years AI legal entities go live and the last institutional blocker is finally crossed.
 
 ## 3.3 Will This Wave of AI Coding Reshape the PC / Mobile App Ecosystem?
 
-Yes, but the direction of reshaping runs counter to most people's intuition. First, the variables.
+Yes, but the direction runs counter to most people's intuition. Start with the variables.
 
 ### 3.3.1 100x Supply, 1x Demand
 
-Sections 3.1 and 3.2 already covered the "cost of building an app." Today, with Lovable + Vercel + Stripe, what used to take 5 people 6 months can ship in 1 person 1 weekend. Supply-side capacity is up at least 10x to 100x.
+Sections 3.1 and 3.2 already covered the "cost of building an app." Today, with Lovable + Vercel + Stripe, what used to take 5 people 6 months can ship with one person over one weekend. Supply-side capacity is up at least 10x to 100x.
 
-But demand barely moved. Each person still has 24 hours a day. Average screen time on phones is already around 5 hours, near saturation. The apps a person actively uses on their phone is 10 to 20; they have 60 to 100 installed, and most of them got opened once and never again. That structure has been stable for the past decade.
+But demand barely moved. Each person still has 24 hours a day. Average screen time on phones is already around 5 hours, near saturation. A person actively uses 10 to 20 apps on their phone; they may have 60 to 100 installed, and most get opened once and never again. That structure has been stable for the past decade.
 
-Supply 100x, demand 1x: the only outcome is the middle layer gets crushed flat. Which layer specifically gets crushed depends on the type.
+Supply 100x, demand 1x: the middle layer gets crushed. Which part gets hit first depends on the app category.
 
-The first to fold is long-tail tool SaaS. Reimbursement systems, internal dashboards, personal expense tracking, vocabulary apps, step counters, ad-hoc form generators — small tools that lived on annual subscriptions can now be built by a user themselves in half an hour with Lovable. A SaaS company charging $100 a year and explaining its features is fighting an AI-generated version that's free and fits the user better. This layer disappearing wholesale is just a matter of time.
+The first to fold is long-tail tool SaaS. Reimbursement systems, internal dashboards, personal expense tracking, vocabulary apps, step counters, ad-hoc form generators — small tools that lived on annual subscriptions can now be built by a user in half an hour with Lovable. A SaaS company charging $100 a year and explaining its feature list is fighting an AI-generated version that's free and fits the user better. This layer will have a hard time surviving.
 
 Vertical industry SaaS is more complicated. Contract management for law firms, scheduling for hospitals, parent-school communication for elementary schools — these have industry-specific knowledge built in and can't be one-shot generated. But they will face pressure: a customer's internal IT team can use the same AI tools to generate an internal version and stop paying the subscription. This layer will get squeezed by price wars and lose maybe half its market.
 
@@ -325,13 +325,13 @@ Data accumulation. The 8 years of user behavior data TikTok has built up is the 
 
 Content and supply ecosystems. Taobao has millions of merchants, hundreds of millions of SKUs, stable logistics, and stable payment. AI generates "my own shopping app" and there's nothing inside it.
 
-Distribution gates. Apple, Google, Meta, and ByteDance own the spot a user looks at first when they unlock their phone. AI coding can't touch this layer at all.
+Distribution gates. Apple, Google, Meta, and ByteDance own the first screen a user sees when they pick up their phone. AI coding does not change this layer.
 
 The counterintuitive part: AI coding will deepen these top apps' advantages. They use AI internally to ship 10x faster, to handle customer service, to do recommendations, to generate content, to fight fraud. Scale advantages plus AI widen the product-quality gap further. A new founder used to be able to dream of "make something better than WeChat" and ride that dream for a few years. In the AI coding era, even the dream is gone.
 
 ### 3.3.3 Long-Tail Apps Decay into On-Demand-Generated Capabilities
 
-Combining 3.3.1 and 3.3.2, the mobile picture in a few years could look like this.
+Combine 3.3.1 and 3.3.2, and the mobile picture in a few years could look like this.
 
 Top apps stay around 20 to 30, similar to today, but each one is stronger and harder to displace. WeChat, TikTok, Taobao, banking apps, maps, email, camera — these stay installed, used long-term, accumulating data across years.
 
@@ -343,11 +343,11 @@ These Capabilities have a distinct shape: throwaway, personalized, zero-install,
 
 ### 3.3.4 The Reshaped Ecosystem: A Three-Layer Structure
 
-Putting it all together, the App ecosystem in a few years looks like three layers stacked.
+Put it all together, and the app ecosystem in a few years looks like three layers.
 
 **Top-app layer**. WeChat, TikTok, Taobao, Apple, Google, Meta. Anchored by network effects, data, and content ecosystems. AI coding makes them stronger. The number of players in this layer shrinks; each remaining player's share grows.
 
-**Assistant layer**. This is the new one. The user's entry point shifts from opening a particular app to telling an AI assistant a sentence. The assistant calls underlying models to generate one-shot tools or calls a top app's API to get things done. The current prototypes are general assistants like ChatGPT, Claude, Apple Intelligence, and Google Gemini. Who owns this layer is the biggest battle of the next few years, because it could chip away at the App Store's distribution position.
+**Assistant layer**. This is the new one. The user's entry point shifts from opening a particular app to telling an AI assistant what they want. The assistant calls underlying models to generate one-shot tools or calls a top app's API to get things done. The current prototypes are general assistants like ChatGPT, Claude, Apple Intelligence, and Google Gemini. Who owns this layer is the biggest battle of the next few years, because it could chip away at the App Store's distribution position.
 
 **Model layer**. Anthropic, OpenAI, Google, plus DeepSeek, Alibaba's Qwen, ByteDance's Doubao. They make money selling tokens and capability. AI coding's prosperity flows to this layer first, because every Capability generation and every assistant call burns tokens.
 
@@ -357,21 +357,21 @@ A regular person's view: the phone still has 20 to 30 frequently used apps, simi
 
 # IV. Closing Thoughts
 
-Compress the article into a few lines you can hold in your head.
+Here is the article compressed into a few lines.
 
-**Principles**. AI writes code through a fusion of two things. One: code training has lifted general models to a new plateau, embedding "break a problem into steps, then make every step hold" into the model's default behavior. The most counterintuitive aspect is that the real beneficiaries of code training go far beyond the code-writing task itself — the entire language model's logic ability gets pulled up by it. Two: RLVR (reinforcement learning from real execution feedback) trained models from "able to write" to "able to write correctly," and over the past two years pushed coding ability to today's level. Code's three properties — strong regularity, objective right-or-wrong, built-in documentation — make it natural training material for models, and now a core ingredient in making general models smarter.
+**Principles**. AI writes code through two things. One: code training has lifted general models to a new level, embedding "break a problem into steps, then make every step hold" into the model's default behavior. Code training helps far beyond the code-writing task itself: it pulls up the model's general logic ability. Two: RLVR (reinforcement learning from real execution feedback) trained models from "able to write" to "able to write correctly," and over the past two years pushed coding ability to today's level. Code's three properties — strong regularity, objective right-or-wrong, built-in documentation — make it natural training material for models, and now a core ingredient in making general models smarter.
 
-**Company history**. From OpenAI dropping Codex into GitHub Copilot's muscle memory in July 2021; through ChatGPT's takeoff in November 2022 flattening the pre-AI external-brain ecosystem (Stack Overflow, Kite, Codecademy); through October 2024 when the upgraded Claude 3.5 Sonnet made "AI can really write code" true for the first time and Cursor's codebase indexing defined the new IDE pattern; through the 2024-2025 pivot to agents; to the last year of three-way ARR competition in the billions among Codex CLI, Claude Code, and Cursor. In China, ByteDance Trae, Alibaba Tongyi Lingma, Baidu Wenxin Comate, and Zhipu CodeGeeX started in parallel. The non-programmer track — Lovable, Bolt.new, v0, Replit Agent — drove the cost of building a demo to the floor. These five years have been one of the fastest-evolving product surfaces in AI.
+**Company history**. OpenAI put Codex into GitHub Copilot in July 2021. ChatGPT took off in November 2022 and flattened the pre-AI external-brain ecosystem: Stack Overflow, Kite, Codecademy. In October 2024 the upgraded Claude 3.5 Sonnet made "AI can really write code" true for the first time, while Cursor's codebase indexing defined the new IDE pattern. Then came the 2024-2025 pivot to agents, followed by a three-way ARR race in the billions among Codex CLI, Claude Code, and Cursor. In China, ByteDance Trae, Alibaba Tongyi Lingma, Baidu Wenxin Comate, and Zhipu CodeGeeX started in parallel. The non-programmer track — Lovable, Bolt.new, v0, Replit Agent — drove the cost of building a demo to the floor. These five years have been one of the fastest-moving product surfaces in AI.
 
 **Systems engineering**. Software engineering is a complete lifecycle defined by ISO/IEC/IEEE 12207, codified in Alibaba P3C and Meituan's tech blog, and covered across 18 knowledge areas in SWEBOK V4: requirements, design, development, testing, release, verification & wrap-up. The portion AI can directly replace today, weighted across substeps, is roughly 50% to 60%. Development and testing get hit hardest (70% to 85% each); requirements, design, and verification & wrap-up sit at 30% to 50%. Of the remaining 40% to 50% human work, the technical part still has room (architecture choice, complex root-cause analysis, gnarly debugging) — over a few years AI could push the whole pipeline to 70% to 80%. The institutional part (cross-person consensus, accountability, real-world interfacing) is for law and regulation to solve, not for model capability. Software engineering's complexity has been redistributed, not eliminated.
 
-**One-click app**. Personal, throwaway, internal tools are basically one-click today (95% AI plus 5% console paste-keys). Apps meant for other people, the kind that ships to App Store or takes money, are roughly 90% AI plus 10% human dashboard today. "One sentence plus 10 paste-keys" can build a real app, but the precondition is the human is willing to register a company, pass KYC, and serve as legal representative. Two paths forward: in 1 to 2 years browser agents (Computer Use, Operator) eat the paste-key layer; in several years, if AI legal entities become viable, the institutional blocker finally falls.
+**One-click app**. Personal, throwaway, internal tools are basically one-click today (95% AI plus 5% console paste-keys). Apps meant for other people, the kind that ships to App Store or takes money, are roughly 90% AI plus 10% human dashboard work today. A prompt plus 10 paste-keys can build a real app, but only if the human is willing to register a company, pass KYC, and serve as legal representative. Two paths forward: in 1 to 2 years browser agents (Computer Use, Operator) eat the paste-key layer; in several years, if AI legal entities become viable, the institutional blocker finally falls.
 
-**Ecosystem**. On the supply side, AI coding multiplies capacity 10x to 100x; demand barely moves. The middle layer gets flattened: long-tail SaaS disappears wholesale, vertical industry SaaS loses half its market. Top apps (WeChat, TikTok, Taobao, Apple, Google, Meta) don't get replaced. Network effects, data, content ecosystems, distribution gates, plus AI-driven internal speedups make them stronger. Long-tail apps decay into on-demand-generated Capabilities: throwaway, personalized, zero-install, never in an App Store. The few-years picture is three layers stacked: top-app platforms, AI assistant + Capability, model layer. The first action when picking up the phone shifts from finding an icon to telling the AI a sentence — the biggest entry-point shift since the iPhone.
+**Ecosystem**. On the supply side, AI coding multiplies capacity 10x to 100x; demand barely moves. The middle layer gets flattened: long-tail SaaS disappears, vertical industry SaaS loses half its market. Top apps (WeChat, TikTok, Taobao, Apple, Google, Meta) don't get replaced. Network effects, data, content ecosystems, distribution gates, plus AI-driven internal speedups make them stronger. Long-tail apps decay into on-demand-generated Capabilities: throwaway, personalized, zero-install, never in an App Store. The few-years picture has three layers: top-app platforms, AI assistant + Capability, model layer. The first action when picking up the phone shifts from finding an icon to telling the AI what you want — the biggest entry-point shift since the iPhone.
 
 **Where to position next**. A few paths are wide open. Be an engineer who collaborates with AI and takes on more judgment, review, and acceptance work. Be a product person who can wield AI tools against real business problems, with a clear sense of which steps to hand off to AI and which to keep on humans. Be a founder who uses AI to do solo what used to take ten people, betting on a position in the new AI-assistant + Capability layer. Or be a vertical specialist building a "small top" inside an industry's domain knowledge that AI coding can't replicate. Each of these paths is wider than it was five years ago. But the dream of "starting from scratch and building the next WeChat" really is gone — AI coding makes the top deeper, replaces most of the long tail, and opens up a fresh AI assistant layer waiting to be claimed.
 
-One sentence: AI raised the floor on building software dramatically. The ceiling is still set by humans. The biggest winners in the new map are top apps, model companies, and the few players who manage to claim ground in the assistant layer. Everyone else has to find their own leverage point.
+AI raised the floor on building software dramatically. The ceiling is still set by humans. The biggest winners in the new map are top apps, model companies, and the few players who manage to claim ground in the assistant layer. Everyone else has to find a position where AI helps them more than it helps their competitors.
 
 ---
 
