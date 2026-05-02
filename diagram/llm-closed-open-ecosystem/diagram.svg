@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 650" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+  <style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+.mini { fill: var(--bg); stroke: var(--layer-stroke); stroke-width: 1; }
+  </style>
+  <rect class="bg" x="0" y="0" width="680" height="650"/>
+  <text class="title" x="60" y="42">闭源 vs 开源：两套大模型生态</text>
+  <text class="subtitle" x="60" y="64">同样是前沿模型，赚钱方式、部署方式和区域优势已经分裂</text>
+
+  <rect class="layer" x="60" y="96" width="270" height="308" rx="8"/>
+  <text class="eyebrow" x="82" y="120">CLOSED</text>
+  <text class="eyebrow eyebrow-accent" x="308" y="120" text-anchor="end">→ 云服务</text>
+  <text class="th" x="82" y="150">闭源前沿</text>
+  <text class="ts" x="82" y="170">GPT-4o / Claude / Gemini / Grok</text>
+  <line class="divider" x1="82" y1="188" x2="308" y2="188"/>
+  <text class="th" x="82" y="220">卖什么</text>
+  <text class="t" x="154" y="220">App、API、token、席位</text>
+  <line class="divider" x1="82" y1="238" x2="308" y2="238"/>
+  <text class="th" x="82" y="270">怎么用</text>
+  <text class="t" x="154" y="270">云端调用，不开放权重</text>
+  <line class="divider" x1="82" y1="288" x2="308" y2="288"/>
+  <text class="th" x="82" y="320">优势</text>
+  <text class="t" x="154" y="320">体验、合规、分发、销售</text>
+  <line class="divider" x1="82" y1="338" x2="308" y2="338"/>
+  <text class="th" x="82" y="370">代价</text>
+  <text class="t" x="154" y="370">黑箱、依赖平台、价格受制</text>
+
+  <text class="eyebrow eyebrow-accent" x="340" y="250" text-anchor="middle">VS</text>
+  <line class="divider-accent" x1="340" y1="270" x2="340" y2="360"/>
+
+  <rect class="layer" x="350" y="96" width="270" height="308" rx="8"/>
+  <text class="eyebrow" x="372" y="120">OPEN</text>
+  <text class="eyebrow eyebrow-accent" x="598" y="120" text-anchor="end">→ 权重开放</text>
+  <text class="th" x="372" y="150">开源前沿</text>
+  <text class="ts" x="372" y="170">Llama / DeepSeek / Qwen / Mistral</text>
+  <line class="divider" x1="372" y1="188" x2="598" y2="188"/>
+  <text class="th" x="372" y="220">卖什么</text>
+  <text class="t" x="444" y="220">云服务、企业支持、生态</text>
+  <line class="divider" x1="372" y1="238" x2="598" y2="238"/>
+  <text class="th" x="372" y="270">怎么用</text>
+  <text class="t" x="444" y="270">本地部署、私有化、微调</text>
+  <line class="divider" x1="372" y1="288" x2="598" y2="288"/>
+  <text class="th" x="372" y="320">优势</text>
+  <text class="t" x="444" y="320">可控、低成本、开发者扩散</text>
+  <line class="divider" x1="372" y1="338" x2="598" y2="338"/>
+  <text class="th" x="372" y="370">代价</text>
+  <text class="t" x="444" y="370">部署门槛、运维和安全自担</text>
+
+  <rect class="layer-key" x="60" y="436" width="580" height="142" rx="8"/>
+  <text class="eyebrow eyebrow-accent" x="82" y="460">GLOBAL MAP</text>
+  <text class="eyebrow eyebrow-accent" x="618" y="460" text-anchor="end">→ 中美两极</text>
+  <text class="th" x="82" y="490">全球格局</text>
+  <text class="ts" x="82" y="510">闭源在美国，开源在中国，欧洲守住少数入口</text>
+  <line class="divider-accent" x1="82" y1="526" x2="618" y2="526"/>
+  <rect class="mini" x="82" y="542" width="120" height="24" rx="6"/>
+  <text class="ts" x="142" y="559" text-anchor="middle">美国：闭源前沿</text>
+  <rect class="mini" x="214" y="542" width="120" height="24" rx="6"/>
+  <text class="ts" x="274" y="559" text-anchor="middle">中国：开源前沿</text>
+  <rect class="mini" x="346" y="542" width="120" height="24" rx="6"/>
+  <text class="ts" x="406" y="559" text-anchor="middle">欧洲：Mistral</text>
+  <rect class="mini" x="478" y="542" width="120" height="24" rx="6"/>
+  <text class="ts" x="538" y="559" text-anchor="middle">其他：用户和算力</text>
+
+  <text class="caption-strong" x="60" y="616">这不是一个模型榜单，而是两套产业系统。</text>
+  <text class="caption" x="60" y="638">闭源拼云、资本和分发；开源拼权重、成本和可控。</text>
+</svg>
