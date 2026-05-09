@@ -24,7 +24,14 @@
 
 2023年3月9日，xAI在内华达州悄悄注册。4个月后正式对外亮相，使命写得很大：理解宇宙的真实本质（understand the true nature of the universe）。但xAI最值得关注的部分在它的初始名单上。Musk把12个人从OpenAI、DeepMind、Google Brain、Microsoft Research一个一个挖了出来。
 
-Igor Babuschkin，前DeepMind和OpenAI工程师，挂首席工程师。Yuhuai "Tony" Wu，前Google DeepMind。Christian Szegedy，前Google，深度学习里搞GAN和inception那一拨人。Jimmy Ba，多伦多大学副教授，整个深度学习行业每天都在用他和合作者2014年那篇论文里的Adam优化器。Greg Yang，前Microsoft Research研究员。Kyle Kosic等另外几个人，也都是顶尖实验室出身。
+| 联合创始人 | 背景 |
+|---|---|
+| Igor Babuschkin | 前DeepMind / OpenAI，挂首席工程师 |
+| Yuhuai "Tony" Wu | 前Google DeepMind |
+| Christian Szegedy | 前Google，深度学习里GAN和Inception那一拨 |
+| Jimmy Ba | 多伦多大学副教授，Adam优化器作者之一 |
+| Greg Yang | 前Microsoft Research研究员 |
+| Kyle Kosic等其他6人 | 各大顶尖实验室出身 |
 
 看这份名单，最直接的共同点是非常浓厚的学术背景。其中有大学在职副教授（Jimmy Ba），有顶会论文常客（Christian Szegedy、Greg Yang），有做形式化数学和大模型推理交叉的研究者（Tony Wu），加上几个研究项目出身的工程师。整支队伍的日常更靠近大学实验室和企业研究院的节奏：写论文、做实验、上顶会、长周期试错。
 
