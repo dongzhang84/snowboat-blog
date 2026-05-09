@@ -24,7 +24,11 @@
 
 2023年3月9日，xAI在内华达州悄悄注册。4个月后正式对外亮相，使命写得很大：理解宇宙的真实本质（understand the true nature of the universe）。但xAI最值得关注的部分在它的初始名单上。Musk把12个人从OpenAI、DeepMind、Google Brain、Microsoft Research一个一个挖了出来。
 
-Igor Babuschkin，前DeepMind和OpenAI工程师，挂首席工程师。Yuhuai "Tony" Wu，前Google DeepMind。Christian Szegedy，前Google，深度学习里搞GAN和inception那一拨人。Jimmy Ba，多伦多大学副教授，整个深度学习行业每天都在用他和合作者2014年那篇论文里的Adam优化器。Greg Yang，前Microsoft Research。Kyle Kosic等另外几个人，也都是顶尖实验室出身。
+Igor Babuschkin，前DeepMind和OpenAI工程师，挂首席工程师。Yuhuai "Tony" Wu，前Google DeepMind。Christian Szegedy，前Google，深度学习里搞GAN和inception那一拨人。Jimmy Ba，多伦多大学副教授，整个深度学习行业每天都在用他和合作者2014年那篇论文里的Adam优化器。Greg Yang，前Microsoft Research研究员。Kyle Kosic等另外几个人，也都是顶尖实验室出身。
+
+看这份名单，最直接的共同点是非常浓厚的学术背景。其中有大学在职副教授（Jimmy Ba），有顶会论文常客（Christian Szegedy、Greg Yang），有做形式化数学和大模型推理交叉的研究者（Tony Wu），加上几个研究项目出身的工程师。整支队伍的日常更靠近大学实验室和企业研究院的节奏：写论文、做实验、上顶会、长周期试错。
+
+Musk这一轮招人的style非常学术化，他要的是能在前沿做突破、能打榜、能写出新算法的人。做工业界产品、做规模化运维、做企业销售这些工种几乎不在他的清单上。这种招聘style在2023年AI实验室刚崛起的时候是行业共识，OpenAI、DeepMind、Anthropic当时也都是这么招人的。但这个选择会在3年之后给xAI带来文化上的根本冲突，后面1.3节会讲到。
 
 Musk给他们的承诺是研究自由加影响力。这群泡在论文堆里的人能在Big Tech之外找到的最有诱惑力的故事。
 
