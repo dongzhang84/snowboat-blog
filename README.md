@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 26 | 5/8 | [Vibe Learning：AI 时代，学习这件事被重新组织了](Vibe%20Learning：AI%20时代，学习这件事被重新组织了.md) | [link](https://x.com/snowboat84/status/2052908751435477046) | — | [link](https://zhuanlan.zhihu.com/p/2036320348023608889) |
 | 25 | 5/7 | [福特经济学和 AI 经济学](福特经济学和%20AI%20经济学.md) | [link](https://x.com/snowboat84/status/2052551731385602072) | — | [link](https://zhuanlan.zhihu.com/p/2035998279473836299) |
 | 24 | 5/6 | [数学照妖镜：AI 能发现新的数学定理吗？](数学照妖镜：AI%20能发现新的数学定理吗？.md) | [link](https://x.com/snowboat84/status/2052174034041995572) | — | [link](https://zhuanlan.zhihu.com/p/2035594900369039855) |
 | 23 | 5/5 | [手把手教你分析：你会被AI取代吗?](手把手教你分析：你会被AI取代吗?.md) | [link](https://x.com/snowboat84/status/2051818364507688978) | — | [link](https://zhuanlan.zhihu.com/p/2035269868048602086) |
