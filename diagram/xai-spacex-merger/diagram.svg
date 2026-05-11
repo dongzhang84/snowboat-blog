@@ -1,0 +1,109 @@
+<svg width="100%" viewBox="0 0 680 540" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root {
+      --bg: #fafafa;
+      --fg: #1a1a1a;
+      --muted: #6b7280;
+      --border: #d4d4d8;
+      --teal: #0d9488;
+      --teal-bg: #f0fdfa;
+      --coral: #ef4444;
+      --coral-bg: #fef2f2;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0a0a0a;
+        --fg: #fafafa;
+        --muted: #9ca3af;
+        --border: #3f3f46;
+        --teal: #2dd4bf;
+        --teal-bg: #064e3b;
+        --coral: #f87171;
+        --coral-bg: #4c1d24;
+      }
+    }
+    .bg { fill: var(--bg); }
+    .t { fill: var(--fg); font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 14px; font-weight: 400; }
+    .th { fill: var(--fg); font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 14px; font-weight: 500; }
+    .ts { fill: var(--muted); font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; font-weight: 400; }
+    .title { fill: var(--fg); font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 17px; font-weight: 500; }
+    .th-coral { fill: var(--coral); font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 13px; font-weight: 500; }
+    .th-teal { fill: var(--teal); font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 13px; font-weight: 500; }
+    .box-coral { fill: var(--coral-bg); stroke: var(--coral); stroke-width: 1; }
+    .box-teal { fill: var(--teal-bg); stroke: var(--teal); stroke-width: 1; }
+    .container-coral { fill: none; stroke: var(--coral); stroke-width: 1.2; stroke-dasharray: 6 3; opacity: 0.7; }
+    .container-teal { fill: none; stroke: var(--teal); stroke-width: 1.2; stroke-dasharray: 6 3; opacity: 0.7; }
+    .arr-coral { fill: none; stroke: var(--coral); stroke-width: 2; }
+    .arr-teal { fill: none; stroke: var(--teal); stroke-width: 2; }
+    .divider { fill: none; stroke: var(--border); stroke-width: 1; stroke-dasharray: 3 3; }
+    .marker-coral { fill: var(--coral); }
+    .marker-teal { fill: var(--teal); }
+  </style>
+  <defs>
+    <marker id="arrow-coral" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" class="marker-coral"/>
+    </marker>
+    <marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" class="marker-teal"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="680" height="540"/>
+
+  <text class="title" x="340" y="36" text-anchor="middle">xAI 并入 SpaceX：一次双向资产重组</text>
+  <text class="ts" x="340" y="58" text-anchor="middle">两家各自带着什么进入合并，又从对方拿到什么</text>
+
+  <rect class="container-coral" x="30" y="90" width="240" height="330" rx="8"/>
+  <text class="th-coral" x="150" y="118" text-anchor="middle">xAI 的困境</text>
+  <text class="ts" x="150" y="135" text-anchor="middle">独立讲不下去的故事</text>
+
+  <rect class="box-coral" x="50" y="155" width="200" height="56" rx="6"/>
+  <text class="th" x="150" y="178" text-anchor="middle">季度亏 14.6 亿美元</text>
+  <text class="ts" x="150" y="197" text-anchor="middle">月烧 10 亿，融资困难</text>
+
+  <rect class="box-coral" x="50" y="221" width="200" height="56" rx="6"/>
+  <text class="th" x="150" y="244" text-anchor="middle">11 位联合创始人全走</text>
+  <text class="ts" x="150" y="263" text-anchor="middle">80 多研究员集体离开</text>
+
+  <rect class="box-coral" x="50" y="287" width="200" height="56" rx="6"/>
+  <text class="th" x="150" y="310" text-anchor="middle">Colossus 1 利用率 11%</text>
+  <text class="ts" x="150" y="329" text-anchor="middle">180 亿硬件大部分闲置</text>
+
+  <rect class="box-coral" x="50" y="353" width="200" height="56" rx="6"/>
+  <text class="th" x="150" y="376" text-anchor="middle">企业收入跑不出来</text>
+  <text class="ts" x="150" y="395" text-anchor="middle">消费战略输给企业战略</text>
+
+  <rect class="container-teal" x="410" y="90" width="240" height="330" rx="8"/>
+  <text class="th-teal" x="530" y="118" text-anchor="middle">SpaceX 的处境</text>
+  <text class="ts" x="530" y="135" text-anchor="middle">IPO 需要更大的故事</text>
+
+  <rect class="box-teal" x="430" y="155" width="200" height="56" rx="6"/>
+  <text class="th" x="530" y="178" text-anchor="middle">Starlink 现金流凶猛</text>
+  <text class="ts" x="530" y="197" text-anchor="middle">100 亿营收 / 80 亿利润</text>
+
+  <rect class="box-teal" x="430" y="221" width="200" height="56" rx="6"/>
+  <text class="th" x="530" y="244" text-anchor="middle">IPO 故事不够大</text>
+  <text class="ts" x="530" y="263" text-anchor="middle">单独估值 5000-8000 亿</text>
+
+  <rect class="box-teal" x="430" y="287" width="200" height="56" rx="6"/>
+  <text class="th" x="530" y="310" text-anchor="middle">政府渠道现成</text>
+  <text class="ts" x="530" y="329" text-anchor="middle">五角大楼 / NASA 关系深</text>
+
+  <rect class="box-teal" x="430" y="353" width="200" height="56" rx="6"/>
+  <text class="th" x="530" y="376" text-anchor="middle">IPO 时间窗口紧</text>
+  <text class="ts" x="530" y="395" text-anchor="middle">2026 年 6 月递交 S-1</text>
+
+  <path class="arr-coral" d="M 270 215 L 405 215" marker-end="url(#arrow-coral)"/>
+  <text class="th-coral" x="338" y="208" text-anchor="middle">xAI 给 SpaceX</text>
+  <text class="ts" x="338" y="232" text-anchor="middle">估值故事 + AI 标签</text>
+
+  <path class="arr-teal" d="M 410 349 L 275 349" marker-end="url(#arrow-teal)"/>
+  <text class="th-teal" x="338" y="342" text-anchor="middle">SpaceX 给 xAI</text>
+  <text class="ts" x="338" y="366" text-anchor="middle">资产容器 + 政府渠道</text>
+
+  <line class="divider" x1="60" y1="445" x2="620" y2="445"/>
+  <text class="th" x="340" y="470" text-anchor="middle">合并实体估值 1.25 万亿美元</text>
+  <text class="ts" x="340" y="490" text-anchor="middle">表层是 AI 业务并入航天公司，底层是双向资产重组</text>
+  <text class="ts" x="340" y="510" text-anchor="middle">2026 年 2 月股权合并  ·  5 月 6 日 xAI 法律实体解散</text>
+
+</svg>
