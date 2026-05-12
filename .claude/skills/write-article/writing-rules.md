@@ -375,3 +375,27 @@ with open(path, 'w', encoding='utf-8') as f:
   - Em dash `—` is allowed in English for rhythm (the `——` ban applies only to Chinese prose)
 - 🔒 **Hard constraint**: After first draft of any English content, Grep `,[^,]*,[^,]*,[^,]*,` (4+ commas in one sentence) and rewrite each hit. Scan visually for runs of 3+ short sentences and merge one with a semicolon or restructure.
 - 📍 **Context**: First English translation of the Jensen Huang article had too-long subclause-stacked sentences in some paragraphs and too-choppy 5-word sentences in others. User flagged: "sentences sometimes too long, sometimes too many commas, sometimes broken into too many short pieces."
+
+## [2026-05-11] 美国政治/政策类话题立场偏向（民主党或共和党）
+
+- ❌ **错误示范**：
+  - 隐含某种政策路径（全民医保、扩大Medicaid、ACA、移民改革）是"应该达到的终点"
+  - 把利益集团（AMA、保险公司、PBM、制药公司、工会、教会）一律描述成阻碍改革的反派
+  - 用"扭曲""畸高""荒谬""脂肪""动奶酪"这类预设立场的形容
+  - 把现状反对方（红州、保守派、市场派）的诉求只写成政治阻力，不写他们的实际论据
+  - 把ACA这类政策定性为"三件正面的事"或类似预设褒贬判断
+  - 假设1.5亿有雇主保险的人"害怕变差"是非理性，或"维持现状"是被卡住
+  - 引用川普某项政策（如取消ACA mandate）只讲一边的解读
+- ✅ **正确做法**：
+  - 涉及两派对立的政策议题，每个关键点给两派各一段公道话：左派要什么、为什么；右派要什么、为什么
+  - 用中性形容词（"成本结构""复杂性""权衡"）替代价值化形容（"扭曲""脂肪""畸高"）
+  - 承认市场化系统的优势（创新、选择、研发激励、顶级质量）跟单一付款人系统的优势（覆盖、成本控制、可及性）是两种合法权衡
+  - 利益集团有合理诉求（医生收入、研发激励、消费者选择权、就业保护），不要默认描述为"反派"
+  - 当前现状有支持者也有反对者，两边都是合法立场
+  - 中国/欧洲对照只用作描述，不作"美国应该学谁"的暗示
+- 🔒 **硬性约束**：
+  - 写完 Grep 价值化词清单：`畸高 扭曲 荒谬 脂肪 奶酪 卡死 正面的事 失败了 改不动 拒绝扩大 深层利益`，正文命中即改写
+  - 涉及美国政策史的章节（医改、移民、税改、教改、枪改、堕胎），结尾或关键节必须有"双方各自的合理论据"段落
+  - 自检问："一个共和党读者读这段会觉得作者在嘲讽他吗？" / "一个民主党读者会觉得作者在站他这边吗？" 答案是"会"就改写
+  - 引用川普、拜登、奥巴马、希拉里、桑德斯等具体政治人物时，描述只讲事实，不附带价值评判
+- 📍 **背景**：用户读完《一文讲清楚美国医疗全生态》初版反馈"非常偏向民主党的口吻"。具体踩坑：把美国说成"唯一没走完全民医保这条路的发达国家"（隐含失败叙事）、把AMA和保险公司描述成单纯的反派、把ACA定性为"三件正面的事"、把红州不扩大Medicaid描述为"拒绝扩大"。整篇是从单一立场视角写的。改稿后给每个政策点都加上两派论据对照。
