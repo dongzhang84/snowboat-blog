@@ -110,6 +110,10 @@ Before modifying article content, Codex should:
 4. Preserve existing article intent unless the user asks for a rewrite.
 5. Avoid touching published articles, drafts, assets, scripts, or workflow files outside the requested scope.
 
+When the user asks a factual, conceptual, or editorial question about an article, first decide whether they are asking for an answer in chat, a change to the article, or both. Do not paste the chat answer into the article. Article edits must be rewritten for an outside reader who has not seen the conversation: keep only the context needed for the article, remove meta-discussion, remove direct replies to the user, and avoid Q&A phrasing that only makes sense inside the chat.
+
+When a user flags that a passage is confusing, prefer the smallest article-body change that fixes the reader's confusion. Do not add the full diagnostic explanation unless that explanation is genuinely needed by future readers. If the user asks for broader context, integrate it as article narrative rather than as a direct answer to the user's wording.
+
 Do not casually change:
 
 - Published article Markdown files.
