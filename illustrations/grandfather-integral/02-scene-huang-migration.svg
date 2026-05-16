@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 450" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #1f2937; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #faf6ef; --silhouette: #3a2e22; --silhouette-soft: #6b5742; --accent: #d97742; --ocean: #7a9a9c; --sky-tint: #ecdcc4; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3e8d6; --fg-muted: #c2b59c; --fg-soft: #8a7d68; --bg: #1a1411; --silhouette: #f0e2cb; --silhouette-soft: #b8a386; --accent: #f0a070; --ocean: #4a6668; --sky-tint: #2a2218; } }
+.bg { fill: var(--bg); }
+.silhouette { fill: var(--silhouette); }
+.silhouette-soft { fill: var(--silhouette-soft); }
+.accent { fill: var(--accent); }
+.ocean { fill: var(--ocean); opacity: 0.4; }
+.sky-tint { fill: var(--sky-tint); }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; fill: var(--fg-muted); }
+.label { font-size: 11px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.05em; }
+.label-big { font-size: 13px; font-weight: 600; fill: var(--fg); }
+.arrow { stroke: var(--fg-soft); stroke-width: 1.4; fill: none; stroke-dasharray: 5 4; }
+.arrowhead { fill: var(--fg-soft); }
+</style>
+
+<rect class="bg" width="800" height="450"/>
+
+<!-- LEFT SECTION: 浙江青田 -->
+<g>
+  <!-- Mountains backdrop -->
+  <path class="silhouette-soft" opacity="0.35" d="M 20 280 L 60 220 L 100 250 L 140 200 L 180 240 L 220 230 L 260 290 L 20 290 Z"/>
+
+  <!-- Traditional village rooftops -->
+  <g class="silhouette" opacity="0.7">
+    <!-- House 1 -->
+    <path d="M 50 320 L 70 305 L 90 320 L 90 345 L 50 345 Z"/>
+    <!-- House 2 (slightly behind) -->
+    <path d="M 95 325 L 115 310 L 135 325 L 135 345 L 95 345 Z"/>
+    <!-- House 3 -->
+    <path d="M 140 318 L 165 300 L 190 318 L 190 345 L 140 345 Z"/>
+    <!-- House 4 -->
+    <path d="M 195 325 L 215 312 L 235 325 L 235 345 L 195 345 Z"/>
+  </g>
+
+  <!-- Young man (黄兴泰) leaving with bundle -->
+  <g transform="translate(220 320)">
+    <circle class="silhouette" cx="0" cy="0" r="8"/>
+    <path class="silhouette" d="M -7 7 Q -9 16 -7 24 L -10 50 L -5 50 L -3 28 L 3 28 L 5 50 L 10 50 L 7 24 Q 9 16 7 7 Z"/>
+    <!-- Carrying bundle -->
+    <path class="silhouette" d="M 7 12 L 18 8 L 22 14 L 19 17 Z"/>
+    <circle class="silhouette" cx="20" cy="11" r="4"/>
+  </g>
+
+  <!-- Ground -->
+  <line x1="20" y1="345" x2="260" y2="345" stroke="var(--silhouette-soft)" stroke-width="0.8" opacity="0.5"/>
+
+  <text class="label" x="140" y="375" text-anchor="middle">浙江青田 · 1940s</text>
+</g>
+
+<!-- MIDDLE SECTION: 海洋 + 船 -->
+<g>
+  <!-- Ocean waves -->
+  <path class="ocean" d="M 280 320 Q 320 315 360 320 Q 400 325 440 320 Q 480 315 520 320 L 520 360 L 280 360 Z"/>
+  <path class="ocean" d="M 280 335 Q 320 330 360 335 Q 400 340 440 335 Q 480 330 520 335 L 520 360 L 280 360 Z" opacity="0.6"/>
+
+  <!-- Ship -->
+  <g transform="translate(380 295)">
+    <!-- Hull -->
+    <path class="silhouette" d="M -50 0 L 50 0 L 42 18 L -42 18 Z"/>
+    <!-- Deck superstructure -->
+    <rect class="silhouette" x="-25" y="-12" width="40" height="12"/>
+    <!-- Smokestack -->
+    <rect class="silhouette" x="2" y="-22" width="6" height="10"/>
+    <!-- Mast -->
+    <line x1="-15" y1="-12" x2="-15" y2="-30" stroke="var(--silhouette)" stroke-width="1.5"/>
+    <!-- Faint family silhouettes on deck -->
+    <circle class="silhouette" cx="-15" cy="-18" r="2"/>
+    <circle class="silhouette" cx="-8" cy="-18" r="2"/>
+    <circle class="silhouette" cx="22" cy="-18" r="2"/>
+  </g>
+
+  <text class="label" x="400" y="375" text-anchor="middle">台湾 · 美国 · 跨海几十年</text>
+</g>
+
+<!-- RIGHT SECTION: 美国校园 / 城市 -->
+<g>
+  <!-- Distant skyline / campus tower -->
+  <g class="silhouette-soft" opacity="0.4">
+    <rect x="580" y="250" width="14" height="95"/>
+    <rect x="598" y="225" width="20" height="120"/>
+    <!-- Campus building with column hint -->
+    <path d="M 625 240 L 625 250 L 670 250 L 670 240 L 660 240 L 660 230 L 635 230 L 635 240 Z"/>
+    <rect x="625" y="250" width="45" height="95"/>
+    <!-- Columns -->
+    <rect x="632" y="252" width="2" height="32" fill="var(--bg)"/>
+    <rect x="640" y="252" width="2" height="32" fill="var(--bg)"/>
+    <rect x="648" y="252" width="2" height="32" fill="var(--bg)"/>
+    <rect x="656" y="252" width="2" height="32" fill="var(--bg)"/>
+    <rect x="664" y="252" width="2" height="32" fill="var(--bg)"/>
+    <!-- More towers -->
+    <rect x="685" y="230" width="22" height="115"/>
+    <rect x="712" y="245" width="18" height="100"/>
+    <rect x="735" y="220" width="22" height="125"/>
+  </g>
+
+  <!-- Young boy (黄仁勋) with backpack walking toward campus -->
+  <g transform="translate(595 320)">
+    <circle class="silhouette" cx="0" cy="0" r="7"/>
+    <path class="silhouette" d="M -6 6 Q -8 14 -6 22 L -8 45 L -4 45 L -3 25 L 3 25 L 4 45 L 8 45 L 6 22 Q 8 14 6 6 Z"/>
+    <!-- Backpack (accent color) -->
+    <rect class="accent" x="-6" y="9" width="6" height="14" rx="1.5"/>
+  </g>
+
+  <line x1="540" y1="345" x2="780" y2="345" stroke="var(--silhouette-soft)" stroke-width="0.8" opacity="0.5"/>
+
+  <text class="label" x="660" y="375" text-anchor="middle">俄勒冈 · Stanford · 英伟达</text>
+</g>
+
+<!-- Connecting dashed arrows between sections -->
+<path class="arrow" d="M 245 295 Q 270 290 290 290"/>
+<path class="arrowhead" d="M 290 287 L 297 290 L 290 293 Z"/>
+<path class="arrow" d="M 475 295 Q 510 290 540 290"/>
+<path class="arrowhead" d="M 540 287 L 547 290 L 540 293 Z"/>
+
+<!-- Title -->
+<text class="title" x="40" y="40">一条家族迁移路径的积分</text>
+<text class="subtitle" x="40" y="60">黄兴泰从青田到台湾到美国走完的路，是黄仁勋的起点</text>
+</svg>

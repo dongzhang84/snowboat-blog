@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 450" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #1f2937; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #faf6ef; --layer-bg: #f3ebdb; --silhouette: #3a2e22; --silhouette-soft: #6b5742; --accent: #d97742; --accent-soft: #e89860; --bg-tint: #ede3d0; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3e8d6; --fg-muted: #c2b59c; --fg-soft: #8a7d68; --bg: #1a1411; --layer-bg: #28201a; --silhouette: #f0e2cb; --silhouette-soft: #b8a386; --accent: #f0a070; --accent-soft: #d97742; --bg-tint: #2a2218; } }
+.bg { fill: var(--bg); }
+.silhouette { fill: var(--silhouette); }
+.silhouette-soft { fill: var(--silhouette-soft); }
+.bg-tint { fill: var(--bg-tint); }
+.accent { fill: var(--accent); }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; fill: var(--fg-muted); }
+.label { font-size: 11px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.05em; }
+.curve { fill: none; stroke: var(--fg-soft); stroke-width: 1.5; stroke-dasharray: 4 3; opacity: 0.6; }
+</style>
+
+<rect class="bg" width="800" height="450"/>
+
+<!-- Background skyline hints -->
+<!-- Left: village (low rooftops) -->
+<g class="silhouette-soft" opacity="0.35">
+  <path d="M40 360 L40 335 L60 320 L80 335 L80 360 Z"/>
+  <path d="M85 360 L85 340 L100 328 L115 340 L115 360 Z"/>
+  <path d="M120 360 L120 345 L135 333 L150 345 L150 360 Z"/>
+  <path d="M155 360 L155 338 L170 326 L185 338 L185 360 Z"/>
+  <path d="M190 360 L190 348 L200 340 L210 348 L210 360 Z"/>
+</g>
+
+<!-- Middle: city buildings -->
+<g class="silhouette-soft" opacity="0.35">
+  <rect x="320" y="265" width="22" height="95"/>
+  <rect x="346" y="245" width="26" height="115"/>
+  <rect x="376" y="270" width="20" height="90"/>
+  <rect x="400" y="252" width="28" height="108"/>
+  <rect x="432" y="275" width="22" height="85"/>
+  <rect x="458" y="260" width="20" height="100"/>
+</g>
+
+<!-- Right: modern skyline -->
+<g class="silhouette-soft" opacity="0.35">
+  <rect x="580" y="170" width="18" height="190"/>
+  <rect x="602" y="135" width="24" height="225"/>
+  <rect x="630" y="155" width="20" height="205"/>
+  <rect x="654" y="125" width="26" height="235"/>
+  <rect x="684" y="180" width="18" height="180"/>
+  <rect x="706" y="145" width="22" height="215"/>
+  <rect x="732" y="170" width="18" height="190"/>
+</g>
+
+<!-- Ground line -->
+<line x1="40" y1="360" x2="760" y2="360" stroke="var(--silhouette-soft)" stroke-width="0.8" opacity="0.5"/>
+
+<!-- Ascending path (the integral curve) -->
+<path class="curve" d="M 60 350 Q 200 340 280 290 Q 380 220 480 180 Q 580 145 740 90"/>
+
+<!-- Figure 1: Grandfather (left, lower) -->
+<g transform="translate(140 280)">
+  <!-- Slight stoop, walking forward -->
+  <circle class="silhouette" cx="0" cy="0" r="9"/>
+  <path class="silhouette" d="M -8 8 Q -10 18 -8 28 L -12 60 L -6 60 L -3 32 L 3 32 L 6 60 L 12 60 L 9 28 Q 11 18 9 8 Z"/>
+  <!-- Holding baton (slightly bent arm extending right) -->
+  <path class="silhouette" d="M 6 12 L 24 22 L 26 25 L 22 25 L 6 16 Z"/>
+</g>
+
+<!-- Baton (accent color) being passed -->
+<rect class="accent" x="168" y="298" width="34" height="3.5" rx="1.5" transform="rotate(-12 185 300)"/>
+
+<!-- Figure 2: Father (middle) -->
+<g transform="translate(380 200)">
+  <!-- Upright, mid-stride, reaching back -->
+  <circle class="silhouette" cx="0" cy="0" r="9"/>
+  <path class="silhouette" d="M -8 8 Q -10 18 -8 28 L -11 60 L -5 60 L -3 32 L 3 32 L 5 60 L 11 60 L 8 28 Q 10 18 8 8 Z"/>
+  <!-- Left arm reaching back to receive baton -->
+  <path class="silhouette" d="M -8 14 L -28 24 L -30 27 L -26 27 L -8 18 Z"/>
+  <!-- Right arm forward -->
+  <path class="silhouette" d="M 8 14 L 20 22 L 22 25 L 18 25 L 8 18 Z"/>
+</g>
+
+<!-- Figure 3: Grandson (right, upper) -->
+<g transform="translate(640 110)">
+  <!-- Upright, looking forward, hands ready -->
+  <circle class="silhouette" cx="0" cy="0" r="9"/>
+  <path class="silhouette" d="M -8 8 Q -10 18 -8 28 L -11 60 L -5 60 L -3 32 L 3 32 L 5 60 L 11 60 L 8 28 Q 10 18 8 8 Z"/>
+  <!-- Hands at sides, alert -->
+  <path class="silhouette" d="M -8 14 L -12 30 L -8 30 L -6 18 Z"/>
+  <path class="silhouette" d="M 8 14 L 12 30 L 8 30 L 6 18 Z"/>
+</g>
+
+<!-- Labels (eyebrow style) -->
+<text class="label" x="140" y="395" text-anchor="middle">祖父</text>
+<text class="label" x="380" y="395" text-anchor="middle">父辈</text>
+<text class="label" x="640" y="395" text-anchor="middle">你</text>
+
+<!-- Title -->
+<text class="title" x="40" y="40">祖父积分学</text>
+<text class="subtitle" x="40" y="60">命运是几代人路径上的连续曲线，你拿到的是前面几段积分之后的当前值</text>
+</svg>

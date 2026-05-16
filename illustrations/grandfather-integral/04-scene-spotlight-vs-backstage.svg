@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 450" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #1f2937; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #faf6ef; --silhouette: #3a2e22; --silhouette-soft: #6b5742; --backstage: #5a6b80; --accent: #d97742; --spotlight: #f4c180; --curtain: #8a3a3a; --stage-floor: #4a3a2a; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3e8d6; --fg-muted: #c2b59c; --fg-soft: #8a7d68; --bg: #1a1411; --silhouette: #f0e2cb; --silhouette-soft: #b8a386; --backstage: #7a8aa0; --accent: #f0a070; --spotlight: #f4c180; --curtain: #c25050; --stage-floor: #6a5a48; } }
+.bg { fill: var(--bg); }
+.silhouette { fill: var(--silhouette); }
+.backstage-fig { fill: var(--backstage); opacity: 0.65; }
+.spotlight-glow { fill: var(--spotlight); opacity: 0.35; }
+.curtain { fill: var(--curtain); opacity: 0.75; }
+.stage-floor { fill: var(--stage-floor); opacity: 0.45; }
+.accent { fill: var(--accent); }
+.connector { stroke: var(--fg-soft); stroke-width: 0.9; stroke-dasharray: 2 3; fill: none; opacity: 0.55; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; fill: var(--fg-muted); }
+.label { font-size: 11px; font-weight: 500; fill: var(--fg-muted); letter-spacing: 0.05em; }
+.label-stage { font-size: 12px; font-weight: 600; fill: var(--fg); letter-spacing: 0.05em; }
+.label-back { font-size: 10px; font-style: italic; fill: var(--fg-soft); }
+</style>
+
+<rect class="bg" width="800" height="450"/>
+
+<!-- Stage floor -->
+<rect class="stage-floor" x="0" y="350" width="800" height="60"/>
+<line x1="0" y1="350" x2="800" y2="350" stroke="var(--silhouette-soft)" stroke-width="1" opacity="0.5"/>
+
+<!-- Stage edge highlight -->
+<line x1="0" y1="350" x2="800" y2="350" stroke="var(--accent)" stroke-width="1.5" opacity="0.5"/>
+
+<!-- Curtains (left and right, pulled aside) -->
+<path class="curtain" d="M 0 90 L 0 360 L 120 360 Q 100 280 110 200 Q 115 130 100 90 Z"/>
+<path class="curtain" d="M 800 90 L 800 360 L 680 360 Q 700 280 690 200 Q 685 130 700 90 Z"/>
+
+<!-- Curtain vertical folds (subtle) -->
+<g stroke="var(--curtain)" stroke-width="1" fill="none" opacity="0.4">
+  <path d="M 30 90 Q 25 200 35 360"/>
+  <path d="M 60 90 Q 55 200 65 360"/>
+  <path d="M 90 90 Q 85 200 95 360"/>
+  <path d="M 740 90 Q 745 200 735 360"/>
+  <path d="M 770 90 Q 775 200 765 360"/>
+</g>
+
+<!-- BACKSTAGE: 5 supporting figures, semi-transparent, behind a faint scrim -->
+<!-- Scrim/backdrop -->
+<rect fill="var(--silhouette-soft)" x="130" y="130" width="540" height="200" opacity="0.05"/>
+
+<!-- 5 backstage figures arranged in arc -->
+<!-- Family (far left back) -->
+<g transform="translate(180 220)">
+  <circle class="backstage-fig" cx="0" cy="0" r="8"/>
+  <path class="backstage-fig" d="M -7 7 Q -9 16 -7 24 L -9 52 L -4 52 L -2 28 L 2 28 L 4 52 L 9 52 L 7 24 Q 9 16 7 7 Z"/>
+</g>
+<text class="label-back" x="180" y="295" text-anchor="middle">家族</text>
+
+<!-- Mentor (left back) -->
+<g transform="translate(280 200)">
+  <circle class="backstage-fig" cx="0" cy="0" r="8"/>
+  <path class="backstage-fig" d="M -7 7 Q -9 16 -7 24 L -9 52 L -4 52 L -2 28 L 2 28 L 4 52 L 9 52 L 7 24 Q 9 16 7 7 Z"/>
+</g>
+<text class="label-back" x="280" y="275" text-anchor="middle">导师</text>
+
+<!-- School (center back, slightly higher) -->
+<g transform="translate(400 190)">
+  <circle class="backstage-fig" cx="0" cy="0" r="8"/>
+  <path class="backstage-fig" d="M -7 7 Q -9 16 -7 24 L -9 52 L -4 52 L -2 28 L 2 28 L 4 52 L 9 52 L 7 24 Q 9 16 7 7 Z"/>
+</g>
+<text class="label-back" x="400" y="265" text-anchor="middle">学校</text>
+
+<!-- Capital (right back) -->
+<g transform="translate(520 200)">
+  <circle class="backstage-fig" cx="0" cy="0" r="8"/>
+  <path class="backstage-fig" d="M -7 7 Q -9 16 -7 24 L -9 52 L -4 52 L -2 28 L 2 28 L 4 52 L 9 52 L 7 24 Q 9 16 7 7 Z"/>
+</g>
+<text class="label-back" x="520" y="275" text-anchor="middle">资本</text>
+
+<!-- Era (far right back) -->
+<g transform="translate(620 220)">
+  <circle class="backstage-fig" cx="0" cy="0" r="8"/>
+  <path class="backstage-fig" d="M -7 7 Q -9 16 -7 24 L -9 52 L -4 52 L -2 28 L 2 28 L 4 52 L 9 52 L 7 24 Q 9 16 7 7 Z"/>
+</g>
+<text class="label-back" x="620" y="295" text-anchor="middle">时代</text>
+
+<!-- SPOTLIGHT cone from above onto front figure -->
+<path class="spotlight-glow" d="M 365 0 L 435 0 L 470 350 L 330 350 Z"/>
+
+<!-- FRONT FIGURE: hero in spotlight -->
+<g transform="translate(400 290)">
+  <!-- Body in full silhouette -->
+  <circle class="silhouette" cx="0" cy="0" r="11"/>
+  <path class="silhouette" d="M -10 10 Q -12 22 -10 32 L -14 62 L -7 62 L -4 36 L 4 36 L 7 62 L 14 62 L 10 32 Q 12 22 10 10 Z"/>
+  <!-- Right arm raised holding microphone -->
+  <path class="silhouette" d="M 10 16 L 22 6 L 25 9 L 13 19 Z"/>
+  <!-- Microphone -->
+  <ellipse class="accent" cx="24" cy="5" rx="3" ry="4"/>
+  <rect class="accent" x="22" y="7" width="2" height="6"/>
+  <!-- Left arm at side -->
+  <path class="silhouette" d="M -10 16 L -14 36 L -10 36 L -8 20 Z"/>
+</g>
+
+<!-- Audience hint in front (very faint silhouettes at bottom) -->
+<g opacity="0.4">
+  <g fill="var(--silhouette-soft)">
+    <circle cx="200" cy="420" r="6"/>
+    <circle cx="240" cy="425" r="6"/>
+    <circle cx="280" cy="422" r="6"/>
+    <circle cx="320" cy="425" r="6"/>
+    <circle cx="360" cy="423" r="6"/>
+    <circle cx="440" cy="423" r="6"/>
+    <circle cx="480" cy="425" r="6"/>
+    <circle cx="520" cy="422" r="6"/>
+    <circle cx="560" cy="425" r="6"/>
+    <circle cx="600" cy="420" r="6"/>
+  </g>
+</g>
+
+<!-- Connecting lines from each backstage figure to front figure -->
+<g class="connector">
+  <path d="M 188 220 Q 290 250 392 290"/>
+  <path d="M 285 215 Q 340 250 395 290"/>
+  <path d="M 400 215 L 400 285"/>
+  <path d="M 515 215 Q 460 250 405 290"/>
+  <path d="M 612 220 Q 510 250 408 290"/>
+</g>
+
+<!-- Labels -->
+<text class="label-stage" x="400" y="385" text-anchor="middle">「白手起家」</text>
+<text class="label" x="400" y="403" text-anchor="middle">公众看到的故事</text>
+
+<!-- Title -->
+<text class="title" x="40" y="40">舞台前的英雄，舞台后的网络</text>
+<text class="subtitle" x="40" y="60">每个被叫做"白手起家"的人，背后都有一组没被讲清楚的支撑</text>
+</svg>

@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 450" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #1f2937; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #faf6ef; --silhouette: #3a2e22; --silhouette-soft: #6b5742; --accent: #d97742; --network: #5a6f8e; --bg-tint: #ede3d0; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3e8d6; --fg-muted: #c2b59c; --fg-soft: #8a7d68; --bg: #1a1411; --silhouette: #f0e2cb; --silhouette-soft: #b8a386; --accent: #f0a070; --network: #8aa0bd; --bg-tint: #2a2218; } }
+.bg { fill: var(--bg); }
+.silhouette { fill: var(--silhouette); }
+.silhouette-soft { fill: var(--silhouette-soft); }
+.accent { fill: var(--accent); stroke: var(--accent); }
+.accent-stroke { stroke: var(--accent); fill: none; }
+.network { stroke: var(--network); fill: none; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; fill: var(--fg-muted); }
+.label { font-size: 11px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.05em; }
+.label-big { font-size: 13px; font-weight: 600; fill: var(--fg); }
+.divider { stroke: var(--fg-soft); stroke-width: 1; stroke-dasharray: 3 4; opacity: 0.5; }
+</style>
+
+<rect class="bg" width="800" height="450"/>
+
+<!-- LEFT SIDE: Private Capital (家族私积分) -->
+<g>
+  <!-- House silhouette -->
+  <g transform="translate(180 220)">
+    <!-- Roof -->
+    <path class="silhouette" d="M -60 0 L 0 -45 L 60 0 Z"/>
+    <!-- Body -->
+    <rect class="silhouette" x="-50" y="0" width="100" height="80"/>
+    <!-- Door -->
+    <rect fill="var(--bg)" x="-12" y="38" width="24" height="42"/>
+    <!-- Windows -->
+    <rect fill="var(--bg)" x="-38" y="18" width="18" height="18"/>
+    <rect fill="var(--bg)" x="20" y="18" width="18" height="18"/>
+    <!-- Chimney -->
+    <rect class="silhouette" x="22" y="-30" width="10" height="20"/>
+  </g>
+
+  <!-- Three overlapping ancestor silhouettes (ghostly) in front -->
+  <g transform="translate(165 320)" opacity="0.4">
+    <!-- Grandfather (back) -->
+    <g transform="translate(-22 -2)">
+      <circle class="silhouette" cx="0" cy="0" r="7"/>
+      <path class="silhouette" d="M -6 6 Q -8 14 -6 22 L -7 36 L -2 36 L -1 24 L 1 24 L 2 36 L 7 36 L 6 22 Q 8 14 6 6 Z"/>
+    </g>
+  </g>
+  <g transform="translate(180 322)" opacity="0.55">
+    <!-- Father (middle) -->
+    <circle class="silhouette" cx="0" cy="0" r="7"/>
+    <path class="silhouette" d="M -6 6 Q -8 14 -6 22 L -7 36 L -2 36 L -1 24 L 1 24 L 2 36 L 7 36 L 6 22 Q 8 14 6 6 Z"/>
+  </g>
+  <g transform="translate(200 320)" opacity="0.75">
+    <!-- Child (front) -->
+    <circle class="silhouette" cx="0" cy="0" r="7"/>
+    <path class="silhouette" d="M -6 6 Q -8 14 -6 22 L -7 36 L -2 36 L -1 24 L 1 24 L 2 36 L 7 36 L 6 22 Q 8 14 6 6 Z"/>
+  </g>
+
+  <!-- Three floating icons above the house: book, key, suitcase -->
+  <!-- Book (top-left) -->
+  <g transform="translate(95 115)" class="accent" fill="none" stroke-width="1.6">
+    <rect class="accent-stroke" x="0" y="0" width="22" height="16" rx="1"/>
+    <line x1="11" y1="0" x2="11" y2="16" stroke="var(--accent)" stroke-width="1.4"/>
+  </g>
+  <text x="106" y="148" class="label" text-anchor="middle">教育</text>
+
+  <!-- Key (top-middle) -->
+  <g transform="translate(165 110)" class="accent" fill="none" stroke-width="1.6">
+    <circle class="accent-stroke" cx="6" cy="6" r="5"/>
+    <line x1="11" y1="6" x2="24" y2="6" stroke="var(--accent)" stroke-width="1.6"/>
+    <line x1="20" y1="6" x2="20" y2="12" stroke="var(--accent)" stroke-width="1.6"/>
+    <line x1="24" y1="6" x2="24" y2="11" stroke="var(--accent)" stroke-width="1.6"/>
+  </g>
+  <text x="177" y="148" class="label" text-anchor="middle">资产</text>
+
+  <!-- Suitcase (top-right) -->
+  <g transform="translate(235 110)" class="accent" fill="none" stroke-width="1.6">
+    <rect class="accent-stroke" x="0" y="4" width="22" height="14" rx="1"/>
+    <path class="accent-stroke" d="M 8 4 L 8 0 L 14 0 L 14 4"/>
+  </g>
+  <text x="246" y="148" class="label" text-anchor="middle">迁移</text>
+
+  <!-- Label -->
+  <text x="180" y="395" class="label-big" text-anchor="middle">家族私积分</text>
+  <text x="180" y="412" class="label" text-anchor="middle">你能直接继承的</text>
+</g>
+
+<!-- DIVIDER -->
+<line x1="400" y1="100" x2="400" y2="380" class="divider"/>
+
+<!-- RIGHT SIDE: Public Capital (文明公积分) -->
+<g>
+  <!-- City skyline with various civic buildings -->
+  <g transform="translate(440 130)">
+
+    <!-- University with columns -->
+    <g>
+      <path class="silhouette" d="M 0 30 L 30 10 L 60 30 L 60 40 L 0 40 Z"/>
+      <rect class="silhouette" x="0" y="40" width="60" height="100"/>
+      <rect fill="var(--bg)" x="7" y="50" width="3" height="60"/>
+      <rect fill="var(--bg)" x="17" y="50" width="3" height="60"/>
+      <rect fill="var(--bg)" x="27" y="50" width="3" height="60"/>
+      <rect fill="var(--bg)" x="37" y="50" width="3" height="60"/>
+      <rect fill="var(--bg)" x="47" y="50" width="3" height="60"/>
+    </g>
+    <text class="label" x="30" y="155" text-anchor="middle">大学</text>
+
+    <!-- Courthouse with dome -->
+    <g transform="translate(80 0)">
+      <ellipse class="silhouette" cx="30" cy="30" rx="20" ry="14"/>
+      <rect class="silhouette" x="14" y="30" width="32" height="10"/>
+      <rect class="silhouette" x="5" y="40" width="50" height="100"/>
+      <rect fill="var(--bg)" x="25" y="80" width="10" height="55"/>
+    </g>
+    <text class="label" x="110" y="155" text-anchor="middle">法院</text>
+
+    <!-- Bank -->
+    <g transform="translate(160 20)">
+      <rect class="silhouette" x="0" y="0" width="50" height="120"/>
+      <rect fill="var(--bg)" x="6" y="14" width="8" height="20"/>
+      <rect fill="var(--bg)" x="20" y="14" width="8" height="20"/>
+      <rect fill="var(--bg)" x="34" y="14" width="8" height="20"/>
+      <rect fill="var(--bg)" x="6" y="44" width="8" height="20"/>
+      <rect fill="var(--bg)" x="20" y="44" width="8" height="20"/>
+      <rect fill="var(--bg)" x="34" y="44" width="8" height="20"/>
+      <text fill="var(--bg)" font-size="14" font-weight="700" x="25" y="100" text-anchor="middle">$</text>
+    </g>
+    <text class="label" x="185" y="155" text-anchor="middle">银行</text>
+
+    <!-- Office tower -->
+    <g transform="translate(225 -10)">
+      <rect class="silhouette" x="0" y="0" width="40" height="150"/>
+      <g fill="var(--bg)" opacity="0.35">
+        <rect x="3" y="6" width="34" height="3"/>
+        <rect x="3" y="14" width="34" height="3"/>
+        <rect x="3" y="22" width="34" height="3"/>
+        <rect x="3" y="30" width="34" height="3"/>
+        <rect x="3" y="38" width="34" height="3"/>
+        <rect x="3" y="46" width="34" height="3"/>
+        <rect x="3" y="54" width="34" height="3"/>
+        <rect x="3" y="62" width="34" height="3"/>
+        <rect x="3" y="70" width="34" height="3"/>
+        <rect x="3" y="78" width="34" height="3"/>
+        <rect x="3" y="86" width="34" height="3"/>
+        <rect x="3" y="94" width="34" height="3"/>
+        <rect x="3" y="102" width="34" height="3"/>
+        <rect x="3" y="110" width="34" height="3"/>
+      </g>
+    </g>
+    <text class="label" x="245" y="155" text-anchor="middle">产业</text>
+
+    <!-- Hospital -->
+    <g transform="translate(280 15)">
+      <rect class="silhouette" x="0" y="0" width="50" height="125"/>
+      <!-- Cross -->
+      <rect fill="var(--bg)" x="22" y="25" width="6" height="20"/>
+      <rect fill="var(--bg)" x="15" y="32" width="20" height="6"/>
+    </g>
+    <text class="label" x="305" y="155" text-anchor="middle">医院</text>
+  </g>
+
+  <!-- Network connecting lines among buildings -->
+  <g class="network" stroke-width="0.8" opacity="0.5">
+    <path d="M 470 155 Q 520 175 555 155"/>
+    <path d="M 555 155 Q 610 175 640 155"/>
+    <path d="M 640 155 Q 680 175 710 155"/>
+    <path d="M 470 155 Q 590 195 640 155"/>
+    <path d="M 555 155 Q 660 200 710 155"/>
+  </g>
+
+  <!-- Small dots at network nodes -->
+  <g class="network" fill="var(--network)" opacity="0.7">
+    <circle cx="470" cy="155" r="3"/>
+    <circle cx="555" cy="155" r="3"/>
+    <circle cx="640" cy="155" r="3"/>
+    <circle cx="710" cy="155" r="3"/>
+  </g>
+
+  <text x="600" y="395" class="label-big" text-anchor="middle">文明公积分</text>
+  <text x="600" y="412" class="label" text-anchor="middle">你能使用但不能继承的</text>
+</g>
+
+<!-- Center figure bridging both -->
+<g transform="translate(400 290)">
+  <circle class="silhouette" cx="0" cy="0" r="9"/>
+  <path class="silhouette" d="M -8 8 Q -10 18 -8 28 L -11 60 L -5 60 L -3 32 L 3 32 L 5 60 L 11 60 L 8 28 Q 10 18 8 8 Z"/>
+  <!-- Left arm reaching to house -->
+  <path class="silhouette" d="M -8 14 L -28 28 L -32 32 L -28 32 L -8 18 Z"/>
+  <!-- Right arm reaching to city -->
+  <path class="silhouette" d="M 8 14 L 28 28 L 32 32 L 28 32 L 8 18 Z"/>
+</g>
+
+<!-- Title -->
+<text class="title" x="40" y="40">私积分 vs 公积分</text>
+<text class="subtitle" x="40" y="60">家族几代攒下的可继承，文明几百年攒下的能使用但带不走</text>
+</svg>
