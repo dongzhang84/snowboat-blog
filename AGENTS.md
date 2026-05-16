@@ -114,6 +114,13 @@ When the user asks a factual, conceptual, or editorial question about an article
 
 When a user flags that a passage is confusing, prefer the smallest article-body change that fixes the reader's confusion. Do not add the full diagnostic explanation unless that explanation is genuinely needed by future readers. If the user asks for broader context, integrate it as article narrative rather than as a direct answer to the user's wording.
 
+Separate chat answers from article edits:
+
+- A chat answer explains the issue to the user in the conversation. It may include caveats, fact checks, source reasoning, why a previous sentence was wrong, or what should be changed.
+- Article text is prose for future readers. It must not mention the conversation, the user's question, the assistant's uncertainty, or phrases such as "不能这么写", "更准确的说法", "我查了一下", "你说得对", "这里不能只看", "这个问题真正卡住的地方" unless the user explicitly asks for that tone in the article.
+- If the user asks a question only, answer in chat first. Do not modify the article unless the user says to change it, or the intent to edit is explicit from context such as "改一下", "写进去", "放到正文里", "直接改".
+- If editing after answering, translate the answer into article-native prose. Keep the conclusion, examples, and necessary facts; remove the scaffolding used to answer the user.
+
 Do not casually change:
 
 - Published article Markdown files.
