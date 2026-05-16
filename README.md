@@ -6,15 +6,16 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 31 | 5/15 | [我见青山多妩媚：二十世纪数学史（上）](我见青山多妩媚：二十世纪数学史（上）.md) | [link](https://x.com/snowboat84/status/2055446902171406761) | — | [link](https://zhuanlan.zhihu.com/p/2038664998302524623) |
 | 30 | 5/14 | [一文讲清楚美国医疗系统](一文讲清楚美国医疗系统.md) | [link](https://x.com/snowboat84/status/2055081426744422697) | — | [link](https://zhuanlan.zhihu.com/p/2038482708523913510) |
 | 29 | 5/13 | [AI 如何打进美国教育生态？](AI%20如何打进美国教育生态？.md) | [link](https://x.com/snowboat84/status/2054721509420372180) | — | [link](https://zhuanlan.zhihu.com/p/2038167094756365427) |
 | 28 | 5/12 | [一篇文章看懂美国教育全生态](一篇文章看懂美国教育全生态.md) | [link](https://x.com/snowboat84/status/2054359249917210633) | — | [link](https://zhuanlan.zhihu.com/p/2037768819851122374) |
 | 27 | 5/11 | [马斯克把 xAI 并入 SpaceX，到底意味着什么？](马斯克把%20xAI%20并入%20SpaceX，到底意味着什么？.md) | [link](https://x.com/snowboat84/status/2054000682114613488) | — | [link](https://zhuanlan.zhihu.com/p/2037352446012436980) |
-| 26 | 5/8 | [Vibe Learning：AI 时代，学习这件事被重新组织了](Vibe%20Learning：AI%20时代，学习这件事被重新组织了.md) | [link](https://x.com/snowboat84/status/2052908751435477046) | — | [link](https://zhuanlan.zhihu.com/p/2036320348023608889) |
-| 25 | 5/7 | [福特经济学和 AI 经济学](福特经济学和%20AI%20经济学.md) | [link](https://x.com/snowboat84/status/2052551731385602072) | — | [link](https://zhuanlan.zhihu.com/p/2035998279473836299) |
-| 24 | 5/6 | [数学照妖镜：AI 能发现新的数学定理吗？](数学照妖镜：AI%20能发现新的数学定理吗？.md) | [link](https://x.com/snowboat84/status/2052174034041995572) | — | [link](https://zhuanlan.zhihu.com/p/2035594900369039855) |
-| 23 | 5/5 | [手把手教你分析：你会被AI取代吗?](archive/手把手教你分析：你会被AI取代吗?.md) | [link](https://x.com/snowboat84/status/2051818364507688978) | — | [link](https://zhuanlan.zhihu.com/p/2035269868048602086) |
-| 22 | 5/4 | [一篇文章讲清大语言模型发展史](archive/一篇文章讲清大语言模型发展史.md) | [link](https://x.com/snowboat84/status/2051444935547912236) | — | [link](https://zhuanlan.zhihu.com/p/2033073416228573341) |
+| 26 | 5/8 | [Vibe Learning：AI 时代，学习这件事被重新组织了](Vibe%20Learning：AI%20时代，学习这件事被重新组织了.md) | [link](https://x.com/snowboat84/status/2052908751435477046) | 11k | [link](https://zhuanlan.zhihu.com/p/2036320348023608889) |
+| 25 | 5/7 | [福特经济学和 AI 经济学](福特经济学和%20AI%20经济学.md) | [link](https://x.com/snowboat84/status/2052551731385602072) | 5.4k | [link](https://zhuanlan.zhihu.com/p/2035998279473836299) |
+| 24 | 5/6 | [数学照妖镜：AI 能发现新的数学定理吗？](数学照妖镜：AI%20能发现新的数学定理吗？.md) | [link](https://x.com/snowboat84/status/2052174034041995572) | 5.5k | [link](https://zhuanlan.zhihu.com/p/2035594900369039855) |
+| 23 | 5/5 | [手把手教你分析：你会被AI取代吗?](archive/手把手教你分析：你会被AI取代吗?.md) | [link](https://x.com/snowboat84/status/2051818364507688978) | 4.1k | [link](https://zhuanlan.zhihu.com/p/2035269868048602086) |
+| 22 | 5/4 | [一篇文章讲清大语言模型发展史](archive/一篇文章讲清大语言模型发展史.md) | [link](https://x.com/snowboat84/status/2051444935547912236) | 3.7k | [link](https://zhuanlan.zhihu.com/p/2033073416228573341) |
 | * | 5/4 | [Why AI Can Code: Principles, History, and the Road Ahead](archive/Why%20AI%20Can%20Code%20-%20Principles%2C%20History%2C%20and%20the%20Road%20Ahead.md) | [medium](https://medium.com/@dongzhanghz/why-ai-can-code-principles-history-and-the-road-ahead-102891af93bf) | — | [substack](https://emmanuelzhang.substack.com/p/why-ai-can-code-principles-history) |
 | 21 | 5/1 | [气吞万里如虎：回顾十九世纪的数学英豪们](archive/气吞万里如虎：回顾十九世纪的数学英豪们.md) | [link](https://x.com/snowboat84/status/2050371067278143931) | 2.7k | [link](https://zhuanlan.zhihu.com/p/2033553726032565423) |
 | 20 | 4/30 | [Vibe Reading：AI 时代读书的系统化方法](archive/Vibe%20Reading：AI%20时代读书的系统化方法.md) | [link](https://x.com/snowboat84/status/2050008577511973253) | 22k | [link](https://zhuanlan.zhihu.com/p/2033424551938365302) |
