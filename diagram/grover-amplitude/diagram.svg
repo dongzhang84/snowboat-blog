@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 720" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+.accent-text { fill: var(--accent); }
+</style>
+
+<rect class="bg" width="680" height="720"/>
+
+<text class="title" x="60" y="42">Grover算法：100万人电话簿里找小明</text>
+<text class="subtitle" x="60" y="64">看小明那一行的振幅怎么从1/100万被放大到接近100%</text>
+
+<rect class="layer" x="60" y="96" width="580" height="100" rx="6"/>
+<line class="divider" x1="220" y1="110" x2="220" y2="178"/>
+<text class="eyebrow" x="82" y="118">步骤1</text>
+<text class="th" x="82" y="146">叠加态形成</text>
+<text class="ts" x="82" y="166">100万行同时叠在</text>
+<text class="ts" x="82" y="184">一台量子机里</text>
+<line class="divider" x1="265" y1="146" x2="610" y2="146"/>
+<rect x="270" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="287" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="304" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="321" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="338" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="355" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="372" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="389" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="406" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="423" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="440" y="140" width="12" height="6" fill="var(--accent)"/>
+<rect x="457" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="474" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="491" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="508" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="525" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="542" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="559" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="576" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="593" y="140" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<text class="ts accent-text" x="446" y="180" text-anchor="middle">↑ 小明在这里（你不知道）</text>
+
+<rect class="layer" x="60" y="208" width="580" height="100" rx="6"/>
+<line class="divider" x1="220" y1="222" x2="220" y2="290"/>
+<text class="eyebrow" x="82" y="230">步骤2</text>
+<text class="th" x="82" y="258">判官打相位记号</text>
+<text class="ts" x="82" y="278">只有小明那行</text>
+<text class="ts" x="82" y="296">被翻到基线下方</text>
+<line class="divider" x1="265" y1="258" x2="610" y2="258"/>
+<rect x="270" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="287" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="304" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="321" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="338" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="355" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="372" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="389" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="406" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="423" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="440" y="258" width="12" height="6" fill="var(--accent)"/>
+<rect x="457" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="474" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="491" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="508" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="525" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="542" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="559" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="576" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="593" y="252" width="12" height="6" fill="var(--fg-soft)" opacity="0.8"/>
+<text class="ts accent-text" x="446" y="280" text-anchor="middle">↓ 翻转</text>
+
+<rect class="layer" x="60" y="320" width="580" height="100" rx="6"/>
+<line class="divider" x1="220" y1="334" x2="220" y2="402"/>
+<text class="eyebrow" x="82" y="342">步骤3</text>
+<text class="th" x="82" y="370">干涉放大</text>
+<text class="ts" x="82" y="390">绕平均反射</text>
+<text class="ts" x="82" y="408">小明那根明显抬高</text>
+<line class="divider" x1="265" y1="370" x2="610" y2="370"/>
+<rect x="270" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="287" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="304" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="321" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="338" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="355" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="372" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="389" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="406" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="423" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="440" y="352" width="12" height="18" fill="var(--accent)"/>
+<rect x="457" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="474" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="491" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="508" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="525" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="542" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="559" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="576" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="593" y="367" width="12" height="3" fill="var(--fg-soft)" opacity="0.8"/>
+
+<rect class="layer" x="60" y="432" width="580" height="100" rx="6"/>
+<line class="divider" x1="220" y1="446" x2="220" y2="514"/>
+<text class="eyebrow" x="82" y="454">步骤4</text>
+<text class="th" x="82" y="482">反复跑√N次</text>
+<text class="ts" x="82" y="502">重复2+3步</text>
+<text class="ts" x="82" y="520">约1000次</text>
+<line class="divider" x1="265" y1="482" x2="610" y2="482"/>
+<rect x="270" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="287" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="304" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="321" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="338" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="355" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="372" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="389" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="406" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="423" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="440" y="456" width="12" height="26" fill="var(--accent)"/>
+<rect x="457" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="474" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="491" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="508" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="525" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="542" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="559" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="576" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<rect x="593" y="481" width="12" height="1" fill="var(--fg-soft)" opacity="0.8"/>
+<text class="caption accent-text" x="605" y="452" text-anchor="end">↻ 重复 ×1000 次</text>
+
+<rect class="layer-key" x="60" y="544" width="580" height="100" rx="6"/>
+<line class="divider-accent" x1="220" y1="558" x2="220" y2="626"/>
+<text class="eyebrow eyebrow-accent" x="82" y="566">步骤5</text>
+<text class="th" x="82" y="594">测量</text>
+<text class="ts" x="82" y="614">小明概率 ≈ 100%</text>
+<text class="ts" x="82" y="632">输出小明在哪一行</text>
+<line class="divider-accent" x1="265" y1="594" x2="610" y2="594"/>
+<rect x="270" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="287" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="304" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="321" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="338" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="355" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="372" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="389" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="406" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="423" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="440" y="560" width="12" height="34" fill="var(--accent)"/>
+<rect x="457" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="474" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="491" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="508" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="525" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="542" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="559" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="576" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<rect x="593" y="593" width="12" height="1" fill="var(--fg-soft)" opacity="0.6"/>
+<text class="th accent-text" x="446" y="554" text-anchor="middle">≈ 100%</text>
+
+<text class="caption-strong" x="60" y="676">经典做法约50万次比对  ·  量子做法约1000次循环</text>
+<text class="caption" x="60" y="698">1996年Grover算法 · 加速比√N（百万→千）</text>
+</svg>
