@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1680 1000" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+  <style>
+    :root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --panel: #f9fafb; --panel-stroke: #d1d5db; --line: #1d4ed8; --line-soft: #93c5fd; --blue: #1d4ed8; --green: #2f6f3e; --orange: #d97706; --purple: #6b21a8; --teal: #0f766e; --warn: #1d4ed8; --warn-bg: #eff6ff; --warn-stroke: #bfdbfe; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --panel: #111827; --panel-stroke: #374151; --line: #60a5fa; --line-soft: #1d4ed8; --blue: #93c5fd; --green: #86efac; --orange: #fdba74; --purple: #c4b5fd; --teal: #5eead4; --warn: #93c5fd; --warn-bg: #172554; --warn-stroke: #1d4ed8; }
+    }
+    .bg { fill: var(--bg); }
+    .title { font-size: 58px; font-weight: 800; fill: var(--fg); letter-spacing: 0.01em; }
+    .subtitle { font-size: 24px; font-weight: 500; fill: var(--fg-muted); }
+    .stage { fill: var(--bg); stroke-width: 2; rx: 18; }
+    .stage-blue { stroke: var(--blue); }
+    .stage-green { stroke: var(--green); }
+    .stage-orange { stroke: var(--orange); }
+    .stage-purple { stroke: var(--purple); }
+    .badge { font-size: 23px; font-weight: 800; fill: #fff; }
+    .stage-title { font-size: 31px; font-weight: 800; fill: var(--fg); }
+    .stage-year { font-size: 23px; font-weight: 700; fill: var(--fg); }
+    .stage-body { font-size: 21px; font-weight: 500; fill: var(--fg); }
+    .stage-foot { font-size: 18px; font-weight: 400; fill: var(--fg-muted); }
+    .arrow { fill: var(--blue); }
+    .arrow-line { stroke: var(--line); stroke-width: 6; stroke-linecap: round; fill: none; }
+    .arrow-soft { stroke: var(--line-soft); stroke-width: 4; stroke-linecap: round; fill: none; }
+    .strip { fill: none; stroke: var(--panel-stroke); stroke-width: 2; stroke-dasharray: 10 8; rx: 20; }
+    .strip-box { fill: var(--panel); stroke-width: 2; rx: 18; }
+    .strip-blue { stroke: var(--line-soft); }
+    .strip-green { stroke: var(--green); }
+    .strip-orange { stroke: var(--orange); }
+    .strip-title { font-size: 28px; font-weight: 800; fill: var(--fg); }
+    .strip-body { font-size: 22px; font-weight: 500; fill: var(--fg); }
+    .strip-note { font-size: 22px; font-weight: 700; fill: var(--fg); }
+    .note-box { fill: var(--warn-bg); stroke: var(--warn-stroke); stroke-width: 2; rx: 18; }
+    .note-title { font-size: 24px; font-weight: 800; fill: var(--fg); }
+    .note-body { font-size: 22px; font-weight: 600; fill: var(--blue); }
+    .small { font-size: 18px; font-weight: 500; fill: var(--fg-muted); }
+    .line { stroke: var(--line); stroke-width: 3; }
+    .line2 { stroke: var(--line-soft); stroke-width: 3; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1680" height="1000"/>
+
+  <text class="title" x="840" y="86" text-anchor="middle">当年那条路怎么走的</text>
+  <text class="subtitle" x="840" y="136" text-anchor="middle">量子计算的发展路径，按时间看，比新闻标题要慢得多</text>
+
+  <!-- stage cards -->
+  <g transform="translate(36,186)">
+    <rect class="stage stage-blue" x="0" y="0" width="286" height="360" rx="18"/>
+    <circle cx="54" cy="54" r="26" fill="var(--blue)"/>
+    <text class="badge" x="54" y="62" text-anchor="middle">1</text>
+    <text class="stage-title" x="92" y="64">基础研究期</text>
+    <text class="stage-year" x="92" y="102">(1995-2015)</text>
+    <g transform="translate(92,132)">
+      <circle cx="56" cy="36" r="15" fill="none" stroke="var(--blue)" stroke-width="3"/>
+      <circle cx="56" cy="36" r="4" fill="var(--blue)"/>
+      <ellipse cx="56" cy="36" rx="36" ry="14" fill="none" stroke="var(--blue)" stroke-width="3" transform="rotate(24 56 36)"/>
+      <ellipse cx="56" cy="36" rx="36" ry="14" fill="none" stroke="var(--blue)" stroke-width="3" transform="rotate(-24 56 36)"/>
+      <line class="line" x1="56" y1="7" x2="56" y2="65"/>
+      <line class="line2" x1="28" y1="36" x2="84" y2="36"/>
+    </g>
+    <line x1="24" y1="230" x2="262" y2="230" stroke="var(--line)" stroke-width="2"/>
+    <text class="stage-body" x="143" y="278" text-anchor="middle">实验室里验证</text>
+    <text class="stage-body" x="143" y="312" text-anchor="middle">量子比特、纠缠、</text>
+    <text class="stage-body" x="143" y="346" text-anchor="middle">门操作</text>
+  </g>
+
+  <polygon class="arrow" points="344,350 344,330 378,350 344,370"/>
+
+  <g transform="translate(416,186)">
+    <rect class="stage stage-green" x="0" y="0" width="286" height="360" rx="18"/>
+    <circle cx="54" cy="54" r="26" fill="var(--green)"/>
+    <text class="badge" x="54" y="62" text-anchor="middle">2</text>
+    <text class="stage-title" x="92" y="64">云化起步</text>
+    <text class="stage-year" x="92" y="102">(2016-2018)</text>
+    <g transform="translate(76,132)">
+      <path d="M55 54c-16 0-28-11-28-24 0-11 8-20 19-23 4-14 16-23 31-23 15 0 28 9 32 22 13 1 24 11 24 24 0 13-11 24-25 24H55z" fill="none" stroke="var(--green)" stroke-width="3"/>
+      <rect x="28" y="35" width="58" height="38" rx="4" fill="none" stroke="var(--green)" stroke-width="3"/>
+      <line x1="52" y1="73" x2="62" y2="73" stroke="var(--green)" stroke-width="3"/>
+      <line x1="42" y1="81" x2="72" y2="81" stroke="var(--green)" stroke-width="3"/>
+    </g>
+    <line x1="24" y1="230" x2="262" y2="230" stroke="var(--green)" stroke-width="2"/>
+    <text class="stage-body" x="143" y="278" text-anchor="middle">IBM Quantum</text>
+    <text class="stage-body" x="143" y="312" text-anchor="middle">Experience /</text>
+    <text class="stage-body" x="143" y="346" text-anchor="middle">Qiskit</text>
+  </g>
+
+  <polygon class="arrow" points="724,350 724,330 758,350 724,370"/>
+
+  <g transform="translate(796,186)">
+    <rect class="stage stage-orange" x="0" y="0" width="286" height="360" rx="18"/>
+    <circle cx="54" cy="54" r="26" fill="var(--orange)"/>
+    <text class="badge" x="54" y="62" text-anchor="middle">3</text>
+    <text class="stage-title" x="92" y="64">平台化与生态</text>
+    <text class="stage-year" x="92" y="102">(2019-2022)</text>
+    <g transform="translate(82,134)">
+      <circle cx="38" cy="30" r="11" fill="none" stroke="var(--orange)" stroke-width="3"/>
+      <circle cx="82" cy="30" r="11" fill="none" stroke="var(--orange)" stroke-width="3"/>
+      <circle cx="60" cy="68" r="11" fill="none" stroke="var(--orange)" stroke-width="3"/>
+      <line x1="48" y1="36" x2="56" y2="58" stroke="var(--orange)" stroke-width="3"/>
+      <line x1="72" y1="36" x2="64" y2="58" stroke="var(--orange)" stroke-width="3"/>
+      <line x1="49" y1="30" x2="71" y2="30" stroke="var(--orange)" stroke-width="3"/>
+    </g>
+    <line x1="24" y1="230" x2="262" y2="230" stroke="var(--orange)" stroke-width="2"/>
+    <text class="stage-body" x="143" y="278" text-anchor="middle">Azure Quantum /</text>
+    <text class="stage-body" x="143" y="312" text-anchor="middle">Amazon Braket /</text>
+    <text class="stage-body" x="143" y="346" text-anchor="middle">开发者工具</text>
+  </g>
+
+  <polygon class="arrow" points="1104,350 1104,330 1138,350 1104,370"/>
+
+  <g transform="translate(1176,186)">
+    <rect class="stage stage-purple" x="0" y="0" width="286" height="360" rx="18"/>
+    <circle cx="54" cy="54" r="26" fill="var(--purple)"/>
+    <text class="badge" x="54" y="62" text-anchor="middle">4</text>
+    <text class="stage-title" x="92" y="64">产业化起步</text>
+    <text class="stage-year" x="92" y="102">(2023-2024)</text>
+    <g transform="translate(86,136)">
+      <rect x="8" y="74" width="18" height="28" fill="var(--purple)"/>
+      <rect x="34" y="56" width="18" height="46" fill="var(--purple)"/>
+      <rect x="60" y="40" width="18" height="62" fill="var(--purple)"/>
+      <path d="M8 48 L34 30 L60 18 L86 0" fill="none" stroke="var(--purple)" stroke-width="4"/>
+      <polygon points="86 0 76 0 86 -8 92 2" fill="var(--purple)" transform="translate(0,0)"/>
+    </g>
+    <line x1="24" y1="230" x2="262" y2="230" stroke="var(--purple)" stroke-width="2"/>
+    <text class="stage-body" x="143" y="278" text-anchor="middle">硬件比特数上升、</text>
+    <text class="stage-body" x="143" y="312" text-anchor="middle">纠错实验、</text>
+    <text class="stage-body" x="143" y="346" text-anchor="middle">资本投入</text>
+  </g>
+
+  <polygon class="arrow" points="1484,350 1484,330 1518,350 1484,370"/>
+
+  <g transform="translate(1528,186)">
+    <rect class="stage stage-blue" x="-2" y="0" width="116" height="360" rx="18"/>
+    <circle cx="56" cy="54" r="26" fill="var(--blue)"/>
+    <text class="badge" x="56" y="62" text-anchor="middle">5</text>
+    <text class="stage-title" x="58" y="49" text-anchor="middle" style="font-size:20px;">2025+</text>
+    <text class="stage-year" x="58" y="86" text-anchor="middle" style="font-size:17px;">真实收入出现</text>
+    <text class="stage-year" x="58" y="110" text-anchor="middle" style="font-size:17px;">但仍很小</text>
+    <g transform="translate(18,148)">
+      <circle cx="40" cy="24" r="14" fill="none" stroke="var(--blue)" stroke-width="3"/>
+      <path d="M24 70c12-24 38-30 52-22" fill="none" stroke="var(--blue)" stroke-width="3"/>
+      <path d="M15 78c8-6 16-10 24-12" fill="none" stroke="var(--blue)" stroke-width="3"/>
+      <circle cx="40" cy="24" r="4" fill="var(--blue)"/>
+      <path d="M20 64h44c4 0 6 4 5 8l-2 7c-1 4-5 7-9 7H33c-5 0-9-3-10-8l-3-11c-1-2 1-3 0-3z" fill="none" stroke="var(--blue)" stroke-width="3"/>
+    </g>
+    <line x1="10" y1="230" x2="104" y2="230" stroke="var(--blue)" stroke-width="2"/>
+    <text class="stage-body" x="56" y="280" text-anchor="middle" style="font-size:16px;">研究合同、</text>
+    <text class="stage-body" x="56" y="304" text-anchor="middle" style="font-size:16px;">试点项目、</text>
+    <text class="stage-body" x="56" y="328" text-anchor="middle" style="font-size:16px;">平台服务</text>
+  </g>
+
+  <!-- timeline -->
+  <line x1="56" y1="612" x2="1620" y2="612" stroke="var(--line)" stroke-width="5"/>
+  <polygon points="1620,612 1600,600 1600,624" fill="var(--line)"/>
+  <circle cx="184" cy="612" r="12" fill="var(--line)"/>
+  <circle cx="504" cy="612" r="12" fill="var(--line)"/>
+  <circle cx="824" cy="612" r="12" fill="var(--line)"/>
+  <circle cx="1144" cy="612" r="12" fill="var(--line)"/>
+  <circle cx="1488" cy="612" r="12" fill="var(--line)"/>
+  <text class="stage-year" x="184" y="654" text-anchor="middle">1995</text>
+  <text class="stage-year" x="504" y="654" text-anchor="middle">2016</text>
+  <text class="stage-year" x="824" y="654" text-anchor="middle">2019</text>
+  <text class="stage-year" x="1144" y="654" text-anchor="middle">2023</text>
+  <text class="stage-year" x="1488" y="654" text-anchor="middle">2025+</text>
+
+  <!-- bottom strip -->
+  <rect class="strip" x="100" y="700" width="1480" height="170" rx="22"/>
+
+  <g transform="translate(144,730)">
+    <rect class="strip-box strip-blue" x="0" y="0" width="370" height="108" rx="18"/>
+    <circle cx="54" cy="54" r="32" fill="none" stroke="var(--blue)" stroke-width="3"/>
+    <circle cx="54" cy="54" r="10" fill="none" stroke="var(--blue)" stroke-width="3"/>
+    <ellipse cx="54" cy="54" rx="22" ry="8" fill="none" stroke="var(--blue)" stroke-width="3" transform="rotate(25 54 54)"/>
+    <ellipse cx="54" cy="54" rx="22" ry="8" fill="none" stroke="var(--blue)" stroke-width="3" transform="rotate(-25 54 54)"/>
+    <text class="strip-title" x="112" y="40">物理比特</text>
+    <text class="strip-body" x="112" y="76">受噪声影响的</text>
+    <text class="strip-body" x="112" y="100">真实量子比特</text>
+  </g>
+
+  <polygon class="arrow" points="580,784 580,764 616,784 580,804"/>
+
+  <g transform="translate(640,730)">
+    <rect class="strip-box strip-green" x="0" y="0" width="370" height="108" rx="18"/>
+    <g transform="translate(28,20)" stroke="var(--green)" stroke-width="3" fill="none">
+      <circle cx="40" cy="20" r="8"/>
+      <circle cx="18" cy="44" r="8"/>
+      <circle cx="40" cy="68" r="8"/>
+      <circle cx="62" cy="44" r="8"/>
+      <circle cx="84" cy="20" r="8"/>
+      <line x1="40" y1="20" x2="18" y2="44"/>
+      <line x1="40" y1="20" x2="62" y2="44"/>
+      <line x1="84" y1="20" x2="62" y2="44"/>
+      <line x1="18" y1="44" x2="40" y2="68"/>
+      <line x1="62" y1="44" x2="40" y2="68"/>
+      <line x1="62" y1="44" x2="84" y2="20"/>
+    </g>
+    <text class="strip-title" x="126" y="40" fill="var(--green)">逻辑比特</text>
+    <text class="strip-body" x="126" y="76">通过纠错构建的</text>
+    <text class="strip-body" x="126" y="100">高保真量子比特</text>
+  </g>
+
+  <polygon class="arrow" points="1006,784 1006,764 1042,784 1006,804"/>
+
+  <g transform="translate(1066,730)">
+    <rect class="strip-box strip-orange" x="0" y="0" width="428" height="108" rx="18"/>
+    <rect x="28" y="18" width="82" height="58" rx="6" fill="none" stroke="var(--orange)" stroke-width="4"/>
+    <polyline points="46,54 58,42 69,54" fill="none" stroke="var(--orange)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="61" y1="54" x2="61" y2="68" stroke="var(--orange)" stroke-width="4"/>
+    <text class="strip-title" x="142" y="40" fill="var(--orange)">可用算法</text>
+    <text class="strip-body" x="142" y="76">在逻辑比特上运行的</text>
+    <text class="strip-body" x="142" y="100">有实际价值的算法</text>
+  </g>
+
+  <!-- bottleneck note -->
+  <rect class="note-box" x="420" y="900" width="840" height="72" rx="18"/>
+  <g transform="translate(456,915)">
+    <circle cx="30" cy="22" r="22" fill="var(--blue)"/>
+    <rect x="28" y="10" width="4" height="16" rx="2" fill="#fff"/>
+    <circle cx="30" cy="31" r="3" fill="#fff"/>
+  </g>
+  <text class="note-title" x="560" y="946">核心瓶颈：</text>
+  <text class="note-body" x="720" y="946">纠错、噪声、可扩展性、成本</text>
+</svg>
