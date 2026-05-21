@@ -469,6 +469,7 @@ Pew Research的多轮调查显示，对AI的担忧并不集中在某个年龄段
 
 ## 作者其它文章
 
+- [大航海时代2的逆向工程实验](https://x.com/snowboat84/status/2057264254319993332)
 - [量子计算机有前途吗？](https://x.com/snowboat84/status/2056895775578456417)
 - [祖父积分学概论](https://x.com/snowboat84/status/2056533111983493136)
 - [我见青山多妩媚：二十世纪数学史（上）](https://x.com/snowboat84/status/2055446902171406761)
