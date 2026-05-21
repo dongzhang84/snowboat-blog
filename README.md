@@ -8,11 +8,11 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 |---|------|---------|--------|---------|------|
 | 33 | 5/19 | [量子计算机有前途吗？](量子计算机有前途吗？.md) | [link](https://x.com/snowboat84/status/2056895775578456417) | — | [link](https://zhuanlan.zhihu.com/p/2040249407132722840) |
 | 32 | 5/18 | [祖父积分学概论](祖父积分学概论.md) | [link](https://x.com/snowboat84/status/2056533111983493136) | — | [link](https://zhuanlan.zhihu.com/p/2039143026677830866) |
-| 31 | 5/15 | [我见青山多妩媚：二十世纪数学史（上）](我见青山多妩媚：二十世纪数学史（上）.md) | [link](https://x.com/snowboat84/status/2055446902171406761) | — | [link](https://zhuanlan.zhihu.com/p/2038664998302524623) |
-| 30 | 5/14 | [一文讲清楚美国医疗系统](一文讲清楚美国医疗系统.md) | [link](https://x.com/snowboat84/status/2055081426744422697) | — | [link](https://zhuanlan.zhihu.com/p/2038482708523913510) |
-| 29 | 5/13 | [AI 如何打进美国教育生态？](AI%20如何打进美国教育生态？.md) | [link](https://x.com/snowboat84/status/2054721509420372180) | — | [link](https://zhuanlan.zhihu.com/p/2038167094756365427) |
-| 28 | 5/12 | [一篇文章看懂美国教育全生态](一篇文章看懂美国教育全生态.md) | [link](https://x.com/snowboat84/status/2054359249917210633) | — | [link](https://zhuanlan.zhihu.com/p/2037768819851122374) |
-| 27 | 5/11 | [马斯克把 xAI 并入 SpaceX，到底意味着什么？](马斯克把%20xAI%20并入%20SpaceX，到底意味着什么？.md) | [link](https://x.com/snowboat84/status/2054000682114613488) | — | [link](https://zhuanlan.zhihu.com/p/2037352446012436980) |
+| 31 | 5/15 | [我见青山多妩媚：二十世纪数学史（上）](我见青山多妩媚：二十世纪数学史（上）.md) | [link](https://x.com/snowboat84/status/2055446902171406761) | 7.4k | [link](https://zhuanlan.zhihu.com/p/2038664998302524623) |
+| 30 | 5/14 | [一文讲清楚美国医疗系统](一文讲清楚美国医疗系统.md) | [link](https://x.com/snowboat84/status/2055081426744422697) | 99k | [link](https://zhuanlan.zhihu.com/p/2038482708523913510) |
+| 29 | 5/13 | [AI 如何打进美国教育生态？](AI%20如何打进美国教育生态？.md) | [link](https://x.com/snowboat84/status/2054721509420372180) | 15k | [link](https://zhuanlan.zhihu.com/p/2038167094756365427) |
+| 28 | 5/12 | [一篇文章看懂美国教育全生态](一篇文章看懂美国教育全生态.md) | [link](https://x.com/snowboat84/status/2054359249917210633) | 45k | [link](https://zhuanlan.zhihu.com/p/2037768819851122374) |
+| 27 | 5/11 | [马斯克把 xAI 并入 SpaceX，到底意味着什么？](马斯克把%20xAI%20并入%20SpaceX，到底意味着什么？.md) | [link](https://x.com/snowboat84/status/2054000682114613488) | 7.9k | [link](https://zhuanlan.zhihu.com/p/2037352446012436980) |
 | 26 | 5/8 | [Vibe Learning：AI 时代，学习这件事被重新组织了](Vibe%20Learning：AI%20时代，学习这件事被重新组织了.md) | [link](https://x.com/snowboat84/status/2052908751435477046) | 11k | [link](https://zhuanlan.zhihu.com/p/2036320348023608889) |
 | 25 | 5/7 | [福特经济学和 AI 经济学](福特经济学和%20AI%20经济学.md) | [link](https://x.com/snowboat84/status/2052551731385602072) | 5.4k | [link](https://zhuanlan.zhihu.com/p/2035998279473836299) |
 | 24 | 5/6 | [数学照妖镜：AI 能发现新的数学定理吗？](数学照妖镜：AI%20能发现新的数学定理吗？.md) | [link](https://x.com/snowboat84/status/2052174034041995572) | 5.5k | [link](https://zhuanlan.zhihu.com/p/2035594900369039855) |
