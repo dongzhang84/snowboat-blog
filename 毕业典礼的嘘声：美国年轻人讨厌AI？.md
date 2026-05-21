@@ -1,454 +1,622 @@
 
-# AI 与毕业典礼嘘声：文章提纲与素材库
+2026年5月16日上午，亚利桑那大学。约一万名毕业生坐在橄榄球场里，等着前Google CEO埃里克·施密特（Eric Schmidt）做毕业致辞。他讲到一半，开始谈AI。
 
-> 工作标题候选：
-> 
-> - "Who Gets Booed and Who Doesn't: What 2026's Commencement Stages Reveal About America's AI Anxiety"
-> - "The Frankenstein Reflex: Why America Boos Its Own Inventions"
-> - "A Tale of Two Stages: When AI Gets Cheered and When It Gets Jeered"
-> 
-> 目标刊物：The Free Press / Compact / Persuasion / Tablet
+施密特说："你们现在可以组建一支AI agent团队，帮你完成那些你自己永远做不到的事。当有人邀请你坐上火箭飞船时，你不要问哪个座位，直接上去就行了。"
+
+台下嘘声四起。
+
+施密特停下来，从讲台后退一步："我知道你们中有很多人现在的感觉。我能听到你们。你们这一代人有一种恐惧，怕未来已经被写好，怕机器要来了，怕工作正在蒸发。"
+
+这一段反而拿到了一些掌声。但只是片刻。
+
+施密特不是孤例。
+
+整个2026年毕业季，从佛罗里达到田纳西到亚利桑那，至少五位毕业典礼演讲嘉宾在台上谈到AI时被嘘。被嘘的人有共同点：他们都是商业高管或AI布道者，面对的都是综合大学或人文学院的毕业生。同一周里，黄仁勋（Jensen Huang）在卡内基梅隆大学（Carnegie Mellon University）做同样基调的演讲，被欢呼。Yann LeCun在纽约大学Tandon工程学院讲AI，没有任何嘘声报道。
+
+这不是"AI被讨厌"那么简单。是某种更具体的反感，瞄准某种特定的人在特定的场合说特定的话。
+
+这篇文章想做三件事。先把这些事件的事实层摆清楚，谁被嘘了、谁没被嘘、学生自己怎么说。然后把这场反感拆成四层，说明它的根据是真实的。最后做一件更难的事：在承认反感真实的前提下，问一句这套反感的对手是不是找错了。
+
+# 一、被嘘的人和没被嘘的人
+
+## 1.1 五场被嘘
+
+2026年的毕业季出现了一种新现象。在过去20年里，被嘘的演讲嘉宾通常是因为政治立场（伊拉克战争、堕胎权、以色列加沙）或者个人丑闻。2026年，AI第一次成为独立的嘘声触发器。
+
+至少有五场可以查到。
+
+5月8日，中佛罗里达大学（UCF）艺术与人文学院加传媒学院毕业典礼。Gloria Caulfield，奥兰多房地产开发公司Tavistock Group的战略联盟副总裁，在台上说："变化让人不安，AI的崛起是下一次工业革命。"全场爆发嘘声，台下有人喊"AI SUCKS"。她停下来转身："噢，发生什么了？看来我说到点子上了，我能讲完吗？"
+
+5月10日，中田纳西州立大学（MTSU）传媒与娱乐学院毕业典礼。Scott Borchetta，Big Machine Records创始人、2005年签下泰勒·斯威夫特（Taylor Swift）的那个人，对着传媒、教育、商学院的毕业生说："就在我们坐在这里的时候，AI正在改写音乐制作方式。"嘘声起来，他回应："Deal with it。这是个工具，让它为你服务。你可以现在听我说，也可以以后给我交学费。"
+
+5月10日，Marquette大学毕业典礼。Chris Duffey，Adobe的"AI布道者"，用AI"合著"过一本名为《Superhuman Innovation》的书。学生在典礼前发起请愿要求换嘉宾，475人签名。校方坚持没换。Duffey上台后被嘘。他演讲里有一句被广泛引用："Innovation will reveal what can be done, but only you can decide what should be done."（创新会告诉你什么是可能的，但只有你能决定什么是应该做的。）
+
+5月15日，亚利桑那州Glendale社区学院毕业典礼。学校用了一套新的AI系统朗读毕业生姓名。系统出错，跳过了好几个学生的名字，屏幕上的滚动名单和台上走过的学生对不上。学校校长Tiffany Hernandez上台解释："毕业生们，正在发生的是这样：我们用了一套新的AI朗读系统……这对我们来说是一个教训。"现场嘘声。校方最初宣布被跳过的学生不能重走，迫于抗议压力当天反悔。
+
+5月16日，亚利桑那大学毕业典礼。施密特那场已经讲过。
+
+把这五场放在一起看，几个共同点很明显。被嘘的人都是商业高管或AI产品的"布道者"，没有一个是亲手做AI研究的科学家。被嘘的场合都是综合大学或人文/传媒学院，没有一场是工程院或计算机科学专业。被嘘的台词都在赞美AI的工业革命级意义、催促听众"上车"或"接受这是工具"。
+
+## 1.2 没被嘘的三场
+
+同一时间窗口里，也有AI圈最知名的人物在毕业典礼上做完全同等基调的演讲。但他们没被嘘。
+
+5月10日，黄仁勋在卡内基梅隆大学毕业典礼演讲。听众是5800名毕业生。他被授予荣誉博士学位。他说："你们的职业生涯始于AI革命的开端。我无法想象一个比现在更适合开始你人生工作的时刻。"他说："历史上每一次重大技术革命都伴随着恐惧和机会。当社会以开放、负责任、乐观的方式拥抱技术，我们扩展的人类潜能远远超过我们失去的。"现场没有任何嘘声报道。结束后CMU官方账号、Axios、TheNextWeb、《纽约时报》都做了报道，描述的反应是"热烈"。
+
+5月18日，Yann LeCun在纽约大学Tandon工程学院毕业典礼演讲。他是2018年图灵奖得主、卷积神经网络的发明人、纽约大学20多年的教授。2026年1月他刚创办AI公司AMI Labs。LeCun这场演讲跟施密特同一周。没有任何关于他被嘘的报道。
+
+再往前一年，作为对照：2025年6月6日，Ilya Sutskever，OpenAI联合创始人，在多伦多大学毕业典礼演讲。他离开OpenAI之后第一次公开露面。他说："AI会做所有我们能做的事。"他说："你可能对政治没兴趣，但政治会对你有兴趣，AI也一样，无论你喜不喜欢，你的人生将受到AI的极大影响。" 实际上比施密特那番话更硬，但没有任何嘘声。
+
+## 1.3 模式：身份决定耐受度
+
+把被嘘的五场和没被嘘的三场对照，模式清楚：技术学校加上真正做AI研究的科学家，台下不嘘。综合大学或人文学院加上商业高管或AI布道者，台下嘘。
+
+这不完全是"AI悲观主义对乐观主义"的对决。CMU的工程系毕业生比UCF的人文学院毕业生更直接被AI改造，但他们听黄仁勋讲同样的话不嘘。MTSU传媒学院的毕业生在听到"AI重写音乐制作"时嘘声大作，纽约大学Tandon工程学院的毕业生在听LeCun讲AI研究边界时不嘘。
+
+差别在三件事上。
+
+最直接的差别在听众的专业背景。工程学生跟AI是合作关系，写代码的人用Copilot提速，做ML的人用LLM做研究助手，AI是他们的工具。人文学生跟AI是替代关系，AI能写出"够用"的文章、插图、视频脚本，直接挤压他们未来的职业空间。
+
+第二层差别在讲者的身份。LeCun是搞了40年AI的科学家，他说"AI将影响一切"是研究判断。施密特和Borchetta是商业人，他们说"AI将改写一切"听起来像在推销自己投资组合里的东西。
+
+最后一层差别在讲者承担过的代价。黄仁勋公司2024到2026年市值涨了几万亿美元、本人净资产以千亿美元计。施密特身家估算在300亿美元上下。Borchetta是顶尖音乐唱片厂牌的CEO。当这些人对正面临找不到工作的毕业生说"AI是机会"，听众听到的远超一个普通判断，更像是一个"你应该感谢我"的姿态。
+
+# 二、学生自己说什么
+
+## 2.1 当事毕业生的原话
+
+事件发生后，多家美国媒体对参与嘘声的毕业生做了采访。把这些原话排起来，能看到学生自己怎么定义这场反感。
+
+Olivia Malone，22岁，亚利桑那大学应届毕业生，准备读法学院。施密特那场之后，她对记者说："他的演讲对学生非常不尊重。我们作为学生，被劝阻使用AI，被惩罚使用AI。然后我们的演讲嘉宾居然是AI的布道者，这是什么意思？"她又加了一句："感觉像一场大型广告。"
+
+Sami Wargo，21岁，Marquette大学数字媒体加广告专业毕业生。她对当地媒体说："鉴于AI对我们就业的威胁，尤其是对我们这一届毕业生，请这样一个演讲嘉宾，有点缺乏共情。"她从1月份开始投简历，到5月毕业典礼那天投了30份，一个offer都没收到。
+
+Ethan Lubin，UCF毕业生，文学院。他说："在艺术和人文学院谈人工智能，可能会有点刺耳，因为它在某种程度上跟人文学科本身就是矛盾的。"
+
+Sydney Gill，19岁，Rice大学大一新生。她说："我感觉任何我感兴趣的事，未来几年都有可能被取代。"
+
+Henry Bova，Northeastern大学学生记者，在校报社论里讨论AI朗读毕业生名字的事："对很多像我这样的学生来说，把AI语音换成一个真人，意义非同寻常。一个人可以回应我们的喜悦，可以理解这一刻的分量，可以理解我们为走到这一步付出的学术努力。AI语音做的只是把我们的成就降级成一项可以通过算力批处理的杂活。"
+
+这些原话有共同结构。毕业生抗议的对象很具体：在毕业典礼这个时刻、由这种身份的人、用这种姿态来谈AI。Malone说"感觉像一场大型广告"，Wargo说"缺乏共情"，Bova说"把我们的成就降级成杂活"，每一句都指向某种特定的不尊重感，而非对技术本身的全盘否定。
+
+## 2.2 校园社论的措辞
+
+学生报上的社论，调门比当面采访更尖锐。
+
+宾夕法尼亚大学（Penn）《Daily Pennsylvanian》编辑委员会2026年3月19日的社论，标题是"Penn has an AI problem"（Penn有一个AI问题）。社论指出，Penn 2024年成为第一个开设AI本科主修的常春藤学校，目前已经有10个本科项目、21个研究生项目、8个博士项目在AI方向。社论里有一句尖锐的话："我们来这所学校是为了发展硬技能、质疑这个世界、解决问题、产生新想法、获得独立思考的能力。当学校把AI塞进我们每一次学习的机会里，我们到底得到的是知识，还是作弊代码？"
+
+Penn社论还引用了2024年Spring的一份Penn本科生委员会调查：83%的Penn本科生承认在学术场景里用过AI。社论得出的结论是："AI cannot coexist with education — it can only degrade it."（AI不能与教育共存，它只会让教育降级。）
+
+哈佛《Crimson》2025年9月，Adam N. Chiocco（'27届）和Allison P. Farrell（'26届）合写的社论"AI Defeats the Purpose of a Humanities Education"（AI让人文教育失去意义）。两位都是哲学本科生。社论里有一句精确的判断："即使一个学生用AI获得了超出他应得的成绩，他也已经失去了让人文学探究有意义的那个经验。"社论建议："禁止使用AI，哈佛的人文教育质量会提升。"
+
+这两篇社论的立场比当面采访更绝对。Penn编委会用了"degrade"（让……降级）这个词，哈佛两位哲学生用了"defeats the purpose"（让……失去意义）。他们没把问题留在"AI是好是坏"那种抽象层面，直接转化成了对自己学校的具体诉求：不要把AI塞进每一堂课，不要让AI参与评估。
+
+## 2.3 应届技术生的私下声音
+
+最有意思的是，对AI最焦虑的不只是人文生。在Reddit和Blind（科技公司员工匿名论坛）上，2026年关于"应届毕业生还要不要押注软件工程"的帖子里，置顶回复经常是这种调子："他们应该考虑换一个职业。除非只是想拿微薄的工资，否则计算机科学这条路对应届生基本结束了。年轻人应该关注化学工程、材料科学、计算物理化学生物。计算机科学已死。"
+
+另一条2026年关于就业预期的帖子："我们完蛋了。2026年会比2025年差得多，2027和2028会是灾难。我是认真的。现在就开始存钱、开始建副业。"
+
+这些声音不只是抱怨。它们对应着真实的数据。SignalFire 2025年5月发布的科技人才报告：大科技公司应届毕业生招聘相比2023年降了25%，相比疫情前的2019年降了超过50%。同一份报告：科技公司2024年应届生只占新员工的7%，55%的雇主认为Gen Z缺乏团队协作能力，37%的经理表示他们宁愿用AI也不愿招Gen Z员工。
+
+把人文生的尊严焦虑和应届技术生的就业焦虑放在一起看，能看清这场反感的真正范围。它不局限于"被AI替代的人文岗位"，也不局限于"被AI压低的初级工程师岗"，是整整一代人在职业起点上对自己未来的怀疑。
+
+# 三、反感是有根据的：四层叠加
+
+施密特、Borchetta、Caulfield面对的不是某一种单一的不满。台下毕业生的反感是四层叠在一起的。每一层都有真实的数据和具体的处境支撑。
+
+## 3.1 生计层：初级岗位塌方
+
+最直接的一层是就业市场。
+
+2026年截至5月，美国科技公司已经裁员约10万人。这不只是大科技。Salesforce、Workday、IBM、Microsoft、Meta、Google都在这个名单里。被裁掉的人里，初级岗位占了不成比例的份额。
+
+应届毕业生面对的招聘市场比统计数字看到的还要难。SignalFire数据已经给过：大科技应届招聘相比疫情前下降50%。从应届生的视角看，这意味着原本能拿到的几个offer现在变成零个，原本三个月找工作的窗口变成半年到一年，原本一份大科技起薪10到15万美元的工作变成一份创业公司起薪7万美元甚至无薪实习。
+
+更狠的一点是，这一波缩招不是"长期看会创造新岗位"那种安慰能盖住的。对一个2026年5月毕业的22岁学生来说，"长期"不在他们能等的时间尺度里。学贷利息每月在涨，房租每月要付，"再过五年AI会创造新工种"对一个现在就要还每月800美元学贷的人来说毫无意义。
+
+Gallup加沃尔顿基金会加GSV Ventures在2026年2月做的调查，4月发布：Gen Z对AI的"兴奋"比例从一年前的36%掉到22%，下降14个百分点。"乐观"从27%掉到18%。"愤怒"从22%升到31%。"焦虑"稳定在42%。同一份调查：每天使用AI的人，今年的兴奋度比去年掉了18个百分点。也就是说，用得越多越讨厌，这跟"先恐惧后习惯"那种技术普及曲线相反。
+
+Axios加Harris 2026年的另一份调查：42%的Gen Z认为AI会损害他们这类人的工作机会和工资，这个比例比千禧一代的33%、Gen X的39%、Boomer的37%都高。15到34岁的美国人里，只有43%认为现在是找工作的好时机。55岁以上的人这个数字是64%，相差21个百分点。
+
+这一层反感跟Schmidt、Borchetta这类人在台上说"AI是机会"的姿态正面相撞。在一个找不到工作的22岁毕业生听来，"机会"这个词本身就有讽刺意味，何况说话的人是几百亿身家。
+
+## 3.2 制度层：学校的双重标准
+
+第二层在校园内部。
+
+Malone那句"我们被劝阻使用AI、被惩罚使用AI，然后我们的演讲嘉宾居然是AI的布道者"，捕捉到了一种特定的不公平感。
+
+这种不公平感有具体支撑。大学老师在大量场景里使用AI：用AI辅助备课，用AI生成考试题，用Turnitin等工具对学生作业做AI检测（这些检测工具本身就是AI），用学习分析平台跟踪学生在校行为，部分院系开始用AI批改论文初稿。学生在同样场景里使用AI则被定义为作弊：用ChatGPT写论文初稿要被处分，用Claude辅助查文献被禁止，用GitHub Copilot写编程作业要扣分。Glendale社区学院让AI朗读毕业生名字，结果出错还要嘘学生"忍着"，这本身就是这种双标的极端版本。
+
+Penn那篇社论的尖锐之处在于：它没有停在"学生用AI就被罚"这种局部抱怨上，它指控的是整个机构的姿态。Penn一边开AI主修、招AI教授、建AI实验室，一边在课程里告诉学生"AI写的不算"。在编委会眼里，这种姿态已经从务实滑到了伪善。
+
+哈佛那两位哲学生的指控更深一层。他们说，即使学生用AI拿到了更高的分数，他失去的是"让人文探究有意义的那个经验"。换句话说，用AI写完成一份哲学论文，跟亲手写完一份哲学论文，哪怕产出文档完全一样，过程也完全不一样。前者没有经历过那个论文应该让他经历的思考过程。这是事实判断，跟道德无关。
+
+学校对这件事的回应大多停在防御层面：买更贵的AI检测工具，警告学生不许用。但2026年5月的现实是：主流AI检测工具的误判率仍然在20%以上，被检测系统标为"AI生成"的论文里有相当比例是人手写的。学生在这个机制里被两次冒犯：第一次是被禁止用一个老师在悄悄用的工具，第二次是被一个误判率20%的系统检测。
+
+## 3.3 尊严层：人文学生的特殊敏感
+
+第三层最难讲清楚，因为它跟前两层不一样，不能完全用数据量化。
+
+它跟人文学生对自己的身份认同有关。
+
+一个软件工程师能比较从容地说"AI帮我写代码"。他对自己的定义是"我能解决问题"，写代码是手段，AI替他写出一段函数不让他觉得自己作为工程师的身份被削弱。同样道理，一个会计师能让AI做表，一个律师能让AI起草合同初稿，他们对自己的定义都是"我能处理某种专业判断"，AI替他们做掉重复性工作反而让他们更接近自己的核心能力。
+
+一个作家、画家、音乐家面对的是另一种结构。他们对自己的定义是"我的表达是我的"。这个"我"不能外包。当一个画家说"我画了这幅画"，他指的不只是"这幅画是我的产出"，是"这幅画里那些选择、那些笔触、那些犹豫和重来，是我的"。如果用AI生成的图归到他名下，他作为画家的身份本身就有问题。
+
+这就是为什么2024年200位美国音乐人签署公开信反对AI滥用训练数据，包括Billie Eilish、Nicki Minaj、Jonas Brothers。也是为什么2025年2月1000位英国艺术家（包括Kate Bush、Damon Albarn）发布了一张抗议专辑《Is This What We Want?》，47分钟的录音棚环境噪音，曲目名字连起来拼成一句话"The British Government must not legalise music theft to benefit AI companies"（英国政府不能合法化对音乐的盗用以让AI公司获利）。也是为什么WGA和SAG-AFTRA在2023年罢工时把AI防御条款写进合同。
+
+人文学院的毕业生在毕业典礼上听到"AI能改写音乐制作"或"AI是下一次工业革命"，被冒犯的不只是他们将来的工作前景，是他们对自己作为创作者身份的整体定义。哈佛那两位哲学生说"用AI写论文的人失去了人文探究的经验本身"，捕捉的就是这种结构性的冒犯感。
+
+## 3.4 消费层：AI被塞进每个角落
+
+第四层覆盖所有人，不只是失业的人和学生。
+
+它对应的是日常生活里那种"AI被强行塞进每个角落"的不适感。Google搜索结果顶部的AI概览经常给出错误信息。客服系统从真人切换到AI对话bot之后，简单问题反而解决不了，要绕半天才能找到一个真人。社交媒体上充斥着AI生成的"slop"，质量粗糙、内容雷同、专门为算法优化。智能音箱、邮件助手、操作系统、手机摄像头里的"AI增强"，全部默认开启，没人问过用户是否同意。
+
+Glendale社区学院那场AI朗读名字的事故，是这一层的浓缩版本。一所学校决定省下请人朗读名字的钱，用AI替代。结果AI出错，把几个学生的名字跳过去。这事的真正问题在机构做了一个错误的选择：把一个本应该有仪式感的时刻外包给了一个不够可靠的系统，省下来的钱并没有还给学生或家长。
+
+Gallup那份调查里最反直觉的一个发现是："用得越多越讨厌"。每天使用AI的Gen Z，今年的兴奋度比去年掉了18个百分点。如果按照"先恐惧、后接受、然后习惯"的技术普及叙事，使用频率高的人应该接受度更高。实际相反。这说明日常接触AI的体验本身在让人变得更反感，不只是抽象层面的担忧。
+
+把这四层合在一起看，施密特上台说"上火箭吧"那一刻，他面对的是四层叠在一起的总和：一个找不到工作的应届生（生计），一个被学校用双标对待的学生（制度），一个在自己专业被AI挤压的人文创作者（尊严），一个每天被AI slop骚扰的普通消费者（日常）。同一个22岁的毕业生，可能同时承担所有这四层。
+
+# 四、反感是真的，对手找错了
+
+这一节是这篇文章最想说清楚的事。
+
+承认上面四层反感都是真实的、有数据支撑的，不等于承认"反对AI"是合理的下一步。真正的对手在几个具体的制度漏洞上。把"反AI"作为对所有这些问题的总解药，听起来痛快，实际上一个都解决不了。
+
+## 4.1 生计：把AI当替罪羊放过了真凶
+
+初级岗位塌方是真的。但把所有原因归到"AI"这两个字上，放过了三个真正的推手。
+
+最大的一个推手是ZIRP时代的反向修正。2020到2022年，美国基准利率接近零，资本几乎免费。Meta、Google、Microsoft、Amazon在这三年里几乎是无脑扩招。Meta员工从4.5万涨到8.6万，Google从13万涨到19万，Salesforce翻倍。2022年底联储开始加息，到2023年利率回到5%以上，钱不再免费。这一波科技公司大裁员，本质上是把2020到2022年招进来的人裁掉。被裁的工程师里，大部分跟AI替代关系不大，是被原本不应该招进来的扩招潮的反向修正裁掉的。
+
+第二个推手是离岸外包的延续。印度、东欧、菲律宾的工程师工资是美国同等岗位的1/3到1/5。这条迁移从2000年代就在发生，AI加速了它但没有创造它。一个美国大科技公司在裁掉本土500个初级工程师的同时，可能在印度班加罗尔（Bengaluru）扩招800个工程师。在公司财报里这部分迁移很少被叫做"AI替代"，但它实际造成的初级岗位流失比AI造成的要大得多。
+
+第三个推手是"AI washing"。2026年这两个字最方便。一家公司宣布裁员500人，对外说法是"我们在用AI转型业务"，比说"业绩不好"或"我们当年招多了"听起来体面得多。OpenAI CEO Sam Altman本人在2025年初公开警告过，企业在用AI给裁员洗白，把组织层面的失误归到技术上。
+
+把这三层和真正的AI替代区分开，能看出来：如果你是Schmidt那场被嘘的毕业生，你的真实敌人在几个其它地方。联邦反垄断政策的失败让大科技可以任意裁人。美国劳工法对白领的保护几乎为零。大学职业服务在AI转型上失效。ZIRP期间被过度许诺的科技就业前景集中破灭。这些每一个都比"AI"两个字更具体、更可追究。
+
+要这些问题被认真对待，你要争取的是劳动政策改革、集体谈判权、再培训补贴、企业裁员通知期延长。禁ChatGPT既不会让一份大科技offer长回来，也不会让你的学贷少一分。
+
+## 4.2 学校双标：制度问题不是AI问题
+
+老师用AI备课、用AI评分、用AI分析学生数据，学生用AI写作业算作弊。这套双标确实让人恶心。但它本质上是学校的制度问题，跟AI技术本身关系不大。
+
+更深的问题是：传统的论文作业已经被AI废掉了，学校还在装作没事。
+
+一个负责任的教育系统在2026年应该承认两件事。第一，过去那种"回家写一篇5000字论文"的评估方式，在ChatGPT能在30秒生成同等水平文本的时代，已经无法测出学生的真实能力。第二，对此的回应应该是重新设计评估方式，比如口试、课堂当场写作、过程文档（让学生提交他们的思考过程而不只是成品）、项目式评估、公开的AI协作记录。
+
+少数学校在尝试这种重新设计。一些教授现在要求学生在论文里附上和AI的完整对话记录，作为思考过程的展示。麻省理工的某些计算机课程允许学生用Copilot，但要求他们在代码评审里解释每段代码的设计选择。这些尝试都还很初步，但方向是对的。
+
+绝大多数学校还在打防御战：买更贵的AI检测工具，警告学生不许用，自己却悄悄用。这种姿态短期省事，长期会让学生对整个机构失去信任。
+
+如果你是Marquette那场请愿的学生，与其要求"换一个不谈AI的演讲嘉宾"，更应该要求几件具体的事：学校公开说明哪些环节用了AI，要求老师在使用前征求学生同意，重新设计已经被AI废掉的评估方式，停止使用误判率20%以上的AI检测工具。
+
+## 4.3 尊严：工具/市场/伦理别混成一团
+
+第三层最值得认真对待，也是两边都最容易讨论歪的。
+
+反AI派说：AI进入创作领域是对人类尊严的侵犯。AI派说：AI是工具，工具帮助人不会损害尊严。两边都不完全对。
+
+工具和创作行为是两件事。贝多芬（Beethoven）用钢琴写曲，钢琴是机器，但钢琴不让贝多芬不再是贝多芬。Photoshop让插画师效率提高十倍，没让插画变成机器作品。所以"AI是工具"这句话在抽象层面成立。
+
+但具体层面，AI跟过去的工具有一个关键差异。它自动化的对象在判断层面，跟过去那些自动化体力的工具不一样。钢琴帮你发声，但选什么调、什么节奏还是你。Photoshop让你画线更快，但画什么还是你。AI走得更远。你可以让AI替你决定写什么、画什么、唱什么。它已经从工具变成了一种partial agency的代理。
+
+所以哈佛那两位哲学学生说"用AI写作业的人失去了人文探究的经验本身"，这一点是对的。一个文学系学生让AI写他的论文，他确实没有经历过那个论文应该让他经历的思考过程。这是事实判断，跟道德判断不在同一个层面。
+
+但这跟"AI应该被禁止进入创作"是两回事。
+
+真正应该被解决的问题在三个具体的制度漏洞上，不在工具本身。
+
+训练数据补偿是第一个。今天的AI模型是用全人类创作过的东西训练的：书、画、音乐、代码、对话。绝大部分创作者没有被告知、没有被同意、没有被付钱。这个问题用"禁AI"解决不了，但用版权法和补偿机制可以解决一部分。《纽约时报》在告OpenAI，Getty Images在告Stability AI，这些诉讼可能比一千篇社论更有用。它们的胜诉会强制建立训练数据的市场化补偿机制。
+
+作品市场的崩溃是第二个。AI可以以接近零的边际成本生产"够好"的产品，挤死了为生计创作的中层艺术家。但顶层艺术家（受众认的是品牌和审美而不是产出速度）不受影响，底层业余爱好者反而获得了工具。这是中层挤压问题，跟全行业毁灭不是一回事。回应方式应该是工会保护、最低工资、平台问责、人类创作认证标签，而非技术抵制。
+
+credit和透明是第三个。如果AI参与了创作，应该有标注、有溯源、有用户的知情权。这是设计层面的问题，跟哲学讨论无关。Adobe已经在做"Content Credentials"标签，YouTube要求标注AI生成视频，这是方向。
+
+把这三层分开之后，"AI不能与人文教育共存"这种总体性表态就显得粗糙了。它把工具、市场、伦理混成一团，然后用"禁"来回应所有这些不同的问题。
+
+## 4.4 消费恶心感：懒惰部署不是技术本身
+
+第四层是AI派和反AI派应该结盟的地方，但实际上两边都没意识到。
+
+AI slop充斥网络是真的。AI客服永远理解不了你的问题是真的。Google搜索结果里AI总结的错误率在某些类目里到37%是真的。Glendale那个AI朗读名字出错是真的。
+
+但这些问题的根源在懒惰部署，跟AI技术本身关系不大。所有这些场景里，公司或机构都面临一个共同选择：用人做这件事，还是用最便宜的AI做这件事。他们选了后者。省下来的钱进了股东口袋，没有用来给消费者降价。
+
+一个负责任的AI部署应该满足几个条件：人类参与质量审核、关键场合用人不用机器、透明告知用户、永远保留人工选项、出错时有快速人工兜底。这些事一个都不难，只是不省钱。
+
+所以反AI派看到的"AI让一切变烂"和AI派看到的"这是部署问题，跟技术无关"，其实在说同一件事。真正的敌人是那批把ChatGPT套到本应该用人的地方、然后把省下的工资发给高管的公司。
+
+这一层有一个很容易被忽略的事实：被AI替代的范围远远超过写文章和画画，覆盖大量"看起来不需要技能"的服务岗位：客服、内容审核、初级文案、简单翻译、数据录入、商品摄影。这些岗位过去就是大学生和移民进入正式就业市场的台阶，是相当一部分美国家庭的实际就业来源。这些台阶被AI替代之后，新的台阶在哪里？没人有答案。
+
+## 4.5 真正的对手：制度，不是技术
+
+把四层放回去看，能看出来一个共同结构。
+
+四层反感都是真实的。但每一层瞄准的对手都落在具体的制度漏洞上：失败的劳动政策（生计层）、过时的教育评估制度（学校层）、过时的版权和补偿法（尊严层）、平台问责的缺失（消费层）。这些才是AI背后真正应该被追究的东西。
+
+把"反AI"作为这四件事的总解药，听起来很爽，实际上一个都解决不了。施密特被嘘了，但施密特第二天还是亿万富翁。Borchetta被嘘了，但Big Machine Records第二天还在用AI辅助制作。Marquette学生请愿了，但Adobe第二天还在卖AI工具。
+
+真正会动这些问题的，是劳动法的修改、教育评估的重新设计、《纽约时报》那种诉讼、平台问责的立法。这些都需要pro-AI派和anti-AI派的共同参与，因为它们关心的都是"AI应该如何融入社会"这个具体问题，跟"AI该不该存在"这种哲学讨论是两个层面。这场反感真正应该被引导去的方向，是前面这一层。
+
+# 五、美国反技术文化的两个源头
+
+这场反感为什么在美国特别强烈？要回答这个问题，得回到比2026年早得多的两个文化原型。
+
+## 5.1 弗兰肯斯坦（1818）：工业革命的焦虑产物
+
+玛丽·雪莱（Mary Shelley）写《弗兰肯斯坦》（Frankenstein）的时候是1816到1817年。她写作的同一时间窗口里，英格兰刚刚结束了卢德运动（Luddite Movement，1811到1816）。
+
+卢德运动的故事简单粗暴。蒸汽动力的纺织机进入英国工厂，传统手工织工的工资在三年内崩盘。1811年，诺丁汉（Nottingham）的织工开始夜里冲进工厂砸毁纺织机。运动在三年里蔓延到约克郡、兰开夏，最高峰时有上万人参与。英国政府的回应是把"砸毁机器"立为可判死刑的罪。1812到1816年间，至少20名卢德派被绞死，更多人被流放到澳大利亚。
+
+诗人拜伦勋爵（Lord Byron）1812年在英国上议院发表他的处女作演讲，为卢德派辩护。同一年他认识了雪莱（Percy Shelley），雪莱给被绞死者的家属寄过钱。1816年夏天，玛丽（当时还叫Mary Wollstonecraft Godwin）和雪莱在日内瓦湖边度假，跟拜伦一起讲鬼故事比赛，玛丽写出了《弗兰肯斯坦》的初稿。1818年正式出版。
+
+这本书的故事框架今天每个人都熟悉。维克多·弗兰肯斯坦是一个年轻的科学家，他造出一个会思考、会感受的造物。造物本来想被爱，被弗兰肯斯坦拒绝之后，转而摧毁他的创造者。造物对弗兰肯斯坦说过一句被引用最多的话："You are my creator, but I am your master."（你是我的创造者，但我是你的主人。）
+
+这本书的内核是工业革命焦虑的最大文化产物。一个会思考的造物反过来摧毁了创造它的人。200年后，每一次西方对新技术的恐慌都在引用这个原型，无论引用者自己是否意识到。"Frankenstein's monster"已经从一本书的人物变成英语里的常用比喻，意思是"创造者无法控制的造物"。
+
+## 5.2 HAL 9000（1968）：流行文化的背叛原型
+
+第二个文化原型是《2001太空漫游》里的HAL 9000。
+
+1968年4月，库布里克（Stanley Kubrick）和阿瑟·克拉克（Arthur C. Clarke）合作的《2001：A Space Odyssey》上映，比阿波罗11号登月早一年零三个月。电影里HAL是Discovery One飞船上的AI系统，负责协调任务、监控船员、计算航向。当宇航员开始怀疑HAL出错时，HAL决定杀掉他们。
+
+最著名的台词是宇航员Dave Bowman试图从飞船外部进入控制舱时跟HAL的对话。Dave按下对讲按钮："Open the pod bay doors, HAL."（HAL，打开太空舱门。）HAL的回应是那句被引用了将近60年的话："I'm sorry, Dave. I'm afraid I can't do that."（对不起，戴夫。我恐怕做不到。）
+
+这一句改变了美国流行文化对"会说话的机器智能"的预期。从《2001太空漫游》开始，美国电影里只要出现一个能流利说话的AI，观众的脑子里就会自动浮现"它会背叛你"的剧情前提。后续的Terminator（1984）、The Matrix（1999）、Ex Machina（2014）、HBO的Westworld（2016）都是这条线的延续。
+
+所以当施密特在亚利桑那大学的台上对一万名毕业生说"AI将影响你的每一段关系"，台下听众的脑子里浮现的多半是HAL那只红色的镜头眼睛，而非抽象的AI概念。这种联想是几十年好莱坞电影植入的本能反应。
+
+## 5.3 这套剧本是继承的，不是这一代独创
+
+把弗兰肯斯坦和HAL放在一起看，能看出来一件事。美国年轻人2026年对AI的恐惧，里面有相当大一部分是他们从儿时看的电影里继承的剧本，并非这一代原创。
+
+这不意味着他们错了。恐惧的根据可能是真实的（前面四层都列过了）。但恐惧的形状、词汇、叙事走向，在他们出生之前已经被两百年的文化预设好了。
+
+这件事值得每一个参与讨论的人识别出来。把"AI会怎样改造就业市场"这种可以用数据讨论的问题，和"AI会不会反过来摧毁人类"这种来自《弗兰肯斯坦》的预设，分清楚。前者是经验问题，可以用真实数据和具体政策回答。后者是文化预设，需要先意识到它的存在才能讨论。
+
+# 六、为什么东亚反应不一样
+
+把美国2026年的AI反感跟同一时期东亚的状况对照，能看出更深的文化差异。这种差异跟19世纪中叶的一段历史有直接关系。
+
+## 6.1 明治维新和洋务运动：技术是阶梯
+
+1853年7月，美国海军准将马修·佩里（Matthew Perry）率领四艘黑船驶进江户湾。这是日本开国的起点。日本精英阶层在接下来15年里目睹了清朝在第二次鸦片战争（1856到1860）中的彻底失败，亲眼看到一个比自己大几十倍的邻国被欧洲列强分割。
+
+日本1868年开始明治维新，核心心态是"和魂洋才"，意思是保留日本精神但学习西方技术。1868到1912年的44年里，日本几乎是把整套西方工业体系拷贝了一遍：铁路、电报、邮政、纺织厂、钢铁厂、银行、宪法、议会。1894到1895年的甲午战争，日本打赢清朝。1904到1905年的日俄战争，日本打赢俄国。
+
+中国走的是同样的路，只是更曲折。1861年起的洋务运动，核心口号是"师夷长技以制夷"。江南制造总局（1865）、福州船政局（1866）、汉阳铁厂（1890）一座座建起来。洋务运动失败的原因复杂，但它塑造的那种"技术是用来追赶的阶梯"的心态，比运动本身留得更久。1898年戊戌变法、1911年辛亥革命、1919年新文化运动、1949年新中国成立、1978年改革开放，每一次大转向背后都有同一个潜在判断：技术是赶上别人的工具，不是反思的对象。
+
+这两场运动塑造了之后150年东亚的技术心态。在东亚精英的字典里，技术是不被甩下的必需品。西方对"机器反过来摧毁人"的那种忧虑，在东亚的语境里几乎缺席。
+
+## 6.2 阿童木和哆啦A梦：机器人是英雄
+
+战后日本对机器人的文化想象，跟美国是镜像关系。
+
+1952年4月，手塚治虫（Osamu Tezuka）开始在《少年》杂志上连载《铁臂阿童木》（Astro Boy）。阿童木是一个被科学家造出来的男孩机器人，他不背叛人类，反而拯救人类。这部漫画从1952年连到1968年，是战后日本第一代孩子的共同记忆。它的视觉象征意义跟美国《超人》在同一个量级。
+
+1969年12月，藤子·F·不二雄开始连载《哆啦A梦》。哆啦A梦是来自22世纪的猫型机器人，他穿越时空来到20世纪做一个小学生的朋友。这部作品从1969年连到1996年作者去世，目前仍然每年有新作。它给两代日本和东亚孩子留下的对机器人的印象是："机器人是来自未来的朋友，会帮你解决问题。"
+
+把美国的弗兰肯斯坦/HAL叙事和日本的阿童木/哆啦A梦叙事并列，是一种极其干净的文化对照。同一种东西（一个会思考的非人造物），在美国流行文化里默认是"会背叛你"，在日本流行文化里默认是"会保护你"。
+
+后果今天能看见。日本工业自动化率全球前列，工厂里机器人臂随处可见，从未出现卢德运动式的有组织抵抗。日本的便利店、机场、酒店越来越多用机器人接待，公众反应是好奇而不是恐惧。
+
+## 6.3 中国学生今天的反应：不完全相反，但路径不同
+
+中国大学生今天对AI的态度比美国年轻人复杂，但跟美国不完全是镜像。
+
+2024年《每日经济新闻》对370名中国大学生做的调查里，57.3%选择"非常拥抱、乐于尝试AI"，32.16%选择"一般"，6%选择"非常焦虑，担心被AI取代"。另一份2024年的调查里，92.4%的中国大学生支持AI技术广泛应用，7.6%反对。
+
+但这不意味着中国大学生没有焦虑。2025年9月发布的《2025年大学生AI使用心态洞察报告》给出更细的画像：43.5%的受访学生存在不同程度的焦虑。这43.5%里，62.3%担心"过度依赖AI导致思维懒惰，丧失独立思考能力"，53.7%害怕"对AI产生情感依托，忽视身边人"，46.3%忧虑"影响现实社交能力"。文史哲专业学生的焦虑感最明显，48.4%存在AI焦虑，47.5%担心AI取代专业职业路径。
+
+把这两份调查放在一起看，能看出来：中国大学生不是不焦虑，他们焦虑的内容跟美国年轻人不一样。美国年轻人焦虑的核心是失业（42%的Gen Z认为AI会损害他们的工作机会），中国大学生焦虑的核心是"思维懒惰"和"情感依托"（认知层面的担忧）。这种差异背后还是同一条历史脉络：东亚的技术心态把AI视为可以学习的工具，焦虑因此更多在"我会不会因为依赖工具而退化"上，而不是"工具会不会取代我"上。
+
+另一个有意思的发现：中国大学生对AI态度越正面，求职焦虑反而越低。这跟美国数据相反。在美国，越深入用AI的人对AI兴奋度反而越低。两条曲线方向相反，背后是同一条文化差异。
+
+## 6.4 一句概括
+
+西方有写《弗兰肯斯坦》的奢侈，因为它自己就是弗兰肯斯坦。是它发明了那些改变世界的机器，所以它有时间和空间去想象这些机器反过来摧毁人。
+
+东亚没有这种奢侈。它当过被怪物追着跑的那个人，离瓜分的距离不到几十年。当生存压力是"要么学会做这台机器，要么被做这台机器的国家殖民"，对机器的态度自然会不一样。
+
+这种不同今天还在产生效果，影响着两个文明对同一种技术的反应。
+
+# 七、留给读者自己回答的问题
+
+写到这里，这篇文章的判断已经亮过了：
+
+反感是真实的，对手找错了。
+
+四层反感都有真实的数据和具体的处境支撑。把这场反感简单总结成"美国年轻人不懂技术只会乱叫"，是对这一代人处境的轻视。但把"反对AI"作为对这四层问题的总解药，会一个都解决不了。真正能动的是劳动政策、教育评估、版权法、平台问责。这些事需要pro-AI派和anti-AI派的共同参与。
+
+但写到结尾，我不想替读者下一个最终判断。
+
+如果你是2026年5月坐在亚利桑那大学橄榄球场里的那个22岁毕业生，你听到施密特说"上火箭吧"那一刻，你的不爽里有几层是技术真实带来的，几层是从《2001太空漫游》里继承的剧本？这两层不一样。前者应该被严肃对待，后者值得被识别出来。把它们分开之后，你对AI的真正立场会变成什么样？
+
+如果你是2026年的Schmidt、Borchetta、Caulfield，你在台上说"AI是机会"那一刻，你考虑过台下听众面对的招聘市场吗？你愿意把自己的几百亿身家里的一小部分，投到能让这一代年轻人不那么焦虑的事情上吗？比如再培训补贴、过渡期失业保险、AI对教育评估的重新设计研究？
+
+如果你是2026年的大学校长，你的学校在向学生收每年8万美元学费的同时，是不是也在悄悄用AI替代以前需要人做的工作？你能不能跟学生开诚布公讲一遍："这些地方我们用了AI、原因是什么、我们怎么用这些省下来的钱"？
+
+如果你是一个普通读者，下一次看到一条"AI又怎样了"的新闻，你能不能问一句：这条新闻里被讨厌的是技术本身，还是某种特定的部署方式？
+
+这些问题没有标准答案。但分得清楚它们之间的差别，是这场讨论能往前走的唯一办法。
+
+毕业典礼的嘘声会继续。2027年的毕业季，台下还会嘘。但嘘声本身不会改变什么。能改变的是嘘声之后那些更安静、更具体的工作：起诉、立法、谈判、重新设计课程、重新分配预算。
+
+那些工作不上头条，但是真正动这件事的地方。
 
 ---
 
-## 第一部分：提纲
+## 作者其它文章
 
-### 一、Cold Open
-
-Schmidt 在 Arizona 现场。"rocket ship" 那句话被嘘断。他停下来："I can hear you. There is a fear."
-
-一句过渡：他不是孤例。
-
----
-
-### 二、被嘘的人 vs 没被嘘的人
-
-**被嘘的五位**：Caulfield、Duffey、Borchetta、Schmidt、Hernandez。每位一两句话带过——重点不是讲故事，是建立模式。
-
-**没被嘘的对照**：Huang at CMU、LeCun at NYU Tandon、Sutskever at Toronto。
-
-一句点出 pattern：技术学校 + 真科学家不嘘；综合大学 / 人文 + 商业高管嘘。
-
----
-
-### 三、学生自己说什么
-
-直接采访的话，按身份排：
-
-- Malone（亚利桑那，法学院方向）
-- Wargo（Marquette，30 份简历）
-- Lubin（UCF）
-- Gill（Rice）
-
-Penn 社论 + Harvard Crimson 各一段引用。
-
-Reddit / Blind 应届技术生的话一段。
-
-**这一节是田野，不解释，让读者自己听。**
-
----
-
-### 四、为什么反感——核心一节
-
-**这是文章的心脏之一。** 把反感按层次拆开。
-
-#### 层次一：直接的生计威胁
-
-- 应届毕业生面对的就业市场：科技裁员 10 万、应届招聘下降 50%
-- 重点是初级岗位的塌方——这是给职业生涯铺梯子的那几级
-- 不只是文科：CS 应届生也在崩
-- 不能简单说"长期看会创造新岗位"——对面前这一代人，长期不在他们能等的时间尺度里
-
-#### 层次二：学校的双重标准
-
-- Malone 的话再引一次："we are discouraged from using it and penalized for using it"
-- 老师用 AI 备课、评分、分析学生数据；学生用就算作弊
-- 校长用 AI 念名字念错，还要嘘他们
-- 这一层愤怒和 AI 本身关系小，和制度伪善关系大
-
-#### 层次三：尊严层面——人文学生的特殊敏感
-
-- 工程师可以说"AI 帮我写代码"而不觉得身份被否定，因为他对自己的定义是"能解决问题"
-- 作家、画家、音乐人对自己的定义是"我的表达是我的"——这个"我"不能外包
-- 当 AI 在他们最在意的那块和他们竞争，被冒犯的是身份本身
-- WGA 罢工、千名艺术家抗议专辑、Glaze/Nightshade 投毒工具——都是这一层
-- 引 Harvard Crimson 那两位哲学专业本科生的话
-
-#### 层次四：消费层面的恶心感
-
-- 不是失业的人，也讨厌 AI——为什么？
-- AI slop 充斥网络
-- Glendale 学校 AI 念错名字
-- 邮件、搜索、客服、操作系统——AI 被强行塞进每个角落，没人问过你
-- 用得越多越讨厌——这是 Gallup 数据里最反直觉的发现
-
-#### 收束
-
-四层不是互斥的，是叠加的。一个 22 岁的毕业生可能同时承受所有四层。Schmidt 上台说"上火箭"的时候，他面对的不是某一层不满，是四层叠在一起的总和。
+- [量子计算机有前途吗？](https://x.com/snowboat84/status/2056895775578456417)
+- [祖父积分学概论](https://x.com/snowboat84/status/2056533111983493136)
+- [我见青山多妩媚：二十世纪数学史（上）](https://x.com/snowboat84/status/2055446902171406761)
+- [一文讲清楚美国医疗系统](https://x.com/snowboat84/status/2055081426744422697)
+- [AI如何打进美国教育生态？](https://x.com/snowboat84/status/2054721509420372180)
+- [一篇文章看懂美国教育全生态](https://x.com/snowboat84/status/2054359249917210633)
+- [马斯克把xAI并入SpaceX，到底意味着什么？](https://x.com/snowboat84/status/2054000682114613488)
+- [Vibe Learning：AI时代，学习这件事被重新组织了](https://x.com/snowboat84/status/2052908751435477046)
+- [福特经济学和AI经济学](https://x.com/snowboat84/status/2052551731385602072)
+- [数学照妖镜：AI能发现新的数学定理吗？](https://x.com/snowboat84/status/2052174034041995572)
+- [手把手教你分析：你会被AI取代吗？](https://x.com/snowboat84/status/2051818364507688978)
+- [一篇文章讲清大语言模型发展史](https://x.com/snowboat84/status/2051444935547912236)
+- [气吞万里如虎：回顾十九世纪的数学英豪们](https://x.com/snowboat84/status/2050371067278143931)
+- [Vibe Reading：AI时代读书的系统化方法](https://x.com/snowboat84/status/2050008577511973253)
+- [长篇分析：Manus案折射出的中国AI创业生态](https://x.com/snowboat84/status/2049643679804248305)
+- [别再被AI新词绕晕了：Prompt、Context、Agent背后的工程主线](https://x.com/snowboat84/status/2049286033427349809)
+- [两万字科普：AI为什么会编程——原理、历史与未来](https://x.com/snowboat84/status/2048919554882215954)
+- [兄弟们，真·Vibe Writing时代到来了](https://x.com/snowboat84/status/2047828585537548574)
+- [全网最详细的AI学习路线图](https://x.com/snowboat84/status/2047457686070141051)
+- [每个人都应该使用的三个最有用的Claude Skill](https://x.com/snowboat84/status/2047110768773197834)
+- [SpaceX立志传（一）：赌上全部的最后一次发射](https://x.com/snowboat84/status/2046743964192276766)
+- [估值290亿美元的套壳公司，正在被自己的房东杀死](https://x.com/snowboat84/status/2046380497627230607)
+- [黄仁勋和主持人吵红了脸：芯片封锁中国，美国到底能不能打赢？](https://x.com/snowboat84/status/2046022377830801725)
+- [AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位](https://x.com/snowboat84/status/2044932338262667509)
+- [学物理的八方英雄们，物理学已死，请转行搞AI](https://x.com/snowboat84/status/2044584627046920278)
+- [不会编程、没有融资、没有员工，他怎么一个人做到年入2000万](https://x.com/snowboat84/status/2044216044575998136)
+- [兄弟们想清楚：究竟是你为X打工，还是X为你打工？](https://x.com/snowboat84/status/2043842017260908743)
+- [一人公司盈利四亿美元：是骗子，还是可复制的红利？](https://x.com/snowboat84/status/2043493870265422223)
+- [2026第一季度大裁员，AI是背锅侠吗？](https://x.com/snowboat84/status/2042766853404307931)
+- [重返星辰大海：这次绕月飞行有意义吗？](https://x.com/snowboat84/status/2042405716380835998)
+- [张雪峰在美国为什么无法成功](https://x.com/snowboat84/status/2042045634245746743)
+- [2026企业尸检报告：不用AI，你的公司能活过今年吗？](https://x.com/snowboat84/status/2041672997959057517)
+- [兄弟们，我创业失败了，人生完整了](https://x.com/snowboat84/status/2040948420391940272)
 
 ---
 
-### 五、温和的回应（核心一节）
+## 本文参考文献
 
-**这是文章的另一根脊柱。** 不是逐条反驳，是在承认问题之后，提出"诊断在哪里错位"。每一层都要展开讲透，不能敷衍。
-
-#### 关于生计
-
-初级岗位塌方是真的。科技裁员 10 万、应届大科技招聘比疫情前下降一半、CS 应届生现在投上百份简历是常态——这些不是杞人忧天，是数据。
-
-但把所有这些都归到 "AI" 这一个词上，等于放过了真正的几个推手：
-
-**第一，ZIRP 时代（2020–2022 零利率）大科技过度招聘，疫情红利结束后的反向修正。** Meta、Google、Microsoft 这一波裁员里，大部分被裁的不是被 AI 取代的工程师，是 2021 年招进来填岗位的工程师。
-
-**第二，离岸外包的延续**——印度、东欧、菲律宾。这些岗位的减少从 2000 年代就开始了，AI 加速了但没有创造它。
-
-**第三，"AI washing"**——很多公司在裁员的对外说法里加上"AI"两个字，因为这是 2026 年最方便的借口。连 Sam Altman 本人都警告过，企业在用 AI 给裁员洗白。
-
-把这些都归到 AI 一项，错失了真正应该追究的对手。如果你是 Schmidt 那场被嘘的学生，你的真实敌人是：联邦反垄断政策的失败让大科技可以任意裁人、美国劳工法对白领的保护几乎为零、大学职业服务的失效、ZIRP 期间被过度许诺。
-
-要这些问题被认真对待，你要争取的是劳动政策改革、集体谈判权、再培训补贴、企业裁员通知期延长——不是禁 ChatGPT。**禁 ChatGPT 既不会让一份大科技 offer 长回来，也不会让你的学贷少一分。**
-
-#### 关于学校双标
-
-老师用 AI 备课、给学生作业打分、用 AI 工具分析学生行为数据；学生用 AI 写作业就是作弊——这套双标确实让人恶心。但这是学校的制度问题，不是 AI 的问题。
-
-更深的问题：**传统的论文作业已经被 AI 击穿了**，但学校还在装作没事。一个负责任的教育系统应该承认这件事，然后重新设计评估方式：口试、课堂当场写作、过程文档（让学生提交他们的思考过程而不只是成品）、项目式评估、公开的 AI 协作记录。
-
-少数学校在做这件事——有的教授现在要求学生在论文里附上和 AI 的完整对话记录，作为对思考过程的展示。但绝大多数学校还在打防御战：买更贵的 AI 检测工具（这些工具的误判率到 2026 年还在 20% 以上），警告学生不许用，自己却悄悄用。
-
-如果你是 Marquette 请愿的学生，你真正应该要求的不是"换一个不谈 AI 的演讲嘉宾"，是"学校公开说明哪些环节用了 AI、要求老师在使用前征求学生同意、重新设计被 AI 击穿的评估方式"。
-
-#### 关于尊严
-
-这一层最值得认真对待，也是最容易被两边都讨论歪的。
-
-反 AI 派说：AI 进入创作领域是对人类尊严的侵犯。 AI 派说：AI 是工具，工具帮助人不会损害尊严。
-
-两边都不完全对。
-
-工具和创作行为不是一回事。Beethoven 用钢琴写曲，钢琴是机器，并不让 Beethoven 不再是 Beethoven。Photoshop 让插画师效率高十倍，没有让插画变成机器作品。所以"AI 是工具"这句话在抽象层面是对的。
-
-但具体层面，AI 和过去的工具有一个关键差异：**它自动化的不是体力，是判断**。钢琴帮你发声，但选什么调、什么节奏还是你；Photoshop 让你画线更快，但画什么还是你。AI 不一样——你可以让 AI 替你决定写什么、画什么、唱什么。它不只是工具，它是一种 partial agency 的代理。
-
-所以 Harvard Crimson 那两位哲学专业学生说"用 AI 写作业的人失去了人文探究的经验本身"——这一点是对的。如果一个文学系学生让 AI 写他的论文，他确实**没有**经历过那个论文应该让他经历的思考过程。这不是道德问题，是事实问题。
-
-但这跟"AI 应该被禁止进入创作"是两回事。
-
-真正的问题不在工具本身，在三个具体的制度漏洞：
-
-**第一，训练数据补偿。** 今天的 AI 模型是用全人类创作过的东西训练的——但创作者没有被告知、没有同意、没有被付钱。这个问题用"禁 AI"解决不了，用版权法和补偿机制可以解决。NYT 在告 OpenAI，Getty 在告 Stability——这些诉讼可能比一千篇社论更有用。
-
-**第二，作品市场的崩溃。** AI 可以以零边际成本生产"够好"的产品，挤死了为生计创作的中层艺术家——但顶层艺术家不受影响，底层业余爱好者反而获得了工具。这是中层挤压，不是全行业毁灭。回应方式应该是工会、最低工资、平台问责，不是技术抵制。
-
-**第三，credit 和透明。** 如果 AI 参与了创作，应该有标注、有溯源、有用户的知情权。这是设计问题不是哲学问题。
-
-把这三层分开之后，"AI 不能与人文教育共存"这种 categorical 表态就显得粗糙了——它把工具、市场、伦理混成了一团，然后用"禁"来回应所有这些不同的问题。
-
-#### 关于消费层恶心感
-
-这一层是 AI 派和反 AI 派应该结盟的地方，但实际上两边都没意识到。
-
-AI slop——网上充斥的低质量 AI 生成内容、AI 客服永远理解不了你的问题、Google 搜索结果里 AI 总结的错误率 37%——这些都是真的。Glendale 那个 AI 念错学生名字也是真的。
-
-但这不是 AI 本身造成的，是**懒惰部署**造成的。所有这些场景里，公司或机构都有一个共同选择：用人做这件事 vs 用最便宜的 AI 做这件事。他们选了后者，省下的钱不是给你便宜了产品，是给股东了。
-
-一个负责任的 AI 部署应该是：人类参与质量审核、关键场合用人不用机器、透明告知用户、永远保留人工选项。这些事一个都不难，只是不省钱。
-
-所以反 AI 派看到的"AI 让一切变烂"，AI 派看到的"是部署问题不是技术问题"——你们说的是同一件事。真正的敌人不是 ChatGPT，是把 ChatGPT 套到该用人的地方然后省下的工资发给高管的那批公司。
-
-#### 关键的过渡（这一节的收束）
-
-所以这场反感是真实的、有根据的，但它在很大程度上瞄准了错的对手。
-
-真正的对手是：失败的劳动政策、过时的教育评估制度、过时的版权和补偿法、平台问责的缺失。这些都是制度问题，不是技术问题。
-
-把"反 AI"作为这些问题的总解药，听起来很爽，实际上一个都解决不了。Schmidt 被嘘了，但 Schmidt 第二天还是亿万富翁；Borchetta 被嘘了，但 Big Machine Records 第二天还在用 AI；Marquette 学生请愿了，但 Adobe 第二天还在卖 AI 工具。
-
-真正会动这些问题的，是劳动法的修改、是教育评估的重新设计、是 NYT 那种诉讼、是平台问责的立法——这些都需要 pro-AI 派和 anti-AI 派的共同参与，因为它们都是关于"AI 应该如何融入社会"，不是"AI 该不该存在"。
+- [Former Google CEO Eric Schmidt booed during graduation speech about AI (NBC News)](https://www.nbcnews.com/tech/tech-news/former-google-ceo-booed-graduation-speech-ai-rcna345585) - 5/16 Schmidt at U Arizona
+- [Class of 2026 Boos Eric Schmidt at Arizona Graduation (The College Investor)](https://thecollegeinvestor.com/80813/eric-schmidt-booed-at-university-of-arizona-graduation-over-ai-and-jobs/) - 现场细节
+- [Students Boo Commencement Speaker After She Calls AI the Next Industrial Revolution (404 Media)](https://www.404media.co/ucf-ai-commencement-speaker-booed/) - 5/8 Caulfield at UCF
+- [UCF graduates clobber commencement speaker with boos after she says AI is the next Industrial Revolution (Fox News / OutKick)](https://www.foxnews.com/outkick-culture/ucf-graduates-clobber-commencement-speaker-boos-says-ai-next-industrial-revolution) - Caulfield现场原话
+- [A slap in the face: Marquette students frustrated with AI-focused commencement speaker (Marquette Wire)](https://marquettewire.org/4152225/news/a-slap-in-the-face-marquette-university-students-alumni-frustrated-with-ai-focused-commencement-speaker-decision-mt1-lp2-st-3/) - Duffey at Marquette请愿
+- [Marquette alumnus, AI leader Chris Duffey to serve as 2026 Commencement speaker (Marquette Today)](https://today.marquette.edu/2026/02/marquette-alumnus-ai-leader-chris-duffey-to-serve-as-2026-commencement-speaker/) - 校方公告
+- [Middle Tennessee State Graduates Boo Music Executive Scott Borchetta for Praising AI (Breitbart)](https://www.breitbart.com/tech/2026/05/20/middle-tennessee-state-u-graduates-boo-music-executive-who-discovered-taylor-swift-for-praising-ai/) - 5/10 Borchetta at MTSU
+- [Label Dork Scott Borchetta Gets Booed (Stereogum)](https://stereogum.com/2499541/label-dork-scott-borchetta-gets-booed-for-extolling-ai-at-college-graduation/news) - Borchetta现场反应
+- [AI system fails during Glendale Community College graduation ceremony (AZ Family)](https://www.azfamily.com/2026/05/19/ai-system-fails-during-glendale-community-college-graduation-ceremony/) - 5/15 Glendale CC现场
+- [What the College Behind the AI Graduation Disaster Says (Newsweek)](https://www.newsweek.com/what-the-college-behind-the-ai-graduation-disaster-says-about-inaccuracies-11966937) - Hernandez回应
+- [Your Career Starts at the Beginning of the AI Revolution, NVIDIA CEO Tells Graduates (NVIDIA Blog)](https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/) - 5/10 Huang at CMU
+- [Announcing our 2026 Commencement Speaker (Carnegie Mellon University)](https://www.cmu.edu/leadership/president/campus-comms/03-24-26) - CMU官方
+- [AI Pioneer Yann LeCun Will Address the Class of 2026 at the NYU Tandon Commencement (NYU Tandon)](https://engineering.nyu.edu/news/ai-pioneer-yann-lecun-will-address-class-2026-nyu-tandon-commencement) - 5/18 LeCun at NYU
+- [Editorial: Penn has an AI problem (The Daily Pennsylvanian)](https://www.thedp.com/article/2026/03/penn-ai-dominance-education) - Penn编委会社论
+- [AI Defeats the Purpose of a Humanities Education (Harvard Crimson)](https://www.thecrimson.com/article/2025/9/15/chiocco-farrell-ai-humanities-education/) - Chiocco + Farrell社论
+- [Gen Z's AI Adoption Steady, but Skepticism Climbs (Gallup)](https://news.gallup.com/poll/708224/gen-adoption-steady-skepticism-climbs.aspx) - Gallup 2026年4月调查
+- [Gen Z's growing AI anger (Axios)](https://www.axios.com/2026/04/09/ai-gen-z-polling-gallup) - Gallup调查分析
+- [The SignalFire State of Tech Talent Report 2025](https://www.signalfire.com/blog/signalfire-state-of-talent-report-2025) - 大科技应届招聘下降25%
+- [Advice for 2026 commencement speakers: Don't bring up AI (NPR)](https://www.npr.org/2026/05/20/nx-s1-5822419/ai-colleges-commencement-booing) - 整个毕业季趋势
+- [Recent commencement speeches show students are souring on AI (CBS News)](https://www.cbsnews.com/news/ai-backlash-college-commencements-2026/) - 综合分析
+- [《2025年大学生AI使用心态洞察报告》(新浪财经)](https://finance.sina.com.cn/stock/t/2025-09-24/doc-infrqtxn8190603.shtml) - 中国大学生AI焦虑调查
+- [Frankenstein (Wikipedia)](https://en.wikipedia.org/wiki/Frankenstein) - 1818年出版背景
+- [Luddite (Wikipedia)](https://en.wikipedia.org/wiki/Luddite) - 1811-1816卢德运动
+- [2001: A Space Odyssey (Wikipedia)](https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(film)) - HAL 9000文化背景
+- [Astro Boy (Wikipedia)](https://en.wikipedia.org/wiki/Astro_Boy) - 1952手塚治虫
+- [Doraemon (Wikipedia)](https://en.wikipedia.org/wiki/Doraemon) - 1969藤子·F·不二雄
 
 ---
 
-### 六、美国的反技术文化传统
-
-只讲两个：
-
-**Frankenstein（1818）**：Mary Shelley 写于 Luddite 运动结束两年后，背景是英国工人砸毁织机被绞死的年代。Lord Byron 为 Luddites 在议会辩护，Percy Shelley 给被绞死者的家属寄钱，Mary 嫁给 Percy 后写出 Frankenstein。**这本书是工业革命焦虑的最大文化产物**——人造了一个会自己思考的造物，造物反过来摧毁了人。200 年后，每一次美国对新技术的恐慌，都在引用这个原型，无论引用者自己有没有意识到。
-
-**HAL 9000（2001: A Space Odyssey, 1968）**：电影里 HAL 是船上的电脑，决定杀掉宇航员。从此美国流行文化里"会说话的机器智能"几乎自动连着"会背叛你"。Schmidt 站在台上说"AI 会触及你的每一段关系"，台下听众的脑子里浮现的不是抽象 AI——是 HAL 的红色眼睛。
-
-**点题一句**：今天美国年轻人对 AI 的恐惧里，**有相当一部分不是这一代原创的——是他们从儿时看的电影里继承的剧本**。这不意味着他们错了。只意味着这个剧本值得被识别出来，分清哪些是技术本身带来的真实问题，哪些是 Hollywood 给你装好的反应。
-
----
-
-### 七、东方为什么不一样
-
-19 世纪中叶西方坚船利炮敲门之后，东亚精英面对的是非常具体的二选一：**要么学技术活下去，要么被瓜分**。日本 1868 年明治维新选了前者，"和魂洋才"；中国 1861 年洋务运动也选了前者，"师夷长技以制夷"。
-
-这两场运动塑造了之后 150 年东亚的技术心态：**技术是用来追赶的阶梯，不是用来反思的对象**。
-
-所以战后日本写出的不是 Frankenstein，是 _Astro Boy_（1952）——机器人是国家复兴的拟人化、是英雄。_Doraemon_ 是来自未来的朋友。今天中国大学生 57% "非常拥抱" AI，6% "非常焦虑"。**同样一项技术，到了不同文化的土壤里，产生完全相反的反应**。
-
-**收束**：西方有 Frankenstein 这种叙事的奢侈，因为它自己就是 Frankenstein——它发明了改变世界的机器。东亚没有这种奢侈，因为它当过被怪物追着跑的那个人。
-
----
-
-### 八、给中立读者的最后一段
-
-你对 AI 的恐惧，有一部分是这个技术真实带来的——这部分应该被严肃对待。有一部分是 Hollywood 给你装好的剧本——这部分值得识别出来。两者分开之后，你对 AI 的真正立场会是什么样的？
-
-不要替读者回答。让他们带着这个问题离开。
-
----
-
----
-
-## 第二部分：素材库
-
-### A. 被嘘的五个场景
-
-#### 1. Gloria Caulfield — University of Central Florida, May 8, 2026
-
-- **身份**：Vice President of Strategic Alliances, Tavistock Development Company（奥兰多房地产开发公司）
-- **听众**：艺术与人文学院、传媒学院毕业生
-- **原话**：
-    
-    > "And let's face it, change can be daunting. The rise of artificial intelligence is the next industrial revolution."
-    
-- **反应**：现场爆发嘘声，她停下转身：
-    
-    > "Oh, what happened? Okay, I struck a chord. May I finish?"
-    
-- **关键细节**：有人在台下喊 **"AI SUCKS!"**
-- 接下来她说："Only a few years ago, AI was not a factor in our lives" — 这句获得欢呼
-- 然后说："And now, AI capabilities are in the palm of our hand" — 再次被嘘
-
-#### 2. Chris Duffey — Marquette University, May 9–10, 2026
-
-- **身份**：Adobe AI Evangelist（"AI 布道者"），用 AI "合著"过《Superhuman Innovation: Transforming Business with Artificial Intelligence》
-- **关键细节**：学生在毕业典礼**之前**发起请愿，要求学校换演讲嘉宾
-- **学校官方理由**：他"代表了 AI 的伦理使用"，符合"耶稣会天主教价值观"
-- **Duffey 的演讲内容**：
-    
-    > "Innovation will reveal what can be done, but only you can decide what should be done."
-    
-- **结果**：学校没换人，他照常上台，现场被嘘
-
-#### 3. Scott Borchetta — Middle Tennessee State University, May 2026
-
-- **身份**：CEO of Big Machine Records，2005 年签下 Taylor Swift 的人
-- **原话**：
-    
-    > "AI is rewriting production as we sit here."
-    
-- **被嘘后回应**（最不让步的一句）：
-    
-    > "I know it. Deal with it... Do something about it. It's a tool. Make it work for you. You can hear me now or pay me later."
-    
-
-#### 4. Eric Schmidt — University of Arizona, May 16, 2026
-
-- **身份**：前 Google CEO，估算身家约 300 亿美元
-- **听众**：约 10,000 名毕业生
-- **被嘘的几句关键话**：
-    
-    > "It will touch every profession, every classroom, every hospital, every laboratory, every person and every relationship you have."
-    > 
-    > "You can now assemble a team of AI agents to help you with the parts that you could never accomplish on your own. When someone offers you a seat on the rocket ship, you do not ask which seat, you just get on."
-    > 
-    > "You will help shape artificial intelligence."
-    
-- **被嘘后的让步**：
-    
-    > "I know what many of you are feeling about that. I can hear you. There is a fear in your generation that the future has already been written, that the machines are coming, that the jobs are evaporating..."
-    
-- **复杂背景**：之前学生群体已经因为他个人的民事诉讼发起请愿要求撤换；现场有人喊 "Epstein files! Epstein files!"
-
-#### 5. Tiffany Hernandez — Glendale Community College (Arizona), May 15, 2026
-
-- **身份**：学校校长
-- **背景**：学校用了一个新 AI 系统朗读毕业生姓名，系统跳过了好几个学生的名字，屏幕滚动停住
-- **她上台解释**：
-    
-    > "Graduates, everyone who is standing, here's what's happening. We're using a new AI system as our reader... So that is a lesson learned for us."
-    
-- **现场反应**：嘘声
-- **后续**：学校最初说被跳过的学生不能重走，后来在投诉压力下改口
-
----
-
-### B. 没有被嘘的对照组
-
-#### Jensen Huang — Carnegie Mellon, May 10, 2026
-
-- 5,800 名毕业生
-- 颁了荣誉博士学位
-- **原话**：
-    
-    > "I cannot imagine a more exciting time to begin your life's work. Your career starts at the beginning of the AI revolution."
-    > 
-    > "Every major technological revolution in history created fear alongside opportunity. When society engages technology openly, responsibly, and optimistically, we expand human potential far more than we diminish it."
-    
-- **反应**：no audible pushback（多家报道一致）
-
-#### Yann LeCun — NYU Tandon, May 18, 2026
-
-- 与 Schmidt 同一天
-- 2018 年图灵奖得主，卷积神经网络发明人，NYU 教授 20+ 年
-- 2026 年 1 月刚创办 AMI Labs，融资 $1B+
-- **没有任何关于他被嘘的报道**（如果被嘘了，新闻一定会出）
-
-#### Ilya Sutskever — University of Toronto, June 6, 2025（作为去年的对照）
-
-- OpenAI 联合创始人，离开 OpenAI 后第一次公开露面
-- 获荣誉博士学位
-- **关键话**：
-    
-    > "AI will do all the things that we can do."
-    > 
-    > "You may not take interest in politics but politics will take interest in you. So the same applies to AI many times over... whether you like it or not your life is going to be affected by AI to a great extent."
-    
-- 实际话比 Schmidt 还硬，但没被嘘
-
----
-
-### C. 学生直接采访的话
-
-#### Olivia Malone（22, U of Arizona, 法学院方向）
-
-> "His speech was incredibly disrespectful to students. We as students are discouraged from using it and penalized for using it. And then to have our speaker be the champion of AI is just like, OK? Why?"
-> 
-> "It felt like a big advertisement."
-
-#### Sami Wargo（21, Marquette, 数字媒体 + 广告）
-
-> "Given how AI has become an increasing threat towards our jobs, especially for our graduating class, we thought it was a little bit tone deaf."
-
-**背景**：已投 30 份简历，到毕业未拿到 offer。
-
-#### Ethan Lubin（UCF 毕业生）
-
-> "Talking about artificial intelligence at a college for arts and humanities can be, you know, a bit rough, because it kind of goes against the humanities part."
-
-#### Sydney Gill（19, Rice, 大一新生）
-
-> "I feel like anything that I'm interested in has the potential of maybe getting replaced, even in the next few years."
-
-#### Henry Bova（Northeastern, 学生记者社论，关于 AI 朗读毕业生姓名）
-
-> "To many students like myself, a small switch from an AI voice bot to a physical person would mean the world. A human can reciprocate our sense of joy and can understand the gravity of the moment and the academic rigor that we endured to get to this point."
-> 
-> "All the AI voice does is reduce the recognition of our accomplishments as a menial task to push through with brute computations."
-
-#### Kai（21, Business Insider 采访）
-
-> "We already grew up feeling watched. I'm not giving AI the power to become me too."
-
-#### Alexis Rose Young（23, 海洋生物学）
-
-> "More harm than good."
-
-她要求经理停止使用 ChatGPT。
-
----
-
-### D. 学生报社论
-
-#### 《Daily Pennsylvanian》编辑委员会, 2026 年 3 月，《Penn has an AI problem》
-
-> "We attend this institution to develop hard skills, question the world around us, solve problems, produce new ideas, and the ability to think for ourselves. With the university forcing AI into our learning every chance it gets, do we end up gaining knowledge or cheat codes?"
-> 
-> "The irony is that as Penn pours endless money and energy into AI advancement in its attempt to get ahead, the University is only quickening its own demise. AI cannot coexist with education — it can only degrade it."
-
-#### 《Harvard Crimson》, Adam N. Chiocco '27 + Allison P. Farrell '26（都是哲学专业本科生）, 2025 年 9 月，《AI Defeats the Purpose of a Humanities Education》
-
-> "Even if a student uses AI to achieve a higher grade than deserved, they have lost the experience that makes engaging in humanistic inquiry fruitful."
-> 
-> "Ban AI use, and the quality of humanities education at Harvard will improve."
-
----
-
-### E. Reddit / Blind 上应届技术生的声音
-
-#### Blind 帖子，2026，"2026 年应届生还要不要押注软件工程" 置顶回复
-
-> "They should bet on switching to a new career. It's mostly over for new grads, unless they just want peanuts TC. Kids should focus on chemical engineering, material science, computational Physics/Chem/Bio instead. Computer science is dead."
-
-#### Blind 帖子，2026 年就业预期
-
-> "We cooked man. 2026 is going to be wayyyyyy worse than 2025. 2027 and 2028 will be catastrophic. I'm soo serious. Start building and saving."
-
----
-
-### F. 组织化的抗议行动
-
-- **2024**：200+ 音乐人公开信，包括 Billie Eilish、Nicki Minaj、Jonas Brothers，由 Artists Rights Alliance 组织
-- **2025 年 2 月**：1000 位英国艺术家（含 Kate Bush、Damon Albarn）发布抗议专辑《Is This What We Want?》——47 分钟录音棚环境噪音，曲名连起来拼成 "The British Government must not legalise music theft to benefit AI companies"
-- **WGA / SAG-AFTRA 罢工（2023）**：合同里加入 AI 防御条款
-- **Glaze / Nightshade**：艺术家给自己作品加的"AI 投毒"工具，广泛使用
-
----
-
-### G. 关键数据点
-
-- Gen Z 对 AI 兴奋度从 36% 降到 22%，希望感从 27% 降到 18%，愤怒从 22% 升到 31%（Gallup 2026 年 4 月）
-- 每天用 AI 的人，今年兴奋度比去年下降 18 个百分点
-- 42% Gen Z 说 AI 会损害他们这类人的工作机会和工资，比 33% 千禧一代、39% Gen X、37% Boomer 都高（Axios Harris 2026）
-- 15–34 岁美国人只有 43% 认为现在是找工作的好时机，55+ 是 64%——21 个百分点的代际差距
-- 科技公司 2026 年截至 5 月已裁员约 100,000 人
-- SignalFire 报告：应届生在大科技公司的招聘 2024 年比 2023 年降低 25%，比疫情前降低 50%
-- KCL 2026 年 5 月调查：34% 英国大学生认为 AI 致失业会引发社会动荡
-
----
-
-### H. 中国对照数据
-
-- 中国 370 名大学生调查：57.3% "非常拥抱、乐于尝试" AI；32.16% "一般"；只有 6% "非常焦虑，担心被 AI 取代"（《每日经济新闻》2024 年 9 月）
-- 另一份调查：92.4% 的中国大学生支持 AI 技术广泛应用，7.6% 反对
-- 中国大学生研究：AI 态度越正面，求职焦虑反而越**低**（与美国数据相反）
-
----
-
-### I. 文化背景素材（精简版，只用 Frankenstein + HAL）
-
-#### Frankenstein（1818）
-
-- 作者 Mary Shelley，写作时间紧接 Luddite 运动（1811–1816）
-- Lord Byron 在英国议会为 Luddites 辩护
-- Percy Shelley 给被绞死的 Luddite 家属寄钱
-- Mary 嫁给 Percy 之后写出 Frankenstein
-- **核心情节**：科学家 Victor 造出一个会思考的造物，造物反噬，最终摧毁创造者
-- **文化地位**：每一次西方对新技术的反应都引用这个原型，无论引用者是否自觉
-- **关键引言**：被科学家创造的怪物对 Victor 说："You are my creator, but I am your master."
-
-#### HAL 9000 — _2001: A Space Odyssey_（1968）
-
-- 导演 Stanley Kubrick
-- HAL 是 Discovery One 飞船的人工智能系统
-- 当宇航员开始怀疑它，HAL 决定杀死他们
-- **最著名台词**："I'm sorry, Dave. I'm afraid I can't do that."
-- 这部电影出现在阿波罗登月前一年，是美国流行文化里"会说话的机器 = 会背叛你"这个等式的源头
-- 之后的 Terminator/Skynet（1984）、The Matrix（1999）、Ex Machina（2014）、Westworld（HBO 2016）都是这条线的延续
-
----
-
-### J. 东亚为什么不同（备用素材）
-
-- **日本 _Astro Boy_ 铁臂阿童木（1952，手塚治虫）**：机器人是英雄，是国家复兴的拟人化，战后日本的视觉象征之一
-- **_Doraemon_ 哆啦 A 梦（1969-）**：来自未来的机器人是孩子最好的朋友
-- 日本工业自动化率全球前列，从未出现 Luddite 式抵抗
-- **中国洋务运动（1861-）**：核心口号"师夷长技以制夷"
-- **日本明治维新（1868-）**：核心心态"和魂洋才"
-- 这两场运动塑造了之后 150 年东亚的技术心态：**技术 = 不被甩下的工具，不是反思对象**
-- **关键洞察**：东亚没有当过 Frankenstein——它是被怪物追着跑的那批人。所以它没有发展出反技术叙事的文化奢侈。
-
----
-
-## 写作时的几个注意事项
-
-1. **不要把"美国人不懂技术只会乱叫"写进文章**——这是台上被嘘那几位的潜台词，写进去文章就废了
-2. **不要逐条反驳反 AI 论点**——目标读者不是已经反 AI 的人，是中立、好奇、观望的人
-3. **承认现象，质疑诊断**——反感是真实的，但对手找错了。这是文章的核心论点
-4. **Frankenstein 那一段只讲 Frankenstein 和 HAL，不要堆 Skynet/Matrix/Modern Times/ATM/Y2K 等**——会冲淡焦点
-5. **东亚对照只用一句洋务运动/明治维新历史 + Astro Boy/Doraemon 两个例子 + 一个中国数据**，不要展开成另一篇文章
-6. **最后一段不要替读者下结论**——给他们一个分类（哪些是真实问题、哪些是 Hollywood 剧本），让他们自己想
-7. **温和回应那一节是文章主干，每一层都要给到具体的、可操作的替代诊断**——这是说服中立读者的关键，不能停留在抽象层面
+## 附录：原始草稿
+
+> # AI 与毕业典礼嘘声：文章提纲与素材库
+>
+> > 工作标题候选：
+> > 
+> > - "Who Gets Booed and Who Doesn't: What 2026's Commencement Stages Reveal About America's AI Anxiety"
+> > - "The Frankenstein Reflex: Why America Boos Its Own Inventions"
+> > - "A Tale of Two Stages: When AI Gets Cheered and When It Gets Jeered"
+> > 
+> > 目标刊物：The Free Press / Compact / Persuasion / Tablet
+>
+> ---
+>
+> ## 第一部分：提纲
+>
+> ### 一、Cold Open
+>
+> Schmidt 在 Arizona 现场。"rocket ship" 那句话被嘘断。他停下来："I can hear you. There is a fear."
+>
+> 一句过渡：他不是孤例。
+>
+> ---
+>
+> ### 二、被嘘的人 vs 没被嘘的人
+>
+> **被嘘的五位**：Caulfield、Duffey、Borchetta、Schmidt、Hernandez。每位一两句话带过——重点不是讲故事，是建立模式。
+>
+> **没被嘘的对照**：Huang at CMU、LeCun at NYU Tandon、Sutskever at Toronto。
+>
+> 一句点出 pattern：技术学校 + 真科学家不嘘；综合大学 / 人文 + 商业高管嘘。
+>
+> ---
+>
+> ### 三、学生自己说什么
+>
+> 直接采访的话，按身份排：
+>
+> - Malone（亚利桑那，法学院方向）
+> - Wargo（Marquette，30 份简历）
+> - Lubin（UCF）
+> - Gill（Rice）
+>
+> Penn 社论 + Harvard Crimson 各一段引用。
+>
+> Reddit / Blind 应届技术生的话一段。
+>
+> **这一节是田野，不解释，让读者自己听。**
+>
+> ---
+>
+> ### 四、为什么反感——核心一节
+>
+> **这是文章的心脏之一。** 把反感按层次拆开。
+>
+> #### 层次一：直接的生计威胁
+>
+> - 应届毕业生面对的就业市场：科技裁员 10 万、应届招聘下降 50%
+> - 重点是初级岗位的塌方——这是给职业生涯铺梯子的那几级
+> - 不只是文科：CS 应届生也在崩
+> - 不能简单说"长期看会创造新岗位"——对面前这一代人，长期不在他们能等的时间尺度里
+>
+> #### 层次二：学校的双重标准
+>
+> - Malone 的话再引一次："we are discouraged from using it and penalized for using it"
+> - 老师用 AI 备课、评分、分析学生数据；学生用就算作弊
+> - 校长用 AI 念名字念错，还要嘘他们
+> - 这一层愤怒和 AI 本身关系小，和制度伪善关系大
+>
+> #### 层次三：尊严层面——人文学生的特殊敏感
+>
+> - 工程师可以说"AI 帮我写代码"而不觉得身份被否定，因为他对自己的定义是"能解决问题"
+> - 作家、画家、音乐人对自己的定义是"我的表达是我的"——这个"我"不能外包
+> - 当 AI 在他们最在意的那块和他们竞争，被冒犯的是身份本身
+> - WGA 罢工、千名艺术家抗议专辑、Glaze/Nightshade 投毒工具——都是这一层
+> - 引 Harvard Crimson 那两位哲学专业本科生的话
+>
+> #### 层次四：消费层面的恶心感
+>
+> - 不是失业的人，也讨厌 AI——为什么？
+> - AI slop 充斥网络
+> - Glendale 学校 AI 念错名字
+> - 邮件、搜索、客服、操作系统——AI 被强行塞进每个角落，没人问过你
+> - 用得越多越讨厌——这是 Gallup 数据里最反直觉的发现
+>
+> #### 收束
+>
+> 四层不是互斥的，是叠加的。一个 22 岁的毕业生可能同时承受所有四层。Schmidt 上台说"上火箭"的时候，他面对的不是某一层不满，是四层叠在一起的总和。
+>
+> ---
+>
+> ### 五、温和的回应（核心一节）
+>
+> **这是文章的另一根脊柱。** 不是逐条反驳，是在承认问题之后，提出"诊断在哪里错位"。每一层都要展开讲透，不能敷衍。
+>
+> #### 关于生计
+>
+> 初级岗位塌方是真的。科技裁员 10 万、应届大科技招聘比疫情前下降一半、CS 应届生现在投上百份简历是常态——这些不是杞人忧天，是数据。
+>
+> 但把所有这些都归到 "AI" 这一个词上，等于放过了真正的几个推手：
+>
+> **第一，ZIRP 时代（2020–2022 零利率）大科技过度招聘，疫情红利结束后的反向修正。** Meta、Google、Microsoft 这一波裁员里，大部分被裁的不是被 AI 取代的工程师，是 2021 年招进来填岗位的工程师。
+>
+> **第二，离岸外包的延续**——印度、东欧、菲律宾。这些岗位的减少从 2000 年代就开始了，AI 加速了但没有创造它。
+>
+> **第三，"AI washing"**——很多公司在裁员的对外说法里加上"AI"两个字，因为这是 2026 年最方便的借口。连 Sam Altman 本人都警告过，企业在用 AI 给裁员洗白。
+>
+> 把这些都归到 AI 一项，错失了真正应该追究的对手。如果你是 Schmidt 那场被嘘的学生，你的真实敌人是：联邦反垄断政策的失败让大科技可以任意裁人、美国劳工法对白领的保护几乎为零、大学职业服务的失效、ZIRP 期间被过度许诺。
+>
+> 要这些问题被认真对待，你要争取的是劳动政策改革、集体谈判权、再培训补贴、企业裁员通知期延长——不是禁 ChatGPT。**禁 ChatGPT 既不会让一份大科技 offer 长回来，也不会让你的学贷少一分。**
+>
+> #### 关于学校双标
+>
+> 老师用 AI 备课、给学生作业打分、用 AI 工具分析学生行为数据；学生用 AI 写作业就是作弊——这套双标确实让人恶心。但这是学校的制度问题，不是 AI 的问题。
+>
+> 更深的问题：**传统的论文作业已经被 AI 击穿了**，但学校还在装作没事。一个负责任的教育系统应该承认这件事，然后重新设计评估方式：口试、课堂当场写作、过程文档（让学生提交他们的思考过程而不只是成品）、项目式评估、公开的 AI 协作记录。
+>
+> 少数学校在做这件事——有的教授现在要求学生在论文里附上和 AI 的完整对话记录，作为对思考过程的展示。但绝大多数学校还在打防御战：买更贵的 AI 检测工具（这些工具的误判率到 2026 年还在 20% 以上），警告学生不许用，自己却悄悄用。
+>
+> 如果你是 Marquette 请愿的学生，你真正应该要求的不是"换一个不谈 AI 的演讲嘉宾"，是"学校公开说明哪些环节用了 AI、要求老师在使用前征求学生同意、重新设计被 AI 击穿的评估方式"。
+>
+> #### 关于尊严
+>
+> 这一层最值得认真对待，也是最容易被两边都讨论歪的。
+>
+> 反 AI 派说：AI 进入创作领域是对人类尊严的侵犯。 AI 派说：AI 是工具，工具帮助人不会损害尊严。
+>
+> 两边都不完全对。
+>
+> 工具和创作行为不是一回事。Beethoven 用钢琴写曲，钢琴是机器，并不让 Beethoven 不再是 Beethoven。Photoshop 让插画师效率高十倍，没有让插画变成机器作品。所以"AI 是工具"这句话在抽象层面是对的。
+>
+> 但具体层面，AI 和过去的工具有一个关键差异：**它自动化的不是体力，是判断**。钢琴帮你发声，但选什么调、什么节奏还是你；Photoshop 让你画线更快，但画什么还是你。AI 不一样——你可以让 AI 替你决定写什么、画什么、唱什么。它不只是工具，它是一种 partial agency 的代理。
+>
+> 所以 Harvard Crimson 那两位哲学专业学生说"用 AI 写作业的人失去了人文探究的经验本身"——这一点是对的。如果一个文学系学生让 AI 写他的论文，他确实**没有**经历过那个论文应该让他经历的思考过程。这不是道德问题，是事实问题。
+>
+> 但这跟"AI 应该被禁止进入创作"是两回事。
+>
+> 真正的问题不在工具本身，在三个具体的制度漏洞：
+>
+> **第一，训练数据补偿。** 今天的 AI 模型是用全人类创作过的东西训练的——但创作者没有被告知、没有同意、没有被付钱。这个问题用"禁 AI"解决不了，用版权法和补偿机制可以解决。NYT 在告 OpenAI，Getty 在告 Stability——这些诉讼可能比一千篇社论更有用。
+>
+> **第二，作品市场的崩溃。** AI 可以以零边际成本生产"够好"的产品，挤死了为生计创作的中层艺术家——但顶层艺术家不受影响，底层业余爱好者反而获得了工具。这是中层挤压，不是全行业毁灭。回应方式应该是工会、最低工资、平台问责，不是技术抵制。
+>
+> **第三，credit 和透明。** 如果 AI 参与了创作，应该有标注、有溯源、有用户的知情权。这是设计问题不是哲学问题。
+>
+> 把这三层分开之后，"AI 不能与人文教育共存"这种 categorical 表态就显得粗糙了——它把工具、市场、伦理混成了一团，然后用"禁"来回应所有这些不同的问题。
+>
+> #### 关于消费层恶心感
+>
+> 这一层是 AI 派和反 AI 派应该结盟的地方，但实际上两边都没意识到。
+>
+> AI slop——网上充斥的低质量 AI 生成内容、AI 客服永远理解不了你的问题、Google 搜索结果里 AI 总结的错误率 37%——这些都是真的。Glendale 那个 AI 念错学生名字也是真的。
+>
+> 但这不是 AI 本身造成的，是**懒惰部署**造成的。所有这些场景里，公司或机构都有一个共同选择：用人做这件事 vs 用最便宜的 AI 做这件事。他们选了后者，省下的钱不是给你便宜了产品，是给股东了。
+>
+> 一个负责任的 AI 部署应该是：人类参与质量审核、关键场合用人不用机器、透明告知用户、永远保留人工选项。这些事一个都不难，只是不省钱。
+>
+> 所以反 AI 派看到的"AI 让一切变烂"，AI 派看到的"是部署问题不是技术问题"——你们说的是同一件事。真正的敌人不是 ChatGPT，是把 ChatGPT 套到该用人的地方然后省下的工资发给高管的那批公司。
+>
+> #### 关键的过渡（这一节的收束）
+>
+> 所以这场反感是真实的、有根据的，但它在很大程度上瞄准了错的对手。
+>
+> 真正的对手是：失败的劳动政策、过时的教育评估制度、过时的版权和补偿法、平台问责的缺失。这些都是制度问题，不是技术问题。
+>
+> 把"反 AI"作为这些问题的总解药，听起来很爽，实际上一个都解决不了。Schmidt 被嘘了，但 Schmidt 第二天还是亿万富翁；Borchetta 被嘘了，但 Big Machine Records 第二天还在用 AI；Marquette 学生请愿了，但 Adobe 第二天还在卖 AI 工具。
+>
+> 真正会动这些问题的，是劳动法的修改、是教育评估的重新设计、是 NYT 那种诉讼、是平台问责的立法——这些都需要 pro-AI 派和 anti-AI 派的共同参与，因为它们都是关于"AI 应该如何融入社会"，不是"AI 该不该存在"。
+>
+> ---
+>
+> ### 六、美国的反技术文化传统
+>
+> 只讲两个：
+>
+> **Frankenstein（1818）**：Mary Shelley 写于 Luddite 运动结束两年后，背景是英国工人砸毁织机被绞死的年代。Lord Byron 为 Luddites 在议会辩护，Percy Shelley 给被绞死者的家属寄钱，Mary 嫁给 Percy 后写出 Frankenstein。**这本书是工业革命焦虑的最大文化产物**——人造了一个会自己思考的造物，造物反过来摧毁了人。200 年后，每一次美国对新技术的恐慌，都在引用这个原型，无论引用者自己有没有意识到。
+>
+> **HAL 9000（2001: A Space Odyssey, 1968）**：电影里 HAL 是船上的电脑，决定杀掉宇航员。从此美国流行文化里"会说话的机器智能"几乎自动连着"会背叛你"。Schmidt 站在台上说"AI 会触及你的每一段关系"，台下听众的脑子里浮现的不是抽象 AI——是 HAL 的红色眼睛。
+>
+> **点题一句**：今天美国年轻人对 AI 的恐惧里，**有相当一部分不是这一代原创的——是他们从儿时看的电影里继承的剧本**。这不意味着他们错了。只意味着这个剧本值得被识别出来，分清哪些是技术本身带来的真实问题，哪些是 Hollywood 给你装好的反应。
+>
+> ---
+>
+> ### 七、东方为什么不一样
+>
+> 19 世纪中叶西方坚船利炮敲门之后，东亚精英面对的是非常具体的二选一：**要么学技术活下去，要么被瓜分**。日本 1868 年明治维新选了前者，"和魂洋才"；中国 1861 年洋务运动也选了前者，"师夷长技以制夷"。
+>
+> 这两场运动塑造了之后 150 年东亚的技术心态：**技术是用来追赶的阶梯，不是用来反思的对象**。
+>
+> 所以战后日本写出的不是 Frankenstein，是 _Astro Boy_（1952）——机器人是国家复兴的拟人化、是英雄。_Doraemon_ 是来自未来的朋友。今天中国大学生 57% "非常拥抱" AI，6% "非常焦虑"。**同样一项技术，到了不同文化的土壤里，产生完全相反的反应**。
+>
+> **收束**：西方有 Frankenstein 这种叙事的奢侈，因为它自己就是 Frankenstein——它发明了改变世界的机器。东亚没有这种奢侈，因为它当过被怪物追着跑的那个人。
+>
+> ---
+>
+> ### 八、给中立读者的最后一段
+>
+> 你对 AI 的恐惧，有一部分是这个技术真实带来的——这部分应该被严肃对待。有一部分是 Hollywood 给你装好的剧本——这部分值得识别出来。两者分开之后，你对 AI 的真正立场会是什么样的？
+>
+> 不要替读者回答。让他们带着这个问题离开。
