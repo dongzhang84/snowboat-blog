@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 600" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+</style>
+
+<rect class="bg" width="680" height="600" />
+
+<text class="title" x="60" y="42">反感的四层叠加</text>
+<text class="subtitle" x="60" y="64">同一个 22 岁毕业生身上，同时承担的四层</text>
+
+<g>
+  <rect class="layer-key" x="60" y="96" width="580" height="96" rx="10" />
+  <text class="eyebrow eyebrow-accent" x="82" y="118">LAYER 1 · 最直接</text>
+  <text class="th" x="82" y="146">生计层</text>
+  <text class="ts" x="82" y="166">应届就业崩盘</text>
+  <line class="divider-accent" x1="220" y1="110" x2="220" y2="178" />
+  <text class="t" x="238" y="146">大科技裁员 10 万 · 应届招聘比疫情前 -50%</text>
+  <text class="t" x="238" y="166">42% Gen Z 担心被 AI 夺工作 · 学贷每月在涨</text>
+</g>
+
+<g>
+  <rect class="layer" x="60" y="202" width="580" height="96" rx="10" />
+  <text class="eyebrow" x="82" y="224">LAYER 2</text>
+  <text class="th" x="82" y="252">制度层</text>
+  <text class="ts" x="82" y="272">学校 AI 双标</text>
+  <line class="divider" x1="220" y1="216" x2="220" y2="284" />
+  <text class="t" x="238" y="252">老师用 AI 备课 · 学生用 AI 算作弊</text>
+  <text class="t" x="238" y="272">检测工具误判率 20% · 一边开 AI 主修一边罚学生</text>
+</g>
+
+<g>
+  <rect class="layer" x="60" y="308" width="580" height="96" rx="10" />
+  <text class="eyebrow" x="82" y="330">LAYER 3</text>
+  <text class="th" x="82" y="358">尊严层</text>
+  <text class="ts" x="82" y="378">创作者身份被冲击</text>
+  <line class="divider" x1="220" y1="322" x2="220" y2="390" />
+  <text class="t" x="238" y="358">创作者身份不能外包 · 训练数据未经同意</text>
+  <text class="t" x="238" y="378">200 位音乐人公开信 · 1000 位英国艺术家抗议专辑</text>
+</g>
+
+<g>
+  <rect class="layer" x="60" y="414" width="580" height="96" rx="10" />
+  <text class="eyebrow" x="82" y="436">LAYER 4 · 最弥散</text>
+  <text class="th" x="82" y="464">消费层</text>
+  <text class="ts" x="82" y="484">AI 被塞进每个角落</text>
+  <line class="divider" x1="220" y1="428" x2="220" y2="496" />
+  <text class="t" x="238" y="464">Google AI 总结错误率 37% · AI 客服转不到真人</text>
+  <text class="t" x="238" y="484">社交媒体 AI slop 泛滥 · 用得越多越讨厌</text>
+</g>
+
+<text class="caption-strong" x="60" y="550">"上火箭吧"那一刻，施密特面对的是四层叠在一起的总和。</text>
+<text class="caption" x="60" y="572">— 第三章 · 对 AI 反感是有根据的</text>
+
+</svg>
