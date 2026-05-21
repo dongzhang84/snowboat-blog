@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 620" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.arr { font-size: 16px; fill: var(--fg-soft); }
+</style>
+
+<rect class="bg" width="680" height="620" />
+
+<text class="title" x="60" y="42">反技术话术的模板复用</text>
+<text class="subtitle" x="60" y="64">同一套话术，每隔几十年换一个新名词，再用一遍</text>
+
+<text class="eyebrow eyebrow-accent" x="590" y="86" text-anchor="middle">→ 这一轮叫 AI</text>
+
+<g>
+  <text class="th" x="60" y="110">"它会偷走我们的工作"</text>
+  <rect class="layer" x="60" y="122" width="100" height="28" rx="14" />
+  <text class="t" x="110" y="141" text-anchor="middle">纺织机</text>
+  <text class="ts" x="110" y="168" text-anchor="middle">1810s</text>
+  <text class="arr" x="170" y="141" text-anchor="middle">→</text>
+  <rect class="layer" x="180" y="122" width="100" height="28" rx="14" />
+  <text class="t" x="230" y="141" text-anchor="middle">电力</text>
+  <text class="ts" x="230" y="168" text-anchor="middle">1880s</text>
+  <text class="arr" x="290" y="141" text-anchor="middle">→</text>
+  <rect class="layer" x="300" y="122" width="100" height="28" rx="14" />
+  <text class="t" x="350" y="141" text-anchor="middle">自动化</text>
+  <text class="ts" x="350" y="168" text-anchor="middle">1950s</text>
+  <text class="arr" x="410" y="141" text-anchor="middle">→</text>
+  <rect class="layer" x="420" y="122" width="100" height="28" rx="14" />
+  <text class="t" x="470" y="141" text-anchor="middle">外包</text>
+  <text class="ts" x="470" y="168" text-anchor="middle">1990s</text>
+  <text class="arr" x="530" y="141" text-anchor="middle">→</text>
+  <rect class="layer-key" x="540" y="122" width="100" height="28" rx="14" />
+  <text class="t" x="590" y="141" text-anchor="middle">AI</text>
+  <text class="ts" x="590" y="168" text-anchor="middle">2026</text>
+</g>
+
+<g>
+  <text class="th" x="60" y="202">"它会让人类变蠢"</text>
+  <rect class="layer" x="60" y="214" width="100" height="28" rx="14" />
+  <text class="t" x="110" y="233" text-anchor="middle">写作</text>
+  <text class="ts" x="110" y="260" text-anchor="middle">柏拉图</text>
+  <text class="arr" x="170" y="233" text-anchor="middle">→</text>
+  <rect class="layer" x="180" y="214" width="100" height="28" rx="14" />
+  <text class="t" x="230" y="233" text-anchor="middle">报纸</text>
+  <text class="ts" x="230" y="260" text-anchor="middle">19 世纪</text>
+  <text class="arr" x="290" y="233" text-anchor="middle">→</text>
+  <rect class="layer" x="300" y="214" width="100" height="28" rx="14" />
+  <text class="t" x="350" y="233" text-anchor="middle">电视</text>
+  <text class="ts" x="350" y="260" text-anchor="middle">1960s</text>
+  <text class="arr" x="410" y="233" text-anchor="middle">→</text>
+  <rect class="layer" x="420" y="214" width="100" height="28" rx="14" />
+  <text class="t" x="470" y="233" text-anchor="middle">计算器</text>
+  <text class="ts" x="470" y="260" text-anchor="middle">1990s</text>
+  <text class="arr" x="530" y="233" text-anchor="middle">→</text>
+  <rect class="layer-key" x="540" y="214" width="100" height="28" rx="14" />
+  <text class="t" x="590" y="233" text-anchor="middle">ChatGPT</text>
+  <text class="ts" x="590" y="260" text-anchor="middle">2026</text>
+</g>
+
+<g>
+  <text class="th" x="60" y="294">"它会摧毁人类的创造力"</text>
+  <rect class="layer" x="60" y="306" width="100" height="28" rx="14" />
+  <text class="t" x="110" y="325" text-anchor="middle">摄影</text>
+  <text class="ts" x="110" y="352" text-anchor="middle">1830s</text>
+  <text class="arr" x="170" y="325" text-anchor="middle">→</text>
+  <rect class="layer" x="180" y="306" width="100" height="28" rx="14" />
+  <text class="t" x="230" y="325" text-anchor="middle">电影</text>
+  <text class="ts" x="230" y="352" text-anchor="middle">1900s</text>
+  <text class="arr" x="290" y="325" text-anchor="middle">→</text>
+  <rect class="layer" x="300" y="306" width="100" height="28" rx="14" />
+  <text class="t" x="350" y="325" text-anchor="middle">合成器</text>
+  <text class="ts" x="350" y="352" text-anchor="middle">1980s</text>
+  <text class="arr" x="410" y="325" text-anchor="middle">→</text>
+  <rect class="layer" x="420" y="306" width="100" height="28" rx="14" />
+  <text class="t" x="470" y="325" text-anchor="middle">Photoshop</text>
+  <text class="ts" x="470" y="352" text-anchor="middle">1990s</text>
+  <text class="arr" x="530" y="325" text-anchor="middle">→</text>
+  <rect class="layer-key" x="540" y="306" width="100" height="28" rx="14" />
+  <text class="t" x="590" y="325" text-anchor="middle">AI 生成</text>
+  <text class="ts" x="590" y="352" text-anchor="middle">2026</text>
+</g>
+
+<g>
+  <text class="th" x="60" y="386">"它会让人彼此孤立"</text>
+  <rect class="layer" x="60" y="398" width="100" height="28" rx="14" />
+  <text class="t" x="110" y="417" text-anchor="middle">电话</text>
+  <text class="ts" x="110" y="444" text-anchor="middle">1900s</text>
+  <text class="arr" x="170" y="417" text-anchor="middle">→</text>
+  <rect class="layer" x="180" y="398" width="100" height="28" rx="14" />
+  <text class="t" x="230" y="417" text-anchor="middle">电视</text>
+  <text class="ts" x="230" y="444" text-anchor="middle">1950s</text>
+  <text class="arr" x="290" y="417" text-anchor="middle">→</text>
+  <rect class="layer" x="300" y="398" width="100" height="28" rx="14" />
+  <text class="t" x="350" y="417" text-anchor="middle">游戏机</text>
+  <text class="ts" x="350" y="444" text-anchor="middle">1980s</text>
+  <text class="arr" x="410" y="417" text-anchor="middle">→</text>
+  <rect class="layer" x="420" y="398" width="100" height="28" rx="14" />
+  <text class="t" x="470" y="417" text-anchor="middle">智能手机</text>
+  <text class="ts" x="470" y="444" text-anchor="middle">2010s</text>
+  <text class="arr" x="530" y="417" text-anchor="middle">→</text>
+  <rect class="layer-key" x="540" y="398" width="100" height="28" rx="14" />
+  <text class="t" x="590" y="417" text-anchor="middle">AI 陪伴</text>
+  <text class="ts" x="590" y="444" text-anchor="middle">2026</text>
+</g>
+
+<g>
+  <text class="th" x="60" y="478">"机器会反过来杀人类"</text>
+  <rect class="layer" x="60" y="490" width="100" height="28" rx="14" />
+  <text class="t" x="110" y="509" text-anchor="middle">弗兰肯斯坦</text>
+  <text class="ts" x="110" y="536" text-anchor="middle">1818</text>
+  <text class="arr" x="170" y="509" text-anchor="middle">→</text>
+  <rect class="layer" x="180" y="490" width="100" height="28" rx="14" />
+  <text class="t" x="230" y="509" text-anchor="middle">大都会</text>
+  <text class="ts" x="230" y="536" text-anchor="middle">1927</text>
+  <text class="arr" x="290" y="509" text-anchor="middle">→</text>
+  <rect class="layer" x="300" y="490" width="100" height="28" rx="14" />
+  <text class="t" x="350" y="509" text-anchor="middle">HAL</text>
+  <text class="ts" x="350" y="536" text-anchor="middle">1968</text>
+  <text class="arr" x="410" y="509" text-anchor="middle">→</text>
+  <rect class="layer" x="420" y="490" width="100" height="28" rx="14" />
+  <text class="t" x="470" y="509" text-anchor="middle">终结者</text>
+  <text class="ts" x="470" y="536" text-anchor="middle">1984</text>
+  <text class="arr" x="530" y="509" text-anchor="middle">→</text>
+  <rect class="layer-key" x="540" y="490" width="100" height="28" rx="14" />
+  <text class="t" x="590" y="509" text-anchor="middle">Hinton</text>
+  <text class="ts" x="590" y="536" text-anchor="middle">2026</text>
+</g>
+
+<text class="caption-strong" x="60" y="572">每一轮新技术冲到台前，模板就被取出来，换名词，再用一遍。</text>
+<text class="caption" x="60" y="594">— 第五章 · 5.3 这套剧本是继承的</text>
+
+</svg>
