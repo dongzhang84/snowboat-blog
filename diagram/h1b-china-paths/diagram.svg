@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 800" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+</style>
+
+<rect class="bg" width="680" height="800" />
+
+<text class="title" x="60" y="42">中国留学生 H-1B 路径 + 抽不中的 4 条出路</text>
+<text class="subtitle" x="60" y="64">从 F-1 留学到绿卡的主路径，加上抽不中之后的 4 条备路</text>
+
+<g>
+  <rect class="layer" x="60" y="96" width="580" height="96" rx="10" />
+  <text class="eyebrow" x="82" y="118">STEP 1 · 留学入口</text>
+  <text class="th" x="82" y="146">F-1 学生签证</text>
+  <text class="ts" x="82" y="166">2024-25 学年</text>
+  <line class="divider" x1="220" y1="110" x2="220" y2="178" />
+  <text class="t" x="238" y="146">2024-25 中国大陆在美学生 26.6 万人</text>
+  <text class="t" x="238" y="166">印度 36.3 万人，自 2009 年来首次反超中国</text>
+</g>
+
+<g>
+  <rect class="layer" x="60" y="204" width="580" height="96" rx="10" />
+  <text class="eyebrow" x="82" y="226">STEP 2 · 找工作窗口</text>
+  <text class="th" x="82" y="254">OPT 实习</text>
+  <text class="ts" x="82" y="274">1 + 2 共 3 年</text>
+  <line class="divider" x1="220" y1="218" x2="220" y2="286" />
+  <text class="t" x="238" y="254">毕业后 1 年 OPT + STEM 延期 2 年</text>
+  <text class="t" x="238" y="274">这 3 年内有 3 次 H-1B 抽签机会</text>
+</g>
+
+<g>
+  <rect class="layer-key" x="60" y="312" width="580" height="100" rx="10" />
+  <text class="eyebrow eyebrow-accent" x="82" y="334">STEP 3 · 关键卡点</text>
+  <text class="th" x="82" y="362">H-1B 抽签</text>
+  <text class="ts" x="82" y="382">8.5 万配额</text>
+  <line class="divider-accent" x1="220" y1="326" x2="220" y2="398" />
+  <text class="t" x="238" y="362">6.5 万普通 cap + 2 万 master's cap</text>
+  <text class="t" x="238" y="382">FY2026 中签率约 28%，3 年累计抽中约 58%</text>
+  <text class="t" x="238" y="402">剩下 42% 走下面 4 条备路</text>
+</g>
+
+<g>
+  <rect class="layer" x="60" y="424" width="580" height="96" rx="10" />
+  <text class="eyebrow" x="82" y="446">STEP 4 · 中签后</text>
+  <text class="th" x="82" y="474">雇主启绿卡</text>
+  <text class="ts" x="82" y="494">PERM → I-140</text>
+  <line class="divider" x1="220" y1="438" x2="220" y2="506" />
+  <text class="t" x="238" y="474">工作 1 到 2 年后雇主启动绿卡流程</text>
+  <text class="t" x="238" y="494">中途被裁、换公司、I-140 未批都要重启</text>
+</g>
+
+<g>
+  <rect class="layer" x="60" y="532" width="580" height="96" rx="10" />
+  <text class="eyebrow" x="82" y="554">STEP 5 · 排期到拿卡</text>
+  <text class="th" x="82" y="582">EB-2 排期</text>
+  <text class="ts" x="82" y="602">中国 5 到 7 年</text>
+  <line class="divider" x1="220" y1="546" x2="220" y2="614" />
+  <text class="t" x="238" y="582">中国大陆 5 到 7 年（印度同期 50 到 80 年）</text>
+  <text class="t" x="238" y="602">最后 I-485 调整身份 → 绿卡</text>
+</g>
+
+<text class="eyebrow eyebrow-accent" x="60" y="652">↓ 抽不中的 4 条备路 · 大约 42% 中国 STEM 留学生最终在这里</text>
+
+<g>
+  <rect class="layer" x="60" y="664" width="130" height="60" rx="10" />
+  <text class="th" x="125" y="687" text-anchor="middle">Cap-exempt H-1B</text>
+  <text class="ts" x="125" y="707" text-anchor="middle">大学 · 研究所</text>
+</g>
+
+<g>
+  <rect class="layer" x="210" y="664" width="130" height="60" rx="10" />
+  <text class="th" x="275" y="687" text-anchor="middle">O-1 杰出人才</text>
+  <text class="ts" x="275" y="707" text-anchor="middle">过渡 EB-1A 跳排期</text>
+</g>
+
+<g>
+  <rect class="layer" x="360" y="664" width="130" height="60" rx="10" />
+  <text class="th" x="425" y="687" text-anchor="middle">L-1 跨国调动</text>
+  <text class="ts" x="425" y="707" text-anchor="middle">原公司海外满 1 年</text>
+</g>
+
+<g>
+  <rect class="layer" x="510" y="664" width="130" height="60" rx="10" />
+  <text class="th" x="575" y="687" text-anchor="middle">回国 / 曲线</text>
+  <text class="ts" x="575" y="707" text-anchor="middle">加澳新攒经验回美</text>
+</g>
+
+<text class="caption-strong" x="60" y="756">全程 5 到 10 年，每一步都有掉线风险，掉线即转备路</text>
+<text class="caption" x="60" y="778">数据来源：USCIS、国务院 Visa Bulletin 2026 年 6 月、Open Doors 2025</text>
+
+</svg>
