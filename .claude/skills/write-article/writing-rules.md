@@ -301,6 +301,57 @@ with open(path, 'w', encoding='utf-8') as f:
 - 🔒 **硬性约束**：写完 Grep `；`。正文（非附录原稿引用块）里默认目标为 0 次。极少数情况确实需要分号才能保留，比如严格列表化的法律或学术陈述
 - 📍 **背景**：用户反馈"AI 写的有大量分号，实际人写文章几乎没有分号"。Musk xAI 文章一篇就出现 26 处分号，是典型 AI tell
 
+## [2026-05-22] 中文标点必须全角（每次写完必跑）
+
+- ❌ **错误示范**：中文上下文里用 ASCII 半角标点
+  - 错误：`很多中国人想了解美国移民的真实情况, 包括 H-1B 抽签的人.`
+  - 错误：`文章按七章展开: 整体画面、历史脉络, 等.`
+  - 错误：`USCIS (公民与移民服务局) 负责审批.`
+- ✅ **正确做法**：中文上下文里全部用全角标点
+  - 逗号：`，`（不是 `,`）
+  - 句号：`。`（不是 `.`，本来就是默认）
+  - 冒号：`：`（不是 `:`）
+  - 问号：`？`（不是 `?`）
+  - 感叹号：`！`（不是 `!`）
+  - 括号：`（...）`（不是 `(...)`），即使括号里全是英文，只要前后是中文也用全角
+  - 例外：纯英文/数字/URL 上下文保留半角。比如 `1,000`、`Hart-Celler Act`、`(USCIS)` 作为英文名独立出现时
+- 🔒 **硬性约束**：写完跑下面 Python 脚本（跟"中文与数字/英文不留空格"那条脚本可以连着跑），跳过 `^>`（附录原稿引用）和包含 markdown link `](http` 的行（参考文献）：
+
+```python
+import re
+path = "/path/to/article.md"
+with open(path, 'r', encoding='utf-8') as f:
+    lines = f.readlines()
+new_lines = []
+for line in lines:
+    s = line.lstrip()
+    if s.startswith('>'):
+        new_lines.append(line)
+        continue
+    if '](http' in line:
+        new_lines.append(line)
+        continue
+    nl = line
+    for _ in range(3):
+        # 标点紧邻中文：转全角
+        nl = re.sub(r'([\u4e00-\u9fff]),', r'\1，', nl)
+        nl = re.sub(r',([\u4e00-\u9fff])', r'，\1', nl)
+        nl = re.sub(r'([\u4e00-\u9fff]):', r'\1：', nl)
+        nl = re.sub(r':([\u4e00-\u9fff])', r'：\1', nl)
+        nl = re.sub(r'([\u4e00-\u9fff])\?', r'\1？', nl)
+        nl = re.sub(r'\?([\u4e00-\u9fff])', r'？\1', nl)
+        nl = re.sub(r'([\u4e00-\u9fff])!', r'\1！', nl)
+        nl = re.sub(r'!([\u4e00-\u9fff])', r'！\1', nl)
+        # 括号：外侧是中文/书名号/中文标点都触发
+        nl = re.sub(r'([\u4e00-\u9fff》」』，。、；：？！）])\(', r'\1（', nl)
+        nl = re.sub(r'\)([\u4e00-\u9fff》」』，。、；：？！（])', r'）\1', nl)
+    new_lines.append(nl)
+with open(path, 'w', encoding='utf-8') as f:
+    f.writelines(new_lines)
+```
+
+- 📍 **背景**：移民文章初稿全篇用 ASCII 半角逗号 `,` 和半角冒号 `:`，用户反馈"所有的逗号都是英语的逗号，不是中文全角的，skill 里没有写吗"。中文出版规范要求全角标点，半角 ASCII 标点在中文上下文里读起来不正常（行宽、视觉间距都不对）。写完正文必须跑一次，跟现有"空格规范化"脚本绑在一起跑
+
 # D. 事实与来源
 
 ## [2026-04-14] 案例无名无姓无数据
