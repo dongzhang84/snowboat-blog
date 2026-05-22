@@ -44,11 +44,11 @@ Schmidt paused, stepped back from the lectern. "I know how a lot of you feel rig
 
 That part actually drew some applause. But only for a moment.
 
-Schmidt wasn't an isolated case. Throughout the 2026 commencement season, from Florida to Tennessee to Arizona, at least five commencement speakers got booed the moment they brought up AI. The booed had things in common: they were all business executives or AI evangelists, addressing graduates of comprehensive universities or humanities programs. In the same week, Jensen Huang gave a speech at Carnegie Mellon in the same register, and got cheered. Yann LeCun spoke about AI at NYU Tandon Engineering, and not a single boo was reported.
+Schmidt wasn't alone. Across the 2026 commencement season, from Florida to Tennessee to Arizona, at least five commencement speakers got booed the moment they brought up AI. The ones who got booed had things in common: business executives or AI evangelists, addressing graduates of comprehensive universities or humanities programs. The same week, Jensen Huang gave a speech in the same register at Carnegie Mellon and got cheered. Yann LeCun spoke about AI at NYU Tandon Engineering. Not a single boo.
 
-This isn't "AI is hated" in some generic sense. It's something more specific: a particular kind of person, in a particular setting, saying particular things, drew a particular reaction.
+This isn't "AI is hated" in some generic sense. It's something narrower: a certain kind of person, in a certain setting, saying certain things, drew a certain reaction.
 
-This piece is about that question. Do young Americans actually hate AI?
+That's what this piece is about. Do young Americans actually hate AI?
 
 # I. Who Got Booed, and Who Didn't
 
@@ -106,7 +106,7 @@ After each incident, multiple U.S. outlets interviewed the graduates involved. L
 
 **Henry Bova, Northeastern student journalist, editorial on the AI name-reading incident:** "To many students like myself, a small switch from an AI voice bot to a physical person would mean the world. A human can reciprocate our sense of joy and can understand the gravity of the moment and the academic rigor that we endured to get to this point." He also wrote: "All the AI voice does is reduce the recognition of our accomplishments as a menial task to push through with brute computations."
 
-These quotes share a common structure. What the graduates object to is very specific: at this moment (commencement), by this kind of person (a business AI booster), with this kind of posture (cheerleading). Malone says "it felt like an advertisement." Wargo says "tone deaf." Bova says "reduced to a menial task." Each line points to a particular kind of disrespect, not a wholesale rejection of the technology itself.
+The quotes share a common shape. What the graduates object to is very specific: at this moment (commencement), from this kind of person (a business AI booster), in this register (cheerleading). Malone says "it felt like an advertisement." Wargo says "tone deaf." Bova says "reduced to a menial task." Each line points at a specific kind of disrespect, not a wholesale rejection of the technology itself.
 
 ## 2.2 Campus Editorials
 
@@ -122,7 +122,7 @@ These editorials are more absolute than the interviews. The Penn board uses "deg
 
 ## 2.3 The Private Anxiety of CS Graduates
 
-What's most striking is that the anxiety around AI extends well beyond the humanities crowd. On Reddit and Blind (the anonymous tech-worker forum), 2026 threads on "should new grads still bet on software engineering" routinely have top-voted replies in this register:
+The anxiety around AI runs well beyond the humanities crowd. On Reddit and Blind (the anonymous tech-worker forum), 2026 threads asking "should new grads still bet on software engineering" routinely have top-voted replies like:
 
 > "They should bet on switching to a new career. It's mostly over for new grads, unless they just want peanuts TC. Kids should focus on chemical engineering, material science, computational Physics/Chem/Bio instead. Computer science is dead."
 
@@ -146,9 +146,9 @@ As of May 2026, U.S. tech companies have laid off about 100,000 people. And it's
 
 The job market new graduates face is harder than the headline numbers suggest. SignalFire's data shows big-tech new-grad hiring is down 50% from pre-pandemic levels. From a new grad's point of view, that means the three or four offers you might once have had now become zero; the three-month job search becomes six months or a year; the $100K-$150K big-tech starting salary becomes a $70K startup job, or an unpaid internship.
 
-What makes it sharper is that "long-term AI will create new jobs" is no comfort to someone who's 22 in May 2026. "Long-term" isn't a timescale they can wait through. Student loan interest accrues every month. Rent is due every month. "In five years AI will create new occupations" is meaningless to someone with $800/month in student loan payments due now.
+"Long-term AI will create new jobs" is cold comfort to someone who's 22 in May 2026. "Long-term" isn't a timescale they can wait through. Student loan interest accrues every month. Rent is due every month. "In five years AI will create new occupations" is meaningless to someone with an $800/month loan payment due now.
 
-The Gallup + Walton Foundation + GSV Ventures survey conducted in February 2026, published in April: Gen Z's "excitement" about AI dropped from 36% a year ago to 22%, a 14-point fall. "Optimism" fell from 27% to 18%. "Anger" rose from 22% to 31%. "Anxiety" held steady at 42%. From the same survey: people who use AI every day saw their excitement drop 18 points year-over-year. In other words, the more you use it, the more you dislike it. The opposite of the standard "fear, then acceptance, then habituation" tech-adoption curve.
+The Gallup + Walton Foundation + GSV Ventures survey conducted in February 2026, published in April: Gen Z's "excitement" about AI dropped from 36% a year ago to 22%, a 14-point fall. "Optimism" fell from 27% to 18%. "Anger" rose from 22% to 31%. "Anxiety" held steady at 42%. From the same survey: daily AI users saw their excitement drop 18 points year-over-year. The more you use it, the more you hate it — the opposite of the standard "fear, then acceptance, then habituation" tech-adoption curve.
 
 Axios + Harris's 2026 survey: 42% of Gen Z think AI will hurt job opportunities and wages for people like them, higher than Millennials (33%), Gen X (39%), or Boomers (37%). Among Americans 15 to 34, only 43% think now is a good time to look for a job. For those 55 and older, the number is 64%, a 21-point gap.
 
@@ -174,9 +174,9 @@ The third layer is the hardest to articulate, because unlike the first two, it c
 
 It has to do with the humanities student's identity.
 
-A software engineer can say, fairly easily, "AI helps me write code." Their self-definition is "I solve problems." Code is the means; AI writing a function for them doesn't make them less of an engineer. Same logic for an accountant letting AI do tables, a lawyer letting AI draft contract first-passes. Their self-definition is "I make professional judgments," and AI doing the repetitive work brings them closer to their core competence.
+A software engineer can fairly easily say "AI helps me write code." They see themselves as a problem-solver. Code is the means; AI writing a function for them doesn't make them any less of an engineer. Same for an accountant letting AI do tables, a lawyer letting AI draft a first-pass contract. They see themselves as people who exercise professional judgment, and AI taking the repetitive work off their plate just brings them closer to the thing they actually do.
 
-A writer, painter, or musician faces a different structure. Their self-definition is "my expression is mine." That "mine" can't be outsourced. When a painter says "I painted this," they mean not just "this is my output" but "the choices, the brushstrokes, the hesitations and revisions in this — are mine." If AI-generated images go under their name, their identity as a painter is structurally compromised.
+A writer, painter, or musician sits in a different structure. They see themselves as someone whose expression is their own. That "own" can't be outsourced. When a painter says "I painted this," they don't just mean "this is my output." They mean: "the choices, the brushstrokes, the hesitations and revisions in this — those are mine." If AI-generated images go under their name, their identity as a painter is structurally compromised.
 
 This is why 200 American musicians signed an open letter against AI training-data abuse in 2024, including Billie Eilish, Nicki Minaj, and the Jonas Brothers. It's why 1,000 British artists (including Kate Bush and Damon Albarn) released a protest album in February 2025 called *Is This What We Want?* — 47 minutes of studio room ambience, with the track titles strung together spelling out "The British Government must not legalise music theft to benefit AI companies." It's why the WGA and SAG-AFTRA wrote AI-defense clauses into their contracts during the 2023 strikes.
 
@@ -186,9 +186,9 @@ When humanities graduates hear "AI is rewriting music production" or "AI is the 
 
 The fourth layer covers everyone, not just the unemployed and the students.
 
-It corresponds to the daily-life discomfort of "AI shoved into every corner whether you wanted it or not." Google search results' AI Overview often gives wrong information. Customer service switched from real humans to AI bots can't solve simple problems; you have to navigate forever to reach a human. Social media is flooded with AI-generated "slop": low-quality, derivative, optimized for the algorithm. Smart speakers, email assistants, operating systems, phone cameras have "AI enhancement" enabled by default, with no consent.
+It's the everyday feeling that AI has been shoved into every corner whether you wanted it or not. Google's AI Overview at the top of search results often gets things wrong. Customer service switched from humans to bots; simple questions take forever to escape to a real person. Social media is flooded with AI "slop": low-quality, derivative, tuned for the algorithm. Smart speakers, email assistants, operating systems, phone cameras all have "AI enhancement" on by default, with no one asking consent.
 
-First, a distinction worth making. "AI in your life" isn't one thing. One kind is AI the user chose: opening ChatGPT to write an email, using Cursor to code, letting Spotify recommend music. The user chose it, can turn it off, can curse at it when it fails. AI here is a tool, and it's not what's being booed. The other kind is AI that's imposed and underperforming: Google's AI Overview with a 37% error rate, AI customer service that doesn't understand your question, the commencement AI that mispronounces your name, the AI slop flooding social media. The user didn't choose it, can't turn it off, and there's no human fallback when it fails. That's what's getting booed. The test is simple: did the user consent, and is there a human fallback when it errs.
+Worth drawing a distinction here. "AI in your life" isn't one thing. There's AI you chose: opening ChatGPT to write an email, using Cursor to code, letting Spotify recommend music. You chose it, you can turn it off, you can curse at it when it fails. That AI is a tool, and it's not what's getting booed. Then there's AI that was forced on you and isn't good enough yet: Google's AI Overview with a 37% error rate, AI customer service that doesn't understand the question, the commencement AI that mispronounces your name, the AI slop flooding your feed. You didn't choose it, can't turn it off, and there's no human fallback when it fails. That's what's getting booed. The test is simple: did you consent, and is there a human fallback when it errs.
 
 The Glendale Community College name-reading incident is the concentrated form of this layer. A school decides to save the cost of hiring a name-reader by replacing them with AI. The AI errs and skips students. The actual problem is the institution's choice: outsource a moment with ceremonial weight to an unreliable system, and the savings don't go back to the students or families.
 
@@ -212,7 +212,7 @@ The second driver is the continuation of offshore outsourcing. Engineers in Indi
 
 The third driver is "AI washing." In 2026, those two words come in handy. A company announcing 500 layoffs says "we're transforming with AI" because it sounds more dignified than "business is bad" or "we hired too many." Sam Altman himself, the CEO of OpenAI, publicly warned in early 2025 that companies are using AI as cover for layoffs, attributing organizational mistakes to technology.
 
-Separate these three from actual AI replacement, and you can see: if you're the booed Schmidt-audience graduate, your real enemies are in several other places. Federal antitrust and merger-review failure lets Big Tech consolidate at will. The U.S. labor market's support system for new white-collar grads is essentially blank. University career services have failed to adapt to AI. ZIRP-era oversold tech career prospects collapsed at once. Each of these is more specific and more actionable than the two letters "AI."
+Separate those three from actual AI replacement, and you can see: if you're the booed Schmidt-audience graduate, your real enemies are elsewhere. Federal antitrust and merger-review failure lets Big Tech consolidate at will. The U.S. labor market has almost no support system for new white-collar grads. University career services haven't adapted to AI. ZIRP-era promises about tech careers collapsed all at once. Each of those is more specific, and more actionable, than the word "AI."
 
 Now, what to actually do. The two political sides offer different paths, and both arguments hold up.
 
@@ -245,7 +245,7 @@ By this test, today's common ways of "using AI" at school can be cleanly separat
 - **Consumer**: have AI generate TL;DRs for every book, 500-word summaries for every paper. Notes apps fill up; real ability is unchanged. No different from watching "Quantum Mechanics in 3 Minutes" shorts, with a more respectable wrapper.
 - **Vibe Learner**: AI handles organization, lookup, sparring, plays the "listener" in the Feynman technique. But thinking through the core problems, doing practice, deciding what to study, moving material from working memory to long-term memory — all of that you have to carry yourself. The ability actually enters your head; AI leaves and you still have it.
 
-If a school accepts this test, what to do becomes clear. Exams and assessment shouldn't measure "can you submit a document"; they should measure "what's left of you when AI isn't there." Concretely that means oral exams, in-class writing, process docs, project defenses, explaining to a real human. These were always things schools should have done more. After AI, they're now mandatory.
+Once a school accepts this test, the rest follows. Exams and assessment shouldn't measure "can you submit a document"; they should measure "what's left of you when AI isn't there." That means oral exams, in-class writing, process docs, project defenses, explaining to a real human. These were always things schools should have done more of. After AI, they're mandatory.
 
 If you're the Marquette student leading the petition, instead of "replace the AI-talking speaker," you should be asking for specific things: the school publicly discloses where it uses AI, requires faculty to get student consent before using it, redesigns assessment by the "what's left when AI is gone" test, and stops using AI detectors with 20%+ false-positive rates.
 
@@ -303,7 +303,7 @@ A company that knows perfectly well its current AI customer service will lose or
 
 Separating these two, the solutions are different.
 
-For AI capability problems: wait for the tech to mature, plus strict human oversight while it isn't there. Concretely: where model error rate is above some threshold, mandatory human fallback; for high-stakes occasions (reading names at commencement, medical diagnosis, legal documents), even with good models, don't fully automate. This layer is gradually handed back to AI as models improve.
+For AI capability problems: wait for the tech to mature, and keep tight human oversight while it isn't there yet. Where model error rate runs above some threshold, require a human fallback. For high-stakes occasions (reading names at commencement, medical diagnosis, legal documents), don't fully automate even when the models look good. This layer gets handed back to AI gradually as models improve.
 
 For human deployment problems: the path is more complex. You can apply the "AI in the middle, humans at both ends" framework from 4.3. In consumer contexts: a responsible content platform shouldn't let AI freely generate content for direct posting; it should be human-posed topics and direction (front-end gating), AI doing research and first drafts, then human review and publishing (back-end gating). AI customer service can handle 80% of simple cases, but every customer has a one-click "speak to a human" button, with hard cases routed to a person immediately. Before AI reads names, a real human tests the pronunciation of each one and confirms before going live.
 
@@ -329,7 +329,7 @@ The market-leaning side: tax cuts to incentivize hiring, industrial policy (in t
 
 Neither is perfect. The first may make the U.S. response sluggish in global AI competition; the second offers weaker short-term protection for low-end workers. But both are more concrete than the slogan "anti-AI," because both engage the real question — "how should AI fit into society" — rather than the philosophical "should AI exist."
 
-Where this backlash should actually be directed is to that layer. Whether you're pro-AI or anti-AI, left or right, you can find arguments and paths there.
+That's where this backlash should actually be aimed. Whether you're pro-AI or anti-AI, left or right, you can find arguments and paths there.
 
 # V. Two Archetypes Behind the West's Anti-Tech Tradition
 
@@ -377,11 +377,11 @@ History has gone through this loop every few decades. Same rhetorical templates,
 - **"It will isolate us from each other"**: people worried about this when the telephone spread; when TV entered homes; when video games appeared; when the internet arrived; when smartphones became universal; today, when AI companionship apps emerged.
 - **"Machines will turn around and kill humans"**: Frankenstein said this; *Metropolis* said this; *2001* said this; *Terminator*, *The Matrix*, *Ex Machina* said this; today, Hinton and Yudkowsky warning about AI alignment risk are still saying this.
 
-Every time a new technology arrives, this template gets pulled out, has its noun swapped, and gets used again. AI isn't the first thing to be plugged into these templates — every previous new technology was plugged in too. The fact that the template has been verified six or seven generations and is still in use shows it corresponds to a real human psychological structure: fear of the unknown, the desire for control, anxiety over losing work and dignity. That psychological structure is real. But the template's effectiveness and "what AI will actually do this time" are two different things.
+Every time a new technology arrives, the template gets pulled off the shelf, has its noun swapped, and gets used again. AI isn't the first thing to be slotted in — every previous new technology was slotted in too. Six or seven generations have tested this template and it's still in service, which tells you it's tracking something real about us: fear of the unknown, the desire for control, anxiety about losing work and dignity. That's real. But the template being durable, and "what AI will actually do this time," are two different things.
 
 One other thing worth clarifying: this script isn't only the young generation's.
 
-The booed at commencement are graduates, true. But the main supply side of the anti-AI narrative is actually concentrated in older intellectuals. Geoffrey Hinton (78, 2024 Nobel Prize in Physics) uses the Frankenstein template to warn of AI's existential-risk-level threats. Yuval Harari (50, historian) uses the same template in his bestsellers warning of AI taking over humanity. Stephen Hawking's pre-death AI warnings, Elon Musk's repeated AI doom tweets — all used this template to various degrees. These people are nowhere near "youth," yet they're the ones supplying the rhetorical ammunition that today's young people's boos are mostly inheriting from them.
+The booed at commencement are graduates, true. But the main supply side of the anti-AI narrative is actually concentrated in older intellectuals. Geoffrey Hinton (78, 2024 Nobel Prize in Physics) uses the Frankenstein template to warn of AI's existential-risk-level threats. Yuval Harari (50, historian) uses the same template in his bestsellers warning of AI taking over humanity. Stephen Hawking's pre-death AI warnings, Elon Musk's repeated AI doom tweets — all used this template to various degrees. None of these people are anywhere near "youth," but they're the ones supplying most of the rhetorical ammunition today's young people are firing.
 
 Pew Research surveys over multiple rounds show that AI worry isn't concentrated in one age group; it cuts across all ages. On many survey items, older adults' concerns actually run deeper than younger ones'. Young people show their resentment more visibly because of collective settings like commencements; older people's resentment gets dispersed in homes, offices, and editorials. But the underlying script is the same one.
 
@@ -421,11 +421,11 @@ A 2024 *China Business News* survey of 370 Chinese university students: 57.3% ch
 
 That doesn't mean Chinese university students have no anxiety. The direction of their anxiety is exactly opposite. Chinese students worry that they personally won't keep up with AI and will be left behind by this wave — not that AI will take their jobs.
 
-The "2025 University Student AI-Usage Mindset Insight Report," published September 2025, says 43.5% of respondents have some degree of AI anxiety. Unpacking the specific worries: 62.3% worry about "over-reliance on AI leading to lazy thinking," 53.7% worry about "developing emotional dependence on AI," 46.3% worry about "impact on real-world social ability." These look like cognitive worries on the surface; underneath, they're "position anxiety": am I going to be slower than others, am I going to be left behind by those who use it better. Humanities students show the highest anxiety (48.4% have AI anxiety), and the reason isn't anti-AI — it's that they feel their tools aren't as good as their STEM peers, leaving them most exposed in the wave.
+The "2025 University Student AI-Usage Mindset Insight Report," published September 2025, says 43.5% of respondents have some degree of AI anxiety. Break down the specific worries: 62.3% worry about "over-reliance on AI leading to lazy thinking," 53.7% about "developing emotional dependence on AI," 46.3% about "impact on real-world social ability." On the surface these read as cognitive worries. Underneath, they're position anxiety: am I going to be slower than the next person, am I going to be left behind by those who use this better. Humanities students show the highest anxiety (48.4% with AI anxiety), and the reason isn't anti-AI — they feel their tools aren't as good as their STEM peers', leaving them most exposed in the wave.
 
-The flip side of this anxiety hangs on another phrase: in Chinese, *ni-tian gai-ming* — literally "rewriting one's fate against the heavens." In the Chinese context, this is a strong phrase, meaning using a new tool to pry open things that were once locked in your fate: birth, *hukou* (household registration), the school you graduated from, family resources. AI is treated by a meaningful share of Chinese students as exactly this kind of tool.
+On the other side of that anxiety sits another phrase. In Chinese, *ni-tian gai-ming* — literally, "rewriting your fate against the heavens." It's a strong phrase, and it means using a new tool to pry open the things in your life that look locked: where you were born, your *hukou* (China's household registration system), which school you graduated from, what family you came from. A meaningful share of Chinese students treat AI as exactly that kind of tool.
 
-Concretely: positions on China's traditional tracks (the gaokao, civil service exams, traditional big-tech campus recruiting) are already filled by previous cohorts; the marginal return on internal competition is shrinking. But AI simultaneously opens up a batch of new frontier niches: independent developers building AI agents, ultra-thin apps built with Cursor and operated solo, AI-native content creators, AI capability embedded into cross-border e-commerce and supply chains, vertical-industry AI, AI consulting for overseas clients. None of these niches has a stable talent ladder yet; whoever charges in early captures asymmetric returns. The Chinese university students most enthusiastic and least anxious about AI are, almost all of them, charging into these directions.
+Here's what that looks like in practice. The traditional Chinese tracks (the gaokao, civil service exams, big-tech campus recruiting) are already filled with the cohorts that came before; the marginal return on internal competition keeps shrinking. But AI has opened up a fresh set of frontier niches at the same time: solo developers building AI agents, ultra-thin Cursor apps run by one person, AI-native content creators, AI capability embedded into cross-border e-commerce and supply chains, vertical-industry AI, AI consulting for overseas clients. None of these niches has a stable talent ladder yet, so whoever charges in first captures asymmetric returns. The Chinese students most enthusiastic about AI — and least anxious — are almost all charging in those directions.
 
 That also explains a counter-intuitive data finding: in China, the more positive a student's attitude toward AI, the lower their job-market anxiety. In the U.S., it's the opposite — the more deeply someone uses AI, the lower their AI excitement. The two curves run in opposite directions, behind which sit two different presets about the same tool: Chinese students treat AI as a ladder they can climb to the top, American students treat it as a rival standing in their way.
 
@@ -433,17 +433,17 @@ That also explains a counter-intuitive data finding: in China, the more positive
 
 The West has the luxury of writing *Frankenstein*, because the West is itself Frankenstein. It invented the machines that changed the world, so it has the time and space to imagine those machines destroying their maker.
 
-East Asia doesn't have that luxury. It was the one being chased by the monster, less than a few decades from being carved up. When the survival pressure is "either learn to make this machine, or get colonized by the country that does," the attitude toward machines is naturally different.
+East Asia doesn't have that luxury. It was the one being chased by the monster, a few decades short of being carved up itself. When the survival question is "either learn to make this machine, or get colonized by the country that does," the attitude toward machines comes out different.
 
 That difference is still producing effects today, shaping how two civilizations react to the same technology.
 
 # VII. Questions for the Reader
 
-By this point, this piece's judgment has been on the table:
+By now the verdict is on the table:
 
 **The backlash is real. The proposed solution is wrong.**
 
-All four layers of resentment have real data and concrete circumstances. Summarizing this backlash as "American kids don't understand technology and are just yelling" is contempt for their actual situation. But using "anti-AI" as a universal solvent for the four layers will solve none of them. What actually moves things are labor policy, educational assessment, copyright law, platform accountability. These require participation from both pro-AI and anti-AI sides, both left and right.
+All four layers of resentment have real data and concrete circumstances behind them. Writing the whole thing off as "American kids don't understand technology and are just yelling" is contempt for their actual situation. But treating "anti-AI" as a universal solvent for those four layers won't dissolve any of them. What actually moves things is labor policy, educational assessment, copyright law, platform accountability. Those require participation from pro-AI and anti-AI sides, left and right.
 
 I don't want to hand the reader a final verdict. Below are the questions for each role to answer themselves.
 
