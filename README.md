@@ -6,6 +6,8 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 36 | 5/22 | [一篇文章讲清楚美国的移民系统](一篇文章讲清楚美国的移民系统.md) | [link](https://x.com/snowboat84/status/2057980486501433383) | — | [link](https://zhuanlan.zhihu.com/p/2041415094861550858) |
+| 35 | 5/21 | [毕业典礼上嘘声四起：美国年轻人讨厌AI？](毕业典礼上嘘声四起：美国年轻人讨厌AI？.md) | [link](https://x.com/snowboat84/status/2057619169341026321) | — | [link](https://zhuanlan.zhihu.com/p/2041052307652097783) |
 | 34 | 5/20 | [大航海时代2的逆向工程实验](大航海时代2的逆向工程实验.md) | [link](https://x.com/snowboat84/status/2057264254319993332) | — | [link](https://zhuanlan.zhihu.com/p/2040709944140375982) |
 | 33 | 5/19 | [量子计算机有前途吗？](量子计算机有前途吗？.md) | [link](https://x.com/snowboat84/status/2056895775578456417) | — | [link](https://zhuanlan.zhihu.com/p/2040249407132722840) |
 | 32 | 5/18 | [祖父积分学概论](祖父积分学概论.md) | [link](https://x.com/snowboat84/status/2056533111983493136) | — | [link](https://zhuanlan.zhihu.com/p/2039143026677830866) |
