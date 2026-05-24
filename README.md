@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| * | 5/23 | [SpaceX 立志传（三）：屠龙术之可回收火箭](SpaceX%20立志传（三）：屠龙术之可回收火箭.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2041685377539363237) |
 | * | 5/23 | [SpaceX 立志传（二）：NASA的救命钱](SpaceX%20立志传（二）：NASA的救命钱.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2041534377713203183) |
 | 36 | 5/22 | [一篇文章讲清楚美国的移民系统](一篇文章讲清楚美国的移民系统.md) | [link](https://x.com/snowboat84/status/2057980486501433383) | — | [link](https://zhuanlan.zhihu.com/p/2041415094861550858) |
 | 35 | 5/21 | [毕业典礼上嘘声四起：美国年轻人讨厌AI？](毕业典礼上嘘声四起：美国年轻人讨厌AI？.md) | [link](https://x.com/snowboat84/status/2057619169341026321) | — | [link](https://zhuanlan.zhihu.com/p/2041052307652097783) |
