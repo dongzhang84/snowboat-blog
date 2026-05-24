@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| * | 5/24 | [Boos at Commencement - Do Young Americans Hate AI？](Boos%20at%20Commencement%20-%20Do%20Young%20Americans%20Hate%20AI？.md) | [medium](https://medium.com/@dongzhanghz/boos-at-commencement-do-young-americans-hate-ai-90d174738ec7) | — | [substack](https://substack.com/home/post/p-199043331) |
 | * | 5/23 | [SpaceX 立志传（三）：屠龙术之可回收火箭](SpaceX%20立志传（三）：屠龙术之可回收火箭.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2041685377539363237) |
 | * | 5/23 | [SpaceX 立志传（二）：NASA的救命钱](SpaceX%20立志传（二）：NASA的救命钱.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2041534377713203183) |
 | 36 | 5/22 | [一篇文章讲清楚美国的移民系统](一篇文章讲清楚美国的移民系统.md) | [link](https://x.com/snowboat84/status/2057980486501433383) | — | [link](https://zhuanlan.zhihu.com/p/2041415094861550858) |
