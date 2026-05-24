@@ -2,34 +2,34 @@
 ## Contents
 
 - I. Who Got Booed, and Who Didn't
-  - 1.1 Booed: Five Cases
-  - 1.2 Not Booed: Three Cases
+  - 1.1 Five Commencements That Turned on AI
+  - 1.2 Three AI Speeches That Landed Fine
   - 1.3 What Actually Triggers the Boos
-- II. What Students Themselves Are Saying
-  - 2.1 Direct Quotes from the Graduates
-  - 2.2 Campus Editorials
-  - 2.3 The Private Anxiety of CS Graduates
-- III. The Backlash Has Real Roots: Four Layers
-  - 3.1 Livelihood: The Entry-Level Collapse
-  - 3.2 Institutional: Schools' Double Standard
-  - 3.3 Dignity: Where It Hits Humanities Students Hardest
-  - 3.4 Consumer: AI Shoved Into Every Corner
+- II. What Students Are Actually Saying
+  - 2.1 What Graduates Said
+  - 2.2 Student Papers Were Even Sharper
+  - 2.3 The Anxiety CS Grads Say Quietly
+- III. Why the Backlash Is Not Just Noise
+  - 3.1 The Entry-Level Jobs Problem
+  - 3.2 The Campus Double Standard
+  - 3.3 Why Humanities Students Feel It Personally
+  - 3.4 When AI Gets Forced Into Everything
 - IV. The Problems Are Real. The Solutions Are Wrong.
   - 4.1 Livelihood: Stop Making AI the Scapegoat
-  - 4.2 School Double Standards: An Institutional Problem, Not an AI Problem
-  - 4.3 Dignity: Don't Conflate Tool, Market, and Ethics
-  - 4.4 Consumer Disgust: AI Capability vs. Bad Deployment
-  - 4.5 The Real Solution: Institutions, Not Technology
-- V. Two Archetypes Behind the West's Anti-Tech Tradition
-  - 5.1 Frankenstein (1818): The Industrial Revolution's Anxiety Made Flesh
-  - 5.2 HAL 9000 (1968): The Pop-Culture Betrayal Archetype
-  - 5.3 The Script Is Inherited, Not Original
-- VI. Why East Asia Reacts Differently
-  - 6.1 Meiji Restoration and the Self-Strengthening Movement: Technology as Ladder
+  - 4.2 Schools Need New Rules, Not AI Panic
+  - 4.3 Tool, Market, and Ethics Are Three Different Fights
+  - 4.4 Bad Models vs. Bad Rollouts
+  - 4.5 The Fix Is Institutional
+- V. The Two Old Stories America Keeps Replaying
+  - 5.1 Frankenstein: The Machine Turns on Its Maker
+  - 5.2 HAL 9000: The Friendly Voice That Betrays You
+  - 5.3 The Script Keeps Getting Reused
+- VI. Why East Asia Starts From a Different Place
+  - 6.1 Meiji and Self-Strengthening: Technology as a Ladder
   - 6.2 Astro Boy and Doraemon: Robots as Heroes
-  - 6.3 Chinese Students Today: Afraid of Being Left Behind, Not of AI Itself
-  - 6.4 Bottom Line
-- VII. Questions for the Reader
+  - 6.3 Chinese Students Fear Falling Behind More Than AI Itself
+  - 6.4 The Split
+- VII. Questions Worth Asking
 
 ---
 
@@ -51,7 +51,7 @@ That's what this piece is about. Do young Americans actually hate AI?
 
 # I. Who Got Booed, and Who Didn't
 
-## 1.1 Booed: Five Cases
+## 1.1 Five Commencements That Turned on AI
 
 The 2026 commencement season produced a new kind of incident. For the past two decades, commencement speakers were usually booed over politics, such as the Iraq War, abortion rights, Israel/Gaza, or over personal scandals. In 2026, AI became its own trigger.
 
@@ -69,7 +69,7 @@ At least five cases are well documented.
 
 Across the five cases, the pattern is clear. The booed speakers were business executives or AI evangelists. Not one was a working AI researcher. The settings were comprehensive universities or humanities and communications schools, not engineering schools or CS programs. The lines that drew boos were all versions of the same message: AI is the next industrial revolution, get on board, accept that it is a tool.
 
-## 1.2 Not Booed: Three Cases
+## 1.2 Three AI Speeches That Landed Fine
 
 During the same period, some of the most famous people in AI gave speeches with almost the same tone. They were cheered instead.
 
@@ -89,37 +89,65 @@ The second factor is the speaker. LeCun has spent 40 years doing AI research. Wh
 
 Net worth is not the deciding variable. Jensen Huang's net worth grew by hundreds of billions of dollars between 2024 and 2026, far more than Schmidt's, and CMU graduates did not boo him. Huang built the GPU industry. Schmidt and Borchetta sound like people standing at a distance, pointing at AI and telling young people to get on the rocket. That posture matters more than the dollar figure.
 
-# II. What Students Themselves Are Saying
+# II. What Students Are Actually Saying
 
-## 2.1 Direct Quotes from the Graduates
+## 2.1 What Graduates Said
 
 After each incident, U.S. outlets interviewed graduates who were there. Read the quotes together and the backlash becomes much more specific.
 
-**Olivia Malone, 22, University of Arizona, headed to law school.** After Schmidt's speech, she told reporters: "His speech was incredibly disrespectful to students. We as students are discouraged from using it and penalized for using it. And then to have our speaker be the champion of AI is just like, OK? Why?" She added: "It felt like a big advertisement."
+**Olivia Malone, 22, University of Arizona, headed to law school.** After Schmidt's speech, she told reporters:
 
-**Sami Wargo, 21, Marquette, digital media + advertising.** She told local media: "Given how AI has become an increasing threat towards our jobs, especially for our graduating class, we thought it was a little bit tone deaf." She had started sending out resumes in January. By her graduation in May, she had submitted 30 applications. Not a single offer.
+> "His speech was incredibly disrespectful to students. We as students are discouraged from using it and penalized for using it. And then to have our speaker be the champion of AI is just like, OK? Why?"
 
-**Ethan Lubin, UCF College of Arts and Humanities.** "Talking about artificial intelligence at a college for arts and humanities can be, you know, a bit rough, because it kind of goes against the humanities part."
+She added that it "felt like a big advertisement."
 
-**Sydney Gill, 19, freshman at Rice University.** "I feel like anything that I'm interested in has the potential of maybe getting replaced, even in the next few years."
+**Sami Wargo, 21, Marquette, digital media + advertising.** She told local media:
 
-**Henry Bova, Northeastern student journalist, editorial on the AI name-reading incident:** "To many students like myself, a small switch from an AI voice bot to a physical person would mean the world. A human can reciprocate our sense of joy and can understand the gravity of the moment and the academic rigor that we endured to get to this point." He also wrote: "All the AI voice does is reduce the recognition of our accomplishments as a menial task to push through with brute computations."
+> "Given how AI has become an increasing threat towards our jobs, especially for our graduating class, we thought it was a little bit tone deaf."
+
+She had started sending out resumes in January. By her graduation in May, she had submitted 30 applications. Not a single offer.
+
+**Ethan Lubin, UCF College of Arts and Humanities.**
+
+> "Talking about artificial intelligence at a college for arts and humanities can be, you know, a bit rough, because it kind of goes against the humanities part."
+
+**Sydney Gill, 19, freshman at Rice University.**
+
+> "I feel like anything that I'm interested in has the potential of maybe getting replaced, even in the next few years."
+
+**Henry Bova, Northeastern student journalist, editorial on the AI name-reading incident.**
+
+> "To many students like myself, a small switch from an AI voice bot to a physical person would mean the world. A human can reciprocate our sense of joy and can understand the gravity of the moment and the academic rigor that we endured to get to this point."
+
+He also wrote:
+
+> "All the AI voice does is reduce the recognition of our accomplishments as a menial task to push through with brute computations."
 
 The quotes point in the same direction. The problem is not simply "AI." It is AI cheerleading, delivered at commencement, by people who sound like they are selling something. Malone says it felt like an advertisement. Wargo calls it tone deaf. Bova says the ceremony was reduced to a menial task. Those are claims about disrespect, not blanket rejection of the technology.
 
-## 2.2 Campus Editorials
+## 2.2 Student Papers Were Even Sharper
 
 The student newspapers are sharper than the on-camera interviews.
 
-On March 19, 2026, the University of Pennsylvania's *Daily Pennsylvanian* editorial board published a piece titled "Penn has an AI problem." It noted that Penn became the first Ivy League school to launch an undergraduate AI major in 2024 and now has ten undergraduate, 21 graduate, and eight doctoral programs in AI. The sharpest line was this: "We attend this institution to develop hard skills, question the world around us, solve problems, produce new ideas, and the ability to think for ourselves. With the university forcing AI into our learning every chance it gets, do we end up gaining knowledge or cheat codes?"
+On March 19, 2026, the University of Pennsylvania's *Daily Pennsylvanian* editorial board published a piece titled "Penn has an AI problem." It noted that Penn became the first Ivy League school to launch an undergraduate AI major in 2024 and now has ten undergraduate, 21 graduate, and eight doctoral programs in AI. The sharpest line:
 
-The Penn editorial also cites a Spring 2024 Penn undergraduate council survey: 83% of Penn undergraduates admitted using AI in academic settings. The editorial concludes: "AI cannot coexist with education — it can only degrade it."
+> "We attend this institution to develop hard skills, question the world around us, solve problems, produce new ideas, and the ability to think for ourselves. With the university forcing AI into our learning every chance it gets, do we end up gaining knowledge or cheat codes?"
 
-The *Harvard Crimson*, September 2025, by Adam N. Chiocco ('27) and Allison P. Farrell ('26), titled "AI Defeats the Purpose of a Humanities Education." Both are philosophy undergraduates. The most precise line: "Even if a student uses AI to achieve a higher grade than deserved, they have lost the experience that makes engaging in humanistic inquiry fruitful." Their recommendation: "Ban AI use, and the quality of humanities education at Harvard will improve."
+The Penn editorial also cites a Spring 2024 Penn undergraduate council survey: 83% of Penn undergraduates admitted using AI in academic settings. The editorial concludes:
+
+> "AI cannot coexist with education — it can only degrade it."
+
+The *Harvard Crimson*, September 2025, by Adam N. Chiocco ('27) and Allison P. Farrell ('26), titled "AI Defeats the Purpose of a Humanities Education." Both are philosophy undergraduates. The most precise line:
+
+> "Even if a student uses AI to achieve a higher grade than deserved, they have lost the experience that makes engaging in humanistic inquiry fruitful."
+
+Their recommendation:
+
+> "Ban AI use, and the quality of humanities education at Harvard will improve."
 
 These editorials are more absolute than the interviews. The Penn board uses "degrade." The two Harvard philosophy students say AI defeats the point of a humanities education. They are not arguing in the abstract about whether AI is good or bad. They are making demands of their own schools: stop forcing AI into every class, and stop letting AI sit inside assessment.
 
-## 2.3 The Private Anxiety of CS Graduates
+## 2.3 The Anxiety CS Grads Say Quietly
 
 The anxiety is not limited to humanities students. On Reddit and Blind, the anonymous tech-worker forum, 2026 threads asking whether new grads should still bet on software engineering routinely draw top-voted replies like:
 
@@ -131,13 +159,13 @@ Another 2026 thread on job-market expectations:
 
 This is not just internet doomposting. It lines up with real data. SignalFire's May 2025 State of Tech Talent report found that big-tech new-grad hiring was down 25% from 2023 and more than 50% from pre-pandemic 2019. The same report said new grads made up only 7% of new hires at tech companies in 2024. It also found that 55% of employers thought Gen Z lacked teamwork skills, and 37% of managers said they would rather use AI than hire a Gen Z employee.
 
-Put the humanities student's dignity anxiety next to the CS graduate's job anxiety, and you can see how broad this is. It's bigger than humanities jobs being replaced by AI. It's bigger than entry-level engineering roles getting squeezed. It's a generation starting its career while wondering whether the ladder is being pulled up.
+The humanities student's dignity anxiety and the CS graduate's job anxiety are part of the same larger mood. This is bigger than humanities jobs being replaced by AI. It's bigger than entry-level engineering roles getting squeezed. It's a generation starting its career while wondering whether the ladder is being pulled up.
 
-# III. The Backlash Has Real Roots: Four Layers
+# III. Why the Backlash Is Not Just Noise
 
-What Schmidt, Borchetta, and Caulfield ran into was not one grievance. It was four grievances stacked on top of each other, and each one has real circumstances behind it.
+What Schmidt, Borchetta, and Caulfield ran into was not one grievance. It was four grievances stacked on top of each other, each tied to something concrete in students' lives.
 
-## 3.1 Livelihood: The Entry-Level Collapse
+## 3.1 The Entry-Level Jobs Problem
 
 The most immediate problem is the job market.
 
@@ -153,7 +181,7 @@ Axios + Harris's 2026 survey: 42% of Gen Z think AI will hurt job opportunities 
 
 This is the layer that collides most directly with the Schmidt/Borchetta message of "AI is opportunity." To a 22-year-old who cannot find a job, the word opportunity can sound almost insulting, especially from someone worth tens of billions.
 
-## 3.2 Institutional: Schools' Double Standard
+## 3.2 The Campus Double Standard
 
 The second layer sits inside the campus itself.
 
@@ -167,9 +195,9 @@ The Harvard philosophy students' indictment cuts deeper. They argue that even if
 
 Schools mostly respond defensively: buy more expensive AI detectors and threaten students. But in May 2026, mainstream AI-detection tools still have false-positive rates above 20%. A meaningful share of essays flagged as "AI-generated" were written by hand. Students get insulted twice: first by being banned from a tool faculty use behind the scenes, then by being judged by a detection system with a 20% error rate.
 
-## 3.3 Dignity: Where It Hits Humanities Students Hardest
+## 3.3 Why Humanities Students Feel It Personally
 
-The third layer is harder to talk about because it cannot be fully captured in a labor-market chart.
+The third grievance is harder to talk about because it cannot be fully captured in a labor-market chart.
 
 It is about identity, especially for humanities and arts students.
 
@@ -181,9 +209,9 @@ That is why 200 American musicians signed an open letter against AI training-dat
 
 When humanities graduates hear "AI is rewriting music production" or "AI is the next industrial revolution" at commencement, the offense is not only economic. It hits their self-definition as creators. The Harvard philosophy students' line about AI users losing the experience of humanistic inquiry captures exactly that injury.
 
-## 3.4 Consumer: AI Shoved Into Every Corner
+## 3.4 When AI Gets Forced Into Everything
 
-The fourth layer reaches beyond students and job seekers.
+The fourth grievance reaches beyond students and job seekers.
 
 It is the everyday feeling that AI has been shoved into every corner whether you asked for it or not. Google's AI Overview sits at the top of search results and often gets things wrong. Customer service has moved from humans to bots, and simple questions can take forever to escalate to a real person. Social media is flooded with AI slop: low-quality, derivative content tuned for the algorithm. Smart speakers, email assistants, operating systems, and phone cameras now ship with "AI enhancement" on by default, often without meaningful consent.
 
@@ -217,13 +245,13 @@ Separate those three from actual AI replacement and the picture gets clearer. If
 
 So what should actually be done? The two political camps offer different paths, and both have arguments worth taking seriously.
 
-The side that wants more government involvement argues for retraining subsidies, longer mandatory layoff-notice periods, labor investigations into AI-washed layoffs, stronger collective bargaining, and platform-accountability legislation. This path uses rules to slow the shock. Its weakness is that it may slow U.S. companies in global AI competition.
+The more interventionist camp argues for retraining subsidies, longer mandatory layoff-notice periods, labor investigations into AI-washed layoffs, stronger collective bargaining, and platform-accountability legislation. This path uses rules to slow the shock. Its weakness is that it may slow U.S. companies in global AI competition.
 
-The market-leaning side argues for fewer occupational-licensing barriers, tax credits for hiring new grads, tighter links between community colleges and industry, individual skill accounts, and less blanket regulation so new companies can grow faster. This path bets on faster adjustment. Its weakness is that it gives weaker short-term protection to workers at the bottom.
+The market-leaning camp argues for fewer occupational-licensing barriers, tax credits for hiring new grads, tighter links between community colleges and industry, individual skill accounts, and less blanket regulation so new companies can grow faster. This path bets on faster adjustment. Its weakness is that it gives weaker short-term protection to workers at the bottom.
 
 Neither side is perfect. Both are more serious than "ban ChatGPT." Banning ChatGPT will not bring back a Big Tech offer, and it will not reduce your student loan by a penny.
 
-## 4.2 School Double Standards: An Institutional Problem, Not an AI Problem
+## 4.2 Schools Need New Rules, Not AI Panic
 
 Teachers use AI for lesson prep, grading, and student-data analysis. Students use AI for homework and it becomes cheating. The double standard is ugly. But at root, this is a school-governance problem, not a problem with AI as a technology.
 
@@ -250,7 +278,7 @@ Once a school accepts that test, the rest follows. Assessment should not measure
 
 If you're the Marquette student leading the petition, instead of "replace the AI-talking speaker," you should be asking for specific things: the school publicly discloses where it uses AI, requires faculty to get student consent before using it, redesigns assessment by the "what's left when AI is gone" test, and stops using AI detectors with 20%+ false-positive rates.
 
-## 4.3 Dignity: Don't Conflate Tool, Market, and Ethics
+## 4.3 Tool, Market, and Ethics Are Three Different Fights
 
 The third layer deserves the most careful treatment. It is also the one both sides most often discuss badly.
 
@@ -288,7 +316,7 @@ The third is credit and transparency. If AI participates in the creation, users 
 
 Once you separate these layers, blanket statements like "AI cannot coexist with humanities education" start to look crude. They mix together tool use, market collapse, and ethics, then answer all three with one word: ban.
 
-## 4.4 Consumer Disgust: AI Capability vs. Bad Deployment
+## 4.4 Bad Models vs. Bad Rollouts
 
 On the fourth issue, the pro-AI and anti-AI sides should be allies, though neither side seems to realize it.
 
@@ -296,11 +324,11 @@ AI slop flooding the web is real. AI customer service that never understands you
 
 But people often bundle two different problems together.
 
-The first category is **AI capability problems**.
+Some failures are **AI capability problems**.
 
 Today's large models are still weak at factual accuracy, long-context understanding, cross-context consistency, and rare-name pronunciation. Google's AI Overview error rate, customer-service bots that cannot handle complex questions, AI systems mispronouncing names at ceremonies: these are capability problems. The technology is not good enough yet. It will improve with model iteration. In two or three years, some of this complaint will fade naturally.
 
-The second category is **human deployment problems**.
+Others are **human deployment problems**.
 
 A company may know perfectly well that its AI customer service will lose orders, that its name-reading system will mispronounce names, or that its summaries will spread errors, and still deploy it because humans are expensive. A school that could hire a name reader for $200 chooses free AI instead. That is not a model-capability problem. That is a human decision. AI could improve tenfold and lazy institutions would still deploy the cheapest version they can get away with.
 
@@ -316,7 +344,7 @@ So when the anti-AI side says "AI is making everything worse," and the pro-AI si
 
 One fact is easy to miss here: AI replacement extends far beyond essays and images. It reaches large numbers of low-barrier service jobs: customer service, content moderation, entry-level copywriting, simple translation, data entry, product photography. These jobs were stepping stones for college students and immigrants entering the formal labor market. They were also a real source of income for many U.S. households. If AI removes those steps, where do the new steps come from? No one has a satisfying answer.
 
-## 4.5 The Real Solution: Institutions, Not Technology
+## 4.5 The Fix Is Institutional
 
 The four layers point to the same place.
 
@@ -326,15 +354,15 @@ All four layers of resentment are real. But the fixes all point to institutional
 
 What can move these problems depends partly on where you sit politically. Both sides have tools. Neither toolbox is empty.
 
-The side that wants more government involvement: labor law reform, platform-accountability legislation, retraining subsidies, copyright law requiring training-data compensation, stronger consumer protection, mandatory human-fallback for AI deployment. This path relies on the government re-engaging.
+The more interventionist path: labor law reform, platform-accountability legislation, retraining subsidies, copyright law requiring training-data compensation, stronger consumer protection, mandatory human-fallback for AI deployment. This path relies on the government re-engaging.
 
-The market-leaning side: tax cuts to incentivize hiring, industrial policy (in the CHIPS Act mold) supporting domestic AI capacity, fewer interstate licensing barriers so labor can move, case law (NYT v. OpenAI style) establishing market-based compensation for training data, contract freedom over blanket regulation, consumers voting with their feet to kill bad AI deployments. This path relies on the market correcting itself.
+The market-leaning path: tax cuts to incentivize hiring, industrial policy (in the CHIPS Act mold) supporting domestic AI capacity, fewer interstate licensing barriers so labor can move, case law (NYT v. OpenAI style) establishing market-based compensation for training data, contract freedom over blanket regulation, consumers voting with their feet to kill bad AI deployments. This path relies on the market correcting itself.
 
 Neither path is perfect. The first may slow the U.S. response in global AI competition. The second gives weaker short-term protection to low-end workers. But both are more concrete than the slogan "anti-AI," because both deal with the real question: how should AI fit into society?
 
 That is where the backlash should be aimed. Pro-AI or anti-AI, left or right, there is real work to do there.
 
-# V. Two Archetypes Behind the West's Anti-Tech Tradition
+# V. The Two Old Stories America Keeps Replaying
 
 Why does anti-AI sentiment run so hot in the U.S.?
 
@@ -344,7 +372,7 @@ The story starts in 1818 with Mary Shelley's *Frankenstein*. In the first half o
 
 The line has not broken in 200 years. This chapter uses two anchor points: *Frankenstein* (1818), where the story begins, and HAL (1968), where it becomes recognizably AI-shaped. They are not the whole tradition. They are the two most useful examples for understanding why the 2026 boos came so easily.
 
-## 5.1 Frankenstein (1818): The Industrial Revolution's Anxiety Made Flesh
+## 5.1 Frankenstein: The Machine Turns on Its Maker
 
 Mary Shelley wrote *Frankenstein* in 1816-1817. She was then Mary Wollstonecraft Godwin, later the wife of the poet Percy Shelley. The timing matters: England had just come through the Luddite movement of 1811-1816.
 
@@ -356,7 +384,7 @@ The frame is familiar now. Victor Frankenstein is a young scientist who creates 
 
 The book became the great cultural expression of Industrial Revolution anxiety. A thinking creation destroys the human who made it. Two hundred years later, Western panics over new technology still reach for this archetype, consciously or not. "Frankenstein's monster" has become an English idiom for a creation the creator can no longer control.
 
-## 5.2 HAL 9000 (1968): The Pop-Culture Betrayal Archetype
+## 5.2 HAL 9000: The Friendly Voice That Betrays You
 
 The second archetype is HAL 9000, from *2001: A Space Odyssey*.
 
@@ -368,7 +396,7 @@ That line changed American pop culture's expectation of talking machine intellig
 
 So when Schmidt tells 10,000 University of Arizona graduates that AI will affect every relationship in their lives, some of them are not thinking about a neutral productivity tool. They are thinking, consciously or not, of HAL's red eye. That association is the product of decades of Hollywood repetition.
 
-## 5.3 The Script Is Inherited, Not Original
+## 5.3 The Script Keeps Getting Reused
 
 Frankenstein and HAL reveal the same pattern: a large share of today's AI fear comes from an inherited cultural script. This time the noun is AI.
 
@@ -390,11 +418,11 @@ Pew Research surveys over multiple rounds show that AI worry is not concentrated
 
 That distinction matters. "How will AI reshape the job market?" is an empirical question. Data and policy can address it. "Will AI rise up and destroy humanity?" is partly a cultural preset inherited from *Frankenstein*. Before debating it, we should at least recognize the story we are standing inside.
 
-# VI. Why East Asia Reacts Differently
+# VI. Why East Asia Starts From a Different Place
 
 The 2026 U.S. backlash has no close equivalent in East Asia. In China, Japan, and South Korea, the default attitude toward AI is closer to this: learn it, use it, and make sure you are not left behind. The difference is not just intensity. It is direction. One side moves toward the tool. The other recoils from it. That split did not begin in 2026. You have to trace it back to the mid-19th century, when East Asia was forced open by Western powers.
 
-## 6.1 Meiji Restoration and the Self-Strengthening Movement: Technology as Ladder
+## 6.1 Meiji and Self-Strengthening: Technology as a Ladder
 
 In July 1853, U.S. Navy Commodore Matthew Perry led four "Black Ships" into Edo Bay. That is the starting point of Japan's opening. Over the next 15 years, Japan's elite watched the Qing Empire lose the Second Opium War and saw a much larger neighbor carved up by European powers.
 
@@ -416,7 +444,7 @@ American pop culture also has positive robots: Pixar's *Wall-E*, *The Iron Giant
 
 The consequences are visible today. Japan's industrial automation rate is among the highest in the world. Factory robotic arms are everywhere. There has never been a large Luddite-style resistance. Convenience stores, airports, and hotels increasingly use robot greeters, and the public reaction is usually curiosity, not fear.
 
-## 6.3 Chinese Students Today: Afraid of Being Left Behind by AI, Not of AI Itself
+## 6.3 Chinese Students Fear Falling Behind More Than AI Itself
 
 Chinese university students today are not simply American students with the sign flipped. Their attitude looks more like the old "technology as ladder" narrative dropped into 2026.
 
@@ -432,7 +460,7 @@ In practice, it looks like this. The traditional Chinese tracks — gaokao, civi
 
 That also explains a counterintuitive data point. In China, the more positive a student's attitude toward AI, the lower their job-market anxiety. In the U.S., the pattern runs the other way: the more deeply someone uses AI, the less excited they become. The two curves point in opposite directions because they start from different assumptions. Chinese students tend to see AI as a ladder. American students are more likely to see it as a rival standing in the way.
 
-## 6.4 Bottom Line
+## 6.4 The Split
 
 The West could write *Frankenstein* because the West made the machines. It invented much of the technology that changed the world, and so it had the room to imagine those machines turning against their maker.
 
@@ -440,7 +468,7 @@ East Asia did not begin from that position. It was the side being chased by the 
 
 That difference still matters. It shapes how two civilizations react to the same technology.
 
-# VII. Questions for the Reader
+# VII. Questions Worth Asking
 
 By now the basic verdict is clear:
 
