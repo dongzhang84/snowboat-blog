@@ -2,17 +2,17 @@
 ## Contents
 
 - I. Who Got Booed, and Who Didn't
-  - 1.1 Five Times Booed
-  - 1.2 Three Times Not Booed
+  - 1.1 Booed: Five Cases
+  - 1.2 Not Booed: Three Cases
   - 1.3 What Actually Triggers the Boos
 - II. What Students Themselves Are Saying
   - 2.1 Direct Quotes from the Graduates
   - 2.2 Campus Editorials
   - 2.3 The Private Anxiety of CS Graduates
-- III. The Backlash Has Real Ground: Four Stacked Layers
+- III. The Backlash Has Real Roots: Four Layers
   - 3.1 Livelihood: The Entry-Level Collapse
   - 3.2 Institutional: Schools' Double Standard
-  - 3.3 Dignity: The Humanities Student's Special Sensitivity
+  - 3.3 Dignity: Where It Hits Humanities Students Hardest
   - 3.4 Consumer: AI Shoved Into Every Corner
 - IV. The Problems Are Real. The Solutions Are Wrong.
   - 4.1 Livelihood: Stop Making AI the Scapegoat
@@ -28,7 +28,7 @@
   - 6.1 Meiji Restoration and the Self-Strengthening Movement: Technology as Ladder
   - 6.2 Astro Boy and Doraemon: Robots as Heroes
   - 6.3 Chinese Students Today: Afraid of Being Left Behind, Not of AI Itself
-  - 6.4 One-Sentence Summary
+  - 6.4 Bottom Line
 - VII. Questions for the Reader
 
 ---
@@ -51,7 +51,7 @@ That's what this piece is about. Do young Americans actually hate AI?
 
 # I. Who Got Booed, and Who Didn't
 
-## 1.1 Five Times Booed
+## 1.1 Booed: Five Cases
 
 The 2026 commencement season produced a new kind of incident. For the past two decades, commencement speakers were usually booed over politics, such as the Iraq War, abortion rights, Israel/Gaza, or over personal scandals. In 2026, AI became its own trigger.
 
@@ -69,7 +69,7 @@ At least five cases are well documented.
 
 Across the five cases, the pattern is clear. The booed speakers were business executives or AI evangelists. Not one was a working AI researcher. The settings were comprehensive universities or humanities and communications schools, not engineering schools or CS programs. The lines that drew boos were all versions of the same message: AI is the next industrial revolution, get on board, accept that it is a tool.
 
-## 1.2 Three Times Not Booed
+## 1.2 Not Booed: Three Cases
 
 During the same period, some of the most famous people in AI gave speeches with almost the same tone. They were cheered instead.
 
@@ -131,9 +131,9 @@ Another 2026 thread on job-market expectations:
 
 This is not just internet doomposting. It lines up with real data. SignalFire's May 2025 State of Tech Talent report found that big-tech new-grad hiring was down 25% from 2023 and more than 50% from pre-pandemic 2019. The same report said new grads made up only 7% of new hires at tech companies in 2024. It also found that 55% of employers thought Gen Z lacked teamwork skills, and 37% of managers said they would rather use AI than hire a Gen Z employee.
 
-Read the humanities student's dignity anxiety together with the CS graduate's employment anxiety, and the scale becomes clearer. This is bigger than humanities jobs being replaced by AI. It is bigger than entry-level engineering roles getting squeezed. It is a generation starting its career while wondering whether the ladder is being pulled up.
+Put the humanities student's dignity anxiety next to the CS graduate's job anxiety, and you can see how broad this is. It's bigger than humanities jobs being replaced by AI. It's bigger than entry-level engineering roles getting squeezed. It's a generation starting its career while wondering whether the ladder is being pulled up.
 
-# III. The Backlash Has Real Ground: Four Stacked Layers
+# III. The Backlash Has Real Roots: Four Layers
 
 What Schmidt, Borchetta, and Caulfield ran into was not one grievance. It was four grievances stacked on top of each other, and each one has real circumstances behind it.
 
@@ -143,9 +143,9 @@ The most immediate problem is the job market.
 
 As of May 2026, U.S. tech companies have laid off about 100,000 people. It is not just Big Tech. Oracle, Meta, Amazon, and Microsoft are on the list. So are Google, Block, Cisco, Intuit, IBM, Salesforce, Workday, and Snap. Entry-level roles have taken a disproportionate hit.
 
-The job market new graduates face is worse than the headline numbers suggest. SignalFire's data shows big-tech new-grad hiring down 50% from pre-pandemic levels. For a new grad, that means the three or four offers you might once have had become zero. A three-month job search becomes six months or a year. A $100K-$150K big-tech starting salary becomes a $70K startup job, or an unpaid internship.
+The job market new graduates face is worse than the headline numbers suggest. SignalFire's data shows big-tech new-grad hiring down 50% from pre-pandemic levels. For a new grad, that means going from three or four offers down to none. A three-month job search becomes six months or a year. A $100K-$150K big-tech starting salary becomes a $70K startup job, or an unpaid internship.
 
-"Long-term AI will create new jobs" is cold comfort to someone who is 22 in May 2026. Long term is not a timescale you can pay rent with. Student-loan interest accrues every month. Rent is due every month. "In five years, AI will create new occupations" means very little to someone with an $800 monthly loan payment due now.
+"Long-term AI will create new jobs" is cold comfort to someone who is 22 in May 2026. Long term doesn't pay rent. Student-loan interest accrues every month. Rent is due every month. "In five years, AI will create new occupations" means very little to someone with an $800 monthly loan payment due now.
 
 The Gallup + Walton Foundation + GSV Ventures survey, conducted in February 2026 and published in April, shows the mood shifting fast. Gen Z's "excitement" about AI fell from 36% a year earlier to 22%. "Optimism" fell from 27% to 18%. "Anger" rose from 22% to 31%. "Anxiety" stayed high at 42%. The strangest finding: daily AI users saw their excitement drop 18 points year over year. The more they used it, the less excited they became, the opposite of the usual "fear, then acceptance, then habit" adoption curve.
 
@@ -167,7 +167,7 @@ The Harvard philosophy students' indictment cuts deeper. They argue that even if
 
 Schools mostly respond defensively: buy more expensive AI detectors and threaten students. But in May 2026, mainstream AI-detection tools still have false-positive rates above 20%. A meaningful share of essays flagged as "AI-generated" were written by hand. Students get insulted twice: first by being banned from a tool faculty use behind the scenes, then by being judged by a detection system with a 20% error rate.
 
-## 3.3 Dignity: The Humanities Student's Special Sensitivity
+## 3.3 Dignity: Where It Hits Humanities Students Hardest
 
 The third layer is harder to talk about because it cannot be fully captured in a labor-market chart.
 
@@ -201,7 +201,7 @@ That is the full picture behind the boos. When Schmidt said "get on the rocket,"
 
 Now take the problems one by one.
 
-All four layers of resentment are real. But "be against AI" is not a serious solution. The real problems sit inside specific institutional gaps. A general anti-AI mood may feel satisfying, but it solves almost nothing.
+All four layers of resentment are real. But "being anti-AI" isn't a real answer. The real problems sit inside specific institutional gaps. A general anti-AI mood may feel satisfying, but it solves almost nothing.
 
 ## 4.1 Livelihood: Stop Making AI the Scapegoat
 
@@ -258,7 +258,7 @@ The anti-AI side says AI entering the creative space violates human dignity. The
 
 Tools and creative acts are two different things. Beethoven could not compose without a piano. He sat at the keyboard, sketched melodies, tested, adjusted, and only then wrote them on staff paper. The piano was a machine, but it did not stop Beethoven from being Beethoven. Photoshop made illustrators much more productive without turning illustration into machine output. In that abstract sense, yes, AI can be a tool.
 
-But AI differs from older tools in one important way. It can automate judgment, not just muscle. The piano helps you produce sound, but the key and tempo are still yours. Photoshop helps you draw faster, but you still decide what to draw. AI goes further. You can let it decide what to write, what to draw, what to sing. It can move from tool to partial-agency proxy.
+But AI differs from older tools in one important way. It can automate judgment, not just muscle. The piano helps you produce sound, but the key and tempo are still yours. Photoshop helps you draw faster, but you still decide what to draw. AI goes further. You can let it decide what to write, what to draw, what to sing. It shifts from being a tool to acting as your stand-in.
 
 So the two Harvard philosophy students are right when they say "those using AI to write papers lose the very experience of humanistic inquiry." A literature student letting AI write their paper genuinely did not go through the thinking process the paper should have required. This is a factual claim, not a moral one.
 
@@ -310,7 +310,7 @@ For capability problems, wait for the technology to mature, and keep human overs
 
 For deployment problems, use the same "AI in the middle, humans at both ends" rule. A responsible content platform should not let AI freely generate and post content without human direction or review. AI can help with research and first drafts, but a person should choose the topic and approve the output. AI customer service can handle simple cases, but every customer should have a clear "speak to a human" button. Before AI reads names at a ceremony, a real human should test and approve each pronunciation.
 
-This does not save the maximum amount of money. But it puts AI where it is good — speed, scale, repetition — and keeps humans where they are needed: judgment, taste, accountability. In many cases, that is also the best user experience.
+It isn't the cheapest option. But it puts AI where it is good — speed, scale, repetition — and keeps humans where they are needed: judgment, taste, accountability. In many cases, that is also the best user experience.
 
 So when the anti-AI side says "AI is making everything worse," and the pro-AI side says "this is deployment, not technology," both are only half right. Today's AI capability is still uneven, and many institutions are deploying it in the cheapest possible way. The first problem improves as models improve. The second improves only through regulation, accountability, and consumers walking away from bad deployments.
 
@@ -420,7 +420,7 @@ The consequences are visible today. Japan's industrial automation rate is among 
 
 Chinese university students today are not simply American students with the sign flipped. Their attitude looks more like the old "technology as ladder" narrative dropped into 2026.
 
-A 2024 *China Business News* survey of 370 Chinese university students found that 57.3% were "very embracing" and willing to try AI. Only 6% said they were very anxious about being replaced. Another 2024 survey found that 92.4% of Chinese university students supported broad AI deployment, while 7.6% opposed it. In the same period, 42% of American Gen Z thought AI would hurt job opportunities. The positions are reversed.
+A 2024 *China Business News* survey of 370 Chinese university students found that 57.3% were "very receptive" to AI and willing to try it. Only 6% said they were very anxious about being replaced. Another 2024 survey found that 92.4% of Chinese university students supported broad AI deployment, while 7.6% opposed it. In the same period, 42% of American Gen Z thought AI would hurt job opportunities. The positions are reversed.
 
 That does not mean Chinese students have no anxiety. The direction is different. They worry less that AI will take their jobs and more that they personally will fail to keep up with it.
 
@@ -432,7 +432,7 @@ In practice, it looks like this. The traditional Chinese tracks — gaokao, civi
 
 That also explains a counterintuitive data point. In China, the more positive a student's attitude toward AI, the lower their job-market anxiety. In the U.S., the pattern runs the other way: the more deeply someone uses AI, the less excited they become. The two curves point in opposite directions because they start from different assumptions. Chinese students tend to see AI as a ladder. American students are more likely to see it as a rival standing in the way.
 
-## 6.4 One-Sentence Summary
+## 6.4 Bottom Line
 
 The West could write *Frankenstein* because the West made the machines. It invented much of the technology that changed the world, and so it had the room to imagine those machines turning against their maker.
 
@@ -448,7 +448,7 @@ By now the basic verdict is clear:
 
 All four layers of resentment have real data and real circumstances behind them. Dismissing the whole thing as "American kids don't understand technology" is contempt for their situation. But a general anti-AI mood will not fix any of it. The things that can actually move are labor policy, educational assessment, copyright law, and platform accountability. Those require work from the pro-AI side and the anti-AI side, from the left and the right.
 
-I do not want to hand the reader a final verdict. The better ending is a set of questions, depending on where you stand.
+I don't want to hand you a verdict. A better ending is a set of questions, depending on where you stand.
 
 **If you're the 22-year-old graduate in 2026:**
 
