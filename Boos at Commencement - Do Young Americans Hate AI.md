@@ -1,4 +1,3 @@
-# Boos at Commencement: Do Young Americans Hate AI?
 
 ## Contents
 
