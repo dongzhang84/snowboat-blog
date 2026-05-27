@@ -69,9 +69,7 @@ nodes_spec = [
     ('Daniela Amodei',     'openai'),
     ('Aravind Srinivas',   'openai'),
     ('David Luan',         'openai'),
-    ('Aditya Ramesh',      'sora'),        # Sora / DALL·E
     ('Tim Brooks',         'sora'),        # Sora co-lead, later Google DeepMind
-    ('Bill Peebles',       'sora'),        # Sora research lead
 
     # 学术 (PhD 导师 / 实验室源头)
     ('Geoffrey Hinton',    'academic'),
@@ -130,13 +128,9 @@ edges_spec = [
     ('Dario Amodei',   'Daniela Amodei',   'institution'),   # Anthropic 联创 + 兄妹
     ('Sam Altman',     'Aravind Srinivas', 'institution'),
     ('Sam Altman',     'David Luan',       'institution'),
-    ('Sam Altman',     'Aditya Ramesh',    'institution'),
-
-    # —— OpenAI 视频生成主线: Sora team leads ——
-    ('Aditya Ramesh',  'Tim Brooks',       'institution'),
-    ('Aditya Ramesh',  'Bill Peebles',     'institution'),
-    ('Tim Brooks',     'Bill Peebles',     'institution'),
-    ('Tim Brooks',     'Demis Hassabis',   'transfer'),  # 2024 加入 Google DeepMind
+    # —— OpenAI 视频生成主线: Tim Brooks 后加入 Google DeepMind ——
+    ('Sam Altman',     'Tim Brooks',       'institution'),
+    ('Tim Brooks',     'Demis Hassabis',   'transfer'),
 
     # —— 师承 (PhD 导师) ——
     ('Geoffrey Hinton', 'Ilya Sutskever',  'mentor'),   # Toronto PhD
@@ -236,9 +230,7 @@ pos = {
     'Aravind Srinivas':   (-3.4, -0.9),    # 接 Abbeel (师承)
     'David Luan':         ( 1.4,  0.0),
     'Elon Musk':          (-1.7, -0.6),    # 桥到 PayPal Mafia
-    'Aditya Ramesh':      ( 0.0, -0.55),
-    'Tim Brooks':         ( 0.9, -0.95),
-    'Bill Peebles':       ( 1.7, -0.65),
+    'Tim Brooks':         ( 1.2, -0.85),
 
     # DeepMind / Brain (右侧)
     'Demis Hassabis':     ( 3.7,  1.9),
@@ -284,17 +276,6 @@ ax.add_patch(media_bg)
 ax.text(-5.35, media_y + 0.65, '视觉 / 视频生成产品线 · Runway / Luma / Pika 只画可确认的共同创立关系',
         ha='left', va='bottom', fontproperties=_font(10),
         color=TEXT_MUTED, zorder=1)
-
-sora_bg = FancyBboxPatch(
-    (-0.45, -1.38), 2.6, 1.15,
-    boxstyle="round,pad=0.04,rounding_size=0.12",
-    linewidth=1.0, edgecolor='#BAE6FD',
-    facecolor='#ECFEFF', alpha=0.52, zorder=0,
-)
-ax.add_patch(sora_bg)
-ax.text(-0.35, -0.28, 'OpenAI 视频主线 · Sora',
-        ha='left', va='bottom', fontproperties=_font(10),
-        color='#0E7490', zorder=1)
 
 # 边: 按类型分批
 for etype, style in EDGE_STYLES.items():
