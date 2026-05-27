@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 560" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; --blue: #2563eb; --blue-bg: #eff6ff; --blue-stroke: #93c5fd; --amber: #d97706; --amber-bg: #fffbeb; --amber-stroke: #fcd34d; --green: #059669; --green-bg: #ecfdf5; --green-stroke: #6ee7b7; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; --blue: #93c5fd; --blue-bg: #172554; --blue-stroke: #2563eb; --amber: #fbbf24; --amber-bg: #3b2f12; --amber-stroke: #92400e; --green: #6ee7b7; --green-bg: #052e2b; --green-stroke: #047857; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.case { fill: var(--blue-bg); stroke: var(--blue-stroke); stroke-width: 1.4; }
+.rule { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.6; }
+.future { fill: var(--green-bg); stroke: var(--green-stroke); stroke-width: 1.4; }
+.statute { fill: var(--amber-bg); stroke: var(--amber-stroke); stroke-width: 1.2; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.arrow { stroke: var(--fg-soft); stroke-width: 1.6; fill: none; marker-end: url(#arrow); }
+.arrow-strong { stroke: var(--accent); stroke-width: 2; fill: none; marker-end: url(#arrow-accent); }
+.arrow-green { stroke: var(--green); stroke-width: 1.8; fill: none; marker-end: url(#arrow-green); }
+.thin { stroke: var(--divider); stroke-width: 1; fill: none; }
+</style>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--fg-soft)"/></marker>
+<marker id="arrow-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--accent)"/></marker>
+<marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--green)"/></marker>
+</defs>
+<rect class="bg" width="680" height="560"/>
+<text class="title" x="60" y="42">普通法系：判例如何变成法律</text>
+<text class="subtitle" x="60" y="64">不是只查法典，而是看过去的法官如何处理相似事实</text>
+<rect class="statute" x="60" y="96" width="150" height="88" rx="10"/>
+<text class="eyebrow" x="82" y="120">WRITTEN LAW</text>
+<text class="th" x="82" y="147">成文法条</text>
+<text class="ts" x="82" y="169">国会 / 州议会写下规则</text>
+<rect class="case" x="60" y="236" width="150" height="112" rx="10"/>
+<text class="eyebrow" x="82" y="260">FACT PATTERN</text>
+<text class="th" x="82" y="287">具体案件</text>
+<text class="ts" x="82" y="309">1916 MacPherson</text>
+<text class="ts" x="82" y="329">汽车轮子飞出伤人</text>
+<path class="arrow" d="M 135 184 C 135 205 135 216 135 234"/>
+<rect class="layer" x="265" y="116" width="160" height="96" rx="10"/>
+<text class="eyebrow" x="287" y="140">JUDGE</text>
+<text class="th" x="287" y="167">法官解释规则</text>
+<text class="ts" x="287" y="189">把事实、条文和旧案放在一起</text>
+<rect class="rule" x="265" y="256" width="160" height="112" rx="10"/>
+<text class="eyebrow eyebrow-accent" x="287" y="280">PRECEDENT</text>
+<text class="th" x="287" y="307">判决变成先例</text>
+<text class="ts" x="287" y="329">产品有致命风险时</text>
+<text class="ts" x="287" y="349">制造商对最终用户负责</text>
+<path class="arrow" d="M 210 280 C 232 280 243 280 263 280"/>
+<path class="arrow" d="M 135 236 C 158 188 215 162 263 162"/>
+<path class="arrow-strong" d="M 345 212 C 345 230 345 240 345 254"/>
+<rect class="future" x="470" y="166" width="150" height="112" rx="10"/>
+<text class="eyebrow" x="492" y="190">LATER CASES</text>
+<text class="th" x="492" y="217">后来相似案件</text>
+<text class="ts" x="492" y="239">同州下级法院</text>
+<text class="ts" x="492" y="259">必须遵循上级先例</text>
+<path class="arrow-green" d="M 425 312 C 455 292 458 252 468 230"/>
+<path class="arrow-green" d="M 545 278 C 527 337 467 388 374 386 C 248 383 168 357 140 348"/>
+<rect class="layer" x="470" y="336" width="150" height="96" rx="10"/>
+<text class="eyebrow" x="492" y="360">LAWYER WORK</text>
+<text class="th" x="492" y="387">律师先查判例</text>
+<text class="ts" x="492" y="409">找相似事实，区分或引用</text>
+<path class="arrow" d="M 545 334 C 545 313 545 300 545 280"/>
+<line class="thin" x1="60" y1="470" x2="620" y2="470"/>
+<text class="caption-strong" x="60" y="504">关键点：普通法不是没有成文法，而是判例也会创造规则。</text>
+<text class="caption" x="60" y="528">同一州、同一法院层级体系内，旧判决会约束新案件；法律因此通过一个个案件连续演化。</text>
+</svg>

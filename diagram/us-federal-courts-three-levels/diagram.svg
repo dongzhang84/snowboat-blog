@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 580" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+.arrow { stroke: var(--fg-soft); stroke-width: 1.5; fill: none; marker-end: url(#arrow); }
+.arrow-accent { stroke: var(--accent); stroke-width: 1.8; fill: none; marker-end: url(#arrow-accent); }
+</style>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--fg-soft)"/></marker>
+<marker id="arrow-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--accent)"/></marker>
+</defs>
+<rect class="bg" width="680" height="580"/>
+<text class="title" x="60" y="42">联邦法院三级：从初审到最高法院</text>
+<text class="subtitle" x="60" y="64">联邦案件先在 District Court 打事实，再经 Circuit 上诉，最后少数进入 SCOTUS</text>
+<rect class="layer-key" x="60" y="96" width="580" height="116" rx="12"/>
+<text class="eyebrow eyebrow-accent" x="82" y="120">LEVEL 3</text>
+<text class="eyebrow eyebrow-accent" x="618" y="120" text-anchor="end">→ 每年约 60–80 案</text>
+<text class="th" x="82" y="152">Supreme Court</text>
+<text class="ts" x="82" y="174">美国最高法院 · 9 位大法官</text>
+<line class="divider-accent" x1="220" y1="110" x2="220" y2="194"/>
+<text class="t" x="238" y="146">只挑两类案子：宪法解释，或不同 Circuit 对同一联邦法有分歧</text>
+<text class="t" x="238" y="168">一旦判决，全国联邦法院都必须遵守</text>
+<text class="ts" x="238" y="190">大多数 cert petition 会被拒绝，最高法院不是普通三审法院</text>
+<rect class="layer" x="60" y="246" width="580" height="116" rx="12"/>
+<text class="eyebrow" x="82" y="270">LEVEL 2</text>
+<text class="eyebrow eyebrow-accent" x="618" y="270" text-anchor="end">→ 13 个 Circuit</text>
+<text class="th" x="82" y="302">Circuit Court of Appeals</text>
+<text class="ts" x="82" y="324">联邦上诉法院</text>
+<line class="divider" x1="220" y1="260" x2="220" y2="344"/>
+<text class="t" x="238" y="296">不重新审事实，主要看 District Court 有没有法律或程序错误</text>
+<text class="t" x="238" y="318">第 9 巡回覆盖西海岸，第 5 巡回覆盖德州等南部州</text>
+<text class="ts" x="238" y="340">Circuit 的解释会直接影响本巡回内的联邦案件</text>
+<rect class="layer" x="60" y="396" width="580" height="116" rx="12"/>
+<text class="eyebrow" x="82" y="420">LEVEL 1</text>
+<text class="eyebrow eyebrow-accent" x="618" y="420" text-anchor="end">→ 全美 94 个</text>
+<text class="th" x="82" y="452">District Court</text>
+<text class="ts" x="82" y="474">联邦地区法院 · 初审法院</text>
+<line class="divider" x1="220" y1="410" x2="220" y2="494"/>
+<text class="t" x="238" y="446">绝大多数“在联邦法院被起诉”的新闻，都从这里开始</text>
+<text class="t" x="238" y="468">这里处理证人、证据、陪审团和事实认定</text>
+<text class="ts" x="238" y="490">每个州通常有 1–4 个 federal district</text>
+<path class="arrow" d="M 340 396 L 340 364"/>
+<path class="arrow-accent" d="M 340 246 L 340 214"/>
+<text class="caption-strong" x="60" y="544">关键点：联邦三级不是“层层重审事实”，越往上越只处理法律问题。</text>
+<text class="caption" x="60" y="566">District Court 管初审事实，Circuit 管上诉错误，SCOTUS 只挑全国性法律问题。</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 600" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+.arrow { stroke: var(--fg-soft); stroke-width: 1.5; fill: none; marker-end: url(#arrow); }
+.arrow-accent { stroke: var(--accent); stroke-width: 1.8; fill: none; marker-end: url(#arrow-accent); }
+</style>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--fg-soft)"/></marker>
+<marker id="arrow-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--accent)"/></marker>
+</defs>
+<rect class="bg" width="680" height="600"/>
+<text class="title" x="60" y="42">州法院三级：每个州各有一套</text>
+<text class="subtitle" x="60" y="64">名字和选任方式各州不同，但通常都是初审、上诉、州最高法院三层</text>
+<rect class="layer-key" x="60" y="96" width="580" height="124" rx="12"/>
+<text class="eyebrow eyebrow-accent" x="82" y="120">LEVEL 3</text>
+<text class="eyebrow eyebrow-accent" x="618" y="120" text-anchor="end">→ 州内终局</text>
+<text class="th" x="82" y="152">State Supreme</text>
+<text class="ts" x="82" y="174">州最高法院</text>
+<line class="divider-accent" x1="220" y1="110" x2="220" y2="202"/>
+<text class="t" x="238" y="146">解释本州宪法和本州法律，通常是州法问题的终点</text>
+<text class="t" x="238" y="168">任命、留任选举、党派选举，各州制度差异很大</text>
+<text class="ts" x="238" y="190">只有涉及联邦宪法或联邦法，才可能进入联邦最高法院</text>
+<rect class="layer" x="60" y="254" width="580" height="124" rx="12"/>
+<text class="eyebrow" x="82" y="278">LEVEL 2</text>
+<text class="eyebrow eyebrow-accent" x="618" y="278" text-anchor="end">→ 多数上诉止步于此</text>
+<text class="th" x="82" y="310">Appellate Court</text>
+<text class="ts" x="82" y="332">中级上诉法院</text>
+<line class="divider" x1="220" y1="268" x2="220" y2="360"/>
+<text class="t" x="238" y="304">只看初审法院有没有法律或程序错误，不重新审事实</text>
+<text class="t" x="238" y="326">人口少的州可能没有这一层，直接上诉到州最高法院</text>
+<text class="ts" x="238" y="348">这是绝大多数州内上诉案件的终点</text>
+<rect class="layer" x="60" y="412" width="580" height="124" rx="12"/>
+<text class="eyebrow" x="82" y="436">LEVEL 1</text>
+<text class="eyebrow eyebrow-accent" x="618" y="436" text-anchor="end">→ 普通人最常接触</text>
+<text class="th" x="82" y="468">Trial Court</text>
+<text class="ts" x="82" y="490">州初审法院</text>
+<line class="divider" x1="220" y1="426" x2="220" y2="518"/>
+<text class="t" x="238" y="462">离婚、车祸、房产、遗产、轻罪刑事案件大多从这里开始</text>
+<text class="t" x="238" y="484">加州叫 Superior Court，纽约 Supreme Court 反而是初审</text>
+<text class="ts" x="238" y="506">这一层处理事实、证据、证人和地方性纠纷</text>
+<path class="arrow" d="M 340 412 L 340 380"/>
+<path class="arrow-accent" d="M 340 254 L 340 222"/>
+<text class="caption-strong" x="60" y="568">关键点：州法院不是联邦法院的下级，而是每个州自己的平行系统。</text>
+<text class="caption" x="60" y="590">州最高法院一般不能再往联邦最高法院上诉，除非案件牵涉联邦法律或联邦宪法。</text>
+</svg>
