@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 740" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; --blue: #2563eb; --blue-bg: #eff6ff; --blue-stroke: #93c5fd; --green: #059669; --green-bg: #ecfdf5; --green-stroke: #6ee7b7; --amber: #d97706; --amber-bg: #fffbeb; --amber-stroke: #fcd34d; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; --blue: #93c5fd; --blue-bg: #172554; --blue-stroke: #2563eb; --green: #6ee7b7; --green-bg: #052e2b; --green-stroke: #047857; --amber: #fbbf24; --amber-bg: #3b2f12; --amber-stroke: #92400e; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.5; }
+.node-blue { fill: var(--blue-bg); stroke: var(--blue-stroke); stroke-width: 1.3; }
+.node-green { fill: var(--green-bg); stroke: var(--green-stroke); stroke-width: 1.3; }
+.node-amber { fill: var(--amber-bg); stroke: var(--amber-stroke); stroke-width: 1.3; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 13px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 11.5px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 11px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.arrow { stroke: var(--fg-soft); stroke-width: 1.5; fill: none; marker-end: url(#arrow); }
+.arrow-accent { stroke: var(--accent); stroke-width: 1.8; fill: none; marker-end: url(#arrow-accent); }
+.dash { stroke: var(--fg-soft); stroke-width: 1.2; stroke-dasharray: 5 5; fill: none; marker-end: url(#arrow); }
+</style>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--fg-soft)"/></marker>
+<marker id="arrow-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--accent)"/></marker>
+</defs>
+<rect class="bg" width="680" height="740"/>
+<text class="title" x="60" y="42">关键程序性制度：美国诉讼的后台机器</text>
+<text class="subtitle" x="60" y="64">外人看到的是庭审，真正决定成本、风险和结果的是这些程序机制</text>
+<rect class="layer" x="60" y="98" width="560" height="86" rx="16"/>
+<text class="eyebrow eyebrow-accent" x="82" y="124">ADVERSARIAL SYSTEM</text>
+<text class="th" x="82" y="151">对抗制：律师负责进攻，法官只做裁判</text>
+<text class="ts" x="82" y="171">真相不是由法官主动调查，而是在双方律师互相攻击中被逼出来</text>
+<circle class="node-blue" cx="142" cy="240" r="52"/>
+<text class="th" x="142" y="233" text-anchor="middle">原告律师</text>
+<text class="ts" x="142" y="255" text-anchor="middle">主张权利</text>
+<circle class="node-blue" cx="538" cy="240" r="52"/>
+<text class="th" x="538" y="233" text-anchor="middle">被告律师</text>
+<text class="ts" x="538" y="255" text-anchor="middle">攻击漏洞</text>
+<rect class="layer-key" x="242" y="205" width="196" height="106" rx="18"/>
+<text class="eyebrow eyebrow-accent" x="340" y="229" text-anchor="middle">DISCOVERY</text>
+<text class="th" x="340" y="258" text-anchor="middle">审前证据交换</text>
+<text class="ts" x="340" y="281" text-anchor="middle">邮件、合同、证词、专家报告</text>
+<text class="ts" x="340" y="299" text-anchor="middle">大型商业案可耗资数百万美元</text>
+<path class="arrow" d="M 194 240 C 212 240 222 240 240 240"/>
+<path class="arrow" d="M 486 240 C 468 240 458 240 440 240"/>
+<rect class="node-amber" x="70" y="372" width="172" height="138" rx="18"/>
+<text class="eyebrow" x="92" y="398">PLEA BARGAIN</text>
+<text class="th" x="92" y="426">辩诉交易</text>
+<text class="ts" x="92" y="449">刑事案件 95%+ 不开庭</text>
+<text class="ts" x="92" y="469">认轻罪换轻刑</text>
+<text class="ts" x="92" y="487">检察官权力被放大</text>
+<rect class="node-green" x="438" y="372" width="172" height="138" rx="18"/>
+<text class="eyebrow" x="460" y="398">ADR</text>
+<text class="th" x="460" y="426">仲裁和调解</text>
+<text class="ts" x="460" y="449">绕开法院系统</text>
+<text class="ts" x="460" y="469">消费者 / 就业合同常见</text>
+<text class="ts" x="460" y="487">降低成本，也削弱诉权</text>
+<rect class="node-blue" x="244" y="372" width="192" height="138" rx="18"/>
+<text class="eyebrow" x="266" y="398">TRIAL PRESSURE</text>
+<text class="th" x="266" y="426">Trial 变成最后威胁</text>
+<text class="ts" x="266" y="449">双方按胜算和成本谈判</text>
+<text class="ts" x="266" y="469">多数民事案在审前和解</text>
+<text class="ts" x="266" y="487">庭审越贵，和解压力越大</text>
+<path class="arrow-accent" d="M 340 312 L 340 370"/>
+<path class="dash" d="M 260 312 C 190 332 160 350 156 370"/>
+<path class="dash" d="M 420 312 C 492 332 520 350 524 370"/>
+<rect class="layer" x="60" y="560" width="560" height="82" rx="16"/>
+<text class="eyebrow eyebrow-accent" x="82" y="586">CLASS ACTION</text>
+<text class="th" x="82" y="614">集体诉讼：把几万个小损失合成一个大案子</text>
+<text class="ts" x="82" y="634">单个消费者损失 50 美元不值得起诉，合并后变成企业级风险和原告律师杠杆</text>
+<circle class="node-amber" cx="502" cy="590" r="8"/>
+<circle class="node-amber" cx="522" cy="590" r="8"/>
+<circle class="node-amber" cx="542" cy="590" r="8"/>
+<circle class="node-amber" cx="512" cy="612" r="8"/>
+<circle class="node-amber" cx="532" cy="612" r="8"/>
+<path class="arrow" d="M 545 612 C 566 612 576 612 594 612"/>
+<rect class="layer-key" x="592" y="594" width="28" height="36" rx="8"/>
+<text class="ts" x="606" y="618" text-anchor="middle">$</text>
+<line class="divider" x1="60" y1="666" x2="620" y2="666"/>
+<text class="caption-strong" x="60" y="692">关键点：美国诉讼不是一路走到 trial，而是在程序压力下不断分流。</text>
+<text class="caption" x="60" y="714">Discovery 制造成本，plea bargain 和 ADR 释放压力，class action 把小案子变成大威慑。</text>
+</svg>
