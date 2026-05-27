@@ -89,13 +89,16 @@ nodes_spec = [
     ('Daniel De Freitas',  'deepmind'),
     ('Aidan Gomez',        'deepmind'),
 
-    # 孤立 (独立创业者，无圈层血缘)
-    ('David Holz',         'isolated'),    # Midjourney
-    ('Harrison Chase',     'isolated'),    # LangChain
-    ('Valenzuela',         'isolated'),    # Runway
-    ('Amit Jain',          'isolated'),    # Luma
-    ('Demi Guo',           'isolated'),    # Pika
-    ('Chenlin Meng',       'isolated'),    # Pika
+    # 独立产品线: 不是 OpenAI / DeepMind 主干外溢, 但内部仍有共同创立关系
+    ('David Holz',         'media'),       # Midjourney
+    ('Valenzuela',         'media'),       # Runway
+    ('Anastasis Germanidis', 'media'),     # Runway
+    ('Alejandro Matamala', 'media'),       # Runway
+    ('Amit Jain',          'media'),       # Luma
+    ('Alex Yu',            'media'),       # Luma
+    ('Demi Guo',           'media'),       # Pika
+    ('Chenlin Meng',       'media'),       # Pika
+    ('Harrison Chase',     'tooling'),     # LangChain
 ]
 
 # ============ 边 ============
@@ -160,7 +163,11 @@ edges_spec = [
     # —— Hoffman ↔ Suleyman: Inflection 联创 (跨圈) ——
     ('Reid Hoffman', 'Mustafa Suleyman', 'institution'),
 
-    # —— Pika 联创 ——
+    # —— 视觉 / 视频生成创业者内部共同创立 ——
+    ('Valenzuela', 'Anastasis Germanidis', 'institution'),  # Runway 联创
+    ('Valenzuela', 'Alejandro Matamala',   'institution'),  # Runway 联创
+    ('Anastasis Germanidis', 'Alejandro Matamala', 'institution'),
+    ('Amit Jain', 'Alex Yu',               'institution'),  # Luma 联创
     ('Demi Guo', 'Chenlin Meng', 'institution'),
 ]
 
@@ -170,7 +177,8 @@ PALETTE = {
     'deepmind': {'fill': '#E11D48', 'dark': '#9F1239', 'name': 'DeepMind / Brain 系'},
     'capital':  {'fill': '#D97706', 'dark': '#92400E', 'name': '资本 (PayPal + YC)'},
     'academic': {'fill': '#7C3AED', 'dark': '#5B21B6', 'name': '学术 (PhD 导师)'},
-    'isolated': {'fill': '#94A3B8', 'dark': '#475569', 'name': '孤立创业者'},
+    'media':    {'fill': '#94A3B8', 'dark': '#475569', 'name': '视觉 / 视频生成'},
+    'tooling':  {'fill': '#64748B', 'dark': '#334155', 'name': '开发者工具'},
 }
 EDGE_STYLES = {
     'institution': {'color': '#334155', 'linestyle': '-',  'alpha': 0.30, 'width': 1.2,
@@ -231,25 +239,33 @@ pos = {
     'Reid Hoffman':        ( 1.7, -1.7),
 }
 
-# 孤立行: 自动均匀
-isolated_names = [n for n, m in node_meta.items() if m['cluster'] == 'isolated']
-iso_y = -2.9
-iso_xs = np.linspace(-4.6, 4.6, len(isolated_names))
-for x, name in zip(iso_xs, isolated_names):
-    pos[name] = (x, iso_y)
+# 视觉 / 视频生成产品线: 底部一行, 保留为人物节点, 只画可确认的共同创立关系
+media_y = -2.9
+media_positions = {
+    'David Holz':           (-4.8, media_y),
+    'Valenzuela':           (-3.0, media_y),
+    'Anastasis Germanidis': (-1.9, media_y),
+    'Alejandro Matamala':   (-0.8, media_y),
+    'Amit Jain':            ( 0.8, media_y),
+    'Alex Yu':              ( 1.8, media_y),
+    'Demi Guo':             ( 3.5, media_y),
+    'Chenlin Meng':         ( 4.8, media_y),
+    'Harrison Chase':       (-5.0, -1.9),
+}
+pos.update(media_positions)
 
 # ============ 绘图 ============
 fig, ax = plt.subplots(figsize=(20, 14), facecolor=BG_COLOR)
 ax.set_facecolor(BG_COLOR)
 
-# 孤立行底色 + 小标题
-iso_bg = FancyBboxPatch(
-    (-5.4, iso_y - 0.55), 10.8, 1.0,
+# 视觉 / 视频生成行底色 + 小标题
+media_bg = FancyBboxPatch(
+    (-5.4, media_y - 0.55), 10.8, 1.0,
     boxstyle="round,pad=0.05,rounding_size=0.15",
     linewidth=0, facecolor='#F1F5F9', alpha=0.7, zorder=0,
 )
-ax.add_patch(iso_bg)
-ax.text(-5.35, iso_y + 0.65, '孤立创业者 · 无 OpenAI / DeepMind / 资本 / 学术 圈层关联',
+ax.add_patch(media_bg)
+ax.text(-5.35, media_y + 0.65, '视觉 / 视频生成产品线 · Runway / Luma / Pika 只画可确认的共同创立关系',
         ha='left', va='bottom', fontproperties=_font(10),
         color=TEXT_MUTED, zorder=1)
 
@@ -274,7 +290,7 @@ HUB_DEGREE = 5
 def is_hub_like(name):
     return degrees[name] >= HUB_DEGREE
 
-for cluster in ('isolated', 'capital', 'academic', 'deepmind', 'openai'):
+for cluster in ('media', 'tooling', 'capital', 'academic', 'deepmind', 'openai'):
     nlist = [n for n in G.nodes() if node_meta[n]['cluster'] == cluster]
     if not nlist:
         continue
@@ -288,6 +304,11 @@ for cluster in ('isolated', 'capital', 'academic', 'deepmind', 'openai'):
     )
 
 # 标签: 人名统一置于节点下方, 避免长英文名压在圆圈里
+LABELS = {
+    'Anastasis Germanidis': 'Anastasis\nGermanidis',
+    'Alejandro Matamala': 'Alejandro\nMatamala',
+}
+
 def label_offset(name):
     # 节点下方偏移 = 节点半径 + 间距, 单位与 ax 一致
     sz = node_size(name)
@@ -297,7 +318,7 @@ def label_offset(name):
 
 for name, (x, y) in pos.items():
     off = label_offset(name)
-    txt = ax.text(x, y - off, name,
+    txt = ax.text(x, y - off, LABELS.get(name, name),
                   ha='center', va='top',
                   color=TEXT_DARK,
                   fontproperties=cn_label,
