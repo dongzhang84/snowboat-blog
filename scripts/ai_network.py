@@ -353,17 +353,6 @@ for src, meta in ACQUIHIRE_TARGETS.items():
         zorder=1,
     )
     ax.add_patch(arrow)
-    mx = (sx + tx) / 2
-    my = (sy + ty) / 2 + 0.08
-    ax.text(
-        mx, my, meta['date'],
-        ha='center', va='center',
-        fontproperties=_font(7.2),
-        color='#92400E',
-        bbox=dict(boxstyle='round,pad=0.12', facecolor=BG_COLOR,
-                  edgecolor='none', alpha=0.72),
-        zorder=5,
-    )
 
 # 节点大小
 degrees = dict(G.degree())
