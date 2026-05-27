@@ -69,6 +69,9 @@ nodes_spec = [
     ('Daniela Amodei',     'openai'),
     ('Aravind Srinivas',   'openai'),
     ('David Luan',         'openai'),
+    ('Aditya Ramesh',      'sora'),        # Sora / DALL·E
+    ('Tim Brooks',         'sora'),        # Sora co-lead, later Google DeepMind
+    ('Bill Peebles',       'sora'),        # Sora research lead
 
     # 学术 (PhD 导师 / 实验室源头)
     ('Geoffrey Hinton',    'academic'),
@@ -127,6 +130,13 @@ edges_spec = [
     ('Dario Amodei',   'Daniela Amodei',   'institution'),   # Anthropic 联创 + 兄妹
     ('Sam Altman',     'Aravind Srinivas', 'institution'),
     ('Sam Altman',     'David Luan',       'institution'),
+    ('Sam Altman',     'Aditya Ramesh',    'institution'),
+
+    # —— OpenAI 视频生成主线: Sora team leads ——
+    ('Aditya Ramesh',  'Tim Brooks',       'institution'),
+    ('Aditya Ramesh',  'Bill Peebles',     'institution'),
+    ('Tim Brooks',     'Bill Peebles',     'institution'),
+    ('Tim Brooks',     'Demis Hassabis',   'transfer'),  # 2024 加入 Google DeepMind
 
     # —— 师承 (PhD 导师) ——
     ('Geoffrey Hinton', 'Ilya Sutskever',  'mentor'),   # Toronto PhD
@@ -174,6 +184,7 @@ edges_spec = [
 # ============ 视觉常量 ============
 PALETTE = {
     'openai':   {'fill': '#3B82F6', 'dark': '#1E40AF', 'name': 'OpenAI 系'},
+    'sora':     {'fill': '#06B6D4', 'dark': '#0E7490', 'name': 'OpenAI 视频主线'},
     'deepmind': {'fill': '#E11D48', 'dark': '#9F1239', 'name': 'DeepMind / Brain 系'},
     'capital':  {'fill': '#D97706', 'dark': '#92400E', 'name': '资本 (PayPal + YC)'},
     'academic': {'fill': '#7C3AED', 'dark': '#5B21B6', 'name': '学术 (PhD 导师)'},
@@ -187,6 +198,8 @@ EDGE_STYLES = {
                     'label': '师承 (PhD / 导师)'},
     'backer':      {'color': '#0EA5E9', 'linestyle': ':',  'alpha': 0.85, 'width': 1.9,
                     'label': '资助 (早期投资人)'},
+    'transfer':    {'color': '#10B981', 'linestyle': '-.', 'alpha': 0.85, 'width': 1.9,
+                    'label': '人才流向 / 加入'},
 }
 BG_COLOR = '#FAFAF7'
 TEXT_DARK = '#0F172A'
@@ -223,6 +236,9 @@ pos = {
     'Aravind Srinivas':   (-3.4, -0.9),    # 接 Abbeel (师承)
     'David Luan':         ( 1.4,  0.0),
     'Elon Musk':          (-1.7, -0.6),    # 桥到 PayPal Mafia
+    'Aditya Ramesh':      ( 0.0, -0.55),
+    'Tim Brooks':         ( 0.9, -0.95),
+    'Bill Peebles':       ( 1.7, -0.65),
 
     # DeepMind / Brain (右侧)
     'Demis Hassabis':     ( 3.7,  1.9),
@@ -269,6 +285,17 @@ ax.text(-5.35, media_y + 0.65, '视觉 / 视频生成产品线 · Runway / Luma 
         ha='left', va='bottom', fontproperties=_font(10),
         color=TEXT_MUTED, zorder=1)
 
+sora_bg = FancyBboxPatch(
+    (-0.45, -1.38), 2.6, 1.15,
+    boxstyle="round,pad=0.04,rounding_size=0.12",
+    linewidth=1.0, edgecolor='#BAE6FD',
+    facecolor='#ECFEFF', alpha=0.52, zorder=0,
+)
+ax.add_patch(sora_bg)
+ax.text(-0.35, -0.28, 'OpenAI 视频主线 · Sora',
+        ha='left', va='bottom', fontproperties=_font(10),
+        color='#0E7490', zorder=1)
+
 # 边: 按类型分批
 for etype, style in EDGE_STYLES.items():
     edge_list = [(u, v) for u, v, d in G.edges(data=True) if d['etype'] == etype]
@@ -290,7 +317,7 @@ HUB_DEGREE = 5
 def is_hub_like(name):
     return degrees[name] >= HUB_DEGREE
 
-for cluster in ('media', 'tooling', 'capital', 'academic', 'deepmind', 'openai'):
+for cluster in ('media', 'tooling', 'capital', 'academic', 'sora', 'deepmind', 'openai'):
     nlist = [n for n in G.nodes() if node_meta[n]['cluster'] == cluster]
     if not nlist:
         continue
