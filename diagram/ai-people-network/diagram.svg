@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 760" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+.zone-openai { fill: #eff6ff; stroke: #bfdbfe; stroke-width: 1.2; }
+.zone-upstream { fill: #fffbeb; stroke: #fde68a; stroke-width: 1.2; }
+.zone-deepmind { fill: #fff1f2; stroke: #fecdd3; stroke-width: 1.2; }
+.zone-video { fill: #fff7ed; stroke: #fed7aa; stroke-width: 1.2; }
+.zone-isolated { fill: #f8fafc; stroke: #e2e8f0; stroke-width: 1.2; }
+.edge { stroke: #64748b; stroke-width: 1.25; fill: none; opacity: 0.42; }
+.edge-strong { stroke: #475569; stroke-width: 1.6; fill: none; opacity: 0.52; }
+.edge-mentor { stroke: #d97706; stroke-width: 1.25; fill: none; opacity: 0.52; stroke-dasharray: 5 4; }
+.edge-bridge { stroke: #7c3aed; stroke-width: 1.25; fill: none; opacity: 0.45; stroke-dasharray: 4 4; }
+.node-openai { fill: #3b82f6; stroke: #ffffff; stroke-width: 2.2; }
+.node-upstream { fill: #d97706; stroke: #ffffff; stroke-width: 2.2; }
+.node-deepmind { fill: #be185d; stroke: #ffffff; stroke-width: 2.2; }
+.node-video { fill: #f59e0b; stroke: #ffffff; stroke-width: 2.2; }
+.node-isolated { fill: #94a3b8; stroke: #ffffff; stroke-width: 2.2; }
+.label-bg { fill: var(--bg); opacity: 0.92; }
+.name { fill: var(--fg); font-size: 9.5px; font-weight: 600; }
+.name-small { fill: var(--fg); font-size: 8.8px; font-weight: 500; }
+.initial { fill: #ffffff; font-size: 10px; font-weight: 700; }
+</style>
+<rect class="bg" x="0" y="0" width="680" height="760"/>
+<text class="title" x="60" y="42">AI 创业人脉网络</text>
+<text class="subtitle" x="60" y="64">节点是人，线表示共同创立、共事、师承或资助关系；颜色表示圈子来源</text>
+<rect class="zone-upstream" x="66" y="92" width="260" height="140" rx="14"/>
+<rect class="zone-openai" x="58" y="250" width="300" height="330" rx="16"/>
+<rect class="zone-deepmind" x="366" y="114" width="250" height="300" rx="16"/>
+<rect class="zone-video" x="382" y="442" width="198" height="112" rx="14"/>
+<rect class="zone-isolated" x="394" y="604" width="170" height="70" rx="14"/>
+<text class="eyebrow eyebrow-accent" x="84" y="116">UPSTREAM</text>
+<text class="th" x="84" y="140">PayPal / YC / 学术师承</text>
+<text class="eyebrow eyebrow-accent" x="78" y="276">OPENAI LINEAGE</text>
+<text class="th" x="78" y="300">OpenAI 创始人与校友</text>
+<text class="eyebrow eyebrow-accent" x="386" y="140">DEEPMIND / GOOGLE BRAIN</text>
+<text class="th" x="386" y="164">DeepMind 与 Brain 系</text>
+<text class="eyebrow" x="402" y="466">VIDEO / ACADEMIC</text>
+<text class="eyebrow" x="414" y="628">ISOLATED</text>
+<path class="edge-strong" d="M176 378 L224 378"/>
+<path class="edge-strong" d="M176 378 L204 322"/>
+<path class="edge-strong" d="M224 378 L254 336"/>
+<path class="edge" d="M204 322 L254 336"/>
+<path class="edge" d="M204 322 L148 334"/>
+<path class="edge" d="M254 336 L286 382"/>
+<path class="edge" d="M224 378 L250 440"/>
+<path class="edge" d="M176 378 L140 430"/>
+<path class="edge" d="M176 378 L118 382"/>
+<path class="edge" d="M250 440 L286 500"/>
+<path class="edge" d="M286 500 L230 520"/>
+<path class="edge" d="M118 382 L176 378"/>
+<path class="edge" d="M140 430 L176 378"/>
+<path class="edge-bridge" d="M166 154 C170 220 182 286 204 322"/>
+<path class="edge-bridge" d="M218 154 C218 220 214 288 204 322"/>
+<path class="edge-bridge" d="M166 154 C140 230 122 304 118 382"/>
+<path class="edge-bridge" d="M218 154 C190 238 166 318 140 430"/>
+<path class="edge-mentor" d="M286 154 C278 210 266 276 254 336"/>
+<path class="edge-mentor" d="M286 154 C254 210 222 280 204 322"/>
+<path class="edge-mentor" d="M286 154 C340 166 408 188 456 222"/>
+<path class="edge-strong" d="M456 222 L492 260"/>
+<path class="edge" d="M456 222 L520 214"/>
+<path class="edge" d="M492 260 L520 214"/>
+<path class="edge-strong" d="M452 314 L520 314"/>
+<path class="edge" d="M452 314 L550 306"/>
+<path class="edge" d="M452 314 L488 360"/>
+<path class="edge" d="M488 360 L550 306"/>
+<path class="edge" d="M438 500 L484 500"/>
+<path class="edge" d="M484 500 L532 500"/>
+<circle class="node-upstream" cx="166" cy="154" r="13"/>
+<text class="initial" x="166" y="158" text-anchor="middle">PT</text>
+<rect class="label-bg" x="118" y="190" width="70" height="18" rx="4"/>
+<text class="name-small" x="153" y="203" text-anchor="middle">Peter Thiel</text>
+<circle class="node-upstream" cx="218" cy="154" r="13"/>
+<text class="initial" x="218" y="158" text-anchor="middle">RH</text>
+<rect class="label-bg" x="182" y="210" width="78" height="18" rx="4"/>
+<text class="name-small" x="221" y="223" text-anchor="middle">Reid Hoffman</text>
+<circle class="node-upstream" cx="104" cy="180" r="11"/>
+<text class="initial" x="104" y="184" text-anchor="middle">PG</text>
+<rect class="label-bg" x="72" y="196" width="64" height="18" rx="4"/>
+<text class="name-small" x="104" y="209" text-anchor="middle">Paul Graham</text>
+<circle class="node-upstream" cx="286" cy="154" r="13"/>
+<text class="initial" x="286" y="158" text-anchor="middle">GH</text>
+<rect class="label-bg" x="258" y="190" width="84" height="18" rx="4"/>
+<text class="name-small" x="300" y="203" text-anchor="middle">Geoffrey Hinton</text>
+<circle class="node-upstream" cx="104" cy="134" r="10"/>
+<text class="initial" x="104" y="138" text-anchor="middle">JL</text>
+<rect class="label-bg" x="68" y="146" width="72" height="18" rx="4"/>
+<text class="name-small" x="104" y="159" text-anchor="middle">J. Livingston</text>
+<circle class="node-openai" cx="204" cy="322" r="18"/>
+<text class="initial" x="204" y="326" text-anchor="middle">SA</text>
+<rect class="label-bg" x="166" y="340" width="76" height="18" rx="4"/>
+<text class="name" x="204" y="353" text-anchor="middle">Sam Altman</text>
+<circle class="node-openai" cx="176" cy="378" r="17"/>
+<text class="initial" x="176" y="382" text-anchor="middle">IS</text>
+<rect class="label-bg" x="134" y="398" width="84" height="18" rx="4"/>
+<text class="name" x="176" y="411" text-anchor="middle">Ilya Sutskever</text>
+<circle class="node-openai" cx="224" cy="378" r="15"/>
+<text class="initial" x="224" y="382" text-anchor="middle">GB</text>
+<rect class="label-bg" x="212" y="374" width="46" height="18" rx="4"/>
+<text class="name-small" x="235" y="387" text-anchor="middle">Greg B.</text>
+<circle class="node-openai" cx="254" cy="336" r="14"/>
+<text class="initial" x="254" y="340" text-anchor="middle">AK</text>
+<rect class="label-bg" x="216" y="310" width="76" height="18" rx="4"/>
+<text class="name-small" x="254" y="323" text-anchor="middle">Andrej Karpathy</text>
+<circle class="node-openai" cx="148" cy="334" r="13"/>
+<text class="initial" x="148" y="338" text-anchor="middle">EM</text>
+<rect class="label-bg" x="112" y="308" width="72" height="18" rx="4"/>
+<text class="name-small" x="148" y="321" text-anchor="middle">Elon Musk</text>
+<circle class="node-openai" cx="286" cy="382" r="12"/>
+<text class="initial" x="286" y="386" text-anchor="middle">JS</text>
+<rect class="label-bg" x="246" y="400" width="80" height="18" rx="4"/>
+<text class="name-small" x="286" y="413" text-anchor="middle">John Schulman</text>
+<circle class="node-openai" cx="250" cy="440" r="12"/>
+<text class="initial" x="250" y="444" text-anchor="middle">MM</text>
+<rect class="label-bg" x="218" y="458" width="64" height="18" rx="4"/>
+<text class="name-small" x="250" y="471" text-anchor="middle">Mira Murati</text>
+<circle class="node-openai" cx="118" cy="382" r="12"/>
+<text class="initial" x="118" y="386" text-anchor="middle">DA</text>
+<rect class="label-bg" x="78" y="356" width="80" height="18" rx="4"/>
+<text class="name-small" x="118" y="369" text-anchor="middle">Dario Amodei</text>
+<circle class="node-openai" cx="140" cy="430" r="10"/>
+<text class="initial" x="140" y="434" text-anchor="middle">D</text>
+<rect class="label-bg" x="96" y="446" width="88" height="18" rx="4"/>
+<text class="name-small" x="140" y="459" text-anchor="middle">Daniela Amodei</text>
+<circle class="node-openai" cx="286" cy="500" r="10"/>
+<text class="initial" x="286" y="504" text-anchor="middle">DL</text>
+<rect class="label-bg" x="252" y="516" width="68" height="18" rx="4"/>
+<text class="name-small" x="286" y="529" text-anchor="middle">David Luan</text>
+<circle class="node-openai" cx="230" cy="520" r="10"/>
+<text class="initial" x="230" y="524" text-anchor="middle">AS</text>
+<rect class="label-bg" x="186" y="536" width="88" height="18" rx="4"/>
+<text class="name-small" x="230" y="549" text-anchor="middle">Aravind Srinivas</text>
+<circle class="node-openai" cx="94" cy="500" r="10"/>
+<text class="initial" x="94" y="504" text-anchor="middle">ES</text>
+<rect class="label-bg" x="58" y="516" width="72" height="18" rx="4"/>
+<text class="name-small" x="94" y="529" text-anchor="middle">Emmett Shear</text>
+<circle class="node-deepmind" cx="456" cy="222" r="18"/>
+<text class="initial" x="456" y="226" text-anchor="middle">DH</text>
+<rect class="label-bg" x="416" y="242" width="80" height="18" rx="4"/>
+<text class="name" x="456" y="255" text-anchor="middle">Demis Hassabis</text>
+<circle class="node-deepmind" cx="492" cy="260" r="14"/>
+<text class="initial" x="492" y="264" text-anchor="middle">MS</text>
+<rect class="label-bg" x="450" y="278" width="84" height="18" rx="4"/>
+<text class="name-small" x="492" y="291" text-anchor="middle">Mustafa Suleyman</text>
+<circle class="node-deepmind" cx="520" cy="214" r="12"/>
+<text class="initial" x="520" y="218" text-anchor="middle">AM</text>
+<rect class="label-bg" x="482" y="186" width="76" height="18" rx="4"/>
+<text class="name-small" x="520" y="199" text-anchor="middle">Arthur Mensch</text>
+<circle class="node-deepmind" cx="452" cy="314" r="14"/>
+<text class="initial" x="452" y="318" text-anchor="middle">NS</text>
+<rect class="label-bg" x="412" y="332" width="80" height="18" rx="4"/>
+<text class="name-small" x="452" y="345" text-anchor="middle">Noam Shazeer</text>
+<circle class="node-deepmind" cx="520" cy="314" r="12"/>
+<text class="initial" x="520" y="318" text-anchor="middle">DF</text>
+<rect class="label-bg" x="478" y="332" width="84" height="18" rx="4"/>
+<text class="name-small" x="520" y="345" text-anchor="middle">Daniel De Freitas</text>
+<circle class="node-deepmind" cx="550" cy="306" r="11"/>
+<text class="initial" x="550" y="310" text-anchor="middle">AG</text>
+<rect class="label-bg" x="516" y="280" width="68" height="18" rx="4"/>
+<text class="name-small" x="550" y="293" text-anchor="middle">Aidan Gomez</text>
+<circle class="node-video" cx="438" cy="500" r="11"/>
+<text class="initial" x="438" y="504" text-anchor="middle">DV</text>
+<rect class="label-bg" x="396" y="516" width="84" height="18" rx="4"/>
+<text class="name-small" x="438" y="529" text-anchor="middle">C. Valenzuela</text>
+<circle class="node-video" cx="484" cy="500" r="11"/>
+<text class="initial" x="484" y="504" text-anchor="middle">DG</text>
+<rect class="label-bg" x="450" y="472" width="68" height="18" rx="4"/>
+<text class="name-small" x="484" y="485" text-anchor="middle">Demi Guo</text>
+<circle class="node-video" cx="532" cy="500" r="11"/>
+<text class="initial" x="532" y="504" text-anchor="middle">CM</text>
+<rect class="label-bg" x="492" y="516" width="80" height="18" rx="4"/>
+<text class="name-small" x="532" y="529" text-anchor="middle">Chenlin Meng</text>
+<circle class="node-video" cx="480" cy="540" r="10"/>
+<text class="initial" x="480" y="544" text-anchor="middle">AJ</text>
+<rect class="label-bg" x="448" y="554" width="64" height="18" rx="4"/>
+<text class="name-small" x="480" y="567" text-anchor="middle">Amit Jain</text>
+<circle class="node-isolated" cx="434" cy="650" r="11"/>
+<text class="initial" x="434" y="654" text-anchor="middle">DH</text>
+<rect class="label-bg" x="398" y="670" width="72" height="18" rx="4"/>
+<text class="name-small" x="434" y="683" text-anchor="middle">David Holz</text>
+<circle class="node-isolated" cx="522" cy="650" r="11"/>
+<text class="initial" x="522" y="654" text-anchor="middle">HC</text>
+<rect class="label-bg" x="480" y="670" width="84" height="18" rx="4"/>
+<text class="name-small" x="522" y="683" text-anchor="middle">Harrison Chase</text>
+<rect class="layer" x="60" y="610" width="286" height="64" rx="8"/>
+<text class="caption-strong" x="82" y="638">读图方式</text>
+<text class="caption" x="82" y="660">大节点是连接数高的人；虚线表示师承、资助或跨圈桥梁。</text>
+<circle class="node-openai" cx="78" cy="716" r="6"/>
+<text class="caption" x="92" y="720">OpenAI 系</text>
+<circle class="node-upstream" cx="178" cy="716" r="6"/>
+<text class="caption" x="192" y="720">上游圈子</text>
+<circle class="node-deepmind" cx="286" cy="716" r="6"/>
+<text class="caption" x="300" y="720">DeepMind / Brain</text>
+<circle class="node-video" cx="442" cy="716" r="6"/>
+<text class="caption" x="456" y="720">AI 视频</text>
+<circle class="node-isolated" cx="520" cy="716" r="6"/>
+<text class="caption" x="534" y="720">孤立创业者</text>
+<text class="caption" x="60" y="744">数据范围来自脚本草图，保留高置信度人物关系；弱合作、融资关系未展开。</text>
+</svg>
