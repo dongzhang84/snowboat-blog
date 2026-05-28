@@ -6,6 +6,8 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 39 | 5/27 | [一文看懂美国的法律系统](一文看懂美国的法律系统.md) | [link](https://x.com/snowboat84/status/2059795010330251568) | — | [link](https://zhuanlan.zhihu.com/p/2043159937757476358) |
+| 38 | 5/26 | [教宗良十四世论人工智能（精华版）](教宗良十四世论人工智能（精华版）.md) | [link](https://x.com/snowboat84/status/2059434342745866391) | — | [link](https://zhuanlan.zhihu.com/p/2042879175590138102) |
 | 37 | 5/25 | [廉颇老矣，尚能饭否：现代数学史（下）](廉颇老矣，尚能饭否：现代数学史（下）.md) | [link](https://x.com/snowboat84/status/2059071134738620606) | — | [link](https://zhuanlan.zhihu.com/p/2042511409888613605) |
 | * | 5/24 | [Boos at Commencement - Do Young Americans Hate AI？](Boos%20at%20Commencement%20-%20Do%20Young%20Americans%20Hate%20AI？.md) | [medium](https://medium.com/@dongzhanghz/boos-at-commencement-do-young-americans-hate-ai-90d174738ec7) | — | [substack](https://substack.com/home/post/p-199043331) |
 | * | 5/24 | [SpaceX 立志传（四）：重型火箭和星链](SpaceX%20立志传（四）：重型火箭和星链.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2041774940534335202) |
