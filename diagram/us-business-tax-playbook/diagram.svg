@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 760" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; --blue: #2563eb; --blue-bg: #eff6ff; --blue-stroke: #93c5fd; --green: #059669; --green-bg: #ecfdf5; --green-stroke: #6ee7b7; --amber: #d97706; --amber-bg: #fffbeb; --amber-stroke: #fcd34d; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; --blue: #93c5fd; --blue-bg: #172554; --blue-stroke: #2563eb; --green: #6ee7b7; --green-bg: #052e2b; --green-stroke: #047857; --amber: #fbbf24; --amber-bg: #3b2f12; --amber-stroke: #92400e; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.5; }
+.node-blue { fill: var(--blue-bg); stroke: var(--blue-stroke); stroke-width: 1.3; }
+.node-green { fill: var(--green-bg); stroke: var(--green-stroke); stroke-width: 1.3; }
+.node-amber { fill: var(--amber-bg); stroke: var(--amber-stroke); stroke-width: 1.3; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 13px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 11.5px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 11px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.arrow { stroke: var(--fg-soft); stroke-width: 1.5; fill: none; marker-end: url(#arrow); }
+.arrow-accent { stroke: var(--accent); stroke-width: 1.8; fill: none; marker-end: url(#arrow-accent); }
+.dash { stroke: var(--fg-soft); stroke-width: 1.2; stroke-dasharray: 5 5; fill: none; marker-end: url(#arrow); }
+</style>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--fg-soft)"/></marker>
+<marker id="arrow-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--accent)"/></marker>
+</defs>
+<rect class="bg" width="680" height="760"/>
+<text class="title" x="60" y="42">做生意的税务画像：从“收入”变成“结构”</text>
+<text class="subtitle" x="60" y="64">生意主的税务空间来自实体选择、成本扣除、工资税结构和政策优惠</text>
+<rect class="layer-key" x="235" y="100" width="210" height="94" rx="18"/>
+<text class="eyebrow eyebrow-accent" x="340" y="126" text-anchor="middle">STARTING POINT</text>
+<text class="th" x="340" y="154" text-anchor="middle">净经营收入</text>
+<text class="ts" x="340" y="176" text-anchor="middle">不是直接交税，而是先进入结构选择</text>
+<rect class="node-blue" x="60" y="246" width="168" height="130" rx="18"/>
+<text class="eyebrow" x="82" y="272">ENTITY CHOICE</text>
+<text class="th" x="82" y="300">实体怎么选</text>
+<text class="ts" x="82" y="322">$10万以下：LLC / 个体户</text>
+<text class="ts" x="82" y="342">$15万-$50万：算 S-corp</text>
+<text class="ts" x="82" y="362">要融资：Delaware C-corp</text>
+<rect class="node-amber" x="256" y="246" width="168" height="130" rx="18"/>
+<text class="eyebrow" x="278" y="272">PAYROLL TAX</text>
+<text class="th" x="278" y="300">自雇税压力</text>
+<text class="ts" x="278" y="322">1099 / LLC 通常面对 15.3%</text>
+<text class="ts" x="278" y="342">S-corp 用合理工资 + 分红</text>
+<text class="ts" x="278" y="362">省税同时增加合规成本</text>
+<rect class="node-green" x="452" y="246" width="168" height="130" rx="18"/>
+<text class="eyebrow" x="474" y="272">DEDUCTIONS</text>
+<text class="th" x="474" y="300">业务支出扣除</text>
+<text class="ts" x="474" y="322">设备、软件、办公、差旅</text>
+<text class="ts" x="474" y="342">律师、会计、营销、保险</text>
+<text class="ts" x="474" y="362">关键是业务相关 + 记账</text>
+<path class="arrow" d="M 288 194 C 215 213 170 225 144 244"/>
+<path class="arrow-accent" d="M 340 194 L 340 244"/>
+<path class="arrow" d="M 392 194 C 465 213 510 225 536 244"/>
+<rect class="layer" x="60" y="420" width="270" height="136" rx="18"/>
+<text class="eyebrow eyebrow-accent" x="82" y="446">QBI</text>
+<text class="th" x="82" y="474">穿透实体的 20% 扣除</text>
+<text class="ts" x="82" y="496">个体户、LLC、S-corp 可能适用</text>
+<text class="ts" x="82" y="516">高收入和 SSTB 行业会被限制</text>
+<text class="ts" x="82" y="536">OBBBA 已把 QBI 永久化</text>
+<rect class="layer" x="350" y="420" width="270" height="136" rx="18"/>
+<text class="eyebrow eyebrow-accent" x="372" y="446">OBBBA 2025</text>
+<text class="th" x="372" y="474">生意主的新政策红利</text>
+<text class="ts" x="372" y="496">100% bonus depreciation 恢复</text>
+<text class="ts" x="372" y="516">国内 R&amp;D 当年扣除</text>
+<text class="ts" x="372" y="536">Section 179 上限提高</text>
+<path class="dash" d="M 228 312 C 230 382 225 398 195 418"/>
+<path class="dash" d="M 424 312 C 450 382 460 398 485 418"/>
+<rect class="layer-key" x="90" y="600" width="500" height="86" rx="18"/>
+<text class="eyebrow eyebrow-accent" x="112" y="626">CROSS-BORDER</text>
+<text class="th" x="112" y="654">中国出海公司：联邦所得税看 PE，销售税看 economic nexus</text>
+<text class="ts" x="112" y="674">关税单独算，Amazon / Shopify 远程卖货还要注意州销售税注册门槛</text>
+<path class="arrow-accent" d="M 340 556 L 340 598"/>
+<line class="divider" x1="60" y1="710" x2="620" y2="710"/>
+<text class="caption-strong" x="60" y="734">关键点：做生意的税不是一道题，而是一组结构选择。</text>
+<text class="caption" x="60" y="754">同样收入，实体、工资税、扣除、QBI 和跨境存在都会改变最终税负。</text>
+</svg>
