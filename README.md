@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 40 | 5/28 | [当物理遇上AI：深度学习里的物理元素（上）](当物理遇上AI：深度学习里的物理元素（上）.md) | [link](https://x.com/snowboat84/status/2060145538922844179) | — | [link](https://zhuanlan.zhihu.com/p/2043573397960099395) |
 | 39 | 5/27 | [一文看懂美国的法律系统](一文看懂美国的法律系统.md) | [link](https://x.com/snowboat84/status/2059795010330251568) | — | [link](https://zhuanlan.zhihu.com/p/2043159937757476358) |
 | 38 | 5/26 | [教宗良十四世论人工智能（精华版）](教宗良十四世论人工智能（精华版）.md) | [link](https://x.com/snowboat84/status/2059434342745866391) | — | [link](https://zhuanlan.zhihu.com/p/2042879175590138102) |
 | 37 | 5/25 | [廉颇老矣，尚能饭否：现代数学史（下）](廉颇老矣，尚能饭否：现代数学史（下）.md) | [link](https://x.com/snowboat84/status/2059071134738620606) | — | [link](https://zhuanlan.zhihu.com/p/2042511409888613605) |
