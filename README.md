@@ -13,11 +13,11 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | * | 5/24 | [SpaceX 立志传（四）：重型火箭和星链](SpaceX%20立志传（四）：重型火箭和星链.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2041774940534335202) |
 | * | 5/23 | [SpaceX 立志传（三）：屠龙术之可回收火箭](SpaceX%20立志传（三）：屠龙术之可回收火箭.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2041685377539363237) |
 | * | 5/23 | [SpaceX 立志传（二）：NASA的救命钱](SpaceX%20立志传（二）：NASA的救命钱.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2041534377713203183) |
-| 36 | 5/22 | [一篇文章讲清楚美国的移民系统](一篇文章讲清楚美国的移民系统.md) | [link](https://x.com/snowboat84/status/2057980486501433383) | — | [link](https://zhuanlan.zhihu.com/p/2041415094861550858) |
-| 35 | 5/21 | [毕业典礼上嘘声四起：美国年轻人讨厌AI？](毕业典礼上嘘声四起：美国年轻人讨厌AI？.md) | [link](https://x.com/snowboat84/status/2057619169341026321) | — | [link](https://zhuanlan.zhihu.com/p/2041052307652097783) |
-| 34 | 5/20 | [大航海时代2的逆向工程实验](大航海时代2的逆向工程实验.md) | [link](https://x.com/snowboat84/status/2057264254319993332) | — | [link](https://zhuanlan.zhihu.com/p/2040709944140375982) |
-| 33 | 5/19 | [量子计算机有前途吗？](量子计算机有前途吗？.md) | [link](https://x.com/snowboat84/status/2056895775578456417) | — | [link](https://zhuanlan.zhihu.com/p/2040249407132722840) |
-| 32 | 5/18 | [祖父积分学概论](祖父积分学概论.md) | [link](https://x.com/snowboat84/status/2056533111983493136) | — | [link](https://zhuanlan.zhihu.com/p/2039143026677830866) |
+| 36 | 5/22 | [一篇文章讲清楚美国的移民系统](一篇文章讲清楚美国的移民系统.md) | [link](https://x.com/snowboat84/status/2057980486501433383) | 103k | [link](https://zhuanlan.zhihu.com/p/2041415094861550858) |
+| 35 | 5/21 | [毕业典礼上嘘声四起：美国年轻人讨厌AI？](毕业典礼上嘘声四起：美国年轻人讨厌AI？.md) | [link](https://x.com/snowboat84/status/2057619169341026321) | 2.3k | [link](https://zhuanlan.zhihu.com/p/2041052307652097783) |
+| 34 | 5/20 | [大航海时代2的逆向工程实验](大航海时代2的逆向工程实验.md) | [link](https://x.com/snowboat84/status/2057264254319993332) | 8.6k | [link](https://zhuanlan.zhihu.com/p/2040709944140375982) |
+| 33 | 5/19 | [量子计算机有前途吗？](量子计算机有前途吗？.md) | [link](https://x.com/snowboat84/status/2056895775578456417) | 9.7k | [link](https://zhuanlan.zhihu.com/p/2040249407132722840) |
+| 32 | 5/18 | [祖父积分学概论](祖父积分学概论.md) | [link](https://x.com/snowboat84/status/2056533111983493136) | 5.7k | [link](https://zhuanlan.zhihu.com/p/2039143026677830866) |
 | 31 | 5/15 | [我见青山多妩媚：二十世纪数学史（上）](我见青山多妩媚：二十世纪数学史（上）.md) | [link](https://x.com/snowboat84/status/2055446902171406761) | 7.4k | [link](https://zhuanlan.zhihu.com/p/2038664998302524623) |
 | 30 | 5/14 | [一文讲清楚美国医疗系统](一文讲清楚美国医疗系统.md) | [link](https://x.com/snowboat84/status/2055081426744422697) | 99k | [link](https://zhuanlan.zhihu.com/p/2038482708523913510) |
 | 29 | 5/13 | [AI 如何打进美国教育生态？](AI%20如何打进美国教育生态？.md) | [link](https://x.com/snowboat84/status/2054721509420372180) | 15k | [link](https://zhuanlan.zhihu.com/p/2038167094756365427) |
