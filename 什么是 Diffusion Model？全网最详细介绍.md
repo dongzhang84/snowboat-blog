@@ -1,6 +1,6 @@
 打开Midjourney输入"一只戴帽子的橘猫"，三十秒后屏幕上出现一只毛发清晰、眼睛圆亮、带着帽子的猫。打开Veo 3输入"猫在雪地里追蝴蝶"，几秒钟的视频出来，光影连贯，动作自然。我记得第一次玩这类生成模型是2022年Stable Diffusion刚开源那阵，自己机子没GPU，在Google Colab上挂个免费T4跑，输入"赛博朋克城市夜景里的猫"，等两分钟出来的图比我预想得好太多。
 
-到2026年了。图像这边Midjourney V8、FLUX 1.1 Pro、Imagen 3排在第一档，曾经的开源王者Stable Diffusion自2024年CEO离职和裁员后基本被FLUX接棒（FLUX背后那帮人就是从Stability AI出来的）。视频这边Google Veo 3、快手可灵3.0、Runway Gen-4各守一块阵地，OpenAI的Sora刚在4月关停消费端。几乎每个人都用过其中一个。但要让普通用户说清楚原理，多数答案停在"AI画的""神经网络生成的"这一层。再问深一点，名词开始往外蹦：扩散、去噪、UNet、Transformer、DiT、latent space。一团浆糊。
+到2026年，图像这边Midjourney、FLUX、Imagen 3排在第一档，xAI的Grok Aurora紧随其后（靠X平台分发跑量、生成速度最快），曾经的开源王者Stable Diffusion自2024年CEO离职和裁员后基本被FLUX接棒。视频这边Google Veo 3、快手可灵3.0、Runway Gen-4各守一块阵地，xAI的Grok Imagine也凭X分发跑量很大（但视频引擎用的是自回归不是扩散，是当下唯一主流的非扩散路线视频产品），OpenAI的Sora刚在4月关停消费端。几乎每个人都用过其中几个，但要让普通用户说清楚原理，多数答案停在"AI画的""神经网络生成的"这一层。再问深一点，名词开始往外蹦：扩散、去噪、UNet、Transformer、DiT、latent space。一团浆糊。
 
 这篇文章把扩散模型这条线，从一堆名词理成一条清楚的主线。
 
