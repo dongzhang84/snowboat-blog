@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 650" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; --blue: #2563eb; --blue-bg: #eff6ff; --blue-stroke: #93c5fd; --green: #059669; --green-bg: #ecfdf5; --green-stroke: #6ee7b7; --amber: #d97706; --amber-bg: #fffbeb; --amber-stroke: #fcd34d; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; --blue: #93c5fd; --blue-bg: #172554; --blue-stroke: #2563eb; --green: #6ee7b7; --green-bg: #052e2b; --green-stroke: #047857; --amber: #fbbf24; --amber-bg: #3b2f12; --amber-stroke: #92400e; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.5; }
+.auto { fill: var(--green-bg); stroke: var(--green-stroke); stroke-width: 1.2; }
+.mixed { fill: var(--amber-bg); stroke: var(--amber-stroke); stroke-width: 1.2; }
+.manual { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.5; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 13px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 11.5px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 11px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.axis { stroke: var(--fg-soft); stroke-width: 1.4; fill: none; marker-end: url(#arrow); }
+.tick { stroke: var(--divider); stroke-width: 1; }
+</style>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--fg-soft)"/></marker>
+</defs>
+<rect class="bg" width="680" height="650"/>
+<text class="title" x="60" y="42">美国税制的根本差异：谁来算税</text>
+<text class="subtitle" x="60" y="64">多数国家把计算前置给雇主或税务机关，美国把申报责任留给纳税人</text>
+<text class="eyebrow" x="78" y="112">LOW TAXPAYER BURDEN</text>
+<text class="eyebrow eyebrow-accent" x="502" y="112">HIGH TAXPAYER BURDEN</text>
+<path class="axis" d="M 78 136 L 602 136"/>
+<line class="tick" x1="170" y1="128" x2="170" y2="146"/>
+<line class="tick" x1="340" y1="128" x2="340" y2="146"/>
+<line class="tick" x1="520" y1="128" x2="520" y2="146"/>
+<text class="ts" x="170" y="166" text-anchor="middle">雇主代扣</text>
+<text class="ts" x="340" y="166" text-anchor="middle">税局预填 / 年末调整</text>
+<text class="ts" x="520" y="166" text-anchor="middle">个人主动申报</text>
+<rect class="auto" x="70" y="200" width="250" height="86" rx="14"/>
+<text class="eyebrow" x="92" y="226">UK</text>
+<text class="th" x="92" y="254">英国：PAYE 默认</text>
+<text class="ts" x="92" y="274">雇主每月扣，HMRC 年底自动核算</text>
+<circle class="auto" cx="300" cy="243" r="14"/>
+<text class="ts" x="300" y="248" text-anchor="middle">低</text>
+<rect class="auto" x="70" y="306" width="250" height="86" rx="14"/>
+<text class="eyebrow" x="92" y="332">GERMANY</text>
+<text class="th" x="92" y="360">德国：预填税表</text>
+<text class="ts" x="92" y="380">工资、保险、银行利息已在表里</text>
+<circle class="auto" cx="300" cy="349" r="14"/>
+<text class="ts" x="300" y="354" text-anchor="middle">低</text>
+<rect class="mixed" x="360" y="200" width="250" height="86" rx="14"/>
+<text class="eyebrow" x="382" y="226">JAPAN</text>
+<text class="th" x="382" y="254">日本：年末调整</text>
+<text class="ts" x="382" y="274">多数受雇员工经雇主完成调整</text>
+<circle class="mixed" cx="590" cy="243" r="14"/>
+<text class="ts" x="590" y="248" text-anchor="middle">中</text>
+<rect class="mixed" x="360" y="306" width="250" height="86" rx="14"/>
+<text class="eyebrow" x="382" y="332">CHINA</text>
+<text class="th" x="382" y="360">中国：代扣代缴 + App 汇算</text>
+<text class="ts" x="382" y="380">普通工薪族通常几分钟确认</text>
+<circle class="mixed" cx="590" cy="349" r="14"/>
+<text class="ts" x="590" y="354" text-anchor="middle">中</text>
+<rect class="manual" x="70" y="430" width="540" height="118" rx="16"/>
+<text class="eyebrow eyebrow-accent" x="92" y="456">UNITED STATES</text>
+<text class="th" x="92" y="484">美国：所有有报税义务的人主动填 1040</text>
+<text class="ts" x="92" y="506">即使只有一份工资，也要自己或通过软件 / CPA 汇总 W-2、1099</text>
+<text class="ts" x="92" y="526">再填 1040，向 IRS 主动申报，多退少补</text>
+<rect class="layer" x="452" y="474" width="132" height="52" rx="12"/>
+<text class="ts" x="518" y="494" text-anchor="middle">责任 / 风险 / 机会</text>
+<text class="ts" x="518" y="514" text-anchor="middle">都落在个人身上</text>
+<line class="divider" x1="60" y1="578" x2="620" y2="578"/>
+<text class="caption-strong" x="60" y="604">关键点：差异不只是“税高税低”，而是谁承担计算和申报责任。</text>
+<text class="caption" x="60" y="626">美国的财政分权和小政府政治传统，让 IRS 更像事后核对方，而不是事前代算方。</text>
+</svg>
