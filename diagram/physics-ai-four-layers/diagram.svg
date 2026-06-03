@@ -23,12 +23,12 @@
 <text class="title" x="60" y="42">物理在 AI 里的四层位置</text>
 <text class="subtitle" x="60" y="64">《当物理遇上 AI：深度学习里的物理元素》上下两篇总结</text>
 
-<rect class="layer-key" x="60" y="96" width="580" height="120" rx="8"/>
+<rect class="layer" x="60" y="96" width="580" height="120" rx="8"/>
 <text class="eyebrow" x="82" y="118">第四层</text>
 <text class="eyebrow eyebrow-accent" x="618" y="118" text-anchor="end">→ 四十年中奖 3 次</text>
 <text class="th" x="82" y="150">方法论层</text>
 <text class="ts" x="82" y="170">造 AI 模型</text>
-<line class="divider-accent" x1="220" y1="110" x2="220" y2="202"/>
+<line class="divider" x1="220" y1="110" x2="220" y2="202"/>
 <text class="t" x="238" y="150">物理学家用物理工具造 AI 模型，看会不会成功</text>
 <text class="t" x="238" y="172">中奖：自旋族 / 对称性族 / 扩散模型</text>
 <text class="t" x="238" y="194">失败：RBM / 张量网络 / QNN / HNN</text>
