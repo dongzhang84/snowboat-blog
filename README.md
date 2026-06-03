@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 43 | 6/2 | [人工智能的工程全景（上）：硬件、电力、训练、推理](人工智能的工程全景（上）：硬件、电力、训练、推理.md) | [link](https://x.com/snowboat84/status/2061962883651731602) | — | [link](https://zhuanlan.zhihu.com/p/2045026429058953333) |
 | 42 | 6/1 | [什么是 Diffusion Model？图片视频生成模型全网最详细介绍](什么是%20Diffusion%20Model？图片视频生成模型全网最详细介绍.md) | [link](https://x.com/snowboat84/status/2061598950944305295) | — | [link](https://zhuanlan.zhihu.com/p/2044437335031403804) |
 | 41 | 5/29 | [美国税收制度完全指南](美国税收制度完全指南.md) | [link](https://x.com/snowboat84/status/2060511915617779821) | 16k | [link](https://zhuanlan.zhihu.com/p/2043956781592970926) |
 | 40 | 5/28 | [当物理遇上AI：深度学习里的物理元素（上）](当物理遇上AI：深度学习里的物理元素（上）.md) | [link](https://x.com/snowboat84/status/2060145538922844179) | 6.2k | [link](https://zhuanlan.zhihu.com/p/2043573397960099395) |
