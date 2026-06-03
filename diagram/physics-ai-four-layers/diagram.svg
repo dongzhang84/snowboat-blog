@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 700" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+</style>
+
+<rect class="bg" x="0" y="0" width="680" height="700"/>
+
+<text class="title" x="60" y="42">物理在 AI 里的四层位置</text>
+<text class="subtitle" x="60" y="64">《当物理遇上 AI：深度学习里的物理元素》上下两篇总结</text>
+
+<rect class="layer-key" x="60" y="96" width="580" height="120" rx="8"/>
+<text class="eyebrow" x="82" y="118">第四层</text>
+<text class="eyebrow eyebrow-accent" x="618" y="118" text-anchor="end">→ 四十年中奖 3 次</text>
+<text class="th" x="82" y="150">方法论层</text>
+<text class="ts" x="82" y="170">造 AI 模型</text>
+<line class="divider-accent" x1="220" y1="110" x2="220" y2="202"/>
+<text class="t" x="238" y="150">物理学家用物理工具造 AI 模型，看会不会成功</text>
+<text class="t" x="238" y="172">中奖：自旋族 / 对称性族 / 扩散模型</text>
+<text class="t" x="238" y="194">失败：RBM / 张量网络 / QNN / HNN</text>
+
+<rect class="layer" x="60" y="230" width="580" height="120" rx="8"/>
+<text class="eyebrow" x="82" y="252">第三层</text>
+<text class="eyebrow eyebrow-accent" x="618" y="252" text-anchor="end">→ 强 3 弱 2</text>
+<text class="th" x="82" y="284">上层</text>
+<text class="ts" x="82" y="304">解 AI 现象</text>
+<line class="divider" x1="220" y1="244" x2="220" y2="336"/>
+<text class="t" x="238" y="284">物理工具用来类比 AI 的 open questions</text>
+<text class="t" x="238" y="306">强证据：Scaling Law / 双下降 / Grokking</text>
+<text class="t" x="238" y="328">弱证据：涌现 / In-Context Learning</text>
+
+<rect class="layer" x="60" y="364" width="580" height="120" rx="8"/>
+<text class="eyebrow" x="82" y="386">第二层</text>
+<text class="eyebrow eyebrow-accent" x="618" y="386" text-anchor="end">→ 结构地基</text>
+<text class="th" x="82" y="418">中层</text>
+<text class="ts" x="82" y="438">塑网络结构</text>
+<line class="divider" x1="220" y1="378" x2="220" y2="470"/>
+<text class="t" x="238" y="418">物理直觉塑造神经网络的形状和结构</text>
+<text class="t" x="238" y="440">Hopfield 的 Ising 能量、CNN 的平移对称性</text>
+<text class="t" x="238" y="462">AlphaFold SE(3) 等变、重整化群 ↔ 深度网络层级</text>
+
+<rect class="layer" x="60" y="498" width="580" height="120" rx="8"/>
+<text class="eyebrow" x="82" y="520">第一层</text>
+<text class="eyebrow eyebrow-accent" x="618" y="520" text-anchor="end">→ 数学地基</text>
+<text class="th" x="82" y="552">底层</text>
+<text class="ts" x="82" y="572">嵌训练目标</text>
+<line class="divider" x1="220" y1="512" x2="220" y2="604"/>
+<text class="t" x="238" y="552">物理数学直接嵌进 AI 的训练目标</text>
+<text class="t" x="238" y="574">能量 / 熵 / 自由能 → 损失函数、正则化</text>
+<text class="t" x="238" y="596">玻尔兹曼分布、变分自由能、Langevin dynamics</text>
+
+<text class="caption-strong" x="60" y="650">底层和中层已经成为 AI 的地基，上层和方法论层仍在探索</text>
+<text class="caption" x="60" y="672">方法论层四十年只中过 3 次奖：自旋族 / 对称性族 / 扩散模型</text>
+</svg>
