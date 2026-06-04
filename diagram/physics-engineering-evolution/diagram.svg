@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 490" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+</style>
+
+<rect class="bg" x="0" y="0" width="680" height="490"/>
+
+<text class="title" x="60" y="42">工程化：从买彩票到系统工程</text>
+<text class="subtitle" x="60" y="64">用演化思路造 AI 模型，按场合匹配</text>
+
+<line x1="198" y1="181" x2="482" y2="181" stroke="var(--fg-muted)" stroke-width="1.4"/>
+<line x1="198" y1="217" x2="482" y2="217" stroke="var(--fg-muted)" stroke-width="1.4"/>
+<line x1="198" y1="253" x2="482" y2="253" stroke="var(--fg-muted)" stroke-width="1.4"/>
+<line x1="198" y1="289" x2="482" y2="289" stroke="var(--fg-muted)" stroke-width="1.2" stroke-dasharray="6,3"/>
+<line x1="198" y1="325" x2="482" y2="325" stroke="var(--fg-soft)" stroke-width="1" stroke-dasharray="3,3"/>
+<line x1="198" y1="361" x2="482" y2="361" stroke="var(--fg-soft)" stroke-width="1" stroke-dasharray="3,3"/>
+
+<rect class="layer" x="60" y="95" width="150" height="325" rx="8"/>
+<text class="eyebrow" x="82" y="117">左侧</text>
+<text class="th" x="82" y="140">物理工具箱</text>
+
+<rect x="72" y="168" width="126" height="26" rx="13" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="t" x="135" y="186" text-anchor="middle">扩散族</text>
+
+<rect x="72" y="204" width="126" height="26" rx="13" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="t" x="135" y="222" text-anchor="middle">对称性族</text>
+
+<rect x="72" y="240" width="126" height="26" rx="13" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="t" x="135" y="258" text-anchor="middle">自旋族</text>
+
+<rect x="72" y="276" width="126" height="26" rx="13" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="t" x="135" y="294" text-anchor="middle">哈密顿族</text>
+
+<rect x="72" y="312" width="126" height="26" rx="13" fill="var(--layer-bg)" stroke="var(--fg-soft)" stroke-width="1" stroke-dasharray="4,3"/>
+<text class="ts" x="135" y="330" text-anchor="middle">重整化群</text>
+
+<rect x="72" y="348" width="126" height="26" rx="13" fill="var(--layer-bg)" stroke="var(--fg-soft)" stroke-width="1" stroke-dasharray="4,3"/>
+<text class="ts" x="135" y="366" text-anchor="middle">Lindblad / KPZ</text>
+
+<text class="ts" x="82" y="400">虚线 = 金矿待开发</text>
+
+<rect class="layer" x="470" y="95" width="150" height="325" rx="8"/>
+<text class="eyebrow" x="492" y="117">右侧</text>
+<text class="th" x="492" y="140">AI 任务生态位</text>
+
+<rect x="482" y="168" width="126" height="26" rx="13" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="t" x="545" y="186" text-anchor="middle">生成（图像/视频）</text>
+
+<rect x="482" y="204" width="126" height="26" rx="13" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="t" x="545" y="222" text-anchor="middle">判别 / 感知</text>
+
+<rect x="482" y="240" width="126" height="26" rx="13" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="t" x="545" y="258" text-anchor="middle">联想记忆 / 检索</text>
+
+<rect x="482" y="276" width="126" height="26" rx="13" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="t" x="545" y="294" text-anchor="middle">决策 / 控制</text>
+
+<rect x="482" y="312" width="126" height="26" rx="13" fill="var(--layer-bg)" stroke="var(--fg-soft)" stroke-width="1" stroke-dasharray="4,3"/>
+<text class="ts" x="545" y="330" text-anchor="middle">待匹配</text>
+
+<rect x="482" y="348" width="126" height="26" rx="13" fill="var(--layer-bg)" stroke="var(--fg-soft)" stroke-width="1" stroke-dasharray="4,3"/>
+<text class="ts" x="545" y="366" text-anchor="middle">待匹配</text>
+
+<text class="ts" x="492" y="400">虚线 = 等待匹配</text>
+
+<rect class="layer" x="240" y="140" width="200" height="240" rx="8"/>
+<text class="eyebrow" x="262" y="162">中央加工</text>
+<text class="th" x="262" y="185">工程化</text>
+<text class="ts" x="262" y="215">1. 剥离物理语言</text>
+<text class="ts" x="262" y="237">2. 实现可训练架构</text>
+<text class="ts" x="262" y="259">3. 跑通 benchmark</text>
+<text class="ts" x="262" y="281">4. 工程师可用</text>
+<text class="caption-strong" x="262" y="320">扩散模型 = 标杆</text>
+<text class="caption" x="262" y="342">Sohl-Dickstein → 何宏嘉</text>
+
+<text class="caption-strong" x="60" y="450">演化的逻辑：不靠一个统一原则覆盖所有 AI</text>
+<text class="caption" x="60" y="472">造海量物理启发模型，工程化所有根族，按场合精准匹配</text>
+</svg>
