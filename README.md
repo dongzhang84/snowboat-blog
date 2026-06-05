@@ -14,11 +14,11 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 40 | 5/28 | [当物理遇上AI：深度学习里的物理元素（上）](当物理遇上AI：深度学习里的物理元素（上）.md) | [link](https://x.com/snowboat84/status/2060145538922844179) | 6.2k | [link](https://zhuanlan.zhihu.com/p/2043573397960099395) |
 | 39 | 5/27 | [一文看懂美国的法律系统](一文看懂美国的法律系统.md) | [link](https://x.com/snowboat84/status/2059795010330251568) | 15k | [link](https://zhuanlan.zhihu.com/p/2043159937757476358) |
 | 38 | 5/26 | [教宗良十四世论人工智能（精华版）](教宗良十四世论人工智能（精华版）.md) | [link](https://x.com/snowboat84/status/2059434342745866391) | 18k | [link](https://zhuanlan.zhihu.com/p/2042879175590138102) |
-| 37 | 5/25 | [廉颇老矣，尚能饭否：现代数学史（下）](廉颇老矣，尚能饭否：现代数学史（下）.md) | [link](https://x.com/snowboat84/status/2059071134738620606) | 12k | [link](https://zhuanlan.zhihu.com/p/2042511409888613605) |
-| * | 5/24 | [Boos at Commencement - Do Young Americans Hate AI？](Boos%20at%20Commencement%20-%20Do%20Young%20Americans%20Hate%20AI？.md) | [medium](https://medium.com/@dongzhanghz/boos-at-commencement-do-young-americans-hate-ai-90d174738ec7) | — | [substack](https://substack.com/home/post/p-199043331) |
-| * | 5/24 | [SpaceX 立志传（四）：重型火箭和星链](SpaceX%20立志传（四）：重型火箭和星链.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2041774940534335202) |
-| * | 5/23 | [SpaceX 立志传（三）：屠龙术之可回收火箭](SpaceX%20立志传（三）：屠龙术之可回收火箭.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2041685377539363237) |
-| * | 5/23 | [SpaceX 立志传（二）：NASA的救命钱](SpaceX%20立志传（二）：NASA的救命钱.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2041534377713203183) |
+| 37 | 5/25 | [廉颇老矣，尚能饭否：现代数学史（下）](archive/廉颇老矣，尚能饭否：现代数学史（下）.md) | [link](https://x.com/snowboat84/status/2059071134738620606) | 12k | [link](https://zhuanlan.zhihu.com/p/2042511409888613605) |
+| * | 5/24 | [Boos at Commencement - Do Young Americans Hate AI？](archive/Boos%20at%20Commencement%20-%20Do%20Young%20Americans%20Hate%20AI？.md) | [medium](https://medium.com/@dongzhanghz/boos-at-commencement-do-young-americans-hate-ai-90d174738ec7) | — | [substack](https://substack.com/home/post/p-199043331) |
+| * | 5/24 | [SpaceX 立志传（四）：重型火箭和星链](archive/SpaceX%20立志传（四）：重型火箭和星链.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2041774940534335202) |
+| * | 5/23 | [SpaceX 立志传（三）：屠龙术之可回收火箭](archive/SpaceX%20立志传（三）：屠龙术之可回收火箭.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2041685377539363237) |
+| * | 5/23 | [SpaceX 立志传（二）：NASA的救命钱](archive/SpaceX%20立志传（二）：NASA的救命钱.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2041534377713203183) |
 | 36 | 5/22 | [一篇文章讲清楚美国的移民系统](archive/一篇文章讲清楚美国的移民系统.md) | [link](https://x.com/snowboat84/status/2057980486501433383) | 104k | [link](https://zhuanlan.zhihu.com/p/2041415094861550858) |
 | 35 | 5/21 | [毕业典礼上嘘声四起：美国年轻人讨厌AI？](archive/毕业典礼上嘘声四起：美国年轻人讨厌AI？.md) | [link](https://x.com/snowboat84/status/2057619169341026321) | 2.4k | [link](https://zhuanlan.zhihu.com/p/2041052307652097783) |
 | 34 | 5/20 | [大航海时代2的逆向工程实验](archive/大航海时代2的逆向工程实验.md) | [link](https://x.com/snowboat84/status/2057264254319993332) | 8.7k | [link](https://zhuanlan.zhihu.com/p/2040709944140375982) |
