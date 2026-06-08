@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 510" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+</style>
+
+<rect class="bg" x="0" y="0" width="680" height="510"/>
+
+<text class="title" x="60" y="42">回到 AI：被吸进地基里的那个内核</text>
+<text class="subtitle" x="60" y="64">AI 表面之下藏着 80 年前那本书的反馈骨架</text>
+
+<rect class="layer" x="60" y="95" width="560" height="140" rx="8"/>
+<text class="eyebrow" x="82" y="117">AI 表面</text>
+<text class="eyebrow eyebrow-accent" x="618" y="117" text-anchor="end">→ 看得见</text>
+<text class="th" x="82" y="140">今天的 AI</text>
+<text class="ts" x="82" y="160">1990s 到今天看到的全部</text>
+<line class="divider" x1="220" y1="110" x2="220" y2="225"/>
+<text class="t" x="238" y="140">Transformer · LLM · GPT · Claude · Gemini</text>
+<text class="t" x="238" y="162">Agent · RLHF · 自动驾驶 · AlphaGo</text>
+<text class="t" x="238" y="184">Scaling Law · Diffusion · 推荐系统</text>
+<text class="ts" x="238" y="208">看起来跟 1948 年的世界没有关系</text>
+
+<line class="divider-accent" x1="60" y1="248" x2="620" y2="248"/>
+<text class="caption-strong" x="340" y="266" text-anchor="middle">AI = 控制论 + 算力 + 海量数据 + representation learning</text>
+<text class="caption" x="340" y="284" text-anchor="middle">(7.3 燃料差距 · 7.4 范式转变)</text>
+
+<rect class="layer" x="60" y="295" width="560" height="140" rx="8"/>
+<text class="eyebrow" x="82" y="317">控制论地基</text>
+<text class="eyebrow eyebrow-accent" x="618" y="317" text-anchor="end">→ 看不见 / 1948 至今</text>
+<text class="th" x="82" y="340">控制论内核</text>
+<text class="ts" x="82" y="360">感知差距 → 修正 → 再感知</text>
+<line class="divider" x1="220" y1="310" x2="220" y2="425"/>
+<text class="t" x="238" y="340">负反馈回路 (Wiener 1948 起家)</text>
+<text class="t" x="238" y="362">Bellman 方程 (1957, RL 和最优控制共享)</text>
+<text class="t" x="238" y="384">感知-行动闭环 (agent 的祖宗)</text>
+<text class="t" x="238" y="406">迭代优化 (梯度下降的祖宗)</text>
+
+<text class="caption-strong" x="60" y="465">AI 圈基本不提自己的 cybernetics 血缘，每一行机器学习代码都在跑 80 年前的循环</text>
+<text class="caption" x="60" y="487">Friston 自由能 (7.6)：控制论第二春正在生长，model-based 想用贝叶斯重新接回 AI</text>
+</svg>
