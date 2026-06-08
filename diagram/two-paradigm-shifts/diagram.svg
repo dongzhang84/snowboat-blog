@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 580" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.arrow { stroke: var(--fg-muted); stroke-width: 1.6; fill: none; }
+.arrow-accent { stroke: var(--accent); stroke-width: 1.8; fill: none; }
+</style>
+
+<rect class="bg" x="0" y="0" width="680" height="580"/>
+
+<text class="title" x="60" y="42">建模哲学的两次断裂</text>
+<text class="subtitle" x="60" y="64">从"写下世界的方程"到"用数据拟合世界"（7.4）</text>
+
+<rect class="layer" x="60" y="90" width="560" height="100" rx="8"/>
+<text class="eyebrow" x="82" y="112">1948 – 1960</text>
+<text class="th" x="82" y="135">经典控制论</text>
+<text class="ts" x="82" y="155">Wiener · Maxwell · 钱学森</text>
+<line x1="220" y1="104" x2="220" y2="180" stroke="var(--divider)" stroke-width="1"/>
+<text class="t" x="238" y="132">时间：连续 · 数学：微分方程 · 哲学：model-based</text>
+<text class="ts" x="238" y="156">先写出"世界的方程"再求解，物理学家的方法论</text>
+
+<line class="arrow" x1="340" y1="198" x2="340" y2="226"/>
+<polygon points="340,230 334,222 346,222" fill="var(--fg-muted)"/>
+<text class="caption-strong" x="340" y="248" text-anchor="middle">第一次断裂：连续 → 离散</text>
+
+<rect class="layer" x="60" y="260" width="560" height="100" rx="8"/>
+<text class="eyebrow" x="82" y="282">1960 – 1980</text>
+<text class="th" x="82" y="305">数字控制</text>
+<text class="ts" x="82" y="325">z 变换 · 数字 PID · 数字卡尔曼</text>
+<line x1="220" y1="274" x2="220" y2="350" stroke="var(--divider)" stroke-width="1"/>
+<text class="t" x="238" y="302">时间：离散 · 数学：差分方程 · 哲学：仍是 model-based</text>
+<text class="ts" x="238" y="326">为上计算机做的工程化简化，建模哲学的根没动</text>
+
+<line class="arrow-accent" x1="340" y1="368" x2="340" y2="396"/>
+<polygon points="340,400 334,392 346,392" fill="var(--accent)"/>
+<text class="caption-strong eyebrow-accent" x="340" y="418" text-anchor="middle">第二次断裂：model-based → model-free</text>
+
+<rect class="layer" x="60" y="430" width="560" height="100" rx="8"/>
+<text class="eyebrow" x="82" y="452">1980 – today</text>
+<text class="th" x="82" y="475">AI 深度学习</text>
+<text class="ts" x="82" y="495">SGD · RL · Transformer · LLM</text>
+<line x1="220" y1="444" x2="220" y2="520" stroke="var(--divider)" stroke-width="1"/>
+<text class="t" x="238" y="472">时间：离散 · 数学：数据驱动 · 哲学：model-free</text>
+<text class="ts" x="238" y="496">几十亿参数无物理意义，被数据"喂"出来的拟合系数</text>
+
+<text class="caption-strong" x="60" y="555">AI 抛弃了"必须先写出系统方程"这个旧包袱，继承了反馈迭代的骨架</text>
+<text class="caption" x="60" y="572">Friston FEP（7.6）想把 model-based 用贝叶斯重新接回 AI，对抗还在进行中</text>
+</svg>

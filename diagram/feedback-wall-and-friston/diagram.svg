@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 480" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+</style>
+
+<rect class="bg" x="0" y="0" width="680" height="480"/>
+
+<text class="title" x="60" y="42">那堵墙 + 第二春</text>
+<text class="subtitle" x="60" y="64">反馈范式的结构性软肋（7.5），与 Friston 自由能（7.6）</text>
+
+<rect class="layer" x="60" y="95" width="270" height="310" rx="8"/>
+<text class="eyebrow" x="80" y="117">7.5 · 软肋</text>
+<text class="th" x="80" y="142">那堵墙</text>
+<text class="ts" x="80" y="162">反馈范式的天花板</text>
+<line x1="80" y1="178" x2="310" y2="178" stroke="var(--divider)" stroke-width="1"/>
+
+<rect x="80" y="194" width="230" height="56" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="th" x="92" y="214">alignment problem</text>
+<text class="ts" x="92" y="234">目标必须由外部给定，回路自己长不出</text>
+
+<rect x="80" y="262" width="230" height="56" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="th" x="92" y="282">reward hacking</text>
+<text class="ts" x="92" y="302">回路找漏洞（CoastRunners / RLHF sycophancy）</text>
+
+<rect x="80" y="330" width="230" height="56" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="th" x="92" y="350">优化 vs 创造</text>
+<text class="ts" x="92" y="370">在给定空间找最优，难以产生空间外的新东西</text>
+
+<text class="caption-strong" x="340" y="252" text-anchor="middle">vs</text>
+
+<rect class="layer" x="350" y="95" width="270" height="310" rx="8"/>
+<text class="eyebrow eyebrow-accent" x="370" y="117">7.6 · 第二春</text>
+<text class="th" x="370" y="142">Friston 自由能</text>
+<text class="ts" x="370" y="162">active inference · 1990s 起步</text>
+<line x1="370" y1="178" x2="600" y2="178" stroke="var(--divider)" stroke-width="1"/>
+
+<rect x="370" y="194" width="230" height="56" rx="6" fill="var(--bg)" stroke="var(--accent-stroke)" stroke-width="1.2"/>
+<text class="th" x="382" y="214">把 model-based 接回</text>
+<text class="ts" x="382" y="234">用贝叶斯+变分推断的新外壳重新接进 AI</text>
+
+<rect x="370" y="262" width="230" height="56" rx="6" fill="var(--bg)" stroke="var(--accent-stroke)" stroke-width="1.2"/>
+<text class="th" x="382" y="282">minimize free energy</text>
+<text class="ts" x="382" y="302">目标从 maximize reward 换成探索+准确+可控</text>
+
+<rect x="370" y="330" width="230" height="56" rx="6" fill="var(--bg)" stroke="var(--accent-stroke)" stroke-width="1.2"/>
+<text class="th" x="382" y="350">感知+行动同一循环</text>
+<text class="ts" x="382" y="370">预测误差既调模型（学）也调动作（做）</text>
+
+<text class="caption-strong" x="60" y="435">控制论范式有结构性天花板，Friston 是从内部突破的当前候选</text>
+<text class="caption" x="60" y="457">active inference 跟主流 RL 数学不同，能不能成主流目前不好判断</text>
+</svg>

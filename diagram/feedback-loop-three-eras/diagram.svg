@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 470" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.arrow { stroke: var(--fg-muted); stroke-width: 1.4; fill: none; }
+.loop-arrow { stroke: var(--accent); stroke-width: 1.4; fill: none; }
+</style>
+
+<rect class="bg" x="0" y="0" width="680" height="470"/>
+
+<text class="title" x="60" y="42">梯度下降 = 负反馈回路</text>
+<text class="subtitle" x="60" y="64">三个时代，三个载体，同一个数学骨架</text>
+
+<!-- 列 1: 恒温器 -->
+<text class="th" x="140" y="105" text-anchor="middle">恒温器</text>
+<text class="ts" x="140" y="122" text-anchor="middle">家电 · 1788 至今</text>
+
+<rect x="80" y="138" width="120" height="32" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="ts" x="140" y="153" text-anchor="middle">目标</text>
+<text class="t" x="140" y="166" text-anchor="middle">20 度</text>
+
+<line class="arrow" x1="140" y1="172" x2="140" y2="188"/>
+<polygon points="140,192 136,184 144,184" fill="var(--fg-muted)"/>
+
+<rect x="80" y="194" width="120" height="32" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="ts" x="140" y="209" text-anchor="middle">实际</text>
+<text class="t" x="140" y="222" text-anchor="middle">18 度</text>
+
+<line class="arrow" x1="140" y1="228" x2="140" y2="244"/>
+<polygon points="140,248 136,240 144,240" fill="var(--fg-muted)"/>
+
+<rect x="80" y="250" width="120" height="32" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="ts" x="140" y="265" text-anchor="middle">差距</text>
+<text class="t" x="140" y="278" text-anchor="middle">-2 度</text>
+
+<line class="arrow" x1="140" y1="284" x2="140" y2="300"/>
+<polygon points="140,304 136,296 144,296" fill="var(--fg-muted)"/>
+
+<rect x="80" y="306" width="120" height="32" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="ts" x="140" y="321" text-anchor="middle">动作</text>
+<text class="t" x="140" y="334" text-anchor="middle">开锅炉</text>
+
+<path class="loop-arrow" d="M 80 322 Q 50 322 50 230 Q 50 154 76 154"/>
+<polygon points="76,154 84,150 84,158" fill="var(--accent)"/>
+
+<!-- 列 2: 防空火炮 -->
+<text class="th" x="340" y="105" text-anchor="middle">防空火炮</text>
+<text class="ts" x="340" y="122" text-anchor="middle">武器 · 1941 Wiener-Bigelow</text>
+
+<rect x="280" y="138" width="120" height="32" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="ts" x="340" y="153" text-anchor="middle">目标</text>
+<text class="t" x="340" y="166" text-anchor="middle">飞机预测位置</text>
+
+<line class="arrow" x1="340" y1="172" x2="340" y2="188"/>
+<polygon points="340,192 336,184 344,184" fill="var(--fg-muted)"/>
+
+<rect x="280" y="194" width="120" height="32" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="ts" x="340" y="209" text-anchor="middle">实际</text>
+<text class="t" x="340" y="222" text-anchor="middle">弹道飞到的点</text>
+
+<line class="arrow" x1="340" y1="228" x2="340" y2="244"/>
+<polygon points="340,248 336,240 344,240" fill="var(--fg-muted)"/>
+
+<rect x="280" y="250" width="120" height="32" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="ts" x="340" y="265" text-anchor="middle">差距</text>
+<text class="t" x="340" y="278" text-anchor="middle">脱靶量 / 米</text>
+
+<line class="arrow" x1="340" y1="284" x2="340" y2="300"/>
+<polygon points="340,304 336,296 344,296" fill="var(--fg-muted)"/>
+
+<rect x="280" y="306" width="120" height="32" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="ts" x="340" y="321" text-anchor="middle">动作</text>
+<text class="t" x="340" y="334" text-anchor="middle">调炮口</text>
+
+<path class="loop-arrow" d="M 280 322 Q 250 322 250 230 Q 250 154 276 154"/>
+<polygon points="276,154 284,150 284,158" fill="var(--accent)"/>
+
+<!-- 列 3: 梯度下降 -->
+<text class="th" x="540" y="105" text-anchor="middle">梯度下降 (SGD)</text>
+<text class="ts" x="540" y="122" text-anchor="middle">神经网络 · today</text>
+
+<rect x="480" y="138" width="120" height="32" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="ts" x="540" y="153" text-anchor="middle">目标</text>
+<text class="t" x="540" y="166" text-anchor="middle">真值 (label)</text>
+
+<line class="arrow" x1="540" y1="172" x2="540" y2="188"/>
+<polygon points="540,192 536,184 544,184" fill="var(--fg-muted)"/>
+
+<rect x="480" y="194" width="120" height="32" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="ts" x="540" y="209" text-anchor="middle">实际</text>
+<text class="t" x="540" y="222" text-anchor="middle">模型预测</text>
+
+<line class="arrow" x1="540" y1="228" x2="540" y2="244"/>
+<polygon points="540,248 536,240 544,240" fill="var(--fg-muted)"/>
+
+<rect x="480" y="250" width="120" height="32" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="ts" x="540" y="265" text-anchor="middle">差距</text>
+<text class="t" x="540" y="278" text-anchor="middle">loss</text>
+
+<line class="arrow" x1="540" y1="284" x2="540" y2="300"/>
+<polygon points="540,304 536,296 544,296" fill="var(--fg-muted)"/>
+
+<rect x="480" y="306" width="120" height="32" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="ts" x="540" y="321" text-anchor="middle">动作</text>
+<text class="t" x="540" y="334" text-anchor="middle">调参数 (←梯度)</text>
+
+<path class="loop-arrow" d="M 480 322 Q 450 322 450 230 Q 450 154 476 154"/>
+<polygon points="476,154 484,150 484,158" fill="var(--accent)"/>
+
+<!-- 列下方说明 -->
+<text class="ts" x="140" y="372" text-anchor="middle">机械 + 电路</text>
+<text class="ts" x="340" y="372" text-anchor="middle">微分方程 + 模拟电路</text>
+<text class="ts" x="540" y="372" text-anchor="middle">链式求导 + 数值优化</text>
+
+<!-- Footer -->
+<text class="caption-strong" x="60" y="420">三个例子载体不同（家电 / 武器 / 神经网络），反馈的数学一致</text>
+<text class="caption" x="60" y="442">Wiener 1948 在《Cybernetics》里点出来这件事：有目的的行为本质就是负反馈循环</text>
+</svg>
