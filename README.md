@@ -13,10 +13,10 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 44 | 6/3 | [细说美国的华人老钱家族](细说美国的华人老钱家族.md) | [link](https://x.com/snowboat84/status/2062326581776011623) | 67k | [link](https://zhuanlan.zhihu.com/p/2045687220712034679) |
 | 43 | 6/2 | [人工智能的工程全景（上）：硬件、电力、训练、推理](人工智能的工程全景（上）：硬件、电力、训练、推理.md) | [link](https://x.com/snowboat84/status/2061962883651731602) | 7.1k | [link](https://zhuanlan.zhihu.com/p/2045026429058953333) |
 | 42 | 6/1 | [什么是 Diffusion Model？图片视频生成模型全网最详细介绍](什么是%20Diffusion%20Model？图片视频生成模型全网最详细介绍.md) | [link](https://x.com/snowboat84/status/2061598950944305295) | 3.8k | [link](https://zhuanlan.zhihu.com/p/2044437335031403804) |
-| 41 | 5/29 | [美国税收制度完全指南](美国税收制度完全指南.md) | [link](https://x.com/snowboat84/status/2060511915617779821) | 17k | [link](https://zhuanlan.zhihu.com/p/2043956781592970926) |
-| 40 | 5/28 | [当物理遇上AI：深度学习里的物理元素（上）](当物理遇上AI：深度学习里的物理元素（上）.md) | [link](https://x.com/snowboat84/status/2060145538922844179) | 7.6k | [link](https://zhuanlan.zhihu.com/p/2043573397960099395) |
-| 39 | 5/27 | [一文看懂美国的法律系统](一文看懂美国的法律系统.md) | [link](https://x.com/snowboat84/status/2059795010330251568) | 16k | [link](https://zhuanlan.zhihu.com/p/2043159937757476358) |
-| 38 | 5/26 | [教宗良十四世论人工智能（精华版）](教宗良十四世论人工智能（精华版）.md) | [link](https://x.com/snowboat84/status/2059434342745866391) | 23k | [link](https://zhuanlan.zhihu.com/p/2042879175590138102) |
+| 41 | 5/29 | [美国税收制度完全指南](archive/美国税收制度完全指南.md) | [link](https://x.com/snowboat84/status/2060511915617779821) | 17k | [link](https://zhuanlan.zhihu.com/p/2043956781592970926) |
+| 40 | 5/28 | [当物理遇上AI：深度学习里的物理元素（上）](archive/当物理遇上AI：深度学习里的物理元素（上）.md) | [link](https://x.com/snowboat84/status/2060145538922844179) | 7.6k | [link](https://zhuanlan.zhihu.com/p/2043573397960099395) |
+| 39 | 5/27 | [一文看懂美国的法律系统](archive/一文看懂美国的法律系统.md) | [link](https://x.com/snowboat84/status/2059795010330251568) | 16k | [link](https://zhuanlan.zhihu.com/p/2043159937757476358) |
+| 38 | 5/26 | [教宗良十四世论人工智能（精华版）](archive/教宗良十四世论人工智能（精华版）.md) | [link](https://x.com/snowboat84/status/2059434342745866391) | 23k | [link](https://zhuanlan.zhihu.com/p/2042879175590138102) |
 | 37 | 5/25 | [廉颇老矣，尚能饭否：现代数学史（下）](archive/廉颇老矣，尚能饭否：现代数学史（下）.md) | [link](https://x.com/snowboat84/status/2059071134738620606) | 13k | [link](https://zhuanlan.zhihu.com/p/2042511409888613605) |
 | * | 5/24 | [Boos at Commencement - Do Young Americans Hate AI？](archive/Boos%20at%20Commencement%20-%20Do%20Young%20Americans%20Hate%20AI？.md) | [medium](https://medium.com/@dongzhanghz/boos-at-commencement-do-young-americans-hate-ai-90d174738ec7) | — | [substack](https://substack.com/home/post/p-199043331) |
 | * | 5/24 | [SpaceX 立志传（四）：重型火箭和星链](archive/SpaceX%20立志传（四）：重型火箭和星链.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2041774940534335202) |
