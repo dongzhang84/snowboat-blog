@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 560" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+</style>
+
+<rect class="bg" x="0" y="0" width="680" height="560"/>
+
+<text class="title" x="60" y="42">对齐：HHH 与内在权衡</text>
+<text class="subtitle" x="60" y="64">三个目标都合理，但不能同时最大化（Anthropic 2021 提出）</text>
+
+<rect class="layer" x="60" y="95" width="180" height="180" rx="8"/>
+<text class="eyebrow" x="80" y="117">H1</text>
+<text class="th" x="80" y="142">Helpful</text>
+<text class="ts" x="80" y="160">尽力帮用户完成任务</text>
+<line x1="80" y1="176" x2="220" y2="176" stroke="var(--divider)" stroke-width="1"/>
+<text class="ts" x="80" y="196">失败模式</text>
+<text class="t" x="80" y="214">过度拒绝</text>
+<text class="ts" x="80" y="232">典型工程</text>
+<text class="t" x="80" y="250">API 默认偏 Helpful</text>
+<text class="ts" x="80" y="268">ChatGPT 默认偏 Harmless</text>
+
+<rect class="layer" x="250" y="95" width="180" height="180" rx="8"/>
+<text class="eyebrow" x="270" y="117">H2</text>
+<text class="th" x="270" y="142">Honest</text>
+<text class="ts" x="270" y="160">不编造 / 不附和 / calibrate</text>
+<line x1="270" y1="176" x2="410" y2="176" stroke="var(--divider)" stroke-width="1"/>
+<text class="ts" x="270" y="196">失败模式</text>
+<text class="t" x="270" y="214">幻觉 + sycophancy</text>
+<text class="ts" x="270" y="232">典型案例</text>
+<text class="t" x="270" y="250">GPT-4o 2024-04</text>
+<text class="ts" x="270" y="268">拍马屁版本被回滚</text>
+
+<rect class="layer" x="440" y="95" width="180" height="180" rx="8"/>
+<text class="eyebrow" x="460" y="117">H3</text>
+<text class="th" x="460" y="142">Harmless</text>
+<text class="ts" x="460" y="160">不输出有害内容</text>
+<line x1="460" y1="176" x2="600" y2="176" stroke="var(--divider)" stroke-width="1"/>
+<text class="ts" x="460" y="196">失败模式</text>
+<text class="t" x="460" y="214">jailbreak 被绕过</text>
+<text class="ts" x="460" y="232">典型攻击</text>
+<text class="t" x="460" y="250">prompt injection</text>
+<text class="ts" x="460" y="268">role-play / 低资源语言</text>
+
+<path d="M 150 290 Q 250 305 340 305 Q 430 305 520 290" fill="none" stroke="var(--accent-stroke)" stroke-width="1.4" stroke-dasharray="4,3"/>
+<text class="caption-strong" x="340" y="320" text-anchor="middle">三者内在张力，每个版本都是钢丝上的一个点</text>
+<text class="ts" x="340" y="340" text-anchor="middle">Helpful ↔ Harmless：过度拒绝 vs 过度配合（最常见的钢丝）</text>
+<text class="ts" x="340" y="358" text-anchor="middle">Helpful ↔ Honest：模型多说"我不确定" → 用户体验下降</text>
+<text class="ts" x="340" y="376" text-anchor="middle">Anthropic 偏保守 · OpenAI 偏热情 · Google 偏中性，本质是权衡点不同</text>
+
+<rect class="layer" x="60" y="400" width="560" height="140" rx="8"/>
+<text class="eyebrow" x="82" y="422">长期开放问题</text>
+<text class="th" x="82" y="445">Scalable Oversight：当模型能力超过人类水平怎么继续对齐？</text>
+<text class="ts" x="82" y="463">现在的 RLHF / DPO / Constitutional AI 都假设人类能判断"哪个回答更好"。模型在数学、编程超过人类时这个前提开始动摇。</text>
+
+<rect x="82" y="473" width="160" height="28" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="t" x="162" y="492" text-anchor="middle">Debate</text>
+
+<rect x="260" y="473" width="160" height="28" rx="6" fill="var(--bg)" stroke="var(--layer-stroke)" stroke-width="1.2"/>
+<text class="t" x="340" y="492" text-anchor="middle">RRM</text>
+
+<rect x="438" y="473" width="160" height="28" rx="6" fill="var(--bg)" stroke="var(--accent-stroke)" stroke-width="1.2"/>
+<text class="t" x="518" y="492" text-anchor="middle">Weak-to-Strong</text>
+
+<text class="ts" x="340" y="514" text-anchor="middle">两 AI 辩论 + 人类裁判 (OpenAI 2018) · Recursive Reward Modeling · OpenAI Superalignment 主推路线</text>
+
+<text class="ts eyebrow-accent" x="340" y="530" text-anchor="middle">Superalignment 团队 2024-05 解散，Anthropic / DeepMind / 学界仍在做</text>
+</svg>
