@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 720" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+</style>
+<rect class="bg" x="0" y="0" width="680" height="720"/>
+
+<text class="title" x="60" y="42">模型瘦身：四条把推理变便宜的路径</text>
+<text class="subtitle" x="60" y="64">目标相同：更小、更快、更省显存；发生阶段和代价完全不同</text>
+
+<rect class="layer-key" x="60" y="96" width="580" height="118" rx="10"/>
+<text class="eyebrow eyebrow-accent" x="82" y="118">QUANTIZATION</text>
+<text class="eyebrow eyebrow-accent" x="618" y="118" text-anchor="end">→ 权重压缩</text>
+<text class="th" x="82" y="150">量化</text>
+<text class="ts" x="82" y="170">训练后转换</text>
+<line class="divider-accent" x1="220" y1="110" x2="220" y2="196"/>
+<text class="t" x="238" y="150">FP16 / BF16 → FP8、INT4、FP4</text>
+<text class="t" x="238" y="172">70B权重可从140GB降到35GB量级</text>
+<text class="ts" x="238" y="194">代价：低比特精度风险高，激进场景要QAT</text>
+
+<rect class="layer" x="60" y="230" width="580" height="118" rx="10"/>
+<text class="eyebrow" x="82" y="252">DISTILLATION</text>
+<text class="eyebrow eyebrow-accent" x="618" y="252" text-anchor="end">→ 能力迁移</text>
+<text class="th" x="82" y="284">蒸馏</text>
+<text class="ts" x="82" y="304">重新训练学生模型</text>
+<line class="divider" x1="220" y1="244" x2="220" y2="330"/>
+<text class="t" x="238" y="284">Teacher生成分布，Student拟合判断空间</text>
+<text class="t" x="238" y="306">小模型保留大模型大部分能力</text>
+<text class="ts" x="238" y="328">用途：低成本服务版本，或投机解码草稿模型</text>
+
+<rect class="layer" x="60" y="364" width="580" height="118" rx="10"/>
+<text class="eyebrow" x="82" y="386">PRUNING / NAS</text>
+<text class="eyebrow eyebrow-accent" x="618" y="386" text-anchor="end">→ 删结构</text>
+<text class="th" x="82" y="418">剪枝</text>
+<text class="ts" x="82" y="438">剪掉低贡献部分</text>
+<line class="divider" x1="220" y1="378" x2="220" y2="464"/>
+<text class="t" x="238" y="418">删权重、head、层，再用蒸馏补能力</text>
+<text class="t" x="238" y="440">Minitron / Puzzletron走组合路线</text>
+<text class="ts" x="238" y="462">代价：单独使用有限，常与量化和蒸馏叠加</text>
+
+<rect class="layer" x="60" y="498" width="580" height="118" rx="10"/>
+<text class="eyebrow" x="82" y="520">MIXTURE OF EXPERTS</text>
+<text class="eyebrow eyebrow-accent" x="618" y="520" text-anchor="end">→ 激活变少</text>
+<text class="th" x="82" y="552">MoE</text>
+<text class="ts" x="82" y="572">训练时决定架构</text>
+<line class="divider" x1="220" y1="512" x2="220" y2="598"/>
+<text class="t" x="238" y="552">总参数很大，每个token只激活少数专家</text>
+<text class="t" x="238" y="574">例：8选2，DeepSeek V3约37B激活</text>
+<text class="ts" x="238" y="596">代价：专家驻显存，动态路由，跨卡通信高</text>
+
+<text class="caption-strong" x="60" y="650">共同点：都不是推理时临时发生，而是先把模型形态改好。</text>
+<text class="caption" x="60" y="672">量化最像压缩文件；蒸馏像老师带学生；剪枝像拆掉冗余结构；MoE像只叫醒少数专家。</text>
+</svg>
