@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 49 | 6/10 | [大语言模型的商业痛点](大语言模型的商业痛点.md) | [link](https://x.com/snowboat84/status/2064858487675670625) | — | [link](https://zhuanlan.zhihu.com/p/2047925274310972651) |
 | 48 | 6/9 | [什么是控制论？控制论是AI的上辈子吗？](什么是控制论？控制论是AI的上辈子吗？.md) | [link](https://x.com/snowboat84/status/2064496706042069340) | — | [link](https://zhuanlan.zhihu.com/p/2047548601182823378) |
 | 47 | 6/8 | [什么是世界模型？一个正在被争夺的概念](什么是世界模型？一个正在被争夺的概念.md) | [link](https://x.com/snowboat84/status/2064135804092645410) | — | [link](https://zhuanlan.zhihu.com/p/2046975713832710368) |
 | 46 | 6/5 | [美国的犹太人和华人分别抢到了什么资源？详细分析](美国的犹太人和华人分别抢到了什么资源？详细分析.md) | [link](https://x.com/snowboat84/status/2063049247805837815) | 47k | [link](https://zhuanlan.zhihu.com/p/2046487572025816142) |
