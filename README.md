@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 51 | 6/12 | [Vibe Coding把我系统搞崩了，我对此的总结和心得](Vibe%20Coding把我系统搞崩了，这是我对此的总结和心得.md) | [link](https://x.com/snowboat84/status/2065586279010742687) | — | [link](https://zhuanlan.zhihu.com/p/2049039759188800384) |
 | 50 | 6/11 | [人工智能的工程全景（中）：推理，后训练，对齐和安全](人工智能的工程全景（中）：推理，后训练，对齐和安全.md) | [link](https://x.com/snowboat84/status/2065215177029787705) | — | [link](https://zhuanlan.zhihu.com/p/2048317790793339656) |
 | 49 | 6/10 | [大语言模型的商业痛点](大语言模型的商业痛点.md) | [link](https://x.com/snowboat84/status/2064858487675670625) | — | [link](https://zhuanlan.zhihu.com/p/2047925274310972651) |
 | 48 | 6/9 | [什么是控制论？控制论是AI的上辈子吗？](什么是控制论？控制论是AI的上辈子吗？.md) | [link](https://x.com/snowboat84/status/2064496706042069340) | — | [link](https://zhuanlan.zhihu.com/p/2047548601182823378) |
