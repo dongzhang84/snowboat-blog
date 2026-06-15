@@ -58,13 +58,13 @@
 
 这条路是美国独有的。几乎在同一时间，中国走的是完全相反的方向：太空进入权没有交给私人，反而被更紧地攥进国家手里，国网和千帆这两张巨型星座都是国家级工程。所以接下来这篇文章拆解的，本质是一个美国式的实验，世界上别的地方大多还站在它的对面看着。
 
-# 二、这是一台什么样的机器
+# 二、SpaceX是一台什么样的机器
 
 很多人到今天还以为SPCX是"那家造火箭的公司"。这是个不小的低估。今天挂在纳斯达克上的这个实体，是一套很罕见的东西：从发射到联网、从芯片到AI，它几乎把一整条链自己包圆了。
 
 ## 2.1 四条命脉
 
-它握着四样东西，这里一条条拆开看。
+SpaceX握着四样东西，这里一条条拆开看。
 
 第一条是火箭与飞船，也就是进出太空的能力本身。当家的猎鹰9号已经是全球最可靠、最便宜的入轨工具，一年发射上百次，把对手远远甩在身后。而真正押注未来的是Starship，一枚目标完全可回收、运力100到150吨的超级火箭。到2025年10月，它已经做了11次整体试飞，3次成功用发射塔的"筷子"机械臂在空中夹住返回的助推器，2026年又开始试飞运力更大的新一代。如果Starship按计划成熟，入轨成本还会再掉一个数量级，Musk喊出的远期目标是每公斤10美元。东西想上天，先得过它这一关，谁攥住了这道关口，谁就站在所有太空生意的最上游。
 
@@ -78,9 +78,11 @@
 
 ## 2.2 野心从火星转向月球
 
-值得留意的是，这套野心最近调了重心。火星仍是被反复讲述的终点，但在IPO这个语境里，那个更近、更可融资、也更快迭代的故事，变成了月球和近地轨道上的算力。
+SpaceX的初心是登陆火星。2002年Musk创办这家公司，目标只有一个：让人类成为跨行星物种，说穿了就是去火星、在火星上建城。二十多年里，从猎鹰到Starship，它几乎所有的技术路线都是奔着火星去的，火星至今仍是它对外反复讲述的终点。
 
-理由相当务实。去火星要等每26个月一次的行星窗口，去月球每10天就能发射一次，窗口越密，迭代越快，商业兑现就越早。2026年初，Musk公开把近期重心摆到月球上，新版蓝图相当激进：在月球建厂，批量制造AI卫星，再用一台巨型电磁弹射器（他称之为"质量投射器"）把卫星甩上轨道，在太空里架起靠太阳能供电的巨型数据中心。
+但最近，它把近期的重心从火星挪到了月球，原因有两层。一层是配合美国的国家任务：NASA的Artemis（阿尔忒弥斯）登月计划早在2021年就选中SpaceX的Starship当载人登月的着陆器，美国重返月球这一步，很大程度上要靠它落地（尽管Starship一再延期，Artemis的登月时间已经推到2028年以后，NASA甚至开始物色备选方案）。另一层，是Musk自己在月球上画的一张更激进的商业蓝图。
+
+商业这层的理由也很务实。去火星要等每26个月一次的行星窗口，去月球每10天就能发射一次，窗口越密，迭代越快，商业兑现就越早。Musk给月球画的蓝图很大：在月球建厂，批量制造AI卫星，再用一台巨型电磁弹射器（他称之为"质量投射器"）把卫星甩上轨道，在太空里架起靠太阳能供电的巨型数据中心。
 
 这套构想把前面四条命脉串成了一个闭环：火箭把设备运过去，月球建厂，造出AI卫星，在轨算力再反哺xAI。听上去像科幻，但它解释了一件外人常觉得拼凑的事，为什么AI和太空会被装进同一家公司。
 
@@ -358,6 +360,8 @@ Starlink今天领先得离谱。它在轨的卫星数以千计、总量已经上
 - [All 11 xAI co-founders have now left Elon Musk's AI company](https://thenextweb.com/news/xai-all-cofounders-departed-musk-spacex-rebuild) - The Next Web，xAI联合创始人全部离开
 - [Privacy Commissioner investigation into the Grok chatbot and sexualized deepfakes](https://www.priv.gc.ca/en/opc-news/news-and-announcements/2026/nr-c_260611/) - 加拿大隐私专员公署，Grok生成非自愿图像的监管调查
 - [Elon Musk Says SpaceX Is Pivoting From Mars to the Moon](https://singularityhub.com/2026/02/12/elon-musk-says-spacex-is-pivoting-from-mars-to-the-moon/) - Singularity Hub，火星转月球、质量投射器
+- [NextSTEP-2 H: Human Landing System](https://www.nasa.gov/humans-in-space/nextstep-h-human-landing-system/) - NASA，2021年选定Starship为Artemis载人登月着陆器
+- [Report criticizes delays in Artemis lunar lander development](https://spacenews.com/report-criticizes-delays-in-artemis-lunar-lander-development/) - SpaceNews，Starship HLS延期、Artemis登月推迟、NASA物色备选
 - [SpaceX COO Shotwell says Tesla tie-up 'might make Elon's life a little easier'](https://www.cnbc.com/2026/06/12/spacex-coo-shotwell-tesla-deal-makes-elons-life-a-little-easier.html) - CNBC，上市当天Shotwell关于特斯拉合并的表态
 - [Dan Ives predicts 80%-90% chance of SpaceX-Tesla merger by early 2027](https://finance.yahoo.com/markets/stocks/articles/dan-ives-predicts-80-90-133111705.html) - Yahoo Finance / Wedbush，反向收购特斯拉的概率与时间窗
 - [Walter Isaacson Corrects Reporting on Musk and Starlink in Ukraine](https://www.mediaite.com/media/walter-isaacson-corrects-reporting-on-elon-musk-cutting-ukrainian-militarys-access-to-starlink/) - Mediaite，克里米亚Starlink"地理围栏未开通"的更正版本
