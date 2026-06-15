@@ -30,11 +30,13 @@
 
 ## 1.2 国家退场，私人接手
 
-转折发生得很安静。登月的政治激情退潮后，航天预算被反复削减，载人航天慢慢变成一项昂贵、缓慢、风险极高的遗产工程。国家没有离开太空，但它开始把越来越多的活儿外包出去：发射、补给，后来连载人也外包。
+转折是从冷战落幕开始的。1991年苏联解体，太空竞赛的政治发动机熄了火，那个"不计成本也要赢"的理由没有了。预算被反复削减，政府航天陷进一段又贵又慢的停滞：航天飞机老化又出过事故，载人项目越来越多靠国际合作勉强维持。太空还是国家在管，只是国家越来越想给自己减负。
 
-钻进这个缝隙的，是一家2002年成立的小公司。它靠创始人卖掉支付公司换来的约一亿美元起步，头三次发射全部失败，第四次再失败就要关门，结果2008年第四次成了。
+不过有一点要先说清楚：私人公司搞太空，SpaceX远不是第一家。早在阿波罗时代，火箭本身就是波音、洛克希德这些私人承包商造的，只不过方向、出钱和所有权都归政府。也有人想完全自己干：1982年，一枚叫Conestoga的火箭成为第一枚私人出资飞上太空的火箭，还催生了1984年美国的《商业太空发射法》。九十年代到两千年代又来过一波，Beal、Kistler这些私人火箭公司大多把钱烧光倒掉，活下来的没几家。SpaceX在2002年成立，和2000年的Blue Origin、2004年的Virgin Galactic一样，都是这一拨"新太空"创业潮里的一员，它是后来者，不是开创者。
 
-它差点没活到自己最颠覆的那个发明。第四次发射成功后没几个月，NASA给了它一份约16亿美元的货运补给合同，几乎是把这家快烧光钱的公司从悬崖边拉了回来。这正是前面说的"外包"：国家把活儿包出去，私人公司拿订单活命，再用订单练出本事。事后看，这大概是NASA做过的最划算的投资之一。
+真正给这拨创业撬开门的，是政府自己。2006年，NASA推出一个把空间站货运外包给私人的计划（代号COTS），第一次让私人公司拥有、运营自己的飞船，政府只当客户付钱。后来的商业载人计划又把送人也交了出去。这跟过去"政府全程掌控、按成本加成给承包商付钱"的老办法完全不同。SpaceX正是COTS最早选中的两家公司之一，另一家没多久就出局了。
+
+真正接住这个机会、又熬下来的，是这家当时还名不见经传的小公司。它靠创始人卖掉支付公司换来的约一亿美元起步，头三次发射全部失败，第四次再失败就要关门，结果2008年第四次成了。同年，NASA又给了它一份约16亿美元的货运补给合同，几乎把这家快烧光钱的公司从悬崖边拉了回来。事后看，这大概是NASA做过的最划算的投资之一。
 
 缓过来之后，它干了那件真正改写规则的事：让火箭能重复使用。这件事的分量要用数字才掂得出来。按公开估算口径，航天飞机时代把一公斤东西送上近地轨道是五万美元级的成本（常被引用的数字约5.45万美元），到了能回收的猎鹰9号降到几千美元一级（约2700美元），NASA估算降幅约95%。一枚猎鹰9号今天的发射报价约7400万美元，却能用同一枚一级火箭反复飞。
 
@@ -333,6 +335,8 @@ Starlink今天领先得离谱。它在轨的卫星数以千计、总量已经上
 
 - [SpaceX IPO makes history as largest ever, stock gains 19% on first day](https://www.npr.org/2026/06/12/nx-s1-5855004/stock-ai-spacex-ipo-elon-musk) - NPR，上市日期、发行价、募资额、首日涨幅
 - [India becomes fourth country to land on the moon, first on the south pole](https://www.cnbc.com/2023/08/23/india-chandrayaan-3-moon-mission.html) - CNBC，印度月船三号、各国航天均为国家项目的旁证
+- [Conestoga 1 / Space Services Inc.](https://en.wikipedia.org/wiki/Conestoga_(rocket)) - Wikipedia，1982年第一枚私人出资入太空的火箭，SpaceX并非首家私人航天
+- [Commercial Orbital Transportation Services (COTS)](https://en.wikipedia.org/wiki/Commercial_Orbital_Transportation_Services) - Wikipedia，2006年NASA把近地轨道运输外包给私人的计划
 - [Shenzhou 5 / Yang Liwei](https://en.wikipedia.org/wiki/Shenzhou_5) - Wikipedia，2003年中国成为第三个独立载人航天的国家
 - [SpaceX market cap tops $2 trillion after shares gain 19% on debut](https://www.cnbc.com/2026/06/12/spacex-stock-jumps-2-trillion.html) - CNBC，首日收盘市值过2万亿、Musk成首位万亿富翁
 - [SpaceX IPO raises total of $85.7 billion as underwriters exercise greenshoe](https://www.cnbc.com/2026/06/15/spacex-ipo-spcx-greenshoe-overallotment.html) - CNBC，绿鞋超额配售后总募资857亿
