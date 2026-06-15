@@ -276,13 +276,17 @@ Starlink的对手要分两层看，混在一起讲就乱了。
 
 ## 6.3 岔路三：帝国固化
 
-还有第三种未来，最少被讨论，却可能最深。公司在商业上活得很好，代价是控制权进一步集中。Musk用那套82.4%投票权的架构，把火箭、卫星、AI、社交平台攥在一只手里。
+还有第三种未来，最少被讨论，却可能最深。先说清楚它有个前提：前面那些技术和商业的赌注得真兑现，Starship能成熟、Starlink能撑住。万一这些赌注落空，故事滑向的是上一条坍缩，到不了这一条。可一旦它在商业上真站稳了，公司活得很好，代价就是控制权进一步集中：Musk用那套82.4%投票权的架构，把火箭、卫星、AI、社交平台攥在一只手里。
 
 下一步很可能是特斯拉。上市当天，SpaceX总裁兼COO Gwynne Shotwell就没有排除两家合并的可能，说它们在很多目标上趋同。这不是随口一说：Wedbush的分析师Dan Ives给"SpaceX反向收购特斯拉"打到八到九成的概率，时间窗口押在2027年上半年。账也算得过来，特斯拉2025年营收虽是SpaceX的好几倍，利润却在大幅下滑，而SpaceX利润率高、手里又有双层股权这件趁手工具。更关键的是治理：Musk在特斯拉只有约13%的股权、单层结构，这些年为薪酬方案在法院和股东之间反复拉锯。而在SpaceX，他靠双层股权稳坐82.4%的投票权。把特斯拉装进SpaceX的架构，等于用后者的控制权设计，一次性解决前者多年没解决的"创始人和股东的张力"。
 
 如果那一步也走出去，从太空进入权、全球通信、人工智能，到电动车和机器人，一个时代最关键的几条命脉会汇到一个人手里。这条路上公司的财报可能很漂亮，但真正该问的问题已经从"它值多少钱"，变成了另一个：当一个不对任何选民、任何董事会、任何股东真正负责的人掌握了一个文明级的基础设施帝国，社会该怎么自处。
 
-历史上的标准石油就是这么走到尽头的：它在商业上极其成功，成功到整个社会最后不得不动用反垄断法把它拆开。SpaceX会不会、以及该不该走到那一步，现在都看不准，但那套82.4%投票权的架构，让这个问题第一次变得现实。这是一个关于权力的问题，正在以"买一只股票"这种最平静的方式逼近。
+那它到底算不算垄断？反垄断拦得住吗？先看事实：按送上轨道的吨位算，SpaceX一家已经占了全球约九成，对手要把卫星送上天，多半还得排队买它的发射。这已经是教科书级的市场支配地位，也确实有人主张，凭它的排他性合同和"自家优先"的做法，能立得住一桩反垄断官司。
+
+但真要用反垄断去拆它，比当年拆标准石油难得多，原因有三。一是它主要靠把成本打下来赢的，"因为太便宜、太能干而做大"，反垄断法很难下手。二是政府本身就是它最大的客户、还高度依赖它进太空，亲手削弱一个自己离不开的能力，没人愿意干。三是看近几十年的记录，美国反垄断对几家科技巨头起过诉，却很久没真正拆过谁。
+
+所以更现实的判断是：反垄断这把刀短期内未必砍得动它。标准石油当年是在商业上成功到被社会用反垄断拆开，而SpaceX这套架构，让"会不会、该不该走到那一步"第一次变成一个现实的问题，可拆不拆都还没影，权力却已经先集中到了一个人手里。这是一个关于权力的问题，正在以"买一只股票"这种最平静的方式逼近。
 
 这三条路并不是非此即彼，现实更可能是它们的混合：公司在商业上往第一条走，治理上往第三条滑，同时头顶一直悬着第二条随时退潮的风险。所以别急着问它最后会走哪条，三条其实同时在发生。真正该想清楚的是，当一个文明级的帝国以这种方式成形，社会和投资者各自准备好了没有。
 
@@ -366,6 +370,8 @@ Starlink的对手要分两层看，混在一起讲就乱了。
 - [Report criticizes delays in Artemis lunar lander development](https://spacenews.com/report-criticizes-delays-in-artemis-lunar-lander-development/) - SpaceNews，Starship HLS延期、Artemis登月推迟、NASA物色备选
 - [SpaceX COO Shotwell says Tesla tie-up 'might make Elon's life a little easier'](https://www.cnbc.com/2026/06/12/spacex-coo-shotwell-tesla-deal-makes-elons-life-a-little-easier.html) - CNBC，上市当天Shotwell关于特斯拉合并的表态
 - [Dan Ives predicts 80%-90% chance of SpaceX-Tesla merger by early 2027](https://finance.yahoo.com/markets/stocks/articles/dan-ives-predicts-80-90-133111705.html) - Yahoo Finance / Wedbush，反向收购特斯拉的概率与时间窗
+- [The Antitrust Case Against SpaceX](https://www.thesling.org/the-antitrust-case-against-spacex/) - The Sling，发射约九成吨位的市场支配、排他合同与自我优待的反垄断争议
+- [The Accidental Monopoly](https://spacenews.com/the-accidental-monopoly/) - SpaceNews，SpaceX发射垄断与政府对单一供应商的依赖
 - [Walter Isaacson Corrects Reporting on Musk and Starlink in Ukraine](https://www.mediaite.com/media/walter-isaacson-corrects-reporting-on-elon-musk-cutting-ukrainian-militarys-access-to-starlink/) - Mediaite，克里米亚Starlink"地理围栏未开通"的更正版本
 
 ---
