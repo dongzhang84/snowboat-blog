@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 520" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+.arrow { stroke: var(--fg-muted); stroke-width: 1.6; fill: none; marker-end: url(#arrow); }
+.accent-num { font-size: 15px; font-weight: 600; fill: var(--accent); }
+</style>
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8.5" refY="5" orient="auto" markerUnits="strokeWidth">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="var(--fg-muted)"/>
+</marker>
+</defs>
+<rect class="bg" x="0" y="0" width="680" height="520"/>
+
+<text class="title" x="60" y="42">账本里的真相：现金牛与两个窟窿</text>
+<text class="subtitle" x="60" y="64">SpaceX 2025 年账本：一头现金牛，喂着两个烧钱的窟窿（招股书口径，单位：亿美元）</text>
+
+<rect class="layer" x="200" y="96" width="280" height="66" rx="8"/>
+<text class="th" x="340" y="126" text-anchor="middle">Starlink　经营利润 +44</text>
+<text class="ts" x="340" y="148" text-anchor="middle">现金牛 · 收入约114 · 占总营收六成</text>
+
+<path class="arrow" d="M 305 162 C 280 182, 240 192, 206 206"/>
+<path class="arrow" d="M 375 162 C 400 182, 440 192, 474 206"/>
+
+<rect class="layer" x="70" y="210" width="250" height="96" rx="8"/>
+<text class="eyebrow eyebrow-accent" x="195" y="234" text-anchor="middle">最大的窟窿</text>
+<text class="th" x="195" y="262" text-anchor="middle">xAI</text>
+<text class="ts" x="195" y="282" text-anchor="middle">收入约32</text>
+<text class="accent-num" x="195" y="302" text-anchor="middle">经营亏损 −63.5</text>
+
+<rect class="layer" x="370" y="210" width="250" height="96" rx="8"/>
+<text class="eyebrow eyebrow-accent" x="495" y="234" text-anchor="middle">为 Starship 烧研发</text>
+<text class="th" x="495" y="262" text-anchor="middle">火箭与发射</text>
+<text class="ts" x="495" y="282" text-anchor="middle">收入约41</text>
+<text class="accent-num" x="495" y="302" text-anchor="middle">经营亏损 −6.5</text>
+
+<path class="arrow" d="M 200 306 C 232 332, 282 346, 316 360"/>
+<path class="arrow" d="M 490 306 C 458 332, 408 346, 374 360"/>
+
+<rect class="layer-key" x="180" y="362" width="320" height="84" rx="8"/>
+<text class="eyebrow eyebrow-accent" x="340" y="386" text-anchor="middle">合并报表 · 整体仍亏损</text>
+<text class="th" x="340" y="412" text-anchor="middle">SpaceX 全年收入约187</text>
+<text class="accent-num" x="340" y="434" text-anchor="middle">净亏损 −49.4</text>
+
+<text class="caption-strong" x="60" y="478">一句话：Starlink 赚的钱，被 xAI 和 Starship 一起吃光，还不够填。</text>
+<text class="caption" x="60" y="500">口径以 SpaceX 招股书为准，2025 年，单位：亿美元。</text>
+</svg>
