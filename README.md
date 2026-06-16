@@ -12,11 +12,11 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 49 | 6/10 | [大语言模型的商业痛点](大语言模型的商业痛点.md) | [link](https://x.com/snowboat84/status/2064858487675670625) | — | [link](https://zhuanlan.zhihu.com/p/2047925274310972651) |
 | 48 | 6/9 | [什么是控制论？控制论是AI的上辈子吗？](什么是控制论？控制论是AI的上辈子吗？.md) | [link](https://x.com/snowboat84/status/2064496706042069340) | — | [link](https://zhuanlan.zhihu.com/p/2047548601182823378) |
 | 47 | 6/8 | [什么是世界模型？一个正在被争夺的概念](什么是世界模型？一个正在被争夺的概念.md) | [link](https://x.com/snowboat84/status/2064135804092645410) | — | [link](https://zhuanlan.zhihu.com/p/2046975713832710368) |
-| 46 | 6/5 | [美国的犹太人和华人分别抢到了什么资源？详细分析](美国的犹太人和华人分别抢到了什么资源？详细分析.md) | [link](https://x.com/snowboat84/status/2063049247805837815) | 47k | [link](https://zhuanlan.zhihu.com/p/2046487572025816142) |
-| 45 | 6/4 | [当物理遇上AI：深度学习里的物理元素（下）](当物理遇上AI：深度学习里的物理元素（下）.md) | [link](https://x.com/snowboat84/status/2062686432335184321) | 4.9k | [link](https://zhuanlan.zhihu.com/p/2045400658237469383) |
-| 44 | 6/3 | [细说美国的华人老钱家族](细说美国的华人老钱家族.md) | [link](https://x.com/snowboat84/status/2062326581776011623) | 67k | [link](https://zhuanlan.zhihu.com/p/2045687220712034679) |
-| 43 | 6/2 | [人工智能的工程全景（上）：硬件、电力、训练、推理](人工智能的工程全景（上）：硬件、电力、训练、推理.md) | [link](https://x.com/snowboat84/status/2061962883651731602) | 7.1k | [link](https://zhuanlan.zhihu.com/p/2045026429058953333) |
-| 42 | 6/1 | [什么是 Diffusion Model？图片视频生成模型全网最详细介绍](什么是%20Diffusion%20Model？图片视频生成模型全网最详细介绍.md) | [link](https://x.com/snowboat84/status/2061598950944305295) | 3.8k | [link](https://zhuanlan.zhihu.com/p/2044437335031403804) |
+| 46 | 6/5 | [美国的犹太人和华人分别抢到了什么资源？详细分析](archive/美国的犹太人和华人分别抢到了什么资源？详细分析.md) | [link](https://x.com/snowboat84/status/2063049247805837815) | 47k | [link](https://zhuanlan.zhihu.com/p/2046487572025816142) |
+| 45 | 6/4 | [当物理遇上AI：深度学习里的物理元素（下）](archive/当物理遇上AI：深度学习里的物理元素（下）.md) | [link](https://x.com/snowboat84/status/2062686432335184321) | 4.9k | [link](https://zhuanlan.zhihu.com/p/2045400658237469383) |
+| 44 | 6/3 | [细说美国的华人老钱家族](archive/细说美国的华人老钱家族.md) | [link](https://x.com/snowboat84/status/2062326581776011623) | 67k | [link](https://zhuanlan.zhihu.com/p/2045687220712034679) |
+| 43 | 6/2 | [人工智能的工程全景（上）：硬件、电力、训练、推理](archive/人工智能的工程全景（上）：硬件、电力、训练、推理.md) | [link](https://x.com/snowboat84/status/2061962883651731602) | 7.1k | [link](https://zhuanlan.zhihu.com/p/2045026429058953333) |
+| 42 | 6/1 | [什么是 Diffusion Model？图片视频生成模型全网最详细介绍](archive/什么是%20Diffusion%20Model？图片视频生成模型全网最详细介绍.md) | [link](https://x.com/snowboat84/status/2061598950944305295) | 3.8k | [link](https://zhuanlan.zhihu.com/p/2044437335031403804) |
 | 41 | 5/29 | [美国税收制度完全指南](archive/美国税收制度完全指南.md) | [link](https://x.com/snowboat84/status/2060511915617779821) | 17k | [link](https://zhuanlan.zhihu.com/p/2043956781592970926) |
 | 40 | 5/28 | [当物理遇上AI：深度学习里的物理元素（上）](archive/当物理遇上AI：深度学习里的物理元素（上）.md) | [link](https://x.com/snowboat84/status/2060145538922844179) | 7.6k | [link](https://zhuanlan.zhihu.com/p/2043573397960099395) |
 | 39 | 5/27 | [一文看懂美国的法律系统](archive/一文看懂美国的法律系统.md) | [link](https://x.com/snowboat84/status/2059795010330251568) | 16k | [link](https://zhuanlan.zhihu.com/p/2043159937757476358) |

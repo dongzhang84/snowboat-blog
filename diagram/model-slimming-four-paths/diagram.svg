@@ -16,15 +16,24 @@
 .caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
 .divider { stroke: var(--divider); stroke-width: 1; }
 .divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+.q-card { fill: #fff1f2; stroke: #fca5b1; stroke-width: 1.4; }
+.d-card { fill: #eff6ff; stroke: #93c5fd; stroke-width: 1.4; }
+.p-card { fill: #f0fdf4; stroke: #86efac; stroke-width: 1.4; }
+.m-card { fill: #fffbeb; stroke: #fcd34d; stroke-width: 1.4; }
+.q-accent { fill: #fb7185; }
+.d-accent { fill: #3b82f6; }
+.p-accent { fill: #22c55e; }
+.m-accent { fill: #f59e0b; }
+@media (prefers-color-scheme: dark) { .q-card { fill: #3f1d24; stroke: #9f1239; } .d-card { fill: #172554; stroke: #1d4ed8; } .p-card { fill: #052e16; stroke: #15803d; } .m-card { fill: #422006; stroke: #b45309; } .q-accent { fill: #fda4af; } .d-accent { fill: #93c5fd; } .p-accent { fill: #86efac; } .m-accent { fill: #fcd34d; } }
 </style>
 <rect class="bg" x="0" y="0" width="680" height="720"/>
 
 <text class="title" x="60" y="42">模型瘦身：四条把推理变便宜的路径</text>
 <text class="subtitle" x="60" y="64">目标相同：更小、更快、更省显存；发生阶段和代价完全不同</text>
 
-<rect class="layer-key" x="60" y="96" width="580" height="118" rx="10"/>
-<text class="eyebrow eyebrow-accent" x="82" y="118">QUANTIZATION</text>
-<text class="eyebrow eyebrow-accent" x="618" y="118" text-anchor="end">→ 权重压缩</text>
+<rect class="q-card" x="60" y="96" width="580" height="118" rx="10"/>
+<text class="eyebrow q-accent" x="82" y="118">QUANTIZATION</text>
+<text class="eyebrow q-accent" x="618" y="118" text-anchor="end">→ 权重压缩</text>
 <text class="th" x="82" y="150">量化</text>
 <text class="ts" x="82" y="170">训练后转换</text>
 <line class="divider-accent" x1="220" y1="110" x2="220" y2="196"/>
@@ -32,9 +41,9 @@
 <text class="t" x="238" y="172">70B权重可从140GB降到35GB量级</text>
 <text class="ts" x="238" y="194">代价：低比特精度风险高，激进场景要QAT</text>
 
-<rect class="layer" x="60" y="230" width="580" height="118" rx="10"/>
-<text class="eyebrow" x="82" y="252">DISTILLATION</text>
-<text class="eyebrow eyebrow-accent" x="618" y="252" text-anchor="end">→ 能力迁移</text>
+<rect class="d-card" x="60" y="230" width="580" height="118" rx="10"/>
+<text class="eyebrow d-accent" x="82" y="252">DISTILLATION</text>
+<text class="eyebrow d-accent" x="618" y="252" text-anchor="end">→ 能力迁移</text>
 <text class="th" x="82" y="284">蒸馏</text>
 <text class="ts" x="82" y="304">重新训练学生模型</text>
 <line class="divider" x1="220" y1="244" x2="220" y2="330"/>
@@ -42,9 +51,9 @@
 <text class="t" x="238" y="306">小模型保留大模型大部分能力</text>
 <text class="ts" x="238" y="328">用途：低成本服务版本，或投机解码草稿模型</text>
 
-<rect class="layer" x="60" y="364" width="580" height="118" rx="10"/>
-<text class="eyebrow" x="82" y="386">PRUNING / NAS</text>
-<text class="eyebrow eyebrow-accent" x="618" y="386" text-anchor="end">→ 删结构</text>
+<rect class="p-card" x="60" y="364" width="580" height="118" rx="10"/>
+<text class="eyebrow p-accent" x="82" y="386">PRUNING / NAS</text>
+<text class="eyebrow p-accent" x="618" y="386" text-anchor="end">→ 删结构</text>
 <text class="th" x="82" y="418">剪枝</text>
 <text class="ts" x="82" y="438">剪掉低贡献部分</text>
 <line class="divider" x1="220" y1="378" x2="220" y2="464"/>
@@ -52,9 +61,9 @@
 <text class="t" x="238" y="440">Minitron / Puzzletron走组合路线</text>
 <text class="ts" x="238" y="462">代价：单独使用有限，常与量化和蒸馏叠加</text>
 
-<rect class="layer" x="60" y="498" width="580" height="118" rx="10"/>
-<text class="eyebrow" x="82" y="520">MIXTURE OF EXPERTS</text>
-<text class="eyebrow eyebrow-accent" x="618" y="520" text-anchor="end">→ 激活变少</text>
+<rect class="m-card" x="60" y="498" width="580" height="118" rx="10"/>
+<text class="eyebrow m-accent" x="82" y="520">MIXTURE OF EXPERTS</text>
+<text class="eyebrow m-accent" x="618" y="520" text-anchor="end">→ 激活变少</text>
 <text class="th" x="82" y="552">MoE</text>
 <text class="ts" x="82" y="572">训练时决定架构</text>
 <line class="divider" x1="220" y1="512" x2="220" y2="598"/>
