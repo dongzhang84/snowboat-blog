@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 53 | 6/17 | [什么是耗散结构理论？它和AI有关系吗？](什么是耗散结构理论？它和AI有关系吗？.md) | [link](https://x.com/snowboat84/status/2067399314843000842) | — | [link](https://zhuanlan.zhihu.com/p/2050834045269979343) |
 | 52 | 6/15 | [长篇分析：SpaceX未来的展望](长篇分析：SpaceX未来的展望.md) | [link](https://x.com/snowboat84/status/2066674353648046515) | — | [link](https://zhuanlan.zhihu.com/p/2050111242954707033) |
 | 51 | 6/12 | [Vibe Coding把我系统搞崩了，我对此的总结和心得](Vibe%20Coding把我系统搞崩了，这是我对此的总结和心得.md) | [link](https://x.com/snowboat84/status/2065586279010742687) | — | [link](https://zhuanlan.zhihu.com/p/2049039759188800384) |
 | 50 | 6/11 | [人工智能的工程全景（中）：推理，后训练，对齐和安全](人工智能的工程全景（中）：推理，后训练，对齐和安全.md) | [link](https://x.com/snowboat84/status/2065215177029787705) | — | [link](https://zhuanlan.zhihu.com/p/2048317790793339656) |
