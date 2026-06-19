@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 450" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.conn { fill: none; stroke: var(--fg-soft); stroke-width: 1.4; }
+.conn-accent { fill: none; stroke: var(--accent); stroke-width: 1.9; }
+</style>
+
+<defs>
+<marker id="ah" markerWidth="7" markerHeight="7" refX="5.5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#9ca3af" /></marker>
+<marker id="ahA" markerWidth="8" markerHeight="8" refX="6.5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#fb7185" /></marker>
+</defs>
+
+<rect class="bg" width="680" height="450" />
+
+<text class="title" x="60" y="42">输入端：把 Learning 拆成两件相反的事</text>
+<text class="subtitle" x="60" y="64">Vibe Learning ｜ 一快一慢，缺一不可</text>
+
+<rect class="layer" x="280" y="82" width="140" height="34" rx="17" />
+<text class="th" x="350" y="104" text-anchor="middle">我 · 主体</text>
+
+<path class="conn" d="M302,116 Q252,138 187,148" marker-end="url(#ah)" />
+<path class="conn" d="M398,116 Q448,138 513,148" marker-end="url(#ah)" />
+
+<rect class="layer" x="60" y="150" width="250" height="224" rx="10" />
+<text class="eyebrow" x="80" y="172">PULSE · 脉搏学习</text>
+<text class="eyebrow eyebrow-accent" x="290" y="172" text-anchor="end">→ 不脱节</text>
+<text class="th" x="80" y="200">学新、学快</text>
+<text class="ts" x="80" y="220">追正在发生的事，保持在场感</text>
+<line class="divider" x1="80" y1="232" x2="290" y2="232" />
+<text class="ts" x="80" y="256">学什么</text>
+<text class="t" x="140" y="256">快讯 · 趋势 · 信号</text>
+<text class="ts" x="80" y="280">节奏</text>
+<text class="t" x="140" y="280">快 · 小时到天</text>
+<text class="ts" x="80" y="304">注意力</text>
+<text class="t" x="140" y="304">扫描 · 5 分钟</text>
+<text class="ts" x="80" y="328">保鲜</text>
+<text class="t" x="140" y="328">几天 · 快过滤</text>
+<text class="ts" x="80" y="352">场景</text>
+<text class="t" x="140" y="352">刷 X · 追热点</text>
+
+<rect class="layer" x="390" y="150" width="250" height="224" rx="10" />
+<text class="eyebrow" x="410" y="172">DEEP · 深潜学习</text>
+<text class="eyebrow eyebrow-accent" x="620" y="172" text-anchor="end">→ 有内核</text>
+<text class="th" x="410" y="200">学深、学慢</text>
+<text class="ts" x="410" y="220">啃长期有效的东西，搭认知底座</text>
+<line class="divider" x1="410" y1="232" x2="620" y2="232" />
+<text class="ts" x="410" y="256">学什么</text>
+<text class="t" x="468" y="256">经典 · 系统理论</text>
+<text class="ts" x="410" y="280">节奏</text>
+<text class="t" x="468" y="280">慢 · 周到月</text>
+<text class="ts" x="410" y="304">注意力</text>
+<text class="t" x="468" y="304">沉浸 · 1 小时+</text>
+<text class="ts" x="410" y="328">保鲜</text>
+<text class="t" x="468" y="328">几年到几十年</text>
+<text class="ts" x="410" y="352">场景</text>
+<text class="t" x="468" y="352">啃经典 · 学技术</text>
+
+<text class="eyebrow eyebrow-accent" x="350" y="288" text-anchor="middle">升级阀门</text>
+<path class="conn-accent" d="M312,302 L386,302" marker-end="url(#ahA)" />
+<text class="ts" x="350" y="322" text-anchor="middle">复现即升级</text>
+
+<text class="caption-strong" x="60" y="406">一快一慢，缺一不可：Pulse 让我不脱节，Deep 让我有内核。</text>
+<text class="caption" x="60" y="428">升级阀门：脉搏里反复出现、持续勾着我的主题，自动升级为深潜的主题。</text>
+
+</svg>
