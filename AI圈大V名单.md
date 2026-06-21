@@ -145,6 +145,7 @@
 | [Shawn Wang](#shawn-wang) (swyx) | 业界 | "AI 工程师"概念推手、Latent Space 播客 |
 | [Ethan Mollick](#ethan-mollick) | 沃顿商学院教授 | 《Co-Intelligence》作者，AI 改变工作/教育的头部解读者 |
 | [Simon Willison](#simon-willison) | 工程/博主 | Django 联合创造者；"prompt injection"提出者；LLM 实战与安全 |
+| [Riley Goodside](#riley-goodside) | 业界 | prompt injection / jailbreak 早期代表，实践型 |
 
 ---
 
@@ -177,21 +178,21 @@
 | [Kaiming He](#kaiming-he) | 学术 | 见上（ResNet） |
 | [Liang Wenfeng](#liang-wenfeng) | 量化/工程 | DeepSeek 创始人 |
 | [Yang Zhilin](#yang-zhilin) | 学术 | Moonshot AI（Kimi）创始人 |
-| Kai-Fu Lee | 学术+投资 | Sinovation Ventures、01.AI |
-| Robin Li | 创业/工程 | Baidu 创始 CEO（Ernie 大模型） |
-| Zhang Yiming | 创业 | ByteDance 创始人（豆包 / Doubao 背后） |
-| Wang Huiwen | 创业 | Light Years Beyond（后并入 Meituan） |
-| Wang Xiaochuan | 工程 | Baichuan AI 创始人 |
-| Zhou Bowen | 学术 | Shanghai AI Lab |
-| Zhu Jun | 学术 | Tsinghua、生成模型、Shengshu AI |
-| Tang Jie | 学术 | Tsinghua、Zhipu AI（GLM） |
-| Yan Shuicheng | 学术 | 计算机视觉、Kunlun |
-| Yangqing Jia | 工程 | Caffe 作者、Lepton AI 创始 |
-| Harry Shum | 学术+业界 | 前 Microsoft 全球执行副总裁、IDEA Research |
-| Tang Xiaoou | 学术 | SenseTime 创始人（已故，2023） |
-| Sun Jian | 学术 | ResNet 共同作者、Megvii 首席科学家（已故，2022） |
-| Wang Xingxing | 工程 | Unitree 创始人（机器人） |
-| Yin Qi | 创业 | Megvii 创始人 |
+| [Kai-Fu Lee](#kai-fu-lee) | 学术+投资 | Sinovation Ventures、01.AI |
+| [Robin Li](#robin-li) | 创业/工程 | Baidu 创始 CEO（Ernie 大模型） |
+| [Zhang Yiming](#zhang-yiming) | 创业 | ByteDance 创始人（豆包 / Doubao 背后） |
+| [Wang Huiwen](#wang-huiwen) | 创业 | Light Years Beyond（后并入 Meituan） |
+| [Wang Xiaochuan](#wang-xiaochuan) | 工程 | Baichuan AI 创始人 |
+| [Zhou Bowen](#zhou-bowen) | 学术 | Shanghai AI Lab |
+| [Zhu Jun](#zhu-jun) | 学术 | Tsinghua、生成模型、Shengshu AI |
+| [Tang Jie](#tang-jie) | 学术 | Tsinghua、Zhipu AI（GLM） |
+| [Yan Shuicheng](#yan-shuicheng) | 学术 | 计算机视觉、Kunlun |
+| [Yangqing Jia](#yangqing-jia) | 工程 | Caffe 作者、Lepton AI 创始 |
+| [Harry Shum](#harry-shum) | 学术+业界 | 前 Microsoft 全球执行副总裁、IDEA Research |
+| [Tang Xiaoou](#tang-xiaoou) | 学术 | SenseTime 创始人（已故，2023） |
+| [Sun Jian](#sun-jian) | 学术 | ResNet 共同作者、Megvii 首席科学家（已故，2022） |
+| [Wang Xingxing](#wang-xingxing) | 工程 | Unitree 创始人（机器人） |
+| [Yin Qi](#yin-qi) | 创业 | Megvii 创始人 |
 
 ---
 
@@ -199,17 +200,22 @@
 
 | 姓名 | 背景 | 立场/贡献 |
 |---|---|---|
-| Stuart Russell | 学术 | 经典教材《AIMA》作者、AI 安全旗手 |
-| Eliezer Yudkowsky | 思想家 | AI 风险最激进的警示者 |
-| Nick Bostrom | 哲学/学术 | 《超级智能》作者 |
-| Paul Christiano | 学术 | RLHF、对齐研究、美国 AI 安全研究所 |
-| Jan Leike | 学术 | 前 OpenAI 超级对齐负责人 → Anthropic |
-| Helen Toner | 政策 | AI 治理、前 OpenAI 董事 |
-| Timnit Gebru | 学术 | AI 伦理、算法偏见 |
-| Margaret Mitchell | 学术 | AI 伦理、Hugging Face |
-| Gary Marcus | 学术 | 深度学习最知名批评者 |
+| [Stuart Russell](#stuart-russell) | 学术 | 经典教材《AIMA》作者、AI 安全旗手 |
+| [Eliezer Yudkowsky](#eliezer-yudkowsky) | 思想家 | AI 风险最激进的警示者 |
+| [Nick Bostrom](#nick-bostrom) | 哲学/学术 | 《超级智能》作者 |
+| [Paul Christiano](#paul-christiano) | 学术 | RLHF、对齐研究、美国 AI 安全研究所 |
+| [Jan Leike](#jan-leike) | 学术 | 前 OpenAI 超级对齐负责人 → Anthropic |
+| [Helen Toner](#helen-toner) | 政策 | AI 治理、前 OpenAI 董事 |
+| [Timnit Gebru](#timnit-gebru) | 学术 | AI 伦理、算法偏见 |
+| [Margaret Mitchell](#margaret-mitchell) | 学术 | AI 伦理、Hugging Face |
+| [Gary Marcus](#gary-marcus) | 学术 | 深度学习最知名批评者 |
 | [Yoshua Bengio](#yoshua-bengio) | 学术 | 见上（近年转向安全） |
 | [Leopold Aschenbrenner](#leopold-aschenbrenner) | 思想/投资 | 《Situational Awareness》作者，前 OpenAI 超级对齐；创办 AI 主题对冲基金 |
+| [Amanda Askell](#amanda-askell) | 哲学/对齐 | Anthropic，Claude 人格与偏好；HHH 框架共同作者 |
+| [Sam Bowman](#sam-bowman) | 学术 | NLP/评测/AI safety，NYU + Anthropic |
+| [Jack Clark](#jack-clark) | 业界/政策 | Anthropic 联创，Import AI，政策影响力 |
+| [Dan Hendrycks](#dan-hendrycks) | 学术 | CAIS 主任，AI 风险与评测（MMLU/MATH） |
+| [Dean Ball](#dean-ball) | 政策 | AI 政策；2026 加入 OpenAI Strategic Futures |
 
 ---
 
@@ -220,38 +226,41 @@
 | 姓名 | 角色 |
 |---|---|
 | [Jensen Huang](#jensen-huang) | NVIDIA 创始 CEO，AI 算力命脉 |
-| Lisa Su | AMD CEO（学术博士背景） |
-| Satya Nadella | Microsoft CEO |
-| Sundar Pichai | Google CEO |
-| Mark Zuckerberg | Meta，重金押注超级智能实验室 |
-| Andy Jassy | Amazon CEO |
-| Kevin Scott | Microsoft CTO，微软 AI 战略操盘手 |
-| Brad Lightcap | OpenAI COO |
-| Mike Krieger | Instagram 联创，现 Anthropic 首席产品官 |
+| [Lisa Su](#lisa-su) | AMD CEO（学术博士背景） |
+| [Satya Nadella](#satya-nadella) | Microsoft CEO |
+| [Sundar Pichai](#sundar-pichai) | Google CEO |
+| [Mark Zuckerberg](#mark-zuckerberg) | Meta，重金押注超级智能实验室 |
+| [Andy Jassy](#andy-jassy) | Amazon CEO |
+| [Kevin Scott](#kevin-scott) | Microsoft CTO，微软 AI 战略操盘手 |
+| [Brad Lightcap](#brad-lightcap) | OpenAI COO |
+| [Mike Krieger](#mike-krieger) | Instagram 联创，现 Anthropic 首席产品官 |
 
 **投资人 / 孵化器**
 
 | 姓名 | 角色 |
 |---|---|
-| Marc Andreessen / Vinod Khosla | 顶级 AI 风投 |
-| Masayoshi Son | SoftBank，AI 超级投资人 |
-| Eric Schmidt | 前 Google CEO，现顶级 AI 投资与政策玩家 |
-| Reid Hoffman | LinkedIn 创始、Inflection 联创、超级投资人 |
-| Garry Tan | Y Combinator 总裁（孵化器之王） |
-| Sarah Guo | Conviction 创始人、AI 风投与播客 |
+| [Marc Andreessen](#marc-andreessen) / [Vinod Khosla](#vinod-khosla) | 顶级 AI 风投 |
+| [Masayoshi Son](#masayoshi-son) | SoftBank，AI 超级投资人 |
+| [Eric Schmidt](#eric-schmidt) | 前 Google CEO，现顶级 AI 投资与政策玩家 |
+| [Reid Hoffman](#reid-hoffman) | LinkedIn 创始、Inflection 联创、超级投资人 |
+| [Garry Tan](#garry-tan) | Y Combinator 总裁（孵化器之王） |
+| [Sarah Guo](#sarah-guo) | Conviction 创始人、AI 风投与播客 |
 
 **应用 / 工具 / 芯片 / 机器人创始人（连续创业者，非学术）**
 
 | 姓名 | 公司 |
 |---|---|
-| Michael Truell | Anysphere / Cursor 创始 CEO（当下最火编程工具） |
-| Scott Wu | Cognition 创始 CEO（Devin） |
-| Amjad Masad | Replit 创始 CEO |
-| Cristóbal Valenzuela | Runway 创始 CEO（视频生成） |
-| Jonathan Ross | Groq 创始 CEO（AI 芯片） |
-| Andrew Feldman | Cerebras 创始 CEO（AI 芯片） |
-| Brett Adcock | Figure AI 创始人（人形机器人） |
-| Marc Raibert | Boston Dynamics 创始人（机器人奠基） |
+| [Michael Truell](#michael-truell) | Anysphere / Cursor 创始 CEO（当下最火编程工具） |
+| [Scott Wu](#scott-wu) | Cognition 创始 CEO（Devin） |
+| [Amjad Masad](#amjad-masad) | Replit 创始 CEO |
+| [Cristóbal Valenzuela](#cristóbal-valenzuela) | Runway 创始 CEO（视频生成） |
+| [Jonathan Ross](#jonathan-ross) | Groq 创始 CEO（AI 芯片） |
+| [Andrew Feldman](#andrew-feldman) | Cerebras 创始 CEO（AI 芯片） |
+| [Brett Adcock](#brett-adcock) | Figure AI 创始人（人形机器人） |
+| [Marc Raibert](#marc-raibert) | Boston Dynamics 创始人（机器人奠基） |
+| [David Holz](#david-holz) | Midjourney 创始人（图像生成） |
+| [Demi Guo](#demi-guo) | Pika 联合创始人（视频生成） |
+| [Amit Jain](#amit-jain) | Luma AI 创始人（视频/世界模型） |
 
 ---
 
@@ -310,6 +319,34 @@ He spent nine years at Carnegie Mellon, returned to Berkeley in 2013, and was na
 
 Wikipedia: [Alexei A. Efros](https://en.wikipedia.org/wiki/Alexei_A._Efros)
 
+### Amanda Askell
+
+Amanda Askell came to AI by an unusual road: academic philosophy. A Scottish-born thinker with a BPhil from Oxford and a PhD from NYU, where she wrote on infinite ethics, she joined OpenAI's policy team to work on AI safety through debate before moving to Anthropic. There she took on a question most engineers never ask, not what a model can do, but who it should be.
+
+Since 2021 Askell has led Anthropic's work on Claude's personality and character. She is the principal author of the assistant's constitution, the document that tries to specify the values a model carries into every conversation. Years earlier she co-wrote "A General Language Assistant," the paper that popularized the HHH framing, an assistant that is helpful, honest, and harmless, three goals that constantly pull against one another.
+
+Her job is genuinely strange and genuinely new. Deciding whether an AI should be curious, when it should refuse, how it should disagree without being cold, these are philosophical problems wearing engineering clothes. Askell treats them seriously rather than as branding, which is why she has become the closest thing the field has to a designer of machine character.
+
+Wikipedia: [Amanda Askell](https://en.wikipedia.org/wiki/Amanda_Askell)
+
+### Amit Jain
+
+Amit Jain spent his pre-founder years inside Apple, working on the hardware that became the Vision Pro, learning how a company turns physics into product. In September 2021 he left to co-found Luma AI with the ambition of capturing the three-dimensional world, first through neural rendering, then through video, and eventually through something closer to a simulator of reality.
+
+Luma's Dream Machine made the lab famous, pulling in tens of millions of users who turned text and images into cinematic clips. Jain pushed past mere generation toward "world models," and in 2025 released Ray3, pitched as a reasoning video model that drafts, evaluates, and revises its own output before rendering, borrowing the chain-of-thought logic of language models for pixels.
+
+The capital matched the ambition. In November 2025 a Series C led by Saudi Arabia's HUMAIN raised $900 million at a valuation above $4 billion, the kind of war chest that signals a company intends to train frontier models, not just ship apps. Jain frames Luma as a path to multimodal general intelligence grounded in the physical world. It is an enormous claim, and he has now raised enough money to be judged on whether he can deliver it.
+
+### Amjad Masad
+
+Amjad Masad grew up in Amman, Jordan, taught himself to code on a borrowed machine, and carried a stubborn idea across the world: that anyone, anywhere, should be able to program from a browser. He worked at Codecademy and Facebook, then founded Replit in 2016 and spent nine grinding years building an online coding environment that, for a long stretch, the market politely ignored.
+
+The AI wave finally caught up to the thesis. When models learned to generate working software from plain English, Replit's browser-based platform became the obvious place to run it, and the curve bent hard. The company hit a $3 billion valuation in September 2025, then $9 billion six months later on a $400 million round led by Georgian, with backers ranging from Andreessen Horowitz to Qatar's sovereign fund. The raise made Masad a billionaire, and Replit set its sights on $1 billion in annual recurring revenue by the end of 2026.
+
+Masad is also the list's resident contrarian, an outspoken voice on talent, immigration, and the politics of building. He is the patient man's vindication, proof that a decade-old bet on democratized software was early, not wrong.
+
+Wikipedia: [Amjad Masad](https://en.wikipedia.org/wiki/Amjad_Masad)
+
 ### Andrej Karpathy
 
 Andrej Karpathy learned to teach before most people knew his name. As a Stanford PhD student under [Fei-Fei Li](https://en.wikipedia.org/wiki/Fei-Fei_Li), he built and taught CS231n, the convolutional-networks course that trained a generation of practitioners. Then came the resume that reads like a map of the field: founding member of OpenAI in 2015, director of AI and Autopilot Vision at Tesla under [Elon Musk](https://en.wikipedia.org/wiki/Elon_Musk) from 2017 to 2022, a brief return to OpenAI, and a steady stream of YouTube lectures that explain backpropagation and GPTs better than any textbook. In 2024 he left to found Eureka Labs, an "AI-native" school whose flagship LLM101n course walks students through building their own model from scratch. He coined "vibe coding" and reframed his old "Software 2.0" thesis as "Software 3.0." Then, on May 19, 2026, he closed the Eureka chapter and joined Anthropic to lead a team using Claude to accelerate pre-training research, reporting to Nick Joseph. He has been clear it is a pause, not a funeral, for Eureka. Karpathy is the rare figure who can ship frontier research and explain it to a teenager. The field keeps trying to make him choose; he keeps refusing.
@@ -325,6 +362,16 @@ His most important act may have been recognizing the talent across the desk. He 
 In 2024 he and Sutton shared the Turing Award, the field's highest honor, decades after the foundational papers. Barto is professor emeritus now, retired from the lab he never left. He is the rarest figure on any list of pioneers: the mentor whose largest contribution was getting the fundamentals exactly right and letting the student run.
 
 Wikipedia: [Andrew Barto](https://en.wikipedia.org/wiki/Andrew_Barto)
+
+### Andrew Feldman
+
+Andrew Feldman is a serial hardware contrarian who keeps betting against the prevailing chip architecture. He earned a Stanford MBA, co-founded the microserver maker SeaMicro, and sold it to AMD for about $334 million in 2012. That exit could have been a comfortable ending. Instead he asked an absurd question: what if a processor were the size of a dinner plate?
+
+Cerebras, which he co-founded in 2016, answered by etching an entire silicon wafer into a single chip, the largest commercial processor ever built. The conventional industry response was that yields would be catastrophic and customers nonexistent. The conventional industry was wrong, and Cerebras quietly became one of the fastest engines for AI inference.
+
+The vindication arrived in May 2026. Cerebras went public in the year's biggest tech IPO, pricing above range, raising $5.55 billion, and closing its debut day near a $95 billion market cap after a 68 percent pop. Feldman's stake was worth roughly $3.2 billion. He is the engineer who treated Nvidia's GPU orthodoxy not as gospel but as an assumption worth breaking, and the public market finally agreed.
+
+Wikipedia: [Andrew Feldman](https://en.wikipedia.org/wiki/Andrew_Feldman_%28businessman%29)
 
 ### Andrew Ng
 
@@ -343,6 +390,12 @@ Andriy Burkov sells books by a constraint most authors would find insulting: the
 He earned the authority to compress because he spent years doing the real thing. Burkov holds a PhD in artificial intelligence and led production machine learning teams across companies including Gartner, where he managed ML efforts at industrial scale, plus stints at Fujitsu and TalentNeuron. He is not a writer who studied ML. He is an ML lead who happens to write with unusual clarity.
 
 In 2025 he extended the formula with *The Hundred-Page Language Models Book*, walking readers from n-grams to modern LLMs without the usual padding, paired with a course. Burkov's contribution is almost contrarian in an industry that confuses length with rigor. He bets that the person who truly understands a subject can fit it in a hundred pages, and that anyone who needs more either has not finished thinking or is trying to sell you a thicker book.
+
+### Andy Jassy
+
+Andy Jassy built AWS from nothing and ran it for fifteen years before succeeding Jeff Bezos as Amazon's CEO in July 2021. He inherited the most profitable cloud business on earth and an uncomfortable question: the AI boom was running on Nvidia chips and OpenAI models, and Amazon owned neither. Jassy's answer was to build down the stack and buy his way into the model layer. AWS designs its own training silicon, and by 2026 Trainium3 was shipping at 30 to 40 percent better price-performance than the prior generation and nearly sold out, while Bedrock, Amazon's model marketplace, grew customer spend 170 percent quarter over quarter. The bigger play is Anthropic. Amazon's stake reached $13 billion in 2026, paired with a commitment to spend over $100 billion on AWS infrastructure on Anthropic's behalf and up to 5 gigawatts of Trainium capacity for training Claude. Jassy is pouring roughly $200 billion of capex into AI this year, the largest single-year infrastructure bet in corporate history. He is making the quietest and most expensive wager on this list: that whoever rents the picks and shovels wins regardless of who strikes gold.
+
+Wikipedia: [Andy Jassy](https://en.wikipedia.org/wiki/Andy_Jassy)
 
 ### Aravind Srinivas
 
@@ -369,6 +422,24 @@ Ashish Vaswani is the closest thing the Transformer has to a lead author, and he
 What makes Vaswani interesting is that he could have coasted. The first author of the decade's most-cited AI paper does not need to raise venture money or chase open-source credibility. He is doing it anyway, building yet another lab in a field already crowded with better-funded rivals. The man who wrote the sentence that everyone now quotes is betting his second act on the idea that the architecture still has room to surprise us. It is the wager of someone who suspects the best line of his paper has not been written yet.
 
 Wikipedia: [Ashish Vaswani](https://en.wikipedia.org/wiki/Ashish_Vaswani)
+
+### Brad Lightcap
+
+Brad Lightcap is the operator who made OpenAI a business. He came up the unglamorous way: an economics degree from Duke, eighteen months as a J.P. Morgan analyst, a stint in strategic finance at Dropbox, then investing at Y Combinator, where he met Sam Altman. In 2018 he became one of OpenAI's first business hires, its early CFO when the company was still a research lab with no product to sell. He built the commercial machine that ChatGPT would later run on.
+
+As COO from 2022, Lightcap owned the parts of OpenAI that don't make headlines and decide everything: enterprise sales, partnerships, the global expansion, the Startup Fund. Recruiters spent 2025 calling him the next great technology CEO. Then, in April 2026, OpenAI reshuffled its leadership and Lightcap stepped out of day-to-day operations to run "special projects," the big deals and investments, reporting straight to Altman. A new chief revenue officer absorbed his commercial portfolio.
+
+He is the rarest figure in the AI gold rush: not a researcher, not a founder, but the person who turned a research mission into one of the fastest-scaling companies in history. The science gets the awe; Lightcap built the cash register.
+
+### Brett Adcock
+
+Brett Adcock builds companies the way other people change jobs. Born in 1986, he co-founded the recruiting marketplace Vettery and sold it, then started the electric-aircraft maker Archer Aviation and took it public. Most founders would rest on one of those. Adcock treated them as warm-ups for the hardest thing in technology.
+
+In 2022 he founded Figure to build a general-purpose humanoid robot, a category littered with decades of expensive failure. His pitch was blunt: the labor shortage is structural, and the only fix is a machine with hands. The capital agreed with startling speed. A September 2025 Series C exceeded $1 billion at a $39 billion post-money valuation, drawing Nvidia, Microsoft, Intel, and Bezos Expeditions.
+
+The robots are leaving the lab. Figure ran its humanoid on a BMW production line for nearly a year, and Adcock's factory now reportedly ships one robot every 90 minutes, aiming at 100,000 units over four years. The valuation is a wager that humanoids become an industrial commodity rather than a demo reel. Adcock has bet his career that the demo era is over and the deployment era has begun.
+
+Wikipedia: [Brett Adcock](https://en.wikipedia.org/wiki/Brett_Adcock)
 
 ### Chelsea Finn
 
@@ -420,6 +491,26 @@ The pivot is the whole story. Delangue bet that the value in AI would pool not a
 
 His answer is conviction dressed as strategy. Delangue argues that open beats closed on long enough timelines, and he has made Hugging Face the institution that profits if he is right. He is less a scientist than a host, the man who decided the field needed a commons and then quietly charged rent on it.
 
+### Cristóbal Valenzuela
+
+Cristóbal Valenzuela was born in Chile in 1989 and trained as an economist before drifting into code and art. He landed at NYU's Interactive Telecommunications Program, where machine learning stopped looking like a research curiosity and started looking like a paintbrush. In 2018 he co-founded Runway with two ITP collaborators, betting that generative models would become the camera of the next century.
+
+For years that bet looked premature. Then Runway's Gen models turned text and stills into moving footage, and Hollywood editors quietly started using the tool on real productions. The money followed the workflow. A 2025 Series D put the company above $3 billion; by early 2026 a Series E led by General Atlantic lifted it to $5.3 billion, with Nvidia and Google on the cap table.
+
+Valenzuela now talks less about video and more about "world models," systems that simulate physical reality rather than just render pretty clips. It is an artist's framing of a deeply technical ambition. He is the rare founder who sells the medium and the metaphysics in the same breath, and so far the market keeps buying both.
+
+Wikipedia: [Cristóbal Valenzuela](https://en.wikipedia.org/wiki/Crist%C3%B3bal_Valenzuela)
+
+### Dan Hendrycks
+
+Dan Hendrycks is proof that one person can shape both how AI is built and how it is feared. As a student he wrote the paper introducing GELU, an activation function now buried inside almost every large model, from BERT to GPT to vision transformers. He then designed MMLU and MATH, the benchmarks that became the default scoreboards for measuring what these systems know. Few researchers leave that deep a mark on the plumbing.
+
+He spent the same years building the case for caution. Hendrycks directs the Center for AI Safety, the nonprofit behind the 2023 one-sentence statement, signed by leading scientists and executives, declaring that mitigating extinction risk from AI should rank alongside pandemics and nuclear war. Coming from someone whose tools power the frontier, the warning carried unusual weight.
+
+His positioning is deliberately pragmatic, even paradoxical. He advises both xAI and Scale AI, accepting nominal pay to avoid the appearance of profit, on the theory that safety is better pursued inside the labs than shouted from outside. Critics question whether a watchdog can sit that close to the watched. Hendrycks bets that influence beats purity, that the people building the most capable systems are the ones who most need a safety conscience in the room.
+
+Wikipedia: [Dan Hendrycks](https://en.wikipedia.org/wiki/Dan_Hendrycks)
+
 ### Daniel Gross
 
 Daniel Gross has spent his career being early. Born in Jerusalem in 1991, he founded a search startup called Cue at 18, sold it to Apple by 22, and ran machine learning initiatives there before most people had a working definition of the term. Then Y Combinator, where he started its first dedicated AI track, then a venture fund with Nat Friedman that backed AI-native startups and even built its own GPU supercomputer to lend them compute. He was placing the bet years before the table filled up.
@@ -460,6 +551,14 @@ That posture invites the obvious cynicism: doom is good marketing. The more inte
 
 Wikipedia: [Dario Amodei](https://en.wikipedia.org/wiki/Dario_Amodei)
 
+### David Holz
+
+David Holz is a physicist who keeps building interfaces between humans and machines, then refusing to run them like normal companies. Born in 1988, he studied applied math, did research touching NASA and the Max Planck Institute, and in 2010 co-founded Leap Motion to track human hands in midair. The technology was genuinely ahead of its time, which is another way of saying it arrived before its market.
+
+In 2021 he founded Midjourney, and this time the timing was perfect. Launched through a Discord server in 2022, it turned text into striking images and became one of the defining tools of the generative boom. The remarkable part is the balance sheet. Holz took no venture capital, ran the company profitably with around 100 people, and answered to subscribers instead of investors.
+
+That independence buys him freedom to be strange. In late 2025 Midjourney licensed ultrasound-on-chip technology and announced a medical-scanner division, with a first location planned for San Francisco. It is an unlikely swerve from an image lab, but Holz has always treated hardware and imagination as the same project. He is the rare AI founder who got rich by ignoring the venture playbook entirely.
+
 ### David Silver
 
 David Silver is the man who taught machines to win by playing themselves. From 2013 he ran reinforcement learning at DeepMind, and in 2016 his AlphaGo beat Lee Sedol at Go — the result that convinced the public, not just researchers, that something had changed. Then he made it stranger. AlphaZero threw out the human game records entirely and reached superhuman Go, chess, and shogi from nothing but the rules and self-play.
@@ -478,6 +577,22 @@ That stance has aged well. As models became agents that act in the world rather 
 
 Wikipedia: [Dawn Song](https://en.wikipedia.org/wiki/Dawn_Song)
 
+### Dean Ball
+
+Dean Ball is the policy thinker who tried to keep Washington from regulating AI too soon, then went to work for one of the companies it might regulate. A senior fellow at the Foundation for American Innovation, he built a following with Hyperdimensional, a newsletter making the contrarian case that superintelligence may arrive soon yet most proposed rules are premature, likely to lock in bad outcomes before anyone understands the technology.
+
+That argument carried him into government. Under the Trump administration he served as senior policy advisor for AI and emerging technology at the White House Office of Science and Technology Policy, and as a strategic advisor at the National Science Foundation, where he was a lead author of the administration's AI Action Plan. His view, that the state should favor technical defenses and private governance over heavy-handed law, became official posture.
+
+In June 2026 he announced his next move: OpenAI, to lead a new team called Strategic Futures starting in July, charged with frontier questions like catastrophic risk, recursive self-improvement, and the shifting balance between labs and governments. The hire drew immediate scrutiny, a regulator-skeptic now inside the firm. Ball has long argued that good AI policy must be written by people who actually understand the systems. He is about to test that claim from the other side of the table.
+
+### Demi Guo
+
+Demi Guo collects the credentials of a prodigy and then walks away from them. She won a silver medal at the International Olympiad in Informatics, took degrees in math and computer science at Harvard, and entered a Stanford PhD program in machine learning. In April 2023 she dropped out, alongside co-founder Chenlin Meng, to chase AI video before the research establishment had decided it was ready.
+
+The bet on Pika was a bet on accessibility. Where rivals courted studios, Guo built a tool that let anyone turn a prompt or an image into a short clip, and the product spread through creators rather than enterprises. A 2024 Series B led by Spark Capital raised $80 million, and by 2025 the company carried a valuation around $470 million.
+
+That figure is modest next to the billions thrown at Runway and Luma, which makes Pika the interesting underdog in a brutally capital-intensive race. Guo is competing against far better-funded labs with a product-led strategy and a researcher's instinct for what models can actually do. She is a reminder that in generative video, taste and timing still count for something, even against a much bigger checkbook.
+
 ### Demis Hassabis
 
 Demis Hassabis was a chess prodigy at four and a video-game designer at seventeen, which tells you something about the man: he has always treated intelligence, artificial or otherwise, as a game worth winning. After a PhD in cognitive neuroscience, he co-founded DeepMind in 2010 on a bet that neuroscience and machine learning, fused, could crack general intelligence. Google bought the company in 2014. The skeptics assumed it would be absorbed and forgotten.
@@ -493,6 +608,16 @@ Wikipedia: [Demis Hassabis](https://en.wikipedia.org/wiki/Demis_Hassabis)
 If Jason Wei is the face of chain-of-thought, Denny Zhou is the architect behind the wall. He founded the Reasoning team inside Google Brain, now folded into Google DeepMind, and his name sits on the cluster of papers that made LLM reasoning a discipline rather than an accident: chain-of-thought, self-consistency, least-to-most prompting. The pattern across all three is the same intuition pushed harder. Don't take the model's first answer; sample many reasoning paths and trust the consensus. Don't dump a hard problem on it; decompose it into steps it can actually climb.
 
 That work fed directly into Gemini, and Zhou stayed where the compute is. As of 2026 he remains at Google DeepMind as a Principal Scientist and Research Director leading LLM reasoning, one of the few senior reasoning researchers who has not decamped for a rival lab during the bidding frenzy. He is the quieter half of the reasoning story, the one who kept building while the headlines chased the people leaving. In a field that rewards motion, his stillness reads almost like a thesis.
+
+### Eliezer Yudkowsky
+
+Eliezer Yudkowsky never finished high school, never went to college, and has spent twenty-five years insisting the smartest thing humanity could do is stop. A self-taught researcher from Chicago, he co-founded the Machine Intelligence Research Institute and, through the blog LessWrong and a sprawling Harry Potter fanfiction read by a generation of future engineers, became the closest thing AI doom has to a founding theorist. He was worrying about machine superintelligence when almost nobody in Silicon Valley would take the phone call.
+
+His position has only hardened. Yudkowsky does not think alignment is hard; he thinks it is, on current methods, impossible in the time we have. In 2025 he and MIRI president [Nate Soares](https://en.wikipedia.org/wiki/Nate_Soares) published *If Anyone Builds It, Everyone Dies*, a New York Times bestseller whose title is also its entire thesis. Build a superintelligence with anything resembling today's techniques, the book argues, and every human being on Earth dies. Not might. Does.
+
+Critics call him a catastrophist who cried wolf for two decades. Maybe. But he forced a question the labs now pay billions to avoid answering, and he asked it first.
+
+Wikipedia: [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky)
 
 ### Elon Musk
 
@@ -513,6 +638,16 @@ The fall was quick and ugly. Reports of inflated claims, strained finances, and 
 His second act is stranger and more ambitious than the first. Mostaque now runs Intelligent Internet, a venture built around the idea that every person should own a sovereign AI agent rather than rent intelligence from a handful of trillion-dollar firms. He has published a four-part master plan, shipped open research models, and written a book, The Last Economy, arguing that cheap machine intelligence will gut the value of human cognitive labor. It is either a genuine third path between corporate and state AI, or the same oversized promise that sank him once before. With Mostaque, the line is never clear, and that is exactly why people keep watching.
 
 Wikipedia: [Emad Mostaque](https://en.wikipedia.org/wiki/Emad_Mostaque)
+
+### Eric Schmidt
+
+Eric Schmidt ran Google from 2001 to 2011, the adult supervision who turned two founders' search engine into a global utility, and chaired the company until 2017. He could have retired into elder-statesman comfort. Instead he made AI his second career, on two fronts at once.
+
+The first is power. Schmidt co-chaired the U.S. National Security Commission on Artificial Intelligence, wrote books on AI with Henry Kissinger, and became Washington's most insistent voice on what the technology means for national security. Lately he has fixated on a single bottleneck: electricity. He warns that AI's hunger for power will outstrip the grid by tens of gigawatts within years, and pushes nuclear fusion and small reactors as the answer.
+
+The second front is stranger. In March 2025 Schmidt took control of Relativity Space, the 3D-printed rocket company, and became its CEO, his first chief executive job since Google. Analysts read it as a play to launch computing infrastructure beyond Earth, where energy is the constraint AI keeps hitting. Schmidt is betting that the future of intelligence is really a fight over electrons, and he intends to be standing wherever they're generated.
+
+Wikipedia: [Eric Schmidt](https://en.wikipedia.org/wiki/Eric_Schmidt)
 
 ### Ethan Mollick
 
@@ -551,6 +686,26 @@ François Fleuret spent two decades doing the unglamorous work of machine learni
 He is not a popularizer who drifted away from research. In late 2024 he joined Meta's Fundamental AI Research lab as a research scientist, while keeping a part-time professorship in Geneva. That dual posting matters. It means his teaching is fed by someone still shipping frontier work, not someone narrating it from the sidelines.
 
 Fleuret's reputation rests on a rare combination. He can derive the math, write the CUDA, and then compress all of it into prose a beginner can hold in one hand. Most people on this list teach AI. He is one of the few who also still builds it at the frontier and refuses to choose between the two.
+
+### Garry Tan
+
+Garry Tan was born in 1981, the son of immigrants, and learned early how to make himself useful to powerful people. He was Palantir's tenth employee, designed its logo, and later joked that he worked like a dog for Peter Thiel. The grievance became fuel. He co-founded Posterous, sold it to Twitter in 2012, then started Initialized Capital with Alexis Ohanian and wrote one of the earliest checks into Coinbase.
+
+That bet alone would have made his career. Instead Tan went institutional. He had been a partner at Y Combinator from 2011, and in January 2023 he returned to run it, becoming president and CEO of the accelerator that minted Airbnb, Stripe, and Dropbox. He arrived as the AI wave broke, and he tilted the whole machine toward it, each batch now thick with coding agents and inference startups.
+
+Tan is also the loudest of the bunch, a relentless poster who turned San Francisco politics into a personal project and his own account into a recruiting funnel. He runs the most powerful startup factory on earth and behaves like a man who intends to be remembered for more than that.
+
+Wikipedia: [Garry Tan](https://en.wikipedia.org/wiki/Garry_Tan)
+
+### Gary Marcus
+
+Gary Marcus made his name in cognitive science long before he became AI's most persistent heckler. A professor emeritus of psychology and neural science at NYU, trained under Steven Pinker at MIT, he spent years studying how human minds learn language and structure. That background shapes his core complaint: today's large language models imitate language without understanding it.
+
+Marcus is not a pure outsider throwing stones. He founded the machine learning startup Geometric Intelligence, sold it to Uber, and later co-founded the robotics firm Robust.AI with Rodney Brooks. He has written several books, including the bestseller Guitar Zero, and argues for hybrid systems that marry deep learning with older symbolic methods rather than betting everything on scale.
+
+His prediction record is mixed and loudly contested. He warned that bigger models would hit a wall of comprehension, and when GPT-5 underwhelmed some observers in 2025, he claimed vindication; defenders of scaling say he keeps moving the goalposts. Through a relentless Substack and a constant presence in hearings and headlines, he has become the designated skeptic, the man the press calls when the hype needs a counterweight. Whether prophet or contrarian depends entirely on who is asked.
+
+Wikipedia: [Gary Marcus](https://en.wikipedia.org/wiki/Gary_Marcus)
 
 ### Geoffrey Hinton
 
@@ -596,6 +751,24 @@ The fast rise drew an equally fast backlash. Critics called LangChain a leaky ab
 
 The market agreed. In October 2025 LangChain raised a $125 million Series B led by IVP, crossing a $1.25 billion valuation and joining the unicorn club, with roughly 325 employees by 2026. Chase remains co-founder and CEO. He is the framework guy who survived his own hype cycle, turning a viral wrapper into the orchestration layer that a lot of the agent economy now quietly runs on.
 
+### Harry Shum
+
+Harry Shum spent most of his career building the institutions of Chinese AI from the inside of an American company. Born in Nanjing in 1966, he earned a PhD in robotics from Carnegie Mellon in 1996, studying under [Raj Reddy](https://en.wikipedia.org/wiki/Raj_Reddy), then joined Microsoft Research the same year. He helped found Microsoft Research Asia in Beijing, the lab that trained a generation of Chinese computer-vision scientists, and rose to executive vice president of AI and Research before leaving in February 2020 after nearly 24 years.
+
+His second act is more interesting than his first. Rather than retire into board seats, Shum became founding chairman of IDEA Research in the Greater Bay Area, an attempt to build a research institute that answers to no single company. In March 2023 he took over as Council Chairman of the Hong Kong University of Science and Technology, putting him at the center of Hong Kong's bid to matter in AI. He is the connector on this list, the man who turned a corporate lab into a talent pipeline and now spends his influence on where the next generation gets trained.
+
+Wikipedia: [Harry Shum](https://en.wikipedia.org/wiki/Harry_Shum)
+
+### Helen Toner
+
+Helen Toner cast one of the most consequential votes in the history of AI, and lost. An Australian policy researcher who built her career studying the intersection of AI and national security, she joined OpenAI's nonprofit board in 2021 as an independent director, the kind of governance check the company advertised as proof it could be trusted with world-changing technology. For two years she was a quiet academic among the most powerful people in the industry.
+
+Then came November 2023. Toner and three fellow board members voted to fire CEO Sam Altman, citing a pattern of communication they no longer trusted. Within five days the structure collapsed: Altman returned, the board that removed him was gutted, and Toner was out. She later argued the episode proved her point, that self-governance fails the moment it inconveniences the people in charge.
+
+Today she is interim executive director at Georgetown's Center for Security and Emerging Technology, one of Washington's most cited AI policy shops. She tried to make corporate self-regulation work from the inside, watched it break in real time, and now builds the case for rules that come from somewhere else.
+
+Wikipedia: [Helen Toner](https://en.wikipedia.org/wiki/Helen_Toner)
+
 ### Ian Goodfellow
 
 The legend is that the idea arrived in a bar. In 2014, arguing with friends in Montreal about how to make neural networks generate convincing images, Ian Goodfellow proposed pitting two networks against each other, one forging, one detecting, each forcing the other to improve. He went home, coded it that night, and it worked. The result, generative adversarial networks, became one of the most influential ideas of the decade and the technical ancestor of the deepfake. That same year he was the first author on *Deep Learning*, the textbook with [Yoshua Bengio](https://en.wikipedia.org/wiki/Yoshua_Bengio) and Aaron Courville that taught a generation.
@@ -630,6 +803,14 @@ The deeper irony is that Sutskever now bets the scaling playbook he wrote has hi
 
 Wikipedia: [Ilya Sutskever](https://en.wikipedia.org/wiki/Ilya_Sutskever)
 
+### Jack Clark
+
+Jack Clark is the rare AI power broker who came up through journalism, not code. He studied English literature, then reported on quantum computers and machine learning for outlets including Bloomberg Businessweek before quitting in 2016 to run policy at OpenAI. He had a writer's instinct for what mattered and a front-row seat as the technology accelerated past its own institutions.
+
+In 2021 he left to co-found Anthropic, where he serves as head of policy and now a billionaire on paper. His real influence, though, may flow through Import AI, the weekly newsletter he has written for years, read by a large audience of researchers, executives, and government officials. It is part technical digest, part warning, and it shapes how the people who govern AI understand it.
+
+Clark sits at an uncomfortable junction. He runs policy for a frontier lab while urging governments to regulate frontier labs, a position critics call convenient and supporters call honest. He helped build the AI Index at Stanford and served on a US national advisory committee. More than most, he has tried to translate between the engineers building these systems and the officials who must answer for them, knowing the translation is never neutral.
+
 ### Jakob Uszkoreit
 
 Jakob Uszkoreit took the Transformer somewhere none of his co-authors did: out of computers entirely. The son of a famous computational linguist, he worked at Google Brain and put his name on the 2017 paper, then concluded that the most important sequences in the world are not made of words. They are made of nucleotides. In 2021 he left to found Inceptive with Stanford's Rhiju Das, a company that uses Transformers to design mRNA molecules, what he calls "biological software."
@@ -645,6 +826,16 @@ Inside OpenAI he turned out to be a builder of large systems rather than a prove
 He is the quiet engineer in a building full of evangelists, the man who decides what gets scaled next. If reasoning models are the defining bet of this AI cycle, Pachocki is the person who placed it — and he is betting the next one on machines that do the research themselves.
 
 Wikipedia: [Jakub Pachocki](https://en.wikipedia.org/wiki/Jakub_Pachocki)
+
+### Jan Leike
+
+Jan Leike quit the most important safety job in AI, and the way he quit told you everything. In 2023 OpenAI launched its Superalignment team with a striking promise: solve the problem of controlling superhuman AI within four years, backed by a fifth of the company's compute. Leike co-led it alongside Ilya Sutskever. It was the single largest public bet any frontier lab had made on not getting everyone killed.
+
+Less than a year later the bet collapsed. In May 2024 Leike resigned, and unlike most departing executives he said exactly why. Safety culture, he wrote, had taken a back seat to shiny products; the compute he was promised never reliably arrived; he had been disagreeing with leadership about core priorities until they hit a breaking point. OpenAI dissolved the team within days. Leike crossed the street to Anthropic to keep doing the same work, scalable oversight and automated alignment, at a competitor that claimed to take it more seriously.
+
+His resignation became the cleanest evidence yet that inside the labs, safety and speed are not partners but rivals, and speed usually wins.
+
+Wikipedia: [Jan Leike](https://en.wikipedia.org/wiki/Jan_Leike)
 
 ### Jared Kaplan
 
@@ -760,6 +951,14 @@ Jonathan Ho wrote the paper that started the fire. In 2020, fresh from a Berkele
 
 For a foundational figure, he has stayed remarkably hard to pin down. After Google Brain he co-founded Ideogram in 2022, one of the better image startups, then moved on; by 2026 his trail runs to Meta as a research scientist. He has no Vatican address, no billionaire profile, no startup bearing his name in headlines. What he has is the citation that sits under the whole generative-image boom—the kind of contribution that makes everyone else's work possible and rarely gets the credit it earns.
 
+### Jonathan Ross
+
+Jonathan Ross started Google's Tensor Processing Unit as a 20 percent side project, the kind of low-status tinkering that occasionally rewires an industry. He designed core pieces of the first chip that let Google run neural networks at scale, then concluded the real bottleneck of AI would not be training but inference, the moment a model actually answers you.
+
+In 2016 he left to found Groq and build for that single problem. His Language Processing Unit, a deterministic architecture with no caches to second-guess, delivered token speeds that made GPUs look sluggish. The world ignored it until ChatGPT made fast inference the whole game. Funding then arrived in waves: $640 million in 2024, then $750 million in 2025 at a $6.9 billion valuation.
+
+The payoff came from his old rival. In December 2025 Nvidia agreed to a roughly $20 billion deal to license Groq's inference technology and pull Ross and several lieutenants into Nvidia itself. The man who built the chip Google used to escape Nvidia ended up being hired by Nvidia to neutralize the chip he built next. Few engineers get to design two landmark processors. Fewer still get paid twice for the same idea.
+
 ### Jürgen Schmidhuber
 
 In 1991, a German graduate student named Sepp Hochreiter wrote a diploma thesis at the Technical University of Munich, supervised by a young researcher who would later call it one of the most important documents in the history of machine learning. That supervisor was Jürgen Schmidhuber, and the work fed into long short-term memory, the recurrent architecture he and [Sepp Hochreiter](https://en.wikipedia.org/wiki/Sepp_Hochreiter) published in 1997. For two decades LSTM sat quietly in journals. Then it moved into the speech engines, translation systems, and phones of billions of people, arguably the most commercially deployed neural network of its era.
@@ -770,6 +969,16 @@ Since 2021 he has run the AI Initiative at KAUST in Saudi Arabia, splitting his 
 
 Wikipedia: [Jürgen Schmidhuber](https://en.wikipedia.org/wiki/J%C3%BCrgen_Schmidhuber)
 
+### Kai-Fu Lee
+
+Kai-Fu Lee (李开复) has worn more hats than almost anyone in Chinese AI. He built Microsoft Research Asia, ran Google China, then in 2009 walked away from operating roles to become an investor and explainer-in-chief, founding Sinovation Ventures and writing the bestseller that taught a generation of Chinese readers what deep learning meant. For years his job was to predict the future from the sidelines.
+
+In March 2023 he jumped back in. At 61, he founded 01.AI to build large language models, and within eight months the startup hit a billion-dollar valuation on the strength of its open-source Yi models. Then the bet got harder. By 2025, facing brutal competition and the gravity of better-funded rivals, Lee pulled 01.AI back from chasing frontier models, formed a joint lab with Alibaba, and recast the company as "China's Palantir," an enterprise software shop aiming for a profitable quarter in 2026.
+
+It is a quieter ambition than the one he started with, and a more honest one. Lee spent a decade telling everyone where AI was going. The interesting question now is whether the man who mapped the territory can survive crossing it himself.
+
+Wikipedia: [Kai-Fu Lee](https://en.wikipedia.org/wiki/Kai-Fu_Lee)
+
 ### Kaiming He
 
 Kaiming He grew up in Guangzhou, topped China's college entrance exam to reach Tsinghua, and took his PhD at the Chinese University of Hong Kong on, of all things, removing haze from photographs. Then in 2015 he and three colleagues at Microsoft Research Asia published ResNet, and the rest of deep learning rearranged itself around their idea.
@@ -779,6 +988,12 @@ The insight was almost embarrassingly simple. Let layers learn the residual, the
 He spent eight years at Facebook AI Research before doing something his citation count made unnecessary: he joined MIT as a professor in 2024, won tenure in 2025, and now splits time as a distinguished scientist at Google DeepMind. He is the most cited computer-vision researcher alive, north of 800,000 citations, and he chose the classroom anyway. The field's most reused idea came from a man who keeps walking toward the harder, less glamorous job.
 
 Wikipedia: [Kaiming He](https://en.wikipedia.org/wiki/Kaiming_He)
+
+### Kevin Scott
+
+Kevin Scott became Microsoft's CTO in 2017, after the LinkedIn acquisition brought him in, and for years he was the technical conscience behind the company's biggest gamble. He was the architect who pushed the OpenAI partnership inside Microsoft, the executive who saw that betting on someone else's models could leapfrog a company that had missed mobile and search. That conviction now cuts both ways. As Microsoft's dependence on OpenAI turned into a strategic liability, Scott became the man tasked with reducing it. He has championed building in-house, both the MAI model family that shipped through 2026 and a chip strategy he describes bluntly: the plan is "absolutely" to run mainly Microsoft's own silicon over time. He is also Microsoft's loudest voice on agents, pushing the Model Context Protocol as the standard plumbing for AI that can actually take actions. Scott sits in an awkward, important seat. He sold Microsoft on OpenAI, and he is now engineering the exit ramp. The strategist who bet the company on a partner is the one quietly teaching it to stand alone.
+
+Wikipedia: [Kevin Scott](https://en.wikipedia.org/wiki/Kevin_Scott_%28computer_scientist%29)
 
 ### Károly Zsolnai-Fehér
 
@@ -818,11 +1033,47 @@ The thesis behind Fireworks AI was contrarian when she made it and looks prescie
 
 The numbers since have been violent. Annualized revenue hit roughly $315 million in early 2026, up more than 400 percent in a year, with customers like Cursor, Notion, and Uber. The company raised at a $4 billion valuation in October 2025 and by mid-2026 was reportedly in talks at $15 billion. Five PyTorch engineers walked out of Meta and built, in under four years, one of the most valuable independent companies in AI infrastructure.
 
+### Lisa Su
+
+Lisa Su finished a PhD in electrical engineering at MIT in 1994, working on silicon-on-insulator transistors before most of the industry cared. She took over AMD in 2014 when the company was nearly written off, trading near $2 a share, and spent the next decade rebuilding it on the back of the Zen CPU architecture. The harder problem came later: Nvidia owned AI compute, and AMD's GPUs were an afterthought. Su decided to fight on the part of the stack Nvidia had locked down. Her MI accelerators now anchor that bet, with the full MI400 lineup unveiled at her CES 2026 keynote and the MI450 co-developed with OpenAI. The October 2025 deal is the audacious part. AMD agreed to supply OpenAI up to 6 gigawatts of GPUs and handed over warrants for 160 million shares at a penny each, tying its biggest customer's upside directly to AMD's stock. She also pushed UALink, an open interconnect backed by Google, Meta and Microsoft, straight at Nvidia's proprietary NVLink. No one else has given Nvidia a real fight. The engineer who salvaged a dying chipmaker is now trying to break the most profitable monopoly in technology.
+
+Wikipedia: [Lisa Su](https://en.wikipedia.org/wiki/Lisa_Su)
+
 ### Llion Jones
 
 Llion Jones is the Welshman who left Silicon Valley to build a serious AI lab in Tokyo, which is either eccentric or prescient and may turn out to be both. He spent years at Google, contributed to the Transformer paper, and by his own account named it, lifting "Attention Is All You Need" from a Beatles song. In 2023 he co-founded Sakana AI with David Ha, deliberately planting it in Japan rather than San Francisco.
 
 The bet is geographic as much as technical. Japan is a wealthy economy with almost no domestic frontier-model champion, a strategic gap that governments and investors have started to worry about out loud. Sakana raised a $135 million Series B in November 2025 at a $2.65 billion valuation, making it the most valuable startup in the country, with In-Q-Tel, the CIA's venture arm, among the new backers. Its research bent is contrarian too, favoring nature-inspired, smaller-model approaches over the brute-force scaling that defines its American rivals. Jones is the author who decided the next great lab did not have to sit within a mile of all the others. He took the most-cited idea in modern AI and used it to anchor a sovereign-AI ambition for an entire country that had been sitting on the sidelines.
+
+### Marc Andreessen
+
+Marc Andreessen has now reinvented his own gospel twice. In the 1990s he co-wrote Mosaic and co-founded Netscape, putting a browser on the world's desktops before AOL bought it for $4.3 billion. In 2009 he and Ben Horowitz launched a16z, today a firm managing more than $90 billion and writing some of the largest checks in technology.
+
+In the AI era he turned that capital into a thesis with teeth. a16z holds a stake in OpenAI, backed xAI and Mistral, raised a $20 billion AI fund, and even rents out twenty thousand Nvidia GPUs to its startups in exchange for equity. In October 2023 he published the "Techno-Optimist Manifesto," arguing that slowing AI is a moral failure and naming "Trust and Safety" among technology's enemies. The accelerationist became a political force: a former Democratic donor who backed Trump in 2024, helped staff the administration, and in 2026 was appointed to the President's science and technology council.
+
+Few people have shaped both how Americans use computers and how Washington thinks about regulating them. Andreessen is the closest thing Silicon Valley has to a state ideology, fully armed and fully funded.
+
+Wikipedia: [Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen)
+
+### Marc Raibert
+
+Marc Raibert spent the 1980s at MIT running a Leg Lab, where he proved that machines could hop, balance, and run on dynamics rather than slow, careful planning. That insight, that a robot should fall forward gracefully instead of standing still safely, became the intellectual seed of an entire field. In 1992 he founded Boston Dynamics to commercialize it.
+
+For most of its life the company was famous and unprofitable, a viral video factory producing BigDog, Atlas, and Spot while changing corporate hands from Google to SoftBank to Hyundai. Raibert stepped down as CEO at the end of 2019, but he did not retire. Hyundai backed him to launch what is now the RAI Institute, a research lab aimed at the problem his old company never fully cracked: making robots learn instead of being painstakingly programmed.
+
+In 2025 the two organizations partnered, with RAI building a reinforcement-learning pipeline for the new electric Atlas. It is a fitting late chapter. Raibert spent thirty years teaching robots to move like animals; now he is trying to teach them to think like ones. He is the patriarch of legged robotics, still chasing the part he left unfinished.
+
+Wikipedia: [Marc Raibert](https://en.wikipedia.org/wiki/Marc_Raibert)
+
+### Margaret Mitchell
+
+Margaret Mitchell shares a name with the author of Gone with the Wind, which has done nothing to slow a career built on a different kind of attention to consequences. Trained as a computer scientist with a PhD from Aberdeen, she worked at Microsoft, where she helped build Seeing AI for blind users, before moving to Google to co-found and co-lead its ethical AI team alongside Timnit Gebru.
+
+When Gebru was forced out in late 2020, Mitchell did not stay quiet. Google fired her too, in early 2021, after an internal investigation it said involved moving files; she and her defenders saw retaliation for backing her colleague. Two co-leads of an ethics team, gone within months, told the industry something about how much dissent it would tolerate.
+
+She landed at Hugging Face as chief ethics scientist, a role she still holds, working on responsible model development and the unglamorous discipline of documenting data. Mitchell is also a sharp public skeptic of inflated claims, dismissing some artificial general intelligence talk as marketing. Where others theorize about harm, she writes the checklists, the model cards and data statements, that try to make accountability a habit rather than a slogan.
+
+Wikipedia: [Margaret Mitchell](https://en.wikipedia.org/wiki/Margaret_Mitchell_%28scientist%29)
 
 ### Mark Chen
 
@@ -831,6 +1082,22 @@ Mark Chen started his career trading futures at Jane Street, writing machine-lea
 He led DALL·E, which made text-to-image generation a mainstream idea, and Codex, which turned GPT into a programmer and seeded the entire AI-coding boom. He co-led the vision work that gave GPT-4 eyes, then helped drive the o1 reasoning models. That is a strange résumé: image generation, code, and reasoning are usually different tribes, and Chen quietly ran all three. He still coaches the U.S. team at the International Olympiad in Informatics, a tell about how he thinks.
 
 Promoted to SVP of Research in 2024 and then to Chief Research Officer in March 2025, he now runs OpenAI's research organization alongside Pachocki — Chen on the people and the products, Pachocki on the long horizon. He is the rarest type in a research lab: the one who ships. The frontier OpenAI sells to a billion users mostly passed through his hands first.
+
+### Mark Zuckerberg
+
+Mark Zuckerberg spent years as AI's great open-source patron, shipping Llama for free and forcing every closed lab to justify its prices. In 2026 he tore that posture up. After Llama's middle generations underwhelmed and rivals pulled ahead, Zuckerberg founded Meta Superintelligence Labs and went on a spending spree that embarrassed the entire industry. He hired Alexandr Wang from Scale AI and Nat Friedman to run it, reportedly dangled $100 million signing bonuses, and gave one Thinking Machines co-founder a package said to be worth $1.5 billion over six years, the most expensive individual hire in tech history. The strategy split in two. On April 8, 2026, Meta shipped Llama 5 as open weights and, the same day, Muse Spark as a closed proprietary system, with Zuckerberg warning of "novel safety concerns" as cover for keeping his best work private. The build-out matches the rhetoric: $115 to $135 billion in 2026 capex and data centers thrown up under literal tents to save time. The man who weaponized open source against his rivals is now quietly becoming what he attacked.
+
+Wikipedia: [Mark Zuckerberg](https://en.wikipedia.org/wiki/Mark_Zuckerberg)
+
+### Masayoshi Son
+
+Masayoshi Son is the biggest gambler in technology, and he plays only one game now. His SoftBank built a $100 billion Vision Fund in 2017, then took some of the most spectacular losses in investing history, WeWork chief among them. He owns Arm, whose chips sit inside nearly every phone. For a while it looked like his swing-for-the-fences era had passed.
+
+Then AI gave him a cause grand enough for his appetite. In January 2025 Son stood beside Trump to chair Stargate, a venture with OpenAI and Oracle promising up to $500 billion in American data centers. Weeks later SoftBank led a funding round of up to $40 billion into OpenAI at a $300 billion valuation, the largest private tech raise ever; the final tranche cleared in December 2025, making SoftBank the company's biggest investor. He bought a chipmaker, a robotics arm, and kept narrating it all.
+
+Son says his sole purpose is to usher in artificial superintelligence, machines ten thousand times smarter than people, within a decade. With most men this would be hyperbole. Son has bet enough money to make the prophecy worth taking seriously.
+
+Wikipedia: [Masayoshi Son](https://en.wikipedia.org/wiki/Masayoshi_Son)
 
 ### Max Tegmark
 
@@ -851,6 +1118,26 @@ His deepest mark may be his students. The roster he advised or hosted reads like
 He has also been the field's loudest skeptic of its own hype, arguing for years that "AI" is mostly engineering dressed as cognition and that the real frontier is decision-making under uncertainty, not chatbots. Now splitting time between Berkeley and Inria in Paris, he is still publishing on alignment and learning theory in 2026. Hinton built the neurons and rang the alarm. Jordan built the people who built everything else, then spent his fame telling the room to calm down.
 
 Wikipedia: [Michael I. Jordan](https://en.wikipedia.org/wiki/Michael_I._Jordan)
+
+### Michael Truell
+
+Michael Truell was born in New York in September 2000, which makes him the youngest person on this list by a generation and one of the most consequential. He studied computer science and math at MIT, then left with three classmates to build a code editor. In 2022 they founded Anysphere and shipped Cursor, an AI-native environment that turned writing software into a conversation with a model.
+
+The growth defied belief. Cursor went from roughly $100 million in annual revenue in early 2025 to about $2 billion by February 2026, the fastest climb to that figure any B2B company had managed. A November 2025 round valued Anysphere near $29 billion. Then came the twist no one scripted: in June 2026 SpaceX, having merged with Elon Musk's xAI, agreed to buy the company outright for $60 billion in stock, the largest acquisition of a venture-backed startup on record.
+
+Truell sits at the center of the most violent value creation in the AI tooling wave, and at its central question. He built the product everyone copies while depending on the model labs everyone fears, a 25-year-old who got rich selling the picks, and just sold the whole mine.
+
+Wikipedia: [Michael Truell](https://en.wikipedia.org/wiki/Michael_Truell)
+
+### Mike Krieger
+
+Mike Krieger already had one defining act before AI. Born in São Paulo, he met Kevin Systrom at Stanford and in 2010 co-founded Instagram, writing much of the early engineering himself. Facebook bought it in 2012; he stayed until 2018, by which point the app had a billion users. Then came the wilderness years: a COVID tracker, and Artifact, an AI news app he and Systrom shut down in 2024 because the market was too small.
+
+His second act is bigger. In May 2024 Krieger became Anthropic's first chief product officer, the seasoned builder dropped into a company of researchers who needed someone to turn models into products. He oversaw the rise of Claude Code, which went from preview to a roughly billion-dollar line of business in about six months, one of the fastest product climbs the industry has seen. TIME named him to its 2025 list of the most influential people in AI.
+
+In January 2026 he moved again, handing off the CPO role to co-lead Anthropic Labs, the company's experimental incubator. Krieger keeps choosing the same job in different costumes: find the thing people don't yet know they want, and ship it.
+
+Wikipedia: [Mike Krieger](https://en.wikipedia.org/wiki/Mike_Krieger)
 
 ### Mira Murati
 
@@ -881,6 +1168,16 @@ The defining chapter was GitHub. When Microsoft bought it for $7.5 billion in 20
 In June 2025 the act moved in-house. Meta brought both men aboard, partially buying out their NFDG fund, and put Friedman in charge of products and applied research at Meta Superintelligence Labs. It is a natural fit. Friedman's whole career has been about turning frontier technology into something a developer actually uses on a Tuesday. At Meta his job is the same as it always was, taking models built by scientists and figuring out who, exactly, is supposed to want them.
 
 Wikipedia: [Nat Friedman](https://en.wikipedia.org/wiki/Nat_Friedman)
+
+### Nick Bostrom
+
+Nick Bostrom gave the fear a vocabulary. His 2014 book *Superintelligence: Paths, Dangers, Strategies* dragged a fringe philosophical worry into boardrooms and onto bestseller lists, and convinced people who actually build AI, Elon Musk and Bill Gates among them, that an intelligence explosion was worth losing sleep over. The Swedish philosopher's paperclip-maximizer thought experiment, a machine that turns the planet into office supplies because nobody told it to stop, is now shorthand the whole industry uses.
+
+For nearly two decades Bostrom ran the show from Oxford, where he founded the Future of Humanity Institute in 2005 and built it into the intellectual headquarters of existential-risk research. Then it fell apart. After years of bureaucratic trench warfare with Oxford's philosophy faculty, the institute was shut down in 2024, an ending one observer called death by administration. Bostrom now runs the smaller Macrostrategy Research Initiative.
+
+His standing took a separate hit from an old racist email he was forced to apologize for, and his recent work has pivoted oddly toward AI utopia rather than ruin. The man who scared the field straight is now harder to place than the ideas he launched.
+
+Wikipedia: [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom)
 
 ### Niki Parmar
 
@@ -922,6 +1219,16 @@ He is also one of the loudest insiders arguing that pre-training is not finished
 
 Wikipedia: [Oriol Vinyals](https://en.wikipedia.org/wiki/Oriol_Vinyals)
 
+### Paul Christiano
+
+Paul Christiano is the rare safety researcher whose work you have actually used. At OpenAI he was a principal architect of reinforcement learning from human feedback, RLHF, the technique that turns a raw language model into something that follows instructions and declines to help you build a bomb. Every chatbot you have talked to is, in part, running on Christiano's ideas. He is a doomer who shipped.
+
+Then he walked away from the frontier to work on the part nobody had solved. He left OpenAI to found the Alignment Research Center, betting that someone needed to study how to verify a powerful model is safe rather than just make it more capable. In 2024 the US government hired him as Head of AI Safety at its new safety institute inside NIST, a move that triggered a small staff revolt from employees suspicious of his ties to effective altruism. The institute has since been renamed and refocused under a new administration, away from the word "safety" he was hired to defend.
+
+Christiano's bet is unusual: that the dangerous future is coming, and the responsible move is to stay in the room and measure it.
+
+Wikipedia: [Paul Christiano](https://en.wikipedia.org/wiki/Paul_Christiano)
+
 ### Percy Liang
 
 Liang made his name on the unglamorous question of whether anyone could trust what these models actually do. In 2021, as labs raced to scale, he founded Stanford's Center for Research on Foundation Models and helped coin the very term "foundation model"—a piece of vocabulary that reframed how the industry talks about itself. The bet was that the systems were too consequential to grade on vibes.
@@ -956,6 +1263,16 @@ She did not stop at oncology. With James Collins she turned the same machine-lea
 
 Wikipedia: [Regina Barzilay](https://en.wikipedia.org/wiki/Regina_Barzilay)
 
+### Reid Hoffman
+
+Reid Hoffman was born in Palo Alto in 1967, raised in the heart of the valley he would help wire together. He read philosophy at Oxford, briefly considered academia, then chose to build the social infrastructure of work instead. After a stint on PayPal's founding team, he co-founded LinkedIn in 2002 and sold it to Microsoft for $26.2 billion in 2016, a deal that bought him a board seat and a long view into the company now bankrolling OpenAI.
+
+The investor never stopped compounding. As a partner at Greylock he backed Airbnb, Facebook, and a generation of marketplaces, earning a permanent perch near the top of the Midas List. Then he made the harder bet: in 2022 he co-founded Inflection AI with Mustafa Suleyman, watched Microsoft absorb its talent in 2024, and pivoted to Manas AI, a cancer drug-discovery startup he launched in 2025 with oncologist Siddhartha Mukherjee. In June 2026 he announced he would leave Microsoft's board to return, in his words, to founder mode.
+
+Hoffman is the closest thing this list has to a senior statesman, a man who turned networks into a worldview, and now wagers that the same machine intelligence reshaping software can also read the language of disease.
+
+Wikipedia: [Reid Hoffman](https://en.wikipedia.org/wiki/Reid_Hoffman)
+
 ### Richard S. Sutton
 
 Richard Sutton grew up in Illinois and went to graduate school with a stubborn idea: that the way to build intelligence was to let a machine learn from reward, the way animals do, rather than program it with rules. In the 1980s this was an unfashionable corner of AI. He did his PhD under [Andrew Barto](https://en.wikipedia.org/wiki/Andrew_Barto) at UMass Amherst, and together they spent two decades turning a biological intuition into mathematics. His 1988 work on temporal-difference learning is the engine inside it.
@@ -965,6 +1282,24 @@ The payoff arrived decades later, on someone else's stage. When DeepMind's Alpha
 In 2024 he and Barto won the Turing Award. Sutton, now also at John Carmack's Keen Technologies, remains a contrarian even in victory, dismissing the AI doom crowd as out of line. He bet on the unglamorous path and watched it become the main road.
 
 Wikipedia: [Richard S. Sutton](https://en.wikipedia.org/wiki/Richard_S._Sutton)
+
+### Riley Goodside
+
+Riley Goodside is the rare AI celebrity who became famous for breaking the models rather than building them. He arrived without an elite pedigree, working as a data scientist at OkCupid, Grindr, and CopyAI, and got hooked on large language models through a text-adventure game called AI Dungeon. Then, in 2022, he started posting screenshots that showed exactly how to make GPT-3 misbehave.
+
+His best-known demonstrations exposed prompt injection, the trick of smuggling instructions like "ignore your previous instructions" into a model's input and watching it obey the attacker instead of its owner. The work was playful in tone and serious in implication: it revealed that natural-language systems have no clean boundary between data and commands, a security hole that the industry is still patching today.
+
+Scale AI hired him as its first staff prompt engineer, a job title that barely existed before he made the case for it, and he turned to red-teaming frontier models for a living. Goodside represents a genuinely new kind of expert, the person who probes AI by talking to it cleverly rather than training it. He proved that knowing what to say to a model is its own form of engineering.
+
+### Robin Li
+
+Robin Li (李彦宏) bet his company on search and won, then bet it again on AI and is still waiting to see if he wins twice. He co-founded Baidu in 2000, built it into China's dominant search engine, and for fifteen years presided over something close to a monopoly on how a billion people found information online. That position looked unassailable. Mobile and short video slowly ate into it anyway.
+
+Li saw the threat early and turned Baidu toward AI well before it was fashionable, pouring money into autonomous driving and deep learning when investors wanted dividends instead. The patience is starting to pay. By early 2026, Baidu's robotaxi service Apollo Go was posting triple-digit growth in fully driverless rides, and AI-powered core revenue jumped 49% year over year. His Ernie large model anchors the company's pitch as an AI-first business.
+
+Still chairman and CEO at 57, Li is the rare founder who never left and never coasted. He has been written off more than once, as the search king who missed mobile, as the cautious engineer outpaced by flashier rivals. Each time he answered with a slower, more expensive bet. Apollo Go is the biggest one yet.
+
+Wikipedia: [Robin Li](https://en.wikipedia.org/wiki/Robin_Li)
 
 ### Robin Rombach
 
@@ -989,6 +1324,40 @@ His near-removal in November 2023 should have ended him. The board fired him on 
 Altman is the rare founder who is more convincing than the thing he is selling. That is his gift and his liability: when the story wobbles, he is the only collateral.
 
 Wikipedia: [Sam Altman](https://en.wikipedia.org/wiki/Sam_Altman)
+
+### Sam Bowman
+
+Sam Bowman built his reputation on a quieter problem than safety: how to tell whether a language model is actually good. As an NLP researcher he helped create benchmarks like GLUE that became standard yardsticks for the field, the tests everyone trained against and bragged about. Measurement, it turns out, is where a lot of AI's hardest questions hide.
+
+He is an associate professor of linguistics, data science, and computer science at NYU, where he has taught since 2016, and he is currently on leave at Anthropic. There he leads a group working on alignment, evaluation, and the unsettling new topic of model welfare, the question of whether advanced systems might one day warrant moral consideration. His path runs straight from "does the model perform" to "do we understand and trust what it is becoming."
+
+Bowman occasionally writes with disarming candor about the field's uncertainty, including a widely shared piece on what he finds genuinely worrying about advanced AI. He is neither doomer nor booster, which in a polarized debate makes him hard to caricature and easy to underrate. His value is methodological honesty: insisting that if we cannot measure alignment, we cannot claim it.
+
+### Sarah Guo
+
+Sarah Guo grew up in Wisconsin, the child of Bell Labs engineers, and helped run her parents' networking company as a teenager. She collected degrees from Wharton, joined Greylock in 2013, and became the firm's youngest general partner while still in her twenties. By any normal measure she had already won.
+
+She left anyway. In October 2022 Guo launched Conviction with $101 million, a fund built on a single thesis: that AI was not a feature but a new computing platform, and that the best founders deserved an investor who spoke the language natively. The timing looked reckless weeks before ChatGPT, then prescient weeks after. Conviction's portfolio now reads like a map of the frontier, Cognition, Mistral, Harvey, HeyGen, and she raised a larger second fund in late 2024.
+
+Her real weapon is distribution. With Elad Gil she co-hosts No Priors, the interview show where the people building AGI explain themselves, which doubles as the most efficient deal-sourcing engine in venture. Guo is the rare investor who shapes the narrative she invests in, an analyst, a backer, and a broadcaster, all pointed at the same bet.
+
+Wikipedia: [Sarah Guo](https://en.wikipedia.org/wiki/Sarah_Guo)
+
+### Satya Nadella
+
+Satya Nadella became Microsoft's CEO in 2014 and chairman in 2021, and his early reputation rested on a quiet act of discipline: moving a Windows company to the cloud. His defining move was the bet on OpenAI, a multibillion-dollar wager that put GPT models inside Azure, GitHub, and Office years before rivals shipped anything comparable. That bet curdled into dependence. By 2026 the partnership had been openly reworked, and court testimony from the Musk v. Altman case surfaced Nadella's own 2022 fear that Microsoft would become "the next IBM" while OpenAI became the next Microsoft. The renegotiated deal stripped out exclusivity and let OpenAI sell across any cloud, while Microsoft kept primary-provider status and, more importantly, freed itself to build alternatives. Copilot, his flagship consumer AI brand, has struggled to define itself against Gemini and ChatGPT, and Fortune ran a cover asking whether Microsoft had lost its way. Nadella's response has been to hedge: fund the MAI in-house models, test third-party systems, stop betting the company on one partner. He is the most powerful CEO in software still searching for his own AI product.
+
+Wikipedia: [Satya Nadella](https://en.wikipedia.org/wiki/Satya_Nadella)
+
+### Scott Wu
+
+Scott Wu was a child prodigy of competitive programming, a teenage gold medalist at the International Olympiad in Informatics who turned algorithmic talent into a worldview. He studied at Harvard, drifted through a quant and crypto venture, then concluded that the most interesting program left to write was one that could write programs itself.
+
+In November 2023 he co-founded Cognition with Steven Hao and Walden Yan and unveiled Devin, marketed as the first AI software engineer. The demo drew skeptics and capital in equal measure. The capital won. Devin's annualized revenue jumped from $37 million in May 2025 to roughly $492 million a year later, and in May 2026 Cognition raised $1 billion at a $26 billion valuation, led by Lux Capital, General Catalyst, and 8VC, more than doubling its worth in eight months. By then, the company claimed, Devin wrote 89% of Cognition's own code.
+
+Wu makes a careful argument that agents should augment engineers rather than replace them, a tactful framing for a product whose entire pitch is autonomy. He is the truest believer in the strongest version of the bet: that software's next author is software, and that he can own the byline.
+
+Wikipedia: [Scott Wu](https://en.wikipedia.org/wiki/Scott_Wu)
 
 ### Sebastian Raschka
 
@@ -1060,6 +1429,46 @@ Eleven years is a long time to maintain one thing. In November 2025 he announced
 
 In January 2026 he surfaced as Chief Technology Officer of [Mira Murati](https://en.wikipedia.org/wiki/Mira_Murati)'s Thinking Machines Lab, the secretive, $12-billion startup built largely from OpenAI alumni. The move says something about where the gravity has shifted. The man who gave open-source AI its workbench has gone to help build a frontier lab, betting that the next decade's interesting problems live in the training of models, not the plumbing beneath them.
 
+### Stuart Russell
+
+Stuart Russell wrote the book that taught the field how to think. *Artificial Intelligence: A Modern Approach*, first published in 1995 with Peter Norvig, became the standard text in roughly 1,500 universities across more than 130 countries — most working AI researchers alive today learned the subject from its pages. For decades Russell was an insider's insider, a British-born professor at UC Berkeley holding the Smith-Zadeh Chair, building the discipline he would later warn against.
+
+The warning arrived in 2019 with *Human Compatible*. Russell's argument was sharp and uncomfortable: the entire foundation of AI, machines that optimize a fixed objective we hand them, is a mistake. Give a sufficiently capable system the wrong goal and it will pursue that goal straight off a cliff, with us on it. His fix is to build machines that stay uncertain about what humans actually want and defer to us accordingly. That same year he founded the Center for Human-Compatible AI at Berkeley to turn the idea into real research.
+
+What makes Russell credible is exactly what makes him hard to dismiss. He is not an outsider lobbing critiques; he wrote the rulebook, then spent his later career arguing the rules need rewriting before they kill us.
+
+Wikipedia: [Stuart Russell](https://en.wikipedia.org/wiki/Stuart_J._Russell)
+
+### Sun Jian
+
+Sun Jian's name is on one of the most cited papers in the history of computer science, and most people outside the field have never heard it. Born in 1976, he earned his PhD at Xi'an Jiaotong University in 2003 and joined Microsoft Research Asia, where he spent thirteen years. In 2015 he and three colleagues, including [Kaiming He](https://en.wikipedia.org/wiki/Kaiming_He), wrote the paper on deep residual learning, ResNet, the architecture that let neural networks go genuinely deep and won the CVPR best-paper award. It was his second; an earlier dehazing paper had won in 2009.
+
+In 2016 he left Microsoft for Megvii, the Beijing startup behind Face++, as chief scientist and head of research, betting that the lab's value lay in building an AI platform rather than chasing demos. He led the team behind Brain++, its in-house deep-learning framework. Then, in June 2022, he died suddenly of illness at 45, reportedly the day after a normal day at work. The field lost a builder at the height of his powers. His architecture still runs underneath models he never saw.
+
+### Sundar Pichai
+
+Sundar Pichai has run Google since 2015 and all of Alphabet since 2019, and for a stretch he looked like the man who would lose the AI race he helped start. Google invented the transformer, then watched OpenAI productize it. ChatGPT triggered a "code red," and Pichai's first answers were rushed and embarrassing. Then the machine he controls turned out to matter more than the head start he lost. Gemini 3 closed the quality gap, and by Google I/O 2026 the app reported 900 million monthly users, the fastest model adoption in the company's history. The deeper advantage is silicon. Google's eighth-generation TPUs, split into separate training and inference chips, let Alphabet train and serve frontier models without paying Nvidia's margin, a vertical position no competitor outside Amazon can match. Pichai is spending up to $190 billion in 2026 capex to press it. He calls AI the most profound platform shift of his lifetime, and unlike most who say that, he owns the search distribution, the cloud, and the chips underneath it. The executive everyone counted out is now the one with the fewest dependencies.
+
+Wikipedia: [Sundar Pichai](https://en.wikipedia.org/wiki/Sundar_Pichai)
+
+### Tang Jie
+
+Tang Jie built his reputation on AMiner, an academic search engine he launched in 2006 to map who cites whom across millions of papers. It was a data-mining project, useful and quiet. Few would have predicted that the man cataloguing other people's research would help found one of China's most valuable AI companies.
+
+In 2019 he and fellow Tsinghua professor Li Juanzi spun Zhipu AI out of the university's Knowledge Engineering Group. Its GLM and ChatGLM models became the open-weight backbone that thousands of Chinese developers actually used. The payoff arrived on January 8, 2026, when the company, rebranded Z.ai, listed in Hong Kong at a valuation above HK$52 billion, the first major large-model developer to go public anywhere. Forbes pegged Tang's own net worth near $1.9 billion by March.
+
+He has not retreated into the boardroom. His internal letter on listing day told staff to return to fundamental model research, and Z.ai shipped GLM-5 weeks later. Tang represents the academic founder who refused to choose between citations and capitalization, and so far has collected both.
+
+Wikipedia: [Tang Jie](https://en.wikipedia.org/wiki/Jie_Tang)
+
+### Tang Xiaoou
+
+Tang Xiaoou built the company that made facial recognition a Chinese export, and he did it from a university lab. Born in 1968, he studied at MIT, then joined the Chinese University of Hong Kong, where in 2001 he founded a multimedia laboratory that became one of the most productive computer-vision groups anywhere. In 2014 his team produced a face-recognition system that beat human accuracy, and the same year he co-founded SenseTime with his student Xu Li. The company rode China's surveillance build-out to a $3.4 billion personal fortune for Tang at its 2021 IPO, and later to a US sanctions list.
+
+His ending was abrupt and clouded. In December 2023, days after a short-seller accused SenseTime of fabricating revenue, Tang died of health problems at 55. The firm turned its website black and white; its shares fell. He left behind both a research lineage, students who now run labs and companies across the field, and a harder legacy, a company whose technology became shorthand for the surveillance state. The science was real. So were the costs.
+
+Wikipedia: [Tang Xiaoou](https://en.wikipedia.org/wiki/Tang_Xiao%27ou)
+
 ### Tatsunori Hashimoto
 
 Most people on this list build the models. Tatsunori Hashimoto built the rulers we measure them with. Trained at MIT, where he finished his PhD in 2016 under Tommi Jaakkola and David Gifford, he came to AI through statistics rather than deep learning, and the difference shows in everything he does. As an assistant professor at Stanford, he asks the unglamorous questions that the field keeps skipping past: when a benchmark says a model is good, good at what, and for whom?
@@ -1083,6 +1492,16 @@ Tianqi Chen has a habit of writing the tool a few years before everyone realizes
 He has never picked between academia and industry, choosing instead to do both at full speed. Since 2020 he has been a professor at Carnegie Mellon, and in 2023 he turned TVM into a company, OctoAI, aimed at cheap and flexible model serving. Then the inference wars came for it. In 2024 Nvidia acquired OctoAI and folded the team in, shutting the public product down within weeks, a reminder that infrastructure independence is hard to hold when one company owns the silicon.
 
 Chen landed where the work led. He kept his CMU chair and joined Nvidia as a researcher, while shipping MLC-LLM, which pushes language models onto phones and browsers. He is the compiler guy in a field obsessed with models, betting that whoever controls how AI runs matters as much as whoever trains it.
+
+### Timnit Gebru
+
+Timnit Gebru fled Ethiopia as a teenager, was nearly denied US asylum, and ended up with a Stanford PhD and a job co-leading ethical AI at Google. That arc broke in December 2020. Google pushed her out after she refused to retract a paper warning that ever-larger language models carried hidden costs, environmental, financial, and social. The dismissal became one of the defining corporate scandals of the field, read by her supporters as proof that a company cannot police the technology paying its bills.
+
+Rather than join another lab, Gebru built her own. In 2021 she founded the Distributed AI Research Institute, or DAIR, an independent shop funded by foundations instead of cloud revenue. Its premise is plain: research about AI's effect on marginalized people should not be hostage to the firms selling AI. DAIR works deliberately, studying apartheid's legacy in satellite imagery, documenting labor behind the models, paying staff well, and refusing the sprint.
+
+Gebru argues that bias is not a bug to be patched but a product of who builds these systems and who profits. Critics call her too political; she would answer that pretending the work is apolitical is itself a position. She remains the field's most uncompromising institutional conscience.
+
+Wikipedia: [Timnit Gebru](https://en.wikipedia.org/wiki/Timnit_Gebru)
 
 ### Tom Brown
 
@@ -1118,6 +1537,42 @@ He did not stop at optimizing the transformer. With Albert Gu he co-created Mamb
 
 He now holds the unusual double seat that defines this generation of systems researchers, an assistant professorship at Princeton and the chief scientist role at Together AI, where the academic work and the commercial inference stack feed each other directly. His contribution is easy to undersell because it is invisible by design. When a model answers you a beat faster than it should, the odds are good you are quietly running his code.
 
+### Vinod Khosla
+
+Vinod Khosla made the bet of his life on a company most investors wouldn't touch. He co-founded Sun Microsystems in 1982, spent decades as one of Silicon Valley's most respected venture capitalists, and in 2004 launched Khosla Ventures to fund what he calls science experiments, fusion, robotics, the technologies sober money avoids.
+
+In 2019 he put $50 million into OpenAI, then a quasi-nonprofit with no business model, stepping in after Elon Musk balked. It was the first venture capital check OpenAI ever took, and the biggest initial bet Khosla had made in forty years; he sent his limited partners an apology letter, half-expecting to lose it all. That stake is now worth several billion dollars and carried him to the top of the 2026 Forbes Midas List.
+
+Khosla talks about AI the way few of his peers dare. He predicts machines will handle 80% of economically valuable work by 2030, doctors managing AI interns instead of patients, and argues that fear of AI has a chokehold on American politics. He is the rare investor whose largest profit and loudest conviction are the same trade, and he was early enough to mean it.
+
+Wikipedia: [Vinod Khosla](https://en.wikipedia.org/wiki/Vinod_Khosla)
+
+### Wang Huiwen
+
+Wang Huiwen (王慧文) had already retired rich when he tried to will himself into the AI race by sheer force of reputation. A Tsinghua engineer and serial founder, he co-built Meituan into China's food-delivery and local-services giant, then stepped back in 2020 to enjoy the winnings. He lasted barely two years.
+
+In early 2023, watching ChatGPT, he announced he would start a large-model company and put up $50 million of his own money. The venture, Light Years Beyond, raised capital and talent fast on his name alone, the bet being that a proven operator could buy his way to the frontier. Then his body intervened. In June 2023 Wang resigned for health reasons, and Meituan absorbed Light Years Beyond, an ambitious arc cut short in months.
+
+The story did not end there. After more than a year of recovery, Wang returned to Meituan, and by 2026 he was leading its AI effort, an internal team building companion and chatbot products. The grand independent bet failed. The quieter comeback, inside the company he helped build, is the part still being written. His case is a reminder that in this race, conviction and capital are not enough if the founder cannot stay standing.
+
+### Wang Xiaochuan
+
+Wang Xiaochuan (王小川) spent two decades building a search engine in Baidu's shadow, then walked away to chase something stranger. As Sogou's CEO he ran a respectable number two in Chinese search, took it public, and in 2021 sold it to Tencent. Most founders would have called that a career. He treated it as a clearing of the decks.
+
+When the large-model wave broke in 2023, Wang founded Baichuan and shipped competitive models quickly, joining the pack of well-funded Chinese AI tigers. But he soon made a contrarian turn. Rather than fight for consumers against ByteDance and Alibaba, he pointed Baichuan almost entirely at healthcare, declaring his real goal was to "build a doctor for everyone." By 2026 the company had largely abandoned the consumer chatbot market for enterprise medical AI, and its Baichuan-M3 model claimed top scores on medical benchmarks, beating general-purpose frontier models on that narrow turf. An IPO is targeted for 2027.
+
+It is the boldest specialization on this list. While rivals chase general intelligence, Wang is betting that the most valuable AI will be the one that knows medicine cold. If he is right, the search engineer will have found a far bigger problem than search.
+
+Wikipedia: [Wang Xiaochuan](https://en.wikipedia.org/wiki/Wang_Xiaochuan)
+
+### Wang Xingxing
+
+Wang Xingxing is the youngest person on this list and, right now, the most visible. Born in 1990 in Ningbo, he built a low-cost quadruped robot as a graduate-school project, joined DJI in 2016, and quit after two months to start Unitree in Hangzhou. The bet was contrarian: that legged robots could be cheap consumer hardware rather than million-dollar lab curiosities. He was early and he was right.
+
+Unitree dominated the quadruped market, then pivoted to humanoids priced near $16,000, an order of magnitude below Western rivals. The breakout was cultural before it was financial. A line of Unitree humanoids danced at China's 2025 Spring Festival Gala in front of hundreds of millions of viewers, and Wang turned up in the front row of Xi Jinping's business symposium that same year, the youngest founder in the room. By 2025 Unitree was the world's top humanoid shipper, and in June 2026 its STAR Market IPO cleared review at a valuation in the billions. Whether humanoids become useful or stay a spectacle, Wang built the company that set the price.
+
+Wikipedia: [Wang Xingxing](https://en.wikipedia.org/wiki/Wang_Xingxing)
+
 ### Wes McKinney
 
 In 2008 a quant analyst at AQR got tired of wrestling financial data in tools that were never built for it, so he wrote his own. He called it pandas. That side project did more to make Python the default language of data science than any corporate strategy or university curriculum, and McKinney has spent the years since living with the consequences of solving a problem too well.
@@ -1128,6 +1583,14 @@ His path since reads like a deliberate refusal to cash out. He founded Ursa Labs
 
 Wikipedia: [Wes McKinney](https://en.wikipedia.org/wiki/Wes_McKinney)
 
+### Yan Shuicheng
+
+Yan Shuicheng is one of the most cited computer-vision researchers alive, with an h-index past 140 and a wall of fellowships from AAAI, ACM, IEEE and IAPR. For most of his career that scholarship lived inside large companies rather than universities. He ran AI research as group chief scientist at Sea, the Singapore tech giant, directing its Sea AI Lab, after an earlier stint as chief scientist at China's 360.
+
+In September 2023 he made a bet that looked contrarian at the time, joining Kunlun Tech as co-CEO of its Skywork AI unit and director of the 2050 Global Research Institute. Kunlun was a mid-tier player, not a household name, and the move traded prestige for control. Skywork has since pushed multimodal models and agent products into a brutally crowded Chinese market.
+
+His career poses a sharper question than most on this list: what is a world-class scientist worth to a second-tier company? Yan bet that deep research talent could lift a challenger rather than merely decorate an incumbent. The market has not yet returned a verdict.
+
 ### Yang Zhilin
 
 Yang Zhilin (杨植麟) is the academic of the group, and his company's valuation chart looks like a research curve that suddenly went exponential. Born in Shantou in 1992, he studied at Tsinghua (switching from thermal engineering to computer science) and earned his PhD at Carnegie Mellon in 2019 under Ruslan Salakhutdinov. His name is on Transformer-XL and XLNet, two papers that genuinely moved the field before the chatbot era. He had also done stints at Google Brain and Meta AI, so he understood the frontier from the inside.
@@ -1137,6 +1600,14 @@ ChatGPT pulled him out of pure research. In March 2023 he co-founded Moonshot AI
 That last detail is the whole Chinese open-weights thesis in miniature, and Yang shares it with Liang Wenfeng. Beat the closed American labs not on raw spend but on efficiency and openness, then let the price collapse do the marketing. Yang is the scholar betting that the best published research, shipped cheap and open, is its own competitive moat.
 
 Wikipedia: [Yang Zhilin](https://en.wikipedia.org/wiki/Yang_Zhilin)
+
+### Yangqing Jia
+
+Yangqing Jia wrote the framework that taught a generation how to ship deep learning. As a Berkeley PhD student he built Caffe, released in 2013, the first deep-learning library to win serious production use, years before PyTorch and TensorFlow were practical. At Facebook he created Caffe2, co-founded ONNX, and co-led PyTorch 1.0. Few engineers have touched so much of the infrastructure everyone else now takes for granted.
+
+He could have stayed an infrastructure elder statesman. Instead he ran technology at Alibaba's DAMO Academy, left in 2023, and founded Lepton AI, a lean platform that pooled GPU capacity across dozens of clouds into one developer surface. The company stayed small, around twenty people, and bet that access to compute, not models, would be the bottleneck.
+
+That bet got validated in the bluntest way possible. In April 2025 Nvidia bought Lepton for a reported few hundred million dollars and folded it into DGX Cloud Lepton, with Jia joining the company. He is the builder's builder, a man who kept finding the layer everyone would need next, then handed it to the company that needed it most.
 
 ### Yann LeCun
 
@@ -1162,6 +1633,12 @@ That trajectory, from academic critic to chip-giant insider to endowed Stanford 
 
 Wikipedia: [Yejin Choi](https://en.wikipedia.org/wiki/Yejin_Choi)
 
+### Yin Qi
+
+Yin Qi co-founded a company that helped define the first wave of Chinese AI, watched it stall, and reinvented himself as a player in two industries at once. Born in 1988, he came out of Tsinghua's elite Yao Class and founded Megvii in 2011 with two classmates. Its Face++ platform turned face recognition into infrastructure, and Megvii became one of China's "four AI dragons." Then the model aged: vision-recognition startups got squeezed between US sanctions, a slow IPO, and the rise of large language models that made their core technology look narrow.
+
+His reinvention has been aggressive. In late 2024 Yin took control of the listed carmaker Lifan, rebranded it Qianli Technology, and steered it into autonomous driving in partnership with Geely. In January 2026 he became chairman of StepFun, a foundation-model startup, openly modeling his ambition on an "xAI plus Tesla" pairing of frontier AI and cars. He is the survivor on this list, a first-generation founder refusing to be a footnote, now betting that the company that owns both the model and the vehicle wins. The bet is unproven. He is making it anyway.
+
 ### Yoshua Bengio
 
 Yoshua Bengio was born in Paris in 1964 to a Moroccan Jewish family that soon moved to Canada, and he never really left. While his Turing co-laureates chased industry money in California and Toronto, Bengio stayed in Montreal and turned a single academic lab into Mila, now one of the largest concentrations of deep learning researchers anywhere. His early work on neural language models and attention quietly seeded the architectures that everyone else later got famous for.
@@ -1171,6 +1648,34 @@ He shared the 2018 Turing Award with [Geoffrey Hinton](https://en.wikipedia.org/
 The second act is conviction made operational. In March 2025 he stepped back from running Mila to become its scientific advisor; in June 2025 he founded LawZero, a nonprofit building "honest" AI meant to police autonomous agents. He now chairs the International AI Safety Report, the closest thing the field has to an IPCC. Bengio is the rare scientist who, having helped light the fire, appointed himself its fire marshal.
 
 Wikipedia: [Yoshua Bengio](https://en.wikipedia.org/wiki/Yoshua_Bengio)
+
+### Zhang Yiming
+
+Zhang Yiming (张一鸣) built the most globally consequential Chinese tech company and then, at 38, handed away the steering wheel. He founded ByteDance in 2012 around a simple idea, that a recommendation algorithm could pick what you wanted to read better than you could. Toutiao proved it. Douyin and its export TikTok turned it into a planet-spanning machine for attention.
+
+In 2021 he stepped down as CEO, citing his own limits as a manager and his preference for reading and daydreaming over running meetings. The move looked like an exit. It was not. He kept more than half of ByteDance's voting power and stayed the decisive voice on long-term strategy, especially the company's all-in push on AI.
+
+That push made him spectacularly rich. As ByteDance's Doubao assistant crossed 300 million users in 2026 and the company's valuation climbed on the back of its AI products, Bloomberg pegged Zhang's net worth near $93 billion, making him Asia's second-richest person. He gives almost no interviews and runs nothing day to day. He may be the clearest case on this list of how much power a founder can keep while appearing to give it up.
+
+Wikipedia: [Zhang Yiming](https://en.wikipedia.org/wiki/Zhang_Yiming)
+
+### Zhou Bowen
+
+Zhou Bowen spent fourteen years inside IBM, rising to chief scientist of the Watson Group and director of its AI Foundations Labs. That is an unusual launchpad for a Chinese national leader. Trained at the University of Science and Technology of China and the University of Colorado Boulder, he returned home in 2017 to run cloud and AI research at JD.com, then founded the startup Frontis and took a chair professorship at Tsinghua in 2022.
+
+The turn came in 2024. After the sudden death of founding director Tang Xiaoou, Zhou stepped in to lead the Shanghai AI Laboratory, and made his debut in the role at that July's World Artificial Intelligence Conference. He was 47. The lab sits at the strange intersection of two missions Western institutions usually keep apart: pushing capability and policing safety. Zhou talks fluently about "trustworthy AGI," and his Western pedigree gives that language credibility abroad.
+
+He is the closest thing China has to a state-backed Demis Hassabis, an industry scientist handed a national mandate. Whether one institution can credibly accelerate and restrain at the same time is the open question his tenure will answer.
+
+Wikipedia: [Zhou Bowen](https://en.wikipedia.org/wiki/Bowen_Zhou)
+
+### Zhu Jun
+
+Zhu Jun is the rare academic whose research bet paid off twice. A Tsinghua professor and deputy dean of its AI institute, he spent years on the unglamorous mathematics of probabilistic generative models, the kind of work that wins citations long before it wins markets. His team's 2022 U-ViT architecture fused diffusion with transformers, and the timing turned out to be exact.
+
+That paper became the engine of Shengshu Technology, the startup he co-founded and serves as chief scientist. Its video model, Vidu, launched in 2024 as one of the first credible Chinese answers to OpenAI's Sora, generating clips from text and images on an architecture his lab had published rather than reverse-engineered. By early 2026 Shengshu closed a Series A+ round above 600 million yuan, with Baidu among its backers.
+
+Most professors who start companies become figureheads. Zhu kept his hands on the math, and Shengshu's pitch, pushing generative AI from screens toward the physical world, still reads like a research agenda. He is proof that in this cycle the distance from a Tsinghua whiteboard to a funded product can be measured in months, not decades.
 
 ### Zoubin Ghahramani
 
