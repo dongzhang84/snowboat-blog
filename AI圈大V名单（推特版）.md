@@ -1,7 +1,8 @@
 # AI 界「大 V」名单本
 
-> 整理时间：2026 年 6 月 · 收录 150+ 人
-> ⚠️ **重要提醒**：2025–2026 年是 AI 人才流动最疯狂的两年，跳槽、创业、被反向收购几乎每周都在发生。本表「现状」一栏尽量取最新，但很可能很快过期——这是一份"活名单"，建议你自己随时往里加、往里改。
+> 整理时间：2026 年 6 月 · 收录 130+ 人
+> 📍 **范围说明**：这份名单以美国和西方 AI 圈为主。中国那边的生态、谁该排进来、按什么排，我自己没把握，所以这里不展开，免得乱排误导人。
+> ⚠️ **重要提醒**：2025–2026 年是 AI 人才流动最疯狂的两年，跳槽、创业、被反向收购几乎每周都在发生。本表「现状」一栏尽量取最新，但很可能很快过期，这是一份"活名单"，建议你自己随时往里加、往里改。
 
 ---
 
@@ -170,33 +171,7 @@
 
 ---
 
-## 七、中国 AI 圈大 V（学术 + 产业）
-
-| 姓名 | 背景 | 代表 |
-|---|---|---|
-| Fei-Fei Li (@drfeifei) | 学术 | 见上（ImageNet、World Labs） |
-| Kaiming He | 学术 | 见上（ResNet） |
-| Liang Wenfeng | 量化/工程 | DeepSeek 创始人 |
-| Yang Zhilin | 学术 | Moonshot AI（Kimi）创始人 |
-| Kai-Fu Lee (@kaifulee) | 学术+投资 | Sinovation Ventures、01.AI |
-| Robin Li | 创业/工程 | Baidu 创始 CEO（Ernie 大模型） |
-| Zhang Yiming | 创业 | ByteDance 创始人（豆包 / Doubao 背后） |
-| Wang Huiwen | 创业 | Light Years Beyond（后并入 Meituan） |
-| Wang Xiaochuan | 工程 | Baichuan AI 创始人 |
-| Zhou Bowen | 学术 | Shanghai AI Lab |
-| Zhu Jun | 学术 | Tsinghua、生成模型、Shengshu AI |
-| Tang Jie (@jietang) | 学术 | Tsinghua、Zhipu AI（GLM） |
-| Yan Shuicheng (@shuicheng0320) | 学术 | 计算机视觉、Kunlun |
-| Yangqing Jia (@jiayq) | 工程 | Caffe 作者、Lepton AI 创始 |
-| Harry Shum | 学术+业界 | 前 Microsoft 全球执行副总裁、IDEA Research |
-| Tang Xiaoou | 学术 | SenseTime 创始人（已故，2023） |
-| Sun Jian | 学术 | ResNet 共同作者、Megvii 首席科学家（已故，2022） |
-| Wang Xingxing | 工程 | Unitree 创始人（机器人） |
-| Yin Qi | 创业 | Megvii 创始人 |
-
----
-
-## 八、AI 安全 / 治理 / 思想类大 V
+## 七、AI 安全 / 治理 / 思想类大 V
 
 | 姓名 | 背景 | 立场/贡献 |
 |---|---|---|
@@ -219,7 +194,7 @@
 
 ---
 
-## 九、商业 / 资本 / 操盘手（非学术出身为主，与上面形成对照）
+## 八、商业 / 资本 / 操盘手（非学术出身为主，与上面形成对照）
 
 **巨头掌舵 / 高管**
 
@@ -265,9 +240,9 @@
 ---
 
 ### 用法建议
-- 这份名单按"圈层"分类，方便你按需要追踪某一类人（学术 / 实验室 / 教育 / 开源 / 中国 / 安全）。
+- 这份名单按"圈层"分类，方便你按需要追踪某一类人（学术 / 实验室 / 教育 / 开源 / 安全）。
 - 想真正吃透一个圈子，比起背名单，更有效的是挑 5–10 个人长期跟（看他们 X/博客/论文），名单只是入口。
-- 如果你做教育方向，**第五类（教育/科普型大 V）** 最值得你研究——他们证明了"把硬知识讲清楚"本身就能 bootstrap 出巨大影响力，而且这条路不需要风投。
+- 如果你做教育方向，**第五类（教育/科普型大 V）** 最值得你研究，他们证明了"把硬知识讲清楚"本身就能 bootstrap 出巨大影响力，而且这条路不需要风投。
 
 ---
 
@@ -279,7 +254,7 @@
 
 把"创始人"和"科学家"分开看更清楚。今天这些明星公司的创始人，大部分本来就是研究员，被资本和时代推着下了海。Hassabis、李飞飞、Bengio、Ilya、David Silver、Arthur Mensch、梁文锋、Tri Dao，都是先有学术身份，再有公司。"学者下海"才是这一波创业潮的主线。
 
-纯商业、资本、运营出身，没碰过研究的人，主要挤在第九类那一档，满打满算也就二三十个。而且就算在这一档，很多人也带着技术底子。黄仁勋是工程师，Lisa Su是MIT博士，Pichai、Nadella是工程师转管理，Andreessen、Khosla当年也是写代码、做芯片出身。真正纯做生意、纯玩钱的，是更小的一撮：做投资的Masayoshi Son、Sarah Guo，管运营和财务的Brad Lightcap、Andy Jassy，记者出身的Jack Clark，政策出身的Helen Toner、Dean Ball。
+纯商业、资本、运营出身，没碰过研究的人，主要挤在第八类那一档，满打满算也就二三十个。而且就算在这一档，很多人也带着技术底子。黄仁勋是工程师，Lisa Su是MIT博士，Pichai、Nadella是工程师转管理，Andreessen、Khosla当年也是写代码、做芯片出身。真正纯做生意、纯玩钱的，是更小的一撮：做投资的Masayoshi Son、Sarah Guo，管运营和财务的Brad Lightcap、Andy Jassy，记者出身的Jack Clark，政策出身的Helen Toner、Dean Ball。
 
 Sam Altman是这一小撮里最典型的代表。他在斯坦福念了两年就退学，先创业（Loopt），再做投资（YC总裁），从没做过研究，也不写模型。他的本事是把一帮科学家的想法变成公司、变成钱，写论文、搭架构不是他那一摊。在一个还被基础研究定义的行业里，这种纯操盘手反而稀缺，所以格外扎眼。
 
