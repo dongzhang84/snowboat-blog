@@ -271,6 +271,22 @@
 
 ---
 
+## 小结：盘完这份名单，大 V 到底什么出身？
+
+把上面九类一百六十多人盘下来，你那个直觉是对的。定义AI的人，绝大多数是学术和研究出身，真正"做生意起家"的是少数。
+
+最硬的证据在前四类。深度学习教父、前沿实验室的首席科学家、Transformer的八位作者、学术界顶尖研究者，这四组加起来七十多人，几乎清一色PhD或研究员出身，很多还出自同一批实验室（OpenAI、Google Brain、DeepMind、FAIR）和同几所学校（斯坦福、伯克利、MIT、多伦多、清华）。这个圈子里的硬通货是论文和代表作，不是文凭上的MBA。
+
+把"创始人"和"科学家"分开看更清楚。今天这些明星公司的创始人，大部分本来就是研究员，被资本和时代推着下了海。Hassabis、李飞飞、Bengio、Ilya、David Silver、Arthur Mensch、梁文锋、Tri Dao，都是先有学术身份，再有公司。"学者下海"才是这一波创业潮的主线。
+
+纯商业、资本、运营出身，没碰过研究的人，主要挤在第九类那一档，满打满算也就二三十个。而且就算在这一档，很多人也带着技术底子。黄仁勋是工程师，Lisa Su是MIT博士，Pichai、Nadella是工程师转管理，Andreessen、Khosla当年也是写代码、做芯片出身。真正纯做生意、纯玩钱的，是更小的一撮：做投资的Masayoshi Son、Sarah Guo，管运营和财务的Brad Lightcap、Andy Jassy，记者出身的Jack Clark，政策出身的Helen Toner、Dean Ball。
+
+你点名的Sam Altman，正是这一小撮里最典型的代表。他在斯坦福念了两年就退学，先创业（Loopt），再做投资（YC总裁），从没做过研究，也不写模型。他的本事是把一帮科学家的想法变成公司、变成钱，写论文、搭架构不是他那一摊。在一个还被基础研究定义的行业里，这种纯操盘手反而稀缺，所以格外扎眼。
+
+一句话收尾：AI的"内容"由学者定义，AI的"生意"由少数操盘手主导，两拨人很少重合。Altman、马斯克、黄仁勋之所以家喻户晓，恰恰因为他们站在那条稀缺的、非学术的一侧。
+
+---
+
 ## 人物小传
 
 The list is only an entry point; behind each name is a path worth unpacking. Profiles sit here in alphabetical order, and a linked name in the list above jumps straight down to its entry. Coverage is being filled in category by category, the foundational figures first.
