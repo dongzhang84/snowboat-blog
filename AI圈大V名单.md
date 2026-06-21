@@ -66,6 +66,10 @@
 | [Daniel Gross](#daniel-gross) / [Nat Friedman](#nat-friedman) | 投资/工程 | AI 投资人组合，曾被各大厂争抢 | 现均加入 Meta Superintelligence Labs |
 | [Liang Wenfeng](#liang-wenfeng) | 量化金融/工程 | DeepSeek 创始人 | 在任（中国开源模型代表） |
 | [Yang Zhilin](#yang-zhilin) | 学术 | Moonshot AI（Kimi）创始人 | 在任（2026 年估值约 200 亿美元） |
+| [Jakub Pachocki](#jakub-pachocki) | 学术 | OpenAI 首席科学家 | 2024 年 5 月接替 Ilya 至今 |
+| [Mark Chen](#mark-chen) | 学术 | OpenAI 首席研究官（CRO） | 2025 年 3 月升任 |
+| [Oriol Vinyals](#oriol-vinyals) | 学术 | Google DeepMind 研究副总裁，Gemini 技术共同负责人 | 在任 |
+| [David Silver](#david-silver) | 学术 | AlphaGo/AlphaZero 核心，DeepMind 强化学习负责人 | 2026 年初创办 Ineffable Intelligence（11 亿美元种子轮） |
 
 ---
 
@@ -117,6 +121,9 @@
 | [Robin Rombach](#robin-rombach) | Black Forest Labs 创始 | Stable Diffusion 主作者，现做 FLUX（研究者+创始人） |
 | [Aditya Ramesh](#aditya-ramesh) | OpenAI（VP Research，Sora/Worldsim） | DALL·E 主作者 |
 | [Jonathan Ho](#jonathan-ho) | — | 扩散模型 DDPM 奠基 |
+| [Jason Wei](#jason-wei) | Meta（前 OpenAI/Google） | Chain-of-Thought、涌现能力 |
+| [Denny Zhou](#denny-zhou) | Google DeepMind | LLM 推理（CoT、自洽性） |
+| [Quoc Le](#quoc-le) | Google DeepMind | seq2seq、AutoML、AlphaGeometry |
 
 ---
 
@@ -136,6 +143,8 @@
 | [Chip Huyen](#chip-huyen) | 业界 | MLOps / 实战书作者 |
 | [Andriy Burkov](#andriy-burkov) | 业界 | 《百页机器学习》作者 |
 | [Shawn Wang](#shawn-wang) (swyx) | 业界 | "AI 工程师"概念推手、Latent Space 播客 |
+| [Ethan Mollick](#ethan-mollick) | 沃顿商学院教授 | 《Co-Intelligence》作者，AI 改变工作/教育的头部解读者 |
+| [Simon Willison](#simon-willison) | 工程/博主 | Django 联合创造者；"prompt injection"提出者；LLM 实战与安全 |
 
 ---
 
@@ -155,6 +164,8 @@
 | [Travis Oliphant](#travis-oliphant) | NumPy/SciPy | Quansight |
 | [Lin Qiao](#lin-qiao) | PyTorch 团队、Fireworks AI 创始 | 在任 |
 | vLLM 团队 | 高性能推理 | 开源/学界 |
+| [Harrison Chase](#harrison-chase) | LangChain 创始人 | CEO；2025 年估值 12.5 亿美元 |
+| [Jerry Liu](#jerry-liu) | LlamaIndex 创始人 | CEO；RAG / 文档 agent 生态 |
 
 ---
 
@@ -198,6 +209,7 @@
 | Margaret Mitchell | 学术 | AI 伦理、Hugging Face |
 | Gary Marcus | 学术 | 深度学习最知名批评者 |
 | [Yoshua Bengio](#yoshua-bengio) | 学术 | 见上（近年转向安全） |
+| [Leopold Aschenbrenner](#leopold-aschenbrenner) | 思想/投资 | 《Situational Awareness》作者，前 OpenAI 超级对齐；创办 AI 主题对冲基金 |
 
 ---
 
@@ -448,6 +460,16 @@ That posture invites the obvious cynicism: doom is good marketing. The more inte
 
 Wikipedia: [Dario Amodei](https://en.wikipedia.org/wiki/Dario_Amodei)
 
+### David Silver
+
+David Silver is the man who taught machines to win by playing themselves. From 2013 he ran reinforcement learning at DeepMind, and in 2016 his AlphaGo beat Lee Sedol at Go — the result that convinced the public, not just researchers, that something had changed. Then he made it stranger. AlphaZero threw out the human game records entirely and reached superhuman Go, chess, and shogi from nothing but the rules and self-play.
+
+That work hardened into a thesis. His paper "Reward Is Enough," with [Richard Sutton](https://en.wikipedia.org/wiki/Richard_S._Sutton), argued that the whole zoo of intelligent behavior could emerge from one agent maximizing reward — a deliberate provocation aimed at a field falling in love with imitation learning on human text. For years it read as a minority view while the LLM crowd hoovered up the internet.
+
+In 2026 he put $1.1 billion behind it. Silver left DeepMind in January and surfaced with Ineffable Intelligence, a London startup that raised a record European seed at a $5.1 billion valuation to build AI that learns without human data. It is the boldest bet on this list: a wager that the imitation era is a detour, and that reward, not the internet, is the road to superintelligence.
+
+Wikipedia: [David Silver](https://en.wikipedia.org/wiki/David_Silver_%28computer_scientist%29)
+
 ### Dawn Song
 
 Song came to AI from the adversary's side of the table. A security researcher by training, with a MacArthur grant in 2010 for work on systems security, she spent years probing how software breaks—then turned that paranoid eye on machine learning just as everyone else was celebrating it. The question that animates her is not what AI can do but how it fails, gets fooled, and leaks the data it was trusted with.
@@ -465,6 +487,12 @@ Instead it produced AlphaGo, which beat the world's best Go player in 2016 and f
 He runs Google DeepMind today, and also Isomorphic Labs, his drug-discovery spinout, which closed a 2.1-billion-dollar round in 2026 and is pushing AI-designed molecules toward human trials. Most lab founders chase models. Hassabis chases problems that happen to require models, and the difference shows. He is the rare researcher who built a frontier lab, kept it scientific, and collected a Nobel on the way. The bet on neuroscience paid.
 
 Wikipedia: [Demis Hassabis](https://en.wikipedia.org/wiki/Demis_Hassabis)
+
+### Denny Zhou
+
+If Jason Wei is the face of chain-of-thought, Denny Zhou is the architect behind the wall. He founded the Reasoning team inside Google Brain, now folded into Google DeepMind, and his name sits on the cluster of papers that made LLM reasoning a discipline rather than an accident: chain-of-thought, self-consistency, least-to-most prompting. The pattern across all three is the same intuition pushed harder. Don't take the model's first answer; sample many reasoning paths and trust the consensus. Don't dump a hard problem on it; decompose it into steps it can actually climb.
+
+That work fed directly into Gemini, and Zhou stayed where the compute is. As of 2026 he remains at Google DeepMind as a Principal Scientist and Research Director leading LLM reasoning, one of the few senior reasoning researchers who has not decamped for a rival lab during the bidding frenzy. He is the quieter half of the reasoning story, the one who kept building while the headlines chased the people leaving. In a field that rewards motion, his stillness reads almost like a thesis.
 
 ### Elon Musk
 
@@ -485,6 +513,16 @@ The fall was quick and ugly. Reports of inflated claims, strained finances, and 
 His second act is stranger and more ambitious than the first. Mostaque now runs Intelligent Internet, a venture built around the idea that every person should own a sovereign AI agent rather than rent intelligence from a handful of trillion-dollar firms. He has published a four-part master plan, shipped open research models, and written a book, The Last Economy, arguing that cheap machine intelligence will gut the value of human cognitive labor. It is either a genuine third path between corporate and state AI, or the same oversized promise that sank him once before. With Mostaque, the line is never clear, and that is exactly why people keep watching.
 
 Wikipedia: [Emad Mostaque](https://en.wikipedia.org/wiki/Emad_Mostaque)
+
+### Ethan Mollick
+
+Ethan Mollick teaches management at the University of Pennsylvania's Wharton School, where for years he studied entrepreneurship and the design of games and simulations. That was the warm-up. When ChatGPT arrived, Mollick did something most professors only talk about: he handed the tool to his students, made them use it, and wrote down what happened. The pivot turned a mid-career academic into the most-read explainer of what generative AI actually does to work, schools, and management.
+
+His weapon is the newsletter One Useful Thing, where he runs small experiments and reports them in plain English, refusing both doom and hype. The 2024 book Co-Intelligence distilled the method into a posture: treat the model as a flawed colleague, push it past its comfort zone, keep a human in the loop. It became a New York Times bestseller and landed him on TIME's list of the most influential people in AI.
+
+What sets him apart is calibration. He runs the prompts before he opines, and he updates fast when a new model breaks his old advice. A follow-up book, Co-Existence, is due in late 2026. Mollick is the rare academic who treats the frontier as a lab rather than a lectern, which is exactly why working people trust him over the consultants.
+
+Wikipedia: [Ethan Mollick](https://en.wikipedia.org/wiki/Ethan_Mollick)
 
 ### Fei-Fei Li
 
@@ -550,6 +588,14 @@ That question is the whole story of OpenAI in one line, and Brockman is its most
 
 Wikipedia: [Greg Brockman](https://en.wikipedia.org/wiki/Greg_Brockman)
 
+### Harrison Chase
+
+Harrison Chase launched LangChain as a side project in October 2022, weeks after ChatGPT, while working as an engineer at Robust Intelligence. The timing was almost unfair. Developers everywhere suddenly needed plumbing to connect language models to data, memory, and tools, and Chase had written exactly that. Within months the open-source library became the default starting point for building LLM applications, and the Harvard computer-science graduate found himself running a company instead of a repo.
+
+The fast rise drew an equally fast backlash. Critics called LangChain a leaky abstraction, too many layers wrapping calls a developer could write by hand. Chase answered by building the unglamorous parts: LangSmith for observability and evaluation, then LangGraph for controlling agents that actually run in production. He bet that the hard problem was no longer the demo but the reliability.
+
+The market agreed. In October 2025 LangChain raised a $125 million Series B led by IVP, crossing a $1.25 billion valuation and joining the unicorn club, with roughly 325 employees by 2026. Chase remains co-founder and CEO. He is the framework guy who survived his own hype cycle, turning a viral wrapper into the orchestration layer that a lot of the agent economy now quietly runs on.
+
 ### Ian Goodfellow
 
 The legend is that the idea arrived in a bar. In 2014, arguing with friends in Montreal about how to make neural networks generate convincing images, Ian Goodfellow proposed pitting two networks against each other, one forging, one detecting, each forcing the other to improve. He went home, coded it that night, and it worked. The result, generative adversarial networks, became one of the most influential ideas of the decade and the technical ancestor of the deepfake. That same year he was the first author on *Deep Learning*, the textbook with [Yoshua Bengio](https://en.wikipedia.org/wiki/Yoshua_Bengio) and Aaron Courville that taught a generation.
@@ -590,6 +636,16 @@ Jakob Uszkoreit took the Transformer somewhere none of his co-authors did: out o
 
 The premise is audacious. The same math that predicts the next token in a sentence can, in principle, predict how a strand of mRNA will fold and behave inside a cell, which means you could design vaccines and therapeutics the way you write code. Inceptive has raised around $120 million and, in June 2026, signed a strategic collaboration with Alnylam, a serious RNA-therapeutics company. That partnership matters more than the funding, because it means a real drugmaker is willing to test the idea in the clinic. Uszkoreit is the author who treated the Transformer not as a product but as a tool, and went looking for a problem worth aiming it at. Most of his co-authors are still building chatbots. He is trying to build medicine.
 
+### Jakub Pachocki
+
+Jakub Pachocki grew up in Gdańsk solving competition problems, not training neural networks. He was a six-time finalist of Poland's Informatics Olympiad, won Google Code Jam in 2012, and took ICPC gold the same year — the kind of pedigree that usually leads to a quant desk, not a research lab. He finished a PhD in theoretical computer science at Carnegie Mellon, then joined OpenAI in 2017 and never went back to algorithms-on-paper.
+
+Inside OpenAI he turned out to be a builder of large systems rather than a prover of theorems. He led the scaling work behind GPT-4 and then the reasoning models — the o-series that taught a language model to think before it answers, and that every major lab has since copied. When [Ilya Sutskever](https://en.wikipedia.org/wiki/Ilya_Sutskever) walked out in May 2024, Sam Altman handed Pachocki the Chief Scientist title, a role he still holds in 2026 while steering OpenAI's push toward a fully automated AI researcher.
+
+He is the quiet engineer in a building full of evangelists, the man who decides what gets scaled next. If reasoning models are the defining bet of this AI cycle, Pachocki is the person who placed it — and he is betting the next one on machines that do the research themselves.
+
+Wikipedia: [Jakub Pachocki](https://en.wikipedia.org/wiki/Jakub_Pachocki)
+
 ### Jared Kaplan
 
 Jared Kaplan spent fifteen years as a theoretical physicist before he helped write the closest thing AI has to a law of nature. Stanford undergrad, Harvard PhD under Nima Arkani-Hamed, a thesis on holography, a professorship at Johns Hopkins studying quantum gravity, none of it pointed toward chatbots. Then in 2019 he joined OpenAI and co-authored "Scaling Laws for Neural Language Models," which showed that performance improves with size, data, and compute along clean power laws. That paper turned model-building from craft into forecasting, and it is the intellectual reason the industry felt safe spending billions on bigger runs.
@@ -599,6 +655,12 @@ In 2021 Kaplan left to co-found Anthropic with a group of OpenAI defectors worri
 There is a neat irony in that title. The physicist who proved how reliably these systems get more capable is now the one deciding when capability has run ahead of safety. He measured the curve, then appointed himself its brake. Few people understand both halves of that equation as well as he does.
 
 Wikipedia: [Jared Kaplan](https://en.wikipedia.org/wiki/Jared_Kaplan)
+
+### Jason Wei
+
+Jason Wei spent his twenties writing the recipes everyone else now cooks from. At Google Brain, fresh out of a Dartmouth PhD, he co-authored two papers that did more to shape the LLM era than most labs manage in a decade: chain-of-thought prompting (2022), which showed that simply asking a model to reason step by step unlocked abilities nobody had trained into it, and the emergent-abilities paper, which argued those leaps appear suddenly at scale. The second claim remains contested. The first became standard practice within months.
+
+In 2023 he left Google for OpenAI, where he worked on the reasoning models, o1 and o3, that turned chain-of-thought from a prompting trick into a training objective. Then came the talent war. In July 2025 Meta hired Wei, alongside collaborator Hyung Won Chung, into its Superintelligence Labs, part of Zuckerberg's nine-figure raid on OpenAI's research bench. The man who taught models to think out loud now does his own thinking inside the company most accused of arriving late. Whether that bet pays off is the open question hanging over his move.
 
 ### Jay Alammar
 
@@ -645,6 +707,14 @@ Wikipedia: [Jensen Huang](https://en.wikipedia.org/wiki/Jensen_Huang)
 Jeremy Howard spent eight years in management consulting at McKinsey and AT Kearney before he decided the work was beneath his curiosity. He built FastMail and sold it to Opera, founded the insurance-pricing firm Optimal Decisions Group and sold that too, then became the top-ranked data scientist on Kaggle two years running and ended up its president and chief scientist. The pivot that defined him came in 2016, when he co-founded fast.ai with Rachel Thomas and built the most-copied practical deep-learning course on the internet, a top-down curriculum that put working models in front of beginners on day one. His ULMFiT paper pioneered transfer learning for language and seeded the techniques behind today's LLMs. In 2023 he started Answer.AI with [Eric Ries](https://en.wikipedia.org/wiki/Eric_Ries) as a lean R&D lab, where a team of roughly a dozen ships open-source tools and runs hard-nosed independent evaluations of products like Devin. Howard's whole career is an argument that you do not need a giant lab or a giant budget to do work that matters. Most of the industry has spent a decade proving him right.
 
 Wikipedia: [Jeremy Howard](https://en.wikipedia.org/wiki/Jeremy_Howard_%28entrepreneur%29)
+
+### Jerry Liu
+
+Jerry Liu studied computer science at Princeton, then moved through Quora, Uber, and Robust Intelligence as a machine-learning engineer. In late 2022 he started hacking on a weekend project to feed private documents into language models, working around the small context windows of the day. He called it GPT Index, renamed it LlamaIndex, and watched a utility script turn into one of the foundational tools for retrieval-augmented generation.
+
+LlamaIndex became the natural counterpart to LangChain, the pair developers reached for when they wanted a model to answer questions over their own data rather than the open internet. Liu narrowed the company's focus as the field matured, betting that the real money sat in parsing the messy enterprise document, the PDF and the scanned contract, not just the retrieval step. LlamaParse and a document-agent platform followed.
+
+The funding tracked the thesis. LlamaIndex raised a $19 million Series A in 2025, with strategic backing from Databricks and KPMG, keeping it lean against far larger rivals. Liu has argued publicly that the framework era is ending, an unusual thing for a framework founder to say. He is the engineer who saw RAG coming early, then had the nerve to pivot before the wave he rode crested.
 
 ### Jim Fan
 
@@ -716,6 +786,14 @@ Károly Zsolnai-Fehér is a computer-graphics researcher from Hungary who turned
 
 Wikipedia: [Károly Zsolnai-Fehér](https://en.wikipedia.org/wiki/Two_Minute_Papers)
 
+### Leopold Aschenbrenner
+
+Leopold Aschenbrenner is the rare person who wrote his way into the room and then bought the building. Born in Germany around 2001 to physician parents, he graduated as valedictorian from Columbia at nineteen, joined OpenAI's Superalignment team under [Ilya Sutskever](https://en.wikipedia.org/wiki/Ilya_Sutskever) and [Jan Leike](https://en.wikipedia.org/wiki/Jan_Leike), and got fired in April 2024 over an alleged leak he insists was really retaliation for a memo on foreign espionage. Most people would have gone quiet. He published instead.
+
+Situational Awareness, his 165-page 2024 essay, made the most aggressive case anyone had put to paper: AGI by 2027, recursive self-improvement, and a coming arms race that would make AI a matter of national security. The document tore through Silicon Valley and Washington, equal parts manifesto and prospectus. Then he ran the trade himself. He launched Situational Awareness LP, a hedge fund built on his own thesis, backed by the Collison brothers, Nat Friedman, and Daniel Gross, betting not on the model labs but on the electricity, chips, and data centers underneath them. By mid-2026 the fund reportedly cleared $20 billion in assets after a run of roughly 270 percent. The essay predicted the boom. The portfolio is collecting on it.
+
+Wikipedia: [Leopold Aschenbrenner](https://en.wikipedia.org/wiki/Leopold_Aschenbrenner)
+
 ### Lex Fridman
 
 Lex Fridman started as a deep-learning researcher at MIT, studying human-machine interaction and Tesla Autopilot at the Laboratory for Information and Decision Systems. One 2019 study on driver attention drew sharp criticism for its methodology and was eventually pulled from MIT's site, a reminder that his footing in research was always more modest than his public stature would suggest. The pivot was the microphone. He launched a podcast in 2018, then rebranded it from "The Artificial Intelligence Podcast" to simply the Lex Fridman Podcast, and turned marathon conversations into a media machine with millions of subscribers. His guest list runs from AI researchers to presidents, and his style, earnest, slow, occasionally credulous, is exactly what draws both devotion and eye-rolling. Critics say he lets big names off easy; fans say the long format lets ideas breathe in a way cable never could. Whatever the verdict, he built the most-watched long-form interview show in technology by betting that patience is itself a format. Fridman is less a scientist than an interface, the calm doorway through which a general audience meets the people building AI.
@@ -745,6 +823,14 @@ The numbers since have been violent. Annualized revenue hit roughly $315 million
 Llion Jones is the Welshman who left Silicon Valley to build a serious AI lab in Tokyo, which is either eccentric or prescient and may turn out to be both. He spent years at Google, contributed to the Transformer paper, and by his own account named it, lifting "Attention Is All You Need" from a Beatles song. In 2023 he co-founded Sakana AI with David Ha, deliberately planting it in Japan rather than San Francisco.
 
 The bet is geographic as much as technical. Japan is a wealthy economy with almost no domestic frontier-model champion, a strategic gap that governments and investors have started to worry about out loud. Sakana raised a $135 million Series B in November 2025 at a $2.65 billion valuation, making it the most valuable startup in the country, with In-Q-Tel, the CIA's venture arm, among the new backers. Its research bent is contrarian too, favoring nature-inspired, smaller-model approaches over the brute-force scaling that defines its American rivals. Jones is the author who decided the next great lab did not have to sit within a mile of all the others. He took the most-cited idea in modern AI and used it to anchor a sovereign-AI ambition for an entire country that had been sitting on the sidelines.
+
+### Mark Chen
+
+Mark Chen started his career trading futures at Jane Street, writing machine-learning models to make markets faster. In 2018 he left the money for the lab, joining OpenAI as a researcher with no obvious claim on fame. Within a few years he had built three of the most-copied systems in the field.
+
+He led DALL·E, which made text-to-image generation a mainstream idea, and Codex, which turned GPT into a programmer and seeded the entire AI-coding boom. He co-led the vision work that gave GPT-4 eyes, then helped drive the o1 reasoning models. That is a strange résumé: image generation, code, and reasoning are usually different tribes, and Chen quietly ran all three. He still coaches the U.S. team at the International Olympiad in Informatics, a tell about how he thinks.
+
+Promoted to SVP of Research in 2024 and then to Chief Research Officer in March 2025, he now runs OpenAI's research organization alongside Pachocki — Chen on the people and the products, Pachocki on the long horizon. He is the rarest type in a research lab: the one who ships. The frontier OpenAI sells to a billion users mostly passed through his hands first.
 
 ### Max Tegmark
 
@@ -826,6 +912,16 @@ It did not hold. In June 2026 Shazeer announced he was leaving Google again, thi
 
 Wikipedia: [Noam Shazeer](https://en.wikipedia.org/wiki/Noam_Shazeer)
 
+### Oriol Vinyals
+
+Oriol Vinyals is a Catalan engineer who has been near the center of deep learning for over a decade, usually one paper ahead of the consensus. In 2014, with Ilya Sutskever and Quoc Le, he co-wrote the seq2seq paper that showed a neural network could map one sequence to another end-to-end. Every encoder-decoder model since, the Transformer included, descends from that idea.
+
+At DeepMind he chased a harder target: games with no script. He led AlphaStar, the first agent to hit Grandmaster in StarCraft II — a real-time game of hidden information and brutal complexity, published in Nature in 2019. Then the field's gravity shifted from games to language models, and Vinyals shifted with it. He became a technical co-lead of Gemini, Google's answer to GPT, and he is VP of Research and deep learning lead at Google DeepMind in 2026.
+
+He is also one of the loudest insiders arguing that pre-training is not finished, that Gemini's recent jumps came from scaling and not just clever post-training tricks. Few people have ridden the field's fashions this well — translation, games, and now foundation models — and still sound like they are calling the next turn rather than chasing the last one.
+
+Wikipedia: [Oriol Vinyals](https://en.wikipedia.org/wiki/Oriol_Vinyals)
+
 ### Percy Liang
 
 Liang made his name on the unglamorous question of whether anyone could trust what these models actually do. In 2021, as labs raced to scale, he founded Stanford's Center for Research on Foundation Models and helped coin the very term "foundation model"—a piece of vocabulary that reframed how the industry talks about itself. The bet was that the systems were too consequential to grade on vibes.
@@ -841,6 +937,14 @@ Abbeel taught robots the way you might coach an athlete: let them try, fail, and
 In 2017 he co-founded Covariant to put that research on factory floors, building robots that could pick and sort the messy variety of real warehouse goods. The exit, in 2024, told a sharp story about who owns robotics now: Amazon licensed Covariant's foundation models for roughly $380 million and hired its founders, a sum well below the company's $625 million peak valuation. Abbeel went with them. By December 2025 his remit had grown beyond robots entirely—Amazon put him in charge of its large-language-model effort inside its AGI organization. That arc, from Berkeley's robot lab to running a tech giant's bid for general intelligence, captures the decade's gravitational pull: the most ambitious academics no longer spin out from Big Tech. They get absorbed by it.
 
 Wikipedia: [Pieter Abbeel](https://en.wikipedia.org/wiki/Pieter_Abbeel)
+
+### Quoc Le
+
+Quoc Le's career is a list of things that sounded impossible until he shipped them. Born in Hương Thủy, a small town in central Vietnam, he reached Google Brain as a founding member and proceeded to lay groundwork for nearly every later breakthrough. Sequence-to-sequence learning gave machine translation its modern shape. Doc2vec taught machines to embed whole documents. AutoML and neural architecture search asked a heretical question, why hand-design networks when a search algorithm can design better ones, and answered it convincingly. Few researchers can claim one foundational result. Le has a portfolio.
+
+What sets him apart is range. He did not pick a lane and defend it; he kept moving to whatever the next bottleneck was, from unsupervised learning to LaMDA to chain-of-thought to AlphaGeometry, the system that solved olympiad geometry at near-medalist level. As of 2026 he is a Google Fellow and Distinguished Scientist at Google DeepMind, still inside the lab he helped start nearly fifteen years ago. While peers chase compensation packages across the street, Le has stayed put and stayed productive, which in this market is its own kind of statement.
+
+Wikipedia: [Quoc Le](https://en.wikipedia.org/wiki/Quoc_V._Le)
 
 ### Regina Barzilay
 
@@ -937,6 +1041,16 @@ Shengjia Zhao is the rare name on this list known almost entirely to insiders, w
 At OpenAI his fingerprints are on ChatGPT, GPT-4, GPT-4.1, and o1, the first model that paused to reason before answering. That last one matters most. Reasoning was the shift that took large language models from impressive autocomplete to something that could work through a problem, and Zhao was among the people who made it real rather than promised.
 
 In July 2025 he left for Meta, where Zuckerberg named him Chief Scientist of Meta Superintelligence Labs and, pointedly, called him a co-founder of the lab who had been the lead scientist "from day one." The framing was deliberate. Meta could buy Alexandr Wang's data empire and Nat Friedman's product instincts, but it could not manufacture someone who had actually built frontier reasoning systems. Zhao is the scientific credibility the whole expensive project rests on, the quiet researcher hired to prove that money can, in fact, relocate the frontier.
+
+### Simon Willison
+
+Simon Willison earned his first reputation two decades ago, co-creating the Django web framework during a hackathon in Kansas. He spent the following years as a builder's builder: data journalism tools, the open-source Datasette project, and a personal blog he has kept since 2002. None of it made him famous outside engineering circles. The language models did.
+
+In 2022 Willison coined the term "prompt injection," sharpening an attack Riley Goodside had just demonstrated into a named, durable security category; [Andrej Karpathy](https://en.wikipedia.org/wiki/Andrej_Karpathy) later amplified the warning to a far wider audience. Since then Willison has become the field's most reliable narrator, posting near-daily on new models, his own command-line LLM tool, and the security holes nobody else wants to discuss. He coined the "lethal trifecta" in 2025 to describe why agents that read untrusted data are dangerous.
+
+He tests everything himself and shows his work, which makes his skepticism land harder than any vendor's benchmark. In 2026 he was still shipping, archiving the CIA World Factbook before its shutdown and pushing the term "agentic engineering." Willison is the resident adult in the room: the practitioner who loves the tools enough to tell you exactly how they will betray you.
+
+Wikipedia: [Simon Willison](https://en.wikipedia.org/wiki/Simon_Willison)
 
 ### Soumith Chintala
 
