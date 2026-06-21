@@ -124,18 +124,18 @@
 
 | 姓名 | 背景 | 为何是大 V |
 |---|---|---|
-| Andrej Karpathy | 学术（Stanford 博士） | 前 Tesla AI 总监、OpenAI 创始成员；YouTube/X 顶流讲师，"AI 科普第一人"；创办 Eureka Labs，**2026.5 暂停后加入 Anthropic** |
-| Jeremy Howard | 学术+业界 | fast.ai 创始，最受欢迎的实战课 |
-| Lex Fridman | 学术（MIT） | 头部 AI / 科技长访谈播客 |
-| Grant Sanderson（3Blue1Brown） | 数学 | 神经网络可视化讲解殿堂级 |
-| Yannic Kilcher | 学术 | 论文精读 YouTube 大 V |
-| Károly Zsolnai-Fehér（Two Minute Papers） | 学术 | "论文两分钟"科普 |
-| François Fleuret | 学术 | 《小型语言模型》等教学 |
-| Sebastian Raschka | 学术 | LLM 教学与著作 |
-| Jay Alammar | 业界 | "图解 Transformer"作者 |
-| Chip Huyen | 业界 | MLOps / 实战书作者 |
-| Andriy Burkov | 业界 | 《百页机器学习》作者 |
-| Shawn Wang (swyx) | 业界 | "AI 工程师"概念推手、Latent Space 播客 |
+| [Andrej Karpathy](#andrej-karpathy) | 学术（Stanford 博士） | 前 Tesla AI 总监、OpenAI 创始成员；YouTube/X 顶流讲师，"AI 科普第一人"；创办 Eureka Labs，**2026.5 暂停后加入 Anthropic** |
+| [Jeremy Howard](#jeremy-howard) | 学术+业界 | fast.ai 创始，最受欢迎的实战课 |
+| [Lex Fridman](#lex-fridman) | 学术（MIT） | 头部 AI / 科技长访谈播客 |
+| [Grant Sanderson](#grant-sanderson)（3Blue1Brown） | 数学 | 神经网络可视化讲解殿堂级 |
+| [Yannic Kilcher](#yannic-kilcher) | 学术 | 论文精读 YouTube 大 V |
+| [Károly Zsolnai-Fehér](#károly-zsolnai-fehér)（Two Minute Papers） | 学术 | "论文两分钟"科普 |
+| [François Fleuret](#françois-fleuret) | 学术 | 《小型语言模型》等教学 |
+| [Sebastian Raschka](#sebastian-raschka) | 学术 | LLM 教学与著作 |
+| [Jay Alammar](#jay-alammar) | 业界 | "图解 Transformer"作者 |
+| [Chip Huyen](#chip-huyen) | 业界 | MLOps / 实战书作者 |
+| [Andriy Burkov](#andriy-burkov) | 业界 | 《百页机器学习》作者 |
+| [Shawn Wang](#shawn-wang) (swyx) | 业界 | "AI 工程师"概念推手、Latent Space 播客 |
 
 ---
 
@@ -143,17 +143,17 @@
 
 | 姓名 | 贡献 | 现状 |
 |---|---|---|
-| Clément Delangue | Hugging Face 联合创始 CEO | 在任（开源社区中枢） |
-| Thomas Wolf | Hugging Face 联合创始、首席科学家 | 在任 |
-| Soumith Chintala | PyTorch 共同创造者 | Meta |
-| François Chollet | Keras 作者、ARC 挑战赛 | 离开 Google 创业（Ndea） |
-| Georgi Gerganov | llama.cpp / ggml 作者 | 个人/开源 |
-| Tianqi Chen | XGBoost、TVM、MLC | CMU / OctoAI |
-| Jim Fan | 具身智能/机器人科普大 V | NVIDIA GEAR 实验室 |
-| Tri Dao | FlashAttention 作者 | Princeton / Together AI |
-| Wes McKinney | pandas 创造者 | 数据生态 |
-| Travis Oliphant | NumPy/SciPy | Quansight |
-| Lin Qiao | PyTorch 团队、Fireworks AI 创始 | 在任 |
+| [Clément Delangue](#clément-delangue) | Hugging Face 联合创始 CEO | 在任（开源社区中枢） |
+| [Thomas Wolf](#thomas-wolf) | Hugging Face 联合创始、首席科学家 | 在任 |
+| [Soumith Chintala](#soumith-chintala) | PyTorch 共同创造者 | 2025 年离开 Meta，任 Thinking Machines Lab CTO |
+| [François Chollet](#françois-chollet) | Keras 作者、ARC 挑战赛 | 离开 Google 创业（Ndea） |
+| [Georgi Gerganov](#georgi-gerganov) | llama.cpp / ggml 作者 | ggml.ai（2026 并入 Hugging Face） |
+| [Tianqi Chen](#tianqi-chen) | XGBoost、TVM、MLC | CMU / Nvidia（OctoAI 2024 被 Nvidia 收购） |
+| [Jim Fan](#jim-fan) | 具身智能/机器人科普大 V | NVIDIA GEAR 实验室 |
+| [Tri Dao](#tri-dao) | FlashAttention 作者 | Princeton / Together AI |
+| [Wes McKinney](#wes-mckinney) | pandas 创造者 | 数据生态 |
+| [Travis Oliphant](#travis-oliphant) | NumPy/SciPy | Quansight |
+| [Lin Qiao](#lin-qiao) | PyTorch 团队、Fireworks AI 创始 | 在任 |
 | vLLM 团队 | 高性能推理 | 开源/学界 |
 
 ---
@@ -298,6 +298,12 @@ He spent nine years at Carnegie Mellon, returned to Berkeley in 2013, and was na
 
 Wikipedia: [Alexei A. Efros](https://en.wikipedia.org/wiki/Alexei_A._Efros)
 
+### Andrej Karpathy
+
+Andrej Karpathy learned to teach before most people knew his name. As a Stanford PhD student under [Fei-Fei Li](https://en.wikipedia.org/wiki/Fei-Fei_Li), he built and taught CS231n, the convolutional-networks course that trained a generation of practitioners. Then came the resume that reads like a map of the field: founding member of OpenAI in 2015, director of AI and Autopilot Vision at Tesla under [Elon Musk](https://en.wikipedia.org/wiki/Elon_Musk) from 2017 to 2022, a brief return to OpenAI, and a steady stream of YouTube lectures that explain backpropagation and GPTs better than any textbook. In 2024 he left to found Eureka Labs, an "AI-native" school whose flagship LLM101n course walks students through building their own model from scratch. He coined "vibe coding" and reframed his old "Software 2.0" thesis as "Software 3.0." Then, on May 19, 2026, he closed the Eureka chapter and joined Anthropic to lead a team using Claude to accelerate pre-training research, reporting to Nick Joseph. He has been clear it is a pause, not a funeral, for Eureka. Karpathy is the rare figure who can ship frontier research and explain it to a teenager. The field keeps trying to make him choose; he keeps refusing.
+
+Wikipedia: [Andrej Karpathy](https://en.wikipedia.org/wiki/Andrej_Karpathy)
+
 ### Andrew Barto
 
 Andrew Barto is the quiet half of the most consequential partnership in AI. Born in 1948, he arrived at the University of Massachusetts Amherst as a postdoc in 1977 and stayed for his entire career, which is itself a kind of statement in a field that prizes restlessness. In the late 1970s he became convinced that ideas from psychology and control theory could explain how an agent learns from consequences, and he set about formalizing it when almost nobody saw a future in the work.
@@ -317,6 +323,14 @@ His research record would stand on its own. He co-founded Google Brain in 2011 a
 Ng is the rare figure who chose distribution over discovery and may have been right. He could have spent the decade chasing larger models; instead he spent it making sure millions of others could. On a list crowded with people who built the technology, he is the one who built the workforce.
 
 Wikipedia: [Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng)
+
+### Andriy Burkov
+
+Andriy Burkov sells books by a constraint most authors would find insulting: the page count is in the title. *The Hundred-Page Machine Learning Book*, self-published in 2019, became a runaway bestseller and was translated into more than a dozen languages, precisely because it promised the reader an end. He treats brevity as a discipline, not a limitation, the way a poet treats meter. Everything that does not earn its place gets cut.
+
+He earned the authority to compress because he spent years doing the real thing. Burkov holds a PhD in artificial intelligence and led production machine learning teams across companies including Gartner, where he managed ML efforts at industrial scale, plus stints at Fujitsu and TalentNeuron. He is not a writer who studied ML. He is an ML lead who happens to write with unusual clarity.
+
+In 2025 he extended the formula with *The Hundred-Page Language Models Book*, walking readers from n-grams to modern LLMs without the usual padding, paired with a course. Burkov's contribution is almost contrarian in an industry that confuses length with rigor. He bets that the person who truly understands a subject can fit it in a hundred pages, and that anyone who needs more either has not finished thinking or is trying to sell you a thicker book.
 
 ### Aravind Srinivas
 
@@ -354,6 +368,14 @@ In 2024 she put the bet on the table, co-founding Physical Intelligence with [Se
 
 Wikipedia: [Chelsea Finn](https://en.wikipedia.org/wiki/Chelsea_Finn)
 
+### Chip Huyen
+
+Chip Huyen came to AI by an unusual road: she left Vietnam, wandered through 20-odd countries, wrote a bestselling travel book in Vietnamese, then ended up at Stanford teaching machine learning systems. That biography shows in her work. She writes about AI the way someone writes who has had to make unfamiliar systems function in the real world, with no manual and a deadline.
+
+Her reputation is built on two books. *Designing Machine Learning Systems* became the standard text for the messy discipline of getting models into production, the part the research papers skip. *AI Engineering*, published in 2025, did the same for the era of foundation models and was the most-read title on O'Reilly's platform after launch. Between them she defined a job category that barely existed five years ago.
+
+She has earned the right to write about production because she shipped it. She was a core developer of NeMo at NVIDIA, worked at Netflix and Snorkel AI, taught at Stanford, and founded an AI infrastructure startup, Claypot AI, which sold to Voltron Data in 2024. Now she has turned toward robotics, chasing AI into the physical world. Huyen's whole career argues one point against the industry's hype machine: the hard part was never the model. It was everything around it.
+
 ### Chris Olah
 
 Chris Olah never finished college. A Thiel Fellow, he dropped out and talked his way into the labs that other people needed PhDs to enter—Google Brain, then OpenAI—on the strength of a single conviction: that neural networks were not black boxes but objects you could open and read, if only you looked hard enough. In 2017 he founded *Distill*, a journal built to fight what he called research debt, the compounding cost of work explained badly. It published gorgeous, interactive papers and then quietly went dormant, a casualty of the field moving faster than careful prose could.
@@ -377,6 +399,14 @@ Ré is the closest thing machine learning has to a serial founder who never quit
 His fifth act is the most consequential. Ré co-founded Together AI, the open-model cloud, alongside his Stanford colleague [Percy Liang](https://en.wikipedia.org/wiki/Percy_Liang)—a company now valued in the billions and pitched as infrastructure for builders who refuse to depend on closed frontier labs. The pattern is unmistakable: find a bottleneck in how data and computation meet, then spin out a company to remove it. He still teaches at Stanford and works inside its foundation-model center, which means his pipeline from theorem to startup shows no sign of drying up. Most professors are happy to publish. Ré treats a paper as a business plan that hasn't been executed yet, and the record—four exits and counting—suggests the instinct is closer to engineering than to luck.
 
 Wikipedia: [Christopher Ré](https://en.wikipedia.org/wiki/Christopher_R%C3%A9)
+
+### Clément Delangue
+
+Clément Delangue sold sneakers on eBay as a teenager in northern France and ranked among the country's top sellers before he could legally drink. That instinct, find the thing people want and put it in their hands, never left him. In 2016 he started Hugging Face in New York with Julien Chaumond and Thomas Wolf as a chatbot for bored teenagers. The chatbot went nowhere. The code they open-sourced behind it went everywhere.
+
+The pivot is the whole story. Delangue bet that the value in AI would pool not around any single model but around the place where everyone kept their models. He turned a failed consumer app into the default warehouse for machine learning, more than a million models, datasets, and demos that researchers reach for by reflex. The company hit a $4.5 billion valuation in its 2023 Series D and has spent the years since fending off the obvious question: why give it all away?
+
+His answer is conviction dressed as strategy. Delangue argues that open beats closed on long enough timelines, and he has made Hugging Face the institution that profits if he is right. He is less a scientist than a host, the man who decided the field needed a commons and then quietly charged rent on it.
 
 ### Daniel Gross
 
@@ -466,6 +496,24 @@ Li is the rare researcher who built the runway everyone else took off from, then
 
 Wikipedia: [Fei-Fei Li](https://en.wikipedia.org/wiki/Fei-Fei_Li)
 
+### François Chollet
+
+François Chollet wrote Keras in 2015 and, by accident, became the most-used face of deep learning. Keras was a wrapper, a friendly front end that let people build neural networks without drowning in boilerplate, and it ran inside YouTube, Waymo, and Spotify. Google hired him, and for nearly a decade he was a Senior Staff Engineer there, comfortable, influential, and increasingly out of step with his own employer's thesis.
+
+The disagreement is what makes him interesting. While the industry insisted that scaling transformers would deliver general intelligence, Chollet built ARC-AGI, a benchmark of simple visual puzzles that humans solve easily and large models flunk. His point was deliberate provocation: fluency is not reasoning, and memorization is not understanding. In 2024 he put a million dollars behind it with the ARC Prize.
+
+In November 2024 he left Google, and in 2025 he launched Ndea with Zapier co-founder Mike Knoop, a lab raising $43 million on a contrarian bet that program synthesis fused with deep learning, not bigger models, is the road to AGI. Fifteen people, no product, years of runway. Chollet is the rare critic willing to fund the experiment that could prove him wrong.
+
+Wikipedia: [François Chollet](https://en.wikipedia.org/wiki/Fran%C3%A7ois_Chollet)
+
+### François Fleuret
+
+François Fleuret spent two decades doing the unglamorous work of machine learning research, building systems at the Idiap Research Institute and lecturing at EPFL before settling into a chair at the University of Geneva. Then in 2023 he did something almost no academic does well: he wrote a book people actually finished. *The Little Book of Deep Learning* is roughly 180 pocket-sized pages, free as a PDF, and it crossed 250,000 downloads in the month after he posted it. The trick was restraint. Where textbooks pad, Fleuret cuts, and the result reads like a senior engineer explaining the field on a long flight.
+
+He is not a popularizer who drifted away from research. In late 2024 he joined Meta's Fundamental AI Research lab as a research scientist, while keeping a part-time professorship in Geneva. That dual posting matters. It means his teaching is fed by someone still shipping frontier work, not someone narrating it from the sidelines.
+
+Fleuret's reputation rests on a rare combination. He can derive the math, write the CUDA, and then compress all of it into prose a beginner can hold in one hand. Most people on this list teach AI. He is one of the few who also still builds it at the frontier and refuses to choose between the two.
+
 ### Geoffrey Hinton
 
 Geoffrey Hinton was born in Britain in 1947, into a family that had produced its share of mathematicians; his great-great-grandfather was [George Boole](https://en.wikipedia.org/wiki/George_Boole), the inventor of Boolean algebra. He earned his PhD at Edinburgh in 1978, working on neural networks, a fringe topic at the time that almost no one wanted to touch. He stayed on that bench for thirty years.
@@ -477,6 +525,20 @@ His currency is a handful of foundational contributions. In 1986, with [Rumelhar
 The ending is the part worth dwelling on. In May 2023 Hinton left Google so he could warn about the risks of AI without holding back. The man who pushed this technology from a fringe bench onto a pedestal turned around to warn about his own creation. He is still active in 2026, repeating a warning about what he calls a "2026 breakpoint," a jump in capability that he expects to hit complex professions like software engineering and law. He is the most complete metaphor on this list: the man who laid the foundation, and the first to pull the alarm.
 
 Wikipedia: [Geoffrey Hinton](https://en.wikipedia.org/wiki/Geoffrey_Hinton)
+
+### Georgi Gerganov
+
+Georgi Gerganov did something the entire AI industry had decided was impossible, and he did it mostly alone, in C++, from Bulgaria. The premise of 2023 was that running a serious language model required a data center's worth of GPUs. Gerganov's premise was that it required a laptop. In March 2023 he released llama.cpp, a lean inference engine that made Meta's leaked LLaMA weights run on ordinary consumer hardware, and the assumption never recovered.
+
+His real contribution sits one layer down. The previous September he had started ggml, a tensor library written from scratch with no Python, no CUDA dependency, no bloat. ggml is the quiet machinery that put local AI within reach, the reason a hobbyist can run a capable model offline on a MacBook or a phone. He turned a closed cathedral into something closer to a toolshed.
+
+He built it into ggml.ai, and in February 2026 he and his team joined Hugging Face, keeping full autonomy and open-source ownership of the project. The arrangement is telling. Gerganov never wanted a company so much as a guarantee that local inference stays free and stays alive. He is the patron saint of running AI on your own machine, and he wrote the proof himself.
+
+### Grant Sanderson
+
+Grant Sanderson graduated from Stanford in 2015 with a math degree and a side project that would outgrow every job he might have taken. He spent a year writing multivariable-calculus content for Khan Academy, then walked away to make videos full-time under the name 3Blue1Brown, where deep-blue geometry and a single brown pi creature became the visual signature of math on the internet. To make those videos he wrote Manim, a Python animation engine that has since become a small ecosystem of its own. His series on linear algebra, calculus, and especially neural networks did something textbooks rarely manage: they made the machinery feel inevitable, as if you could have derived backpropagation yourself with the right picture in front of you. In 2020 he co-taught MIT's Introduction to Computational Thinking, bringing the same visual instinct into a real lecture hall. Plenty of people can explain a gradient; almost no one can make you see it. Sanderson is the closest thing modern mathematics has to a great cinematographer, and his neural-network series has quietly taught more engineers than most graduate programs.
+
+Wikipedia: [Grant Sanderson](https://en.wikipedia.org/wiki/3Blue1Brown)
 
 ### Greg Brockman
 
@@ -538,6 +600,14 @@ There is a neat irony in that title. The physicist who proved how reliably these
 
 Wikipedia: [Jared Kaplan](https://en.wikipedia.org/wiki/Jared_Kaplan)
 
+### Jay Alammar
+
+Jay Alammar drew the picture that taught the world how transformers work. In 2018 he published "The Illustrated Transformer," a blog post that did what the original paper could not: it made attention legible to anyone willing to read scrolling diagrams instead of equations. The post became one of the most-cited informal references in machine learning, linked from university courses and onboarding docs across the industry. He never needed a paper of his own. He explained everyone else's better than they did.
+
+That visual instinct turned into a career. Alammar joined Cohere, the enterprise LLM company, where he became Director and Engineering Fellow, translating frontier models into something a developer could actually deploy. He co-authored *Hands-On Large Language Models* with Maarten Grootendorst, extending the illustrated method into book length.
+
+He keeps shipping. A refreshed, animated version of the Transformer explainer arrived for the modern era, and in 2025 he built "The Illustrated NeurIPS," an interactive map of a research conference too sprawling to read straight. Alammar proved a thesis most engineers resist: that a single well-drawn figure can outlast a thousand citations. He is the rare educator whose diagrams became the canonical mental model, the version people see in their heads when they think about how these machines pay attention.
+
 ### Jeff Clune
 
 Jeff Clune bets on a heresy: that the smartest move in AI is to stop designing intelligence and start growing it. His research into open-endedness asks whether a system can keep generating novelty forever, the way evolution and human culture do, never settling into a finished answer. It is a romantic idea with a hard engineering core, and for years it lived at the speculative margins of the field.
@@ -569,6 +639,20 @@ The payoff came late and came hard. AlexNet ran on Nvidia cards in 2012, and onc
 There is a contrast here worth naming. Most names on this list are academics who started with a paper. Huang is one of the few who reached the top purely on engineering and business judgment. Others sell the papers; he sells the substrate that lets those papers actually run. Behind the signature black leather jacket is an engineering veteran who bet, correctly, that compute would be the lifeblood of AI.
 
 Wikipedia: [Jensen Huang](https://en.wikipedia.org/wiki/Jensen_Huang)
+
+### Jeremy Howard
+
+Jeremy Howard spent eight years in management consulting at McKinsey and AT Kearney before he decided the work was beneath his curiosity. He built FastMail and sold it to Opera, founded the insurance-pricing firm Optimal Decisions Group and sold that too, then became the top-ranked data scientist on Kaggle two years running and ended up its president and chief scientist. The pivot that defined him came in 2016, when he co-founded fast.ai with Rachel Thomas and built the most-copied practical deep-learning course on the internet, a top-down curriculum that put working models in front of beginners on day one. His ULMFiT paper pioneered transfer learning for language and seeded the techniques behind today's LLMs. In 2023 he started Answer.AI with [Eric Ries](https://en.wikipedia.org/wiki/Eric_Ries) as a lean R&D lab, where a team of roughly a dozen ships open-source tools and runs hard-nosed independent evaluations of products like Devin. Howard's whole career is an argument that you do not need a giant lab or a giant budget to do work that matters. Most of the industry has spent a decade proving him right.
+
+Wikipedia: [Jeremy Howard](https://en.wikipedia.org/wiki/Jeremy_Howard_%28entrepreneur%29)
+
+### Jim Fan
+
+Jim Fan graduated from Columbia as valedictorian, then walked into OpenAI as its very first intern, back when the lab was a curiosity rather than a verb. He did his PhD at Stanford under [Fei-Fei Li](https://en.wikipedia.org/wiki/Fei-Fei_Li), the woman who built ImageNet, which is roughly the academic equivalent of apprenticing to the person who poured the foundation you now build on.
+
+The bet he made afterward looks smarter every quarter. While most of the field chased bigger chatbots, Fan went to NVIDIA and wagered that intelligence trapped in a text box is only half the problem. His Minecraft agent Voyager taught itself new skills without human scripts. Eureka trained a robot hand to spin a pen. The thread running through all of it is simulation at absurd scale, the idea that robots can practice a thousand lifetimes in silicon before touching the real world.
+
+Today he is a Director of Robotics and Distinguished Scientist at NVIDIA, co-leading the GEAR lab and Project GR00T, the company's swing at foundation models for humanoid robots. He is also, improbably, one of the better explainers in AI, a researcher who can make embodied learning legible to people who will never read the papers. Most scientists pick rigor or reach. Fan keeps both, and uses the second to recruit talent for the first.
 
 ### Jitendra Malik
 
@@ -626,6 +710,18 @@ He spent eight years at Facebook AI Research before doing something his citation
 
 Wikipedia: [Kaiming He](https://en.wikipedia.org/wiki/Kaiming_He)
 
+### Károly Zsolnai-Fehér
+
+Károly Zsolnai-Fehér is a computer-graphics researcher from Hungary who turned academic enthusiasm into a genre. Trained in Budapest and then at TU Wien, where he worked on rendering and light simulation, he launched Two Minute Papers in 2016 with a simple promise the title kept loosely: short, breathless tours of new research in graphics, simulation, and machine learning. His delivery is unmistakable, the rolling cadence, the recurring "What a time to be alive!", the visible delight at a better fluid simulation or a sharper generative model. Skeptics find the excitement relentless and the depth thin; admirers credit him with pulling hundreds of thousands of viewers toward papers they would never have opened. The channel grew past 1.7 million subscribers by treating cutting-edge results as spectacle rather than homework, a deliberate bet that wonder is a better on-ramp than rigor. Where Kilcher trusts his audience to follow the math, Zsolnai-Fehér trusts them to feel the progress first and look up the details later. He is the field's most effective hype man, in the good sense: someone who makes strangers care that research is happening at all.
+
+Wikipedia: [Károly Zsolnai-Fehér](https://en.wikipedia.org/wiki/Two_Minute_Papers)
+
+### Lex Fridman
+
+Lex Fridman started as a deep-learning researcher at MIT, studying human-machine interaction and Tesla Autopilot at the Laboratory for Information and Decision Systems. One 2019 study on driver attention drew sharp criticism for its methodology and was eventually pulled from MIT's site, a reminder that his footing in research was always more modest than his public stature would suggest. The pivot was the microphone. He launched a podcast in 2018, then rebranded it from "The Artificial Intelligence Podcast" to simply the Lex Fridman Podcast, and turned marathon conversations into a media machine with millions of subscribers. His guest list runs from AI researchers to presidents, and his style, earnest, slow, occasionally credulous, is exactly what draws both devotion and eye-rolling. Critics say he lets big names off easy; fans say the long format lets ideas breathe in a way cable never could. Whatever the verdict, he built the most-watched long-form interview show in technology by betting that patience is itself a format. Fridman is less a scientist than an interface, the calm doorway through which a general audience meets the people building AI.
+
+Wikipedia: [Lex Fridman](https://en.wikipedia.org/wiki/Lex_Fridman)
+
 ### Liang Wenfeng
 
 Liang Wenfeng (梁文锋) ran a hedge fund before he ran an AI lab, and that order explains everything. Born in 1985 in Wuchuan, Guangdong, the son of two primary-school teachers, he studied electronic engineering at Zhejiang University, where his master's work was on object-tracking algorithms. In 2016 he and some classmates founded High-Flyer, a quantitative fund that pointed machine learning at China's stock markets and grew to over 100 billion yuan under management. The money mattered less than the habit it built: squeeze maximum signal from limited, expensive compute.
@@ -635,6 +731,14 @@ In 2023 he turned that discipline loose on a different problem and founded DeepS
 Liang became a national symbol almost overnight, invited to sit with the Chinese premier and held up as proof that frugality and open weights could humble the incumbents. He owns just a sliver of DeepSeek on paper and seems uninterested in the founder-celebrity role. His argument is harder than any title: that the era of winning AI purely by spending more may already be ending, and that he has the receipts.
 
 Wikipedia: [Liang Wenfeng](https://en.wikipedia.org/wiki/Liang_Wenfeng)
+
+### Lin Qiao
+
+For five years Lin Qiao ran PyTorch at Meta, which means she was responsible for the framework that most of modern AI is actually written in. Her team rebuilt the company's training and inference stack to serve trillions of predictions a day. It was one of the most important infrastructure jobs in technology, and in 2022 she left it to start a company.
+
+The thesis behind Fireworks AI was contrarian when she made it and looks prescient now. The future of AI would not be one giant model answering everything, she argued, but swarms of smaller, specialized models that have to run fast and cheap to be worth running at all. So Fireworks built the layer that makes inference economical, and the timing proved exact. As agents went from demo to production, the cost of running them became the whole game.
+
+The numbers since have been violent. Annualized revenue hit roughly $315 million in early 2026, up more than 400 percent in a year, with customers like Cursor, Notion, and Uber. The company raised at a $4 billion valuation in October 2025 and by mid-2026 was reportedly in talks at $15 billion. Five PyTorch engineers walked out of Meta and built, in under four years, one of the most valuable independent companies in AI infrastructure.
 
 ### Llion Jones
 
@@ -782,6 +886,14 @@ Altman is the rare founder who is more convincing than the thing he is selling. 
 
 Wikipedia: [Sam Altman](https://en.wikipedia.org/wiki/Sam_Altman)
 
+### Sebastian Raschka
+
+Sebastian Raschka built his audience the patient way, one clear explanation at a time. A statistics professor at the University of Wisconsin–Madison turned research engineer, he wrote *Python Machine Learning* and later *Machine Learning with PyTorch and Scikit-Learn*, the kind of books that quietly become the assigned reading for a generation of practitioners. He writes the way good teachers grade homework: line by line, showing the work.
+
+His defining move came in 2024 with *Build a Large Language Model (From Scratch)*. Plenty of people will tell you how transformers work. Raschka makes you implement one, token by token, until the magic dissolves into code you wrote yourself. The companion GitHub repository passed 80,000 stars and became one of the most-starred ML projects anywhere. In 2025 he followed it with *Build a Reasoning Model (From Scratch)*, chasing the field's newest obsession with the same from-the-ground-up method.
+
+He works as a staff research engineer at Lightning AI, where he co-built LitGPT, and his newsletter *Ahead of AI* has become required reading for people who want signal without hype. Raschka's gift is conviction that nothing in deep learning is truly mysterious. It is just code nobody bothered to slow down and explain. He slows down, and a generation learned because of it.
+
 ### Sebastian Thrun
 
 Sebastian Thrun is the rare researcher who got to invent two industries and walk away from both. In 2005 his Stanford team won the DARPA Grand Challenge, sending a car across the desert with no driver. That victory got him hired by Google, where he founded the self-driving project that became Waymo, the company now running hundreds of thousands of paid robotaxi rides a week. He proved the autonomous car could work, then handed it off.
@@ -810,6 +922,14 @@ He remains Chief AGI Scientist at Google DeepMind, where he leads the technical 
 
 Wikipedia: [Shane Legg](https://en.wikipedia.org/wiki/Shane_Legg)
 
+### Shawn Wang
+
+Shawn Wang, known online as swyx, did something subtler than building a model or writing a textbook. He named a job. In a 2023 essay called "The Rise of the AI Engineer," he argued that a new role was forming between the ML researcher and the traditional software developer, someone who builds products on top of foundation models without training them. The term stuck because it described a job thousands of people were already doing without a word for it.
+
+His path there was lateral, which is the point. A former currency-options trader turned hedge-fund analyst, Wang reinvented himself as a developer and built a reputation in developer experience at Two Sigma, AWS, Netlify, Temporal, and Airbyte. He learned in public, relentlessly, and turned that habit into influence.
+
+Then he built the infrastructure around the category he had named. He co-hosts *Latent Space*, among the most respected AI engineering podcasts, with over 175 episodes by early 2026. He founded the AI Engineer conference, which grew from a single annual event to a global circuit of seven in 2026. And he runs smol.ai, whose AI News newsletter is largely written by research agents. Wang's talent is seeing a shapeless thing before others do, giving it a name, and then conjuring the community that makes the name real.
+
 ### Shengjia Zhao
 
 Shengjia Zhao is the rare name on this list known almost entirely to insiders, which is exactly the point. He took his computer science degree at Tsinghua in 2016, then went to Stanford for a PhD on generative models and calibration, finishing in 2022. He was not a manager or a founder. He was a researcher who happened to be in the room for several of the defining results of the era.
@@ -818,6 +938,14 @@ At OpenAI his fingerprints are on ChatGPT, GPT-4, GPT-4.1, and o1, the first mod
 
 In July 2025 he left for Meta, where Zuckerberg named him Chief Scientist of Meta Superintelligence Labs and, pointedly, called him a co-founder of the lab who had been the lead scientist "from day one." The framing was deliberate. Meta could buy Alexandr Wang's data empire and Nat Friedman's product instincts, but it could not manufacture someone who had actually built frontier reasoning systems. Zhao is the scientific credibility the whole expensive project rests on, the quiet researcher hired to prove that money can, in fact, relocate the frontier.
 
+### Soumith Chintala
+
+Soumith Chintala grew up in Hyderabad, did his master's at NYU near the orbit of Yann LeCun, and joined Facebook AI Research in 2014 expecting to do computer vision. Instead he co-created the tool that the entire field would end up standing on. PyTorch, released in 2016, won the framework wars not by being fastest but by being the one researchers actually enjoyed using, and Chintala spent a decade as its public face and steward.
+
+Eleven years is a long time to maintain one thing. In November 2025 he announced he was leaving Meta, saying his work on PyTorch felt complete and that he did not want to be tied to a single project for decades. The framing was modest. The destination was not.
+
+In January 2026 he surfaced as Chief Technology Officer of [Mira Murati](https://en.wikipedia.org/wiki/Mira_Murati)'s Thinking Machines Lab, the secretive, $12-billion startup built largely from OpenAI alumni. The move says something about where the gravity has shifted. The man who gave open-source AI its workbench has gone to help build a frontier lab, betting that the next decade's interesting problems live in the training of models, not the plumbing beneath them.
+
 ### Tatsunori Hashimoto
 
 Most people on this list build the models. Tatsunori Hashimoto built the rulers we measure them with. Trained at MIT, where he finished his PhD in 2016 under Tommi Jaakkola and David Gifford, he came to AI through statistics rather than deep learning, and the difference shows in everything he does. As an assistant professor at Stanford, he asks the unglamorous questions that the field keeps skipping past: when a benchmark says a model is good, good at what, and for whom?
@@ -825,6 +953,22 @@ Most people on this list build the models. Tatsunori Hashimoto built the rulers 
 His group's work cuts in two directions at once. One line attacks the data problem head-on, selecting and synthesizing training examples to make smaller models generalize better, which is partly why his Stanford course on building language models from scratch became a quiet sensation. The other line is about honesty, measuring whether a model's stated opinions, moral judgments, and safety behaviors actually hold up under pressure, and giving policymakers a quantitative way to check.
 
 That combination makes him a rare type. He is fluent in the engineering that produces frontier systems and skeptical enough to distrust the scoreboard those systems are graded on. In a field addicted to leaderboard numbers, the person interrogating the leaderboard is doing the more durable work. The labs chase the next point of accuracy; Hashimoto asks whether the point means anything.
+
+### Thomas Wolf
+
+Thomas Wolf trained as a physicist, with a PhD in statistical and quantum physics, and spent his early career as a patent lawyer in Paris. Around 2015 he noticed something that the field's marketing tried hard to obscure: the equations powering the deep learning boom were, in large part, rebranded statistical physics. A man who could read the originals had an unfair advantage. He taught himself the rest from books and online courses.
+
+Then a friend named Clément Delangue asked if he wanted to build something ambitious. Wolf became co-founder and Chief Science Officer of Hugging Face, and he wrote the libraries that did more to spread modern AI than most famous models did. Transformers and Datasets turned cutting-edge research into a few lines of Python any graduate student could run. The democratization people talk about was, concretely, his code.
+
+By 2026 Wolf had grown into one of the field's sharper skeptics. He argues publicly that today's models, however fluent, do not produce the genuinely new ideas that real scientific breakthroughs require, that we are building excellent students and calling them geniuses. Coming from the man whose tools trained half the field, the doubt carries weight. He built the on-ramp and now questions where the road leads.
+
+### Tianqi Chen
+
+Tianqi Chen has a habit of writing the tool a few years before everyone realizes they need it. As a PhD student he built XGBoost, the gradient-boosting library that quietly won Kaggle competition after Kaggle competition and still anchors industrial machine learning a decade later. Then he built Apache TVM, a compiler that lets a trained model run efficiently across wildly different chips, the unglamorous problem of making AI portable.
+
+He has never picked between academia and industry, choosing instead to do both at full speed. Since 2020 he has been a professor at Carnegie Mellon, and in 2023 he turned TVM into a company, OctoAI, aimed at cheap and flexible model serving. Then the inference wars came for it. In 2024 Nvidia acquired OctoAI and folded the team in, shutting the public product down within weeks, a reminder that infrastructure independence is hard to hold when one company owns the silicon.
+
+Chen landed where the work led. He kept his CMU chair and joined Nvidia as a researcher, while shipping MLC-LLM, which pushes language models onto phones and browsers. He is the compiler guy in a field obsessed with models, betting that whoever controls how AI runs matters as much as whoever trains it.
 
 ### Tom Brown
 
@@ -841,6 +985,34 @@ Tommi Jaakkola took an unusual route into machine learning. He earned a master's
 That patience paid an unexpected dividend. When diffusion models suddenly powered the image generators behind the generative-AI wave, the mathematics they rested on—stochastic processes, score estimation, the theory of how noise can be reversed into structure—was exactly the territory Jaakkola had been cultivating. His lab became one of the places where diffusion got rigorous, and where the tools were aimed at molecules: generating drug candidates and protein structures, not just pretty pictures.
 
 Now the Thomas Siebel Professor at MIT, he sits at the seam between deep theory and hard science, the rare researcher whose foundational work turned out to be the load-bearing wall under a boom he did not chase. There is a lesson in his career for anyone tempted by the hype cycle. The math you do because it is beautiful has a way of becoming the math everyone needs, usually a decade after you do it.
+
+### Travis Oliphant
+
+Before there was an AI boom there had to be a NumPy, and before NumPy there was Travis Oliphant unifying a mess of competing numerical libraries into one array object that everyone could agree on. That 2005 decision, more than almost any model since, is why the modern AI stack speaks Python. Every tensor flowing through a neural network is a descendant of the data structure he standardized, with a doctorate in biomedical engineering and a stubborn belief that scientists deserved better tools.
+
+He could have stopped at canonical contributor and lived comfortably on the citations. Instead he kept founding things, Anaconda, NumFOCUS, then Quansight and OpenTeams, each an attempt to answer the question that haunts every open-source author. How do you pay the people who maintain the foundation everyone else builds skyscrapers on?
+
+That question still drives him. In 2025 OpenTeams absorbed Quansight's AI consulting arm while Quansight restructured as a public benefit corporation, and Oliphant turned toward incubators, venture funds, and sovereign AI deployment. He is less a coder now than an economist of open source, working a problem the industry would rather ignore. The trillion-dollar tower of AI rests on volunteer-maintained code, and almost nobody is funding the basement.
+
+Wikipedia: [Travis Oliphant](https://en.wikipedia.org/wiki/Travis_Oliphant)
+
+### Tri Dao
+
+Tri Dao solved a problem everyone else treated as a cost of doing business. Transformers were slow and memory-hungry on long inputs, and the field mostly shrugged and bought more GPUs. Dao, then a Stanford PhD student, rewrote attention to respect how the hardware actually moves data, and FlashAttention made models faster and leaner without changing a single result. It is now standard plumbing in nearly every large model trained on the planet.
+
+He did not stop at optimizing the transformer. With Albert Gu he co-created Mamba, a state-space architecture that processes sequences in linear time and stands as the first credible challenger to attention itself. One man rarely both perfects the reigning paradigm and designs its possible successor. Dao did both inside three years.
+
+He now holds the unusual double seat that defines this generation of systems researchers, an assistant professorship at Princeton and the chief scientist role at Together AI, where the academic work and the commercial inference stack feed each other directly. His contribution is easy to undersell because it is invisible by design. When a model answers you a beat faster than it should, the odds are good you are quietly running his code.
+
+### Wes McKinney
+
+In 2008 a quant analyst at AQR got tired of wrestling financial data in tools that were never built for it, so he wrote his own. He called it pandas. That side project did more to make Python the default language of data science than any corporate strategy or university curriculum, and McKinney has spent the years since living with the consequences of solving a problem too well.
+
+The lesson he absorbed was that a beloved library is not the same as durable infrastructure. So his second act got more ambitious and less glamorous. He created Apache Arrow, a shared in-memory format that lets different data systems stop wasting cycles translating between each other, the kind of project whose success means nobody notices it exists.
+
+His path since reads like a deliberate refusal to cash out. He founded Ursa Labs and Voltron Data, stepped back from the Voltron CTO role to a senior advisor seat, and now works across Posit as principal architect, his own venture, and open-source projects at once. The through-line is a conviction that the plumbing matters more than the faucet. He built the tool a generation learned on, then spent his prime making sure the layer beneath it could hold.
+
+Wikipedia: [Wes McKinney](https://en.wikipedia.org/wiki/Wes_McKinney)
 
 ### Yang Zhilin
 
@@ -861,6 +1033,10 @@ The vindication came in bulk. In 2018 he shared the Turing Award with [Geoffrey 
 Then he made the bet personal. In November 2025 he left Meta, and by March 2026 his new venture, AMI Labs, had closed a seed round above one billion dollars to chase "world models" instead of chatbots, the largest seed in European history. At 65, having helped build the orthodoxy, he is now spending a fortune to break it.
 
 Wikipedia: [Yann LeCun](https://en.wikipedia.org/wiki/Yann_LeCun)
+
+### Yannic Kilcher
+
+Yannic Kilcher built his audience the hard way, by reading the papers nobody else wanted to read aloud. While finishing a PhD on neural-network robustness at ETH Zürich, he started posting YouTube walkthroughs of fresh machine-learning research, going equation by equation through architectures most channels would only summarize. His tone, skeptical, technical, allergic to hype, made him a fixture for working researchers rather than casual viewers, and his community experiments, including a notorious GPT-trained-on-4chan model, showed both his willingness to provoke and the ethical fault lines that come with it. The pivot was quieter than the controversies. He co-founded DeepJudge, a Zürich legal-AI company building semantic search across law firms' document archives, where he serves as CTO, putting the same research fluency to work on a narrow, unglamorous, lucrative problem. Kilcher represents a path the loudest AI personalities rarely take: stay close to the math, treat the audience as peers, then go build something instead of selling a personal brand. He is proof that the best paper-explainer in the room is often the one least interested in being a celebrity.
 
 ### Yejin Choi
 
