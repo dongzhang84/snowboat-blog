@@ -1,0 +1,348 @@
+# AI 界「大 V」名单本
+
+> 整理时间：2026 年 6 月 · 收录 150+ 人
+> ⚠️ **重要提醒**：2025–2026 年是 AI 人才流动最疯狂的两年，跳槽、创业、被反向收购几乎每周都在发生。本表「现状」一栏尽量取最新，但很可能很快过期——这是一份"活名单"，建议你自己随时往里加、往里改。
+
+---
+
+## 为什么 AI 大 V 大多是学术出身
+
+原因大致有五条。
+
+1. **学科太年轻，地基是论文砌的。** 现代 AI 的整套方法（深度学习、Transformer、扩散模型、RLHF）都是最近 10 多年从学术论文里长出来的。谁写了奠基论文，谁就天然站在台子中央。这个圈子里的"信誉货币"是引用量和代表作，不是 MBA。
+
+2. **稀缺能力前置在博士训练里。** 能从零设计、训练、调试一个前沿模型的人极少，而这种能力几乎只在顶级实验室的博士/博士后阶段才练得出来。所以人才管道本身就是学术的。
+
+3. **创业潮其实是"学者下海"潮。** 绝大多数明星 AI 公司的创始人，原本都是 OpenAI、Google Brain、DeepMind、FAIR、Stanford、Berkeley 的研究员，多数是研究员被资本和时代推去创业，而不是商人转行做 AI。
+
+4. **"科普/教育型"大 V 也需要学术底子才有说服力。** Karpathy、Andrew Ng、3Blue1Brown 这种内容型大 V 能火，是因为他们真的懂底层、能把硬东西讲清楚，这同样建立在学术功底上。
+
+5. **媒体和资本主动追捧"科学家叙事"。** 投资人投"写出 Transformer 的人"，媒体写"诺奖得主出来创业"，这套叙事比"连续创业者"更性感，于是学术明星被进一步放大。
+
+一句话：在一个还被基础研究定义的行业里，论文就是最硬的护城河。有些人一出手就有人给钱，靠的是别人复制不了的学术背书。
+
+---
+
+## 一、深度学习「教父级」/ 奠基学者
+
+| 姓名 | 背景 | 代表成就 | 现状 |
+|---|---|---|---|
+| Geoffrey Hinton (@geoffreyhinton) | 学术 | 反向传播、深度学习"教父"；2018 图灵奖、2024 诺贝尔物理奖 | 已离开 Google（2023），专注呼吁 AI 风险 |
+| Yann LeCun (@ylecun) | 学术 | 卷积网络之父；2018 图灵奖 | 2025 年 11 月离开 Meta，创办 AMI Labs（世界模型，2026 年 3 月融资超 10 亿美元） |
+| Yoshua Bengio (@Yoshua_Bengio) | 学术 | 深度学习先驱；2018 图灵奖 | Mila 创始人/科学顾问；2025 年创办 LawZero；主席《国际 AI 安全报告》 |
+| Richard Sutton (@RichardSSutton) | 学术 | 强化学习奠基、经典教材作者；2024 图灵奖 | University of Alberta / Keen Technologies |
+| Andrew Barto | 学术 | 强化学习奠基；2024 图灵奖 | UMass Amherst（荣休） |
+| Jürgen Schmidhuber (@SchmidhuberAI) | 学术 | LSTM；常公开争论"原创权" | KAUST / IDSIA |
+| Jeff Dean (@JeffDean) | 工程 | Google Brain、MapReduce、TensorFlow | Google DeepMind 首席科学家 |
+| Ian Goodfellow (@goodfellow_ian) | 学术 | GAN 发明者 | 2025 年离开 Google，创业中（stealth） |
+| Andrew Ng (@AndrewYNg) | 学术+业界 | Google Brain 联创、Coursera、最知名 AI 教育者 | DeepLearning.AI、AI Fund |
+| Fei-Fei Li (@drfeifei) | 学术 | ImageNet、"AI 教母" | Stanford；World Labs（空间智能，2026 年 2 月融资约 10 亿美元） |
+| Daphne Koller (@DaphneKoller) | 学术 | 概率图模型、Coursera 联创 | insitro（AI 制药）创始 CEO |
+| Michael I. Jordan | 学术 | 机器学习理论泰斗 | Berkeley / Inria Paris |
+
+---
+
+## 二、前沿大模型实验室创始人 / 领袖
+
+| 姓名 | 背景 | 公司/角色 | 现状 |
+|---|---|---|---|
+| Sam Altman (@sama) | 创业/投资（非学术） | OpenAI CEO | 在任，行业最具影响力 CEO |
+| Greg Brockman (@gdb) | 工程 | OpenAI 总裁、联合创始人 | 在任 |
+| Ilya Sutskever (@ilyasut) | 学术 | OpenAI 前首席科学家 | 创办 Safe Superintelligence (SSI)，估值约 320 亿美元 |
+| Mira Murati (@miramurati) | 工程/产品 | OpenAI 前 CTO | 创办 Thinking Machines Lab（2026 初经历高管出走动荡） |
+| Dario Amodei (@DarioAmodei) | 学术 | Anthropic CEO、联合创始人 | 在任 |
+| Daniela Amodei (@DanielaAmodei) | 业界 | Anthropic 总裁、联合创始人 | 在任 |
+| Demis Hassabis (@demishassabis) | 学术 | Google DeepMind CEO；2024 诺贝尔化学奖（AlphaFold） | 在任 |
+| Shane Legg (@ShaneLegg) | 学术 | DeepMind 联合创始人、首席 AGI 科学家 | 在任 |
+| John Jumper (@JohnJumperSci) | 学术 | AlphaFold、2024 诺贝尔化学奖 | 2026 年 6 月宣布离开 DeepMind 加入 Anthropic |
+| Elon Musk (@elonmusk) | 创业（非学术） | xAI 创始人、OpenAI 早期出资人 | 在任（2026 年 xAI 并入 SpaceX） |
+| Igor Babuschkin (@ibab) | 学术 | xAI 联合创始人 | 2025 年离开 xAI，创办 Babuschkin Ventures、River AI |
+| Arthur Mensch (@arthurmensch) | 学术 | Mistral AI 创始 CEO（前 DeepMind） | 在任（欧洲开源旗手） |
+| Emad Mostaque (@EMostaque) | 业界 | Stability AI 创始人（Stable Diffusion） | 已离开 Stability，创办 Intelligent Internet |
+| Aravind Srinivas (@AravSrinivas) | 学术 | Perplexity AI 创始 CEO | 在任 |
+| Mustafa Suleyman (@mustafasuleyman) | 业界 | DeepMind 联创、Inflection 创始 | 现任 Microsoft AI CEO |
+| Alexandr Wang (@alexandr_wang) | 创业（非学术，MIT 辍学） | Scale AI 创始人 | 2025.6 任 Meta 首位首席 AI 官，领导 Meta Superintelligence Labs |
+| Shengjia Zhao (@shengjia_zhao) | 学术 | ChatGPT / GPT-4 共同创造者 | Meta Superintelligence Lab 首席科学家 |
+| Daniel Gross (@danielgross) / Nat Friedman (@natfriedman) | 投资/工程 | AI 投资人组合，曾被各大厂争抢 | 现均加入 Meta Superintelligence Labs |
+| Liang Wenfeng | 量化金融/工程 | DeepSeek 创始人 | 在任（中国开源模型代表） |
+| Yang Zhilin | 学术 | Moonshot AI（Kimi）创始人 | 在任（2026 年估值约 200 亿美元） |
+| Jakub Pachocki (@merettm) | 学术 | OpenAI 首席科学家 | 2024 年 5 月接替 Ilya 至今 |
+| Mark Chen (@markchen90) | 学术 | OpenAI 首席研究官（CRO） | 2025 年 3 月升任 |
+| Oriol Vinyals (@OriolVinyalsML) | 学术 | Google DeepMind 研究副总裁，Gemini 技术共同负责人 | 在任 |
+| David Silver (@dsilver829) | 学术 | AlphaGo/AlphaZero 核心，DeepMind 强化学习负责人 | 2026 年初创办 Ineffable Intelligence（11 亿美元种子轮） |
+
+---
+
+## 三、Transformer 论文《Attention Is All You Need》八位作者
+
+| 姓名 | 背景 | 代表成就 | 现状（2026 年中） |
+|---|---|---|---|
+| Ashish Vaswani (@ashVaswani) | 学术 | 论文第一作者 | 创办 Adept（失败）→ 现创办并执掌 Essential AI |
+| Noam Shazeer (@NoamShazeer) | 学术/工程 | MoE、Character.AI | 几天前（2026.6）离开 Google 加入 OpenAI |
+| Niki Parmar (@nikiparmar09) | 学术 | 论文核心作者 | 创办 Adept、Essential AI 后，转任 Anthropic 技术员工 |
+| Jakob Uszkoreit (@kyosu) | 学术 | 论文作者 | 创办 Inceptive（用 AI 设计 RNA / 生物医药） |
+| Llion Jones (@YesThisIsLion) | 学术 | 论文作者 | 联合创办 Sakana AI（日本，独角兽） |
+| Aidan Gomez (@aidangomez) | 学术（当时本科生） | 最年轻作者 | 联合创办并执掌 Cohere（估值约 70 亿美元） |
+| Łukasz Kaiser (@lukaszkaiser) | 学术 | 论文作者、Tensor2Tensor | OpenAI 研究员（八人中唯一没创业的） |
+| Illia Polosukhin (@ilblackdragon) | 学术/工程 | 论文作者 | 联合创办 NEAR Protocol（区块链） |
+
+---
+
+## 四、学术界顶尖研究者（高产、高引用、常被引用为"大 V"）
+
+| 姓名 | 机构 | 方向/代表作 |
+|---|---|---|
+| Christopher Manning (@chrmanning) | Stanford | NLP 泰斗、GloVe |
+| Percy Liang (@percyliang) | Stanford | 基础模型评测、CRFM |
+| Chris Ré | Stanford | 数据/系统、Together AI 联创 |
+| Pieter Abbeel (@pabbeel) | Berkeley / Amazon AGI | 机器人 / RL；Covariant 创始 |
+| Sergey Levine (@svlevine) | Berkeley | 深度强化学习、机器人 |
+| Dawn Song (@dawnsongtweets) | Berkeley | AI 安全与隐私 |
+| Jitendra Malik (@JitendraMalikCV) | Berkeley | 计算机视觉奠基 |
+| Kaiming He | MIT（前 FAIR） | ResNet、MAE，CV 被引王 |
+| Ross Girshick (@inkynumbers) | — | R-CNN 系列 |
+| Alexei Efros (@AlexeiEfros) | Berkeley | 视觉、生成 |
+| Regina Barzilay (@BarzilayRegina) | MIT | AI + 医疗/药物 |
+| Tommi Jaakkola | MIT | 机器学习理论、扩散模型 |
+| Max Tegmark (@tegmark) | MIT | 物理 + AI、Future of Life Institute |
+| Zoubin Ghahramani (@ZoubinGhahrama1) | Cambridge / Google | 贝叶斯机器学习 |
+| Noah Smith (@nlpnoah) | UW / AI2 | NLP |
+| Yejin Choi (@YejinChoinka) | Stanford（前 UW/AI2） | 常识推理 NLP |
+| Sebastian Thrun (@SebastianThrun) | Stanford | 自动驾驶、Udacity 创始 |
+| Jeff Clune (@jeffclune) | UBC / DeepMind | 开放式学习 |
+| Chelsea Finn (@chelseabfinn) | Stanford | 元学习、机器人 |
+| Tatsunori Hashimoto (@tatsu_hashimoto) | Stanford | 语言模型评测/对齐 |
+| Alec Radford (@AlecRad) | 独立研究 / Thinking Machines 顾问 | GPT / GPT-2 / CLIP / Whisper 主作者，业内公认最被低估的关键人物 |
+| John Schulman (@johnschulman2) | Thinking Machines（前 OpenAI/Anthropic） | PPO、ChatGPT 共同创造者 |
+| Noam Brown (@polynoamial) | OpenAI | 博弈/推理、o 系列推理模型关键人 |
+| Jared Kaplan | Anthropic 联合创始人 | Scaling Laws（物理学家出身） |
+| Tom Brown (@nottombrown) | Anthropic 联合创始人 | GPT-3 负责人 |
+| Chris Olah (@ch402) | Anthropic 联合创始人 | 可解释性研究奠基 |
+| Robin Rombach (@robrombach) | Black Forest Labs 创始 | Stable Diffusion 主作者，现做 FLUX（研究者+创始人） |
+| Aditya Ramesh (@model_mechanic) | OpenAI（VP Research，Sora/Worldsim） | DALL·E 主作者 |
+| Jonathan Ho | — | 扩散模型 DDPM 奠基 |
+| Jason Wei (@_jasonwei) | Meta（前 OpenAI/Google） | Chain-of-Thought、涌现能力 |
+| Denny Zhou (@denny_zhou) | Google DeepMind | LLM 推理（CoT、自洽性） |
+| Quoc Le (@quocleix) | Google DeepMind | seq2seq、AutoML、AlphaGeometry |
+
+---
+
+## 五、教育 / 科普 / 内容型大 V（"会讲"比"会做"更出圈）
+
+| 姓名 | 背景 | 为何是大 V |
+|---|---|---|
+| Andrej Karpathy (@karpathy) | 学术（Stanford 博士） | 前 Tesla AI 总监、OpenAI 创始成员；YouTube/X 顶流讲师，"AI 科普第一人"；创办 Eureka Labs，**2026.5 暂停后加入 Anthropic** |
+| Jeremy Howard (@jeremyphoward) | 学术+业界 | fast.ai 创始，最受欢迎的实战课 |
+| Lex Fridman (@lexfridman) | 学术（MIT） | 头部 AI / 科技长访谈播客 |
+| Grant Sanderson（3Blue1Brown）(@3blue1brown) | 数学 | 神经网络可视化讲解殿堂级 |
+| Yannic Kilcher (@ykilcher) | 学术 | 论文精读 YouTube 大 V |
+| Károly Zsolnai-Fehér（Two Minute Papers）(@karoly_zsolnai) | 学术 | "论文两分钟"科普 |
+| François Fleuret (@francoisfleuret) | 学术 | 《小型语言模型》等教学 |
+| Sebastian Raschka (@rasbt) | 学术 | LLM 教学与著作 |
+| Jay Alammar (@JayAlammar) | 业界 | "图解 Transformer"作者 |
+| Chip Huyen (@chipro) | 业界 | MLOps / 实战书作者 |
+| Andriy Burkov (@burkov) | 业界 | 《百页机器学习》作者 |
+| Shawn Wang (swyx) (@swyx) | 业界 | "AI 工程师"概念推手、Latent Space 播客 |
+| Ethan Mollick (@emollick) | 沃顿商学院教授 | 《Co-Intelligence》作者，AI 改变工作/教育的头部解读者 |
+| Simon Willison (@simonw) | 工程/博主 | Django 联合创造者；"prompt injection"提出者；LLM 实战与安全 |
+| Riley Goodside (@goodside) | 业界 | prompt injection / jailbreak 早期代表，实践型 |
+
+---
+
+## 六、开源 / 工程 / 框架基础设施
+
+| 姓名 | 贡献 | 现状 |
+|---|---|---|
+| Clément Delangue (@ClementDelangue) | Hugging Face 联合创始 CEO | 在任（开源社区中枢） |
+| Thomas Wolf (@Thom_Wolf) | Hugging Face 联合创始、首席科学家 | 在任 |
+| Soumith Chintala (@soumithchintala) | PyTorch 共同创造者 | 2025 年离开 Meta，任 Thinking Machines Lab CTO |
+| François Chollet (@fchollet) | Keras 作者、ARC 挑战赛 | 离开 Google 创业（Ndea） |
+| Georgi Gerganov (@ggerganov) | llama.cpp / ggml 作者 | ggml.ai（2026 并入 Hugging Face） |
+| Tianqi Chen (@tqchenml) | XGBoost、TVM、MLC | CMU / Nvidia（OctoAI 2024 被 Nvidia 收购） |
+| Jim Fan (@DrJimFan) | 具身智能/机器人科普大 V | NVIDIA GEAR 实验室 |
+| Tri Dao (@tri_dao) | FlashAttention 作者 | Princeton / Together AI |
+| Wes McKinney (@wesmckinn) | pandas 创造者 | 数据生态 |
+| Travis Oliphant (@teoliphant) | NumPy/SciPy | Quansight |
+| Lin Qiao (@lqiao) | PyTorch 团队、Fireworks AI 创始 | 在任 |
+| vLLM 团队 | 高性能推理 | 开源/学界 |
+| Harrison Chase (@hwchase17) | LangChain 创始人 | CEO；2025 年估值 12.5 亿美元 |
+| Jerry Liu (@jerryjliu0) | LlamaIndex 创始人 | CEO；RAG / 文档 agent 生态 |
+
+---
+
+## 七、中国 AI 圈大 V（学术 + 产业）
+
+| 姓名 | 背景 | 代表 |
+|---|---|---|
+| Fei-Fei Li (@drfeifei) | 学术 | 见上（ImageNet、World Labs） |
+| Kaiming He | 学术 | 见上（ResNet） |
+| Liang Wenfeng | 量化/工程 | DeepSeek 创始人 |
+| Yang Zhilin | 学术 | Moonshot AI（Kimi）创始人 |
+| Kai-Fu Lee (@kaifulee) | 学术+投资 | Sinovation Ventures、01.AI |
+| Robin Li | 创业/工程 | Baidu 创始 CEO（Ernie 大模型） |
+| Zhang Yiming | 创业 | ByteDance 创始人（豆包 / Doubao 背后） |
+| Wang Huiwen | 创业 | Light Years Beyond（后并入 Meituan） |
+| Wang Xiaochuan | 工程 | Baichuan AI 创始人 |
+| Zhou Bowen | 学术 | Shanghai AI Lab |
+| Zhu Jun | 学术 | Tsinghua、生成模型、Shengshu AI |
+| Tang Jie (@jietang) | 学术 | Tsinghua、Zhipu AI（GLM） |
+| Yan Shuicheng (@shuicheng0320) | 学术 | 计算机视觉、Kunlun |
+| Yangqing Jia (@jiayq) | 工程 | Caffe 作者、Lepton AI 创始 |
+| Harry Shum | 学术+业界 | 前 Microsoft 全球执行副总裁、IDEA Research |
+| Tang Xiaoou | 学术 | SenseTime 创始人（已故，2023） |
+| Sun Jian | 学术 | ResNet 共同作者、Megvii 首席科学家（已故，2022） |
+| Wang Xingxing | 工程 | Unitree 创始人（机器人） |
+| Yin Qi | 创业 | Megvii 创始人 |
+
+---
+
+## 八、AI 安全 / 治理 / 思想类大 V
+
+| 姓名 | 背景 | 立场/贡献 |
+|---|---|---|
+| Stuart Russell | 学术 | 经典教材《AIMA》作者、AI 安全旗手 |
+| Eliezer Yudkowsky (@ESYudkowsky) | 思想家 | AI 风险最激进的警示者 |
+| Nick Bostrom | 哲学/学术 | 《超级智能》作者 |
+| Paul Christiano (@paulfchristiano) | 学术 | RLHF、对齐研究、美国 AI 安全研究所 |
+| Jan Leike (@janleike) | 学术 | 前 OpenAI 超级对齐负责人 → Anthropic |
+| Helen Toner (@hlntnr) | 政策 | AI 治理、前 OpenAI 董事 |
+| Timnit Gebru (@timnitGebru) | 学术 | AI 伦理、算法偏见 |
+| Margaret Mitchell (@mmitchell_ai) | 学术 | AI 伦理、Hugging Face |
+| Gary Marcus (@GaryMarcus) | 学术 | 深度学习最知名批评者 |
+| Yoshua Bengio (@Yoshua_Bengio) | 学术 | 见上（近年转向安全） |
+| Leopold Aschenbrenner (@leopoldasch) | 思想/投资 | 《Situational Awareness》作者，前 OpenAI 超级对齐；创办 AI 主题对冲基金 |
+| Amanda Askell (@AmandaAskell) | 哲学/对齐 | Anthropic，Claude 人格与偏好；HHH 框架共同作者 |
+| Sam Bowman (@sleepinyourhat) | 学术 | NLP/评测/AI safety，NYU + Anthropic |
+| Jack Clark (@jackclarkSF) | 业界/政策 | Anthropic 联创，Import AI，政策影响力 |
+| Dan Hendrycks (@DanHendrycks) | 学术 | CAIS 主任，AI 风险与评测（MMLU/MATH） |
+| Dean Ball (@deanwball) | 政策 | AI 政策；2026 加入 OpenAI Strategic Futures |
+
+---
+
+## 九、商业 / 资本 / 操盘手（非学术出身为主，与上面形成对照）
+
+**巨头掌舵 / 高管**
+
+| 姓名 | 角色 |
+|---|---|
+| Jensen Huang | NVIDIA 创始 CEO，AI 算力命脉 |
+| Lisa Su (@LisaSu) | AMD CEO（学术博士背景） |
+| Satya Nadella (@satyanadella) | Microsoft CEO |
+| Sundar Pichai (@sundarpichai) | Google CEO |
+| Mark Zuckerberg | Meta，重金押注超级智能实验室 |
+| Andy Jassy (@ajassy) | Amazon CEO |
+| Kevin Scott (@kevin_scott) | Microsoft CTO，微软 AI 战略操盘手 |
+| Brad Lightcap (@bradlightcap) | OpenAI COO |
+| Mike Krieger (@mikeyk) | Instagram 联创，现 Anthropic 首席产品官 |
+
+**投资人 / 孵化器**
+
+| 姓名 | 角色 |
+|---|---|
+| Marc Andreessen (@pmarca) / Vinod Khosla (@vkhosla) | 顶级 AI 风投 |
+| Masayoshi Son (@masason) | SoftBank，AI 超级投资人 |
+| Eric Schmidt (@ericschmidt) | 前 Google CEO，现顶级 AI 投资与政策玩家 |
+| Reid Hoffman (@reidhoffman) | LinkedIn 创始、Inflection 联创、超级投资人 |
+| Garry Tan (@garrytan) | Y Combinator 总裁（孵化器之王） |
+| Sarah Guo (@saranormous) | Conviction 创始人、AI 风投与播客 |
+
+**应用 / 工具 / 芯片 / 机器人创始人（连续创业者，非学术）**
+
+| 姓名 | 公司 |
+|---|---|
+| Michael Truell (@mntruell) | Anysphere / Cursor 创始 CEO（当下最火编程工具） |
+| Scott Wu (@ScottWu46) | Cognition 创始 CEO（Devin） |
+| Amjad Masad (@amasad) | Replit 创始 CEO |
+| Cristóbal Valenzuela (@c_valenzuelab) | Runway 创始 CEO（视频生成） |
+| Jonathan Ross (@JonathanRoss321) | Groq 创始 CEO（AI 芯片） |
+| Andrew Feldman (@andrewdfeldman) | Cerebras 创始 CEO（AI 芯片） |
+| Brett Adcock (@adcock_brett) | Figure AI 创始人（人形机器人） |
+| Marc Raibert | Boston Dynamics 创始人（机器人奠基） |
+| David Holz (@DavidSHolz) | Midjourney 创始人（图像生成） |
+| Demi Guo (@demi_guo_) | Pika 联合创始人（视频生成） |
+| Amit Jain (@gravicle) | Luma AI 创始人（视频/世界模型） |
+
+---
+
+### 用法建议
+- 这份名单按"圈层"分类，方便你按需要追踪某一类人（学术 / 实验室 / 教育 / 开源 / 中国 / 安全）。
+- 想真正吃透一个圈子，比起背名单，更有效的是挑 5–10 个人长期跟（看他们 X/博客/论文），名单只是入口。
+- 如果你做教育方向，**第五类（教育/科普型大 V）** 最值得你研究——他们证明了"把硬知识讲清楚"本身就能 bootstrap 出巨大影响力，而且这条路不需要风投。
+
+---
+
+## 小结：盘完这份名单，大 V 到底什么出身？
+
+把上面九类一百六十多人盘下来，规律很清楚。定义AI的人，绝大多数是学术和研究出身，真正"做生意起家"的是少数。
+
+最硬的证据在前四类。深度学习教父、前沿实验室的首席科学家、Transformer的八位作者、学术界顶尖研究者，这四组加起来七十多人，几乎清一色PhD或研究员出身，很多还出自同一批实验室（OpenAI、Google Brain、DeepMind、FAIR）和同几所学校（斯坦福、伯克利、MIT、多伦多、清华）。这个圈子里的硬通货是论文和代表作，不是文凭上的MBA。
+
+把"创始人"和"科学家"分开看更清楚。今天这些明星公司的创始人，大部分本来就是研究员，被资本和时代推着下了海。Hassabis、李飞飞、Bengio、Ilya、David Silver、Arthur Mensch、梁文锋、Tri Dao，都是先有学术身份，再有公司。"学者下海"才是这一波创业潮的主线。
+
+纯商业、资本、运营出身，没碰过研究的人，主要挤在第九类那一档，满打满算也就二三十个。而且就算在这一档，很多人也带着技术底子。黄仁勋是工程师，Lisa Su是MIT博士，Pichai、Nadella是工程师转管理，Andreessen、Khosla当年也是写代码、做芯片出身。真正纯做生意、纯玩钱的，是更小的一撮：做投资的Masayoshi Son、Sarah Guo，管运营和财务的Brad Lightcap、Andy Jassy，记者出身的Jack Clark，政策出身的Helen Toner、Dean Ball。
+
+Sam Altman是这一小撮里最典型的代表。他在斯坦福念了两年就退学，先创业（Loopt），再做投资（YC总裁），从没做过研究，也不写模型。他的本事是把一帮科学家的想法变成公司、变成钱，写论文、搭架构不是他那一摊。在一个还被基础研究定义的行业里，这种纯操盘手反而稀缺，所以格外扎眼。
+
+一句话收尾：AI的"内容"由学者定义，AI的"生意"由少数操盘手主导，两拨人很少重合。Altman、马斯克、黄仁勋之所以家喻户晓，恰恰因为他们站在那条稀缺的、非学术的一侧。
+
+---
+
+## 那像我这样的人，怎么挤进这个圈子
+
+这份名单盘下来，结论对我是个刺激：能成事的几乎都是学术出身，纯靠商业起家的是极少数。我是天体物理PhD，没有任何AI学术履历。那我这种人到底有没有机会、机会在哪，下面是我给自己想清楚的一条路。
+
+### 先看清我一直栽在哪
+
+我的轨迹是同一个问题反复出现：硬实力够，但每次都卡在没有那张对的门票上。
+
+学术界我想留，没拿到教职，被挤了出来。工业界我被迫进去，只能做最低级的机器学习活，因为那里看的是AI对口履历，不是物理多深。后来辞职做教育创业，失败，降级成家教，一是时机不对，二是创业得靠谈生意、拉关系、卖东西，而这恰是我最弱的一环。
+
+三段连起来，结论很清楚：我每次失败，问题都不在实力，而在我被放进了实力不算胜负手的赛道。学术拼位置，工业拼履历，创业拼销售，我的物理深度在这三处都不顶用。
+
+### 把不通的门一扇扇关掉
+
+去大厂当研究员，最难进，我没有AI论文，那条路性价比也一般，门最窄、回报还不在这。在工业界往上爬，我试过，天花板就是低级机器学习活。回去创业或做教育，直接撞我最大的短板，已经验证过会死。AI for Science，做的人山人海，我的物理优势会被几千人稀释掉。纯做科普号，能涨粉，却给不了学术地位、也进不了圈子，最后只是个讲解员。还有一条看着诱人：用Vibe Coding快速做个AI产品。我也不走，因为产品活不活全看分发和销售，又撞回我最弱、已经输过的那块，何况这种产品护城河薄。门一扇扇关掉，剩下那扇才是答案。
+
+### 剩下的那扇：做学术，方向是 Physics of AI
+
+两个事实把我逼到这里。
+
+第一，这份名单告诉我，AI圈被当回事的人，绝大多数有研究者身份。我从天体物理来，重新做研究是我最自然、最可信的身份，等于把过去那段没走通的学术反过来变成资产。
+
+第二，我唯一别人没有的护城河是物理深度，而它只在一个地方是决定性的：用物理去理解AI本身。这跟AI for Science正好相反。AI for Science是拿AI去做物理，物理博士一抓一把。我要做的是反过来，用物理学家的眼光，对称性、守恒、耗散、相变、统计力学，去解剖学习和模型这件事本身。计算机出身的人物理观淡薄，这套他们做不了，我能做。这块地基本无人占，与其去挤别人的赛道，不如圈一块自己天然占优的新地。
+
+### 这条路最妙的地方：正好治我的短板
+
+我最弱的是谈生意，过去所有失败的共同点，就是输在得自己去推销。
+
+研究品牌这条路把逻辑反了过来：我不去找生意，生意来找我。一旦我成体系地做出物理看AI的一系列研究，成了这件事上的那个名字，机会就是inbound的，实验室来挖、投资人来找、收购的offer自己上门。我用作品当销售员，靠声誉转化，而不靠那张我最不擅长的嘴。名单里就有活例子：swyx一个前交易员，靠造一个话题让大会生意上门，Mollick一个管理学教授，靠持续输出让影响力来找他，Hendrycks靠做基准成了评测权威。他们都没去谈生意，是作品把人吸过来。这条路对我成立，根本就在这里，它绕开我的死穴，全押我的长板。
+
+### 为什么是一个系列，不是一篇爆款
+
+单篇文章、单个benchmark，在几十万篇里就是张彩票，大概率沉底。一个话题却会复利，每出一篇都在给同一块招牌加码，最后我成了一个品类的主人。这才是持久的影响力，也才是机会上门的来源。手上那几个topic是这块地里打的头几根桩，不是孤立的几件事。
+
+### 科研主线：物理 of 学习
+
+这块地底下有两条轴，我得分清。一条是物理of学习，把训练当成一个物理系统，用对称破缺、守恒与耗散、相变去给学习建理论，理论为主，玩具模型和小模型就能做，一个人就能干，最吃我的独门优势。另一条是学习of物理，模型懂不懂世界的物理，偏评测。主线我选第一条，第二条留作更能落地、更快兑现的应用出口，别让它把主线稀释成什么都做一点。
+
+### 怎么收口
+
+连起来就是：以天体物理身份重新做学术，专攻一块只有我占优又没人占的地，用一系列研究把自己做成这块地的主人，让品牌把机会引进来，自然接上世界模型或前沿实验室的高级位子，或一次合作、一次招揽。声誉是入场券，研究者身份给我地位，长期的回报会顺着声誉自己找上门，全程绕开我最弱的销售。这就是为什么是这条路。
+
+### 走通过这条路的人
+
+这条路不是我臆想的，已经有人用"独立做研究、不靠学术体制"的方式走通，进了圈子最核心的地方。每一个，恰好对应我那四根柱子里的一根。
+
+- Chris Olah：连大学都没读完，靠自驱的可解释性研究，加上 Distill 那种把硬东西讲透的功夫，一路进了 Google Brain、OpenAI，最后成了 Anthropic 联合创始人。没文凭、没教职，照样站到核心。对应"独立身份"。
+- Dan Hendrycks：不靠教职，靠做基准（MMLU、MATH）成了"AI 评测"这件事上的权威，前沿实验室主动请他当顾问。一个 artifact 撑起一整块话语权，这正是我想用物理 benchmark 复制的路。对应"定义性 artifact"。
+- Simon Willison：一个 web 工程师，没有 AI 学术背景，靠日更、亲手测、造词（prompt injection），成了实战圈最被信任的声音。分发就是他的护城河。对应"自己的分发"。
+- Shawn Wang（swyx）：前交易员，零学术，靠造一个话题（"AI Engineer"）把自己变成一个品类的主人，大会和生意反过来找他。对应"占一块地"。
+- Jared Kaplan：物理学家出身，把物理直觉用在 AI 上做出 Scaling Laws，直接成了 Anthropic 联合创始人兼首席科学家。他的物理背景成了武器而非包袱，这条对我尤其有参照。
+
+他们的共同点很清楚：没有一个是靠"在学术大水里多发几篇论文"出头的，全是靠一个别人记得住的东西，加上让人看见的能力。我要做的，就是把这套搬到"物理看AI"这块没人占的地上。
+
+### 两条诚实的风险
+
+物理of学习很涨声望，但回报来得慢，所以我得留至少一个证据点对着更能落地的东西，比如世界模型的物理正确性，给声誉一个更快兑现的出口。再一个，这是几年的复利游戏，不是速成，好在我已经动手，不是从零开始。
+
+---
