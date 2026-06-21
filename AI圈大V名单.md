@@ -252,24 +252,24 @@
 
 ## 人物小传
 
-名单只是入口，背后每个人都有一条值得拆的路径。下面给名单里的人逐个补小传，点上面名单里加了链接的名字，可以直接跳到这里。先放两篇样本，一篇学术奠基型，一篇商业操盘型，看看这个写法行不行，行的话再往下接。
+The list is only an entry point. Behind each name is a path worth unpacking. Profiles go here, added one person at a time, and a linked name in the list above jumps you straight down to its entry. Two samples to start, one academic founder and one business operator, to settle the format before going further.
 
 ### Geoffrey Hinton
 
-辛顿（Geoffrey Hinton）1947年生于英国，出身一个出过数学家的家族，布尔代数的发明者乔治·布尔（George Boole）是他的高祖。他1978年在爱丁堡大学拿到博士，做的是神经网络，而那在当时是个被主流嫌弃、没几个人愿意碰的冷板凳。这条冷板凳，他一坐就是三十年。
+Geoffrey Hinton was born in Britain in 1947, into a family that had produced its share of mathematicians; his great-great-grandfather was George Boole, the inventor of Boolean algebra. He earned his PhD at Edinburgh in 1978, working on neural networks, a fringe topic at the time that almost no one wanted to touch. He stayed on that bench for thirty years.
 
-转折在2012年。他带的两个学生Alex Krizhevsky和Ilya Sutskever做出AlexNet，用两张游戏显卡把ImageNet图像识别的错误率甩开第二名一大截，深度学习一夜从边缘变成主流，这一段我在工程全景上篇专门讲过。谷歌很快收购了他们的小公司，辛顿从2013年起一边在多伦多大学、一边在Google Brain干活。
+The turn came in 2012. Two of his students, Alex Krizhevsky and Ilya Sutskever, built AlexNet. Running on just two gaming GPUs, it won ImageNet by a wide margin, and deep learning went from the margins to the mainstream overnight. I covered this moment in part one of the engineering series. Google soon acquired their small company, and from 2013 Hinton split his time between the University of Toronto and Google Brain.
 
-他的硬通货是几样奠基工作。1986年他和Rumelhart、Williams把反向传播算法推广开，那是今天几乎所有神经网络训练的地基。2018年他和Bengio、LeCun共获图灵奖，2024年又和物理学家Hopfield共获诺贝尔物理奖，理由是让神经网络机器学习成为可能的奠基性发现。"深度学习教父"这个称号是同行公认的，分量很重。
+His currency is a handful of foundational contributions. In 1986, with Rumelhart and Williams, he popularized backpropagation, the bedrock of almost all neural network training today. He shared the 2018 Turing Award with Bengio and LeCun, and the 2024 Nobel Prize in Physics with the physicist John Hopfield, cited for the foundational work that made machine learning with neural networks possible. The label "godfather of deep learning" is one his peers gave him, and it carries weight.
 
-最值得说的是结尾。2023年5月，辛顿辞掉谷歌，理由是想能毫无顾虑地公开警告AI的风险。一个亲手把这门技术从冷板凳推上神坛的人，到头来掉头警告自己的造物。到2026年他依然活跃，反复提醒一个他称为"2026临界点"的能力跃升，会冲击软件工程师和律师这类复杂职业。他是这份名单里最完整的一个隐喻，既是砌地基的人，也是最早拉警报的人。
+The ending is the part worth dwelling on. In May 2023 Hinton left Google so he could warn about the risks of AI without holding back. The man who pushed this technology from a fringe bench onto a pedestal turned around to warn about his own creation. He is still active in 2026, repeating a warning about what he calls a "2026 breakpoint," a jump in capability that he expects to hit complex professions like software engineering and law. He is the most complete metaphor on this list: the man who laid the foundation, and the first to pull the alarm.
 
 ### Jensen Huang
 
-黄仁勋（Jensen Huang）1963年生于台湾台南，九岁随家移民美国，在肯塔基一所环境粗粝的寄宿学校待过一段。他在俄勒冈州立大学念电子工程本科，又到斯坦福拿了硕士，早年在AMD和LSI Logic做芯片。
+Jensen Huang was born in Tainan, Taiwan, in 1963. He moved to the United States at nine and spent a stretch at a rough boarding school in Kentucky. He studied electrical engineering at Oregon State, took a master's at Stanford, and worked on chips early on at AMD and LSI Logic.
 
-1993年他三十岁，在加州圣何塞一家Denny's餐厅的卡座里，和Chris Malachowsky、Curtis Priem一起创办了英伟达（Nvidia）。公司最早做的是游戏显卡。真正改命的一步是2006年押注CUDA，把GPU从专门渲染游戏画面的硬件，改造成什么并行计算都能跑的通用处理器，这步豪赌我在工程全景上篇拆得很细。那之后整整十年几乎没有商业回报，华尔街反复质疑，他硬是没松手。
+In 1993, at thirty, he co-founded Nvidia in a booth at a Denny's in San Jose, alongside Chris Malachowsky and Curtis Priem. The company started out making gaming graphics cards. The move that changed everything was the 2006 bet on CUDA, which turned the GPU from hardware built to render game frames into a general-purpose processor that could run any parallel workload. I take this gamble apart in detail in part one of the engineering series. For a full decade afterward there was almost no commercial payoff, Wall Street questioned the spending again and again, and he never let go.
 
-回报来得晚，来得猛。2012年AlexNet用的就是英伟达的卡，AI浪潮起来后，全行业训练模型都得排队买他家的GPU。2025年10月，英伟达成为全球第一家市值突破5万亿美元的上市公司。黄仁勋手里大约3.5%的股份，到2026年身家在1600亿美元以上，随股价在不同口径下浮动到2000亿区间，稳居全球前十。
+The payoff came late and came hard. AlexNet ran on Nvidia cards in 2012, and once the AI wave hit, the whole industry had to line up to buy his GPUs to train models. In October 2025 Nvidia became the first public company in the world to pass a five trillion dollar market cap. Huang holds about 3.5% of it, and by 2026 his net worth sits above 160 billion dollars, drifting toward 200 billion depending on the share price and whose count you use, which puts him among the ten richest people alive.
 
-这里有个值得一提的对照。名单里的大V大多是学术出身、靠论文起家，黄仁勋是少数纯靠工程和商业判断站到顶端的人。别人卖的是论文，他卖的是让那些论文能跑起来的底座。那件标志性的黑皮衣背后，是一个赌对了算力会成为AI命脉的工程老兵。
+There is a contrast here worth naming. Most names on this list are academics who started with a paper. Huang is one of the few who reached the top purely on engineering and business judgment. Others sell the papers; he sells the substrate that lets those papers actually run. Behind the signature black leather jacket is an engineering veteran who bet, correctly, that compute would be the lifeblood of AI.
