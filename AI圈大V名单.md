@@ -28,17 +28,17 @@
 | 姓名 | 背景 | 代表成就 | 现状 |
 |---|---|---|---|
 | [Geoffrey Hinton](#geoffrey-hinton) | 学术 | 反向传播、深度学习"教父"；2018 图灵奖、2024 诺贝尔物理奖 | 已离开 Google（2023），专注呼吁 AI 风险 |
-| Yann LeCun | 学术 | 卷积网络之父；2018 图灵奖 | 长期任 Meta 首席 AI 科学家 / FAIR 创始人（Meta AI 大重组后角色变动，有报道称其考虑离职创业） |
-| Yoshua Bengio | 学术 | 深度学习先驱；2018 图灵奖 | Mila 负责人；主导《国际 AI 安全报告》 |
-| Richard Sutton | 学术 | 强化学习奠基、经典教材作者；2024 图灵奖 | University of Alberta / Keen Technologies |
-| Andrew Barto | 学术 | 强化学习奠基；2024 图灵奖 | UMass Amherst（荣休） |
-| Jürgen Schmidhuber | 学术 | LSTM；常公开争论"原创权" | KAUST / IDSIA |
-| Jeff Dean | 工程 | Google Brain、MapReduce、TensorFlow | Google 首席科学家 |
-| Ian Goodfellow | 学术 | GAN 发明者 | Google DeepMind |
-| Andrew Ng | 学术+业界 | Google Brain 联创、Coursera、最知名 AI 教育者 | DeepLearning.AI、AI Fund |
-| Fei-Fei Li | 学术 | ImageNet、"AI 教母" | Stanford；联合创办 World Labs（空间智能） |
-| Daphne Koller | 学术 | 概率图模型、Coursera 联创 | insitro（AI 制药）创始 CEO |
-| Michael I. Jordan | 学术 | 机器学习理论泰斗 | Berkeley |
+| [Yann LeCun](#yann-lecun) | 学术 | 卷积网络之父；2018 图灵奖 | 2025 年 11 月离开 Meta，创办 AMI Labs（世界模型，2026 年 3 月融资超 10 亿美元） |
+| [Yoshua Bengio](#yoshua-bengio) | 学术 | 深度学习先驱；2018 图灵奖 | Mila 创始人/科学顾问；2025 年创办 LawZero；主席《国际 AI 安全报告》 |
+| [Richard Sutton](#richard-s-sutton) | 学术 | 强化学习奠基、经典教材作者；2024 图灵奖 | University of Alberta / Keen Technologies |
+| [Andrew Barto](#andrew-barto) | 学术 | 强化学习奠基；2024 图灵奖 | UMass Amherst（荣休） |
+| [Jürgen Schmidhuber](#jürgen-schmidhuber) | 学术 | LSTM；常公开争论"原创权" | KAUST / IDSIA |
+| [Jeff Dean](#jeff-dean) | 工程 | Google Brain、MapReduce、TensorFlow | Google DeepMind 首席科学家 |
+| [Ian Goodfellow](#ian-goodfellow) | 学术 | GAN 发明者 | 2025 年离开 Google，创业中（stealth） |
+| [Andrew Ng](#andrew-ng) | 学术+业界 | Google Brain 联创、Coursera、最知名 AI 教育者 | DeepLearning.AI、AI Fund |
+| [Fei-Fei Li](#fei-fei-li) | 学术 | ImageNet、"AI 教母" | Stanford；World Labs（空间智能，2026 年 2 月融资约 10 亿美元） |
+| [Daphne Koller](#daphne-koller) | 学术 | 概率图模型、Coursera 联创 | insitro（AI 制药）创始 CEO |
+| [Michael I. Jordan](#michael-i-jordan) | 学术 | 机器学习理论泰斗 | Berkeley / Inria Paris |
 
 ---
 
@@ -252,7 +252,47 @@
 
 ## 人物小传
 
-The list is only an entry point. Behind each name is a path worth unpacking. Profiles go here, added one person at a time, and a linked name in the list above jumps you straight down to its entry. Two samples to start, one academic founder and one business operator, to settle the format before going further.
+The list is only an entry point; behind each name is a path worth unpacking. Profiles sit here in alphabetical order, and a linked name in the list above jumps straight down to its entry. Coverage is being filled in category by category, the foundational figures first.
+
+### Andrew Barto
+
+Andrew Barto is the quiet half of the most consequential partnership in AI. Born in 1948, he arrived at the University of Massachusetts Amherst as a postdoc in 1977 and stayed for his entire career, which is itself a kind of statement in a field that prizes restlessness. In the late 1970s he became convinced that ideas from psychology and control theory could explain how an agent learns from consequences, and he set about formalizing it when almost nobody saw a future in the work.
+
+His most important act may have been recognizing the talent across the desk. He supervised [Richard Sutton](https://en.wikipedia.org/wiki/Richard_S._Sutton) as a doctoral student, and the two of them built reinforcement learning from intuition into a rigorous discipline — the algorithms, the proofs, and the 1998 textbook that taught everyone who came after. The same ideas now drive AlphaGo and the reasoning behind modern chatbots.
+
+In 2024 he and Sutton shared the Turing Award, the field's highest honor, decades after the foundational papers. Barto is professor emeritus now, retired from the lab he never left. He is the rarest figure on any list of pioneers: the mentor whose largest contribution was getting the fundamentals exactly right and letting the student run.
+
+Wikipedia: [Andrew Barto](https://en.wikipedia.org/wiki/Andrew_Barto)
+
+### Andrew Ng
+
+Andrew Ng has probably taught more people machine learning than anyone alive. Born in London in 1976 to Hong Kong parents and raised between Hong Kong and Singapore, he collected degrees from Carnegie Mellon, MIT, and Berkeley, then joined Stanford, where his lecture notes quietly became the canon. In 2011 he put his machine learning course online; the response was large enough that he co-founded Coursera with [Daphne Koller](https://en.wikipedia.org/wiki/Daphne_Koller) the next year and helped invent the modern MOOC.
+
+His research record would stand on its own. He co-founded Google Brain in 2011 and ran the deep learning effort behind the famous cat-recognizing network. From 2014 to 2017 he was chief scientist at Baidu, building one of China's most serious AI organizations during the years that mattered most. Then he stepped away from running a corporate lab to do what he is plainly best at: lowering the barrier to entry. DeepLearning.AI, his teaching company, and AI Fund, his venture studio, are both bets that the bottleneck in AI is not talent but trained people and funded teams.
+
+Ng is the rare figure who chose distribution over discovery and may have been right. He could have spent the decade chasing larger models; instead he spent it making sure millions of others could. On a list crowded with people who built the technology, he is the one who built the workforce.
+
+Wikipedia: [Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng)
+
+### Daphne Koller
+
+Daphne Koller was born in Jerusalem in 1968 and finished her master's at Hebrew University by eighteen, a pace that hints at the rest. She earned her PhD at Stanford, joined its faculty in 1995, and became a defining figure in probabilistic graphical models, the discipline of reasoning under uncertainty when variables tangle in the thousands. Her 2009 textbook with Nir Friedman is still the field's standard reference. A MacArthur "genius" grant arrived in 2004.
+
+Then she kept changing the question. In 2012 she and [Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng) put their Stanford courses online and founded Coursera, briefly making her one of the most visible figures in education before she stepped away. A short stop at Google's Calico followed. In 2018 she founded insitro, and this is the move that reveals her: she aimed machine learning at drug discovery, the industry where capital goes to die. Her premise is that models trained on enormous, purpose-built biological datasets can spot disease patterns that human intuition cannot.
+
+The hard part of that bet comes due now. By 2026 insitro had nominated its first development candidate and was steering toward its first human trials, the moment biology stops being a slide and starts being a patient. Koller spent a career proving she can build the math. She is now wagering the harder claim, that the math can find a drug.
+
+Wikipedia: [Daphne Koller](https://en.wikipedia.org/wiki/Daphne_Koller)
+
+### Fei-Fei Li
+
+Fei-Fei Li was born in Beijing in 1976 and arrived in New Jersey at fifteen, helping run her parents' dry-cleaning shop while learning English. She trained as a physicist at Princeton before turning to a harder problem: teaching machines to see. Her bet, around 2007, was contrarian. While the field obsessed over algorithms, she wagered that the bottleneck was data. The result was ImageNet, more than fourteen million hand-labeled images, and the annual contest built on it. When a neural network crushed that contest in 2012, the modern deep-learning era effectively began on her foundation.
+
+She has since moved fluidly between camps that rarely mix. She co-directs Stanford's Human-Centered AI institute, served a stint as chief scientist of AI at Google Cloud, and pushed "human-centered" as more than a slogan, testifying to Congress and pressing on AI's social costs. In 2024 she co-founded World Labs to chase what she calls spatial intelligence: AI that grasps three-dimensional space, not just text and pixels. The thesis paid off fast. In February 2026 the company raised $1 billion from backers including Nvidia, AMD and Autodesk, and shipped Marble, a system that builds editable 3D worlds from a prompt.
+
+Li is the rare researcher who built the runway everyone else took off from, then refused to coast on it. Most pioneers defend their monument. She left to dig the next foundation.
+
+Wikipedia: [Fei-Fei Li](https://en.wikipedia.org/wiki/Fei-Fei_Li)
 
 ### Geoffrey Hinton
 
@@ -266,6 +306,26 @@ The ending is the part worth dwelling on. In May 2023 Hinton left Google so he c
 
 Wikipedia: [Geoffrey Hinton](https://en.wikipedia.org/wiki/Geoffrey_Hinton)
 
+### Ian Goodfellow
+
+The legend is that the idea arrived in a bar. In 2014, arguing with friends in Montreal about how to make neural networks generate convincing images, Ian Goodfellow proposed pitting two networks against each other, one forging, one detecting, each forcing the other to improve. He went home, coded it that night, and it worked. The result, generative adversarial networks, became one of the most influential ideas of the decade and the technical ancestor of the deepfake. That same year he was the first author on *Deep Learning*, the textbook with [Yoshua Bengio](https://en.wikipedia.org/wiki/Yoshua_Bengio) and Aaron Courville that taught a generation.
+
+Goodfellow, a student of Bengio and of [Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng), spent his career near the center of the field, at Google Brain, then as director of machine learning at Apple. In 2022 he resigned from Apple over its push to drag staff back into offices, a quiet protest that made news, and returned to Google DeepMind. Then, in 2025, after roughly fourteen years inside Google's orbit, he left to co-found a startup, still in stealth as of mid-2026.
+
+That last move is the tell. The man who gave away GANs in a paper and a textbook has decided to keep the next idea for himself. Whatever he is building, the field will read the announcement closely, because his track record is one of turning a single argument into an entire subfield.
+
+Wikipedia: [Ian Goodfellow](https://en.wikipedia.org/wiki/Ian_Goodfellow)
+
+### Jeff Dean
+
+Most of the people on AI lists made their names on algorithms. Jeff Dean made his on plumbing. Born in 1968, he took a PhD in compilers at the University of Washington and joined Google in 1999, when the company was still small enough that one engineer could reshape it. Over the next decade, working often with Sanjay Ghemawat, he co-designed the systems that let Google index the planet: MapReduce, Bigtable, Spanner, the protocols and storage layers underneath nearly everything the company ships. Engineers trade Jeff Dean facts the way other professions trade legends.
+
+In 2011 he turned to neural networks, joining the X lab to train models large enough to recognize a cat from unlabeled YouTube frames. That experiment became Google Brain, which he led, and which produced TensorFlow, the framework that put deep learning in millions of hands. His career is the rare case where the infrastructure and the intelligence were built by the same person.
+
+When Google folded Brain and DeepMind together in 2023, Dean became chief scientist of the combined Google DeepMind and Google Research, and one of the leads on Gemini, the model meant to answer OpenAI. He picked the name himself, twins coming together. If much of modern AI is a story about scale beating cleverness, Dean is the man who made scale possible, then pointed it at the hardest problem he could find.
+
+Wikipedia: [Jeff Dean](https://en.wikipedia.org/wiki/Jeff_Dean)
+
 ### Jensen Huang
 
 Jensen Huang was born in Tainan, Taiwan, in 1963. He moved to the United States at nine and spent a stretch at a rough boarding school in Kentucky. He studied electrical engineering at Oregon State, took a master's at Stanford, and worked on chips early on at AMD and LSI Logic.
@@ -277,3 +337,53 @@ The payoff came late and came hard. AlexNet ran on Nvidia cards in 2012, and onc
 There is a contrast here worth naming. Most names on this list are academics who started with a paper. Huang is one of the few who reached the top purely on engineering and business judgment. Others sell the papers; he sells the substrate that lets those papers actually run. Behind the signature black leather jacket is an engineering veteran who bet, correctly, that compute would be the lifeblood of AI.
 
 Wikipedia: [Jensen Huang](https://en.wikipedia.org/wiki/Jensen_Huang)
+
+### Jürgen Schmidhuber
+
+In 1991, a German graduate student named Sepp Hochreiter wrote a diploma thesis at the Technical University of Munich, supervised by a young researcher who would later call it one of the most important documents in the history of machine learning. That supervisor was Jürgen Schmidhuber, and the work fed into long short-term memory, the recurrent architecture he and [Sepp Hochreiter](https://en.wikipedia.org/wiki/Sepp_Hochreiter) published in 1997. For two decades LSTM sat quietly in journals. Then it moved into the speech engines, translation systems, and phones of billions of people, arguably the most commercially deployed neural network of its era.
+
+Schmidhuber, born in Munich in 1963, has spent his career insisting that the field gives credit to the wrong people. From his perch as scientific director of IDSIA in Switzerland, a post he has held since 1995, he has waged a long campaign arguing that [Geoffrey Hinton](https://en.wikipedia.org/wiki/Geoffrey_Hinton), [Yoshua Bengio](https://en.wikipedia.org/wiki/Yoshua_Bengio), and [Yann LeCun](https://en.wikipedia.org/wiki/Yann_LeCun) cite each other while neglecting earlier work, including his own. He has even claimed priority over the core idea behind generative adversarial networks. LeCun once called him manically obsessed with recognition; Schmidhuber answered with footnotes.
+
+Since 2021 he has run the AI Initiative at KAUST in Saudi Arabia, splitting his year between Switzerland and the Red Sea. The frustrating thing about Schmidhuber is that he is often right on the dates and wrong on the diplomacy. He is the field's permanent prosecutor, and a reminder that scientific credit is decided as much by salesmanship as by who got there first.
+
+Wikipedia: [Jürgen Schmidhuber](https://en.wikipedia.org/wiki/J%C3%BCrgen_Schmidhuber)
+
+### Michael I. Jordan
+
+Michael I. Jordan, born in 1956, is the machine-learning theorist often confused with the basketball player, and the comparison is not entirely unfair: in his field he was the franchise. The Pehong Chen Distinguished Professor at Berkeley, with joint chairs in EECS and statistics, he spent decades welding three fields that usually ignore each other, computer science, statistics, and economics, into one way of thinking about learning machines.
+
+His deepest mark may be his students. The roster he advised or hosted reads like a who's who of the modern field: [Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng), [David Blei](https://en.wikipedia.org/wiki/David_Blei), [Zoubin Ghahramani](https://en.wikipedia.org/wiki/Zoubin_Ghahramani), [Eric Xing](https://en.wikipedia.org/wiki/Eric_Xing), and, as a postdoc, [Yoshua Bengio](https://en.wikipedia.org/wiki/Yoshua_Bengio). The honors followed, the Rumelhart Prize, the IEEE von Neumann Medal, the inaugural World Laureates Association Prize, and Science once named him the world's most influential computer scientist.
+
+He has also been the field's loudest skeptic of its own hype, arguing for years that "AI" is mostly engineering dressed as cognition and that the real frontier is decision-making under uncertainty, not chatbots. Now splitting time between Berkeley and Inria in Paris, he is still publishing on alignment and learning theory in 2026. Hinton built the neurons and rang the alarm. Jordan built the people who built everything else, then spent his fame telling the room to calm down.
+
+Wikipedia: [Michael I. Jordan](https://en.wikipedia.org/wiki/Michael_I._Jordan)
+
+### Richard S. Sutton
+
+Richard Sutton grew up in Illinois and went to graduate school with a stubborn idea: that the way to build intelligence was to let a machine learn from reward, the way animals do, rather than program it with rules. In the 1980s this was an unfashionable corner of AI. He did his PhD under [Andrew Barto](https://en.wikipedia.org/wiki/Andrew_Barto) at UMass Amherst, and together they spent two decades turning a biological intuition into mathematics. His 1988 work on temporal-difference learning is the engine inside it.
+
+The payoff arrived decades later, on someone else's stage. When DeepMind's AlphaGo beat the world's best Go players, it ran on reinforcement learning; so does much of the training behind today's reasoning models. The 1998 textbook he wrote with Barto, plain green cover and all, became the field's standard reference. He moved to the University of Alberta, built a research powerhouse in Edmonton, and put his faith in scale over hand-tuned cleverness.
+
+In 2024 he and Barto won the Turing Award. Sutton, now also at John Carmack's Keen Technologies, remains a contrarian even in victory, dismissing the AI doom crowd as out of line. He bet on the unglamorous path and watched it become the main road.
+
+Wikipedia: [Richard S. Sutton](https://en.wikipedia.org/wiki/Richard_S._Sutton)
+
+### Yann LeCun
+
+Yann LeCun was born outside Paris in 1960 and trained as an engineer before deciding that the interesting problem was teaching machines to see. He landed at AT&T Bell Labs in the late 1980s, where he built convolutional neural networks and wired them into a system that read the handwritten digits on bank checks. It worked at industrial scale while most of the field still doubted neural nets would ever amount to much. He was right early, which is a lonely thing to be.
+
+The vindication came in bulk. In 2018 he shared the Turing Award with [Geoffrey Hinton](https://en.wikipedia.org/wiki/Geoffrey_Hinton) and [Yoshua Bengio](https://en.wikipedia.org/wiki/Yoshua_Bengio), the three of them credited with the deep learning revolution that now runs through every major tech company. For more than a decade he ran Meta's FAIR lab as chief AI scientist, a public intellectual who argued, loudly and often on social media, that large language models are a dead end on the road to real intelligence.
+
+Then he made the bet personal. In November 2025 he left Meta, and by March 2026 his new venture, AMI Labs, had closed a seed round above one billion dollars to chase "world models" instead of chatbots, the largest seed in European history. At 65, having helped build the orthodoxy, he is now spending a fortune to break it.
+
+Wikipedia: [Yann LeCun](https://en.wikipedia.org/wiki/Yann_LeCun)
+
+### Yoshua Bengio
+
+Yoshua Bengio was born in Paris in 1964 to a Moroccan Jewish family that soon moved to Canada, and he never really left. While his Turing co-laureates chased industry money in California and Toronto, Bengio stayed in Montreal and turned a single academic lab into Mila, now one of the largest concentrations of deep learning researchers anywhere. His early work on neural language models and attention quietly seeded the architectures that everyone else later got famous for.
+
+He shared the 2018 Turing Award with [Geoffrey Hinton](https://en.wikipedia.org/wiki/Geoffrey_Hinton) and [Yann LeCun](https://en.wikipedia.org/wiki/Yann_LeCun). For most of his career he was the optimist of the three, the academic who built institutions rather than products. That changed. Around 2023 Bengio publicly broke with the accelerationist mood, declaring himself alarmed by where his own field was heading.
+
+The second act is conviction made operational. In March 2025 he stepped back from running Mila to become its scientific advisor; in June 2025 he founded LawZero, a nonprofit building "honest" AI meant to police autonomous agents. He now chairs the International AI Safety Report, the closest thing the field has to an IPCC. Bengio is the rare scientist who, having helped light the fire, appointed himself its fire marshal.
+
+Wikipedia: [Yoshua Bengio](https://en.wikipedia.org/wiki/Yoshua_Bengio)
