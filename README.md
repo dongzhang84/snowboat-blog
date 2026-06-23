@@ -12,11 +12,11 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 54 | 6/17 | [什么是耗散结构理论？它和AI有关系吗？](什么是耗散结构理论？它和AI有关系吗？.md) | [link](https://x.com/snowboat84/status/2067399314843000842) | — | [link](https://zhuanlan.zhihu.com/p/2050834045269979343) |
 | 53 | 6/16 | [什么是具身智能？它跟 AI 的关系是什么？](什么是具身智能？它跟%20AI%20的关系是什么？.md) | [link](https://x.com/snowboat84/status/2067032626821747178) | — | [link](https://zhuanlan.zhihu.com/p/2050131994756044748) |
 | 52 | 6/15 | [长篇分析：SpaceX未来的展望](长篇分析：SpaceX未来的展望.md) | [link](https://x.com/snowboat84/status/2066674353648046515) | — | [link](https://zhuanlan.zhihu.com/p/2050111242954707033) |
-| 51 | 6/12 | [Vibe Coding把我系统搞崩了，我对此的总结和心得](Vibe%20Coding把我系统搞崩了，这是我对此的总结和心得.md) | [link](https://x.com/snowboat84/status/2065586279010742687) | 1.9k | [link](https://zhuanlan.zhihu.com/p/2049039759188800384) |
-| 50 | 6/11 | [人工智能的工程全景（中）：推理，后训练，对齐和安全](人工智能的工程全景（中）：推理，后训练，对齐和安全.md) | [link](https://x.com/snowboat84/status/2065215177029787705) | 6.6k | [link](https://zhuanlan.zhihu.com/p/2048317790793339656) |
-| 49 | 6/10 | [大语言模型的商业痛点](大语言模型的商业痛点.md) | [link](https://x.com/snowboat84/status/2064858487675670625) | 8.8k | [link](https://zhuanlan.zhihu.com/p/2047925274310972651) |
-| 48 | 6/9 | [什么是控制论？控制论是AI的上辈子吗？](什么是控制论？控制论是AI的上辈子吗？.md) | [link](https://x.com/snowboat84/status/2064496706042069340) | 25k | [link](https://zhuanlan.zhihu.com/p/2047548601182823378) |
-| 47 | 6/8 | [什么是世界模型？一个正在被争夺的概念](什么是世界模型？一个正在被争夺的概念.md) | [link](https://x.com/snowboat84/status/2064135804092645410) | 17k | [link](https://zhuanlan.zhihu.com/p/2046975713832710368) |
+| 51 | 6/12 | [Vibe Coding把我系统搞崩了，我对此的总结和心得](archive/Vibe%20Coding把我系统搞崩了，这是我对此的总结和心得.md) | [link](https://x.com/snowboat84/status/2065586279010742687) | 1.9k | [link](https://zhuanlan.zhihu.com/p/2049039759188800384) |
+| 50 | 6/11 | [人工智能的工程全景（中）：推理，后训练，对齐和安全](archive/人工智能的工程全景（中）：推理，后训练，对齐和安全.md) | [link](https://x.com/snowboat84/status/2065215177029787705) | 6.6k | [link](https://zhuanlan.zhihu.com/p/2048317790793339656) |
+| 49 | 6/10 | [大语言模型的商业痛点](archive/大语言模型的商业痛点.md) | [link](https://x.com/snowboat84/status/2064858487675670625) | 8.8k | [link](https://zhuanlan.zhihu.com/p/2047925274310972651) |
+| 48 | 6/9 | [什么是控制论？控制论是AI的上辈子吗？](archive/什么是控制论？控制论是AI的上辈子吗？.md) | [link](https://x.com/snowboat84/status/2064496706042069340) | 25k | [link](https://zhuanlan.zhihu.com/p/2047548601182823378) |
+| 47 | 6/8 | [什么是世界模型？一个正在被争夺的概念](archive/什么是世界模型？一个正在被争夺的概念.md) | [link](https://x.com/snowboat84/status/2064135804092645410) | 17k | [link](https://zhuanlan.zhihu.com/p/2046975713832710368) |
 | 46 | 6/5 | [美国的犹太人和华人分别抢到了什么资源？详细分析](archive/美国的犹太人和华人分别抢到了什么资源？详细分析.md) | [link](https://x.com/snowboat84/status/2063049247805837815) | 47k | [link](https://zhuanlan.zhihu.com/p/2046487572025816142) |
 | 45 | 6/4 | [当物理遇上AI：深度学习里的物理元素（下）](archive/当物理遇上AI：深度学习里的物理元素（下）.md) | [link](https://x.com/snowboat84/status/2062686432335184321) | 5.0k | [link](https://zhuanlan.zhihu.com/p/2045400658237469383) |
 | 44 | 6/3 | [细说美国的华人老钱家族](archive/细说美国的华人老钱家族.md) | [link](https://x.com/snowboat84/status/2062326581776011623) | 72k | [link](https://zhuanlan.zhihu.com/p/2045687220712034679) |
