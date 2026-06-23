@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 57 | 6/22 | [AI圈大V名单（名单不断扩充中）](AI圈大V名单.md) | [link](https://x.com/snowboat84/status/2069206740546343372) | — | [link](https://zhuanlan.zhihu.com/p/2052276085937660472) |
 | 56 | 6/19 | [我打造的个人AI系统：哲学基础](建设个人AI系统的哲学基础.md) | [link](https://x.com/snowboat84/status/2068120320578629782) | — | [link](https://zhuanlan.zhihu.com/p/2051479892148084819) |
 | 55 | 6/18 | [NFT的叙事是如何崩塌的](NFT的叙事是如何崩塌的.md) | [link](https://x.com/snowboat84/status/2067756975069516170) | — | [link](https://zhuanlan.zhihu.com/p/2051126958969435411) |
 | 54 | 6/17 | [什么是耗散结构理论？它和AI有关系吗？](什么是耗散结构理论？它和AI有关系吗？.md) | [link](https://x.com/snowboat84/status/2067399314843000842) | — | [link](https://zhuanlan.zhihu.com/p/2050834045269979343) |
