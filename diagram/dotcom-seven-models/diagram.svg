@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 490" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-accent { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.2; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.06em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+</style>
+
+<rect class="bg" width="680" height="490" />
+
+<text class="title" x="60" y="42">七种 .com 的赚钱活法：钱从谁兜里来</text>
+<text class="subtitle" x="60" y="64">按"谁掏钱"分四组 ｜ 只描述不评判，账算不算得过留到崩塌那章</text>
+
+<text class="eyebrow" x="72" y="86">谁掏钱</text>
+<text class="eyebrow eyebrow-accent" x="200" y="86" text-anchor="middle">→</text>
+<text class="eyebrow" x="218" y="86">用什么活法收钱</text>
+
+<!-- Lane 1 用户掏钱 -->
+<rect class="layer" x="60" y="98" width="580" height="78" rx="10" />
+<text class="th" x="72" y="133">用户掏钱</text>
+<text class="ts" x="72" y="152">向消费者直接收</text>
+<line class="divider" x1="200" y1="110" x2="200" y2="164" />
+<text x="218" y="128"><tspan class="th">自营电商</tspan>　<tspan class="ts">进货卖货、赚差价（书、宠物用品…）</tspan></text>
+<text x="218" y="152"><tspan class="th">订阅 / 接入费</tspan>　<tspan class="ts">按月订阅、上网接入费</tspan></text>
+
+<!-- Lane 2 广告主掏钱 -->
+<rect class="layer" x="60" y="184" width="580" height="58" rx="10" />
+<text class="th" x="72" y="209">广告主掏钱</text>
+<text class="ts" x="72" y="228">把注意力转卖</text>
+<line class="divider" x1="200" y1="196" x2="200" y2="230" />
+<text x="218" y="218"><tspan class="th">门户与广告</tspan>　<tspan class="ts">免费内容圈住用户，把注意力打包卖给广告主</tspan></text>
+
+<!-- Lane 3 商家掏钱 -->
+<rect class="layer" x="60" y="250" width="580" height="104" rx="10" />
+<text class="th" x="72" y="298">商家掏钱</text>
+<text class="ts" x="72" y="317">站在交易中间</text>
+<line class="divider" x1="200" y1="262" x2="200" y2="342" />
+<text x="218" y="278"><tspan class="th">平台撮合抽佣</tspan>　<tspan class="ts">撮合买卖双方，按成交抽成</tspan></text>
+<text x="218" y="304"><tspan class="th">B2B 电子市场</tspan>　<tspan class="ts">企业交易平台，抽佣或会员费</tspan></text>
+<text x="218" y="330"><tspan class="th">卖铲子 · 基础设施</tspan>　<tspan class="ts">设备、服务器、软件卖给所有 .com</tspan></text>
+
+<!-- Lane 4 没人掏钱（accent） -->
+<rect class="layer-accent" x="60" y="362" width="580" height="58" rx="10" />
+<text class="th eyebrow-accent" x="72" y="387">没人掏钱</text>
+<text class="ts eyebrow-accent" x="72" y="406">靠概念和股价</text>
+<line class="divider" x1="200" y1="374" x2="200" y2="408" />
+<text x="218" y="396"><tspan class="th eyebrow-accent">纯炒概念</tspan>　<tspan class="ts eyebrow-accent">没有真实收入，全靠故事撑着股价</tspan></text>
+
+<text class="caption-strong" x="60" y="448">前六种都有人真金白银买单，第七种连买单的人都没有。</text>
+<text class="caption" x="60" y="470">（账算不算得过、谁能活下来，留到"泡沫破裂"那章见分晓。）</text>
+
+</svg>
