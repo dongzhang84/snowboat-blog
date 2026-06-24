@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 59 | 6/24 | [什么是“涌现”？涌现的研究史](什么是”涌现“？涌现的研究史.md) | [link](https://x.com/snowboat84/status/2069931234328027483) | — | [link](https://zhuanlan.zhihu.com/p/2053368054613008422) |
 | 58 | 6/23 | [互联网泡沫简史](互联网泡沫简史.md) | [link](https://x.com/snowboat84/status/2069569161911812606) | — | [link](https://zhuanlan.zhihu.com/p/2052942217388593179) |
 | 57 | 6/22 | [AI圈大V名单（名单不断扩充中）](AI圈大V名单（推特版）.md) | [link](https://x.com/snowboat84/status/2069206740546343372) | — | [link](https://zhuanlan.zhihu.com/p/2052276085937660472) |
 | 56 | 6/19 | [我打造的个人AI系统：哲学基础](建设个人AI系统的哲学基础.md) | [link](https://x.com/snowboat84/status/2068120320578629782) | 13k | [link](https://zhuanlan.zhihu.com/p/2051479892148084819) |
