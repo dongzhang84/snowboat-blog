@@ -71,7 +71,7 @@
 
 | 天 | 日期 | 文章 | vertical | 来源/备注 |
 |---|---|---|---|---|
-| 一 | 6/22 周一 | [AI 圈大 V 名单](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%E5%9C%88%E5%A4%A7V%E5%90%8D%E5%8D%95.md) | 圈层/资源 | 已就绪（全文版 + 推特版 + 知乎表格版），直接发。工具/收藏属性，受众是追 AI 圈的人 |
+| 一 | 6/22 周一 | [AI 百名大V名单 + 小传](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%E5%9C%88%E5%A4%A7V%E5%90%8D%E5%8D%95.md) | 圈层/资源 | 主体是约100名大V、每人一篇英文小传，这是核心卖点。另有推特版、知乎表格版。已就绪直接发，工具/收藏属性，受众是追 AI 圈的人 |
 | 二 | 6/23 周二 | [互联网泡沫（简明互联网泡沫史）](https://github.com/dongzhang84/snowboat-blog/blob/main/%E7%AE%80%E6%98%8E%E4%BA%92%E8%81%94%E7%BD%91%E6%B3%A1%E6%B2%AB%E5%8F%B2.md) | 泡沫/历史 | 已写好，直接发 |
 | 三 | 6/24 周三 | [涌现（什么是涌现，是真本事还是统计幻觉）](https://github.com/dongzhang84/snowboat-blog/blob/main/%E6%B6%8C%E7%8E%B0%E7%9A%84%E7%A0%94%E7%A9%B6%E5%8E%86%E5%8F%B2.md) | AI概念辨析 | 已写好（6/19扩写定稿），直接发。知识地图缺口#7，踩"什么是X"爆款模板 |
 | 四 | 6/25 周四 | [广义祖父积分学](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%B9%BF%E4%B9%89%E7%A5%96%E7%88%B6%E7%A7%AF%E5%88%86%E5%AD%A6.md) | 数学/幽默 | 已写好（6/19草成），直接发。祖父积分学概论原版24k，续集吃品牌 |
