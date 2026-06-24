@@ -71,7 +71,7 @@
 
 | 天 | 日期 | 文章 | vertical | 来源/备注 |
 |---|---|---|---|---|
-| 一 | 6/22 周一 | [AI 百名大V名单 + 小传](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%E5%9C%88%E5%A4%A7V%E5%90%8D%E5%8D%95.md) | 圈层/资源 | 主体是约100名大V、每人一篇英文小传，这是核心卖点。另有推特版、知乎表格版。已就绪直接发，工具/收藏属性，受众是追 AI 圈的人 |
+| 一 | 6/22 周一 | [AI 圈大 V 名单](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%E5%9C%88%E5%A4%A7V%E5%90%8D%E5%8D%95.md) | 圈层/资源 | 已就绪（全文版 + 推特版 + 知乎表格版），直接发。工具/收藏属性，受众是追 AI 圈的人 |
 | 二 | 6/23 周二 | [互联网泡沫（简明互联网泡沫史）](https://github.com/dongzhang84/snowboat-blog/blob/main/%E7%AE%80%E6%98%8E%E4%BA%92%E8%81%94%E7%BD%91%E6%B3%A1%E6%B2%AB%E5%8F%B2.md) | 泡沫/历史 | 已写好，直接发 |
 | 三 | 6/24 周三 | [涌现（什么是涌现，是真本事还是统计幻觉）](https://github.com/dongzhang84/snowboat-blog/blob/main/%E6%B6%8C%E7%8E%B0%E7%9A%84%E7%A0%94%E7%A9%B6%E5%8E%86%E5%8F%B2.md) | AI概念辨析 | 已写好（6/19扩写定稿），直接发。知识地图缺口#7，踩"什么是X"爆款模板 |
 | 四 | 6/25 周四 | [广义祖父积分学](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%B9%BF%E4%B9%89%E7%A5%96%E7%88%B6%E7%A7%AF%E5%88%86%E5%AD%A6.md) | 数学/幽默 | 已写好（6/19草成），直接发。祖父积分学概论原版24k，续集吃品牌 |
@@ -91,12 +91,12 @@
 
 # 下下周计划（6/29-7/3）
 
-先把弹药记上，周四、周五待定。
+先把弹药记上，周五待定。
 
 | 天 | 日期 | 文章 | vertical | 来源/备注 |
 |---|---|---|---|---|
-| 一 | 6/29 周一 | 元宇宙：炒作、破产，与谁赚走了钱 | 泡沫/炒作 | 泡沫解剖室第三弹，待写（从下周顺延过来） |
-| 二 | 6/30 周二 | [美国风投史](https://github.com/dongzhang84/snowboat-blog/blob/main/%E7%BE%8E%E5%9B%BD%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84%E7%AE%80%E5%8F%B2.md) | 商业/历史 | 有《美国风险投资简史》雏形，待整理扩写 |
-| 三 | 7/1 周三 | [区块链的叙事是如何崩塌的](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%8C%BA%E5%9D%97%E9%93%BE%E7%9A%84%E5%8F%99%E4%BA%8B%E6%98%AF%E5%A6%82%E4%BD%95%E5%B4%A9%E5%A1%8C%E7%9A%84.md) | 泡沫/AI | 已写好定稿（约1.28万字），直接发。泡沫解剖室母题篇 |
-| 四 | 7/2 周四 | 待定 | | |
+| 一 | 6/29 周一 | [AI 百名大V小传](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%E5%9C%88%E5%A4%A7V%E5%90%8D%E5%8D%95.md) | 圈层/资源 | 约100名大V每人一篇英文小传，全文版的主体，单独成篇深做 |
+| 二 | 6/30 周二 | 元宇宙：炒作、破产，与谁赚走了钱 | 泡沫/炒作 | 泡沫解剖室第三弹，待写 |
+| 三 | 7/1 周三 | [美国风投史](https://github.com/dongzhang84/snowboat-blog/blob/main/%E7%BE%8E%E5%9B%BD%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84%E7%AE%80%E5%8F%B2.md) | 商业/历史 | 有《美国风险投资简史》雏形，待整理扩写 |
+| 四 | 7/2 周四 | [区块链的叙事是如何崩塌的](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%8C%BA%E5%9D%97%E9%93%BE%E7%9A%84%E5%8F%99%E4%BA%8B%E6%98%AF%E5%A6%82%E4%BD%95%E5%B4%A9%E5%A1%8C%E7%9A%84.md) | 泡沫/AI | 已写好定稿（约1.28万字），直接发。泡沫解剖室母题篇 |
 | 五 | 7/3 周五 | 待定 | | |
