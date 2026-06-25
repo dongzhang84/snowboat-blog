@@ -14,7 +14,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 55 | 6/18 | [NFT的叙事是如何崩塌的](NFT的叙事是如何崩塌的.md) | [link](https://x.com/snowboat84/status/2067756975069516170) | 8.1k | [link](https://zhuanlan.zhihu.com/p/2051126958969435411) |
 | 54 | 6/17 | [什么是耗散结构理论？它和AI有关系吗？](什么是耗散结构理论？它和AI有关系吗？.md) | [link](https://x.com/snowboat84/status/2067399314843000842) | 7.2k | [link](https://zhuanlan.zhihu.com/p/2050834045269979343) |
 | 53 | 6/16 | [什么是具身智能？它跟 AI 的关系是什么？](什么是具身智能？它跟%20AI%20的关系是什么？.md) | [link](https://x.com/snowboat84/status/2067032626821747178) | 5.4k | [link](https://zhuanlan.zhihu.com/p/2050131994756044748) |
-| 52 | 6/15 | [长篇分析：SpaceX未来的展望](长篇分析：SpaceX未来的展望.md) | [link](https://x.com/snowboat84/status/2066674353648046515) | 15k | [link](https://zhuanlan.zhihu.com/p/2050111242954707033) |
+| 52 | 6/15 | [长篇分析：SpaceX未来的展望](archive/长篇分析：SpaceX未来的展望.md) | [link](https://x.com/snowboat84/status/2066674353648046515) | 15k | [link](https://zhuanlan.zhihu.com/p/2050111242954707033) |
 | 51 | 6/12 | [Vibe Coding把我系统搞崩了，我对此的总结和心得](archive/Vibe%20Coding把我系统搞崩了，这是我对此的总结和心得.md) | [link](https://x.com/snowboat84/status/2065586279010742687) | 2.1k | [link](https://zhuanlan.zhihu.com/p/2049039759188800384) |
 | 50 | 6/11 | [人工智能的工程全景（中）：推理，后训练，对齐和安全](archive/人工智能的工程全景（中）：推理，后训练，对齐和安全.md) | [link](https://x.com/snowboat84/status/2065215177029787705) | 8.1k | [link](https://zhuanlan.zhihu.com/p/2048317790793339656) |
 | 49 | 6/10 | [大语言模型的商业痛点](archive/大语言模型的商业痛点.md) | [link](https://x.com/snowboat84/status/2064858487675670625) | 11k | [link](https://zhuanlan.zhihu.com/p/2047925274310972651) |
