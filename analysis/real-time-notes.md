@@ -36,4 +36,4 @@
 | 二 | 6/30 周二 | [AI工程全景（下）/ Agent](https://github.com/dongzhang84/snowboat-blog/blob/main/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%B7%A5%E7%A8%8B%E5%85%A8%E6%99%AF%EF%BC%88%E4%B8%8B%EF%BC%89%EF%BC%9A%E4%BB%8E%E9%97%AE%E7%AD%94%E5%88%B0%E8%87%AA%E4%B8%BB%E8%A1%8C%E5%8A%A8.md) | 工程 | 从本周五挪过来。已扩写定稿，收尾全景三篇，知识地图缺口#6 |
 | 三 | 7/1 周三 | [美国风投史](https://github.com/dongzhang84/snowboat-blog/blob/main/%E7%BE%8E%E5%9B%BD%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84%E7%AE%80%E5%8F%B2.md) | 商业/历史 | 有《美国风险投资简史》雏形，待整理扩写 |
 | 四 | 7/2 周四 | [区块链的叙事是如何崩塌的](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%8C%BA%E5%9D%97%E9%93%BE%E7%9A%84%E5%8F%99%E4%BA%8B%E6%98%AF%E5%A6%82%E4%BD%95%E5%B4%A9%E5%A1%8C%E7%9A%84.md) | 泡沫/AI | 已写好定稿（约1.28万字），直接发。泡沫解剖室母题篇 |
-| 五 | 7/3 周五 | 元宇宙：炒作、破产，与谁赚走了钱 | 泡沫/炒作 | 泡沫解剖室第三弹，从下周二挪过来，待写 |
+| 五 | 7/3 周五 | [元宇宙衰亡史：炒作、破产，与谁赚走了钱](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%85%83%E5%AE%87%E5%AE%99%E8%A1%B0%E4%BA%A1%E5%8F%B2%20%C2%B7%20%E6%B7%B1%E5%BA%A6%E9%95%BF%E6%96%87.md) | 泡沫/炒作 | 泡沫解剖室第三弹，从下周二挪过来。已写好（深度长文，约7万字符）|
