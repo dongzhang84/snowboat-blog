@@ -70,6 +70,8 @@
 
 顺着这套逻辑再往前推一步，会得到一个更狠的判断，每一个能跑实验的科学实验室，本质上都成了一家数据公司。它产出的论文、材料、分子是表面的产品，真正的资产是底下那些独家数据。在"靠可验证的奖励来训练模型"成为主流方法的今天，一个能源源不断提供"对错分明"的真实反馈的实验室，价值不亚于一座金矿。这就是顶级资本愿意为几个还没有产品的实验室开出数亿美元的根本原因。
 
+不过，越是顺的叙事，越要留一分警惕。"数据耗尽、实验是金矿"这套话，既是真逻辑，也是一套好用的融资话术。创始人和投资人都有强动机把它讲得性感，因为它能撑起一家还没产品的公司几亿美元的估值。冷静看，至少有两个问号还没被回答。一是这些实验数据里，到底有多少是真稀缺、能让模型变强的高信号数据，又有多少其实是重复、低信息量的噪音，目前没人拿出过干净的证据。二是"科学实验能喂出更强的通用模型"这条链路，现在更多是信念而非实证，它可能成立，也可能只是这一轮热钱给自己讲的集体故事。真正的顶级资本，是一边信着这套逻辑、一边盯着这两个问号下注的，这一篇也该这么读。
+
 这也解释了 1.2 节那个悬念。在最烧钱的造模型那一层被巨头和国家资本占满之后，传统风投需要找新的、还没被占住的战略要地。"能造独家数据的科学公司"，正好是这样一块地。
 
 ### 2.3 两条派生的逻辑：卖铲子，和挖护城河
@@ -78,7 +80,7 @@
 
 第一条是卖铲子优于淘金。直接去造一个"AI 科学家"风险极高、烧钱极猛，但给这些科学 Agent 供底座、供数据、供评估、供工具的那一层，需求确定、风险更低。淘金的人九死一生，卖铲子的人旱涝保收，这个老道理在 AI4S 里同样成立，而且后面会看到，资本已经在为"铲子"开出不低的价。
 
-这条逻辑里藏着一个最会卖铲子的玩家，英伟达。它同时投了 Periodic、投了 Lila，还掏钱进了 NSF 那个开放科学大模型项目。不管哪家科学公司最后跑出来，它们都得买英伟达的算力。在淘金热里，押注每一支淘金队、同时把铁锹卖给所有人的，才是最稳的那一个，这个位置英伟达占得明明白白。
+这条逻辑里藏着一个最会卖铲子的玩家，英伟达。它同时投了 Periodic、投了 Lila，还掏钱进了 NSF 那个开放科学大模型项目。不管哪家科学公司最后跑出来，它们都得买英伟达的算力。在淘金热里，押注每一支淘金队、同时把铁锹卖给所有人的，才是最稳的那一个，这个位置英伟达占得明明白白。反过来这也提醒一件事，正因为英伟达投谁都半是为了绑定算力客户，"英伟达投了某家"这个信号就不能简单当成"这家很行"的背书，它更像生态卡位，含金量和一笔纯财务投资不一样。
 
 第二条是垂直护城河。上篇反复讲过，当"做出来"对所有人都变容易，真正值钱的是别人复制不了的东西，专有数据、深嵌客户工作流的迁移成本、靠多年积累才有的学科 know-how。资本在 AI4S 里找的，正是这种有硬护城河的位置，而不是一层随时会被底层模型碾平的薄壳。
 
@@ -196,6 +198,8 @@ Abridge 这个对照还顺带说明了另一件事，AI 垂直赛道从开门到
 
 赛道是新的，是个好消息。但"新"不等于"你能进"。这一章把 AI4S 切成两层，说清楚哪一层够不着、哪一层够得着。这也是这一篇给读者最实用的一张地图。
 
+先把这两层和第三章那四组的关系说清楚，免得你切换框架时犯晕。第三章那四组（造神层、IP 与里程碑、评估工具层、政府资本）是按"谁在投、怎么融"来描述格局的，这一章把它压成两层"你到底进不进得去"的地图。对应关系是这样，造神层还是造神层，评估工具层是水电煤层的主力，IP 与里程碑模式（Profluent 那种）介于两者之间、靠 5.3 的商业模式光谱接住，政府资本则是托底这两层早期的那只手。
+
 ### 5.1 造神层：新，但够不着
 
 第一层是造神层，就是第三章 3.1 节那些自建实验室、立志造"AI 科学家"的公司，Periodic、Lila 那一类。
@@ -250,7 +254,7 @@ AI4S 的退出，目前主要靠并购，而不是上市。一家做出独家分
 
 评估这件事，在大类上已经被验证能赚钱，LMArena 那约 17 亿的估值就是证据。但要注意，LMArena 评的是通用大模型，受众极广、商业化路径清楚。一旦细化到"科学"评估，给某个学科的科研 Agent 出考卷、当裁判，受众一下子窄了很多，而且现在托底这块的，主要还是能源部、国家科学基金会、Google.org 这种政府和公益的钱。换句话说，科学评估这块细分，作为一项严肃的学术和基础设施工作是真实的，但作为一门纯商业的风投生意，眼下还偏早。
 
-这正好和上篇的判断接上了。评估是最被低估、最关键的一层，也是学科背景者最锋利的切入点，但要清醒，它现在更像一块"先靠公益和学术养着、等着商业化拐点"的地，而不是一个马上能让纯 VC 赚到钱的市场。
+这正好和上篇的判断接上了。评估是最被低估、最关键的一层，也是学科背景者最锋利的切入点，但要清醒，它现在更像一块"先靠公益和学术养着、等着商业化拐点"的地，而不是一个马上能让纯 VC 赚到钱的市场。这里先不展开怎么破，只剧透一句，下篇给的解法恰恰是绕开纯 VC 创业这条路，走"学术先行"，先用研究和评估把名声立住，让机会反过来找上门。
 
 ### 6.4 还要防一手：巨头随时可能自己下场
 
@@ -274,14 +278,38 @@ AI4S 的退出，目前主要靠并购，而不是上市。一家做出独家分
 
 ## 主要数据来源
 
-> 按出现顺序排列，便于回溯。金额、估值、轮次随时间更新，正式引用前请核对原始来源。
+> 按主题归类，便于逐条核对。资本类数字随时间更新，正式引用前请以下面标注的一手来源为准。
 
-**宏观资本**：Crunchbase 2025 全年与 2026 第一季度创投数据、PitchBook 关于 AI 巨额轮与市场集中度的分析、OpenAI 约 1220 亿美元融资（CNBC）、Anthropic 反超 OpenAI（CNBC）、xAI 并入 SpaceX（CNBC）、Waymo 约 160 亿美元融资（CNBC）、沙特 PIF、阿布扎比 MGX 在 AI 上的部署（CNBC、相关报道）。
+**宏观资本（第一章）**
 
-**数据耗尽与造神层**：Periodic Labs 约 3 亿美元种子轮（TechCrunch、a16z）、高质量文本数据将在 2026 年前后见底（Nature、Epoch AI）、Lila Sciences 累计约 5.5 亿美元（Flagship、FierceBiotech）、AI 材料公司两年融资超 13 亿美元（MIT Technology Review）。
+- OpenAI 约 1220 亿美元融资、估值约 8520 亿：[OpenAI 公告](https://openai.com/index/accelerating-the-next-phase-ai/)。
+- Anthropic 约 650 亿美元、估值约 9650 亿、反超 OpenAI：[CNBC，2026-05-28](https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html)。
+- xAI 并入 SpaceX、合体估值约 1.25 万亿：[CNBC，2026-02-03](https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html)。
+- Waymo 约 160 亿美元融资：[CNBC，2026-02-02](https://www.cnbc.com/2026/02/02/waymo-announced-16-billion-fundraising-round.html)。
+- 头部十家拿走约四成创投资金：[SaaStr 引 PitchBook](https://www.saastr.com/venture-has-never-been-more-concentrated-40-of-vc-going-to-just-10-deals/)。
+- 2026 年第一季度创纪录、AI 占全球约八成：[Crunchbase News](https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/)。
+- 沙特 PIF、阿布扎比 MGX 在 AI 上的部署：[CNBC，2025-10-15](https://www.cnbc.com/2025/10/15/abu-dhabis-mgx-investments-in-trump-crypto-tiktok-openai-.html)。
 
-**IP 与工具层**：Profluent 与礼来合作、里程碑最高约 22.5 亿美元（Businesswire、FierceBiotech）、LMArena 种子约 1 亿、A 轮约 1.5 亿、估值约 17 亿（TechCrunch、Reuters）、Axiom Math 种子约 6400 万、A 轮约 2 亿（SiliconANGLE）。
+**数据耗尽与造神层（第二、三章）**
 
-**政府与催化资本**：Google.org Impact Challenge: AI for Science（google.org）、美国能源部 Genesis Mission（白宫行政令、energy.gov）、NSF 与英伟达 OMAI 约 1.52 亿美元（NSF、Ai2）、a16z 约 150 亿美元基金与 American Dynamism（Crunchbase、a16z）。
+- 高质量文本将在 2026 年前后见底：[Nature](https://www.nature.com/articles/d41586-024-03990-2)。
+- Periodic Labs 约 3 亿美元种子轮、创始团队与"造数据"叙事：[TechCrunch](https://techcrunch.com/2025/10/20/top-openai-google-brain-researchers-set-off-a-300m-vc-frenzy-for-their-startup-periodic-labs/)、[a16z](https://a16z.com/announcement/investing-in-periodic-labs/)。
+- Lila Sciences 累计约 5.5 亿美元、估值约 13 亿：[FierceBiotech](https://www.fiercebiotech.com/biotech/lila-sciences-adds-115m-series-bringing-total-haul-350m-and-securing-backing-nvidia)。
+- AI 材料公司两年融资超 13 亿美元：[MIT Technology Review](https://www.technologyreview.com/2025/12/15/1129210/ai-materials-science-discovery-startups-investment/)。
 
-**对照组**：Abridge 成立于 2018 年，D 轮约 2.5 亿、E 轮约 3 亿、估值约 53 亿（TechCrunch、Sacra）。
+**IP 与工具层（第三章）**
+
+- Profluent 与礼来合作、里程碑最高约 22.5 亿美元：[Businesswire，2026-04-28](https://www.businesswire.com/news/home/20260428698315/en/Profluent-Announces-Strategic-Partnership-with-Lilly-to-Develop-AI-Designed-Recombinases-for-Genetic-Medicine)。
+- LMArena 种子约 1 亿、估值约 6 亿：[TechCrunch，2025-05-21](https://techcrunch.com/2025/05/21/lm-arena-the-organization-behind-popular-ai-leaderboards-lands-100m/)，A 轮约 1.5 亿、估值约 17 亿：[Reuters / Investing.com，2026-01](https://www.investing.com/news/stock-market-news/ai-startup-lmarena-triples-its-valuation-to-17-billion-in-latest-fundraise-4433211)。
+- Axiom Math 种子约 6400 万：[SiliconANGLE，2025-10](https://siliconangle.com/2025/10/02/ai-startup-axiom-gets-64m-develop-new-knowledge-advanced-mathematics/)，A 轮约 2 亿、估值约 16 亿：[SiliconANGLE，2026-03](https://siliconangle.com/2026/03/12/verifiable-ai-startup-axiom-raises-200m-prove-ai-generated-code-safe-use/)（这两轮数字差异较大，发表前以一手来源再核一次）。
+
+**政府与催化资本（第三章）**
+
+- Google.org Impact Challenge: AI for Science，约 3000 万美元：[google.org](https://www.google.org/impact-challenges/ai-science/)。
+- 美国能源部 Genesis Mission，2025-11 行政令、约 2.93 亿美元招标：[白宫](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/)、[energy.gov](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science)。
+- NSF 与英伟达 OMAI，约 1.52 亿美元、Ai2 主导：[NSF](https://www.nsf.gov/news/nsf-nvidia-partnership-enables-ai2-develop-fully-open-ai)、[Ai2](https://allenai.org/blog/nsf-nvidia)。
+- a16z 约 150 亿美元基金与 American Dynamism：[Crunchbase News](https://news.crunchbase.com/venture/a16z-15b-new-funds-american-dynamism-ben-horowitz)。
+
+**对照组（第四章）**
+
+- Abridge 成立于 2018 年、E 轮约 3 亿、估值约 53 亿：[TechCrunch，2025-06-24](https://techcrunch.com/2025/06/24/in-just-4-months-ai-medical-scribe-abridge-doubles-valuation-to-5-3b/)。
