@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 60 | 6/25 | [广义祖父积分学](广义祖父积分学.md) | [link](https://x.com/snowboat84/status/2070291045007671732) | — | [link](https://zhuanlan.zhihu.com/p/2053671381422838377) |
 | 59 | 6/24 | [什么是“涌现”？涌现的研究史](什么是”涌现“？涌现的研究史.md) | [link](https://x.com/snowboat84/status/2069931234328027483) | — | [link](https://zhuanlan.zhihu.com/p/2053368054613008422) |
 | 58 | 6/23 | [互联网泡沫简史](互联网泡沫简史.md) | [link](https://x.com/snowboat84/status/2069569161911812606) | — | [link](https://zhuanlan.zhihu.com/p/2052942217388593179) |
 | 57 | 6/22 | [AI圈大V名单（名单不断扩充中）](AI圈大V名单（推特版）.md) | [link](https://x.com/snowboat84/status/2069206740546343372) | — | [link](https://zhuanlan.zhihu.com/p/2052276085937660472) |
