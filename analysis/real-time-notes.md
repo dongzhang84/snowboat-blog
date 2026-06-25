@@ -38,4 +38,12 @@
 | 四 | 7/2 周四 | [AI for Science 详细介绍（中）：资本与格局](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20for%20Science%20%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D%EF%BC%88%E4%B8%AD%EF%BC%89%EF%BC%9A%E8%B5%84%E6%9C%AC%E4%B8%8E%E6%A0%BC%E5%B1%80.md) | AI科研/科普 | 接本周五的上篇。目前还是雏形，待扩写 |
 | 五 | 7/3 周五 | [区块链的叙事是如何崩塌的](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%8C%BA%E5%9D%97%E9%93%BE%E7%9A%84%E5%8F%99%E4%BA%8B%E6%98%AF%E5%A6%82%E4%BD%95%E5%B4%A9%E5%A1%8C%E7%9A%84.md) | 泡沫/AI | 已写好定稿（约1.28万字），直接发。泡沫解剖室母题篇 |
 
-[元宇宙衰亡史：炒作、破产，与谁赚走了钱](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%85%83%E5%AE%87%E5%AE%99%E8%A1%B0%E4%BA%A1%E5%8F%B2%20%C2%B7%20%E6%B7%B1%E5%BA%A6%E9%95%BF%E6%96%87.md)顺延到下下周（7/6 起，具体哪天到时定），已写好（深度长文，约7万字符），泡沫解剖室第三弹。
+# 下下周（7/6-7/10）
+
+| 天 | 日期 | 文章 | vertical | 来源/备注 |
+|---|---|---|---|---|
+| 一 | 7/6 周一 | [元宇宙衰亡史：炒作、破产，与谁赚走了钱](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%85%83%E5%AE%87%E5%AE%99%E8%A1%B0%E4%BA%A1%E5%8F%B2%20%C2%B7%20%E6%B7%B1%E5%BA%A6%E9%95%BF%E6%96%87.md) | 泡沫/炒作 | 已写好（深度长文，约7万字符），泡沫解剖室第三弹 |
+| 二 | 7/7 周二 | [AI for Science（下）：机会与入场](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20for%20Science%EF%BC%88%E4%B8%8B%EF%BC%89%EF%BC%9A%E6%9C%BA%E4%BC%9A%E4%B8%8E%E5%85%A5%E5%9C%BA.md) | AI科研/科普 | AI for Science 三部曲收尾，已成稿 |
+| 三 | 7/8 周三 | 待定 | | |
+| 四 | 7/9 周四 | 待定 | | |
+| 五 | 7/10 周五 | 待定 | | |
