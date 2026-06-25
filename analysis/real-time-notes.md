@@ -20,6 +20,8 @@
 
 调整记录（6/25）：MCP 长篇科普扩写完成，插到下周二 6/30；原 6/30 的 Agent 挪到下周四 7/2；原 7/2 的 AI for Science（中）挪到下下周二 7/7；被挤掉的 AI for Science（下）顺延到下下周四 7/9，保持中→下错开。
 
+调整记录（6/25 第二次）：Skill 是什么·写给零基础 扩写成手把手教程定稿，排到 7/7 周二；原 7/7 的 AI for Science（中）后推一天到 7/8 周三。下篇 7/9 不变。
+
 逐篇要点：
 
 1. AI 圈大 V 名单：全文版、推特版、知乎表格版都已就绪，直接发。工具/收藏型内容，标题别用悬疑，直说"AI 圈你该关注的这些人/大 V 名单"，靠"一篇收全图谱"的属性吃收藏和转发。
@@ -45,7 +47,7 @@
 | 天 | 日期 | 文章 | vertical | 来源/备注 |
 |---|---|---|---|---|
 | 一 | 7/6 周一 | [元宇宙衰亡史：炒作、破产，与谁赚走了钱](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%85%83%E5%AE%87%E5%AE%99%E8%A1%B0%E4%BA%A1%E5%8F%B2%20%C2%B7%20%E6%B7%B1%E5%BA%A6%E9%95%BF%E6%96%87.md) | 泡沫/炒作 | 已写好（深度长文，约7万字符），泡沫解剖室第三弹 |
-| 二 | 7/7 周二 | [AI for Science 详细介绍（中）：资本与格局](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20for%20Science%20%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D%EF%BC%88%E4%B8%AD%EF%BC%89%EF%BC%9A%E8%B5%84%E6%9C%AC%E4%B8%8E%E6%A0%BC%E5%B1%80.md) | AI科研/科普 | 从 7/2 挪过来。接上篇，目前是雏形待扩写 |
-| 三 | 7/8 周三 | 待定 | | |
+| 二 | 7/7 周二 | [Skill 是什么·写给零基础](https://github.com/dongzhang84/snowboat-blog/blob/main/Skill%E6%98%AF%E4%BB%80%E4%B9%88-%E5%86%99%E7%BB%99%E9%9B%B6%E5%9F%BA%E7%A1%80.md) | AI概念/科普 | 6/25 扩写成手把手教程定稿（7章38小节，约1万字）。踩"什么是X"模板，零基础友好 |
+| 三 | 7/8 周三 | [AI for Science 详细介绍（中）：资本与格局](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20for%20Science%20%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D%EF%BC%88%E4%B8%AD%EF%BC%89%EF%BC%9A%E8%B5%84%E6%9C%AC%E4%B8%8E%E6%A0%BC%E5%B1%80.md) | AI科研/科普 | 从 7/7 后推一天。接上篇，目前是雏形待扩写 |
 | 四 | 7/9 周四 | [AI for Science（下）：机会与入场](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20for%20Science%EF%BC%88%E4%B8%8B%EF%BC%89%EF%BC%9A%E6%9C%BA%E4%BC%9A%E4%B8%8E%E5%85%A5%E5%9C%BA.md) | AI科研/科普 | 被中篇挤过来（原 7/7）。三部曲收尾，已成稿。中→下 同周二/周四错开 |
 | 五 | 7/10 周五 | 待定 | | |
