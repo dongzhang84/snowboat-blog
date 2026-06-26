@@ -364,6 +364,29 @@ AI自动科研把这个问题放大了。一方面，大模型是**非确定性*
 
 
 
+# 作者其它文章（选）
+
+- [广义祖父积分学](https://x.com/snowboat84/status/2070291045007671732)
+- [什么是“涌现”？涌现的研究史](https://x.com/snowboat84/status/2069931234328027483)
+- [互联网泡沫简史](https://x.com/snowboat84/status/2069569161911812606)
+- [AI圈大V名单（名单不断扩充中）](https://x.com/snowboat84/status/2069206740546343372)
+- [我打造的个人AI系统：哲学基础](https://x.com/snowboat84/status/2068120320578629782)
+- [NFT的叙事是如何崩塌的](https://x.com/snowboat84/status/2067756975069516170)
+- [什么是耗散结构理论？它和AI有关系吗？](https://x.com/snowboat84/status/2067399314843000842)
+- [什么是具身智能？它跟AI的关系是什么？](https://x.com/snowboat84/status/2067032626821747178)
+- [长篇分析：SpaceX未来的展望](https://x.com/snowboat84/status/2066674353648046515)
+- [Vibe Coding把我系统搞崩了，我对此的总结和心得](https://x.com/snowboat84/status/2065586279010742687)
+- [一篇文章讲清楚美国的移民系统](https://x.com/snowboat84/status/2057980486501433383)
+- [一文讲清楚美国医疗系统](https://x.com/snowboat84/status/2055081426744422697)
+- [细说美国的华人老钱家族](https://x.com/snowboat84/status/2062326581776011623)
+- [美国的犹太人和华人分别抢到了什么资源？详细分析](https://x.com/snowboat84/status/2063049247805837815)
+- [一篇文章看懂美国教育全生态](https://x.com/snowboat84/status/2054359249917210633)
+- [什么是控制论？控制论是AI的上辈子吗？](https://x.com/snowboat84/status/2064496706042069340)
+- [祖父积分学概论](https://x.com/snowboat84/status/2056533111983493136)
+- [教宗良十四世论人工智能（精华版）](https://x.com/snowboat84/status/2059434342745866391)
+- [Vibe Reading：AI 时代读书的系统化方法](https://x.com/snowboat84/status/2050008577511973253)
+- [美国税收制度完全指南](https://x.com/snowboat84/status/2060511915617779821)
+
 # 主要工作与文献索引
 
 > 按出现顺序排列，便于回溯。完整书目信息以各原文为准。
