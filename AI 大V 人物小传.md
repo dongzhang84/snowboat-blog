@@ -4,6 +4,35 @@
 
 这份名单的英文长版和推特版都在仓库里，这一篇是把每个人的小传单独拎出来、译成中文的版本。
 
+## 导航 · 点名字跳到对应小传
+
+**一、深度学习教父级 / 奠基学者**
+[Geoffrey Hinton](#geoffrey-hinton) · [Yann LeCun](#yann-lecun) · [Yoshua Bengio](#yoshua-bengio) · [Richard S. Sutton](#richard-s-sutton) · [Andrew Barto](#andrew-barto) · [Jürgen Schmidhuber](#jürgen-schmidhuber) · [Jeff Dean](#jeff-dean) · [Ian Goodfellow](#ian-goodfellow) · [Andrew Ng](#andrew-ng) · [李飞飞](#李飞飞fei-fei-li) · [Daphne Koller](#daphne-koller) · [Michael I. Jordan](#michael-i-jordan)
+
+**二、前沿大模型实验室创始人 / 领袖**
+[Sam Altman](#sam-altman) · [Greg Brockman](#greg-brockman) · [Ilya Sutskever](#ilya-sutskever) · [Mira Murati](#mira-murati) · [Dario Amodei](#dario-amodei) · [Daniela Amodei](#daniela-amodei) · [Demis Hassabis](#demis-hassabis) · [Shane Legg](#shane-legg) · [John Jumper](#john-jumper) · [Elon Musk](#elon-musk) · [Igor Babuschkin](#igor-babuschkin) · [Arthur Mensch](#arthur-mensch) · [Emad Mostaque](#emad-mostaque) · [Aravind Srinivas](#aravind-srinivas) · [Mustafa Suleyman](#mustafa-suleyman) · [Alexandr Wang](#alexandr-wang) · [赵晟佳](#赵晟佳shengjia-zhao) · [Daniel Gross](#daniel-gross) · [Nat Friedman](#nat-friedman) · [Jakub Pachocki](#jakub-pachocki) · [Mark Chen](#mark-chen) · [Oriol Vinyals](#oriol-vinyals) · [David Silver](#david-silver)
+
+**三、Transformer论文《Attention Is All You Need》八位作者**
+[Ashish Vaswani](#ashish-vaswani) · [Noam Shazeer](#noam-shazeer) · [Niki Parmar](#niki-parmar) · [Jakob Uszkoreit](#jakob-uszkoreit) · [Llion Jones](#llion-jones) · [Aidan Gomez](#aidan-gomez) · [Łukasz Kaiser](#łukasz-kaiser) · [Illia Polosukhin](#illia-polosukhin)
+
+**四、学术界顶尖研究者**
+[Christopher D. Manning](#christopher-d-manning) · [Percy Liang](#percy-liang) · [Christopher Ré](#christopher-ré) · [Pieter Abbeel](#pieter-abbeel) · [Sergey Levine](#sergey-levine) · [宋晓冬](#宋晓冬dawn-song) · [Jitendra Malik](#jitendra-malik) · [何恺明](#何恺明kaiming-he) · [Ross Girshick](#ross-girshick) · [Alexei A. Efros](#alexei-a-efros) · [Regina Barzilay](#regina-barzilay) · [Tommi Jaakkola](#tommi-jaakkola) · [Max Tegmark](#max-tegmark) · [Zoubin Ghahramani](#zoubin-ghahramani) · [Noah Smith](#noah-smith) · [Yejin Choi](#yejin-choi) · [Sebastian Thrun](#sebastian-thrun) · [Jeff Clune](#jeff-clune) · [Chelsea Finn](#chelsea-finn) · [Tatsunori Hashimoto](#tatsunori-hashimoto) · [Alec Radford](#alec-radford) · [John Schulman](#john-schulman) · [Noam Brown](#noam-brown) · [Jared Kaplan](#jared-kaplan) · [Tom Brown](#tom-brown) · [Chris Olah](#chris-olah) · [Robin Rombach](#robin-rombach) · [Aditya Ramesh](#aditya-ramesh) · [Jonathan Ho](#jonathan-ho) · [Jason Wei](#jason-wei) · [Denny Zhou](#denny-zhou) · [Quoc Le](#quoc-le)
+
+**五、教育 / 科普 / 内容型大V**
+[Andrej Karpathy](#andrej-karpathy) · [Jeremy Howard](#jeremy-howard) · [Lex Fridman](#lex-fridman) · [Grant Sanderson](#grant-sanderson3blue1brown) · [Yannic Kilcher](#yannic-kilcher) · [Károly Zsolnai-Fehér](#károly-zsolnai-fehértwo-minute-papers) · [François Fleuret](#françois-fleuret) · [Sebastian Raschka](#sebastian-raschka) · [Jay Alammar](#jay-alammar) · [Chip Huyen](#chip-huyen) · [Andriy Burkov](#andriy-burkov) · [Shawn Wang](#shawn-wangswyx) · [Ethan Mollick](#ethan-mollick) · [Simon Willison](#simon-willison) · [Riley Goodside](#riley-goodside)
+
+**六、开源 / 工程 / 框架基础设施**
+[Clément Delangue](#clément-delangue) · [Thomas Wolf](#thomas-wolf) · [Soumith Chintala](#soumith-chintala) · [François Chollet](#françois-chollet) · [Georgi Gerganov](#georgi-gerganov) · [陈天奇](#陈天奇tianqi-chen) · [范麟熙](#范麟熙jim-fan) · [Tri Dao](#tri-dao) · [Wes McKinney](#wes-mckinney) · [Travis Oliphant](#travis-oliphant) · [Lin Qiao](#lin-qiao) · [Harrison Chase](#harrison-chase) · [Jerry Liu](#jerry-liu)
+
+**七、中国AI圈**
+[梁文锋](#梁文锋liang-wenfeng) · [杨植麟](#杨植麟yang-zhilin) · [李开复](#李开复kai-fu-lee) · [李彦宏](#李彦宏robin-li) · [张一鸣](#张一鸣zhang-yiming) · [王慧文](#王慧文wang-huiwen) · [王小川](#王小川wang-xiaochuan) · [周伯文](#周伯文zhou-bowen) · [朱军](#朱军zhu-jun) · [唐杰](#唐杰tang-jie) · [颜水成](#颜水成yan-shuicheng) · [贾扬清](#贾扬清yangqing-jia) · [沈向洋](#沈向洋harry-shum) · [汤晓鸥](#汤晓鸥tang-xiaoou) · [孙剑](#孙剑sun-jian) · [王兴兴](#王兴兴wang-xingxing) · [印奇](#印奇yin-qi)
+
+**八、AI安全 / 治理 / 思想类**
+[Stuart Russell](#stuart-russell) · [Eliezer Yudkowsky](#eliezer-yudkowsky) · [Nick Bostrom](#nick-bostrom) · [Paul Christiano](#paul-christiano) · [Jan Leike](#jan-leike) · [Helen Toner](#helen-toner) · [Timnit Gebru](#timnit-gebru) · [Margaret Mitchell](#margaret-mitchell) · [Gary Marcus](#gary-marcus) · [Leopold Aschenbrenner](#leopold-aschenbrenner) · [Amanda Askell](#amanda-askell) · [Sam Bowman](#sam-bowman) · [Jack Clark](#jack-clark) · [Dan Hendrycks](#dan-hendrycks) · [Dean Ball](#dean-ball)
+
+**九、商业 / 资本 / 操盘手**
+[黄仁勋](#黄仁勋jensen-huang) · [苏姿丰](#苏姿丰lisa-su) · [Satya Nadella](#satya-nadella) · [Sundar Pichai](#sundar-pichai) · [Mark Zuckerberg](#mark-zuckerberg) · [Andy Jassy](#andy-jassy) · [Kevin Scott](#kevin-scott) · [Brad Lightcap](#brad-lightcap) · [Mike Krieger](#mike-krieger) · [Marc Andreessen](#marc-andreessen) · [Vinod Khosla](#vinod-khosla) · [Masayoshi Son](#masayoshi-son) · [Eric Schmidt](#eric-schmidt) · [Reid Hoffman](#reid-hoffman) · [Garry Tan](#garry-tan) · [Sarah Guo](#sarah-guo) · [Michael Truell](#michael-truell) · [Scott Wu](#scott-wu) · [Amjad Masad](#amjad-masad) · [Cristóbal Valenzuela](#cristóbal-valenzuela) · [Jonathan Ross](#jonathan-ross) · [Andrew Feldman](#andrew-feldman) · [Brett Adcock](#brett-adcock) · [Marc Raibert](#marc-raibert) · [David Holz](#david-holz) · [Demi Guo](#demi-guo) · [Amit Jain](#amit-jain)
+
 ## 一、深度学习教父级 / 奠基学者
 
 ### Geoffrey Hinton
