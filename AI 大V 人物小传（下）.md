@@ -726,6 +726,8 @@ Luma的Dream Machine让这家实验室出了名，吸来数千万把文字和图
 
 ## 作者其它文章（选）
 
+- [AI for Science 详细介绍（上）：范式与版图](https://x.com/snowboat84/status/2070656715515932930)
+- [广义祖父积分学](https://x.com/snowboat84/status/2070291045007671732)
 - [什么是“涌现”？涌现的研究史](https://x.com/snowboat84/status/2069931234328027483)
 - [互联网泡沫简史](https://x.com/snowboat84/status/2069569161911812606)
 - [AI圈大V名单（推特版）](https://x.com/snowboat84/status/2069206740546343372)
