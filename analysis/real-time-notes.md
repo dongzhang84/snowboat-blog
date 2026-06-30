@@ -22,6 +22,8 @@
 
 调整记录（6/25 第二次）：Skill 是什么·写给零基础 扩写成手把手教程定稿，排到 7/7 周二；原 7/7 的 AI for Science（中）后推一天到 7/8 周三。下篇 7/9 不变。
 
+调整记录（6/30）：流体力学研究史（提纲就绪）插入下下下周二 7/14；原 7/14 的 AI for Science（下）后推到 7/15 周三（原待定）。
+
 逐篇要点：
 
 1. AI 圈大 V 名单：全文版、推特版、知乎表格版都已就绪，直接发。工具/收藏型内容，标题别用悬疑，直说"AI 圈你该关注的这些人/大 V 名单"，靠"一篇收全图谱"的属性吃收藏和转发。
@@ -57,7 +59,7 @@
 | 天 | 日期 | 文章 | vertical | 来源/备注 |
 |---|---|---|---|---|
 | 一 | 7/13 周一 | [什么是推理模型？](https://github.com/dongzhang84/snowboat-blog/blob/main/%E4%BB%80%E4%B9%88%E6%98%AF%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B%EF%BC%9F.md) | AI概念辨析 | 6/25 新加提纲。踩"什么是X"模板 |
-| 二 | 7/14 周二 | [AI for Science（下）：机会与入场](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20for%20Science%EF%BC%88%E4%B8%8B%EF%BC%89%EF%BC%9A%E6%9C%BA%E4%BC%9A%E4%B8%8E%E5%85%A5%E5%9C%BA.md) | AI科研/科普 | 从下下周四挪来。三部曲收尾，已成稿 |
-| 三 | 7/15 周三 | 待定 | | |
-| 四 | 7/16 周四 | 待定 | | |
+| 二 | 7/14 周二 | [流体力学研究史](https://github.com/dongzhang84/snowboat-blog/blob/main/%E6%B5%81%E4%BD%93%E5%8A%9B%E5%AD%A6%E7%A0%94%E7%A9%B6%E5%8F%B2.md) | 科学史/科普 | 6/30 插入。目前是写作提纲（约1.5万字符），待扩写成稿（目标1.5–2万字）。暗线：N–S 方程完整却算不出湍流 ↔ AI 微观全知、宏观涌现不可测 |
+| 三 | 7/15 周三 | [AI for Science（下）：机会与入场](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20for%20Science%EF%BC%88%E4%B8%8B%EF%BC%89%EF%BC%9A%E6%9C%BA%E4%BC%9A%E4%B8%8E%E5%85%A5%E5%9C%BA.md) | AI科研/科普 | 从 7/14 后推一天。三部曲收尾，已成稿 |
+| 四 | 7/16 周四 | AI 商业模式的危机 | 商业/AI | 6/30 排入。审视当前 AI 商业模式是否存在特别大的危机。新选题，暂无成稿，待写 |
 | 五 | 7/17 周五 | 待定 | | |
