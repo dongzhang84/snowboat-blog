@@ -12,10 +12,10 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 59 | 6/24 | [什么是“涌现”？涌现的研究史](什么是”涌现“？涌现的研究史.md) | [link](https://x.com/snowboat84/status/2069931234328027483) | 11k | [link](https://zhuanlan.zhihu.com/p/2053368054613008422) |
 | 58 | 6/23 | [互联网泡沫简史](互联网泡沫简史.md) | [link](https://x.com/snowboat84/status/2069569161911812606) | 3.0k | [link](https://zhuanlan.zhihu.com/p/2052942217388593179) |
 | 57 | 6/22 | [AI圈大V名单（名单不断扩充中）](AI圈大V名单（推特版）.md) | [link](https://x.com/snowboat84/status/2069206740546343372) | 42k | [link](https://zhuanlan.zhihu.com/p/2052276085937660472) |
-| 56 | 6/19 | [我打造的个人AI系统：哲学基础](建设个人AI系统的哲学基础.md) | [link](https://x.com/snowboat84/status/2068120320578629782) | 13k | [link](https://zhuanlan.zhihu.com/p/2051479892148084819) |
-| 55 | 6/18 | [NFT的叙事是如何崩塌的](NFT的叙事是如何崩塌的.md) | [link](https://x.com/snowboat84/status/2067756975069516170) | 8.3k | [link](https://zhuanlan.zhihu.com/p/2051126958969435411) |
-| 54 | 6/17 | [什么是耗散结构理论？它和AI有关系吗？](什么是耗散结构理论？它和AI有关系吗？.md) | [link](https://x.com/snowboat84/status/2067399314843000842) | 7.3k | [link](https://zhuanlan.zhihu.com/p/2050834045269979343) |
-| 53 | 6/16 | [什么是具身智能？它跟 AI 的关系是什么？](什么是具身智能？它跟%20AI%20的关系是什么？.md) | [link](https://x.com/snowboat84/status/2067032626821747178) | 5.5k | [link](https://zhuanlan.zhihu.com/p/2050131994756044748) |
+| 56 | 6/19 | [我打造的个人AI系统：哲学基础](archive/建设个人AI系统的哲学基础.md) | [link](https://x.com/snowboat84/status/2068120320578629782) | 13k | [link](https://zhuanlan.zhihu.com/p/2051479892148084819) |
+| 55 | 6/18 | [NFT的叙事是如何崩塌的](archive/NFT的叙事是如何崩塌的.md) | [link](https://x.com/snowboat84/status/2067756975069516170) | 8.3k | [link](https://zhuanlan.zhihu.com/p/2051126958969435411) |
+| 54 | 6/17 | [什么是耗散结构理论？它和AI有关系吗？](archive/什么是耗散结构理论？它和AI有关系吗？.md) | [link](https://x.com/snowboat84/status/2067399314843000842) | 7.3k | [link](https://zhuanlan.zhihu.com/p/2050834045269979343) |
+| 53 | 6/16 | [什么是具身智能？它跟 AI 的关系是什么？](archive/什么是具身智能？它跟%20AI%20的关系是什么？.md) | [link](https://x.com/snowboat84/status/2067032626821747178) | 5.5k | [link](https://zhuanlan.zhihu.com/p/2050131994756044748) |
 | 52 | 6/15 | [长篇分析：SpaceX未来的展望](archive/长篇分析：SpaceX未来的展望.md) | [link](https://x.com/snowboat84/status/2066674353648046515) | 16k | [link](https://zhuanlan.zhihu.com/p/2050111242954707033) |
 | 51 | 6/12 | [Vibe Coding把我系统搞崩了，我对此的总结和心得](archive/Vibe%20Coding把我系统搞崩了，这是我对此的总结和心得.md) | [link](https://x.com/snowboat84/status/2065586279010742687) | 2.2k | [link](https://zhuanlan.zhihu.com/p/2049039759188800384) |
 | 50 | 6/11 | [人工智能的工程全景（中）：推理，后训练，对齐和安全](archive/人工智能的工程全景（中）：推理，后训练，对齐和安全.md) | [link](https://x.com/snowboat84/status/2065215177029787705) | 8.7k | [link](https://zhuanlan.zhihu.com/p/2048317790793339656) |
