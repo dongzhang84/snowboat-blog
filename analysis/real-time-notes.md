@@ -31,7 +31,7 @@
 | 一 | 7/13 周一 | [什么是推理模型？](https://github.com/dongzhang84/snowboat-blog/blob/main/%E4%BB%80%E4%B9%88%E6%98%AF%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B%EF%BC%9F.md) | AI概念辨析 | 6/25 新加提纲。踩"什么是X"模板 |
 | 二 | 7/14 周二 | [流体力学研究史](https://github.com/dongzhang84/snowboat-blog/blob/main/%E6%B5%81%E4%BD%93%E5%8A%9B%E5%AD%A6%E7%A0%94%E7%A9%B6%E5%8F%B2.md) | 科学史/科普 | 6/30 插入。目前是写作提纲（约1.5万字符），待扩写成稿（目标1.5–2万字）。暗线：N–S 方程完整却算不出湍流 ↔ AI 微观全知、宏观涌现不可测 |
 | 三 | 7/15 周三 | [AI for Science（下）：机会与入场](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20for%20Science%EF%BC%88%E4%B8%8B%EF%BC%89%EF%BC%9A%E6%9C%BA%E4%BC%9A%E4%B8%8E%E5%85%A5%E5%9C%BA.md) | AI科研/科普 | 从 7/14 后推一天。三部曲收尾，已成稿 |
-| 四 | 7/16 周四 | AI 商业模式的危机 | 商业/AI | 6/30 排入。审视当前 AI 商业模式是否存在特别大的危机。新选题，暂无成稿，待写 |
+| 四 | 7/16 周四 | [AI 商业模式的危机](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8D%B1%E6%9C%BA.md) | 商业/AI | 6/30 排入。审视当前 AI 商业模式是否存在特别大的危机。已有草稿/提纲（约5000字），待扩写 |
 | 五 | 7/17 周五 | [强化学习沉浮史](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%B2%89%E6%B5%AE%E5%8F%B2.md) | AI概念/历史 | 7/1 排入。已有成稿 |
 
 # 下下下周（7/20-7/24）
