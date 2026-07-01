@@ -4,7 +4,7 @@
 
 # 本周计划（6/29-7/3）
 
-本周五篇已排满。周一小传、周二 MCP 已发。
+本周五篇已排满，周六 7/4（美国独立日）加更一篇。周一小传（上）、周二 MCP 已发。
 
 | 天 | 日期 | 文章 | vertical | 来源/备注 |
 |---|---|---|---|---|
@@ -13,6 +13,7 @@
 | 三 | 7/1 周三 | [美国风险投资简史](https://github.com/dongzhang84/snowboat-blog/blob/main/%E7%BE%8E%E5%9B%BD%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84%E7%AE%80%E5%8F%B2.md) | 商业/历史 | 有《美国风险投资简史》雏形，待整理扩写 |
 | 四 | 7/2 周四 | [AI工程全景（下）/ Agent](https://github.com/dongzhang84/snowboat-blog/blob/main/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%B7%A5%E7%A8%8B%E5%85%A8%E6%99%AF%EF%BC%88%E4%B8%8B%EF%BC%89%EF%BC%9A%E4%BB%8E%E9%97%AE%E7%AD%94%E5%88%B0%E8%87%AA%E4%B8%BB%E8%A1%8C%E5%8A%A8.md) | 工程 | 从 6/30 挪过来。已扩写定稿，收尾全景三篇，知识地图缺口#6 |
 | 五 | 7/3 周五 | [区块链的叙事是如何崩塌的](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%8C%BA%E5%9D%97%E9%93%BE%E7%9A%84%E5%8F%99%E4%BA%8B%E6%98%AF%E5%A6%82%E4%BD%95%E5%B4%A9%E5%A1%8C%E7%9A%84.md) | 泡沫/AI | 已写好定稿（约1.28万字），直接发。泡沫解剖室母题篇 |
+| 六 | 7/4 周六 | [AI 大V 人物小传（下）](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20%E5%A4%A7V%20%E4%BA%BA%E7%89%A9%E5%B0%8F%E4%BC%A0%EF%BC%88%E4%B8%8B%EF%BC%89.md) | 人物名录/深读 | 加更。美国独立日那天贴，接周一上篇，后四章70人小传（五到八章）已就绪 |
 
 # 下周（7/6-7/10）
 
