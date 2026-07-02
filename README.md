@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 64 | 7/1 | [美国风险投资简史](美国风险投资简史.md) | [link](https://x.com/snowboat84/status/2072469163852124401) | — | [link](https://zhuanlan.zhihu.com/p/2055894385246614054) |
 | 63 | 6/30 | [什么是 MCP · 长篇科普](什么是%20MCP%20·%20长篇科普.md) | [link](https://x.com/snowboat84/status/2072106695040565615) | — | [link](https://zhuanlan.zhihu.com/p/2028278862048507118) |
 | 62 | 6/29 | [AI 大V 人物小传（上）](AI%20大V%20人物小传（上）.md) | [link](https://x.com/snowboat84/status/2071743676649509122) | — | [link](https://zhuanlan.zhihu.com/p/2054730821559440169) |
 | 61 | 6/26 | [AI for Science 详细介绍（上）：范式与版图](AI%20for%20Science%20详细介绍（上）：范式与版图.md) | [link](https://x.com/snowboat84/status/2070656715515932930) | 20k | [link](https://zhuanlan.zhihu.com/p/2054097439544682305) |
