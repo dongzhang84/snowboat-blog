@@ -40,7 +40,7 @@
 | 天 | 日期 | 文章 | vertical | 来源/备注 |
 |---|---|---|---|---|
 | 一 | 7/20 周一 | [AI 安全综述：我们到底在怕什么？](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20%E5%AE%89%E5%85%A8%E7%BB%BC%E8%BF%B0%EF%BC%9A%E6%88%91%E4%BB%AC%E5%88%B0%E5%BA%95%E5%9C%A8%E6%80%95%E4%BB%80%E4%B9%88%EF%BC%9F.md) | AI概念/安全 | 7/1 排入。已有成稿（约3500字） |
-| 二 | 7/21 周二 | 待定 | | |
+| 二 | 7/21 周二 | [算法交易怎么吃掉了华尔街](https://github.com/dongzhang84/snowboat-blog/blob/main/%E7%AE%97%E6%B3%95%E4%BA%A4%E6%98%93%E6%80%8E%E4%B9%88%E5%90%83%E6%8E%89%E4%BA%86%E5%8D%8E%E5%B0%94%E8%A1%97.md) | 商业/金融 | 7/2 排入。已有提纲，待扩写 |
 | 三 | 7/22 周三 | 待定 | | |
 | 四 | 7/23 周四 | 待定 | | |
 | 五 | 7/24 周五 | 待定 | | |
