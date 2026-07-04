@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 67 | 7/4 | [AI 大V 人物小传（下）](AI%20大V%20人物小传（下）.md) | [link](https://x.com/snowboat84/status/2073554517065609544) | — | — |
 | 66 | 7/3 | [区块链的叙事是如何崩塌的](区块链的叙事是如何崩塌的.md) | [link](https://x.com/snowboat84/status/2073195935883288671) | — | [link](https://zhuanlan.zhihu.com/p/2055917271747400825) |
 | 65 | 7/2 | [人工智能的工程全景（下）：Agent 全解](人工智能的工程全景（下）：Agent%20全解.md) | [link](https://x.com/snowboat84/status/2072831459925307704) | — | [link](https://zhuanlan.zhihu.com/p/2056209368262219151) |
 | 64 | 7/1 | [美国风险投资简史](美国风险投资简史.md) | [link](https://x.com/snowboat84/status/2072469163852124401) | — | [link](https://zhuanlan.zhihu.com/p/2055894385246614054) |
