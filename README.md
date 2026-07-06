@@ -13,10 +13,10 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 63 | 6/30 | [什么是 MCP · 长篇科普](什么是%20MCP%20·%20长篇科普.md) | [link](https://x.com/snowboat84/status/2072106695040565615) | — | [link](https://zhuanlan.zhihu.com/p/2028278862048507118) |
 | 62 | 6/29 | [AI 大V 人物小传（上）](AI%20大V%20人物小传（上）.md) | [link](https://x.com/snowboat84/status/2071743676649509122) | — | [link](https://zhuanlan.zhihu.com/p/2054730821559440169) |
 | 61 | 6/26 | [AI for Science 详细介绍（上）：范式与版图](AI%20for%20Science%20详细介绍（上）：范式与版图.md) | [link](https://x.com/snowboat84/status/2070656715515932930) | 20k | [link](https://zhuanlan.zhihu.com/p/2054097439544682305) |
-| 60 | 6/25 | [广义祖父积分学](广义祖父积分学.md) | [link](https://x.com/snowboat84/status/2070291045007671732) | 6.6k | [link](https://zhuanlan.zhihu.com/p/2053671381422838377) |
-| 59 | 6/24 | [什么是“涌现”？涌现的研究史](什么是”涌现“？涌现的研究史.md) | [link](https://x.com/snowboat84/status/2069931234328027483) | 11k | [link](https://zhuanlan.zhihu.com/p/2053368054613008422) |
-| 58 | 6/23 | [互联网泡沫简史](互联网泡沫简史.md) | [link](https://x.com/snowboat84/status/2069569161911812606) | 3.0k | [link](https://zhuanlan.zhihu.com/p/2052942217388593179) |
-| 57 | 6/22 | [AI圈大V名单（名单不断扩充中）](AI圈大V名单（推特版）.md) | [link](https://x.com/snowboat84/status/2069206740546343372) | 42k | [link](https://zhuanlan.zhihu.com/p/2052276085937660472) |
+| 60 | 6/25 | [广义祖父积分学](archive/广义祖父积分学.md) | [link](https://x.com/snowboat84/status/2070291045007671732) | 6.6k | [link](https://zhuanlan.zhihu.com/p/2053671381422838377) |
+| 59 | 6/24 | [什么是“涌现”？涌现的研究史](archive/什么是”涌现“？涌现的研究史.md) | [link](https://x.com/snowboat84/status/2069931234328027483) | 11k | [link](https://zhuanlan.zhihu.com/p/2053368054613008422) |
+| 58 | 6/23 | [互联网泡沫简史](archive/互联网泡沫简史.md) | [link](https://x.com/snowboat84/status/2069569161911812606) | 3.0k | [link](https://zhuanlan.zhihu.com/p/2052942217388593179) |
+| 57 | 6/22 | [AI圈大V名单（名单不断扩充中）](archive/AI圈大V名单（推特版）.md) | [link](https://x.com/snowboat84/status/2069206740546343372) | 42k | [link](https://zhuanlan.zhihu.com/p/2052276085937660472) |
 | 56 | 6/19 | [我打造的个人AI系统：哲学基础](archive/建设个人AI系统的哲学基础.md) | [link](https://x.com/snowboat84/status/2068120320578629782) | 13k | [link](https://zhuanlan.zhihu.com/p/2051479892148084819) |
 | 55 | 6/18 | [NFT的叙事是如何崩塌的](archive/NFT的叙事是如何崩塌的.md) | [link](https://x.com/snowboat84/status/2067756975069516170) | 8.3k | [link](https://zhuanlan.zhihu.com/p/2051126958969435411) |
 | 54 | 6/17 | [什么是耗散结构理论？它和AI有关系吗？](archive/什么是耗散结构理论？它和AI有关系吗？.md) | [link](https://x.com/snowboat84/status/2067399314843000842) | 7.3k | [link](https://zhuanlan.zhihu.com/p/2050834045269979343) |
