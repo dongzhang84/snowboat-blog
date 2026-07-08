@@ -2,20 +2,7 @@
 
 性质：一份长期滚动的临时笔记，随手记流量观察、读者反馈、传播路径、选题弹药。每周往后滚，上周的内容做完正式复盘、吸收进 analysis/ 里带日期的复盘文件后就从这里清掉，只保留本周和下周。这份文件不删。
 
-# 本周计划（6/29-7/3）
-
-本周五篇已排满，周六 7/4（美国独立日）加更一篇。周一小传（上）、周二 MCP 已发。
-
-| 天 | 日期 | 文章 | vertical | 来源/备注 |
-|---|---|---|---|---|
-| 一 | 6/29 周一 | [AI 大V 人物小传（上）](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20%E5%A4%A7V%20%E4%BA%BA%E7%89%A9%E5%B0%8F%E4%BC%A0%EF%BC%88%E4%B8%8A%EF%BC%89.md) | 人物名录/深读 | 已发（#62，6/29）。前四章75人小传，下篇另排 |
-| 二 | 6/30 周二 | [什么是 MCP · 长篇科普](https://github.com/dongzhang84/snowboat-blog/blob/main/%E4%BB%80%E4%B9%88%E6%98%AF%20MCP%20%C2%B7%20%E9%95%BF%E7%AF%87%E7%A7%91%E6%99%AE.md) | AI概念/科普 | 6/25 新插入。已扩写定稿（约1.15万字，事实核查过），踩"什么是X"爆款模板，AI概念辨析 vertical |
-| 三 | 7/1 周三 | [美国风险投资简史](https://github.com/dongzhang84/snowboat-blog/blob/main/%E7%BE%8E%E5%9B%BD%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84%E7%AE%80%E5%8F%B2.md) | 商业/历史 | 有《美国风险投资简史》雏形，待整理扩写 |
-| 四 | 7/2 周四 | [人工智能的工程全景（下）：Agent 全解](https://github.com/dongzhang84/snowboat-blog/blob/main/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%B7%A5%E7%A8%8B%E5%85%A8%E6%99%AF%EF%BC%88%E4%B8%8B%EF%BC%89%EF%BC%9AAgent%20%E5%85%A8%E8%A7%A3.md) | 工程 | 从 6/30 挪过来。已扩写定稿，收尾全景三篇，知识地图缺口#6 |
-| 五 | 7/3 周五 | [区块链的叙事是如何崩塌的](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%8C%BA%E5%9D%97%E9%93%BE%E7%9A%84%E5%8F%99%E4%BA%8B%E6%98%AF%E5%A6%82%E4%BD%95%E5%B4%A9%E5%A1%8C%E7%9A%84.md) | 泡沫/AI | 已写好定稿（约1.28万字），直接发。泡沫解剖室母题篇 |
-| 六 | 7/4 周六 | [AI 大V 人物小传（下）](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20%E5%A4%A7V%20%E4%BA%BA%E7%89%A9%E5%B0%8F%E4%BC%A0%EF%BC%88%E4%B8%8B%EF%BC%89.md) | 人物名录/深读 | 加更。美国独立日那天贴，接周一上篇，后四章70人小传（五到八章）已就绪 |
-
-# 下周（7/6-7/10）
+# 本周计划（7/6-7/10）
 
 | 天 | 日期 | 文章 | vertical | 来源/备注 |
 |---|---|---|---|---|
@@ -25,7 +12,7 @@
 | 四 | 7/9 周四 | [AI可解释性综述](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7%E7%BB%BC%E8%BF%B0.md) | AI概念/科普 | 6/25 新加提纲 |
 | 五 | 7/10 周五 | [什么是信息论？它和AI是什么关系？](https://github.com/dongzhang84/snowboat-blog/blob/main/%E4%BB%80%E4%B9%88%E6%98%AF%E4%BF%A1%E6%81%AF%E8%AE%BA%EF%BC%9F%E5%AE%83%E5%92%8CAI%E6%98%AF%E4%BB%80%E4%B9%88%E5%85%B3%E7%B3%BB%EF%BC%9F.md) | AI概念辨析 | 6/25 新加提纲。踩"什么是X"模板 |
 
-# 下下周（7/13-7/17）
+# 下周（7/13-7/17）
 
 | 天 | 日期 | 文章 | vertical | 来源/备注 |
 |---|---|---|---|---|
@@ -35,7 +22,7 @@
 | 四 | 7/16 周四 | [AI 商业模式的危机](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8D%B1%E6%9C%BA.md) | 商业/AI | 6/30 排入。审视当前 AI 商业模式是否存在特别大的危机。已有草稿/提纲（约5000字），待扩写 |
 | 五 | 7/17 周五 | [强化学习沉浮史](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%B2%89%E6%B5%AE%E5%8F%B2.md) | AI概念/历史 | 7/1 排入。已有成稿 |
 
-# 下下下周（7/20-7/24）
+# 下下周（7/20-7/24）
 
 | 天 | 日期 | 文章 | vertical | 来源/备注 |
 |---|---|---|---|---|
