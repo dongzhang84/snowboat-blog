@@ -20,7 +20,7 @@
 | 天 | 日期 | 文章 | vertical | 来源/备注 |
 |---|---|---|---|---|
 | 一 | 7/6 周一 | [元宇宙衰亡史：炒作、破产，与谁赚走了钱](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%85%83%E5%AE%87%E5%AE%99%E8%A1%B0%E4%BA%A1%E5%8F%B2%20%C2%B7%20%E6%B7%B1%E5%BA%A6%E9%95%BF%E6%96%87.md) | 泡沫/炒作 | 已写好（深度长文，约7万字符），泡沫解剖室第三弹 |
-| 二 | 7/7 周二 | [Skill 是什么·写给零基础](https://github.com/dongzhang84/snowboat-blog/blob/main/Skill%E6%98%AF%E4%BB%80%E4%B9%88-%E5%86%99%E7%BB%99%E9%9B%B6%E5%9F%BA%E7%A1%80.md) | AI概念/科普 | 6/25 扩写成手把手教程定稿（7章38小节，约1万字）。踩"什么是X"模板，零基础友好 |
+| 二 | 7/7 周二 | [Skill 是什么·写给零基础](https://github.com/dongzhang84/snowboat-blog/blob/main/Skill%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9A%E5%86%99%E7%BB%99%E9%9B%B6%E5%9F%BA%E7%A1%80.md) | AI概念/科普 | 6/25 扩写成手把手教程定稿（7章38小节，约1万字）。踩"什么是X"模板，零基础友好 |
 | 三 | 7/8 周三 | [AI for Science 详细介绍（中）：资本与格局](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20for%20Science%20%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D%EF%BC%88%E4%B8%AD%EF%BC%89%EF%BC%9A%E8%B5%84%E6%9C%AC%E4%B8%8E%E6%A0%BC%E5%B1%80.md) | AI科研/科普 | 从 7/7 后推一天。接上篇，目前是雏形待扩写 |
 | 四 | 7/9 周四 | [AI可解释性综述](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7%E7%BB%BC%E8%BF%B0.md) | AI概念/科普 | 6/25 新加提纲 |
 | 五 | 7/10 周五 | [什么是信息论？它和AI是什么关系？](https://github.com/dongzhang84/snowboat-blog/blob/main/%E4%BB%80%E4%B9%88%E6%98%AF%E4%BF%A1%E6%81%AF%E8%AE%BA%EF%BC%9F%E5%AE%83%E5%92%8CAI%E6%98%AF%E4%BB%80%E4%B9%88%E5%85%B3%E7%B3%BB%EF%BC%9F.md) | AI概念辨析 | 6/25 新加提纲。踩"什么是X"模板 |
