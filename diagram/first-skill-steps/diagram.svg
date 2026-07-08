@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 942" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+</style>
+
+<rect class="bg" width="680" height="942" />
+
+<text class="title" x="60" y="42">手把手做你的第一个 Skill</text>
+<text class="subtitle" x="60" y="64">先挑一件你反复做、规矩又固定的事，然后走这七步</text>
+
+<g>
+  <rect class="layer-key" x="60" y="96" width="580" height="100" rx="10" />
+  <text class="eyebrow eyebrow-accent" x="82" y="118">第一步 · 最小骨架</text>
+  <text class="eyebrow eyebrow-accent" x="618" y="118" text-anchor="end">→ 到这步就能跑</text>
+  <text class="th" x="82" y="150">建文件夹 + SKILL.md</text>
+  <text class="ts" x="82" y="170">两个必填字段</text>
+  <line class="divider-accent" x1="220" y1="110" x2="220" y2="182" />
+  <text class="t" x="238" y="150">文件夹叫 weekly-report，里面放 SKILL.md</text>
+  <text class="t" x="238" y="172">开头填 name 和 description，正文一段大白话</text>
+</g>
+
+<g>
+  <rect class="layer" x="60" y="208" width="580" height="100" rx="10" />
+  <text class="eyebrow" x="82" y="230">第二步</text>
+  <text class="eyebrow" x="618" y="230" text-anchor="end">→ 含糊就没人调用</text>
+  <text class="th" x="82" y="262">写对 description</text>
+  <text class="ts" x="82" y="282">触发的唯一钥匙</text>
+  <line class="divider" x1="220" y1="222" x2="220" y2="294" />
+  <text class="t" x="238" y="262">AI 全靠这句话认出该不该用这个 Skill</text>
+  <text class="t" x="238" y="284">把用户可能怎么开口，尽量都塞进去</text>
+</g>
+
+<g>
+  <rect class="layer" x="60" y="320" width="580" height="100" rx="10" />
+  <text class="eyebrow" x="82" y="342">第三步</text>
+  <text class="eyebrow" x="618" y="342" text-anchor="end">→ 能给例子就给</text>
+  <text class="th" x="82" y="374">写正文步骤 + 样板</text>
+  <text class="ts" x="82" y="394">给 AI 一个标准答案</text>
+  <line class="divider" x1="220" y1="334" x2="220" y2="406" />
+  <text class="t" x="238" y="374">一句话说清干啥，再用编号把步骤列清</text>
+  <text class="t" x="238" y="396">结尾附一个填好的样板，比抽象描述好使</text>
+</g>
+
+<g>
+  <rect class="layer" x="60" y="432" width="580" height="100" rx="10" />
+  <text class="eyebrow" x="82" y="454">第四步 · 可选</text>
+  <text class="eyebrow" x="618" y="454" text-anchor="end">→ 正文清爽不丢细节</text>
+  <text class="th" x="82" y="486">长了就拆 references</text>
+  <text class="ts" x="82" y="506">正文超 500 行再拆</text>
+  <line class="divider" x1="220" y1="446" x2="220" y2="518" />
+  <text class="t" x="238" y="486">详细规矩挪到 references 子目录</text>
+  <text class="t" x="238" y="508">正文留一句话指路，用时才翻</text>
+</g>
+
+<g>
+  <rect class="layer" x="60" y="544" width="580" height="100" rx="10" />
+  <text class="eyebrow" x="82" y="566">第五步 · 进阶</text>
+  <text class="eyebrow" x="618" y="566" text-anchor="end">→ 别让 AI 去猜</text>
+  <text class="th" x="82" y="598">确定的活写成 script</text>
+  <text class="ts" x="82" y="618">零基础可先跳过</text>
+  <line class="divider" x1="220" y1="558" x2="220" y2="630" />
+  <text class="t" x="238" y="598">排序、求和、格式转换交给脚本</text>
+  <text class="t" x="238" y="620">AI 只管运行，又快又准</text>
+</g>
+
+<g>
+  <rect class="layer" x="60" y="656" width="580" height="100" rx="10" />
+  <text class="eyebrow" x="82" y="678">第六步</text>
+  <text class="eyebrow" x="618" y="678" text-anchor="end">→ 一条不对就失败</text>
+  <text class="th" x="82" y="710">自检</text>
+  <text class="ts" x="82" y="730">跑之前过几条硬规矩</text>
+  <line class="divider" x1="220" y1="670" x2="220" y2="742" />
+  <text class="t" x="238" y="710">文件夹名要等于 name，只用小写、数字、连字符</text>
+  <text class="t" x="238" y="732">description 说清何时用，正文 500 行以内</text>
+</g>
+
+<g>
+  <rect class="layer" x="60" y="768" width="580" height="100" rx="10" />
+  <text class="eyebrow" x="82" y="790">第七步</text>
+  <text class="eyebrow" x="618" y="790" text-anchor="end">→ 头回都卡这里</text>
+  <text class="th" x="82" y="822">实际跑通，认几个坑</text>
+  <text class="ts" x="82" y="842">先让 AI 真用一次</text>
+  <line class="divider" x1="220" y1="782" x2="220" y2="854" />
+  <text class="t" x="238" y="822">没触发＝description 没写好，多塞几个说法</text>
+  <text class="t" x="238" y="844">claude.ai 要开代码执行，name 别写错</text>
+</g>
+
+<text class="caption-strong" x="60" y="900">最小只要一个 SKILL.md，剩下六步是把它打磨得更稳。</text>
+<text class="caption" x="60" y="922">换任何一件你反复做的事，套路都是这七步。</text>
+
+</svg>
