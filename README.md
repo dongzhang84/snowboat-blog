@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 71 | 7/9 | [AI可解释性综述](AI可解释性综述.md) | [link](https://x.com/snowboat84/status/2075374060637503560) | — | [link](https://zhuanlan.zhihu.com/p/2058803162140751829) |
 | 70 | 7/8 | [AI for Science 详细介绍（中）：资本与格局](AI%20for%20Science%20详细介绍（中）：资本与格局.md) | [link](https://x.com/snowboat84/status/2075095303389413496) | — | [link](https://zhuanlan.zhihu.com/p/2058542937852720420) |
 | 69 | 7/7 | [Skill是什么：写给零基础](Skill是什么：写给零基础.md) | [link](https://x.com/snowboat84/status/2074652382299132237) | — | [link](https://zhuanlan.zhihu.com/p/2058095976175477812) |
 | 68 | 7/6 | [元宇宙衰亡史：炒作，破产，谁赚走了钱？](元宇宙衰亡史%20：炒作，破产，谁赚走了钱？.md) | [link](https://x.com/snowboat84/status/2074278858988380322) | — | [link](https://zhuanlan.zhihu.com/p/2057709629304583782) |
