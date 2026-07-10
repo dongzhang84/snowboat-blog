@@ -15,8 +15,8 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 65 | 7/2 | [人工智能的工程全景（下）：Agent 全解](人工智能的工程全景（下）：Agent%20全解.md) | [link](https://x.com/snowboat84/status/2072831459925307704) | 11k | [link](https://zhuanlan.zhihu.com/p/2056209368262219151) |
 | 64 | 7/1 | [美国风险投资简史](美国风险投资简史.md) | [link](https://x.com/snowboat84/status/2072469163852124401) | 10k | [link](https://zhuanlan.zhihu.com/p/2055894385246614054) |
 | 63 | 6/30 | [什么是 MCP · 长篇科普](什么是%20MCP%20·%20长篇科普.md) | [link](https://x.com/snowboat84/status/2072106695040565615) | 9.8k | [link](https://zhuanlan.zhihu.com/p/2028278862048507118) |
-| 62 | 6/29 | [AI 大V 人物小传（上）](AI%20大V%20人物小传（上）.md) | [link](https://x.com/snowboat84/status/2071743676649509122) | 11k | [link](https://zhuanlan.zhihu.com/p/2054730821559440169) |
-| 61 | 6/26 | [AI for Science 详细介绍（上）：范式与版图](AI%20for%20Science%20详细介绍（上）：范式与版图.md) | [link](https://x.com/snowboat84/status/2070656715515932930) | 20k | [link](https://zhuanlan.zhihu.com/p/2054097439544682305) |
+| 62 | 6/29 | [AI 大V 人物小传（上）](archive/AI%20大V%20人物小传（上）.md) | [link](https://x.com/snowboat84/status/2071743676649509122) | 11k | [link](https://zhuanlan.zhihu.com/p/2054730821559440169) |
+| 61 | 6/26 | [AI for Science 详细介绍（上）：范式与版图](archive/AI%20for%20Science%20详细介绍（上）：范式与版图.md) | [link](https://x.com/snowboat84/status/2070656715515932930) | 20k | [link](https://zhuanlan.zhihu.com/p/2054097439544682305) |
 | 60 | 6/25 | [广义祖父积分学](archive/广义祖父积分学.md) | [link](https://x.com/snowboat84/status/2070291045007671732) | 7.5k | [link](https://zhuanlan.zhihu.com/p/2053671381422838377) |
 | 59 | 6/24 | [什么是“涌现”？涌现的研究史](archive/什么是”涌现“？涌现的研究史.md) | [link](https://x.com/snowboat84/status/2069931234328027483) | 12k | [link](https://zhuanlan.zhihu.com/p/2053368054613008422) |
 | 58 | 6/23 | [互联网泡沫简史](archive/互联网泡沫简史.md) | [link](https://x.com/snowboat84/status/2069569161911812606) | 3.3k | [link](https://zhuanlan.zhihu.com/p/2052942217388593179) |
