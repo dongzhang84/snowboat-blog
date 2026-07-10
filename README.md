@@ -118,3 +118,7 @@ A curated reading list ([reading-list.md](reading-list.md)) on AI & business tra
 ## Status
 
 Work in progress.
+
+---
+
+<sub>Personal study notes are kept in a separate repo: [dongzhang84/study_notes](https://github.com/dongzhang84/study_notes)</sub>
