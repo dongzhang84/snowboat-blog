@@ -364,6 +364,7 @@ DeepMind那年发了一篇论文，标题直接就叫《语言建模就是压缩
 
 ## 作者其它文章（选）
 
+- [AI可解释性综述](https://x.com/snowboat84/status/2075374060637503560)
 - [AI for Science 详细介绍（中）：资本与格局](https://x.com/snowboat84/status/2075095303389413496)
 - [Skill是什么：写给零基础](https://x.com/snowboat84/status/2074652382299132237)
 - [元宇宙衰亡史：炒作，破产，谁赚走了钱？](https://x.com/snowboat84/status/2074278858988380322)
@@ -373,17 +374,16 @@ DeepMind那年发了一篇论文，标题直接就叫《语言建模就是压缩
 - [美国风险投资简史](https://x.com/snowboat84/status/2072469163852124401)
 - [什么是 MCP · 长篇科普](https://x.com/snowboat84/status/2072106695040565615)
 - [AI 大V 人物小传（上）](https://x.com/snowboat84/status/2071743676649509122)
-- [AI for Science 详细介绍（上）：范式与版图](https://x.com/snowboat84/status/2070656715515932930)
 - [一篇文章讲清楚美国的移民系统](https://x.com/snowboat84/status/2057980486501433383)
+- [一文讲清楚美国医疗系统](https://x.com/snowboat84/status/2055081426744422697)
 - [细说美国的华人老钱家族](https://x.com/snowboat84/status/2062326581776011623)
 - [美国的犹太人和华人分别抢到了什么资源？详细分析](https://x.com/snowboat84/status/2063049247805837815)
+- [一篇文章看懂美国教育全生态](https://x.com/snowboat84/status/2054359249917210633)
 - [AI圈大V名单（名单不断扩充中）](https://x.com/snowboat84/status/2069206740546343372)
 - [什么是控制论？控制论是AI的上辈子吗？](https://x.com/snowboat84/status/2064496706042069340)
+- [祖父积分学概论](https://x.com/snowboat84/status/2056533111983493136)
 - [教宗良十四世论人工智能（精华版）](https://x.com/snowboat84/status/2059434342745866391)
-- [美国税收制度完全指南](https://x.com/snowboat84/status/2060511915617779821)
-- [廉颇老矣，尚能饭否：现代数学史（下）](https://x.com/snowboat84/status/2059071134738620606)
-- [什么是世界模型？一个正在被争夺的概念](https://x.com/snowboat84/status/2064135804092645410)
-- [一文看懂美国的法律系统](https://x.com/snowboat84/status/2059795010330251568)
+- [Vibe Reading：AI 时代读书的系统化方法](https://x.com/snowboat84/status/2050008577511973253)
 
 ---
 
