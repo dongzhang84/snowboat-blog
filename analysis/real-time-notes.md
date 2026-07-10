@@ -16,20 +16,20 @@
 
 | 天 | 日期 | 文章 | vertical | 来源/备注 |
 |---|---|---|---|---|
-| 一 | 7/13 周一 | [什么是推理模型？](https://github.com/dongzhang84/snowboat-blog/blob/main/%E4%BB%80%E4%B9%88%E6%98%AF%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B%EF%BC%9F.md) | AI概念辨析 | 6/25 新加提纲。踩"什么是X"模板 |
-| 二 | 7/14 周二 | [流体力学研究史](https://github.com/dongzhang84/snowboat-blog/blob/main/%E6%B5%81%E4%BD%93%E5%8A%9B%E5%AD%A6%E7%A0%94%E7%A9%B6%E5%8F%B2.md) | 科学史/科普 | 6/30 插入。目前是写作提纲（约1.5万字符），待扩写成稿（目标1.5–2万字）。暗线：N–S 方程完整却算不出湍流 ↔ AI 微观全知、宏观涌现不可测 |
-| 三 | 7/15 周三 | [AI for Science（下）：机会与入场](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20for%20Science%EF%BC%88%E4%B8%8B%EF%BC%89%EF%BC%9A%E6%9C%BA%E4%BC%9A%E4%B8%8E%E5%85%A5%E5%9C%BA.md) | AI科研/科普 | 从 7/14 后推一天。三部曲收尾，已成稿 |
-| 四 | 7/16 周四 | [AI 商业模式的危机](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8D%B1%E6%9C%BA.md) | 商业/AI | 6/30 排入。审视当前 AI 商业模式是否存在特别大的危机。已有草稿/提纲（约5000字），待扩写 |
-| 五 | 7/17 周五 | [强化学习沉浮史](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%B2%89%E6%B5%AE%E5%8F%B2.md) | AI概念/历史 | 7/1 排入。已有成稿 |
+| 一 | 7/13 周一 | 什么是 RAG？零基础手把手搭一个 | AI概念/教程 | 7/12 插入，后面全部顺推一个工作日。零基础科普+手把手，体例参照《Skill是什么·写给零基础》。新选题待写，事实需核查 2026 年的工具与做法 |
+| 二 | 7/14 周二 | [什么是推理模型？](https://github.com/dongzhang84/snowboat-blog/blob/main/%E4%BB%80%E4%B9%88%E6%98%AF%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B%EF%BC%9F.md) | AI概念辨析 | 6/25 新加提纲。踩"什么是X"模板 |
+| 三 | 7/15 周三 | [流体力学研究史](https://github.com/dongzhang84/snowboat-blog/blob/main/%E6%B5%81%E4%BD%93%E5%8A%9B%E5%AD%A6%E7%A0%94%E7%A9%B6%E5%8F%B2.md) | 科学史/科普 | 6/30 插入。目前是写作提纲（约1.5万字符），待扩写成稿（目标1.5–2万字）。暗线：N–S 方程完整却算不出湍流 ↔ AI 微观全知、宏观涌现不可测 |
+| 四 | 7/16 周四 | [AI for Science（下）：机会与入场](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20for%20Science%EF%BC%88%E4%B8%8B%EF%BC%89%EF%BC%9A%E6%9C%BA%E4%BC%9A%E4%B8%8E%E5%85%A5%E5%9C%BA.md) | AI科研/科普 | 三部曲收尾，已成稿 |
+| 五 | 7/17 周五 | [AI 商业模式的危机](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8D%B1%E6%9C%BA.md) | 商业/AI | 6/30 排入。审视当前 AI 商业模式是否存在特别大的危机。已有草稿/提纲（约5000字），待扩写 |
 
 # 下下周（7/20-7/24）
 
 | 天 | 日期 | 文章 | vertical | 来源/备注 |
 |---|---|---|---|---|
-| 一 | 7/20 周一 | [AI 安全综述：我们到底在怕什么？](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20%E5%AE%89%E5%85%A8%E7%BB%BC%E8%BF%B0%EF%BC%9A%E6%88%91%E4%BB%AC%E5%88%B0%E5%BA%95%E5%9C%A8%E6%80%95%E4%BB%80%E4%B9%88%EF%BC%9F.md) | AI概念/安全 | 7/1 排入。已有成稿（约3500字） |
-| 二 | 7/21 周二 | [算法交易怎么吃掉了华尔街](https://github.com/dongzhang84/snowboat-blog/blob/main/%E7%AE%97%E6%B3%95%E4%BA%A4%E6%98%93%E6%80%8E%E4%B9%88%E5%90%83%E6%8E%89%E4%BA%86%E5%8D%8E%E5%B0%94%E8%A1%97.md) | 商业/金融 | 7/2 排入。已有提纲，待扩写 |
-| 三 | 7/22 周三 | 美国投资理财完全指南 | 美国制度/理财 | 7/10 从弹药库排入。券商、指数基金、税优账户（401k/IRA/HSA）、合法避税。海外华人高天花板 vertical，新选题待写 |
-| 四 | 7/23 周四 | 待定 | | |
+| 一 | 7/20 周一 | [强化学习沉浮史](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%B2%89%E6%B5%AE%E5%8F%B2.md) | AI概念/历史 | 7/1 排入。已有成稿 |
+| 二 | 7/21 周二 | [AI 安全综述：我们到底在怕什么？](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20%E5%AE%89%E5%85%A8%E7%BB%BC%E8%BF%B0%EF%BC%9A%E6%88%91%E4%BB%AC%E5%88%B0%E5%BA%95%E5%9C%A8%E6%80%95%E4%BB%80%E4%B9%88%EF%BC%9F.md) | AI概念/安全 | 7/1 排入。已有成稿（约3500字） |
+| 三 | 7/22 周三 | [算法交易怎么吃掉了华尔街](https://github.com/dongzhang84/snowboat-blog/blob/main/%E7%AE%97%E6%B3%95%E4%BA%A4%E6%98%93%E6%80%8E%E4%B9%88%E5%90%83%E6%8E%89%E4%BA%86%E5%8D%8E%E5%B0%94%E8%A1%97.md) | 商业/金融 | 7/2 排入。已有提纲，待扩写 |
+| 四 | 7/23 周四 | 美国投资理财完全指南 | 美国制度/理财 | 7/10 从弹药库排入。券商、指数基金、税优账户（401k/IRA/HSA）、合法避税。海外华人高天花板 vertical，新选题待写 |
 | 五 | 7/24 周五 | 待定 | | |
 
 # 下下下周（7/27-7/31）
