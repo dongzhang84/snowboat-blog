@@ -16,7 +16,7 @@
 
 | 天 | 日期 | 文章 | vertical | 来源/备注 |
 |---|---|---|---|---|
-| 一 | 7/13 周一 | 什么是 RAG？零基础手把手搭一个 | AI概念/教程 | 7/12 插入，后面全部顺推一个工作日。零基础科普+手把手，体例参照《Skill是什么·写给零基础》。新选题待写，事实需核查 2026 年的工具与做法 |
+| 一 | 7/13 周一 | [RAG-从前世今生到技术全景](https://github.com/dongzhang84/snowboat-blog/blob/main/RAG-%E4%BB%8E%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F%E5%88%B0%E6%8A%80%E6%9C%AF%E5%85%A8%E6%99%AF.md) | AI概念/教程 | 7/12 插入，后面全部顺推一个工作日。零基础科普+手把手，体例参照《Skill是什么·写给零基础》。新选题待写，事实需核查 2026 年的工具与做法 |
 | 二 | 7/14 周二 | [什么是推理模型？](https://github.com/dongzhang84/snowboat-blog/blob/main/%E4%BB%80%E4%B9%88%E6%98%AF%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B%EF%BC%9F.md) | AI概念辨析 | 6/25 新加提纲。踩"什么是X"模板 |
 | 三 | 7/15 周三 | [流体力学研究史](https://github.com/dongzhang84/snowboat-blog/blob/main/%E6%B5%81%E4%BD%93%E5%8A%9B%E5%AD%A6%E7%A0%94%E7%A9%B6%E5%8F%B2.md) | 科学史/科普 | 6/30 插入。目前是写作提纲（约1.5万字符），待扩写成稿（目标1.5–2万字）。暗线：N–S 方程完整却算不出湍流 ↔ AI 微观全知、宏观涌现不可测 |
 | 四 | 7/16 周四 | [AI for Science（下）：机会与入场](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20for%20Science%EF%BC%88%E4%B8%8B%EF%BC%89%EF%BC%9A%E6%9C%BA%E4%BC%9A%E4%B8%8E%E5%85%A5%E5%9C%BA.md) | AI科研/科普 | 三部曲收尾，已成稿 |
