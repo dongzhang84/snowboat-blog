@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 75 | 7/15 | [什么是推理模型？](什么是推理模型？.md) | [link](https://x.com/snowboat84/status/2077613128746164625) | — | [link](https://zhuanlan.zhihu.com/p/2061055676080711410) |
 | 74 | 7/14 | [什么是希尔伯特的第六问题？这个问题重要吗？](什么是希尔伯特的第六问题？这个问题重要吗？.md) | [link](https://x.com/snowboat84/status/2077249534049259588) | — | [link](https://zhuanlan.zhihu.com/p/2060680003977745451) |
 | 73 | 7/13 | [RAG：从前世今生到技术全景](RAG：从前世今生到技术全景.md) | [link](https://x.com/snowboat84/status/2076868301809225932) | — | [link](https://zhuanlan.zhihu.com/p/2060189734044022501) |
 | 72 | 7/10 | [什么是信息论？它和AI是什么关系？](什么是信息论？它和AI是什么关系？.md) | [link](https://x.com/snowboat84/status/2075781603847188852) | — | [link](https://zhuanlan.zhihu.com/p/2059181316013397615) |
