@@ -14,11 +14,11 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 70 | 7/8 | [AI for Science 详细介绍（中）：资本与格局](AI%20for%20Science%20详细介绍（中）：资本与格局.md) | [link](https://x.com/snowboat84/status/2075095303389413496) | 10k | [link](https://zhuanlan.zhihu.com/p/2058542937852720420) |
 | 69 | 7/7 | [Skill是什么：写给零基础](Skill是什么：写给零基础.md) | [link](https://x.com/snowboat84/status/2074652382299132237) | 6.2k | [link](https://zhuanlan.zhihu.com/p/2058095976175477812) |
 | 68 | 7/6 | [元宇宙衰亡史：炒作，破产，谁赚走了钱？](元宇宙衰亡史%20：炒作，破产，谁赚走了钱？.md) | [link](https://x.com/snowboat84/status/2074278858988380322) | 6.5k | [link](https://zhuanlan.zhihu.com/p/2057709629304583782) |
-| 67 | 7/4 | [AI 大V 人物小传（下）](AI%20大V%20人物小传（下）.md) | [link](https://x.com/snowboat84/status/2073554517065609544) | 7.9k | — |
-| 66 | 7/3 | [区块链的叙事是如何崩塌的](区块链的叙事是如何崩塌的.md) | [link](https://x.com/snowboat84/status/2073195935883288671) | 7.7k | [link](https://zhuanlan.zhihu.com/p/2055917271747400825) |
-| 65 | 7/2 | [人工智能的工程全景（下）：Agent 全解](人工智能的工程全景（下）：Agent%20全解.md) | [link](https://x.com/snowboat84/status/2072831459925307704) | 11k | [link](https://zhuanlan.zhihu.com/p/2056209368262219151) |
-| 64 | 7/1 | [美国风险投资简史](美国风险投资简史.md) | [link](https://x.com/snowboat84/status/2072469163852124401) | 11k | [link](https://zhuanlan.zhihu.com/p/2055894385246614054) |
-| 63 | 6/30 | [什么是 MCP · 长篇科普](什么是%20MCP%20·%20长篇科普.md) | [link](https://x.com/snowboat84/status/2072106695040565615) | 9.9k | [link](https://zhuanlan.zhihu.com/p/2028278862048507118) |
+| 67 | 7/4 | [AI 大V 人物小传（下）](archive/AI%20大V%20人物小传（下）.md) | [link](https://x.com/snowboat84/status/2073554517065609544) | 7.9k | — |
+| 66 | 7/3 | [区块链的叙事是如何崩塌的](archive/区块链的叙事是如何崩塌的.md) | [link](https://x.com/snowboat84/status/2073195935883288671) | 7.7k | [link](https://zhuanlan.zhihu.com/p/2055917271747400825) |
+| 65 | 7/2 | [人工智能的工程全景（下）：Agent 全解](archive/人工智能的工程全景（下）：Agent%20全解.md) | [link](https://x.com/snowboat84/status/2072831459925307704) | 11k | [link](https://zhuanlan.zhihu.com/p/2056209368262219151) |
+| 64 | 7/1 | [美国风险投资简史](archive/美国风险投资简史.md) | [link](https://x.com/snowboat84/status/2072469163852124401) | 11k | [link](https://zhuanlan.zhihu.com/p/2055894385246614054) |
+| 63 | 6/30 | [什么是 MCP · 长篇科普](archive/什么是%20MCP%20·%20长篇科普.md) | [link](https://x.com/snowboat84/status/2072106695040565615) | 9.9k | [link](https://zhuanlan.zhihu.com/p/2028278862048507118) |
 | 62 | 6/29 | [AI 大V 人物小传（上）](archive/AI%20大V%20人物小传（上）.md) | [link](https://x.com/snowboat84/status/2071743676649509122) | 11k | [link](https://zhuanlan.zhihu.com/p/2054730821559440169) |
 | 61 | 6/26 | [AI for Science 详细介绍（上）：范式与版图](archive/AI%20for%20Science%20详细介绍（上）：范式与版图.md) | [link](https://x.com/snowboat84/status/2070656715515932930) | 21k | [link](https://zhuanlan.zhihu.com/p/2054097439544682305) |
 | 60 | 6/25 | [广义祖父积分学](archive/广义祖父积分学.md) | [link](https://x.com/snowboat84/status/2070291045007671732) | 7.7k | [link](https://zhuanlan.zhihu.com/p/2053671381422838377) |
