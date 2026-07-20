@@ -254,28 +254,7 @@ RAG从一条"查到就塞进去"的简单直线，一路长成了会自我纠错
 
 ---
 
-# 作者其它文章（选）
-
-- [什么是信息论？它和AI是什么关系？](https://x.com/snowboat84/status/2075781603847188852)
-- [AI可解释性综述](https://x.com/snowboat84/status/2075374060637503560)
-- [AI for Science 详细介绍（中）：资本与格局](https://x.com/snowboat84/status/2075095303389413496)
-- [Skill是什么：写给零基础](https://x.com/snowboat84/status/2074652382299132237)
-- [元宇宙衰亡史：炒作，破产，谁赚走了钱？](https://x.com/snowboat84/status/2074278858988380322)
-- [AI 大V 人物小传（下）](https://x.com/snowboat84/status/2073554517065609544)
-- [区块链的叙事是如何崩塌的](https://x.com/snowboat84/status/2073195935883288671)
-- [人工智能的工程全景（下）：Agent 全解](https://x.com/snowboat84/status/2072831459925307704)
-- [美国风险投资简史](https://x.com/snowboat84/status/2072469163852124401)
-- [什么是 MCP · 长篇科普](https://x.com/snowboat84/status/2072106695040565615)
-- [一篇文章讲清楚美国的移民系统](https://x.com/snowboat84/status/2057980486501433383)
-- [一文讲清楚美国医疗系统](https://x.com/snowboat84/status/2055081426744422697)
-- [细说美国的华人老钱家族](https://x.com/snowboat84/status/2062326581776011623)
-- [美国的犹太人和华人分别抢到了什么资源？详细分析](https://x.com/snowboat84/status/2063049247805837815)
-- [一篇文章看懂美国教育全生态](https://x.com/snowboat84/status/2054359249917210633)
-- [AI圈大V名单（名单不断扩充中）](https://x.com/snowboat84/status/2069206740546343372)
-- [什么是控制论？控制论是AI的上辈子吗？](https://x.com/snowboat84/status/2064496706042069340)
-- [祖父积分学概论](https://x.com/snowboat84/status/2056533111983493136)
-- [教宗良十四世论人工智能（精华版）](https://x.com/snowboat84/status/2059434342745866391)
-- [Vibe Reading：AI 时代读书的系统化方法](https://x.com/snowboat84/status/2050008577511973253)
+现在对未来的计划，就是你不可以有详细的、具体的计划。因为我过去赌的每一个赛道都失败了，你不可以给自己赌赛道，你只可以给自己规定一些可能（possible）的赛道，然后并行地展开。
 
 ---
 
