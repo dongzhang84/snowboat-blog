@@ -1,6 +1,6 @@
 先把话说在最前面。这篇讲的"危机"，跟"AI没用"是两码事。
 
-用户是真的，增长是真的，需求是真的。ChatGPT到2026年初有近九亿周活，OpenAI和Anthropic是有史以来收入爬得最快的两家公司，Anthropic从10亿美元年化收入干到470亿，只花了一年半，美国商业史上没有任何一家公司这么涨过。需求端一点问题都没有。
+用户是真的，增长是真的，需求是真的。ChatGPT到2026年初有近九亿周活，OpenAI和Anthropic是有史以来收入爬得最快的两家公司，Anthropic从10亿美元年化收入干到470亿美元，只花了一年多，至少是美国商业史上最陡的收入爬坡之一。需求端一点问题都没有。
 
 危机在别的地方。它在账本上，在钱怎么算都对不上这件事上。而且对不上的方式不止一种，是好几道彼此独立的裂缝。这篇文章想做的，跟我之前拆"AI安全"、拆"信息论"是一个路子，不喊一句空洞的"泡沫来了"，而是把"危机"这个大词拆成几条具体的裂缝，一条条看清它裂在哪、有多深、是能修好的还是结构性的。
 
@@ -12,7 +12,7 @@
 
 要谈这门生意哪里不对，得先把最容易被反驳的口子堵上，免得话没说完就被一句"你不就是看空AI吗"带偏。
 
-看空AI的能力，是2026年最偷懒的一种论调。事实站在反面。ChatGPT的周活用户在2026年2月冲到约九亿，付费订阅用户约五千万。企业侧，微软、谷歌、亚马逊的AI相关收入都在以三位数百分比往上蹿。增长的速度快到什么程度，值得再钉一个坐标。Anthropic从10亿美元年化收入涨到470亿，前后只花了一年多。做个对照，做企业软件的Salesforce从零爬到300亿年化收入，用了约二十年。一家花二十年走的路，另一家一年多就走完了。用户端也一样，ChatGPT从发布到近九亿周活只用了三年出头，是人类历史上普及最快的消费级产品之一。所以再说一遍，需求这一端，是这门生意最不用担心的地方，反常的是这么猛的需求，账却算不平。这些都是财报里已经落袋的真金白银，跟PPT上画的饼是两码事。
+看空AI的能力，是2026年最偷懒的一种论调。事实站在反面。ChatGPT的周活用户在2026年2月冲到约九亿，付费订阅用户约五千万。企业侧，微软、谷歌、亚马逊的AI相关收入都在以三位数百分比往上蹿。增长的速度快到什么程度，值得再钉一个坐标。Anthropic从10亿美元年化收入涨到470亿美元，前后只花了一年多。做个对照，做企业软件的Salesforce从零爬到300亿年化收入，用了约二十年。一家花二十年走的路，另一家一年多就走完了。用户端也一样，ChatGPT从发布到近九亿周活只用了三年出头，是人类历史上普及最快的消费级产品之一。所以再说一遍，需求这一端，是这门生意最不用担心的地方，反常的是这么猛的需求，账却算不平。这些都是财报里已经落袋的真金白银，跟PPT上画的饼是两码事。
 
 所以这篇文章一个字都不会花在"AI是不是骗局"上。它默认AI有用、需求为真。只有把这个前提焊死，后面要谈的那个危机才立得住，因为那个危机恰恰是在"需求这么猛"的背景下发生的，这才是它最反常、也最值得琢磨的地方。
 
@@ -40,7 +40,7 @@
 
 2025年，全球四大云厂，亚马逊、微软、谷歌、Meta，合计资本开支约4100亿美元。到2026年，这个数字跳到约7250亿，同比涨了约七成七。把甲骨文算进来，五家合计约7750亿。一年之内，多花出去三千多亿。
 
-这是个什么量级的数字，可以找个参照。7750亿美元，跟瑞士一整年的GDP差不多。也就是说，全球最有钱的几家科技公司，一年砸进AI基础设施的钱，抵得上一个中等发达国家一整年创造的全部财富。人类历史上，没有任何一次商业投资是这个铺法。
+这是个什么量级的数字，可以找个参照。7750亿美元，跟瑞士一整年的GDP差不多。也就是说，全球最有钱的几家科技公司，一年砸进AI基础设施的钱，抵得上一个中等发达国家一整年创造的全部财富。在商业科技投资史上，这种铺法极其罕见。
 
 要说清楚，这不是我在渲染。这些数字来自各家自己的最新指引，亚马逊单家2026年资本开支指引约两千亿美元，谷歌约一千七百五十亿到一千八百五十亿，Meta约一千一百五十亿到一千三百五十亿。每一家都在往上加码，没有一家喊停。
 
@@ -94,9 +94,9 @@ Cahn在2024年提过一个框架，被业内反复引用。他的问法是，要
 
 把两家的账本摊开看，你会对"亏损"这两个字有全新的体感。
 
-先看OpenAI。它的年化收入约两百四五十亿美元，2026年全年目标约三百亿。听着很唬人，可同一年它预计要亏约一百四十亿美元，这还只是经营亏损，真实的现金消耗更高，约两百五六十亿。它的估值约八千五百二十亿美元，是收入的约三十五倍，一个纯软件公司才配得上的倍数。最扎心的是转正的时间表，按它自己最新的内部预测，自由现金流要到约2029年甚至2030年才可能转正，而2028年反倒是亏得最惨的一年，单年经营亏损可能高达约七百四十亿。
+先看OpenAI。它的年化收入约两百四五十亿美元，2026年全年目标约三百亿。听着很唬人，可同一年它预计要亏约一百四十亿美元，这还只是经营亏损，真实的现金消耗更高，约两百五六十亿。OpenAI官方2026年2月那轮融资披露的是约7300亿美元投前估值，按1100亿美元融资额粗算，投后估值约8400亿美元，仍是收入的三十多倍，一个纯软件公司才配得上的倍数。最扎心的是转正的时间表，按它自己最新的内部预测，自由现金流要到约2029年甚至2030年才可能转正，而2028年反倒是亏得最惨的一年，单年经营亏损可能高达约七百四十亿。
 
-再看Anthropic。它的收入曲线是人类商业史上最陡的一条，从2024年底的约10亿美元年化收入，到2026年5月约470亿，一年多涨了四十多倍。它的估值约九千六百五十亿美元，2026年中已经反超OpenAI，成了全球最贵的AI公司。可它同样在巨额烧钱，2025年就亏了约三十亿，往后随着规模扩张，亏损还会放大。
+再看Anthropic。它的收入曲线是美国商业史上最陡的几条之一，从2024年底的约10亿美元年化收入，到2026年5月约470亿美元，一年多涨了四十多倍。它的官方融资估值约九千六百五十亿美元，按这个公开融资估值口径，2026年中已经反超OpenAI，成了全球最贵的AI公司之一。可它同样在巨额烧钱，2025年就亏了约三十亿，往后随着规模扩张，亏损还会放大。
 
 两家加起来，是这个星球上增长最快、也是烧钱最猛的两家公司。收入的陡峭和亏损的深不见底，是同一枚硬币的两面。你没法只要前者不要后者，因为它们出自同一个结构。
 
@@ -122,9 +122,9 @@ Cahn在2024年提过一个框架，被业内反复引用。他的问法是，要
 
 定价像大宗商品，说的是它的收入端。模型能力越来越同质化，开源紧追不舍，客户随时能换供应商，所以它的定价权极弱，价格被压着一年比一年低，跟卖石油、卖铜这种谁家的都差不多的大宗商品一个待遇，这是第四章要展开的。
 
-估值像软件，说的是资本市场给它的价码。三十五倍收入的估值，是给那种边际成本趋零、护城河极深的软件公司的。可模型公司的成本结构和定价权，跟软件公司差了十万八千里。
+估值像软件，说的是资本市场给它的价码。三十多倍收入的估值，是给那种边际成本趋零、护城河极深的软件公司的。可模型公司的成本结构和定价权，跟软件公司差了十万八千里。
 
-这三个口径，任意挑两个都打架。重工业的成本配大宗商品的定价，那是亏本买卖。大宗商品的定价配软件的估值，那是空中楼阁。资本市场现在同时相信这三件事，而它们没法同时为真。把这个错配换成一个更扎心的对照。一家健康的SaaS软件公司，毛利率能到百分之八十，估值给到收入的十到十五倍，市场觉得合理，因为它每多一个客户几乎不增加成本，钱越赚越轻松。而OpenAI，毛利被算力成本压得很薄甚至为负，市场却给了它收入的三十五倍。同样一套估值逻辑，套在两种完全不同的成本结构上，一个撑得住，另一个等于拿软件的价钱，买了一门重工业的生意。中间那道差额，现在全靠一个以后会变好的信念在填。信念这东西，牛市里是黄金，熊市里一文不值。这道错配，就是"中间层危机"最精确的样子。
+这三个口径，任意挑两个都打架。重工业的成本配大宗商品的定价，那是亏本买卖。大宗商品的定价配软件的估值，那是空中楼阁。资本市场现在同时相信这三件事，而它们没法同时为真。把这个错配换成一个更扎心的对照。一家健康的SaaS软件公司，毛利率能到百分之八十，估值给到收入的十到十五倍，市场觉得合理，因为它每多一个客户几乎不增加成本，钱越赚越轻松。而OpenAI，推理和训练成本长期压着毛利空间，市场却给了它收入三十多倍的估值。同样一套估值逻辑，套在两种完全不同的成本结构上，一个撑得住，另一个等于拿软件的价钱，买了一门重工业的生意。中间那道差额，现在全靠一个以后会变好的信念在填。信念这东西，牛市里是黄金，熊市里一文不值。这道错配，就是"中间层危机"最精确的样子。
 
 # 四、钳子上刃：价格天花板在崩，而成本没跟着崩
 
@@ -140,7 +140,7 @@ Cahn在2024年提过一个框架，被业内反复引用。他的问法是，要
 
 顺带说一句，早年被当成开源领头羊的Meta的Llama，如今在这批开源模型里反而掉了队，领跑的换成了DeepSeek、通义千问、GLM这些名字。这本身也是个信号，连"谁是最强开源"都在快速洗牌，说明这一层的能力，正在变成谁都能造、谁也占不住的公共品。
 
-这批开源模型强到什么程度，看两个坐标就懂。DeepSeek V4分了Pro和Flash两个版本，Pro版在业界公认的代码测试SWE-Bench上拿到约百分之八十点六，而同期最强的闭源模型之一Claude Opus约百分之八十点八，差距在小数点后一位。智谱的GLM在开源模型的公开竞技场排名上，一度冲到第一。开源和闭源的能力差距，从一年前的约百分之十二，压到了如今的约百分之五。这几分的差距，对绝大多数企业的实际用途来说，根本不构成非用闭源不可的理由。
+这批开源模型强到什么程度，看公开榜单和模型卡就懂。DeepSeek V4分了Pro和Flash两个版本，长上下文、代码和Agent任务都对着前沿模型打。智谱的GLM、阿里的Qwen、月之暗面的Kimi，也在多个公开榜单上轮流往前挤。具体小数点会随榜单和版本变化，真正重要的是方向：开源和闭源的能力差距已经压到许多企业可以接受的范围内。这几分的差距，对绝大多数企业的实际用途来说，越来越难构成非用闭源不可的理由。
 
 ## 4.2 定价上限，被开源死死摁住
 
@@ -190,7 +190,7 @@ Cahn在2024年提过一个框架，被业内反复引用。他的问法是，要
 
 模型公司当然不甘心当大宗商品供应商，它们正在拼命地、人工地去制造那道自己天生没有的护城河。而它们造墙的图纸，几乎就是照抄智能手机。
 
-最像"造iOS"的一手，是记忆和个性化。2026年6月，OpenAI上线了一个叫Dreaming的记忆引擎，最新版本是V3。它在后台默默地跑一个进程，把你跟ChatGPT聊过的成年累月的对话综合起来、提炼成对你的理解，在你下次提问时悄悄注入进去。这一手的用意再清楚不过，把"记忆"锁进一家，就等于把用户锁进一家。你在ChatGPT里攒了三年的对话、它对你的了解，是你换到别家时带不走的。这，就是模型公司在人工制造那道它白得不到的切换成本。
+最像"造iOS"的一手，是记忆和个性化。2026年6月，OpenAI推出Dreaming记忆系统，用来把ChatGPT长期对话里的偏好、项目和约束综合起来，在后续对话中提供连续上下文。这一手的用意再清楚不过，把"记忆"锁进一家，就等于把用户锁进一家。你在ChatGPT里攒了三年的对话、它对你的了解，是你换到别家时带不走的。这，就是模型公司在人工制造那道它白得不到的切换成本。
 
 另一条路是接入你的生活和工作。让AI连上你的Gmail、你的银行、你的工作流，接得越深，你越离不开。企业侧最典型的是微软的Copilot，它背后有个叫Microsoft Graph的东西，把一个组织内部的邮件、文档、日程、人际关系织成一张知识图谱，Copilot答问题时就从这张图谱里捞你公司自己的数据。你公司的数据越沉淀在微软体系里，就越换不动。
 
@@ -226,7 +226,7 @@ Cahn在2024年提过一个框架，被业内反复引用。他的问法是，要
 
 这一轮AI热潮里，有一种奇特的资金安排，叫循环融资。
 
-它的样子是这样的。芯片商或者云厂，拿钱去投资一家AI公司，这家AI公司拿了钱，回过头来又把这笔钱花在买它们的芯片、租它们的算力上。钱转了一圈，又回到了出发的地方。最经典的一条链是，英伟达承诺向OpenAI投资高达一千亿美元，OpenAI拿着钱去跟甲骨文签了约三千亿美元的算力大单、跟微软Azure签了约两千五百亿、跟AWS签了约三百八十亿，而这些云厂搭数据中心，买的又是英伟达的芯片。此外还有AMD跟OpenAI约九百亿美元的芯片加认股权安排。彭博社专门做过一张图，叫"AI循环交易"，把微软、OpenAI、英伟达这几家互相付钱的关系画成了一个圈。
+它的样子是这样的。芯片商或者云厂，拿钱去投资一家AI公司，这家AI公司拿了钱，回过头来又把这笔钱花在买它们的芯片、租它们的算力上。钱转了一圈，又回到了出发的地方。最经典的一条链是，英伟达曾宣布有意向OpenAI逐步投资最高一千亿美元，OpenAI又跟甲骨文签了约三千亿美元的算力大单、跟微软Azure新增约两千五百亿美元承诺，并跟AWS签下约三百八十亿美元协议，后来又追加约一千亿美元扩展协议，而这些云厂搭数据中心，买的又是英伟达的芯片。此外，AMD也通过面向Meta的认股权安排，把芯片供应和大客户绑定在一起。彭博社专门做过一张图，叫"AI循环交易"，把微软、OpenAI、英伟达这几家互相付钱的关系画成了一个圈。
 
 这个圈的问题在于，它让"需求"看起来比实际更真。同一笔钱在圈里转一圈，每经过一段，就被记一次收入，或者记一笔算力积压订单。芯片商的收入涨了，云厂的订单涨了，看上去需求汹涌，可这需求里有相当一部分，是自己投出去的钱又流回了自己的账上。
 
@@ -344,7 +344,7 @@ Cahn在2024年提过一个框架，被业内反复引用。他的问法是，要
 
 乐观情景。Jevons悖论兑现，推理越便宜用量越大，加上企业级的变现终于追上来，那道投入回报的缺口开始收窄。该盯的信号是，企业AI试点的损益转化率有没有从个位数往上走，以及token总消耗的增速能不能持续压过降价的速度。
 
-中性情景。这是我个人觉得概率最高的。行业经历一轮洗牌出清，一批撑不住的模型公司和neocloud倒下或被并购，剩者为王。模型层的估值向公用事业回归，从三十五倍收入慢慢掉到个位数倍数，而应用层里长出真锁定的赢家。该盯的信号是，有没有开始出现第一批AI公司的暴雷或贱卖，以及模型公司的估值倍数是不是在往下走。
+中性情景。这是我个人觉得概率最高的。行业经历一轮洗牌出清，一批撑不住的模型公司和neocloud倒下或被并购，剩者为王。模型层的估值向公用事业回归，从三十多倍收入慢慢掉到个位数倍数，而应用层里长出真锁定的赢家。该盯的信号是，有没有开始出现第一批AI公司的暴雷或贱卖，以及模型公司的估值倍数是不是在往下走。
 
 悲观情景。企业的试点转化持续失败，同时第六章那条循环融资的链子在某个结点断掉，OpenAI或Anthropic里的一家出了大问题，冲击沿着整个圈子级联式回撤，云厂的两万亿积压订单开始注水缩水，债务违约成串出现。该盯的信号是，那几家现金流为负的核心公司，融资节奏有没有卡壳，以及neocloud的债务市场有没有出现第一例违约。
 
@@ -377,12 +377,12 @@ Cahn在2024年提过一个框架，被业内反复引用。他的问法是，要
 - [RAG：从前世今生到技术全景](https://x.com/snowboat84/status/2076868301809225932)
 - [什么是信息论？它和AI是什么关系？](https://x.com/snowboat84/status/2075781603847188852)
 - [AI可解释性综述](https://x.com/snowboat84/status/2075374060637503560)
-- [AI for Science 详细介绍（中）：资本与格局](https://x.com/snowboat84/status/2075095303389413496)
+- [AI for Science详细介绍（中）：资本与格局](https://x.com/snowboat84/status/2075095303389413496)
 - [Skill是什么：写给零基础](https://x.com/snowboat84/status/2074652382299132237)
 - [元宇宙衰亡史：炒作，破产，谁赚走了钱？](https://x.com/snowboat84/status/2074278858988380322)
-- [AI 大V 人物小传（下）](https://x.com/snowboat84/status/2073554517065609544)
+- [AI大V人物小传（下）](https://x.com/snowboat84/status/2073554517065609544)
 - [区块链的叙事是如何崩塌的](https://x.com/snowboat84/status/2073195935883288671)
-- [人工智能的工程全景（下）：Agent 全解](https://x.com/snowboat84/status/2072831459925307704)
+- [人工智能的工程全景（下）：Agent全解](https://x.com/snowboat84/status/2072831459925307704)
 - [美国风险投资简史](https://x.com/snowboat84/status/2072469163852124401)
 - [一篇文章讲清楚美国的移民系统](https://x.com/snowboat84/status/2057980486501433383)
 - [细说美国的华人老钱家族](https://x.com/snowboat84/status/2062326581776011623)
@@ -391,7 +391,7 @@ Cahn在2024年提过一个框架，被业内反复引用。他的问法是，要
 - [什么是控制论？控制论是AI的上辈子吗？](https://x.com/snowboat84/status/2064496706042069340)
 - [教宗良十四世论人工智能（精华版）](https://x.com/snowboat84/status/2059434342745866391)
 - [美国税收制度完全指南](https://x.com/snowboat84/status/2060511915617779821)
-- [AI for Science 详细介绍（上）：范式与版图](https://x.com/snowboat84/status/2070656715515932930)
+- [AI for Science详细介绍（上）：范式与版图](https://x.com/snowboat84/status/2070656715515932930)
 - [廉颇老矣，尚能饭否：现代数学史（下）](https://x.com/snowboat84/status/2059071134738620606)
 - [什么是世界模型？一个正在被争夺的概念](https://x.com/snowboat84/status/2064135804092645410)
 
@@ -399,26 +399,30 @@ Cahn在2024年提过一个框架，被业内反复引用。他的问法是，要
 
 ## 本文参考文献
 
-- [Big Tech's AI spending plans reach $725 billion — Tom's Hardware](https://www.tomshardware.com/tech-industry/big-tech/big-techs-ai-spending-plans-reach-725-billion) - 2026 云厂资本开支
+- [Big Tech's AI spending plans reach $725 billion — Tom's Hardware](https://www.tomshardware.com/tech-industry/big-tech/big-techs-ai-spending-plans-reach-725-billion) - 2026云厂资本开支
 - [AI's $600B Question — Sequoia (David Cahn, 2024)](https://www.sequoiacap.com/article/ais-600b-question/) - 收入缺口框架
 - [Morgan Stanley on hyperscaler AI capex vs dot-com — Yahoo Finance](https://finance.yahoo.com/news/morgan-stanley-says-hyperscaler-ai-151112648.html) - 资本密集度对照
-- [Google, Microsoft, Meta, Amazon AI cash hit — CNBC](https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html) - 自由现金流塌陷（Pivotal 对谷歌）
+- [Google, Microsoft, Meta, Amazon AI cash hit — CNBC](https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html) - 自由现金流塌陷（Pivotal对谷歌）
 - [Hyperscaler capex vs cash flow — Epoch AI](https://epoch.ai/data-insights/hyperscaler-capex-vs-cash-flow) - 资本开支超过经营现金流
-- [OpenAI cash burn and losses to 2030 — Fortune](https://fortune.com/2025/11/12/openai-cash-burn-rate-annual-losses-2028-profitable-2030-financial-documents/) - OpenAI 亏损与转正时间
-- [Anthropic Series H — Anthropic](https://www.anthropic.com/news/series-h) - Anthropic 估值 9650 亿
+- [OpenAI cash burn and losses to 2030 — Fortune](https://fortune.com/2025/11/12/openai-cash-burn-rate-annual-losses-2028-profitable-2030-financial-documents/) - OpenAI亏损与转正时间
+- [Scaling AI for everyone — OpenAI](https://openai.com/index/scaling-ai-for-everyone/) - OpenAI 2026年融资与7300亿美元投前估值
+- [Anthropic Series H — Anthropic](https://www.anthropic.com/news/series-h) - Anthropic估值9650亿
 - [Anthropic revenue growth — Axios](https://www.axios.com/2026/04/13/anthropic-revenue-growth-ai) - 史上最快收入爬坡
 - [DeepSeek V4 preview open-source — CNBC](https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html) - 开源追平前沿
 - [LLM inference price trends — Epoch AI](https://epoch.ai/data-insights/llm-inference-price-trends) - 调用价格逐年下移
 - [ChatGPT reaches 900M weekly active users — TechCrunch](https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/) - 周活与付费率
 - [Testing ads in ChatGPT — OpenAI](https://openai.com/index/testing-ads-in-chatgpt/) - 免费版放广告
 - [Dreaming: Better memory for a more helpful ChatGPT — OpenAI](https://openai.com/index/chatgpt-memory-dreaming/) - 记忆引擎与锁定
-- [How Microsoft 365 Copilot works — Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-architecture) - Microsoft Graph 企业护城河
+- [How Microsoft 365 Copilot works — Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-architecture) - Microsoft Graph企业护城河
 - [AI Circular Deals — Bloomberg](https://www.bloomberg.com/graphics/2026-ai-circular-deals/) - 循环融资图谱
-- [Jim Chanos on AI circular financing and debt — Yahoo Finance](https://finance.yahoo.com/news/famed-short-seller-jim-chanos-sees-risks-in-growing-debt-market-backed-by-nvidias-ai-chips-theres-going-to-be-debt-defaults-110013557.html) - Chanos 之问
+- [AWS and OpenAI strategic partnership — OpenAI](https://openai.com/index/aws-and-openai-partnership/) - OpenAI与AWS约380亿美元合作
+- [OpenAI and Amazon expand partnership — OpenAI](https://openai.com/index/amazon-partnership/) - AWS追加约1000亿美元合作
+- [AMD and Meta expanded strategic partnership — AMD](https://ir.amd.com/news-events/press-releases/detail/1279/amd-and-meta-announce-expanded-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus) - AMD与Meta的6GW GPU与认股权安排
+- [Jim Chanos on AI circular financing and debt — Yahoo Finance](https://finance.yahoo.com/news/famed-short-seller-jim-chanos-sees-risks-in-growing-debt-market-backed-by-nvidias-ai-chips-theres-going-to-be-debt-defaults-110013557.html) - Chanos之问
 - [Hyperscaler backlog hits $2.1 trillion — Cloud Wars](https://cloudwars.com/ai/explosive-ai-demand-pushes-hyperscaler-backlog-to-2-1-trillion/) - 收入积压与集中度
-- [Microsoft Q2 RPO led by OpenAI $281B — Cloud Wars](https://cloudwars.com/cloud/microsoft-q2-rpo-soars-110-led-by-openai-commitment-of-281-billion/) - 微软积压绑 OpenAI
+- [Microsoft Q2 RPO led by OpenAI $281B — Cloud Wars](https://cloudwars.com/cloud/microsoft-q2-rpo-soars-110-led-by-openai-commitment-of-281-billion/) - 微软积压绑OpenAI
 - [The GenAI Divide: State of AI in Business 2025 — MIT NANDA](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf) - 95% 试点无可衡量损益
-- [Why the MIT NANDA report is contested — Sify](https://www.sify.com/ai-analytics/95-companies-failing-with-ai-an-mit-nanda-report-misread-by-all/) - 对 95% 数字的质疑
+- [Why the MIT NANDA report is contested — Sify](https://www.sify.com/ai-analytics/95-companies-failing-with-ai-an-mit-nanda-report-misread-by-all/) - 对95%数字的质疑
 
 ---
 
