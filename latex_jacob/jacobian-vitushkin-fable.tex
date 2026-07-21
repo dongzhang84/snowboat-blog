@@ -190,13 +190,13 @@ on the cubic-model side: the root $t$, the pole $r$, and the new output $c$.
 This step matches the two coordinate systems by a three-dimensional
 birational change.
 
-\medskip\noindent$x$. Set $r:=\dfrac2x$ (the pole on the right of
+\medskip\noindent\textbf{$x$.} Set $r:=\dfrac2x$ (the pole on the right of
 (3)), so $x=\dfrac2r$.
 
-\medskip\noindent$y$. From the root $t=y+\dfrac1x$ and
+\medskip\noindent\textbf{$y$.} From the root $t=y+\dfrac1x$ and
 $\dfrac1x=\dfrac r2$, we get $y=t-\dfrac r2$.
 
-\medskip\noindent$z$. With no ready-made equation, write $z$ as an
+\medskip\noindent\textbf{$z$.} With no ready-made equation, write $z$ as an
 ansatz with undetermined coefficients:
 \[
   z = A\,r^2 + B\,tr + D\,c\,r^3 .
@@ -230,18 +230,18 @@ are the three-dimensional birational change $(x,y,z)\leftrightarrow(t,r,c)$.
 % =====================================================================
 Write the outputs $a,b,c$ in the source coordinates; each has a source.
 
-\medskip\noindent$b$ from~(3). Solving
+\medskip\noindent\textbf{$b$ from (3).} Solving
 $\Phi'(t)=3ct^2-4t+b=\dfrac2x$,
 \[
   b = 4t+\frac2x-3ct^2 .
 \]
 
-\noindent$2a$ from~(2). Solving $\Phi(t)=ct^3-2t^2+bt-2a=0$,
+\noindent\textbf{$2a$ from (2).} Solving $\Phi(t)=ct^3-2t^2+bt-2a=0$,
 \[
   2a = ct^3-2t^2+bt .
 \]
 
-\noindent$c$ by inverting the $z$-formula. Solving
+\noindent\textbf{$c$ by inverting the $z$-formula.} Solving
 $z=\frac54r^2-\frac32tr-\frac c8r^3$ gives
 $c=\dfrac{10}{r}-\dfrac{12t}{r^2}-\dfrac{8z}{r^3}$; with $r=\dfrac2x$ (so
 $\dfrac1r=\dfrac x2$) this is $c=5x-3tx^2-x^3z$, and then $t=y+\dfrac1x$ gives
@@ -307,32 +307,32 @@ two-dimensional example, and the sheet at infinity is new to three
 dimensions.
 
 % =====================================================================
-\section*{Discussion: Vitushkin's share is at least 60--70\%}
+\section*{Discussion}
 % =====================================================================
 Laying out ``who contributed what,'' Vitushkin, the author of the 1999
 Russian paper, seems to provide the larger part of the underlying mechanism,
 for concrete and checkable reasons.
 \begin{enumerate}[label=\textbf{\arabic*.},nosep,leftmargin=*]
-  \item \textbf{The whole machine is his.} The $\sigma$-process --- the
+  \item The whole machine is his. The $\sigma$-process --- the
         coordinate change for computing Jacobians and building examples at
         infinity --- is the subject of his paper. The three-dimensional
         construction runs on it end to end.
-  \item \textbf{The core local model is almost verbatim his.} Vitushkin's
+  \item The core local model is almost verbatim his. Vitushkin's
         Example~1, after his own $\sigma$-process, gives $P=a^2+2ab$,
         $Q=a+b$ --- exactly the local model of the $c=0$ slice of Fable's
         example, off only by a factor of $4$ on the second coordinate. The
         engine producing ``constant Jacobian yet globally non-invertible'' is
         his, used almost unchanged.
-  \item \textbf{The mechanism is his.} ``Constant nonzero Jacobian $+$
+  \item The mechanism is his. ``Constant nonzero Jacobian $+$
         globally many-to-one $+$ the bad behavior hidden in a pole'': this
         entire geometric mechanism he demonstrated in two dimensions. He built
         the bad map; only the pole remained uncleared.
-  \item \textbf{He located the obstruction.} His Proposition~1 (a
+  \item He located the obstruction. His Proposition~1 (a
         two-dimensional impossibility result) pins down exactly why two
         dimensions fail: the pole cannot be removed under these blow-ups.
         Knowing where the wall is tells you what to change --- add a
         dimension. He marked both the obstruction and the direction of the fix.
-  \item \textbf{He was one step from the finish.} Method, a usable local
+  \item He was one step from the finish. Method, a usable local
         model, the mechanism, the obstruction diagnosis --- he had all four;
         what remained was ``lift to three dimensions and balance the
         coefficients.''
