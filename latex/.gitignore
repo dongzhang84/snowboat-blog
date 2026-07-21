@@ -1,7 +1,9 @@
+# LaTeX 源文件与编译产物都留在本地，不入库
+*.tex
+*.pdf
 *.aux
 *.log
 *.out
-*.pdf
 *.toc
 *.synctex.gz
 build.log
