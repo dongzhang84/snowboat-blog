@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 78 | 7/20 | [AI 商业模式的危机](讨论：AI商业模式的危机.md) | [link](https://x.com/snowboat84/status/2079355630452957309) | — | [link](https://zhuanlan.zhihu.com/p/2062787720188106263) |
 | 77 | 7/17 | [AI for Science 详细介绍（下）：机会与入场](AI%20for%20Science%20详细介绍（下）：机会与入场.md) | [link](https://x.com/snowboat84/status/2078282144619593819) | — | [link](https://zhuanlan.zhihu.com/p/2061643008039195464) |
 | 76 | 7/16 | [流体力学研究史](流体力学研究史.md) | [link](https://x.com/snowboat84/status/2077983459369418941) | — | [link](https://zhuanlan.zhihu.com/p/2061426371994333543) |
 | 75 | 7/15 | [什么是推理模型？](什么是推理模型？.md) | [link](https://x.com/snowboat84/status/2077613128746164625) | — | [link](https://zhuanlan.zhihu.com/p/2061055676080711410) |
