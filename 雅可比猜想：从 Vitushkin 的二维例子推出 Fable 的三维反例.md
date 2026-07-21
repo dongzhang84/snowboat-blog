@@ -22,18 +22,18 @@ $$F = x^2y^6+2xy^2,\qquad G = xy^3+\frac{1}{y},\qquad J(F,G)=-2$$
 
 **它是怎么从 Vitushkin 原始 $F,G$ 来的?** 靠 **σ-过程**——一种专门"换到无穷远附近去看"的坐标替换（blow-up 类型），目的是把挤在无穷远的坏行为摊开、顺便消掉分母。Vitushkin 用两块积木拼它：
 
-$$\Pi:\;x\mapsto \tfrac{x}{y},\;\; y\mapsto\tfrac1y;\qquad \Sigma_{xy}:\;x\mapsto xy,\;\; y\mapsto y.$$
+$$\Pi:\;x\mapsto \dfrac{x}{y},\;\; y\mapsto\dfrac1y;\qquad \Sigma_{xy}:\;x\mapsto xy,\;\; y\mapsto y.$$
 
 他用的组合 $\Pi\cdot\Sigma_{xy}^4$，净效果就是一次替换
 
-$$x\mapsto xy^3,\qquad y\mapsto \tfrac1y.$$
+$$x\mapsto xy^3,\qquad y\mapsto \dfrac1y.$$
 
 **为什么代进去正好变干净?** 因为这个替换带来的 $y$ 幂，恰好和 $F$ 里的高次、$G$ 里的 $1/y$ 对消：
 
 $$
 \begin{aligned}
-P &= F\!\left(xy^3,\tfrac1y\right)=(xy^3)^2\!\left(\tfrac1y\right)^6+2(xy^3)\!\left(\tfrac1y\right)^2 = x^2+2xy,\\[2pt]
-Q &= G\!\left(xy^3,\tfrac1y\right)=(xy^3)\!\left(\tfrac1y\right)^3+\tfrac{1}{1/y} = x+y,
+P &= F\!\left(xy^3,\dfrac1y\right)=(xy^3)^2\!\left(\dfrac1y\right)^6+2(xy^3)\!\left(\dfrac1y\right)^2 = x^2+2xy,\\[2pt]
+Q &= G\!\left(xy^3,\dfrac1y\right)=(xy^3)\!\left(\dfrac1y\right)^3+\dfrac{1}{1/y} = x+y,
 \end{aligned}
 $$
 
@@ -128,7 +128,7 @@ $$2a = ct^3-2t^2+bt.$$
 
 **$c$ 从第四步的 $z$ 公式反解** —— 把 $z=\frac54r^2-\frac32tr-\frac c8r^3$ 解出 $c=\dfrac{10}{r}-\dfrac{12t}{r^2}-\dfrac{8z}{r^3}$，代入 $r=\dfrac2x$（即 $\dfrac1r=\dfrac x2$）得 $c=5x-3tx^2-x^3z$，再代 $t=y+\dfrac1x$：
 
-$$c = 5x-3\Big(y+\tfrac1x\Big)x^2-x^3z = 2x-3x^2y-x^3z.$$
+$$c = 5x-3\Big(y+\dfrac1x\Big)x^2-x^3z = 2x-3x^2y-x^3z.$$
 
 三式里都还挂着 $t=\dfrac{1+xy}{x}$、$\dfrac1x$ 这些分母。把它们代入 $b,2a$ **通分**，$\dfrac1x$ 全部抵消（$(1+xy)$ 就是通分时冒出来的），得到：
 
@@ -156,16 +156,16 @@ $$\underbrace{-2T^2+bT-2a=0}_{\text{Vitushkin，二维，2 对 1}}\;\xrightarrow
 
 $$-2T^2+\frac12=0 \;\Rightarrow\; T=\pm\frac12$$
 
-- 两个有限根 → 原像 $\left(1,-\tfrac32,\tfrac{13}{2}\right)$、$\left(-1,\tfrac32,\tfrac{13}{2}\right)$；
-- 第三个根跑到 $T=\infty$（即 $x=0$）→ 原像 $\left(0,0,-\tfrac14\right)$。
+- 两个有限根 → 原像 $\left(1,-\dfrac32,\dfrac{13}{2}\right)$、$\left(-1,\dfrac32,\dfrac{13}{2}\right)$；
+- 第三个根跑到 $T=\infty$（即 $x=0$）→ 原像 $\left(0,0,-\dfrac14\right)$。
 
 三个原像，对上三对一。
 
 **这个点恰好落在二维接缝上。** 这个输出的第三坐标 $c=0$。前面"关联的证明"说过，令 $c=0$，三维方程就精确塌回二维那条二次方程。
 
-把输出的前两个坐标 $(a,b)=(-\tfrac14,0)$ 拿到二维去看：二维的纤维方程正是同一条 $-2T^2+\tfrac12=0$，两个根还是 $T=\pm\tfrac12$。它们就是二维例子在这个输出的两个原像（2 对 1），在 σ-模型 $P=x^2+2xy,\ Q=x+y$ 里对应 $(x,y)=(\tfrac12,-\tfrac12)$ 和 $(-\tfrac12,\tfrac12)$。
+把输出的前两个坐标 $(a,b)=(-\dfrac14,0)$ 拿到二维去看：二维的纤维方程正是同一条 $-2T^2+\dfrac12=0$，两个根还是 $T=\pm\dfrac12$。它们就是二维例子在这个输出的两个原像（2 对 1），在 σ-模型 $P=x^2+2xy,\ Q=x+y$ 里对应 $(x,y)=(\dfrac12,-\dfrac12)$ 和 $(-\dfrac12,\dfrac12)$。
 
-三维在同一个输出复制了这两个有限根 $\pm\tfrac12$，再多出一个跑到无穷远的根 $T=\infty$（即 $x=0$，对应三维原像 $(0,0,-\tfrac14)$）。这第三层才是升维带来的。于是这个特殊纤维成了"三维 = 二维加上无穷远处多出一层"的现场快照：两个有限层是 Vitushkin 二维就有的，无穷远那层是三维新增的。这又一次印证了二维与三维同源。
+三维在同一个输出复制了这两个有限根 $\pm\dfrac12$，再多出一个跑到无穷远的根 $T=\infty$（即 $x=0$，对应三维原像 $(0,0,-\dfrac14)$）。这第三层才是升维带来的。于是这个特殊纤维成了"三维 = 二维加上无穷远处多出一层"的现场快照：两个有限层是 Vitushkin 二维就有的，无穷远那层是三维新增的。这又一次印证了二维与三维同源。
 
 
 
