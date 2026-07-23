@@ -14,11 +14,11 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 75 | 7/15 | [什么是推理模型？](什么是推理模型？.md) | [link](https://x.com/snowboat84/status/2077613128746164625) | 4.5k | [link](https://zhuanlan.zhihu.com/p/2061055676080711410) |
 | 74 | 7/14 | [什么是希尔伯特的第六问题？这个问题重要吗？](什么是希尔伯特的第六问题？这个问题重要吗？.md) | [link](https://x.com/snowboat84/status/2077249534049259588) | 23k | [link](https://zhuanlan.zhihu.com/p/2060680003977745451) |
 | 73 | 7/13 | [RAG：从前世今生到技术全景](RAG：从前世今生到技术全景.md) | [link](https://x.com/snowboat84/status/2076868301809225932) | 5.7k | [link](https://zhuanlan.zhihu.com/p/2060189734044022501) |
-| 72 | 7/10 | [什么是信息论？它和AI是什么关系？](什么是信息论？它和AI是什么关系？.md) | [link](https://x.com/snowboat84/status/2075781603847188852) | 13k | [link](https://zhuanlan.zhihu.com/p/2059181316013397615) |
-| 71 | 7/9 | [AI可解释性综述](AI可解释性综述.md) | [link](https://x.com/snowboat84/status/2075374060637503560) | 8.2k | [link](https://zhuanlan.zhihu.com/p/2058803162140751829) |
-| 70 | 7/8 | [AI for Science 详细介绍（中）：资本与格局](AI%20for%20Science%20详细介绍（中）：资本与格局.md) | [link](https://x.com/snowboat84/status/2075095303389413496) | 11k | [link](https://zhuanlan.zhihu.com/p/2058542937852720420) |
-| 69 | 7/7 | [Skill是什么：写给零基础](Skill是什么：写给零基础.md) | [link](https://x.com/snowboat84/status/2074652382299132237) | 6.7k | [link](https://zhuanlan.zhihu.com/p/2058095976175477812) |
-| 68 | 7/6 | [元宇宙衰亡史：炒作，破产，谁赚走了钱？](元宇宙衰亡史%20：炒作，破产，谁赚走了钱？.md) | [link](https://x.com/snowboat84/status/2074278858988380322) | 7.2k | [link](https://zhuanlan.zhihu.com/p/2057709629304583782) |
+| 72 | 7/10 | [什么是信息论？它和AI是什么关系？](archive/什么是信息论？它和AI是什么关系？.md) | [link](https://x.com/snowboat84/status/2075781603847188852) | 13k | [link](https://zhuanlan.zhihu.com/p/2059181316013397615) |
+| 71 | 7/9 | [AI可解释性综述](archive/AI可解释性综述.md) | [link](https://x.com/snowboat84/status/2075374060637503560) | 8.2k | [link](https://zhuanlan.zhihu.com/p/2058803162140751829) |
+| 70 | 7/8 | [AI for Science 详细介绍（中）：资本与格局](archive/AI%20for%20Science%20详细介绍（中）：资本与格局.md) | [link](https://x.com/snowboat84/status/2075095303389413496) | 11k | [link](https://zhuanlan.zhihu.com/p/2058542937852720420) |
+| 69 | 7/7 | [Skill是什么：写给零基础](archive/Skill是什么：写给零基础.md) | [link](https://x.com/snowboat84/status/2074652382299132237) | 6.7k | [link](https://zhuanlan.zhihu.com/p/2058095976175477812) |
+| 68 | 7/6 | [元宇宙衰亡史：炒作，破产，谁赚走了钱？](archive/元宇宙衰亡史%20：炒作，破产，谁赚走了钱？.md) | [link](https://x.com/snowboat84/status/2074278858988380322) | 7.2k | [link](https://zhuanlan.zhihu.com/p/2057709629304583782) |
 | 67 | 7/4 | [AI 大V 人物小传（下）](archive/AI%20大V%20人物小传（下）.md) | [link](https://x.com/snowboat84/status/2073554517065609544) | 9.4k | — |
 | 66 | 7/3 | [区块链的叙事是如何崩塌的](archive/区块链的叙事是如何崩塌的.md) | [link](https://x.com/snowboat84/status/2073195935883288671) | 8.3k | [link](https://zhuanlan.zhihu.com/p/2055917271747400825) |
 | 65 | 7/2 | [人工智能的工程全景（下）：Agent 全解](archive/人工智能的工程全景（下）：Agent%20全解.md) | [link](https://x.com/snowboat84/status/2072831459925307704) | 12k | [link](https://zhuanlan.zhihu.com/p/2056209368262219151) |
