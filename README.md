@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 80 | 7/22 | [强化学习沉浮史](强化学习沉浮史.md) | [link](https://x.com/snowboat84/status/2080159169806799316) | — | [link](https://zhuanlan.zhihu.com/p/2063606573868511864) |
 | 79 | 7/21 | [雅可比猜想：从 Vitushkin 的二维例子推出 Fable 的三维反例](雅可比猜想：从%20Vitushkin%20的二维例子推出%20Fable%20的三维反例.md) | [link](https://x.com/snowboat84/status/2079683084979769478) | — | [link](https://zhuanlan.zhihu.com/p/2063116741576859857) |
 | 78 | 7/20 | [AI 商业模式的危机](讨论：AI商业模式的危机.md) | [link](https://x.com/snowboat84/status/2079355630452957309) | — | [link](https://zhuanlan.zhihu.com/p/2062787720188106263) |
 | 77 | 7/17 | [AI for Science 详细介绍（下）：机会与入场](AI%20for%20Science%20详细介绍（下）：机会与入场.md) | [link](https://x.com/snowboat84/status/2078282144619593819) | — | [link](https://zhuanlan.zhihu.com/p/2061643008039195464) |
