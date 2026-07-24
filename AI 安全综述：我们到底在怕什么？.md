@@ -356,6 +356,13 @@ security防的是外人。黑客攻击、系统漏洞、数据泄露、有人偷
 
 ## 作者其它文章（选）
 
+- [强化学习沉浮史](https://x.com/snowboat84/status/2080159169806799316)
+- [雅可比猜想：从 Vitushkin 的二维例子推出 Fable 的三维反例](https://x.com/snowboat84/status/2079683084979769478)
+- [AI 商业模式的危机](https://x.com/snowboat84/status/2079355630452957309)
+- [AI for Science 详细介绍（下）：机会与入场](https://x.com/snowboat84/status/2078282144619593819)
+- [流体力学研究史](https://x.com/snowboat84/status/2077983459369418941)
+- [什么是推理模型？](https://x.com/snowboat84/status/2077613128746164625)
+- [什么是希尔伯特的第六问题？这个问题重要吗？](https://x.com/snowboat84/status/2077249534049259588)
 - [RAG：从前世今生到技术全景](https://x.com/snowboat84/status/2076868301809225932)
 - [什么是信息论？它和AI是什么关系？](https://x.com/snowboat84/status/2075781603847188852)
 - [AI可解释性综述](https://x.com/snowboat84/status/2075374060637503560)
