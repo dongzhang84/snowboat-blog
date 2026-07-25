@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 82 | 7/24 | [美国数学教育和研究的现状](美国数学教育和研究的现状.md) | [link](https://x.com/snowboat84/status/2080872418999156980) | — | [link](https://zhuanlan.zhihu.com/p/2064320030884603483) |
 | 81 | 7/23 | [AI 安全综述：我们到底在怕什么？](AI%20安全综述：我们到底在怕什么？.md) | [link](https://x.com/snowboat84/status/2080455644180832672) | — | [link](https://zhuanlan.zhihu.com/p/2063902539439928913) |
 | 80 | 7/22 | [强化学习沉浮史](强化学习沉浮史.md) | [link](https://x.com/snowboat84/status/2080159169806799316) | — | [link](https://zhuanlan.zhihu.com/p/2063606573868511864) |
 | 79 | 7/21 | [雅可比猜想：从 Vitushkin 的二维例子推出 Fable 的三维反例](雅可比猜想：从%20Vitushkin%20的二维例子推出%20Fable%20的三维反例.md) | [link](https://x.com/snowboat84/status/2079683084979769478) | — | [link](https://zhuanlan.zhihu.com/p/2063116741576859857) |
