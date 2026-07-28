@@ -12,8 +12,8 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 79 | 7/21 | [雅可比猜想：从 Vitushkin 的二维例子推出 Fable 的三维反例](雅可比猜想：从%20Vitushkin%20的二维例子推出%20Fable%20的三维反例.md) | [link](https://x.com/snowboat84/status/2079683084979769478) | — | [link](https://zhuanlan.zhihu.com/p/2063116741576859857) |
 | 78 | 7/20 | [AI 商业模式的危机](讨论：AI商业模式的危机.md) | [link](https://x.com/snowboat84/status/2079355630452957309) | — | [link](https://zhuanlan.zhihu.com/p/2062787720188106263) |
 | 77 | 7/17 | [AI for Science 详细介绍（下）：机会与入场](AI%20for%20Science%20详细介绍（下）：机会与入场.md) | [link](https://x.com/snowboat84/status/2078282144619593819) | 7.8k | [link](https://zhuanlan.zhihu.com/p/2061643008039195464) |
-| 76 | 7/16 | [流体力学研究史](流体力学研究史.md) | [link](https://x.com/snowboat84/status/2077983459369418941) | 13k | [link](https://zhuanlan.zhihu.com/p/2061426371994333543) |
-| 75 | 7/15 | [什么是推理模型？](什么是推理模型？.md) | [link](https://x.com/snowboat84/status/2077613128746164625) | 4.5k | [link](https://zhuanlan.zhihu.com/p/2061055676080711410) |
+| 76 | 7/16 | [流体力学研究史](archive/流体力学研究史.md) | [link](https://x.com/snowboat84/status/2077983459369418941) | 13k | [link](https://zhuanlan.zhihu.com/p/2061426371994333543) |
+| 75 | 7/15 | [什么是推理模型？](archive/什么是推理模型？.md) | [link](https://x.com/snowboat84/status/2077613128746164625) | 4.5k | [link](https://zhuanlan.zhihu.com/p/2061055676080711410) |
 | 74 | 7/14 | [什么是希尔伯特的第六问题？这个问题重要吗？](archive/什么是希尔伯特的第六问题？这个问题重要吗？.md) | [link](https://x.com/snowboat84/status/2077249534049259588) | 23k | [link](https://zhuanlan.zhihu.com/p/2060680003977745451) |
 | 73 | 7/13 | [RAG：从前世今生到技术全景](archive/RAG：从前世今生到技术全景.md) | [link](https://x.com/snowboat84/status/2076868301809225932) | 5.7k | [link](https://zhuanlan.zhihu.com/p/2060189734044022501) |
 | 72 | 7/10 | [什么是信息论？它和AI是什么关系？](archive/什么是信息论？它和AI是什么关系？.md) | [link](https://x.com/snowboat84/status/2075781603847188852) | 13k | [link](https://zhuanlan.zhihu.com/p/2059181316013397615) |
