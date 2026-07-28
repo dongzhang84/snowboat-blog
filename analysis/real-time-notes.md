@@ -2,15 +2,15 @@
 
 性质：一份长期滚动的临时笔记，随手记流量观察、读者反馈、传播路径、选题弹药。每周往后滚，上周的内容做完正式复盘、吸收进 analysis/ 里带日期的复盘文件后就从这里清掉，只保留本周和下周。这份文件不删。
 
-# 本周（7/20-7/24）
+# 上周（7/20-7/24）
 
 | 天 | 日期 | 文章 | vertical | 来源/备注 |
 |---|---|---|---|---|
-| 一 | 7/20 周一 | [AI 商业模式的危机](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8D%B1%E6%9C%BA.md) | 商业/AI | 已发（#78，7/20） |
+| 一 | 7/20 周一 | [AI 商业模式的危机](https://github.com/dongzhang84/snowboat-blog/blob/main/%E8%AE%A8%E8%AE%BA%EF%BC%9AAI%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8D%B1%E6%9C%BA.md) | 商业/AI | 已发（#78，7/20） |
 | 二 | 7/21 周二 | [雅可比猜想：从 Vitushkin 的二维例子推出 Fable 的三维反例](https://github.com/dongzhang84/snowboat-blog/blob/main/%E9%9B%85%E5%8F%AF%E6%AF%94%E7%8C%9C%E6%83%B3%EF%BC%9A%E4%BB%8E%20Vitushkin%20%E7%9A%84%E4%BA%8C%E7%BB%B4%E4%BE%8B%E5%AD%90%E6%8E%A8%E5%87%BA%20Fable%20%E7%9A%84%E4%B8%89%E7%BB%B4%E5%8F%8D%E4%BE%8B.md) | 数学/AI热点 | 已发（#79，7/21）。实时热点插队：Fable 5 给出雅可比猜想三维反例，从 Vitushkin 1999 二维例子推导。其后文章顺推一天 |
 | 三 | 7/22 周三 | [强化学习沉浮史](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%B2%89%E6%B5%AE%E5%8F%B2.md) | AI概念/历史 | 已发（#80，7/22）。顺推一天（原 7/21） |
 | 四 | 7/23 周四 | [AI 安全综述：我们到底在怕什么？](https://github.com/dongzhang84/snowboat-blog/blob/main/AI%20%E5%AE%89%E5%85%A8%E7%BB%BC%E8%BF%B0%EF%BC%9A%E6%88%91%E4%BB%AC%E5%88%B0%E5%BA%95%E5%9C%A8%E6%80%95%E4%BB%80%E4%B9%88%EF%BC%9F.md) | AI概念/安全 | 顺推一天（原 7/22）。已有成稿（约3500字） |
-| 五 | 7/24 周五 | [算法交易怎么吃掉了华尔街](https://github.com/dongzhang84/snowboat-blog/blob/main/%E7%AE%97%E6%B3%95%E4%BA%A4%E6%98%93%E6%80%8E%E4%B9%88%E5%90%83%E6%8E%89%E4%BA%86%E5%8D%8E%E5%B0%94%E8%A1%97.md) | 商业/金融 | 顺推一天（原 7/23）。已有提纲，待扩写 |
+| 五 | 7/24 周五 | [美国数学教育和研究的现状](https://github.com/dongzhang84/snowboat-blog/blob/main/%E7%BE%8E%E5%9B%BD%E6%95%B0%E5%AD%A6%E6%95%99%E8%82%B2%E5%92%8C%E7%A0%94%E7%A9%B6%E7%9A%84%E7%8E%B0%E7%8A%B6.md) | 美国制度/教育 | 已发（#82，7/24） |
 
 # 下周（7/27-7/31）
 
