@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 84 | 7/28 | [算法交易是怎么吃掉华尔街的](算法交易是怎么吃掉华尔街的.md) | [link](https://x.com/snowboat84/status/2082257654353895482) | — | [link](https://zhuanlan.zhihu.com/p/2065693506929178017) |
 | 83 | 7/27 | [顶尖 VC 2026 年以来动向观察](顶尖%20VC%202026%20年以来动向观察.md) | [link](https://x.com/snowboat84/status/2081903835833147732) | — | [link](https://zhuanlan.zhihu.com/p/2065352325250684815) |
 | 82 | 7/24 | [美国数学教育和研究的现状](美国数学教育和研究的现状.md) | [link](https://x.com/snowboat84/status/2080872418999156980) | — | [link](https://zhuanlan.zhihu.com/p/2064320030884603483) |
 | 81 | 7/23 | [AI 安全综述：我们到底在怕什么？](AI%20安全综述：我们到底在怕什么？.md) | [link](https://x.com/snowboat84/status/2080455644180832672) | — | [link](https://zhuanlan.zhihu.com/p/2063902539439928913) |
