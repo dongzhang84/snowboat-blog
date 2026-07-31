@@ -1,8 +1,8 @@
-你最近可能会在招聘网站、VC文章和AI公司的官网里反复看到一个词：FDE，ForwardDeployedEngineer。中文可以粗暴翻成“前线部署工程师”。更直白一点说，就是被派到客户现场，把产品从“能演示”做到“能上生产”的工程师。
+你最近可能会在招聘网站、VC文章和AI公司的官网里反复看到一个词：FDE，Forward Deployed Engineer。中文可以翻成“前线部署工程师”。更直白一点说，就是被派到客户现场，把产品从“能演示”做到“能上生产”的工程师。
 
 这个岗位听起来像AI时代的新物种，其实并不新。它的名字最早被Palantir推到行业台前，底层逻辑更老，现场应用工程师、ERP实施、售前架构师、专业服务、管理咨询，都给它留了一部分基因。
 
-真正的新变化发生在2025到2026年。OpenAI在2026年5月宣布成立OpenAIDeploymentCompany，并同意收购Tomoro，官方说这会带来约150名ForwardDeployedEngineers和DeploymentSpecialists。AWS在2026年6月宣布成立AWSForwardDeployedEngineering组织，背后是10亿美元投资，要把数千名专家嵌入客户团队。FDEPulse在2026年4月30日追踪到249个活跃FDE岗位，覆盖137家公司。PlankResearch的口径更激进，写到2026年4月同比增长729%。这些数字来源不同，不能简单相加，但方向很清楚：这个岗位正在被重新抬上桌面。
+真正的新变化发生在2025到2026年。OpenAI在2026年5月宣布成立OpenAI Deployment Company，并同意收购Tomoro，官方说这会带来约150名Forward Deployed Engineers和Deployment Specialists。AWS在2026年6月宣布成立AWS Forward Deployed Engineering组织，背后是10亿美元投资，要把数千名专家嵌入客户团队。FDE Pulse在2026年4月30日追踪到249个活跃FDE岗位，覆盖137家公司。Plank Research的口径更激进，写到2026年4月同比增长729%。这些数字来源不同，不能简单相加，但方向很清楚：这个岗位正在被重新抬上桌面。
 
 问题来了。2023年AI已经很热，ChatGPT已经把全世界拉进大模型时代，为什么那时候FDE没有变成热词？为什么偏偏到了agent、workflow、eval、enterprise deployment这些词一起出现的时候，它突然又回来了？
 
@@ -22,9 +22,9 @@
 
 Palantir的解法很粗暴：把工程师送进去。工程师靠近真实用户，靠近真实数据，靠近真实决策现场，在那里写代码、接系统、改流程、训练用户，再把反复出现的问题带回核心产品。
 
-Palantir官方文档没有给出“FDE这个title正式启用年份”的明确说法，但它在Foundry架构文档里把ForwardDeployedEngineering称为平台持续塑形的方法。a16z在2026年1月的一篇文章里写到，Palantir在2011年把solutions engineers和integration engineers改名为forward-deployed engineer。这是二手来源，不能当公司公告用，但足够说明一件事：FDE这个名字，是Palantir把它变成了行业符号。
+Palantir官方文档没有给出“FDE这个title正式启用年份”的明确说法，但它在Foundry架构文档里把Forward Deployed Engineering称为平台持续塑形的方法。a16z在2026年1月的一篇文章里写到，Palantir在2011年把solutions engineers和integration engineers改名为forward-deployed engineer。这是二手来源，不能当公司公告用，但足够说明一件事：FDE这个名字，是Palantir把它变成了行业符号。
 
-名字也有意思。Forwarddeployed本来就是军事语汇，意思是前置部署。Palantir早期客户本来就大量来自政府和国防，客户语言、公司文化、岗位命名之间互相强化。这个词听起来有点夸张，但它准确表达了岗位位置：工程师不待在总部后方，而是到问题发生的地方去。
+名字也有意思。Forward deployed本来就是军事语汇，意思是前置部署。Palantir早期客户本来就大量来自政府和国防，客户语言、公司文化、岗位命名之间互相强化。这个词听起来有点夸张，但它准确表达了岗位位置：工程师不待在总部后方，而是到问题发生的地方去。
 
 这点非常关键。FDE从一开始就不只是“会见客户的工程师”。它是一种组织设计。公司承认总部离真实问题太远，承认客户现场有大量无法通过文档传递的信息，所以把工程能力前移。
 
@@ -38,7 +38,7 @@ FDE跟这些岗位的差别，不在于人有没有到现场，而在于现场�
 
 FDE的理想形态不一样。它在客户现场解决问题，但它不是一次性外包。现场反复出现的东西，要被抽象成平台能力、工具、模板、评估集、集成模式和产品路线图。一个客户的痛苦，最后要变成十个客户都能用的能力。
 
-Palantir官方文档里有一个很形象的说法，把ForwardDeployedEngineering比作人类版本的backpropagation。机器学习里的反向传播，是把误差从输出端传回模型参数。FDE在组织里的作用类似：客户现场暴露出的误差，被工程师带回核心团队，最后改变产品。
+Palantir官方文档里有一个很形象的说法，把Forward Deployed Engineering比作人类版本的backpropagation。机器学习里的反向传播，是把误差从输出端传回模型参数。FDE在组织里的作用类似：客户现场暴露出的误差，被工程师带回核心团队，最后改变产品。
 
 所以驻场本质上是产品需求的采集管道，成本只是表层账目。没有回流，FDE就会退化成高价外包。有回流，现场才会变成研发的一部分。
 
@@ -84,7 +84,7 @@ OpenAI在FDE岗位描述里反复强调production deployment、customer teams、
 
 安装的前提是成品已经存在。你买一个CRM、一个数据库、一个BI工具，虽然也有配置和集成，但产品形态相对明确。客户要做什么，系统有哪些模块，权限怎么配，报表怎么出，大致都有现成路径。
 
-AIagent没有这么成熟。客户说“我们客服效率低”，这句话离一个可上线agent差得很远。FDE到现场以后，最先面对的通常是一堆业务和组织问题，模型问题反而排在后面。
+AI agent没有这么成熟。客户说“我们客服效率低”，这句话离一个可上线agent差得很远。FDE到现场以后，最先面对的通常是一堆业务和组织问题，模型问题反而排在后面。
 
 工单真实长什么样？字段有没有乱填？历史知识库有没有过期？哪些问题必须转人工？转人工以后责任算谁的？客户身份怎么验证？订单系统能不能开放接口？财务补偿有没有上限？客服主管用什么指标验收？法务允许模型生成哪些承诺？安全团队允许日志保存多久？
 
@@ -168,13 +168,13 @@ FDE体系真正赚钱的地方，表面看是项目交付，底层看是把客�
 
 FDE看起来新，是因为它把几个旧岗位的能力拼在了一起。
 
-最直接的前身是FAE，FieldApplicationEngineer，现场应用工程师。硬件、半导体、工业设备公司长期依赖FAE。芯片卖给客户以后，客户怎么调板子、怎么解决兼容问题、怎么把性能跑出来，FAE要冲到现场解决。FAE给FDE留下的是现场技术支持和客户环境调试能力。
+最直接的前身是FAE，Field Application Engineer，现场应用工程师。硬件、半导体、工业设备公司长期依赖FAE。芯片卖给客户以后，客户怎么调板子、怎么解决兼容问题、怎么把性能跑出来，FAE要冲到现场解决。FAE给FDE留下的是现场技术支持和客户环境调试能力。
 
 第二个前身是ERP实施和驻场开发。企业软件最脏的部分，通常藏在业务流程、历史数据、权限体系和需求变更里，界面反而排在后面。ERP实施的人很早就知道，客户说的流程和真实流程经常不是一回事。FDE继承了这部分耐心，也继承了面对脏数据和组织阻力的能力。
 
-第三个前身是SolutionsArchitect和售前SE。它们擅长把业务问题翻译成技术方案，也擅长跟CTO、CIO和工程负责人沟通。区别是，传统售前通常在签单前最忙，签完单以后交给交付团队。FDE要继续往下走，直到系统进入生产。
+第三个前身是Solutions Architect和售前SE。它们擅长把业务问题翻译成技术方案，也擅长跟CTO、CIO和工程负责人沟通。区别是，传统售前通常在签单前最忙，签完单以后交给交付团队。FDE要继续往下走，直到系统进入生产。
 
-第四个前身是ProfessionalServices和TAM。它们擅长长期陪跑客户，知道客户成功依赖持续运营，一次部署只是开头。但这些岗位在很多公司里被看成成本中心，按人天计价，很容易天然反对产品化。FDE如果做不好，也会掉进这个坑。
+第四个前身是Professional Services和TAM。它们擅长长期陪跑客户，知道客户成功依赖持续运营，一次部署只是开头。但这些岗位在很多公司里被看成成本中心，按人天计价，很容易天然反对产品化。FDE如果做不好，也会掉进这个坑。
 
 第五个前身是管理咨询。咨询顾问不写代码，但擅长在模糊问题里找方向，擅长跟高层沟通，擅长把组织问题拆成结构化议题。FDE不该变成只会写PPT的顾问，但它确实需要这部分能力。因为很多AI项目失败，技术路线未必错，真正的问题是组织阻力没有被看见。
 
@@ -192,7 +192,7 @@ FDE理想上要坐在研发侧。它在客户现场写代码，但它不是项�
 
 这也是OpenAI岗位描述里“field feedback helps Research and Product”的意义。FDE把产品送进客户，也把客户现场的反馈送回产品和研究。模型在哪些真实任务上失败，客户在哪些权限边界上不敢放手，哪些工具调用最容易出错，哪些eval最能解释业务价值，这些都应该回到公司内部。
 
-前面那五个旧岗位，各自都有天花板。FAE通常只管用对，不管造新产品。ERP实施交付即终点，经验不一定回流。售前SE签单前价值高，签单后撤出。ProfessionalServices容易被按人天计价，产品化动力弱。管理咨询能定义方向，但不负责把系统写出来。
+前面那五个旧岗位，各自都有天花板。FAE通常只管用对，不管造新产品。ERP实施交付即终点，经验不一定回流。售前SE签单前价值高，签单后撤出。Professional Services容易被按人天计价，产品化动力弱。管理咨询能定义方向，但不负责把系统写出来。
 
 FDE想突破这些天花板，就必须有产品回流权。没有这个权力，它只是一个换了名字的实施顾问。
 
@@ -218,7 +218,7 @@ FDE的第一层能力，是软件工程底座。没有这层，后面都不用�
 
 这里不一定要求你是某个领域的顶级专家，但你必须能独立把系统做出来。全栈能力要够用，API集成要熟，数据管道要会，数据库、鉴权、日志、监控、部署、CI/CD、云服务都要能碰。你还要能读懂别人留下的烂代码，因为客户现场几乎不会给你一套干净系统。
 
-OpenAIFDE岗位要求里写得很直接：Python、JavaScript或类似技术栈，前后端生产级代码，cloud deployment，Kubernetes，Terraform，LLM或生成模型系统经验。Gov岗位还强调防务、情报、联邦利益相关方，以及安全合规环境。
+OpenAI FDE岗位要求里写得很直接：Python、JavaScript或类似技术栈，前后端生产级代码，cloud deployment，Kubernetes，Terraform，LLM或生成模型系统经验。Gov岗位还强调防务、情报、联邦利益相关方，以及安全合规环境。
 
 这些要求说明FDE不是“会调模型API”的人。它需要能把模型接进真实软件系统。模型只是其中一个服务，旁边还有数据库、权限、缓存、消息队列、审计日志、业务系统和人工操作界面。
 
@@ -270,7 +270,7 @@ Anthropic相关岗位描述和招聘镜像里，也把evaluation frameworks、ag
 
 这些问题里有技术，但不只是技术。它们要求你理解业务、风险、系统和人。
 
-所以FDE的学习顺序应该反过来。技术栈要补，但不能只补技术栈。你需要找真实场景，做真实交付，面对真实用户的抱怨和真实数据的脏。没有这个环节，GitHubdemo做得再多，也很难证明你能做FDE。
+所以FDE的学习顺序应该反过来。技术栈要补，但不能只补技术栈。你需要找真实场景，做真实交付，面对真实用户的抱怨和真实数据的脏。没有这个环节，GitHub demo做得再多，也很难证明你能做FDE。
 
 # 五、想入门的人该怎么走
 
@@ -278,7 +278,7 @@ Anthropic相关岗位描述和招聘镜像里，也把evaluation frameworks、ag
 
 FDE听起来很适合年轻人：懂AI、会沟通、能跑现场、机会多、工资高。但现实是，它通常不是初级岗位。
 
-OpenAI公开FDE岗位要求里写了5年以上工程或技术部署经验，并且包括客户面对经验。Anthropic很多AppliedAI相关岗位也要求多年技术经验。原因很简单：客户现场没有那么多保护网。
+OpenAI公开FDE岗位要求里写了5年以上工程或技术部署经验，并且包括客户面对经验。Anthropic很多Applied AI相关岗位也要求多年技术经验。原因很简单：客户现场没有那么多保护网。
 
 初级工程师在内部团队里，可以靠mentor、code review、明确ticket和成熟流程成长。FDE面对的是模糊问题。客户的问题不一定描述得清，数据不一定准备好，系统不一定稳定，内部支持不一定及时。你必须自己拆问题、控风险、做取舍。
 
@@ -290,7 +290,7 @@ OpenAI公开FDE岗位要求里写了5年以上工程或技术部署经验，并�
 
 如果你来自ToB实施，优势是懂客户现场。你知道客户不会按文档说话，知道真实企业里流程怎么变形，知道上线验收和内部政治有多麻烦。你要补的是代码深度和系统设计能力，尤其是别停留在配置、脚本和项目管理层。
 
-如果你来自SaaS售前或SolutionsArchitect，优势是会拆业务问题，也会跟技术负责人沟通。你要补的是持续交付能力。FDE不是讲完方案就撤，你得能把方案写成系统，并承受上线后的后果。
+如果你来自SaaS售前或Solutions Architect，优势是会拆业务问题，也会跟技术负责人沟通。你要补的是持续交付能力。FDE不是讲完方案就撤，你得能把方案写成系统，并承受上线后的后果。
 
 如果你是软件工程师，优势是能动手。你要补的是客户沟通和业务判断。内部工程师习惯需求已经被产品经理拆好，FDE经常要自己完成这一步。你不能等别人给你写好ticket。
 
@@ -372,7 +372,7 @@ OpenAI公开FDE岗位要求里写了5年以上工程或技术部署经验，并�
 
 你能看到的只是代理指标。比如招聘岗位数量、AI咨询公司融资、自动化agency数量、LinkedIn个人简介、独立工作室案例。但这些数据里有大量营销内容，必须打折。
 
-OpenAI收购Tomoro是一个硬信号。Tomoro是一家应用AI咨询和工程公司，规模已经远超个人工作室。OpenAI官方说，收购会给DeploymentCompany带来约150名FDE和DeploymentSpecialists。这说明独立或半独立的AI部署服务层已经大到值得被整体收购。
+OpenAI收购Tomoro是一个硬信号。Tomoro是一家应用AI咨询和工程公司，规模已经远超个人工作室。OpenAI官方说，收购会给Deployment Company带来约150名FDE和Deployment Specialists。这说明独立或半独立的AI部署服务层已经大到值得被整体收购。
 
 AWS的公告是另一个硬信号。它直接把FDE组织化，并用10亿美元投资表达态度。传统云厂商不会为了一个短期热词投入这种资源。它们看到的是企业AI从“买工具”进入“改流程”。
 
@@ -406,23 +406,23 @@ eval也会变得很具体。一个客服agent的评估集，不能只问“回�
 
 这就是FDE的价值。外行看到的是“客服机器人”。FDE看到的是订单系统、物流系统、政策库、补偿规则、人工复核、审计日志、风险分层和评估体系。模型只是其中一个节点，真正难的是把这些节点连成一条企业敢用的流程。
 
-## 7.2 JohnDeere：AI进入业务以后，知识比模型更重
+## 7.2 John Deere：AI进入业务以后，知识比模型更重
 
-OpenAI在2025年5月发布过JohnDeere的客户故事。这个案例不该被写成FDE案例，因为原文没有说OpenAIFDE团队怎么驻场，也没有给出定制eval样本量。它真正能说明的是另一件事：当AI进入重行业务，业务知识会迅速压过模型技巧。
+OpenAI在2025年5月发布过John Deere的客户故事。这个案例不该被写成FDE案例，因为原文没有说OpenAI FDE团队怎么驻场，也没有给出定制eval样本量。它真正能说明的是另一件事：当AI进入重行业务，业务知识会迅速压过模型技巧。
 
-JohnDeere是一家接近200年历史的公司。OpenAI文章里提到，它的业务不只是农业机械，还包括建筑、道路建设、林业、草坪护理和动力系统，产品线超过100条。JohnDeere还说，它的机器每年覆盖地球表面约三分之一。这个量级的业务，跟一个互联网客服插件完全不是一类问题。
+John Deere是一家接近200年历史的公司。OpenAI文章里提到，它的业务不只是农业机械，还包括建筑、道路建设、林业、草坪护理和动力系统，产品线超过100条。John Deere还说，它的机器每年覆盖地球表面约三分之一。这个量级的业务，跟一个互联网客服插件完全不是一类问题。
 
-它的See&Spray技术可以减少最多70%的化学品使用。这个数字很好看，但AI真正要参与的地方，不只是告诉农民“少喷一点”。农民要知道什么时候喷，喷在哪里，机器怎么配置，天气如何影响决策，摄像头脏了怎么办，速度过快怎么办，dealer如何诊断问题，季末如何证明ROI。
+它的See & Spray技术可以减少最多70%的化学品使用。这个数字很好看，但AI真正要参与的地方，不只是告诉农民“少喷一点”。农民要知道什么时候喷，喷在哪里，机器怎么配置，天气如何影响决策，摄像头脏了怎么办，速度过快怎么办，dealer如何诊断问题，季末如何证明ROI。
 
-OpenAI文章里有一段很关键：JohnDeere设想用实时遥测数据辅助客户成功团队，把传统10:1的客户服务比例扩展到1000:1。这个目标听起来像效率提升，实际背后是一个复杂系统。机器数据、农田环境、天气、历史使用、dealer网络、客户教育、订阅续费，全都被卷进来。
+OpenAI文章里有一段很关键：John Deere设想用实时遥测数据辅助客户成功团队，把传统10:1的客户服务比例扩展到1000:1。这个目标听起来像效率提升，实际背后是一个复杂系统。机器数据、农田环境、天气、历史使用、dealer网络、客户教育、订阅续费，全都被卷进来。
 
 这种场景里，FDE或FDE式团队要面对的问题会非常具体。模型能不能读维修手册只是第一步。更难的是，某个故障建议会不会影响安全？某个推荐会不会让农民错过窗口期？dealer看到模型建议后怎么执行？不同地区的农艺规则是否不同？客户看到节省报告后是否愿意续费？
 
 这类问题没有办法靠通用模型直接解决。你需要领域专家，需要真实数据，需要现场反馈，需要评估体系。比如一个诊断建议，要同时看事实是否正确、是否可执行、是否过度自信、是否忽略安全步骤、是否能被dealer理解。这里的“正确”是一套工作流标准，一句答案远远不够。
 
-JohnDeere案例也提醒我们，企业AI经常是在重排一条链，替换单个人只是很窄的一种情况。农民、dealer、客户成功团队、数据科学家、运营人员都在链上。AI如果只对其中一个角色有用，却让其他角色更麻烦，项目照样失败。
+John Deere案例也提醒我们，企业AI经常是在重排一条链，替换单个人只是很窄的一种情况。农民、dealer、客户成功团队、数据科学家、运营人员都在链上。AI如果只对其中一个角色有用，却让其他角色更麻烦，项目照样失败。
 
-所以我不建议把FDE理解成“帮客户接模型”。在JohnDeere这种复杂组织里，更准确的理解是：FDE要把模型放进一条已有几十年甚至上百年历史的业务链里，让它不破坏旧系统，还能产生新价值。
+所以我不建议把FDE理解成“帮客户接模型”。在John Deere这种复杂组织里，更准确的理解是：FDE要把模型放进一条已有几十年甚至上百年历史的业务链里，让它不破坏旧系统，还能产生新价值。
 
 ## 7.3 金融、医疗、政府：写权限越贵，FDE越贵
 
@@ -432,7 +432,7 @@ FDE最有价值的地方，通常出现在高风险行业。金融、医疗、�
 
 在医疗里，AI可以整理病历，可以辅助编码，可以生成患者沟通材料，可以帮助保险理赔。但医疗场景天然高风险。模型把药名写错、剂量写错、禁忌症漏掉，后果远超普通客服错误。很多场景里，AI只能做辅助，最终判断必须留给医生、护士、药师或合规人员。
 
-在政府和国防里，问题更复杂。OpenAI的GovFDE岗位明确面向政府和公共部门客户，提到defense、intelligence、federal stakeholders，也提到secure、compliant AI tools。这里的FDE不只是工程交付，更要理解任务环境、保密要求、采购规则和公众责任。
+在政府和国防里，问题更复杂。OpenAI的Gov FDE岗位明确面向政府和公共部门客户，提到defense、intelligence、federal stakeholders，也提到secure、compliant AI tools。这里的FDE不只是工程交付，更要理解任务环境、保密要求、采购规则和公众责任。
 
 这些行业的共同规律是，写权限越贵，FDE越贵。只读摘要可以远程部署，半自动建议需要现场调流程，自动执行就必须重建责任边界。越靠近真实决策，越需要人把业务、技术、合规和组织关系捏在一起。
 
@@ -446,7 +446,7 @@ FDE最有价值的地方，通常出现在高风险行业。金融、医疗、�
 
 OpenAI和AWS在2026年的动作，很值得放在一起看。
 
-OpenAI成立DeploymentCompany，并同意收购Tomoro。官方措辞里，FDE会进入组织，和business leaders、operators、frontline teams一起重新设计关键流程，把OpenAI模型接到客户的数据、工具、控制和业务流程里。它还强调DeploymentCompany由OpenAI控股，和OpenAI研究、产品、内部部署团队保持连接。
+OpenAI成立Deployment Company，并同意收购Tomoro。官方措辞里，FDE会进入组织，和business leaders、operators、frontline teams一起重新设计关键流程，把OpenAI模型接到客户的数据、工具、控制和业务流程里。它还强调Deployment Company由OpenAI控股，和OpenAI研究、产品、内部部署团队保持连接。
 
 AWS的说法有一点不同。它强调把AWS frontier teams嵌入客户团队，使用purpose-built agents，在客户自己的AWS环境里建设agentic systems。AWS还特别强调，项目结束时客户要留下新系统、AI能力、workflow、knowledge graphs、runbooks、architecture documentation和trained internal champions。
 
@@ -527,7 +527,7 @@ AI越能动手，这件事越难。FDE只是这个难题在2026年的名字。
 - [强化学习沉浮史](https://x.com/snowboat84/status/2080159169806799316)
 - [雅可比猜想：从Vitushkin的二维例子推出Fable的三维反例](https://x.com/snowboat84/status/2079683084979769478)
 - [AI商业模式的危机](https://x.com/snowboat84/status/2079355630452957309)
-- [AIforScience详细介绍（下）：机会与入场](https://x.com/snowboat84/status/2078282144619593819)
+- [AI for Science详细介绍（下）：机会与入场](https://x.com/snowboat84/status/2078282144619593819)
 - [一篇文章讲清楚美国的移民系统](https://x.com/snowboat84/status/2057980486501433383)
 - [一文讲清楚美国医疗系统](https://x.com/snowboat84/status/2055081426744422697)
 - [细说美国的华人老钱家族](https://x.com/snowboat84/status/2062326581776011623)
@@ -543,21 +543,21 @@ AI越能动手，这件事越难。FDE只是这个难题在2026年的名字。
 
 ## 本文参考文献
 
-- [OpenAI launches the OpenAIDeploymentCompany](https://openai.com/index/openai-launches-the-deployment-company/) - OpenAI官方，2026年5月11日
-- [ForwardDeployedEngineer(FDE)-Seattle](https://openai.com/careers/forward-deployed-engineer-%28fde%29-seattle-seattle/) - OpenAICareers
-- [ForwardDeployedEngineer,Gov](https://openai.com/careers/forward-deployed-engineer-gov-washington-dc/) - OpenAICareers
-- [Jobs-AppliedAI](https://www.anthropic.com/careers/jobs?aff=YpJLo) - AnthropicCareers
-- [AWSinvests$1billiontoembedAIforwarddeployedengineerswithcustomers](https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers) - Amazon/AWS官方，2026年6月
+- [OpenAI launches the OpenAI Deployment Company](https://openai.com/index/openai-launches-the-deployment-company/) - OpenAI官方，2026年5月11日
+- [Forward Deployed Engineer (FDE) - Seattle](https://openai.com/careers/forward-deployed-engineer-%28fde%29-seattle-seattle/) - OpenAI Careers
+- [Forward Deployed Engineer, Gov](https://openai.com/careers/forward-deployed-engineer-gov-washington-dc/) - OpenAI Careers
+- [Jobs - Applied AI](https://www.anthropic.com/careers/jobs?aff=YpJLo) - Anthropic Careers
+- [AWS invests $1 billion to embed AI forward deployed engineers with customers](https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers) - Amazon/AWS官方，2026年6月
 - [AI FDE overview](https://www.palantir.com/docs/foundry/ai-fde/overview) - Palantir官方文档
 - [Architecture center overview](https://www.palantir.com/docs/foundry/architecture-center/overview) - Palantir官方文档
-- [Forward-deployedJobTitles](https://a16z.com/forward-deployed-job-titles/) - a16z，2026年1月27日
-- [ForwardDeployedEngineerHiringTrends2026](https://fdepulse.com/insights/fde-hiring-trends-2026/) - FDEPulse，2026年4月30日
-- [ThestateofFDEasaservice](https://joinplank.com/state-of-fde) - PlankResearch，2026年6月11日，7月24日更新
-- [AIhelpsJohnDeeretransformagriculture](https://openai.com/index/john-deere-justin-rose/) - OpenAI官方，2025年5月6日
-- [HowevalsdrivethenextchapterinAIforbusinesses](https://openai.com/index/evals-drive-next-chapter-of-ai/) - OpenAI官方，2025年11月19日
-- [ForwardDeployedAIEngineer](https://careers.adobe.com/us/en/job/R164040/Forward-Deployed-AI-Engineer) - AdobeCareers
-- [TheriseofthenewCreativeTechnologist](https://business.adobe.com/resources/sdk/the-rise-of-the-new-creative-technologist.html) - Adobe官方
-- [MaxMarcussen speaker profile](https://www.databricks.com/dataaisummit/speaker/max-marcussen) - Databricks官方
+- [Forward-deployed Job Titles](https://a16z.com/forward-deployed-job-titles/) - a16z，2026年1月27日
+- [Forward Deployed Engineer Hiring Trends 2026](https://fdepulse.com/insights/fde-hiring-trends-2026/) - FDE Pulse，2026年4月30日
+- [The state of FDE as a service](https://joinplank.com/state-of-fde) - Plank Research，2026年6月11日，7月24日更新
+- [AI helps John Deere transform agriculture](https://openai.com/index/john-deere-justin-rose/) - OpenAI官方，2025年5月6日
+- [How evals drive the next chapter in AI for businesses](https://openai.com/index/evals-drive-next-chapter-of-ai/) - OpenAI官方，2025年11月19日
+- [Forward Deployed AI Engineer](https://careers.adobe.com/us/en/job/R164040/Forward-Deployed-AI-Engineer) - Adobe Careers
+- [The rise of the new Creative Technologist](https://business.adobe.com/resources/sdk/the-rise-of-the-new-creative-technologist.html) - Adobe官方
+- [Max Marcussen speaker profile](https://www.databricks.com/dataaisummit/speaker/max-marcussen) - Databricks官方
 
 ---
 
