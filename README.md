@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 87 | 7/31 | [大数据概念兴衰史](大数据概念兴衰史.md) | [link](https://x.com/snowboat84/status/2083346249663844656) | — | [link](https://zhuanlan.zhihu.com/p/2066785355009991258) |
 | 86 | 7/30 | [量子力学研究史（上）：从黑体辐射到希尔伯特空间](量子力学研究史（上）：从黑体辐射到希尔伯特空间.md) | [link](https://x.com/snowboat84/status/2083063168981737698) | — | [link](https://zhuanlan.zhihu.com/p/2066494403678671041) |
 | 85 | 7/29 | [纳维-斯托克斯方程：一个方程背后的多重难题](纳维-斯托克斯方程：一个方程背后的多重难题.md) | [link](https://x.com/snowboat84/status/2082618473776329127) | — | [link](https://zhuanlan.zhihu.com/p/2066062944727740890) |
 | 84 | 7/28 | [算法交易是怎么吃掉华尔街的](算法交易是怎么吃掉华尔街的.md) | [link](https://x.com/snowboat84/status/2082257654353895482) | — | [link](https://zhuanlan.zhihu.com/p/2065693506929178017) |
