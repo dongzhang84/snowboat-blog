@@ -515,26 +515,28 @@ AI越能动手，这件事越难。FDE只是这个难题在2026年的名字。
 
 ## 作者其它文章（选）
 
+- [大数据概念兴衰史](https://x.com/snowboat84/status/2083346249663844656)
 - [量子力学研究史（上）：从黑体辐射到希尔伯特空间](https://x.com/snowboat84/status/2083063168981737698)
 - [纳维-斯托克斯方程：一个方程背后的多重难题](https://x.com/snowboat84/status/2082618473776329127)
 - [算法交易是怎么吃掉华尔街的](https://x.com/snowboat84/status/2082257654353895482)
-- [顶尖VC2026年以来动向观察](https://x.com/snowboat84/status/2081903835833147732)
+- [顶尖 VC 2026 年以来动向观察](https://x.com/snowboat84/status/2081903835833147732)
 - [美国数学教育和研究现状](https://x.com/snowboat84/status/2080872418999156980)
-- [AI安全综述：我们到底在怕什么？](https://x.com/snowboat84/status/2080455644180832672)
+- [AI 安全综述：我们到底在怕什么？](https://x.com/snowboat84/status/2080455644180832672)
 - [强化学习沉浮史](https://x.com/snowboat84/status/2080159169806799316)
 - [雅可比猜想：从Vitushkin的二维例子推出Fable的三维反例](https://x.com/snowboat84/status/2079683084979769478)
 - [AI商业模式的危机](https://x.com/snowboat84/status/2079355630452957309)
 - [AI for Science详细介绍（下）：机会与入场](https://x.com/snowboat84/status/2078282144619593819)
+- [流体力学研究史](https://x.com/snowboat84/status/2077983459369418941)
+- [什么是推理模型？](https://x.com/snowboat84/status/2077613128746164625)
+- [什么是希尔伯特的第六问题？这个问题重要吗？](https://x.com/snowboat84/status/2077249534049259588)
+- [RAG：从前世今生到技术全景](https://x.com/snowboat84/status/2076868301809225932)
+- [什么是信息论？它和AI是什么关系？](https://x.com/snowboat84/status/2075781603847188852)
+- [AI可解释性综述](https://x.com/snowboat84/status/2075374060637503560)
+- [AI for Science详细介绍（中）：资本与格局](https://x.com/snowboat84/status/2075095303389413496)
+- [Skill是什么：写给零基础](https://x.com/snowboat84/status/2074652382299132237)
+- [元宇宙衰亡史：炒作，破产，谁赚走了钱？](https://x.com/snowboat84/status/2074278858988380322)
 - [一篇文章讲清楚美国的移民系统](https://x.com/snowboat84/status/2057980486501433383)
 - [一文讲清楚美国医疗系统](https://x.com/snowboat84/status/2055081426744422697)
-- [细说美国的华人老钱家族](https://x.com/snowboat84/status/2062326581776011623)
-- [美国的犹太人和华人分别抢到了什么资源？详细分析](https://x.com/snowboat84/status/2063049247805837815)
-- [一篇文章看懂美国教育全生态](https://x.com/snowboat84/status/2054359249917210633)
-- [AI圈大V名单（名单不断扩充中）](https://x.com/snowboat84/status/2069206740546343372)
-- [什么是控制论？控制论是AI的上辈子吗？](https://x.com/snowboat84/status/2064496706042069340)
-- [祖父积分学概论](https://x.com/snowboat84/status/2056533111983493136)
-- [教宗良十四世论人工智能（精华版）](https://x.com/snowboat84/status/2059434342745866391)
-- [什么是希尔伯特的第六问题？这个问题重要吗？](https://x.com/snowboat84/status/2077249534049259588)
 
 ---
 
