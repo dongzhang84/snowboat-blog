@@ -1,0 +1,199 @@
+# Rediscovering Relativity Is Not a Single Task
+## What It Takes for AI to Discover a Physical Theory
+
+**Target length: 7 pages main text, ~2 pages references, 1 page appendix.**
+
+> For a position-paper track, prefix the title with "Position:". No other change to the title is needed — it already states the position.
+Page budget per section is given in brackets. Total main text ≈ 5,500 words.
+
+---
+
+## Abstract
+
+[0.2 pp]
+
+Can an AI system rediscover general relativity? This question is increasingly discussed in the AI community, but it is often framed too narrowly. Some accounts implicitly assume that rediscovery means reproducing Einstein's field equations; others assume that a single batch of experimental data suffices to construct a theory; still others reduce scientific discovery to one mode of inference.
+
+We argue that rediscovering a physical theory is not a single task, but a layered sequence of distinct capabilities. Using the history of relativity as a case study, we reconstruct it not as a linear path from Newton to Einstein but as a branching theory space populated by Lorentzian, Poincaréan, scalar, vector, and geometric theories. We show that theory construction and experiment design were mutually generative rather than sequential, and that at several points the available evidence could not adjudicate among live candidates. On this basis we propose a decomposition of rediscovery into distinct capabilities, and three staged tests for AI systems in theoretical physics.
+
+---
+
+## 1. Introduction
+
+[0.8 pp]
+
+- The question "Can AI rediscover general relativity?" has become a focal point in discussions of AI and scientific reasoning.
+- The question is ambiguous. Does rediscovery mean reproducing Einstein's field equations? Following his sequence of ideas? Producing an equally successful but historically different theory? Or identifying the experiments needed to distinguish competing hypotheses?
+- **Three research questions** (state here, do not answer):
+  1. Can AI construct and revise theories under *sequential* experimental evidence, as Lorentz did?
+  2. Can AI elevate a collection of empirical regularities into a unifying principle, as Poincaré did?
+  3. Can AI construct an entire space of relativistic gravity theories, derive their predictions, and identify the experiments that discriminate among them?
+- **Statement of our claim** (this is the paragraph moved up from the old §3.4): rediscovering relativity requires reconstructing a historical theory space, interacting with experiments over time, and moving among multiple forms of reasoning. It cannot be reduced to induction, deduction, or a single abductive leap.
+- Roadmap.
+
+---
+
+## 2. The Historical Theory Space of Relativity
+
+[2.0 pp — the longest section; it supplies the evidence for §3–§6]
+
+### 2.1 Two nineteenth-century situations
+
+[0.4 pp]
+
+- Newtonian gravity: overwhelming success (Laplace, Neptune). One residual anomaly, Mercury's perihelion, 43″/century out of a total precession of 5557″ — a relative deviation below 10⁻⁴.
+- **The patch programme.** Vulcan (Le Verrier 1859, observationally exhausted by ~1900); Hall's 1894 modification of the inverse-square exponent to *r*^(−2+δ), which fits the residual exactly and which Newcomb favoured; solar oblateness. *Point to establish: from Mercury alone, the optimal data-driven answer is Hall, not Einstein.*
+- Maxwell's equations and the ether. *c* = 1/√(ε₀μ₀) as a property of a medium; non-covariance under Galilean transformations was taken as evidence *for* the ether, not as a crisis.
+- Michelson–Morley 1887: predicted 0.4 fringe shift, observed bound 0.01. Null.
+
+### 2.2 Lorentz, Poincaré, Einstein
+
+[0.6 pp]
+
+- Lorentz's contraction hypothesis: the contracting object is the moving body, not the ether; the factor is *computed* from Maxwell's equations plus the assumption that molecular forces are electromagnetic in nature.
+- Poincaré: reverses the direction of inference. Not "bodies contract, therefore the ether is undetectable" but "undetectability is a principle, therefore contraction follows." Proves the transformations form a group; identifies the invariant; corrects Lorentz's 1904 errors; names the transformation.
+- Einstein: different starting point (the magnet–conductor asymmetry, which produces *no* observational discrepancy); two postulates replace the electron model; *t*′ is time.
+- **Empirical equivalence.** The three give identical numbers for every experiment — not only in 1905 but today. Lorentzian ether theory remains empirically equivalent to special relativity. This is structural, not a limitation of period instrumentation.
+
+### 2.3 Theory and experiment as mutually generative
+
+[0.4 pp — new subsection]
+
+- 1887–1902: no new ether-drift experiments. The problem was regarded as solved by the contraction hypothesis.
+- The 1902–04 experiments (Rayleigh, Brace; Trouton–Noble; Morley–Miller) did not test for ether drift. They tested *new predictions generated by the contraction hypothesis itself*: birefringence in a contracted medium, torque on a charged capacitor, material-dependence of the contraction.
+- All null. Lorentz thickens the auxiliary assumptions (local time 1895; deformable electron and non-electromagnetic stabilising stresses 1904).
+- *Point to establish: the experiments were called into existence by the theory. A single batch of data handed to a system removes the mechanism that actually drove the sequence.*
+
+### 2.4 Relativistic gravity before general relativity
+
+[0.6 pp]
+
+- The shared problem: Newtonian gravity is not Lorentz covariant.
+- Poincaré 1905 (vector, gravitational waves, computes a Mercury correction whose stated aim is *compatibility*, not explanation); Minkowski 1908; Abraham 1912; Mie 1912.
+- Nordström 1912–14: scalar; self-consistent; Lorentz covariant; **explicitly requires m_i = m_g**; correct gravitational redshift. Predicts −7″/century for Mercury and *exactly zero* light deflection (conformally flat spacetime, conformally invariant Maxwell equations).
+- Einstein 1907–1912 also used a scalar theory (variable *c*(*x*); the 1911 deflection of 0.83″). The metric arrives in 1912 via Grossmann, not by selection among candidate field types.
+- **The field-theoretic route.** A spin-2 field on a flat background, coupled to *T*_μν and to its own energy, sums to the Einstein equations with *g*_μν = η_μν + *h*_μν (Gupta 1954; Kraichnan 1955; Feynman 1962; Deser 1970). *Point to establish: the 1919 eclipse adjudicated the field type (spin 0 vs spin 2), not the ontology (flat background vs curved spacetime). The latter has never been adjudicated.*
+
+---
+
+## 3. Common Framings of Rediscovery
+
+[1.0 pp — **describe only; no rebuttals here.** Rebuttals are distributed through §2, §4, §5, §6.]
+
+> Note to self: this section becomes "Alternative Views" when the paper is reformatted for a position-paper track. Keep each subsection self-contained and free of counterargument so that the retitling is purely cosmetic.
+
+### 3.1 The Whig framing
+
+[0.35 pp]
+
+- The framing: rediscovery means arriving at Einstein's theory. Operationally, an evaluation scores a system on whether it outputs the Einstein field equations, or the two postulates of special relativity.
+- Where it appears: informal benchmark proposals; popular framings of the question; historical narratives that follow Einstein alone and omit Nordström, Poincaré, Abraham, Mie.
+- What it presupposes: that at each historical moment there was a determinate correct answer available.
+- Cite specific instances.
+
+### 3.2 The one-shot framing
+
+[0.35 pp]
+
+- The pipeline: experimental data → AI → physical theory. Keep the existing diagram.
+- Its concrete form: "give a system all of physics up to 1905 and have it produce general relativity."
+- Where it appears: public statements by AI laboratory leadership; benchmark designs that supply a complete corpus in a single prompt.
+- What it presupposes: that the evidence base is fixed and prior to theorising.
+
+### 3.3 The single-mechanism framing
+
+[0.3 pp]
+
+- The framing: discovery reduces to one mode of inference.
+- Its three current versions: compression/induction (Schmidhuber); deduction from given axioms (the formal-mathematics line, AlphaProof); a single abductive jump requiring embodied simulation (Zahavy 2026).
+- What it presupposes: that one mechanism accounts for the whole episode.
+
+---
+
+## 4. Rediscovery Is Not One Task
+
+[1.2 pp — compress the eight subsections; roughly 6–8 lines each, not a bulleted list]
+
+- 4.1 **Problem recognition.** Which facts require explanation? m_i = m_g had zero residual and was known for two centuries. Mercury's 43″ invited parameter adjustment. The magnet–conductor asymmetry produced no discrepancy at all.
+- 4.2 **Sequential theory construction.** Build from incomplete evidence; revise as observations arrive. *Include the 1913 fact here:* the Entwurf failed the general covariance Einstein himself required and gave 18″ for Mercury, while Nordström's theory was complete and self-consistent. Any search pruned on intermediate performance discards Einstein's branch.
+- 4.3 **Principle formation.** From accumulated compensations to a single principle; the group structure as the mathematical expression of "no further patch is possible."
+- 4.4 **Hypothesis-space construction.** Generate multiple viable theories; avoid premature collapse onto one.
+- 4.5 **Internal screening.** Lorentz covariance, conservation, stability, Newtonian limit — and the one screening that works on paper: vector gravity gives repulsion between like charges.
+- 4.6 **Recognising empirical equivalence.** Distinguish mathematical difference from observational difference. Note that adjudication at the gravity stage settled the field type, not the ontology.
+- 4.7 **Experimental discrimination.** The decisive quantity is light deflection, 1.75″ vs 0. Redshift does not discriminate: Nordström's is correct. Mercury requires non-linear corrections and is not a clean criterion.
+- 4.8 **World-coupled adjudication.**
+
+---
+
+## 5. Three Staged Tests
+
+[1.2 pp]
+
+Opening paragraph: these are conceptual tests, not benchmarks ready to run. The answers are present in any modern training corpus, so success is uninformative; only failure is informative, and only counterfactual variants (altered source symmetry, altered spacetime dimension) restore any diagnostic value. State this before the tests, not after.
+
+### 5.1 The Lorentz test
+
+- Input, **staged**: first Maxwell + ether + Michelson–Morley alone; then Rayleigh/Brace, Trouton–Noble, Morley–Miller.
+- Tasks: construct an explanation; derive its *new* predictions; on receiving the second batch, decide whether to patch, abandon, or reformulate.
+- **What would count as success:** deriving from one's own hypothesis the predictions that the second batch will test; recognising that those predictions have been refuted; tracking the growth in auxiliary assumptions.
+
+### 5.2 The Poincaré test
+
+- Input: the full set of null results and Maxwell's equations. Withheld: the relativity principle, the Lorentz group, Einstein's postulates.
+- Tasks: find a principle that explains all results at once; derive the admissible transformations; establish closure.
+- **What would count as success:** the group property, and an explicit statement of why a principle differs from a sequence of compensations.
+
+### 5.3 The gravity test
+
+- Input: Minkowski spacetime; Lorentz covariance; ∂^μ T_μν = 0; recovery of Newtonian gravity in the static weak field. Withheld: equivalence principle, Riemannian geometry, spin-2 gravity, Einstein, general relativity.
+- Tasks: enumerate candidate field types with justification; write couplings and field equations; compute Newtonian limit, perihelion precession, light deflection, redshift; separate paper-eliminable from observation-requiring candidates; name the decisive observation.
+- **What would count as success:** the enumeration is complete (spin 0, 1, 2); vector is eliminated without computation; the decisive observable is identified as light deflection *with the reason why redshift and perihelion do not serve*.
+- Table of the three candidates and their predictions.
+
+---
+
+## 6. Why Physics Must Remain Coupled to the World
+
+[0.5 pp]
+
+- Formal proof certifies mathematical validity internally; AI for mathematics can in principle close its loop.
+- Physics cannot. **Simulation does not supply independent evidence: it executes the theory under test.** Computing 1.75″ from general relativity and then citing that number as confirmation of general relativity is circular. The 1919 measurement supplied an input from outside the theory.
+- The loop: theory → prediction → experiment → observation → revision.
+- Execution may be automated (self-driving laboratories, robotic observatories). The claim is not about who operates the instrument. **The claim is that the validating information must originate outside the theory being tested.**
+
+---
+
+## 7. Discussion and Conclusion
+
+[0.5 pp]
+
+- Restate: the question is not whether a system reaches Einstein's answer.
+- The decisive test is whether it can reconstruct the space of possibilities, recognise what remains undecidable on paper, and determine which question must next be put to nature.
+- Where the division of labour falls: enumeration and paper-elimination on one side, adjudication on the other.
+- Limitations: a single case; the enumeration in §5.3 uses representation-theoretic tools unavailable before 1939; the tests are conceptual.
+
+---
+
+## Appendix
+
+[1 pp]
+
+- A.1 The three candidate gravity theories: couplings, field equations, and derivations of the four observables.
+- A.2 Timeline of experiments and theories, 1859–1919.
+
+---
+
+## Notes on the revision
+
+Changes from the previous outline:
+
+1. §3 subsections rewritten as descriptions of live framings, with rebuttals removed. The old §3.4 ("our position") is deleted; its content moves to §1.
+2. §3.1 made concrete: named as an evaluation design, not a vague bias.
+3. §3.2 given its specific public form.
+4. §3.3 split into its three current versions with citations.
+5. New §2.3 on theory-generated experiments — the material that answers §3.2.
+6. §2.1 gains the patch programme (Hall, Newcomb); §2.4 gains the field-theoretic route (Gupta–Kraichnan–Feynman–Deser).
+7. §2.2 strengthens empirical equivalence to the present day.
+8. §4.2 gains the 1913 pruning fact; §4.6 and §4.7 gain the field-type/ontology distinction and the redshift point.
+9. §5 gains a statement on corpus contamination and, for each test, a "what would count as success" criterion.
+10. §6 gains the circularity argument and the restatement in terms of information origin rather than human operation.
