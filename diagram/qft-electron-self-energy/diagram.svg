@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 430" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+.electron { stroke: var(--fg); stroke-width: 2.2; fill: none; stroke-linecap: round; }
+.photon { stroke: var(--accent); stroke-width: 2.4; fill: none; stroke-linecap: round; }
+.cutoff { stroke: var(--fg-muted); stroke-width: 1.5; stroke-dasharray: 5 5; fill: none; }
+</style>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L8,3 L0,6 Z" fill="var(--fg)" />
+  </marker>
+  <marker id="arrowMuted" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L8,3 L0,6 Z" fill="var(--fg-muted)" />
+  </marker>
+</defs>
+<rect class="bg" x="0" y="0" width="680" height="430" />
+<text class="title" x="60" y="42">电子自能：一条电子线被自己的电磁场修正</text>
+<text class="subtitle" x="60" y="64">费曼图画的是传播子的修正，不是电子真的先吐出再吞回一颗光子</text>
+
+<rect class="layer" x="60" y="96" width="560" height="190" rx="10" />
+<text class="eyebrow eyebrow-accent" x="82" y="124">FEYNMAN DIAGRAM</text>
+<text class="th" x="82" y="152">外部电子</text>
+<text class="ts" x="82" y="174">入射态</text>
+<line class="divider" x1="175" y1="116" x2="175" y2="266" />
+
+<path class="electron" d="M220 190 L500 190" marker-end="url(#arrow)" />
+<circle class="layer-key" cx="310" cy="190" r="8" />
+<circle class="layer-key" cx="410" cy="190" r="8" />
+<path class="photon" d="M310 190 C320 145 345 120 360 120 C375 120 390 145 410 190" />
+<path class="photon" d="M313 178 C326 145 348 132 362 132 C376 132 392 148 407 178" opacity="0.75" />
+
+<text class="t" x="232" y="222">电子传播</text>
+<text class="t" x="345" y="104" text-anchor="middle">虚光子回环</text>
+<text class="ts" x="292" y="246">发出</text>
+<text class="ts" x="394" y="246">吸收</text>
+<text class="caption" x="230" y="266">两个顶点带来相互作用因子，回环动量要积分</text>
+
+<rect class="layer-key" x="60" y="306" width="560" height="70" rx="10" />
+<text class="eyebrow eyebrow-accent" x="82" y="332">DIVERGENT INTEGRAL</text>
+<text class="th" x="82" y="358">先截断到有限能标：</text>
+<text class="t" x="238" y="358">Δm(Λ) ~ ∫₀^Λ dk · F(k)</text>
+<path class="cutoff" d="M468 354 L575 354" marker-end="url(#arrowMuted)" />
+<text class="ts" x="506" y="338">Λ → ∞</text>
+<text class="caption" x="82" y="396">如果Λ推到无穷大后结果没有有限极限，积分就发散。</text>
+</svg>
