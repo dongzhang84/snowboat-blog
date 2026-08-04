@@ -51,19 +51,36 @@
 \printAffiliationsAndNotice{}
 
 \section{Introduction}
-% Target: 0.8 pp.
-\begin{itemize}
-  \item The question ``Can AI rediscover general relativity?'' has become a focal point in discussions of AI and scientific reasoning.
-  \item The question is ambiguous. Does rediscovery mean reproducing Einstein's field equations? Following his sequence of ideas? Producing an equally successful but historically different theory? Or identifying the experiments needed to distinguish competing hypotheses?
-  \item Three research questions:
-  \begin{enumerate}
-    \item Can AI construct and revise theories under sequential experimental evidence, as Lorentz did?
-    \item Can AI elevate a collection of empirical regularities into a unifying principle, as Poincaré did?
-    \item Can AI construct an entire space of relativistic gravity theories, derive their predictions, and identify the experiments that discriminate among them?
-  \end{enumerate}
-  \item Rediscovering relativity requires reconstructing a historical theory space, interacting with experiments over time, and moving among multiple forms of reasoning. It cannot be reduced to induction, deduction, or a single abductive leap.
-  \item Roadmap.
-\end{itemize}
+Can AI rediscover general relativity? This question has recently become a benchmark for evaluating the scientific capabilities of AI systems. One influential proposal is Hassabis's ``Einstein test'': train a system whose knowledge is restricted to what was known in 1911 and ask whether it can independently arrive at general relativity, just as Einstein did in 1915. Only then, the argument goes, could we claim that the system possesses genuine general intelligence.\footnote{Demis Hassabis, remarks in ``Fireside Chat: Sir Demis Hassabis and Prof Govindan Rangarajan,'' Indian Institute of Science, 17 February 2026, moderated by Varun Mayya. Transcript available at the \href{https://eecs.iisc.ac.in/fireside-chat-sir-demis-hassabis-and-prof-govindan-rangarajan/}{IISc EECS event page}.} One such attempt trains models from scratch on corpora containing only pre-1900 texts, aggressively removing any traces of later concepts \citep{hla2026machina}.
+
+The motivation behind these efforts is sound: they seek to avoid data contamination and test whether a model can still make genuine discoveries when the answer has been hidden. Yet the discussion stops there. Giving a model all the knowledge available before a particular year and asking it to produce a theory implicitly treats scientific discovery as a one-step mapping,
+\[
+\text{existing knowledge} \rightarrow \text{theory},
+\]
+without providing a methodology for what ``rediscovery'' actually means, how the process should be decomposed, or how success and failure should be evaluated at each stage. This is precisely the gap that this paper aims to address. In our view, rediscovering relativity is not about recovering a single answer; it is about reconstructing a historical theory space.
+
+The notion of ``rediscovery'' itself is ambiguous. Does it mean reproducing Einstein's field equations? Does it mean reconstructing the entire logical path from special relativity to general relativity? Or is reproducing only one crucial step sufficient? Different answers correspond to fundamentally different capabilities, yet current discussions often arrive at yes-or-no conclusions without first distinguishing among them.
+
+More importantly, the framework of ``existing knowledge $\rightarrow$ theory'' imagines history as if all experimental facts had already been collected and were simply waiting for a theory to explain them. The actual history was not shaped in this way. Maxwell's equations predicted electromagnetic waves and incorporated light into electromagnetism, which in turn motivated the search for the ether wind. The null result of the Michelson--Morley experiment led to Lorentz's contraction hypothesis. The experiments carried out between 1902 and 1904 were no longer testing for the ether wind, but rather the new predictions that the contraction hypothesis itself had generated. The history of relativity was not a process of ``data $\rightarrow$ theory''; it was a cycle of
+\[
+\text{theory} \rightarrow \text{experiment} \rightarrow \text{theory}.
+\]
+From Maxwell to Lorentz, from Poincaré to Einstein, and later to the competing theories of relativistic gravity, the development of relativity was a continuous process of mutual interaction rather than a one-shot inference.
+
+We therefore decompose the question into three increasingly demanding challenges:
+\begin{enumerate}
+  \item Can AI construct and revise theories as new experimental evidence arrives, as Lorentz did?
+  \item Can AI elevate a collection of empirical regularities into a unifying principle, as Poincaré did?
+  \item Can AI construct the entire space of candidate relativistic theories of gravity, derive their predictions, and identify the experiments that could distinguish among them?
+\end{enumerate}
+
+These three challenges are not repetitions of the same capability. The first concerns adaptive modifications driven by anomalies. The second concerns the abstraction of local patches into general principles. The third requires the construction of a hypothesis space, the analysis of the empirical consequences of competing theories, and the search for experiments capable of adjudicating among them.
+
+Yet all three challenges ultimately encounter the same boundary: theory can determine which experiments are informative, but it cannot determine the outcome of those experiments through reasoning alone. The competing theories of relativistic gravity were ultimately separated by astronomical observations, and those observations had to come from the world outside the theory itself.
+
+Our position is that rediscovering relativity requires reconstructing a historical theory space, repeated interactions between theory and experiment, and movement across different modes of reasoning. It cannot be reduced to induction, deduction, or a single act of abduction, nor can it be completed entirely on paper.
+
+Section 2 reconstructs this theory space. Section 3 reviews three common ways of framing the problem. Section 4 decomposes rediscovery into distinct capabilities. Section 5 proposes three staged evaluations. Section 6 explains why the validation of physical theories must ultimately come from outside the theories themselves.
 
 \section{The Historical Theory Space of Relativity}
 % Target: 2.0 pp. This section supplies the evidence for Sections 3--6.
@@ -215,10 +232,8 @@ Spin 2 &  &  &  &  \\
   \item Limitations: a single case; the enumeration in Section 5.3 uses representation-theoretic tools unavailable before 1939; the tests are conceptual.
 \end{itemize}
 
-\section*{References}
-% TODO: Add references to refs.bib.
-% \bibliography{refs}
-% \bibliographystyle{icml2026}
+\bibliography{refs}
+\bibliographystyle{icml2026}
 
 \appendix
 \section{Appendix A}
