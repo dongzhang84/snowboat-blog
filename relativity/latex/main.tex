@@ -20,6 +20,16 @@
 
 \providecommand{\theHalgorithm}{\arabic{algorithm}}
 
+\makeatletter
+\renewcommand{\printAffiliationsAndNotice}[1]{\global\icml@noticeprintedtrue%
+  {\let\thefootnote\relax\footnotetext{\hspace*{-\footnotesep}%
+    \href{mailto:dongzhanghz@gmail.com}{dongzhanghz@gmail.com}%
+    \ \\
+    \Notice@String
+  }}%
+}
+\makeatother
+
 \icmltitlerunning{Rediscovering Relativity Is Not a Single Task}
 
 \begin{document}
@@ -33,11 +43,9 @@
   % \large What It Takes for AI to Discover a Physical Theory}
 
   \begin{icmlauthorlist}
-    \icmlauthor{Dong Zhang}{aff}
+    \icmlauthor{Dong Zhang}{}
   \end{icmlauthorlist}
 
-  \icmlaffiliation{aff}{Affiliation, City, Country}
-  \icmlcorrespondingauthor{Author Name}{email@example.com}
   \icmlkeywords{AI for Science, scientific discovery, relativity, physics}
 
   \vskip 0.12in
