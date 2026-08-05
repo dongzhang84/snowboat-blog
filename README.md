@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 89 | 8/4 | [量子力学研究史（中）：场、无穷大与标准模型](量子力学研究史（中）：场、无穷大与标准模型.md) | [link](https://x.com/snowboat84/status/2084791538933194873) | — | [link](https://zhuanlan.zhihu.com/p/2068226867941978845) |
 | 88 | 8/3 | [FDE介绍和入门：一个被 AI 重新激活的老岗位](FDE介绍和入门：一个被%20AI%20重新激活的老岗位.md) | [link](https://x.com/snowboat84/status/2084428243512537562) | — | [link](https://zhuanlan.zhihu.com/p/2067859775866642460) |
 | 87 | 7/31 | [大数据概念兴衰史](大数据概念兴衰史.md) | [link](https://x.com/snowboat84/status/2083346249663844656) | — | [link](https://zhuanlan.zhihu.com/p/2066785355009991258) |
 | 86 | 7/30 | [量子力学研究史（上）：从黑体辐射到希尔伯特空间](量子力学研究史（上）：从黑体辐射到希尔伯特空间.md) | [link](https://x.com/snowboat84/status/2083063168981737698) | — | [link](https://zhuanlan.zhihu.com/p/2066494403678671041) |
