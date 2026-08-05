@@ -19,13 +19,12 @@
 \usepackage[capitalize,noabbrev]{cleveref}
 
 \providecommand{\theHalgorithm}{\arabic{algorithm}}
+\newcommand{\preprintnotice}{\textit{Preprint. August 4, 2026.}}
 
 \makeatletter
 \renewcommand{\printAffiliationsAndNotice}[1]{\global\icml@noticeprintedtrue%
   {\let\thefootnote\relax\footnotetext{\hspace*{-\footnotesep}%
     \href{mailto:dongzhanghz@gmail.com}{dongzhanghz@gmail.com}%
-    \ \\
-    \Notice@String
   }}%
 }
 \makeatother
@@ -35,6 +34,11 @@
 \begin{document}
 
 \twocolumn[
+  \begin{flushright}
+    \small \preprintnotice
+  \end{flushright}
+  \vskip -0.08in
+
   \icmltitle{Rediscovering Relativity Is Not a Single Task\\
   \large What It Takes for AI to Discover a Physical Theory}
 
