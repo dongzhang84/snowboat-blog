@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 90 | 8/5 | [自动驾驶的十年：那些空头支票是怎么开出来的](自动驾驶的十年：那些空头支票是怎么开出来的.md) | [link](https://x.com/snowboat84/status/2085206937462002072) | — | [link](https://zhuanlan.zhihu.com/p/2068617164081344690) |
 | 89 | 8/4 | [量子力学研究史（中）：场、无穷大与标准模型](量子力学研究史（中）：场、无穷大与标准模型.md) | [link](https://x.com/snowboat84/status/2084791538933194873) | — | [link](https://zhuanlan.zhihu.com/p/2068226867941978845) |
 | 88 | 8/3 | [FDE介绍和入门：一个被 AI 重新激活的老岗位](FDE介绍和入门：一个被%20AI%20重新激活的老岗位.md) | [link](https://x.com/snowboat84/status/2084428243512537562) | — | [link](https://zhuanlan.zhihu.com/p/2067859775866642460) |
 | 87 | 7/31 | [大数据概念兴衰史](大数据概念兴衰史.md) | [link](https://x.com/snowboat84/status/2083346249663844656) | 14k | [link](https://zhuanlan.zhihu.com/p/2066785355009991258) |
@@ -13,12 +14,12 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 85 | 7/29 | [纳维-斯托克斯方程：一个方程背后的多重难题](纳维-斯托克斯方程：一个方程背后的多重难题.md) | [link](https://x.com/snowboat84/status/2082618473776329127) | 21k | [link](https://zhuanlan.zhihu.com/p/2066062944727740890) |
 | 84 | 7/28 | [算法交易是怎么吃掉华尔街的](算法交易是怎么吃掉华尔街的.md) | [link](https://x.com/snowboat84/status/2082257654353895482) | 2.9k | [link](https://zhuanlan.zhihu.com/p/2065693506929178017) |
 | 83 | 7/27 | [顶尖 VC 2026 年以来动向观察](顶尖%20VC%202026%20年以来动向观察.md) | [link](https://x.com/snowboat84/status/2081903835833147732) | 4.6k | [link](https://zhuanlan.zhihu.com/p/2065352325250684815) |
-| 82 | 7/24 | [美国数学教育和研究现状](美国数学教育和研究现状.md) | [link](https://x.com/snowboat84/status/2080872418999156980) | 28k | [link](https://zhuanlan.zhihu.com/p/2064320030884603483) |
-| 81 | 7/23 | [AI 安全综述：我们到底在怕什么？](AI%20安全综述：我们到底在怕什么？.md) | [link](https://x.com/snowboat84/status/2080455644180832672) | 3.5k | [link](https://zhuanlan.zhihu.com/p/2063902539439928913) |
-| 80 | 7/22 | [强化学习沉浮史](强化学习沉浮史.md) | [link](https://x.com/snowboat84/status/2080159169806799316) | 19k | [link](https://zhuanlan.zhihu.com/p/2063606573868511864) |
-| 79 | 7/21 | [雅可比猜想：从 Vitushkin 的二维例子推出 Fable 的三维反例](雅可比猜想：从%20Vitushkin%20的二维例子推出%20Fable%20的三维反例.md) | [link](https://x.com/snowboat84/status/2079683084979769478) | 2.7k | [link](https://zhuanlan.zhihu.com/p/2063116741576859857) |
-| 78 | 7/20 | [AI 商业模式的危机](讨论：AI商业模式的危机.md) | [link](https://x.com/snowboat84/status/2079355630452957309) | 10k | [link](https://zhuanlan.zhihu.com/p/2062787720188106263) |
-| 77 | 7/17 | [AI for Science 详细介绍（下）：机会与入场](AI%20for%20Science%20详细介绍（下）：机会与入场.md) | [link](https://x.com/snowboat84/status/2078282144619593819) | 8.2k | [link](https://zhuanlan.zhihu.com/p/2061643008039195464) |
+| 82 | 7/24 | [美国数学教育和研究现状](archive/美国数学教育和研究现状.md) | [link](https://x.com/snowboat84/status/2080872418999156980) | 28k | [link](https://zhuanlan.zhihu.com/p/2064320030884603483) |
+| 81 | 7/23 | [AI 安全综述：我们到底在怕什么？](archive/AI%20安全综述：我们到底在怕什么？.md) | [link](https://x.com/snowboat84/status/2080455644180832672) | 3.5k | [link](https://zhuanlan.zhihu.com/p/2063902539439928913) |
+| 80 | 7/22 | [强化学习沉浮史](archive/强化学习沉浮史.md) | [link](https://x.com/snowboat84/status/2080159169806799316) | 19k | [link](https://zhuanlan.zhihu.com/p/2063606573868511864) |
+| 79 | 7/21 | [雅可比猜想：从 Vitushkin 的二维例子推出 Fable 的三维反例](archive/雅可比猜想：从%20Vitushkin%20的二维例子推出%20Fable%20的三维反例.md) | [link](https://x.com/snowboat84/status/2079683084979769478) | 2.7k | [link](https://zhuanlan.zhihu.com/p/2063116741576859857) |
+| 78 | 7/20 | [AI 商业模式的危机](archive/讨论：AI商业模式的危机.md) | [link](https://x.com/snowboat84/status/2079355630452957309) | 10k | [link](https://zhuanlan.zhihu.com/p/2062787720188106263) |
+| 77 | 7/17 | [AI for Science 详细介绍（下）：机会与入场](archive/AI%20for%20Science%20详细介绍（下）：机会与入场.md) | [link](https://x.com/snowboat84/status/2078282144619593819) | 8.2k | [link](https://zhuanlan.zhihu.com/p/2061643008039195464) |
 | 76 | 7/16 | [流体力学研究史](archive/流体力学研究史.md) | [link](https://x.com/snowboat84/status/2077983459369418941) | 14k | [link](https://zhuanlan.zhihu.com/p/2061426371994333543) |
 | 75 | 7/15 | [什么是推理模型？](archive/什么是推理模型？.md) | [link](https://x.com/snowboat84/status/2077613128746164625) | 4.9k | [link](https://zhuanlan.zhihu.com/p/2061055676080711410) |
 | 74 | 7/14 | [什么是希尔伯特的第六问题？这个问题重要吗？](archive/什么是希尔伯特的第六问题？这个问题重要吗？.md) | [link](https://x.com/snowboat84/status/2077249534049259588) | 24k | [link](https://zhuanlan.zhihu.com/p/2060680003977745451) |
