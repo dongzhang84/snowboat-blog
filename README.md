@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 92 | 8/7 | [AI for Physics 全景：为什么AI的成绩分布得这么不均匀](AI%20for%20Physics%20%E5%85%A8%E6%99%AF.md) | — | — | — |
 | 91 | 8/6 | [什么是 MoE 和 MMoE 模型？](什么是%20MoE%20和%20MMoE%20模型？.md) | [link](https://x.com/snowboat84/status/2085586981459828939) | — | [link](https://zhuanlan.zhihu.com/p/2069029218298680373) |
 | 90 | 8/5 | [自动驾驶的十年：那些空头支票是怎么开出来的](自动驾驶的十年：那些空头支票是怎么开出来的.md) | [link](https://x.com/snowboat84/status/2085206937462002072) | — | [link](https://zhuanlan.zhihu.com/p/2068617164081344690) |
 | 89 | 8/4 | [量子力学研究史（中）：场、无穷大与标准模型](量子力学研究史（中）：场、无穷大与标准模型.md) | [link](https://x.com/snowboat84/status/2084791538933194873) | — | [link](https://zhuanlan.zhihu.com/p/2068226867941978845) |
