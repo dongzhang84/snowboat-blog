@@ -414,16 +414,43 @@ MMoE是关于"共享多少"的技术。它把专家当作共享单元，通过�
 
 **误解八：MMoE也应该稀疏化以提升效率。** 在推荐排序场景下不划算。专家数本就只有十几个，能省的绝对计算量有限，而稀疏路由带来的延迟尾部恶化与训练不稳定在高频重训、几十毫秒延迟预算的在线系统里是难以接受的成本。
 
-# 参考文献
+---
 
-## 起源与理论基础
+## 作者其它文章（选）
+
+- [自动驾驶的十年：那些空头支票是怎么开出来的](https://x.com/snowboat84/status/2085206937462002072)
+- [量子力学研究史（中）：场、无穷大与标准模型](https://x.com/snowboat84/status/2084791538933194873)
+- [FDE介绍和入门：一个被 AI 重新激活的老岗位](https://x.com/snowboat84/status/2084428243512537562)
+- [大数据概念兴衰史](https://x.com/snowboat84/status/2083346249663844656)
+- [量子力学研究史（上）：从黑体辐射到希尔伯特空间](https://x.com/snowboat84/status/2083063168981737698)
+- [纳维-斯托克斯方程：一个方程背后的多重难题](https://x.com/snowboat84/status/2082618473776329127)
+- [算法交易是怎么吃掉华尔街的](https://x.com/snowboat84/status/2082257654353895482)
+- [顶尖 VC 2026 年以来动向观察](https://x.com/snowboat84/status/2081903835833147732)
+- [美国数学教育和研究现状](https://x.com/snowboat84/status/2080872418999156980)
+- [AI 安全综述：我们到底在怕什么？](https://x.com/snowboat84/status/2080455644180832672)
+- [一篇文章讲清楚美国的移民系统](https://x.com/snowboat84/status/2057980486501433383)
+- [一文讲清楚美国医疗系统](https://x.com/snowboat84/status/2055081426744422697)
+- [细说美国的华人老钱家族](https://x.com/snowboat84/status/2062326581776011623)
+- [美国的犹太人和华人分别抢到了什么资源？详细分析](https://x.com/snowboat84/status/2063049247805837815)
+- [一篇文章看懂美国教育全生态](https://x.com/snowboat84/status/2054359249917210633)
+- [AI圈大V名单（名单不断扩充中）](https://x.com/snowboat84/status/2069206740546343372)
+- [什么是控制论？控制论是AI的上辈子吗？](https://x.com/snowboat84/status/2064496706042069340)
+- [祖父积分学概论](https://x.com/snowboat84/status/2056533111983493136)
+- [教宗良十四世论人工智能（精华版）](https://x.com/snowboat84/status/2059434342745866391)
+- [什么是希尔伯特的第六问题？这个问题重要吗？](https://x.com/snowboat84/status/2077249534049259588)
+
+---
+
+## 本文参考文献
+
+### 起源与理论基础
 
 1. Jacobs, R. A., Jordan, M. I., Nowlan, S. J., & Hinton, G. E. (1991). Adaptive Mixtures of Local Experts. _Neural Computation_, 3(1).
 2. Jordan, M. I., & Jacobs, R. A. (1994). Hierarchical Mixtures of Experts and the EM Algorithm. _Neural Computation_, 6(2).
 3. Clark, A., et al. (2022). Unified Scaling Laws for Routed Language Models. _ICML_.
 4. Krajewski, J., et al. (2024). Scaling Laws for Fine-Grained Mixture of Experts. _arXiv_.
 
-## 稀疏路线
+### 稀疏路线
 
 5. Shazeer, N., et al. (2017). Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer. _ICLR_.
 6. Lepikhin, D., et al. (2020). GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding. _arXiv / ICLR 2021_.
@@ -440,7 +467,7 @@ MMoE是关于"共享多少"的技术。它把专家当作共享单元，通过�
 17. DeepSeek-AI. (2024). DeepSeek-V3 Technical Report. _arXiv_.
 18. Qwen Team. (2024). Qwen1.5-MoE: Matching 7B Model Performance with 1/3 Activated Parameters.
 
-## 多任务路线
+### 多任务路线
 
 19. Ma, J., Zhao, Z., Yi, X., Chen, J., Hong, L., & Chi, E. H. (2018). Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts. _KDD_.
 20. Zhao, Z., et al. (2019). Recommending What Video to Watch Next: A Multitask Ranking System. _RecSys_.
@@ -451,7 +478,7 @@ MMoE是关于"共享多少"的技术。它把专家当作共享单元，通过�
 25. Chen, Z., et al. (2018). GradNorm: Gradient Normalization for Adaptive Loss Balancing. _ICML_.
 26. Yu, T., et al. (2020). Gradient Surgery for Multi-Task Learning (PCGrad). _NeurIPS_.
 
-## 多模态
+### 多模态
 
 27. Bao, H., et al. (2021). VLMo: Unified Vision-Language Pre-Training with Mixture-of-Modality-Experts. _NeurIPS 2022_.
 28. Mustafa, B., et al. (2022). Multimodal Contrastive Learning with LIMoE: the Language-Image Mixture of Experts. _NeurIPS_.
@@ -463,7 +490,7 @@ MMoE是关于"共享多少"的技术。它把专家当作共享单元，通过�
 34. SMAR: Soft Modality-Aware Routing Strategy for MoE-based Multimodal Large Language Models. _arXiv 2506.06406_.
 35. Tackling Multimodal Learning Challenges with Mixture-of-Expert: A Survey. _arXiv 2605.27431_.
 
-## 系统与压缩
+### 系统与压缩
 
 36. Rajbhandari, S., et al. (2022). DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training. _ICML_.
 37. Hwang, C., et al. (2022). Tutel: Adaptive Mixture-of-Experts at Scale. _MLSys 2023_.
