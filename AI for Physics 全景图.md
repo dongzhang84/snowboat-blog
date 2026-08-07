@@ -419,35 +419,122 @@ $$
 
 第四条路线跟前三条都不一样，也是这篇文章的重心所在。
 
-凝聚态物理最有用的那些方程，很多都不是从多体薛定谔方程严格推出来的。BCS配对哈密顿量、朗道费米液体、金兹堡-朗道自由能、哈伯德模型，都是先靠物理直觉写出来，再由对称性、重整化群相关性和实验符合来辩护。
+原则上，凝聚态物理的一切都装在这一个哈密顿量里：
 
-看具体的时间线就很清楚。金兹堡和朗道1950年写下超导的唯象自由能，用了一个"序参量"，那时候没人知道这个序参量的微观来源是什么。BCS要到1957年才给出配对图像，反过来解释了金兹堡-朗道方程里的序参量是电子对的凝聚波函数。朗道1956到1958年建立费米液体理论，核心是把强相互作用电子系统的低能激发描述成一堆"准粒子"，这些准粒子有电荷、有自旋、有有效质量，而它们不是任何一个微观粒子。哈伯德1963年写下的模型只有两项，跳跃项和在位排斥项，把真实固体里的一切其它相互作用全部扔掉了。
+$$
+H=-\sum_i\frac{\hbar^2}{2m}\nabla_i^2
++\sum_{i,I}V(\mathbf r_i-\mathbf R_I)
++\frac{1}{2}\sum_{i\ne j}\frac{e^2}{4\pi\epsilon_0|\mathbf r_i-\mathbf r_j|}
+$$
 
-这条路线的输入输出是：输入微观方程加实验现象，输出另一个方程。自由度换了。
+电子的动能、电子和离子的吸引、电子之间的排斥，再没有别的了。狄拉克1929年说物理一大部分和全部化学的基本定律已经完全知道，指的就是这个式子。
 
-关键在于"换自由度"这一步是发明，不是推导。库珀对不是电子，准粒子不是原子，分数量子霍尔态里的任意子不对应任何微观粒子。1982年崔琦和施特默在实验上看到分数量子霍尔效应，1983年劳克林写下那个著名的试探波函数，其中的元激发带三分之一个电子电荷。这个东西在微观哈密顿量里根本找不到。
+问题是你从这里看不出超导，看不出超流，看不出分数电荷。这些现象要$10^{23}$个粒子一起出现才存在，而写下$H$的人对它们一无所知。
 
-安德森1972年在《科学》上发表的那篇《More is Different》，讲的正是这件事。知道基本定律，并不等于你能重建现象。每上升一个层次，都需要一套新的概念，而这套概念不能从下一层机械地推出来。
+凝聚态最有用的那些方程，都不是从上面这个$H$推出来的。金兹堡和朗道1950年处理超导时，直接猜了一个自由能：
 
-重整化群归在这条路线里，不归在路线C。威尔逊1971年的工作是这条路线的方法论核心，它的作用是告诉你在给定能标下该写哪个有效方程、哪些项相关、哪些项可以扔掉。威尔逊1982年拿诺奖，靠的就是把"该写哪个方程"这件事变成了一套可操作的程序。
+$$
+F=F_n+\alpha|\psi|^2+\frac{\beta}{2}|\psi|^4
++\frac{1}{2m^*}\left|\left(-i\hbar\nabla-e^*\mathbf A\right)\psi\right|^2
++\frac{B^2}{2\mu_0}
+$$
 
-到这里可以回收2.1节那个还原主义的信念了。有了基本方程就有了一切，这个说法在路线D面前站不住。凝聚态的中心任务是理解现象，而理解现象需要的那个方程，跟基本方程不在同一层上。
+$\psi$叫序参量，在1950年它没有任何微观含义，就是一个描述超导程度的复数场。取$\alpha=\alpha_0(T-T_c)$，在$T<T_c$时极小化给出$|\psi|^2=-\alpha/\beta$，超导态自动出现。
+
+这个猜出来的自由能能干什么？它给出两个长度，相干长度$\xi$和穿透深度$\lambda$。Abrikosov在1957年从中算出，当$\kappa=\lambda/\xi>1/\sqrt2$时磁场会以量子化涡旋的形式钻进超导体，排成规则格子。这个预言后来被小角中子散射和磁修饰实验证实，Abrikosov在2003年拿了诺奖。一个没有微观根据的唯象方程，预言出了一个全新的物态。
+
+BCS要到1957年才给出微观图像。他们下笔的对象仍然经过了大幅简化，只保留配对散射这一项：
+
+$$
+H=\sum_{k\sigma}\epsilon_kc^\dagger_{k\sigma}c_{k\sigma}
+-V\sum_{kk'}c^\dagger_{k\uparrow}c^\dagger_{-k\downarrow}c_{-k'\downarrow}c_{k'\uparrow}
+$$
+
+解出来的能隙是
+
+$$
+\Delta\approx2\hbar\omega_D\,e^{-1/N(0)V}
+$$
+
+这个结果有一个要命的性质。函数$e^{-1/x}$在$x=0$处所有阶导数都是零，所以无论你把微扰论对耦合$V$做到多少阶，算出的能隙都严格为零。超导在微扰展开里根本不存在，只有换一套自由度重新写方程才能看见。路线A再强也走不到这里。
+
+朗道1956到1958年的费米液体理论走的是第三条路子。他不写新的哈密顿量，直接断言相互作用系统的低能激发跟自由费米气的激发一一对应，只是参数变了。能量泛函写成
+
+$$
+\delta E=\sum_{k\sigma}\epsilon_k\,\delta n_{k\sigma}
++\frac{1}{2}\sum_{kk'\sigma\sigma'}f_{kk'}^{\sigma\sigma'}\,\delta n_{k\sigma}\,\delta n_{k'\sigma'}
+$$
+
+$\delta n$是准粒子的占据数变化，$f$是准粒子之间的相互作用。这个断言可以直接验证：比热应该仍然正比于温度，只是斜率对应有效质量$m^*$而不是裸质量。液氦3的比热确实线性于温度，测出的$m^*$是裸质量的几倍，并且随压强单调增大。框架由理论给出，参数由实验定。
+
+哈伯德1963年的模型更极端，把固体里的一切压成两项：
+
+$$
+H=-t\sum_{\langle ij\rangle\sigma}\left(c^\dagger_{i\sigma}c_{j\sigma}+\mathrm{h.c.}\right)
++U\sum_in_{i\uparrow}n_{i\downarrow}
+$$
+
+一个跳跃项，一个在位排斥项。$10^{23}$个自由度换成了$t$和$U$两个参数。
+
+换自由度这一步是发明。库珀对不是电子，朗道费米液体里的准粒子不是原子，分数量子霍尔态里的任意子不对应任何微观粒子。1982年崔琦和施特默看到分数量子霍尔效应，1983年劳克林写下那个试探波函数，其中的元激发带三分之一个电子电荷。这个东西在$H$里找不到，而1997年Saminadayar和de-Picciotto两个组用散粒噪声实验把$e/3$直接测了出来。
+
+安德森1972年在《科学》上那篇《More is Different》讲的正是这件事。知道基本定律，并不等于你能重建现象。每上升一个层次都需要一套新概念，而这套概念不能从下一层机械地推出来。
+
+重整化群归在这条路线里，不归在路线C。威尔逊1971年的工作是这条路线的方法论核心，作用是告诉你在给定能标下该写哪个有效方程、哪些项相关、哪些项可以扔掉。他1982年拿诺奖，靠的就是把"该写哪个方程"变成了一套可操作的程序。
+
+这条路线的输入输出是：输入微观方程加实验现象，输出另一个方程。方程换了，自由度也换了。
+
+成功标准跟着一起换了：这个新方程能不能解释一批现象、预言出新现象、并且被实验接住。金兹堡-朗道方程活了下来，因为Abrikosov从里面读出了涡旋格子，而实验真的看到了。
+
+到这里可以回收2.1节那个还原主义的信念。有了基本方程就有了一切，这个说法在路线D面前站不住。凝聚态的中心任务是理解现象，而理解现象需要的那个方程，跟基本方程不在同一层上。
 
 ## 2.6 路线E：实验、观测与推断
 
-第五条路线是实验，我把它列成独立路线而不是"回路"，因为它有自己完整的方法论和自己的卡点。
+第五条路线是实验。我把它列成独立路线而不是"回路"，因为它有自己完整的方法论和自己的卡点。
 
-实验设计与控制是一套独立的学问。真空系统、低温、屏蔽、标定，这些东西决定了你能不能测到那个信号。LIGO要在四公里长的臂上测出比质子直径还小上千倍的长度变化，靠的是四十年的隔振与降噪工程。
+实验设计与控制是一套独立的学问。真空、低温、屏蔽、标定，这些东西决定了你能不能测到那个信号。LIGO测的是一个无量纲的应变
 
-数据采集之后是统计推断。参数估计、假设检验、模型选择，粒子物理里那个五个标准差的门槛就是这套框架的产物。2012年宣布发现希格斯粒子，本质上是两个实验组各自算出的局部显著性都越过了五个标准差。
+$$
+h=\frac{\Delta L}{L}\sim10^{-21}
+$$
 
-这条路线的方法论是独立的，看两个细节就清楚。粒子物理里五个标准差那个门槛，对应的是随机涨落造成假信号的概率约三百五十万分之一。这个数字不从任何物理方程里推出来，它是这个共同体在被历史上多次三个标准差的假信号坑过之后定下的规矩。
+四公里的臂长对应$\Delta L\approx4\times10^{-18}$米，大约是质子直径的几百分之一。把这个数从地震、热噪声和激光散粒噪声里挖出来，靠的是四十年的隔振与降噪工程。
 
-另一个细节叫look-elsewhere effect（在一大段区间里到处找峰，比事先指定一个位置更容易撞上涨落）。粒子物理报数时必须同时给局部显著性和全局显著性，就是为了扣掉这一层。这类问题在路线A到D里根本不出现。
+数据到手之后是推断。这一层的骨架是贝叶斯公式：
 
-推断的结果反过来修正方程。中微子振荡实验（超级神冈1998年、SNO 2001年）证明中微子有质量，直接改写了标准模型里的一部分。
+$$
+p(\theta|d)=\frac{p(d|\theta)\,p(\theta)}{p(d)}
+$$
 
-实验这条路线还有一个特点：产出周期跟其它四条完全不在一个量级。LIGO从1980年代提出到2015年第一次探测到引力波，中间三十年。希格斯粒子从1964年被预言到2012年被找到，四十八年。这段时间里理论那一侧可以换好几拨人，实验这一侧必须有人一直守着。
+$\theta$是你想知道的物理参数，$d$是实测数据，$p(d|\theta)$是似然。第三章会说明，这条路线最深的卡点就藏在似然这一项里。
+
+实验能做多准，有一个理论下界。Fisher信息定义为
+
+$$
+I(\theta)=-\mathbb E\left[\frac{\partial^2\ln p(d|\theta)}{\partial\theta^2}\right]
+$$
+
+Cramér-Rao不等式说任何无偏估计的方差都不小于$1/I(\theta)$。实验设计这件事的数学内容，很大程度上就是在给定预算下把Fisher信息做大：该测哪个区间，该积多长时间，该用什么构型。
+
+假设检验是另一半。粒子物理里五个标准差那个门槛，对应的是随机涨落造成假信号的概率约三百五十万分之一。这个数字不从任何物理方程里推出来，它是这个共同体被历史上多次三个标准差的假信号坑过之后定下的规矩。2012年宣布发现希格斯粒子，本质上是两个实验组各自算出的局部显著性都越过了这条线。
+
+还有一个细节叫look-elsewhere effect：在一大段区间里到处找峰，比事先指定一个位置更容易撞上涨落。粒子物理报数时必须同时给局部显著性和全局显著性，就是为了扣掉这一层。这类问题在路线A到D里根本不出现。
+
+推断的结果反过来修正方程。中微子从$\nu_\mu$变成$\nu_\tau$的概率是
+
+$$
+P(\nu_\mu\to\nu_\tau)=\sin^22\theta\,\sin^2\!\left(\frac{\Delta m^2L}{4E}\right)
+$$
+
+只要振荡真的发生，$\Delta m^2$就不为零，中微子就必须有质量。超级神冈1998年测出大气中微子随$L/E$的振荡模式，SNO在2001年补上太阳中微子这一侧的证据，标准模型里中微子无质量那一条被实验直接推翻。
+
+还有一层方法论是前四条路线完全没有的：防止研究者自己作弊。误差分成统计误差和系统误差两块，前者靠攒数据压下去，后者靠标定和交叉检验，而且往往是后者主导。一旦系统误差主导，再攒数据也不会让结果变准。
+
+对付研究者偏见的标准手段是盲分析：先把真值藏起来，等整套分析流程冻结之后再解盲。费米实验室的缪子反常磁矩实验做得很彻底，两名合作组之外的员工把40MHz的数字化时钟调偏到一个保密频率上，整套进动分析在时间未校准的数据上完成，直到2021年所有系统误差评估结束、决定发表之后才解盲。这一步跟物理内容毫无关系，跟结论可不可信关系极大。
+
+这条路线还有一个特点：产出周期跟其它四条完全不在一个量级。LIGO从1980年代提出到2015年第一次探测到引力波，中间三十年。希格斯粒子从1964年被预言到2012年被找到，四十八年。这段时间里理论那一侧可以换好几拨人，实验这一侧必须有人一直守着。
+
+这条路线的成功标准是可复现：在同一套系统误差分析下，另一个组用另一台仪器要能测出同一个数。路线A到D争的是推导对不对，路线E争的是这个数可不可信。
 
 # 三、五条路线各自卡在哪里
 
@@ -949,6 +1036,14 @@ THOR攻击的是同一个维数灾难。这说明我在第四章判为"AI新能�
 
 **路线D：有效理论构造**
 
+- [On the Theory of Superconductivity](https://link.springer.com/chapter/10.1007/978-3-540-68008-6_4) - Ginzburg与Landau (1950)，金兹堡-朗道自由能
+- [Theory of Superconductivity](https://journals.aps.org/pr/abstract/10.1103/PhysRev.108.1175) - Bardeen, Cooper与Schrieffer, Phys. Rev. 108, 1175 (1957)
+- [Nobel Lecture: Type-II superconductors and the vortex lattice](https://link.aps.org/doi/10.1103/RevModPhys.76.975) - Abrikosov, Rev. Mod. Phys. 76, 975 (2004)，涡旋格子的预言与实验证实
+- [The theory of a Fermi liquid](https://iopscience.iop.org/article/10.1088/0034-4885/22/1/310) - 朗道费米液体理论与液氦3的比热
+- [Electron correlations in narrow energy bands](https://royalsocietypublishing.org/doi/10.1098/rspa.1963.0204) - Hubbard, Proc. R. Soc. A 276, 238 (1963)
+- [Anomalous Quantum Hall Effect](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.50.1395) - Laughlin, PRL 50, 1395 (1983)，分数电荷的试探波函数
+- [Observation of the e/3 Fractionally Charged Laughlin Quasiparticle](https://arxiv.org/abs/cond-mat/9706307) - Saminadayar等, PRL 79, 2526 (1997)
+- [Direct observation of a fractional charge](https://www.nature.com/articles/38241) - de-Picciotto等, Nature 389, 162 (1997)
 - [More Is Different](https://www.science.org/doi/10.1126/science.177.4047.393) - Anderson, Science 177, 393 (1972)
 - [Discovering governing equations from data by sparse identification](https://www.pnas.org/doi/10.1073/pnas.1517384113) - Brunton, Proctor与Kutz（SINDy）, PNAS 113, 3932 (2016)
 - [AI Feynman: A physics-inspired method for symbolic regression](https://www.science.org/doi/10.1126/sciadv.aay2631) - Udrescu与Tegmark, Sci. Adv. 6, eaay2631 (2020)
@@ -956,6 +1051,9 @@ THOR攻击的是同一个维数灾难。这说明我在第四章判为"AI新能�
 
 **路线E：实验、观测与推断**
 
+- [Measurement of the anomalous precession frequency of the muon in the Fermilab Muon g-2 Experiment](https://link.aps.org/doi/10.1103/PhysRevD.103.072002) - Muon g-2合作组, PRD 103, 072002 (2021)，硬件盲法的具体做法
+- [Evidence for Oscillation of Atmospheric Neutrinos](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.81.1562) - 超级神冈合作组, PRL 81, 1562 (1998)
+- [Measurement of the Rate of interactions Produced by 8B Solar Neutrinos at SNO](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.87.071301) - SNO合作组, PRL 87, 071301 (2001)
 - [The frontier of simulation-based inference](https://www.pnas.org/doi/10.1073/pnas.1912789117) - Cranmer, Brehmer与Louppe, PNAS 117, 30055 (2020)
 - [Real-Time Gravitational Wave Science with Neural Posterior Estimation](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.241103) - Dax, Green等（DINGO）, PRL 127, 241103 (2021)
 - [Real-time inference for binary neutron star mergers using machine learning](https://www.nature.com/articles/s41586-025-08593-z) - Dax等（DINGO-BNS）, Nature (2025)
