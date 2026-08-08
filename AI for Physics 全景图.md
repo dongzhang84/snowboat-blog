@@ -1006,6 +1006,26 @@ LHC的触发与事例重建判定为**化解**，赶数据率的部分接近新�
 
 贝叶斯优化做实验设计判定为**化解**，它在自动化实验平台上省的是机时和人力。
 
+把成绩摆完，得说一句不太舒服的话。这条路线上AI该解决的基本都解决了，可物理本身并没有跟着往前走。
+
+LHC那边，希格斯是2012年的事，十四年过去，超出标准模型的粒子一个也没找到。超对称在最直接的几条搜索道里连影子都没有。触发和重建做得再漂亮，也变不出不存在的粒子。
+
+LIGO那边数字更好看。2026年5月发布的GWTC-5.0把探测总数推到390个，光O4b那一段就新增161个，而且全是双黑洞并合。2025年1月的GW250114是迄今最响的事例，比GW150914响约三倍，它对广义相对论和黑洞的Kerr性质做了单事例最严格的检验：基频测到2%精度，衰减时间测到9%，全都跟广义相对论符合。霍金的面积定理也在这个事例上被验证，两个黑洞初始总面积约24万平方公里，并合后约40万平方公里。
+
+390个事例，没有一个偏离广义相对论。
+
+最能说明问题的是缪子反常磁矩。二十年来它是新物理最大的一个迹象，实验值和标准模型预言差了四个多标准差。费米实验室2025年6月给出最终结果，精度做到十亿分之127。
+
+然后这个迹象消失了。同一年的理论组更新把领先阶强子真空极化那一项换成格点QCD的结果，标准模型预言整体上移，跟实验之间的张力就没有了。
+
+要注意消掉它的是什么。新数据没有推翻这个迹象，把它抹平的是一次计算精度的提升，而那次计算属于路线B（数值模拟）。
+
+三件事放在一起，路线E（实验与推断）的处境就清楚了。AI拿下的是数据处理那一环，而数据处理从来不是物理停滞的原因。
+
+真正的瓶颈在另外两处，AI在这两处都插不上手。一处是仪器本身：想看到更高能标，得造更大的对撞机，想看到更弱的信号，得造更灵敏的干涉仪，那是钱、工程和几十年时间的事。另一处有时落在理论计算这一侧，缪子g-2就是活例子。
+
+第二处反倒有点意思，因为它恰好是路线B（数值模拟）使得上劲的地方。4.3讲的格点场论流模型，攻的正是格点计算里的临界慢化。这条路要是真走通，它对物理结论的影响，可能比路线E（实验与推断）上任何一项数据处理的改进都大。
+
 ## 4.7 这一章的账
 
 把4.1到4.6节的判定摆在一起，分布很清楚。
@@ -1030,7 +1050,7 @@ LHC的触发与事例重建判定为**化解**，赶数据率的部分接近新�
 
 还有一个能自查的办法：把一项工作的成绩换算成“它让什么问题从做不到变成了做得到”。换算得出来的，多半在新能力那一档。换算不出来、只能说成“原来要三天现在要三分钟”的，属于化解。这个换算做起来比直接看加速比诚实得多。
 
-# 五、这张地图装不下的东西
+# 五、上面的路线总图装不下的东西
 
 把AI for Physics的内容按路线A到E套完一遍之后，还剩下一批装不进去的。更好的做法是把它们列出来，并说明为什么装不下。
 
@@ -1296,6 +1316,11 @@ THOR攻击的是同一个维数灾难。这说明我在第四章判为"AI新能�
 - [Real-Time Gravitational Wave Science with Neural Posterior Estimation](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.241103) - Dax, Green等（DINGO）, PRL 127, 241103 (2021)
 - [Real-time inference for binary neutron star mergers using machine learning](https://www.nature.com/articles/s41586-025-08593-z) - Dax等（DINGO-BNS）, Nature (2025)
 - [Magnetic control of tokamak plasmas through deep reinforcement learning](https://www.nature.com/articles/s41586-021-04301-9) - Degrave等, Nature 602, 414 (2022)
+
+- [Measurement of the Positive Muon Anomalous Magnetic Moment to 127 ppb](https://muon-g-2.fnal.gov/result2025.pdf) - Muon g-2合作组（2025年6月），最终结果
+- [Fermilab's final word on muon g-2](https://cerncourier.com/fermilabs-final-word-on-muon-g-2/) - CERN Courier，格点QCD使标准模型预言上移、张力消失
+- [GWTC-5.0: Observations from the Second Part of the Fourth LIGO-Virgo-KAGRA Observing Run](https://arxiv.org/abs/2605.27225) - arXiv:2605.27225（2026），累计390个事例
+- [Black Hole Spectroscopy and Tests of General Relativity with GW250114](https://arxiv.org/abs/2509.08099) - arXiv:2509.08099（2025），单事例最严格的广义相对论检验
 
 **物理基础模型与科研劳动**
 
