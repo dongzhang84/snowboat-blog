@@ -942,15 +942,27 @@ Michael Albergo等人从2019年起换了个思路。训一个网络，把高斯�
 
 定性分析这条路线上，AI的工作数量不少，产出的性质却相当一致。
 
-Ziming Liu和Max Tegmark 2021年在《Physical Review Letters》上的AI Poincaré从轨迹数据里自动识别守恒量，在五个哈密顿系统上测试，包括引力三体问题。Koopman算子方法和动态模态分解（DMD）找能把非线性动力学线性化的坐标。无监督相分类从蒙特卡洛构型里自动划出相边界，Juan Carrasquilla和Roger Melko、以及Evert van Nieuwenburg等人2017年在《Nature Physics》上的两篇是这一支的起点。
+守恒量这一支起步最早。Ziming Liu和Max Tegmark 2021年在《Physical Review Letters》上的AI Poincaré从轨迹数据里自动识别守恒量，在五个哈密顿系统上测试，包括引力三体问题。第二版改成从微分方程出发，还能保证找出来的几个量彼此函数独立。
 
-Koopman算子和动态模态分解这一支在工程上落地得更实。从流体实验数据里提取主导模态、给出线性化的降阶模型，这套东西在流动控制和结构健康监测里已经在用。它给出的仍然是对已知系统的紧凑描述，而不是关于解的整体结构的新陈述。
+相变识别那一支的起点是王磊2016年在《Physical Review B》上的工作。他拿主成分分析去处理伊辛模型的自旋构型，聚类就自动把两个相分开了，而且第一主成分对应的正是序参量。第二年Juan Carrasquilla和Roger Melko、以及Evert van Nieuwenburg等人在《Nature Physics》上各发一篇，把这条路推到了监督学习和"用混淆来学"两种做法上。
 
-方法都很漂亮。产出呢，主要还是已知结果的重现。AI Poincaré找到的是角动量和能量，无监督相分类划出的是伊辛模型的临界温度。这些工作的价值是方法验证，证明这条路技术上走得通。
+Koopman算子和动态模态分解这一支在工程上落地得更实。它要找的是一组新坐标，让非线性动力学在这组坐标下变成线性的，之后就能拿线性理论去处理。Bethany Lusch、Nathan Kutz和Steven Brunton 2018年在《Nature Communications》上用改造过的自编码器直接学Koopman本征函数，还用一个辅助网络对付了连续谱这种麻烦情形。从流体实验数据里提取主导模态、给出降阶模型，这套东西在流动控制和结构健康监测里已经在用。
 
-说句公道话，AI Poincaré的产出不止于此，它同时给出了近似守恒律的失效时标和周期轨道的识别，后者不算已知结果的简单重现。但主体产出的性质没有变。
+方法都很漂亮。产出呢，主要还是已知结果的重现。AI Poincaré找到的是角动量和能量，无监督相分类划出的是伊辛模型的临界温度，Koopman交出的是对已知系统的一份紧凑描述。
+
+最能说明问题的是拓扑不变量那一支。张鹏飞、沈慧涛和翟荟2018年在《Physical Review Letters》上训网络从一维手征对称绝缘体的哈密顿量直接读出拓扑绕数，准确率接近100%，连训练集里没出现过的更大绕数也照样算对。
+
+关键在于他们没有停在这里，而是把网络剖开看了一遍。中间隐层的输出对应的正是绕角，换一类模型则对应Berry曲率，也就是说网络学到的东西就是绕数公式的离散版本。这是一个很硬的旁证：网络在这里学到的就是那个已知公式，而这一点是打开网络看到的，不是从产出反推出来的。
 
 判定：**目前主要是验证**。
+
+说句公道话，AI Poincaré的产出不止于此，它同时给出了近似守恒律的失效时标和周期轨道的识别，后者不算已知结果的简单重现。
+
+还有一件工作值得单说，因为它是这条路线上少见的、把定性理论本身当先验硬编码进去的做法。Thomas Bury等人2021年在《美国国家科学院院刊》上用CNN加LSTM做临界转变的早期预警，理论根据正是2.4讲过的中心流形定理：系统临近分岔时，动力学会退化到一个低维中心流形上，拓扑等价于该分岔的范式。
+
+既然如此，网络只要在几种范式的模拟数据上训练，就能迁移到完全不同的真实系统去。他们测的是地中海沉积物里记录的缺氧转变、冰芯里的古气候突变，以及热声系统的Hopf分岔。
+
+这件工作交出的东西仍然是"这个系统正在接近某一类分岔"，分岔的分类是现成的，所以判定不变。但它示范了一条路子：把定性理论已经证明的结构当成网络的先验塞进去，别指望网络从零学出来。
 
 唯一可能的出口是高维定性分析。人画不出五十维的相图，庞加莱-本迪克松定理在高维失效，这一格里传统方法本来就没有工具。
 
@@ -1263,7 +1275,12 @@ THOR攻击的是同一个维数灾难。这说明我在第四章判为"AI新能�
 - [Machine Learning Conservation Laws from Trajectories](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.180604) - Liu与Tegmark（AI Poincaré）, PRL 126, 180604 (2021)
 - [Using machine learning to replicate chaotic attractors and calculate Lyapunov exponents from data](https://pubs.aip.org/aip/cha/article/27/12/121102/135382/) - Pathak等, Chaos 27, 121102 (2017)
 - [Model-Free Prediction of Large Spatiotemporally Chaotic Systems from Data](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.024102) - Pathak等, PRL 120, 024102 (2018)
+- [Discovering Phase Transitions with Unsupervised Learning](https://link.aps.org/doi/10.1103/PhysRevB.94.195105) - 王磊, Phys. Rev. B 94, 195105 (2016)，主成分分析自动分相，第一主成分对应序参量
 - [Machine learning phases of matter](https://www.nature.com/articles/nphys4035) - Carrasquilla与Melko, Nat. Phys. 13, 431 (2017)
+- [Machine Learning Topological Invariants with Neural Networks](https://link.aps.org/doi/10.1103/PhysRevLett.120.066401) - 张鹏飞、沈慧涛与翟荟, PRL 120, 066401 (2018)，剖开网络确认它学到的是绕数公式
+- [Deep learning for universal linear embeddings of nonlinear dynamics](https://www.nature.com/articles/s41467-018-07210-0) - Lusch, Kutz与Brunton, Nat. Commun. (2018)
+- [Deep learning for early warning signals of tipping points](https://www.pnas.org/doi/10.1073/pnas.2106140118) - Bury等, PNAS 118, e2106140118 (2021)，以中心流形定理为先验
+- [AI Poincaré 2.0: Machine Learning Conservation Laws from Differential Equations](https://arxiv.org/abs/2203.12610) - Liu, Madhavan与Tegmark，arXiv:2203.12610
 
 **路线D：有效理论构造**
 
