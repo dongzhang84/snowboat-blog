@@ -14,8 +14,8 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 87 | 7/31 | [大数据概念兴衰史](大数据概念兴衰史.md) | [link](https://x.com/snowboat84/status/2083346249663844656) | 14k | [link](https://zhuanlan.zhihu.com/p/2066785355009991258) |
 | 86 | 7/30 | [量子力学研究史（上）：从黑体辐射到希尔伯特空间](量子力学研究史（上）：从黑体辐射到希尔伯特空间.md) | [link](https://x.com/snowboat84/status/2083063168981737698) | 15k | [link](https://zhuanlan.zhihu.com/p/2066494403678671041) |
 | 85 | 7/29 | [纳维-斯托克斯方程：一个方程背后的多重难题](纳维-斯托克斯方程：一个方程背后的多重难题.md) | [link](https://x.com/snowboat84/status/2082618473776329127) | 21k | [link](https://zhuanlan.zhihu.com/p/2066062944727740890) |
-| 84 | 7/28 | [算法交易是怎么吃掉华尔街的](算法交易是怎么吃掉华尔街的.md) | [link](https://x.com/snowboat84/status/2082257654353895482) | 2.9k | [link](https://zhuanlan.zhihu.com/p/2065693506929178017) |
-| 83 | 7/27 | [顶尖 VC 2026 年以来动向观察](顶尖%20VC%202026%20年以来动向观察.md) | [link](https://x.com/snowboat84/status/2081903835833147732) | 4.6k | [link](https://zhuanlan.zhihu.com/p/2065352325250684815) |
+| 84 | 7/28 | [算法交易是怎么吃掉华尔街的](archive/算法交易是怎么吃掉华尔街的.md) | [link](https://x.com/snowboat84/status/2082257654353895482) | 2.9k | [link](https://zhuanlan.zhihu.com/p/2065693506929178017) |
+| 83 | 7/27 | [顶尖 VC 2026 年以来动向观察](archive/顶尖%20VC%202026%20年以来动向观察.md) | [link](https://x.com/snowboat84/status/2081903835833147732) | 4.6k | [link](https://zhuanlan.zhihu.com/p/2065352325250684815) |
 | 82 | 7/24 | [美国数学教育和研究现状](archive/美国数学教育和研究现状.md) | [link](https://x.com/snowboat84/status/2080872418999156980) | 28k | [link](https://zhuanlan.zhihu.com/p/2064320030884603483) |
 | 81 | 7/23 | [AI 安全综述：我们到底在怕什么？](archive/AI%20安全综述：我们到底在怕什么？.md) | [link](https://x.com/snowboat84/status/2080455644180832672) | 3.5k | [link](https://zhuanlan.zhihu.com/p/2063902539439928913) |
 | 80 | 7/22 | [强化学习沉浮史](archive/强化学习沉浮史.md) | [link](https://x.com/snowboat84/status/2080159169806799316) | 19k | [link](https://zhuanlan.zhihu.com/p/2063606573868511864) |
