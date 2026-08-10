@@ -88,7 +88,7 @@ Shakey还留下了一个今天很少被提起的教训。它跑一个"把箱子�
 
 1980年12月，Reid G. Smith发表了合约网协议。一个manager把任务公告出去，各个contractor根据自己的能力投标，manager授标，中标者履约并回报结果。公告、投标、授标、履约，四个阶段。
 
-四十六年过去了，A2A协议里agent之间的协作形态跟这四步几乎逐条对应。 变的只有一样东西，信任模型。这条线埋在这里，第六章收。
+四十六年过去了，A2A协议里agent之间的协作形态跟这四步几乎逐条对应。A2A是2025年出现的agent互联标准，管的是一个agent怎么把活委派给另一家公司的agent，第六章会详细讲。变的只有一样东西，信任模型。这条线埋在这里，第六章收。
 
 到1990年代，通信语言也标准化了。KQML出自DARPA的知识共享计划，定义了一套performative，agent之间用ask、tell、achieve这类语言行为交换知识。FIPA在1996年成立，它定义的ACL带形式语义，还附了一整套交互协议库，其中就包括合约网。
 
@@ -556,7 +556,21 @@ Anthropic几乎同时发表了他们的多智能体研究系统，讲的是一�
 
 MCP从此不再是某一家公司的协议。这件事对企业采购的意义比对技术的意义大：合规部门可以在中立基金会的治理文件上签字，不用赌某一家公司的路线图。
 
-A2A走的是另一条路，而且更早。2025年6月23日，Google把A2A捐给了Linux基金会，它有自己的技术指导委员会，成员包括AWS、Cisco、Google、IBM Research、Microsoft、Salesforce、SAP和ServiceNow。A2A不在AAIF旗下，两个项目在同一个基金会里各自独立。
+另一条线是A2A，全称Agent2Agent，Google在2025年4月9日发布。
+
+它要解决的问题跟MCP正好错开一格。MCP让一个agent接上工具，而工具是被动的，你调它、它返回数据。A2A要处理的情况是对面也是一个agent，有自己的模型、自己的上下文、自己的一堆工具，你想把一整件事委派给它，而不是调用它的某个函数。
+
+具体怎么工作，只要记住三个东西。
+
+第一个是Agent Card，一份机器可读的JSON名片，发布在一个约定好的地址上（`/.well-known/agent-card`），写清楚这个agent是谁、会哪几项技能、端点在哪、需要什么鉴权。客户端agent想找人干活，先去读这张名片。
+
+第二个是Task，一件被委派出去的工作。它是有生命周期的对象，可以跑很久，中间状态和产物可以流式回传，因为对面那个agent可能要花十分钟才做完。
+
+第三个是鉴权。读完名片、拿到凭证（通常是JWT），才能把任务提交过去。
+
+举个具体的场景。你公司的报销agent需要查一张机票的改签规则，这件事归航司那边的agent管。报销agent读到航司agent的名片，确认它有"查改签政策"这项技能，带着凭证把任务提过去，航司agent用自己的内部系统查完，回传结果。两边谁都没有把自己的工具、提示词和数据暴露给对方。
+
+治理上A2A走的是另一条路，而且比MCP更早独立。2025年6月23日，Google把A2A捐给了Linux基金会，它有自己的技术指导委员会，成员包括AWS、Cisco、Google、IBM Research、Microsoft、Salesforce、SAP和ServiceNow。A2A不在AAIF旗下，两个项目在同一个基金会里各自独立。
 
 A2A的v1.0在2026年3月发布，是第一个宣布可用于生产的稳定版本。三项变化最实在：Agent Card可以被密码学签名，用JWS包一层，接收方能验证这张名片确实来自它声称的域名。单个端点支持多租户，一个服务可以安全地托管很多agent。传输层同时支持JSON over HTTP、gRPC和JSON-RPC三种绑定。
 
@@ -955,6 +969,8 @@ RLVR的做法是承认这一点，干脆退回到只在可自动验证的地方�
 - [Is there a half-life for the success rates of AI agents?（Toby Ord）](https://arxiv.org/abs/2505.05115) - arXiv 2505.05115
 - [Linux Foundation Announces the Formation of the Agentic AI Foundation](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation) - Linux 基金会 2025-12-09
 - [MCP joins the Agentic AI Foundation](https://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/) - MCP 官方博客
+- [Announcing the Agent2Agent Protocol (A2A)](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) - Google 2025-04-09
+- [What is A2A](https://a2a-protocol.org/latest/topics/what-is-a2a/) - A2A 官方文档
 - [Announcing A2A Version 1.0](https://a2a-protocol.org/latest/announcing-1.0/) - A2A 官方
 - [A year of open collaboration: Celebrating the anniversary of A2A](https://opensource.googleblog.com/2026/04/a-year-of-open-collaboration-celebrating-the-anniversary-of-a2a.html) - Google 开源博客 2026-04
 - [OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks](https://arxiv.org/abs/2606.29537) - arXiv 2606.29537，2026-06-28
