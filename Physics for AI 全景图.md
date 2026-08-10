@@ -10,14 +10,14 @@
 
 我把手上能找到的相关综述过了一遍，没有一份是按"物理方向对具体开放问题"来排的。
 
-|综述|组织轴|
-|---|---|
-|Bahri等，_Annu. Rev. Condens. Matter Phys._ 11, 501 (2020)|按机器学习的问题清单|
-|Decelle与Furtlehner，arXiv:2011.11307|按模型，讲受限玻尔兹曼机与平均场|
-|Cui，_J. Stat. Mech._ 2025, 023402|按可解模型类|
-|Pei，_Appl. Phys. Rev._ 13, 011311 (2026)|按物理概念，属于展望，不落到具体问题|
-|Montanari与Sen，arXiv:2602.23326|按数学工具，自旋玻璃概念在统计与学习里的应用|
-|Simon、Kunin等，arXiv:2604.21691|按认识论角色，讨论深度学习会不会有科学理论|
+| 综述                                                       | 组织轴                    |
+| -------------------------------------------------------- | ---------------------- |
+| Bahri等，_Annu. Rev. Condens. Matter Phys._ 11, 501 (2020) | 按机器学习的问题清单             |
+| Decelle与Furtlehner，arXiv:2011.11307                      | 按模型，讲受限玻尔兹曼机与平均场       |
+| Cui，_J. Stat. Mech._ 2025, 023402                        | 按可解模型类                 |
+| Pei，_Appl. Phys. Rev._ 13, 011311 (2026)                 | 按物理概念，属于展望，不落到具体问题     |
+| Montanari与Sen，arXiv:2602.23326                           | 按数学工具，自旋玻璃概念在统计与学习里的应用 |
+| Simon、Kunin等，arXiv:2604.21691                            | 按认识论角色，讨论深度学习会不会有科学理论  |
 
 它们各有各的好，但读完之后你还是没法回答"我明天该动手做哪一条"。这张映射表没人做过，这就是本文的位置。
 
@@ -67,7 +67,17 @@
 
 解决它的方法，本质上是物理的。把深度当作时间，问信号在层与层之间传播的时候方差怎么变，然后算出各层激活方差与梯度方差的传递关系，要求初始化落在传递既不放大也不衰减的那个点上。这个点就是"混沌边缘"。
 
-产物是He初始化和Xavier初始化，以及后续的均场信号传播理论。Poole等人2016年那篇《Exponential expressivity in deep neural networks through transient chaos》把随机深网的表达力和有序到混沌的相变联系起来，Schoenholz等人2017年的《Deep Information Propagation》进一步给出了几个自然涌现的深度尺度，其中一个在有序与混沌的边界上发散。
+产物是Xavier初始化和He初始化，以及后续的均场信号传播理论。
+
+这两个名字值得展开一下，因为它们是"物理式分析直接变成一行代码"的典型。
+
+训练开始前，权重要先随机填一遍。填的数值取多大，看起来像个无关紧要的细节，实际上决定了几十层的网络能不能训。道理不难懂：每过一层，信号的方差就被权重放大或者缩小一次。如果每层缩小到原来的0.9倍，五十层之后就只剩万分之五，前面几层的梯度小到没有意义，这是梯度消失。如果每层放大到1.1倍，五十层之后是一百多倍，数值直接溢出，这是梯度爆炸。
+
+Xavier初始化（Glorot与Bengio，2010年）做的就是把这个放大倍数算出来，然后倒推该用多大的方差去填。他们要求前向的激活方差和反向的梯度方差都尽量保持不变，两个要求折中之后，权重方差取2除以（输入维度加输出维度）。这套推导假设激活函数在零点附近近似线性，所以它对tanh和sigmoid管用。
+
+He初始化（He等人，2015年）修的是ReLU带来的偏差。ReLU把所有负数直接置零，等于砍掉了一半的信号，方差也就掉了一半。既然如此，权重的方差就该翻倍来补回去，于是变成2除以输入维度。这一个因子2，就是深层ReLU网络能不能训起来的分界。
+
+这两件事的形式和物理里算传输矩阵、要求增益为1，是同一个动作。它没有引入任何新的机器学习概念，只是把"信号逐层传播时方差怎么变"这个问题老老实实算了一遍。Poole等人2016年那篇《Exponential expressivity in deep neural networks through transient chaos》把随机深网的表达力和有序到混沌的相变联系起来，Schoenholz等人2017年的《Deep Information Propagation》进一步给出了几个自然涌现的深度尺度，其中一个在有序与混沌的边界上发散。
 
 一个空缺，就是最干净的存在性证明。这是一条曾在清单上、又被物理式方法移出清单的记录，比任何"物理可能有用"的表态都硬。这也是我把它放在开篇的理由。
 
@@ -573,6 +583,8 @@ Mori-Zwanzig形式主义要解决的问题是：你有一个自由度极多的�
 
 - [Statistical Mechanics of Deep Learning](https://www.annualreviews.org/doi/abs/10.1146/annurev-conmatphys-031119-050745) - Bahri等，Annu. Rev. Condens. Matter Phys. 11, 501 (2020)
 - [Exponential expressivity in deep neural networks through transient chaos](https://papers.nips.cc/paper/6322-exponential-expressivity-in-deep-neural-networks-through-transient-chaos) - Poole等，NeurIPS 2016
+- [Understanding the difficulty of training deep feedforward neural networks](https://proceedings.mlr.press/v9/glorot10a.html) - Glorot与Bengio，AISTATS 2010，Xavier初始化
+- [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](https://arxiv.org/abs/1502.01852) - He等，ICCV 2015，He初始化
 - [Deep Information Propagation](https://arxiv.org/abs/1611.01232) - Schoenholz等，ICLR 2017
 - [Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer](https://arxiv.org/abs/2203.03466) - Yang与Hu，μP与超参跨规模迁移
 - [Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability](https://arxiv.org/abs/2103.00065) - Cohen等，ICLR 2021
