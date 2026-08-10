@@ -548,7 +548,7 @@ Anthropic几乎同时发表了他们的多智能体研究系统，讲的是一�
 
 # 六、2026：管道铺好了，判断力没跟上
 
-2026年的agent世界有两个并行的现实。管道这一侧全部铺好了，协议标准化、治理中立化、工具生态成熟。能力这一侧，长程任务的完成率低得让人清醒。
+2026年的agent世界有三个并行的现实。管道这一侧全部铺好了，协议标准化、治理中立化、工具生态成熟。能力这一侧，长程任务的完成率低得让人清醒。部署这一侧最容易被忽略，真正在企业里规模化跑起来的agent，比行业声量小一到两个数量级。
 
 ## 6.1 协议层定型：MCP连工具，A2A连同伴
 
@@ -643,7 +643,46 @@ Meta在2025年12月29日前后宣布收购Manus，交易额约20亿美元，计�
 
 2026年的真实图景是三件事同时发生，而且方向并不一致：通用agent被平台收编，薄壳产品被模型内化，而深度垂直的agent因为模型终于够强，刚刚变得可行。第三条经常被前两条的悲观情绪盖掉。
 
+第三条要加一句限定，下一节的数据会说明为什么。可行指的是技术上跑得通，而跑得通到真正在企业里规模化运行，中间还隔着流程改造、数据权限和责任划分，这几件事的速度跟模型能力无关。
+
 判断自己在哪一格，方法在第七章。
+
+## 6.4 2026年办成了什么，现状又是什么样
+
+先看一组跟前面几节的乐观语气对不上的数字。
+
+麦肯锡在2025年11月5日发布的全球调研，样本是105个国家的1993位受访者，问的就是agent。88%的组织已经在至少一个职能里常规使用AI，62%至少在试agent。听起来铺得很开。
+
+往下看一层就变了。真正把某个agent系统规模化的组织只有23%，而且在任何一个具体职能里，规模化的比例都不超过10%。已经规模化的那批公司，多数也只在一到两个职能上做到。企业层面能报出EBIT影响的，只有39%。
+
+供给侧的水分更明显。Gartner在2025年6月的判断是，到2027年底超过40%的agentic AI项目会被取消，原因是成本失控、价值说不清、风险控制跟不上。同一份文件里点名了agent washing这个现象，也就是把原有的助手、RPA和聊天机器人改个名字重新卖，并且估计数千家自称做agentic AI的供应商里，只有约130家是真的。
+
+把这些数字跟前面三节放在一起，2026年的真实状态就清楚了：协议是通的，管子里流的东西不多，而且卖管子的人里大部分在包装。
+
+例外仍然是编码。Anthropic公布的运行率收入从2025年底的90亿美元涨到2026年5月的470亿美元，这是全公司口径，但驱动它的主力产品是编码agent，这一格是这一波里唯一有明确付费规模的品类。Google的CEO早在2024年10月就说过，公司超过25%的新代码由AI生成。
+
+自带验证器的地方是生产力，其余地方停在23%里的一两个职能。这条分界跟7.5那句话是同一件事，只是换成了财报和调研的语言。
+
+协议层为什么会跑在部署层前面，原因也不复杂。定协议是几家公司关起门就能做完的事，一年足够。部署要每个企业自己改流程、开数据权限、重写内部审批，还要有人愿意为出错负责，这件事的速度由组织决定，跟模型没关系。
+
+| 2026年办成的事 | 办到什么程度 | 卡在哪 |
+|---|---|---|
+| 工具接入标准化，MCP进中立基金会 | 协议层完成 | 接得上不等于用起来，规模化率23% |
+| 跨组织协作有了可验证身份 | A2A v1.0与签名Agent Card落地 | 真实的跨组织调用量还很小 |
+| 编排形态收敛 | orchestrator加只读子agent成为共识 | 只治上下文污染，不治单步可靠性 |
+| 上下文管理有了成熟做法 | 四个动作可复制 | 压缩会静默删掉安全约束 |
+| 编码成为真正的生产力 | 唯一有明确付费规模的品类 | 复制不到没有验证器的领域 |
+| 评测换代 | OSWorld 2.0这类长程基准补上刻度 | 新刻度上的成绩是20.6% |
+
+留到2027年的问题有三个，分别对应上面这张表的三种卡法。
+
+能力上，长程任务的完成率还是两成，而失败方式是指数的。工程和协议再完善，也改不动这个数。
+
+信任上，跨组织的agent协作有了身份和签名，但责任划分一片空白。一个agent按授权花了钱、买错了东西，责任在用户、在agent厂商还是在模型公司，2026年没有哪个司法辖区给出清楚的划分。
+
+判断上，这一整块几乎原地不动。这也是全篇要收的那条线，下一章处理。
+
+一句话总结2026年：办成的是"接上"，没办成的是"信得过"。
 
 # 七、七十年里能读出什么
 
@@ -878,7 +917,7 @@ RLVR的做法是承认这一点，干脆退回到只在可自动验证的地方�
 
 2025年，能力来源从"你怎么写提示词"换成"模型在什么环境里被训练过"，主导权跟着环境、失败轨迹和算力一起，往模型公司那边移。
 
-2026年，协议和治理全部铺好了，MCP连工具、A2A连同伴，同时长程任务的完成率仍然只有两成，管道跑在了能力前面。
+2026年，协议和治理全部铺好了，MCP连工具、A2A连同伴，同时长程任务的完成率只有两成、真正规模化用起来的组织只有两成三，管道跑在了能力和部署前面。
 
 四年连起来是一条清楚的曲线：先用工程弥补模型，再把工程一件件拆掉，最后靠训练直接拿能力。这条曲线在编码上走完了一整轮，在别的领域刚开始。
 
@@ -976,6 +1015,9 @@ RLVR的做法是承认这一点，干脆退回到只在可自动验证的地方�
 - [OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks](https://arxiv.org/abs/2606.29537) - arXiv 2606.29537，2026-06-28
 - [China blocks Meta's $2B Manus deal after months-long probe](https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/) - TechCrunch 2026-04-27
 - [Tencent moves to buy majority stake in Manus](https://the-decoder.com/tencent-moves-to-buy-majority-stake-in-manus-after-beijing-forced-meta-to-unwind-its-2-billion-deal/) - The Decoder 2026-07-10
+- [The State of AI in 2025: Agents, innovation, and transformation](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai) - 麦肯锡 2025-11-05，105国1993份样本
+- [Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027) - Gartner 2025-06-25
+- [Anthropic's run-rate revenue hits $47 billion](https://simonwillison.net/2026/May/29/anthropic/) - Simon Willison 整理的官方公告时间线
 - [Silicon Valley bets big on 'environments' to train AI agents](https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/) - TechCrunch 2025-09-21
 - [Environments Hub: A Community Hub To Scale RL To Open AGI](https://www.primeintellect.ai/blog/environments) - Prime Intellect
 - [An FAQ on Reinforcement Learning Environments](https://epoch.ai/gradient-updates/state-of-rl-envs) - Epoch AI
