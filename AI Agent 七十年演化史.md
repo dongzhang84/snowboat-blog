@@ -700,99 +700,103 @@ RLVR的做法是承认这一点，干脆退回到只在可自动验证的地方�
 
 这是一个诚实的做法，也是一条明确的天花板。agent能走到哪里，取决于人类能把多少工作改造成可判分的形式，而不取决于模型还能再大多少倍。
 
-# 八、2027之后：约束换到了哪里
+# 八、2026之后：约束换到了哪里
 
-前七章讲的都是已经发生的事。这一章往前看，规矩是只用已经公开、可以被后来的事实打脸的东西：现有曲线的外推、有人公开做出的判断、已经写进日程的立法。不做时间表式的断言。
+前七章讲的都是已经发生的事。这一章只做一件事：把2026年agent还卡在哪里说清楚，每一条卡点后面跟上目前能看到的改法，以及这些改法各自的代价。
 
-一个先说清楚的前提：这一章里我认为最可能出问题的判断会明确标出来，读者三年后回头对账，应该能查得清楚我错在哪。
+排的顺序是从最能动手的到最不能动手的。准确率和判断力是模型和训练层面的问题，工程是今天就能改的，大语言模型本身的架构限制是最慢的一层。
 
-## 8.1 曲线还能不能外推
+## 8.1 准确率：错在哪，能怎么改
 
-先做一遍算术。按METR在2026年1月给出的修正值，2024年之后时间视野的倍增周期约88.6天，一年翻四倍。当时前沿的Claude Opus 4.5，50%时间视野是320分钟。
+先把"准确率低"这个笼统的说法拆开。2026年agent在长任务上失败，主要是三件不同的事。
 
-照这个速度往前推，2026年底大约在21小时，2027年底大约在两周。这是外推，不是预测，METR自己在文章里也强调只看一年数据的估计不稳。
+最基础的一件在6.2讲过：逐步危险率大致恒定，任务一长，成功率指数衰减。这一条的根源是单步可靠性，而单步可靠性的提升越来越慢。
 
-真正需要注意的是这条曲线的三层护栏。
+第二件是错误进了上下文之后会被后续步骤反复辩护。这跟长上下文本身的退化叠在一起，2026年有了一个专门的名字叫上下文腐坏（context rot），模型在长会话里的表现会随轮数下降，跟窗口有没有装满关系不大。
 
-第一层是置信区间。那个320分钟的估计区间是170分钟到729分钟，上下差四倍多。用一个上下差四倍的量去做四年外推，误差会滚成什么样，做过物理的人都清楚。
+第三件最麻烦，是信用分配。一次几百步的任务只在终点给一个奖励，训练时根本不知道该罚哪一步。更糟的是分不清失败是因为选错了动作，还是因为对当前状态的判断本来就错了，2026年有论文专门处理这个区分。
 
-第二层是工具本身。METR在2026年5月更新的页面上加了一条注记：超过16小时的测量，用现有的任务套件已经不可靠。也就是说这条曲线最关键的那一段，现在的尺子还量不了。
+三件事对应三条改法，成熟度依次递减。
 
-第三层来自Toby Ord那个恒定危险率模型。如果失败率在人类耗时的每一分钟上是恒定的，那么时间视野每翻一倍，就要求逐步危险率减半。曲线延续三年，等于要求这个危险率在三年里降到八十分之一以下。这是一个比"模型再大一点"强得多的要求。
+第一条是把只在终点打分的做法，改成每一步打分。2026年这条线上比较扎实的工作是可验证过程奖励（Verifiable Process Rewards），做法是把任务自带的oracle转换成每一轮的稠密监督信号，让长程任务的信用分配有落点。AgentV-RL走的是另一条路，先用合成的验证轨迹做拒绝采样微调，再上强化学习。
 
-三层护栏加起来，我的判断是：这条曲线大概率还会涨，但涨在哪里比涨多快更值得关注。
+第二条是把自验证当成一种要训出来的能力，而不是提示词技巧。2023年的反思循环是在外面套一层"你再检查一遍"，效果有限。ReVeal的做法是把长程推理直接组织成生成和验证交替的多轮结构，用强化学习显式优化验证那一半。
 
-把可能性摊开成三种，每种都给一个能提前看到的信号：
+第三条是承认错误必然发生，把投入从"不出错"转到"出错能被发现"。2026年一组关于运行期验证的结果值得记住：给agent挂上结构化的运行期反馈钩子之后，它能从约七成的错误里恢复过来，而恢复率强烈依赖错误信息本身的质量。
 
-| 情景 | 会发生什么 | 提前能看到的信号 |
-|---|---|---|
-| 曲线整体延续 | 2027年出现能独立跑完人类一到两周工作量的agent | 长程基准（OSWorld 2.0这一类）的完成率同步上台阶 |
-| 曲线在某个长度上折断 | 时间视野卡在一两天，怎么加算力都不动 | 长程基准饱和在三四成，而短任务基准继续刷高 |
-| 曲线只在可验证任务上延续 | 编码、数据、运维继续陡涨，判断类任务几乎不动 | 同一个模型在SWE-bench类和GDPval类基准上的差距持续拉大 |
+这一条直接接回4.2的ACI。报错写得清楚，恢复率就高，这件事今天就能做，不用等任何新模型。
 
-**我最相信第三种。** 理由在7.5已经写完了，能力增长的地方跟能判分的地方高度重合，而这两年新增的训练信号绝大部分来自可验证环境。
+把单步准确率再提两个点很难，把"错了能立刻被发现"的比例提两成要容易得多，而后者在长任务上的收益更大。这是我认为2026年之后最值得投的一个方向。
 
-第三种情景对从业者的含义跟前两种完全不同。它意味着不该问"agent什么时候能干这件事"，该问"这件事能不能被判分"。
+改法要落地，前提是有训练信号，而训练信号来自可判分的环境。这就是2025年下半年起强化学习环境变成一门独立生意的原因，有报道称Anthropic在讨论一年投入超过10亿美元采购环境，Prime Intellect则做了一个开源的Environments Hub，社区环境数量在2026年已经过2500个。
 
-## 8.2 下一个瓶颈是环境，不是模型
+同时要清楚这条路的算力天花板。按Epoch AI的估算，推理训练的算力会在2026年前后追平前沿模型的总训练预算，之后"再放大十倍"这个办法就不成立了。往后拼的是环境的质量和覆盖，而不是把同样的东西再多跑十倍。
 
-2025年下半年起，一个新的产业环节冒了出来：专门给模型公司造强化学习环境的公司。
+## 8.2 判断力：agent不知道自己不知道
 
-规模不小。2025年9月有报道称Anthropic在讨论未来一年在强化学习环境上投入超过10亿美元。Mechanize已经在为Anthropic做这件事，Prime Intellect则走开源路线，做了一个Environments Hub，社区环境数量在2026年已经过2500个，投资方包括Andrej Karpathy、Founders Fund和Menlo Ventures。
+准确率讲的是做得对不对，判断力讲的是该不该做、有没有把握、什么时候该停下来问人。这一条2026年的状况比准确率差得多。
 
-这个环节为什么突然值钱，Epoch AI的几组数字解释得很清楚。2025年初，强化学习算力大概只占预训练的1%到10%。o1到o3，OpenAI把强化学习算力放大了10倍，xAI从Grok 3到Grok 4也是同一量级。DeepSeek-R1的强化学习训练成本约为DeepSeek-V3预训练成本的20%。
+问题的根子在训练方式上。用人类偏好做对齐，会系统性地损害模型的校准，因为人更喜欢听起来笃定的回答，模型于是学会了在不确定的时候也说得很确定。一个校准坏掉的模型放进自主循环里，等于每一步都以满格的自信往前走。
 
-按每三到五个月十倍的速度，推理训练的算力会在2026年前后追平前沿的总算力预算。追平之后，"再放大十倍"这条路就走不下去了，因为那等于把整个训练预算再翻十倍。
+第二个问题是agent普遍不知道什么时候该停。2026年有一个专门的基准叫AgentAbstain，它指出现有评测几乎只看任务成功率，没人测agent知不知道该弃权。而在指令有歧义、约束互相冲突、工具返回异常这几种情况下，agent照样会执行不可逆的动作。
 
-另一头的数据也在见底。Epoch的估计是高质量公开人类文本的有效存量会在2026年到2032年之间用尽，如果继续加大过训练还会更早。
+第三个问题出在训练判断类任务本身。判断类任务没有天然验证器，2025年之后的常规做法是写评分细则（rubric）让另一个模型当裁判。2026年一篇专门研究这件事的论文给出了很不客气的结论：用弱裁判训出来的代理奖励涨幅，换成跨家族的三个前沿裁判来评就不成立了，而且这种偏离随训练加剧，典型的钻空子方式是复合条件只满足一半、把隐含内容当成明确写了。
 
-两头一夹，结论就出来了：能力增长的燃料从"更多数据加更大模型"换成了"更多可判分的环境"。而环境是要人造的。
+这三条各有对应的改法，而且都比"让模型学会判断"现实得多。
 
-这里有一个让人不太舒服的回环。1984年Cyc开始手工录入常识，四十年录了2500万条断言，没能覆盖开放世界。2026年整个行业在手工建造训练环境，做的又是一件靠人力堆的事。
+最直接的一条是把"弃权和求助"当成一个可判分的动作来训。Abstain-R1用可验证的强化学习训练校准过的弃权行为，并在拒答之后主动发起澄清。如果不方便动模型，I-CALM给的是纯提示词的黑盒方案，用显式的收益结构把模型推向合理的认知谦逊。
 
-两者的关键差别在于目标不同。Cyc要覆盖世界上所有的常识，条目数没有上界。环境只需要在某一类任务上给出可靠的判分，覆盖的是任务空间而不是知识空间，而任务空间可以只取有经济价值的那一部分。
+第二条是不确定性驱动的分诊。ReDAct的做法是同时挂一个小模型和一个大模型，用小模型的不确定性信号决定什么时候把问题交给大模型。这套结构在工程上可以直接翻译成"置信度低就升级给人"，而且升级的判定不依赖模型自己说自己有多确定。
 
-所以我不认为这是重蹈覆辙。但这条路的天花板在哪，取决于人类能把多少种工作改造成可自动判分的形式，这句话在7.5说过一次，在这里换成了产业形态又出现一次。
+第三条是评估纪律。既然rubric会被钻空子，训练时用的那个裁判就绝不能同时当评估者，得用跨家族的裁判面板来验收。这条听起来是常识，2026年真做到的团队并不多。
 
-一个可以观察的指标是环境公司的客户构成。如果它们的收入长期只来自五六家模型公司，说明这仍然是模型公司的上游供应链。如果企业开始自己买环境来训自己领域的agent，说明这条路已经外溢到了应用层。
+最后一条改法不在模型上，在任务拆分上。一个"这份方案好不好"的判断，通常可以剥出若干个可判分的子问题：事实对不对、约束满不满足、前后一不一致、有没有遗漏必选项。这些交给agent，剩下那个真正需要取舍的部分留给人。
 
-## 8.3 模型下班之后什么都不记得
+按7.5那条线，判断力这一整块的天花板取决于人类能把多少判断拆成可判分的形式。所以2026年之后最现实的目标，是让agent准确地知道自己不该判断，至于让它学会判断，目前看不到路径。
 
-2025年6月，Dwarkesh Patel写了一篇《Why I don't think AGI is right around the corner》，把持续学习列为最大的缺口。他的论证很朴素：一个新员工头三个月很笨，三个月后变得好用，因为他在工作中学到了这份工作特有的东西。今天的模型没有这个过程。
+## 8.3 工程上还有多少空间
 
-你今天跟一个agent说清楚了公司的某条规矩，明天开一个新会话，它一无所知。所有的"记忆"都是把文本重新塞回上下文，权重从头到尾没有变过。
+这一层是唯一一层今天就能改、完全不用等模型的，而且空间比大部分团队以为的大。
 
-Nathan Lambert写过一篇反驳，认为持续学习被当成了一个哲学问题，实际可以被上下文管理和检索工程逐步蚕食掉。这场争论到2026年也没有结论。
+2026年工程侧最集中的问题是上下文管理。上下文是agent唯一的状态载体，长会话必然腐坏，而处理腐坏的标准手段是压缩（compaction），也就是快满的时候让模型总结一遍再重新开始。
 
-我倾向于把这件事拆成两半来看，因为按第七章那条判据，这两半的命运正好相反。
+压缩本身带来了一个新问题，2026年有论文起了个准确的名字叫治理衰减（governance decay）：反复压缩会把系统提示里的安全约束和权限规则一起压没，而这个过程是静默的，日志上看不出来。解法是把不可压缩的那部分约束固定住，每次重建上下文都原样写回，不参与总结。
 
-一半是"上下文装不下，所以要摘要和检索"。这是标准的补丁，模型窗口一涨、上下文管理一进模型内部，它就会被删掉。2023年那批记忆产品死的就是这一半。
+除了压缩，2026年成型的做法可以归成四个动作。
 
-另一半是组织里的事实：这个客户三年前投诉过什么，这条规矩是谁在哪次会上定的，上次同样的改动为什么被回滚。这些东西不在任何模型的权重里，因为它们从来没有被写下来过，也不会因为模型变强就自动出现。
+写出去，把状态存到上下文之外，用结构化笔记加外部检查点，让agent随时能从文件里读回自己做到哪一步了。按需加载，工具描述不要一次性全塞进去，几百个工具的schema能吃掉大半个窗口。
 
-后面这一半属于世界的约束，会被下一代模型放大而不是删掉。能把组织里的隐性知识变成可检索资产，拿到的是一个**越来越值钱**的位置，模型越强这个位置越值钱。
+压缩要用专门微调过的压缩模型，而不是让主模型顺手总结。Anthropic公布的内部评测里，单是上下文编辑就带来29%的提升，配合记忆工具到39%，在一个100轮的网页搜索评测里token消耗降了84%。
 
-2026年这件事已经开始产品化。持续运行数月的agent成了常见形态，用户对它的期待也从"回答得对"变成了"记得上次说过什么"。工程上主流做法仍然是外部存储加检索，权重不动。
+隔离是第四个动作，也是5.3那场争论的落点。子agent有自己独立的上下文窗口、独立的系统提示和受限的工具权限，父会话的完整历史不复制进去，做完只交回一段压缩后的摘要。
 
-真正意义上的权重级持续学习，也就是让模型在工作中改变自己，2026年还没有能规模化的方案。这是我认为最可能在2027到2028年出现范式跳变的地方，理由是它同时卡住了产品体验和数据飞轮两件事，值得所有人往上砸钱。但会不会跳、什么时候跳，看不准。
+再往下是一批做了就有效、但很多团队没做的东西。错误信息的质量直接决定8.1那个七成恢复率，值得当成一等公民来设计。确定性的执行轨迹和重放能力，让失败可以复现，否则调agent只能靠猜。
 
-## 8.4 当agent开始花钱和担责任
+权限边界和审批点要按动作的可逆性分级，不可逆的动作一律走人工确认，这一条在7.4那张表里已经列过，属于会被下一代模型放大的那一类。
 
-能力之外，还有一条约束在2026年迅速具体化：agent开始动真钱了。
+我的判断是，2026年一个做得认真的harness，跟一个只调提示词的实现之间，差距仍然在数倍量级，而这个差距的来源已经从"提示词写得好不好"整体移到了"上下文和错误信息管得好不好"。
 
-Mastercard在2025年4月29日发布Agent Pay，让通过验证的agent用一种专门的代币代表消费者交易。Google在2025年9月推出AP2（Agent Payments Protocol），拉了60多家伙伴，核心是用密码学签名的授权凭证证明"用户确实授权了这笔支出"。Coinbase在2025年5月发布x402，把HTTP那个一直没人用的402状态码激活，用来做机器之间的稳定币小额支付。
+## 8.4 大语言模型自己的天花板
 
-这几套东西加上A2A的签名Agent Card，凑齐了一个agent在外部世界行动所需要的最小信任基础：我是谁，谁授权我，钱从哪来，出事找谁。
+前面三节的改法都建立在同一个前提上：模型本身不变，我们在外面想办法。这一节讲的是这个前提什么时候会松动。
 
-第一章那条线在这里彻底走完。1980年的合约网假设所有节点由同一个人部署，2026年的agent要在跨组织、利益不一致、需要密码学证明的环境里工作。四十六年，形态没变，信任模型换了一整套。
+最显眼的一条限制是权重不变。模型每次对话都从同一组参数出发，工作中学到的任何东西都留不住，所谓的记忆全部是把文本重新塞回上下文。Dwarkesh Patel在2025年6月把这一条列为通向通用智能的主要缺口，理由是一个新员工三个月后会变得好用，而模型不会。Nathan Lambert写过反驳，认为这件事可以被上下文工程逐步蚕食掉，这场争论到2026年也没有结论。
 
-监管这一侧的进展比很多人以为的慢。欧盟《人工智能法案》里高风险系统的义务原定2026年8月2日生效，后来通过简化法案推迟到2027年12月。2026年4月的一份调研显示，有78%的机构还没有为此做实质准备。
+第二条限制在架构层面，而且有理论结果支撑。标准Transformer的一次前向传播属于对数深度的TC⁰复杂度类，这个类别在理论上就无法模拟有限自动机、也解不了图连通性，而状态跟踪、多跳推理和规划恰好都需要这类计算。
 
-推迟一年半，加上近八成机构没动，意味着2027年底那个节点大概率会成为一次真正的合规冲刺。做企业agent的团队，这件事在时间表上的确定性比模型能力高得多。
+思维链之所以有效，本质上是绕开这一条：把中间状态外化成token，用生成长度换取串行深度。agent的整个循环也可以看成同一个绕法的放大版，每一次工具调用都是把状态写到模型外面再读回来。
 
-把能力和责任两条线并排放，2027年之后最可能卡住agent落地的东西，我认为会从"它做不做得到"转向"出了事算谁的"。这是一个判断，不是事实，写在这里方便日后对账。
+第三条是模型不维护世界模型，也不内在地检查逻辑一致性。它能说出一致的话，但那是训练分布的结果，不来自任何一致性检查机制。这一条解释了为什么外部验证器在2026年仍然不可替代。
 
-理由是能力那条线还在涨，而责任这条线在2026年几乎没有可用的答案。一个agent按用户授权刷了一笔钱、买错了东西，责任在用户、在agent厂商、还是在提供模型的公司，目前没有哪个司法辖区给出了清楚的划分。
+对应的改进方向，2026年有三条能看到实质进展。
+
+权重级的持续学习是第一条。稀疏记忆微调（sparse memory finetuning）只更新那些被新知识高度激活、而在预训练数据上不常用的记忆槽位，以此避开灾难性遗忘。对照数据很干净：学同样多的新事实，全量微调让NaturalQuestions的F1掉89%，LoRA掉71%，稀疏记忆微调只掉11%。后续工作已经在把稠密的预训练模型改造成带稀疏记忆的形态。
+
+测试期训练是第二条。ByteDance Seed在2026年4月发布的In-Place TTT，把MLP块末端的投影矩阵当成快权重，推理过程中就地更新，不改动模型架构。这条路让"边干边学"第一次有了不需要重训的实现方式。
+
+混合架构是第三条，也是最慢的一条。把Transformer跟状态空间模型、JEPA式的世界模型组合起来，用前者做多模态融合、后者做长期状态保持，2026年这个方向的共识度已经不低，但还没有一个规模化的成果。
+
+做产品的人不需要等这三条落地。但按7.2那条规律，架构一旦真的换代，今天押在上下文工程上的积累会被吃掉一部分，就像2012年之后手工图像特征那样。上一次这个规律生效时，没有人提前收到通知。
 
 # 结语
 
@@ -808,9 +812,9 @@ Mastercard在2025年4月29日发布Agent Pay，让通过验证的agent用一种�
 
 四年连起来是一条清楚的曲线：先用工程弥补模型，再把工程一件件拆掉，最后靠训练直接拿能力。这条曲线在编码上走完了一整轮，在别的领域刚开始。
 
-往后看，2027年之后的变量我认为不在模型规模上。可判分的环境要靠人造，造多少决定能力涨在哪儿。持续学习还没有能规模化的方案，谁做成谁重排座次。欧盟高风险义务2027年12月落地，责任划分会从纸面问题变成上线前的必答题。
+往后看，2026年之后卡住agent的东西已经能点名了。准确率的出路在过程级奖励和运行期验证，赌的是"错了能被发现"而不是"不出错"。判断力的出路在把弃权和求助训成可判分的动作，让agent知道自己不该判断。工程侧的空间还有数倍，主要在上下文和错误信息的管理上。模型自身的天花板在权重不变和架构的串行深度上，稀疏记忆微调和测试期训练是目前两条走得最实的路。
 
-这三件事有一个共同点：都不是等模型变大就能自动解决的。
+这四件事有一个共同点：都不是等模型变大就能自动解决的。
 
 最后做一个反向推演。
 
@@ -900,19 +904,29 @@ Mastercard在2025年4月29日发布Agent Pay，让通过验证的agent用一种�
 - [OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks](https://arxiv.org/abs/2606.29537) - arXiv 2606.29537，2026-06-28
 - [China blocks Meta's $2B Manus deal after months-long probe](https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/) - TechCrunch 2026-04-27
 - [Tencent moves to buy majority stake in Manus](https://the-decoder.com/tencent-moves-to-buy-majority-stake-in-manus-after-beijing-forced-meta-to-unwind-its-2-billion-deal/) - The Decoder 2026-07-10
-- [Task-Completion Time Horizons of Frontier AI Models](https://metr.org/time-horizons/) - METR 时间视野实时页面
 - [Silicon Valley bets big on 'environments' to train AI agents](https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/) - TechCrunch 2025-09-21
 - [Environments Hub: A Community Hub To Scale RL To Open AGI](https://www.primeintellect.ai/blog/environments) - Prime Intellect
 - [An FAQ on Reinforcement Learning Environments](https://epoch.ai/gradient-updates/state-of-rl-envs) - Epoch AI
 - [How far can reasoning models scale?](https://epoch.ai/gradient-updates/how-far-can-reasoning-models-scale) - Epoch AI
-- [Will we run out of data to train large language models?](https://epoch.ai/publications/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data) - Epoch AI
 - [Why I don't think AGI is right around the corner](https://www.dwarkesh.com/p/timelines-june-2025) - Dwarkesh Patel 2025-06
 - [Contra Dwarkesh on Continual Learning](https://www.interconnects.ai/p/contra-dwarkesh-on-continual-learning) - Nathan Lambert
-- [GDPval: Evaluating AI Model Performance on Real-World Economically Valuable Tasks](https://arxiv.org/abs/2510.04374) - arXiv 2510.04374
-- [Mastercard Agent Pay](https://eco.com/support/en/articles/15192001-what-is-mastercard-agent-pay-ai-agent-commerce-protocol-in-2026) - 2025-04-29 发布
-- [Agentic payments protocols compared: MPP, ACP, AP2, x402](https://www.crossmint.com/learn/agentic-payments-protocols-compared) - Crossmint
-- [U.S. Companies Face EU AI Act's Possible August 2026 Compliance Deadline](https://www.hklaw.com/en/insights/publications/2026/04/us-companies-face-eu-ai-acts-possible-august-2026-compliance-deadline) - Holland & Knight 2026-04
-- [EU agrees to delay key AI Act compliance deadlines](https://www.traverssmith.com/knowledge/knowledge-container/eu-agrees-to-delay-key-ai-act-compliance-deadlines/) - Travers Smith
+- [Verifiable Process Rewards for Agentic Reasoning](https://arxiv.org/html/2605.10325v1) - arXiv 2605.10325
+- [AgentV-RL: Scaling Reward Modeling with Agentic Verifier](https://arxiv.org/html/2604.16004) - arXiv 2604.16004
+- [ReVeal: Self-Evolving Code Agents via Reliable Self-Verification](https://openreview.net/forum?id=q56ZI1Co43) - OpenReview
+- [Rewarding Beliefs, Not Actions: Consistency-Guided Credit Assignment for Long-Horizon Agents](https://arxiv.org/pdf/2605.20061) - arXiv 2605.20061
+- [Awesome Long-Horizon Agents](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents) - 长程agent研究路线图
+- [AgentAbstain: Do LLM Agents Know When Not to Act?](https://arxiv.org/html/2607.10059) - arXiv 2607.10059
+- [Abstain-R1: Calibrated Abstention and Post-Refusal Clarification via Verifiable RL](https://arxiv.org/pdf/2604.17073) - arXiv 2604.17073
+- [I-CALM: Incentivizing Confidence-Aware Abstention for LLM Hallucination Mitigation](https://arxiv.org/html/2604.03904v1) - arXiv 2604.03904
+- [LLM Calibration and Uncertainty Quantification in Production AI Agents](https://zylos.ai/research/2026-04-18-llm-calibration-uncertainty-production-agents) - Zylos Research 2026-04
+- [Reward Hacking in Rubric-Based Reinforcement Learning](https://arxiv.org/abs/2605.12474) - arXiv 2605.12474
+- [Diagnosing and Mitigating Context Rot in Long-horizon Search](https://arxiv.org/pdf/2606.29718) - arXiv 2606.29718
+- [Governance Decay: How Context Compaction Silently Erases Safety Constraints](https://arxiv.org/pdf/2606.22528) - arXiv 2606.22528
+- [Context management in agent harnesses: memory, files, and subagents](https://arize.com/blog/context-management-in-agent-harnesses/) - Arize AI
+- [Continual Learning via Sparse Memory Finetuning](https://arxiv.org/abs/2510.15103) - arXiv 2510.15103
+- [Improving Sparse Memory Finetuning](https://arxiv.org/html/2604.05248v1) - arXiv 2604.05248
+- [Comprehension Without Competence: Architectural Limits of LLMs](https://arxiv.org/pdf/2507.10624) - arXiv 2507.10624
+- [The End of Transformers? On Challenging Attention and the Rise of Sub-Quadratic Architectures](https://arxiv.org/pdf/2510.05364) - arXiv 2510.05364
 
 ---
 
