@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 93 | 8/10 | [AI Agent 七十年演化史](AI%20Agent%20七十年演化史.md) | [link](https://x.com/snowboat84/status/2086970112129851667) | — | [link](https://zhuanlan.zhihu.com/p/2070068609993412810) |
 | 92 | 8/7 | [AI for Physics 全景图（长篇科普）](AI%20for%20Physics%20全景图.md) | [link](https://x.com/snowboat84/status/2085946919277461512) | — | [link](https://zhuanlan.zhihu.com/p/2069400751865176218) |
 | 91 | 8/6 | [什么是 MoE 和 MMoE 模型？](什么是%20MoE%20和%20MMoE%20模型？.md) | [link](https://x.com/snowboat84/status/2085586981459828939) | — | [link](https://zhuanlan.zhihu.com/p/2069029218298680373) |
 | 90 | 8/5 | [自动驾驶的十年：那些空头支票是怎么开出来的](自动驾驶的十年：那些空头支票是怎么开出来的.md) | [link](https://x.com/snowboat84/status/2085206937462002072) | — | [link](https://zhuanlan.zhihu.com/p/2068617164081344690) |
