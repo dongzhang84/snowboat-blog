@@ -1,14 +1,26 @@
-2026 年 1 月，curl 项目的安全团队在 16 个小时里收到了 7 份漏洞报告。到月中，已经处理完 20 多份。
+2026 年 8 月 5 日，rust-lang/rust 的五个团队通过了一份 LLM 使用政策。文件写成的时候，这个仓库里挂着 1,281 个待处理的 PR。
 
-真实漏洞数：零。
+政策给出的诊断只有一句：
 
-每一份都要读完、要复现、要顺着代码路径查下去、要写一份说得过去的回复。
+> 我们长期面临一个问题：想写代码的人，比愿意审代码的人多。
 
-1 月 26 日，Daniel Stenberg 在博客上宣布关掉这个跑了近七年的赏金计划。七年换来 87 个确认漏洞，付出去超过 10 万美元，而确认率从常年的 15% 以上掉到了 2025 年的 5% 以下。他写的那句话是整件事最准确的概括：
+这句话在大模型出现之前就成立。LLM 做的事情是把一个长期的慢性问题变成了急性问题。文件里还有一句更具体的：像散弹枪一样把 PR 打给审阅者，会让他们付出很高的心理成本。
+
+于是 Rust 给自己装了一个熔断器：如果某个六周窗口内合并的 PR 中超过一半由 LLM 创造，就停止合并新的 LLM 创造的 PR，直到比例回落到 50% 以下，最短冷却十天。一个开源项目公开给自己的贡献流量设断路器，这件事此前没有先例。
+
+据 Socket 的报道，这份文件在 Zulip 上吵了一个多月、三千多条消息才落地。
+
+但整份政策里最该被抄下来的是这一句：
+
+> 审查工作的大部分并不是找 bug，很大一部分是在判断这个方向对不对。
+
+它把这一轮的真问题点破了。机器现在很擅长写出能编译、能跑、看上去合理的代码，而审查里真正贵的那部分从来不在这儿。
+
+半年前，curl 已经在另一个场景里撞上同一堵墙。2026 年 1 月，它的安全团队在 16 个小时里收到 7 份漏洞报告，到月中处理完 20 多份，真实漏洞数是零。1 月 26 日，Daniel Stenberg 宣布关掉这个跑了近七年的赏金计划，七年换来 87 个确认漏洞、付出去超过 10 万美元，而确认率从常年的 15% 以上掉到了 2025 年的 5% 以下。他的总结是：
 
 > 不只是量在上升，质在下降。所以我们花了前所未有的时间，得到了前所未有少的东西。
 
-这篇文章要讲的不是 curl。curl 只是最早被压到的那个点。
+这篇文章要讲的不是 Rust，也不是 curl。它们只是最早被压到的那两个点。
 
 过去三年，生成一份东西的成本掉了两个数量级，审查一份东西的成本一分没降。开源、学术、法律、招聘、教育，五个互不相干的领域在同一段时间里各自撞上同一堵墙，然后各自重新发明了几乎一样的五种对策。
 
@@ -96,6 +108,8 @@ Ashby 的数据显示，每完成一次成功招聘所需的申请量自 2021 �
 
 值不值得是个偏好问题。这个改动符合项目的方向吗，五年后还有人愿意维护它吗，它会开一个什么先例，这些问题没有标准答案，只有承诺。模型可以预测一个维护者会怎么说，但它不承担说错的后果，也不承担五年后的维护义务。
 
+开篇 Rust 那句"审查工作的大部分并不是找 bug，很大一部分是在判断这个方向对不对"，说的就是这一件事。而恰好是找 bug 这一半，机器做得最好。
+
 承担后果这一件更直接。一个不承担后果的系统，在定义上就做不了这件事。
 
 ## 2.3 AI 产出更难审，因为它看起来是对的
@@ -168,11 +182,13 @@ agent 提交打破的正是这个默契。当提交者自己也没读过那段�
 
 这一组存在编译器、测试、可复现的概念验证，它们吸收了一部分负载，所以崩塌来得晚一些，但还是来了。
 
-2026 年 8 月，rust-lang/rust 的五个团队（compiler、libs、types、rustdoc、bootstrap）批准了一份 LLM 使用政策。它的核心是一句话：
+开篇那份 Rust 政策适用于 compiler、libs、types、rustdoc、bootstrap 五个团队及其子团队。它划线的方式值得单独看一眼：
 
 > 可以用 LLM 来回答问题、分析、提炼、精炼、检查、建议、审查。但不能用来创造。
 
-政策里还装了一个断路器：如果某个六周窗口内合并的 PR 中超过一半由 LLM 创造，就禁止合并新的 LLM 创造的 PR，直到比例回落到 50% 以下，最短冷却十天。这个六周窗口对齐了 Rust 的发布周期。
+被点名禁止的包括 LLM 原创的评论和 PR 描述、LLM 原创的文档和编译器诊断，以及任何把 LLM 的审查当成合并或拒绝依据的流程。允许的是拿它问代码库的问题、让它总结 issue 供自己参考、在发出去之前让它私下审一遍自己的代码。那条六周断路器的窗口对齐了 Rust 的发布周期。
+
+这条线划得很准：模型可以进入生产链条里的几乎每一个环节，唯独不能是最后署名的那一个。
 
 安全侧的连锁反应更快。Node.js 从 2 月 19 日起要求 HackerOne 的 Signal 分数达到 1.0 才能提交漏洞报告，没有分数的新研究者被挡在门外，只能走 OpenJS 基金会的 Slack。3 月 27 日，跑了十四年、累计支付超过 150 万美元的 Internet Bug Bounty 暂停接收新提交，理由是 AI 辅助研究正在扩大漏洞发现，"发现与修复能力之间的平衡已经实质性改变"。这个项目历史上约 80% 的支出流向发现、20% 流向修复，这个比例撑不住了。
 
@@ -602,7 +618,8 @@ Rust 那份政策给的答案，目前还站得住：可以用 LLM 来回答问�
 - [curl security moves again，2026-02-25](https://daniel.haxx.se/blog/2026/02/25/curl-security-moves-again/)
 - [High-Quality Chaos，2026-04-22（回归 HackerOne 之后的量与质）](https://daniel.haxx.se/blog/2026/04/22/high-quality-chaos/)
 - [LLM usage policy，Rust Forge（政策原文）](https://forge.rust-lang.org/policies/llm-usage.html)
-- [rust-lang/rust is adopting an LLM policy，Inside Rust Blog，2026-08-05](https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/)
+- [rust-lang/rust is adopting an LLM policy，Inside Rust Blog，2026-08-05（1,281 个待处理 PR、审阅意愿、散弹枪式提交）](https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/)
+- [Rust Moves to Restrict LLM Use in Contributions，Socket（Zulip 讨论量）](https://socket.dev/blog/rust-moves-to-restrict-llm-use-in-contributions)
 - [New HackerOne Signal Requirement for Vulnerability Reports，Node.js](https://nodejs.org/en/blog/announcements/hackerone-signal-requirement)
 - [Internet Bug Bounty program hits pause on payouts，InfoWorld](https://www.infoworld.com/article/4154210/internet-bug-bounty-program-hits-pause-on-payouts.html)
 - [Next chapter: Restructuring GitHub's bug bounty program，GitHub Blog](https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/)
