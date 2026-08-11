@@ -24,7 +24,7 @@
 | 二 | 8/11 周二 | [量子力学研究史（下）：多体、涌现与量子信息](../量子力学研究史（下）：多体、涌现与量子信息.md) | 物理/科学史 | 已有成稿。三部曲收官，上篇15k、中篇8/4已发 |
 | 三 | 8/12 周三 | [机器学习的方法论总论](../机器学习的方法论总论.md) | 方法论/ML | 已有成稿。十八节点表 + 缺失的方程层，物理×AI主线 |
 | 四 | 8/13 周四 | [机器学习的开放问题总论](../机器学习的开放问题总论.md) | 方法论/ML | 已有成稿。跟方法论总论是一对，连着发 |
-| 五 | 8/14 周五 | AI 写的 PR 堆成山，Rust 社区不堪重负，开源社区应如何应对？如何做决策？（标题待定） | AI × 开源治理/时事 | 新插入。Rust 项目为 LLM 贡献立规矩，Zulip 上吵了一个多月、三千多条消息才落地成正式 policy。题眼：AI 把生产代码的成本压到接近零，但审阅、验证、合并的成本没降，最后瓶颈回到人的判断和决策机制 |
+| 五 | 8/14 周五 | [AI Agent 时代的审查瓶颈：生产端爆炸，审查端原地不动](../AI%20Agent%20时代的审查瓶颈：生产端爆炸，审查端原地不动.md) | AI × 开源治理/时事 | 已有成稿（八节）。开头用 curl 关掉赏金计划的数据切入：2026 年 1 月前三周 20 份安全报告、真实漏洞零，确认率从 15% 以上跌到 5% 以下。题眼：AI 把生产代码的成本压到接近零，但审阅、验证、合并的成本没降，最后瓶颈回到人的判断和决策机制 |
 
 > 顺延记录（8/10 排期调整）：8/14 换成 AI PR × 开源治理这篇（时效性强，趁 Rust policy 还在讨论期发）。美国投资理财完全指南从 8/14 顺延到 8/17；多模态、Transformer、买房房贷、退休养老整体再后移一档。不删队列，只做整体后移。
 >
@@ -34,7 +34,7 @@
 >
 > 8/14 这篇的落点：不停在"AI 生成的东西越来越多"这个现象，往下走一层，讲开源社区实际怎么决策。可写的三条线：一是 Rust、curl、以及各家项目已经在用的应对手段（贡献声明、AI 标签、限流、直接封禁）各自的代价；二是维护者的时间被谁买单，志愿者制度在 AI 时代还成不成立；三是这套问题不只属于开源，公司内部 code review 马上会遇到同一件事。核心论点：机器把生成端做成了免费品，稀缺的东西转移到了审阅端和决策端，也就是人。
 >
-> 事实核查待办（落笔前必须做）：Rust policy 的准确措辞和当前状态（是 RFC、PR 还是已合并）、Zulip 讨论量的准确数字、Rust 领导层内部的反对意见、其他项目（curl 的 bug bounty 被 AI 报告淹没等）的一手来源。参考起点：[Socket](https://socket.dev/blog/rust-moves-to-restrict-llm-use-in-contributions)、[Linuxiac](https://linuxiac.com/rust-adopts-official-policy-for-ai-generated-contributions/)、[The New Stack](https://thenewstack.io/ai-generated-code-crisis/)、[theinkplots](https://www.theinkplots.com/p/rust-just-drew-a-line-around-ai-contributions)
+> 事实核查（8/10 已成稿，发布前再核一遍）：curl 赏金计划关停的日期与数字（Stenberg 博客一手）、Rust policy 的准确措辞和当前状态（是 RFC、PR 还是已合并）、Zulip 讨论量的准确数字、Rust 领导层内部的反对意见、其他项目（curl 的 bug bounty 被 AI 报告淹没等）的一手来源。参考起点：[Socket](https://socket.dev/blog/rust-moves-to-restrict-llm-use-in-contributions)、[Linuxiac](https://linuxiac.com/rust-adopts-official-policy-for-ai-generated-contributions/)、[The New Stack](https://thenewstack.io/ai-generated-code-crisis/)、[theinkplots](https://www.theinkplots.com/p/rust-just-drew-a-line-around-ai-contributions)
 
 # 下周（8/17-8/21）
 
