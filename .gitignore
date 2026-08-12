@@ -25,3 +25,7 @@ drafts/
 diagram/
 private/
 latex_jacob/
+
+# LaTeX 工作目录：只上传编译好的 PDF，源码和中间产物都留本地
+relativity/latex/*
+!relativity/latex/main.pdf
