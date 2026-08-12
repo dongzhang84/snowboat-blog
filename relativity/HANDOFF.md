@@ -1,14 +1,30 @@
 # Relativity Paper Handoff
 
-Date: 2026-08-05
+Date: 2026-08-05 (updated 2026-08-11)
 
 This memo is for continuing the relativity position paper work in Claude Code.
 
 ## Active Files
 
-- Main LaTeX file: `relativity/latex/main.tex`
-- Compiled PDF: `relativity/latex/main.pdf`
+- Main LaTeX file: `relativity/latex/main.tex` (local only, not on GitHub)
+- Compiled PDF: `relativity/latex/main.pdf` (the only file in `latex/` that is pushed)
 - Markdown outline/draft: `relativity/rediscovering-relativity.md`
+
+**The LaTeX source lives only on this machine.** As of 2026-08-11 the repo tracks
+`relativity/latex/main.pdf` and nothing else in that folder. `.gitignore` has:
+
+```gitignore
+relativity/latex/*
+!relativity/latex/main.pdf
+```
+
+`main.tex`, `refs.bib`, `main.bbl`, `example_paper.tex`, `icml2026.sty` and
+`icml2026.bst` are still on disk but were removed from the repo with
+`git rm --cached`. A fresh clone will not contain them, so back the sources up
+somewhere else if this machine is ever replaced.
+
+The preprint date is not hardcoded. Line 22 uses `\today`, so every recompile
+stamps the PDF with the current date.
 
 The current writing work is focused on Section 2 of `main.tex`, especially the historical theory space around special relativity.
 
@@ -130,9 +146,16 @@ Keep this section concise. It should illustrate theory-experiment interaction, n
 
 The user expects every modification to be committed and pushed.
 
+**Every edit to `main.tex` must be followed by a recompile and a push of the
+resulting PDF.** Do not batch several edits and push once at the end, and do not
+ask whether to push. The cycle is: edit `main.tex`, recompile, `git add
+relativity/latex/main.pdf`, commit, push. Since the source is not tracked, the
+PDF is the only record of the change that reaches GitHub, so an unpushed PDF
+means the work is invisible.
+
 Only commit the files relevant to the current task. There are unrelated local changes in the repository, including Chinese article files and a deleted diagram asset. Do not stage or revert them unless explicitly instructed.
 
-Before committing LaTeX changes, compile with:
+Compile with:
 
 ```bash
 cd relativity/latex
@@ -140,18 +163,21 @@ pdflatex -interaction=nonstopmode main.tex
 pdflatex -interaction=nonstopmode main.tex
 ```
 
-Then clean temporary files:
+Two passes are needed for references and the table of contents.
+
+Temporary files (`main.aux`, `main.log`, `main.out`, `main.synctex.gz`) no
+longer need to be deleted by hand. They are covered by the `.gitignore` rule
+above and will never be staged.
+
+Commit only the PDF:
 
 ```bash
-rm -f relativity/latex/main.aux relativity/latex/main.log relativity/latex/main.out relativity/latex/main.synctex.gz 'relativity/latex/main.synctex(busy)' relativity/latex/main.blg
-```
-
-Commit only the intended files, usually:
-
-```bash
-git add relativity/latex/main.tex relativity/latex/main.pdf
+git add relativity/latex/main.pdf
 git commit -m "<message>"
 git push
 ```
+
+`main.tex` cannot be staged now, `git add` on it is a silent no-op because of
+the ignore rule. That is intended.
 
 For this memo commit, only `relativity/HANDOFF.md` should be staged.
