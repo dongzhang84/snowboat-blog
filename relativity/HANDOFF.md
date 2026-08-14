@@ -46,8 +46,12 @@ one principle is not, since the transformations need the light postulate too.
 
 Open items, for the next session:
 
-1. Bullet 3 of the introduction list and everything after it are unrevised. The
-   author stopped at bullet 3.
+1. Bullet 3 of the introduction list is still unrevised. The author stopped
+   there. The paragraph that follows the list has since been rewritten as a
+   staircase: step one moves inside a supplied framework, step two gives up the
+   repairs and puts a principle in their place, step three lays out the theories
+   the framework still permits and produces physics that was not among the
+   inputs. Keep bullet 3 consistent with that third step when it is revised.
 2. Principle formation happens twice in the history, the relativity principle at
    the special relativity stage and the equivalence principle at the gravity
    stage, but only the first is a test level. The gravity test explicitly
