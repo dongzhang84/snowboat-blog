@@ -1,8 +1,67 @@
 # Relativity Paper Handoff
 
-Date: 2026-08-05 (updated 2026-08-11)
+Date: 2026-08-05 (updated 2026-08-14)
 
 This memo is for continuing the relativity position paper work in Claude Code.
+
+## Where Work Stopped (2026-08-14)
+
+The introduction is the active area. Done in this session:
+
+- Paragraph 3 of the introduction now carries citations, all reusing keys
+  already cited later in the paper, no new bib entries: `michelson1887` on the
+  null result, `lorentz1895` on the contraction hypothesis, and
+  `rayleigh1902,trouton1903,brace1904` as one group on the 1902-1904
+  experiments. Maxwell is still uncited in both the introduction and Section 2,
+  because `refs.bib` has no Maxwell entry.
+- The introduction's three-question list had oversized gaps. Cause:
+  `icml2026.sty` line 643 redefines `\@listi` to set only `\leftmargin`, so a
+  list keeps the global `\topsep 4pt` / `\itemsep 2pt` / `\parsep 2pt` on top of
+  this style's `\parskip 6pt`. The old `\setlength` calls placed after
+  `\begin{itemize}` were dead, since `\list` had already read those values.
+  Fixed by loading `enumitem` and passing the spacing as options:
+  `\begin{itemize}[topsep=2pt, partopsep=0pt, parsep=0pt, itemsep=2pt,
+  leftmargin=1.4em]`. The `\vspace{-0.45em}` that used to follow `\end{itemize}`
+  was a workaround for the same problem and is gone. The narrower `leftmargin`
+  also stopped the first bullet from hyphenating.
+- Bullets 1 and 2 were rewritten to make the framework contrast explicit, which
+  the old wording hid: bullet 1 is revision *inside* an existing framework
+  (Lorentz), bullet 2 is leaving it (Poincare and Einstein). This matches the
+  Level 1 and Level 2 rows of `tab:three-tests`.
+- Section 5.2 gained a guard sentence at the end of its second paragraph,
+  starting `Counting axioms is not the measure here.` It exists because 5.2
+  says a set of patches is replaced by *a single statement*, and a reader who
+  knows that special relativity rests on two postulates will read that as an
+  error. The sentence says the second postulate carries over what Maxwell
+  already asserted in the aether frame, so what is scored is the statement that
+  has to be added, not the size of the final axiom set.
+
+Resolved terminology decision: `principle` stays **singular** throughout. The
+paper uses the singular in six places (lines 262, 288, 328 twice, 343, and the
+Level 2 row of `tab:three-tests`), and it refers to one named object, the
+relativity principle. Section 3.1's *two postulates* is a description of the
+standard account and is correctly plural. The verb is what matters: writing that
+patches are *replaced by* a principle is safe, writing that they *follow from*
+one principle is not, since the transformations need the light postulate too.
+
+Open items, for the next session:
+
+1. Bullet 3 of the introduction list and everything after it are unrevised. The
+   author stopped at bullet 3.
+2. Principle formation happens twice in the history, the relativity principle at
+   the special relativity stage and the equivalence principle at the gravity
+   stage, but only the first is a test level. The gravity test explicitly
+   withholds the equivalence principle. Consider one sentence in Section 5.2
+   noting that Nordstrom's theory also required `m_i = m_g`, so the equivalence
+   principle was a constraint shared by every candidate and therefore separates
+   no system. Not yet decided by the author.
+3. Section 5.2's withheld list says `Einstein's postulates`, but Maxwell's
+   equations are supplied and Maxwell fixes `c`. What is actually withheld is
+   not that light travels at `c`, but that it travels at `c` in every inertial
+   frame. The quantifier should be made explicit.
+4. The Discussion section list at `\section{Discussion and Conclusion}` is still
+   a bare outline and still uses default list spacing. Give it the same
+   `enumitem` options when it is written.
 
 ## Active Files
 
