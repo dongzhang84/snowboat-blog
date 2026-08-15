@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 97 | 8/14 | [Physics for AI 总纲领：一张机器学习开放问题映射表](Physics%20for%20AI%20总纲领：一张机器学习开放问题映射表.md) | [link](https://x.com/snowboat84/status/2088415601635303536) | — | [link](https://zhuanlan.zhihu.com/p/2071793238617466286) |
 | 96 | 8/13 | [机器学习的开放问题总论](机器学习的开放问题总论.md) | [link](https://x.com/snowboat84/status/2088052989735080208) | — | [link](https://zhuanlan.zhihu.com/p/2070118344880034542) |
 | 95 | 8/12 | [机器学习的方法论总论](机器学习的方法论总论.md) | [link](https://x.com/snowboat84/status/2087691801297838417) | — | [link](https://zhuanlan.zhihu.com/p/2070023922616218684) |
 | 94 | 8/11 | [量子力学研究史（下）：多体、涌现与量子信息](量子力学研究史（下）：多体、涌现与量子信息.md) | [link](https://x.com/snowboat84/status/2087341491899494624) | — | [link](https://zhuanlan.zhihu.com/p/2069939340365526519) |
