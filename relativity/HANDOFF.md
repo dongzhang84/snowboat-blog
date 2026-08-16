@@ -1,6 +1,6 @@
 # Relativity Paper Handoff
 
-Date: 2026-08-05 (updated 2026-08-14)
+Date: 2026-08-05 (updated 2026-08-16)
 
 This memo is for continuing the relativity position paper work in Claude Code.
 
@@ -46,22 +46,14 @@ one principle is not, since the transformations need the light postulate too.
 
 Open items, for the next session:
 
-1. Bullet 3 of the introduction list and everything after it are unrevised. The
-   author stopped at bullet 3.
-2. Principle formation happens twice in the history, the relativity principle at
-   the special relativity stage and the equivalence principle at the gravity
-   stage, but only the first is a test level. The gravity test explicitly
-   withholds the equivalence principle. Consider one sentence in Section 5.2
-   noting that Nordstrom's theory also required `m_i = m_g`, so the equivalence
-   principle was a constraint shared by every candidate and therefore separates
-   no system. Not yet decided by the author.
-3. Section 5.2's withheld list says `Einstein's postulates`, but Maxwell's
-   equations are supplied and Maxwell fixes `c`. What is actually withheld is
-   not that light travels at `c`, but that it travels at `c` in every inertial
-   frame. The quantifier should be made explicit.
-4. The Discussion section list at `\section{Discussion and Conclusion}` is still
-   a bare outline and still uses default list spacing. Give it the same
-   `enumitem` options when it is written.
+1. Add the "economy of thought" idea to the Poincare test, probably in
+   Section 5.2. The author's intended point is close to Occam's razor but should
+   be stated more precisely: the test is whether an AI system can stop treating
+   the null results as separate problems and replace accumulated fixes with a
+   single principle.
+2. Write the abstract.
+3. Revise Table 1 for grammar and sentence style.
+4. Check Appendices A, B, and C.
 
 ## Active Files
 
