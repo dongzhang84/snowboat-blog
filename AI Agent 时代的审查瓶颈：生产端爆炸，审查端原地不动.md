@@ -717,13 +717,26 @@ Rust 那份草案划出的线目前还站得住：可以用 LLM 来回答问题�
 
 ## 作者其它文章（选）
 
+- [Physics for AI 总纲领：一张机器学习开放问题映射表](https://x.com/snowboat84/status/2088415601635303536)
+- [机器学习的开放问题总论](https://x.com/snowboat84/status/2088052989735080208)
+- [机器学习的方法论总论](https://x.com/snowboat84/status/2087691801297838417)
+- [量子力学研究史（下）：多体、涌现与量子信息](https://x.com/snowboat84/status/2087341491899494624)
 - [AI Agent 七十年演化史](https://x.com/snowboat84/status/2086970112129851667)
-- [人工智能的工程全景（下）：Agent 全解](https://x.com/snowboat84/status/2072831459925307704)
-- [AI 安全综述：我们到底在怕什么？](https://x.com/snowboat84/status/2080455644180832672)
-- [AI 可解释性综述](https://x.com/snowboat84/status/2075374060637503560)
-- [什么是 MCP · 长篇科普](https://x.com/snowboat84/status/2072106695040565615)
-- [Skill 是什么：写给零基础](https://x.com/snowboat84/status/2074652382299132237)
-- [AI 商业模式的危机](https://x.com/snowboat84/status/2079355630452957309)
+- [AI for Physics 全景图（长篇科普）](https://x.com/snowboat84/status/2085946919277461512)
+- [什么是 MoE 和 MMoE 模型？](https://x.com/snowboat84/status/2085586981459828939)
+- [自动驾驶的十年：那些空头支票是怎么开出来的](https://x.com/snowboat84/status/2085206937462002072)
+- [量子力学研究史（中）：场、无穷大与标准模型](https://x.com/snowboat84/status/2084791538933194873)
+- [FDE介绍和入门：一个被 AI 重新激活的老岗位](https://x.com/snowboat84/status/2084428243512537562)
+- [一篇文章讲清楚美国的移民系统](https://x.com/snowboat84/status/2057980486501433383)
+- [一文讲清楚美国医疗系统](https://x.com/snowboat84/status/2055081426744422697)
+- [细说美国的华人老钱家族](https://x.com/snowboat84/status/2062326581776011623)
+- [美国的犹太人和华人分别抢到了什么资源？详细分析](https://x.com/snowboat84/status/2063049247805837815)
+- [一篇文章看懂美国教育全生态](https://x.com/snowboat84/status/2054359249917210633)
+- [AI圈大V名单（名单不断扩充中）](https://x.com/snowboat84/status/2069206740546343372)
+- [什么是控制论？控制论是AI的上辈子吗？](https://x.com/snowboat84/status/2064496706042069340)
+- [祖父积分学概论](https://x.com/snowboat84/status/2056533111983493136)
+- [美国数学教育和研究现状](https://x.com/snowboat84/status/2080872418999156980)
+- [教宗良十四世论人工智能（精华版）](https://x.com/snowboat84/status/2059434342745866391)
 
 ## 本文参考文献
 
