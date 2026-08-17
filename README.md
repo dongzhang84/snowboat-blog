@@ -11,8 +11,8 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 95 | 8/12 | [机器学习的方法论总论](机器学习的方法论总论.md) | [link](https://x.com/snowboat84/status/2087691801297838417) | — | [link](https://zhuanlan.zhihu.com/p/2070023922616218684) |
 | 94 | 8/11 | [量子力学研究史（下）：多体、涌现与量子信息](量子力学研究史（下）：多体、涌现与量子信息.md) | [link](https://x.com/snowboat84/status/2087341491899494624) | — | [link](https://zhuanlan.zhihu.com/p/2069939340365526519) |
 | 93 | 8/10 | [AI Agent 七十年演化史](AI%20Agent%20七十年演化史.md) | [link](https://x.com/snowboat84/status/2086970112129851667) | — | [link](https://zhuanlan.zhihu.com/p/2070068609993412810) |
-| 92 | 8/7 | [AI for Physics 全景图（长篇科普）](AI%20for%20Physics%20全景图.md) | [link](https://x.com/snowboat84/status/2085946919277461512) | 31k | [link](https://zhuanlan.zhihu.com/p/2069400751865176218) |
-| 91 | 8/6 | [什么是 MoE 和 MMoE 模型？](什么是%20MoE%20和%20MMoE%20模型？.md) | [link](https://x.com/snowboat84/status/2085586981459828939) | 11k | [link](https://zhuanlan.zhihu.com/p/2069029218298680373) |
+| 92 | 8/7 | [AI for Physics 全景图（长篇科普）](archive/AI%20for%20Physics%20全景图.md) | [link](https://x.com/snowboat84/status/2085946919277461512) | 31k | [link](https://zhuanlan.zhihu.com/p/2069400751865176218) |
+| 91 | 8/6 | [什么是 MoE 和 MMoE 模型？](archive/什么是%20MoE%20和%20MMoE%20模型？.md) | [link](https://x.com/snowboat84/status/2085586981459828939) | 11k | [link](https://zhuanlan.zhihu.com/p/2069029218298680373) |
 | 90 | 8/5 | [自动驾驶的十年：那些空头支票是怎么开出来的](archive/自动驾驶的十年：那些空头支票是怎么开出来的.md) | [link](https://x.com/snowboat84/status/2085206937462002072) | 9.1k | [link](https://zhuanlan.zhihu.com/p/2068617164081344690) |
 | 89 | 8/4 | [量子力学研究史（中）：场、无穷大与标准模型](archive/量子力学研究史（中）：场、无穷大与标准模型.md) | [link](https://x.com/snowboat84/status/2084791538933194873) | 14k | [link](https://zhuanlan.zhihu.com/p/2068226867941978845) |
 | 88 | 8/3 | [FDE介绍和入门：一个被 AI 重新激活的老岗位](archive/FDE介绍和入门：一个被%20AI%20重新激活的老岗位.md) | [link](https://x.com/snowboat84/status/2084428243512537562) | 8.7k | [link](https://zhuanlan.zhihu.com/p/2067859775866642460) |
