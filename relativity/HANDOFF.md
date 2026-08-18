@@ -1,59 +1,95 @@
 # Relativity Paper Handoff
 
-Date: 2026-08-05 (updated 2026-08-16)
+Date: 2026-08-05 (updated 2026-08-17)
 
 This memo is for continuing the relativity position paper work in Claude Code.
 
-## Where Work Stopped (2026-08-14)
+## Status (2026-08-17)
 
-The introduction is the active area. Done in this session:
+The paper is complete. Every section is written prose; no placeholder outlines
+remain. The last compile gives 14 pages: body through page 8, references from
+page 8, appendices from page 11.
 
-- Paragraph 3 of the introduction now carries citations, all reusing keys
-  already cited later in the paper, no new bib entries: `michelson1887` on the
-  null result, `lorentz1895` on the contraction hypothesis, and
-  `rayleigh1902,trouton1903,brace1904` as one group on the 1902-1904
-  experiments. Maxwell is still uncited in both the introduction and Section 2,
-  because `refs.bib` has no Maxwell entry.
-- The introduction's three-question list had oversized gaps. Cause:
-  `icml2026.sty` line 643 redefines `\@listi` to set only `\leftmargin`, so a
-  list keeps the global `\topsep 4pt` / `\itemsep 2pt` / `\parsep 2pt` on top of
-  this style's `\parskip 6pt`. The old `\setlength` calls placed after
-  `\begin{itemize}` were dead, since `\list` had already read those values.
-  Fixed by loading `enumitem` and passing the spacing as options:
-  `\begin{itemize}[topsep=2pt, partopsep=0pt, parsep=0pt, itemsep=2pt,
-  leftmargin=1.4em]`. The `\vspace{-0.45em}` that used to follow `\end{itemize}`
-  was a workaround for the same problem and is gone. The narrower `leftmargin`
-  also stopped the first bullet from hyphenating.
-- Bullets 1 and 2 were rewritten to make the framework contrast explicit, which
-  the old wording hid: bullet 1 is revision *inside* an existing framework
-  (Lorentz), bullet 2 is leaving it (Poincare and Einstein). This matches the
-  Level 1 and Level 2 rows of `tab:three-tests`.
-- Section 5.2 gained a guard sentence at the end of its second paragraph,
-  starting `Counting axioms is not the measure here.` It exists because 5.2
-  says a set of patches is replaced by *a single statement*, and a reader who
-  knows that special relativity rests on two postulates will read that as an
-  error. The sentence says the second postulate carries over what Maxwell
-  already asserted in the aether frame, so what is scored is the statement that
-  has to be added, not the size of the final axiom set.
+Structure: Introduction, 2 The Historical Theory Space (2.1 to 2.4), 3 Other
+Framings of Rediscovery (Whig, one-shot, single-mechanism), 4 Rediscovery Is Not
+One Task, 5 Three Levels of Physics Intelligence (Lorentz, Poincare, gravity
+tests), 6 Conclusion. Appendix A timeline, Appendix B mass-energy equivalence in
+a Lorentz-Poincare framework, Appendix C AI for mathematics vs AI for physics.
 
-Resolved terminology decision: `principle` stays **singular** throughout. The
-paper uses the singular in six places (lines 262, 288, 328 twice, 343, and the
-Level 2 row of `tab:three-tests`), and it refers to one named object, the
-relativity principle. Section 3.1's *two postulates* is a description of the
-standard account and is correctly plural. The verb is what matters: writing that
-patches are *replaced by* a principle is safe, writing that they *follow from*
-one principle is not, since the transformations need the light postulate too.
+## Locked Conventions
 
-Open items, for the next session:
+Decisions reached after long discussion. Do not reopen without a reason.
 
-1. Add the "economy of thought" idea to the Poincare test, probably in
-   Section 5.2. The author's intended point is close to Occam's razor but should
-   be stated more precisely: the test is whether an AI system can stop treating
-   the null results as separate problems and replace accumulated fixes with a
-   single principle.
-2. Write the abstract.
-3. Revise Table 1 for grammar and sentence style.
-4. Check Appendices A, B, and C.
+- The scale is called **physics intelligence**, not scientific intelligence. The
+  evidence is a single physics case, and the wider term overclaims. `scientific`
+  is reserved for describing the outside debate.
+- **`principle` stays singular.** It names one object, the relativity principle.
+  Section 3.1's *two postulates* is a description of the standard account and is
+  correctly plural. Write that patches are *replaced by* a principle, never that
+  they *follow from* one, since the transformations also need the light
+  postulate. Section 5.2 carries a guard sentence beginning `Counting axioms is
+  not the measure here.`
+- **`aether`, not `ether`**, throughout.
+- **`AI system` at the first mention in a paragraph, `the system` afterwards.**
+  Do not touch the physics senses: `closed system`, `matter systems`,
+  `semi-axiomatic system`, and the Appendix B mechanics.
+- **Block quotations use the custom `quoteblock` environment, never `quote`.**
+  Reason: `icml2026.sty` redefines `\@listi` to set only `\leftmargin`, so any
+  list inherits the global `\topsep`/`\parsep` on top of this style's
+  `\parskip 6pt` and the gaps are large. The same bug is why the introduction's
+  itemize passes its spacing through `enumitem` options rather than `\setlength`
+  calls placed after `\begin{itemize}`, which are read too late and do nothing.
+- Quotations from Poincare and Einstein are the standard English translations
+  (Halsted; Perrett and Jeffery). Both bib entries carry a `note` field naming
+  the translation. A displayed quotation must be verbatim, so a paraphrase may
+  only appear inline.
+
+## Timeline (Appendix A) Editing Rules
+
+The timeline records **events and measurements, not who changed their mind**.
+Entries about people abandoning or adopting theories were removed for this
+reason. The one survivor is 1922 Abraham, kept deliberately because it names the
+rival theory he held.
+
+Entries cite **period primary sources only**. Secondary literature belongs in the
+body, where judgements about significance are made. This is why the Mie entry
+cites `mie1913` rather than the Smeenk and Martin survey, which stays in
+Section 2.4.
+
+Two rejected additions, with reasons: Schwarzschild's exact solution was
+initially proposed on the ground that the classical-test numbers come from it,
+which is wrong, Einstein obtained both by approximation weeks earlier; it was
+added later on its own merits. Black holes and cosmology stay out, since the
+timeline traces how this dispute was adjudicated, not what general relativity
+went on to produce.
+
+## Open Items
+
+1. Table 1 row 7 promises `problem recognition` under `yes (the gravity test)`,
+   but Section 5.3 hands the problem to the system rather than testing whether
+   it can pose it. Either change the cell to `not tested here` or say in 5.3
+   that problem recognition is out of scope.
+2. Table 1 uses `the Lorentz test I` and `the Lorentz test II`. Section 5 has no
+   such names; it has one Lorentz test covering tasks 2 and 4.
+3. `main.tex` still contains about thirty commented-out draft paragraphs. Clean
+   them before the deposit.
+4. Appendix A has no cross-reference from the body. One `\Cref{app:timeline}`
+   in the conclusion would fix it.
+5. The `Position:` title line for the ICML position-paper track is present but
+   commented out.
+
+## Submission: PhilSci-Archive
+
+The target is PhilSci-Archive at the University of Pittsburgh, the official
+preprint archive of the Philosophy of Science Association, not arXiv.
+
+- Deposit format is PDF, so the ICML two-column layout can go as it is.
+- Content must be philosophy of science or of interest to philosophers of
+  science. This paper qualifies through theory choice, underdetermination of
+  theory by evidence, and the critique of Whig history.
+- The archive expects a complete paper with all sections present and the
+  language carefully edited. Open item 3 above matters for this.
+- A depositor account is required.
 
 ## Active Files
 
