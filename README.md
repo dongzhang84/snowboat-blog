@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 100 | 8/19 | [机器学习和新物理学：Physics of AI](机器学习和新物理学：Physics%20of%20AI.md) | [link](https://x.com/snowboat84/status/2090225823366431121) | — | [link](https://zhuanlan.zhihu.com/p/2073068990629409766) |
 | 99 | 8/18 | [AI Agent 的物理裁判层](AI%20Agent的物理裁判层.md) | [link](https://x.com/snowboat84/status/2089889475845627926) | — | [link](https://zhuanlan.zhihu.com/p/2073308700148868253) |
 | 98 | 8/17 | [AI Agent 时代的审查瓶颈：生产端爆炸，审查端原地不动](AI%20Agent%20时代的审查瓶颈：生产端爆炸，审查端原地不动.md) | [link](https://x.com/snowboat84/status/2089506310685589606) | — | [link](https://zhuanlan.zhihu.com/p/2072927054794957746) |
 | 97 | 8/14 | [Physics for AI 总纲领：一张机器学习开放问题映射表](Physics%20for%20AI%20总纲领：一张机器学习开放问题映射表.md) | [link](https://x.com/snowboat84/status/2088415601635303536) | 14k | [link](https://zhuanlan.zhihu.com/p/2071793238617466286) |
