@@ -1,5 +1,4 @@
 
-
 ## 为 AI-for-Physics 建立可机检的验证判据 
 
 **项目代号建议：** PhysCert（备选：PhysGate、Referee） **版本：** v0.2（补入代码领域对照、生态定位与竞争尽调、市场规模评估）
@@ -802,6 +801,29 @@ PhysLib 已经有单位系统和覆盖经典力学的基础定理，Lean4Physics
 窗口是 12 个月。依据不是猜测：这类东西的归属由谁的检查库先攒厚、先被当成默认决定，而物理这边的库还停在 200 条命题的量级，竞赛刚跑第一圈。等某一家厚到别人不愿意重写，位置就再也进不来了。
 
 **我们要占的不是生成位，是裁判位。**
+
+## 作者其它文章（选）
+
+- [AI Agent 时代的审查瓶颈：生产端爆炸，审查端原地不动](https://x.com/snowboat84/status/2089506310685589606)
+- [Physics for AI 总纲领：一张机器学习开放问题映射表](https://x.com/snowboat84/status/2088415601635303536)
+- [机器学习的开放问题总论](https://x.com/snowboat84/status/2088052989735080208)
+- [机器学习的方法论总论](https://x.com/snowboat84/status/2087691801297838417)
+- [量子力学研究史（下）：多体、涌现与量子信息](https://x.com/snowboat84/status/2087341491899494624)
+- [AI Agent 七十年演化史](https://x.com/snowboat84/status/2086970112129851667)
+- [AI for Physics 全景图（长篇科普）](https://x.com/snowboat84/status/2085946919277461512)
+- [什么是 MoE 和 MMoE 模型？](https://x.com/snowboat84/status/2085586981459828939)
+- [自动驾驶的十年：那些空头支票是怎么开出来的](https://x.com/snowboat84/status/2085206937462002072)
+- [量子力学研究史（中）：场、无穷大与标准模型](https://x.com/snowboat84/status/2084791538933194873)
+- [一篇文章讲清楚美国的移民系统](https://x.com/snowboat84/status/2057980486501433383)
+- [一文讲清楚美国医疗系统](https://x.com/snowboat84/status/2055081426744422697)
+- [细说美国的华人老钱家族](https://x.com/snowboat84/status/2062326581776011623)
+- [美国的犹太人和华人分别抢到了什么资源？详细分析](https://x.com/snowboat84/status/2063049247805837815)
+- [一篇文章看懂美国教育全生态](https://x.com/snowboat84/status/2054359249917210633)
+- [AI圈大V名单（名单不断扩充中）](https://x.com/snowboat84/status/2069206740546343372)
+- [什么是控制论？控制论是AI的上辈子吗？](https://x.com/snowboat84/status/2064496706042069340)
+- [祖父积分学概论](https://x.com/snowboat84/status/2056533111983493136)
+- [美国数学教育和研究现状](https://x.com/snowboat84/status/2080872418999156980)
+- [教宗良十四世论人工智能（精华版）](https://x.com/snowboat84/status/2059434342745866391)
 
 ### 引用与数据来源
 
