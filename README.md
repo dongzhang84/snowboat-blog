@@ -253,6 +253,129 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2051479892148084819">link</a></td>
     </tr>
     <tr>
+      <td colspan="4" align="center"><b>AI 学习、商业和人文</b></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><a href="archive/一人公司盈利四亿美元：是骗子，还是可复制的红利？.md">一人公司盈利四亿美元：是骗子，还是可复制的红利？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2043493870265422223">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2026950177747903194">link</a></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td><a href="archive/AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位.md">AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位</a></td>
+      <td><a href="https://x.com/snowboat84/status/2044932338262667509">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2027582531520708691">link</a></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td><a href="archive/全网最详细的AI学习路线图.md">全网最详细的AI学习路线图</a></td>
+      <td><a href="https://x.com/snowboat84/status/2047457686070141051">link</a></td>
+      <td><a href="https://www.zhihu.com/question/327809761/answer/2030919268590695578">link</a></td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td><a href="archive/长篇分析：Manus 案折射出的中国 AI 创业生态.md">长篇分析：Manus 案折射出的中国 AI 创业生态</a></td>
+      <td><a href="https://x.com/snowboat84/status/2049643679804248305">link</a></td>
+      <td><a href="https://www.zhihu.com/question/2032140708430266999/answer/2033097410373744110">link</a></td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td><a href="archive/手把手教你分析：你会被AI取代吗?.md">手把手教你分析：你会被AI取代吗?</a></td>
+      <td><a href="https://x.com/snowboat84/status/2051818364507688978">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2035269868048602086">link</a></td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td><a href="archive/福特经济学和 AI 经济学.md">福特经济学和 AI 经济学</a></td>
+      <td><a href="https://x.com/snowboat84/status/2052551731385602072">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2035998279473836299">link</a></td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td><a href="archive/AI 如何打进美国教育生态？.md">AI 如何打进美国教育生态？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2054721509420372180">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2038167094756365427">link</a></td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td><a href="archive/毕业典礼上嘘声四起：美国年轻人讨厌AI？.md">毕业典礼上嘘声四起：美国年轻人讨厌AI？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2057619169341026321">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2041052307652097783">link</a></td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td><a href="archive/教宗良十四世论人工智能（精华版）.md">教宗良十四世论人工智能（精华版）</a></td>
+      <td><a href="https://x.com/snowboat84/status/2059434342745866391">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2042879175590138102">link</a></td>
+    </tr>
+    <tr>
+      <td>*</td>
+      <td><a href="教宗《宏伟人性》中文版.md">教宗良十四世通谕《宏伟人性》（全文翻译）</a></td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>*</td>
+      <td><a href="经典回顾：教宗良十三世的《新事》通谕.md">经典回顾：教宗良十三世的《新事》通谕</a></td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td><a href="archive/大语言模型的商业痛点.md">大语言模型的商业痛点</a></td>
+      <td><a href="https://x.com/snowboat84/status/2064858487675670625">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2047925274310972651">link</a></td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td><a href="archive/AI圈大V名单（推特版）.md">AI圈大V名单（名单不断扩充中）</a></td>
+      <td><a href="https://x.com/snowboat84/status/2069206740546343372">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2052276085937660472">link</a></td>
+    </tr>
+    <tr>
+      <td>62</td>
+      <td><a href="archive/AI 大V 人物小传（上）.md">AI 大V 人物小传（上）</a></td>
+      <td><a href="https://x.com/snowboat84/status/2071743676649509122">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2054730821559440169">link</a></td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td><a href="archive/AI 大V 人物小传（下）.md">AI 大V 人物小传（下）</a></td>
+      <td><a href="https://x.com/snowboat84/status/2073554517065609544">link</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td><a href="archive/AI可解释性综述.md">AI可解释性综述</a></td>
+      <td><a href="https://x.com/snowboat84/status/2075374060637503560">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2058803162140751829">link</a></td>
+    </tr>
+    <tr>
+      <td>78</td>
+      <td><a href="archive/讨论：AI商业模式的危机.md">AI 商业模式的危机</a></td>
+      <td><a href="https://x.com/snowboat84/status/2079355630452957309">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2062787720188106263">link</a></td>
+    </tr>
+    <tr>
+      <td>81</td>
+      <td><a href="archive/AI 安全综述：我们到底在怕什么？.md">AI 安全综述：我们到底在怕什么？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2080455644180832672">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2063902539439928913">link</a></td>
+    </tr>
+    <tr>
+      <td>83</td>
+      <td><a href="archive/顶尖 VC 2026 年以来动向观察.md">顶尖 VC 2026 年以来动向观察</a></td>
+      <td><a href="https://x.com/snowboat84/status/2081903835833147732">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2065352325250684815">link</a></td>
+    </tr>
+    <tr>
+      <td>88</td>
+      <td><a href="archive/FDE介绍和入门：一个被 AI 重新激活的老岗位.md">FDE介绍和入门：一个被 AI 重新激活的老岗位</a></td>
+      <td><a href="https://x.com/snowboat84/status/2084428243512537562">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2067859775866642460">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>量子力学研究史</b></td>
     </tr>
     <tr>
