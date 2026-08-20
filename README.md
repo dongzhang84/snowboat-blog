@@ -30,6 +30,33 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://x.com/snowboat84/status/2059071134738620606">link</a></td>
       <td><a href="https://zhuanlan.zhihu.com/p/2042511409888613605">link</a></td>
     </tr>
+    <tr>
+      <td colspan="4" align="center"><b>SpaceX 立志传</b></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td><a href="archive/SpaceX 立志传（一）：赌上全部的最后一次发射.md">SpaceX 立志传（一）：赌上全部的最后一次发射</a></td>
+      <td><a href="https://x.com/snowboat84/status/2046743964192276766">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2028372635839394803">link</a></td>
+    </tr>
+    <tr>
+      <td>*</td>
+      <td><a href="archive/SpaceX 立志传（二）：NASA的救命钱.md">SpaceX 立志传（二）：NASA的救命钱</a></td>
+      <td>—</td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2041534377713203183">link</a></td>
+    </tr>
+    <tr>
+      <td>*</td>
+      <td><a href="archive/SpaceX 立志传（三）：屠龙术之可回收火箭.md">SpaceX 立志传（三）：屠龙术之可回收火箭</a></td>
+      <td>—</td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2041685377539363237">link</a></td>
+    </tr>
+    <tr>
+      <td>*</td>
+      <td><a href="archive/SpaceX 立志传（四）：重型火箭和星链.md">SpaceX 立志传（四）：重型火箭和星链</a></td>
+      <td>—</td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2041774940534335202">link</a></td>
+    </tr>
   </tbody>
 </table>
 
