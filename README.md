@@ -541,6 +541,21 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2068617164081344690">link</a></td>
     </tr>
     <tr>
+      <td colspan="4" align="center"><b>祖父积分学</b></td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td><a href="archive/祖父积分学概论.md">祖父积分学概论</a></td>
+      <td><a href="https://x.com/snowboat84/status/2056533111983493136">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2039143026677830866">link</a></td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td><a href="archive/广义祖父积分学.md">广义祖父积分学</a></td>
+      <td><a href="https://x.com/snowboat84/status/2070291045007671732">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2053671381422838377">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>SpaceX 立志传</b></td>
     </tr>
     <tr>
