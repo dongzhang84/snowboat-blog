@@ -115,6 +115,48 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2073068990629409766">link</a></td>
     </tr>
     <tr>
+      <td colspan="4" align="center"><b>人工智能的工程全景</b></td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td><a href="archive/人工智能的工程全景（上）：硬件、电力、训练、推理.md">人工智能的工程全景（上）：硬件、电力、训练、推理</a></td>
+      <td><a href="https://x.com/snowboat84/status/2061962883651731602">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2045026429058953333">link</a></td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td><a href="archive/人工智能的工程全景（中）：推理，后训练，对齐和安全.md">人工智能的工程全景（中）：推理，后训练，对齐和安全</a></td>
+      <td><a href="https://x.com/snowboat84/status/2065215177029787705">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2048317790793339656">link</a></td>
+    </tr>
+    <tr>
+      <td>65</td>
+      <td><a href="archive/人工智能的工程全景（下）：Agent 全解.md">人工智能的工程全景（下）：Agent 全解</a></td>
+      <td><a href="https://x.com/snowboat84/status/2072831459925307704">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2056209368262219151">link</a></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center"><b>AI Agent</b></td>
+    </tr>
+    <tr>
+      <td>93</td>
+      <td><a href="AI Agent 七十年演化史.md">AI Agent 七十年演化史</a></td>
+      <td><a href="https://x.com/snowboat84/status/2086970112129851667">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2070068609993412810">link</a></td>
+    </tr>
+    <tr>
+      <td>98</td>
+      <td><a href="AI Agent 时代的审查瓶颈：生产端爆炸，审查端原地不动.md">AI Agent 时代的审查瓶颈：生产端爆炸，审查端原地不动</a></td>
+      <td><a href="https://x.com/snowboat84/status/2089506310685589606">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2072927054794957746">link</a></td>
+    </tr>
+    <tr>
+      <td>99</td>
+      <td><a href="AI Agent的物理裁判层.md">AI Agent 的物理裁判层</a></td>
+      <td><a href="https://x.com/snowboat84/status/2089889475845627926">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2073308700148868253">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>量子力学研究史</b></td>
     </tr>
     <tr>
