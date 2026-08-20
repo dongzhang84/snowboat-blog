@@ -310,6 +310,12 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2066785355009991258">link</a></td>
     </tr>
     <tr>
+      <td>90</td>
+      <td><a href="archive/自动驾驶的十年：那些空头支票是怎么开出来的.md">自动驾驶的十年：那些空头支票是怎么开出来的</a></td>
+      <td><a href="https://x.com/snowboat84/status/2085206937462002072">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2068617164081344690">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>SpaceX 立志传</b></td>
     </tr>
     <tr>
