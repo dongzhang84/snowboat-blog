@@ -265,6 +265,18 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2046487572025816142">link</a></td>
     </tr>
     <tr>
+      <td>64</td>
+      <td><a href="archive/美国风险投资简史.md">美国风险投资简史</a></td>
+      <td><a href="https://x.com/snowboat84/status/2072469163852124401">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2055894385246614054">link</a></td>
+    </tr>
+    <tr>
+      <td>82</td>
+      <td><a href="archive/美国数学教育和研究现状.md">美国数学教育和研究现状</a></td>
+      <td><a href="https://x.com/snowboat84/status/2080872418999156980">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2064320030884603483">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>SpaceX 立志传</b></td>
     </tr>
     <tr>
