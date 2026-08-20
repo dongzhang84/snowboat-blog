@@ -220,6 +220,51 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2042511409888613605">link</a></td>
     </tr>
     <tr>
+      <td colspan="4" align="center"><b>美国系列</b></td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td><a href="archive/一篇文章看懂美国教育全生态.md">一篇文章看懂美国教育全生态</a></td>
+      <td><a href="https://x.com/snowboat84/status/2054359249917210633">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2037768819851122374">link</a></td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td><a href="archive/一文讲清楚美国医疗系统.md">一文讲清楚美国医疗系统</a></td>
+      <td><a href="https://x.com/snowboat84/status/2055081426744422697">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2038482708523913510">link</a></td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td><a href="archive/一篇文章讲清楚美国的移民系统.md">一篇文章讲清楚美国的移民系统</a></td>
+      <td><a href="https://x.com/snowboat84/status/2057980486501433383">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2041415094861550858">link</a></td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td><a href="archive/一文看懂美国的法律系统.md">一文看懂美国的法律系统</a></td>
+      <td><a href="https://x.com/snowboat84/status/2059795010330251568">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2043159937757476358">link</a></td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td><a href="archive/美国税收制度完全指南.md">美国税收制度完全指南</a></td>
+      <td><a href="https://x.com/snowboat84/status/2060511915617779821">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2043956781592970926">link</a></td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td><a href="archive/细说美国的华人老钱家族.md">细说美国的华人老钱家族</a></td>
+      <td><a href="https://x.com/snowboat84/status/2062326581776011623">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2045687220712034679">link</a></td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td><a href="archive/美国的犹太人和华人分别抢到了什么资源？详细分析.md">美国的犹太人和华人分别抢到了什么资源？详细分析</a></td>
+      <td><a href="https://x.com/snowboat84/status/2063049247805837815">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2046487572025816142">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>SpaceX 立志传</b></td>
     </tr>
     <tr>
