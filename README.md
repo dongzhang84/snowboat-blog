@@ -4,13 +4,34 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 ## Topics
 
-### 数学史三部曲
-
-| 文章 | X | 知乎 |
-|------|---|------|
-| [气吞万里如虎：回顾十九世纪的数学英豪们](archive/气吞万里如虎：回顾十九世纪的数学英豪们.md) | [link](https://x.com/snowboat84/status/2050371067278143931) | [link](https://zhuanlan.zhihu.com/p/2033553726032565423) |
-| [我见青山多妩媚：二十世纪数学史（上）](archive/我见青山多妩媚：二十世纪数学史（上）.md) | [link](https://x.com/snowboat84/status/2055446902171406761) | [link](https://zhuanlan.zhihu.com/p/2038664998302524623) |
-| [廉颇老矣，尚能饭否：现代数学史（下）](archive/廉颇老矣，尚能饭否：现代数学史（下）.md) | [link](https://x.com/snowboat84/status/2059071134738620606) | [link](https://zhuanlan.zhihu.com/p/2042511409888613605) |
+<table>
+  <thead>
+    <tr><th>#</th><th>文章</th><th>X</th><th>知乎</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4" align="center"><b>数学史三部曲</b></td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td><a href="archive/气吞万里如虎：回顾十九世纪的数学英豪们.md">气吞万里如虎：回顾十九世纪的数学英豪们</a></td>
+      <td><a href="https://x.com/snowboat84/status/2050371067278143931">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2033553726032565423">link</a></td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td><a href="archive/我见青山多妩媚：二十世纪数学史（上）.md">我见青山多妩媚：二十世纪数学史（上）</a></td>
+      <td><a href="https://x.com/snowboat84/status/2055446902171406761">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2038664998302524623">link</a></td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td><a href="archive/廉颇老矣，尚能饭否：现代数学史（下）.md">廉颇老矣，尚能饭否：现代数学史（下）</a></td>
+      <td><a href="https://x.com/snowboat84/status/2059071134738620606">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2042511409888613605">link</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Articles
 
