@@ -57,6 +57,27 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td>—</td>
       <td><a href="https://zhuanlan.zhihu.com/p/2041774940534335202">link</a></td>
     </tr>
+    <tr>
+      <td colspan="4" align="center"><b>量子力学研究史</b></td>
+    </tr>
+    <tr>
+      <td>86</td>
+      <td><a href="archive/量子力学研究史（上）：从黑体辐射到希尔伯特空间.md">量子力学研究史（上）：从黑体辐射到希尔伯特空间</a></td>
+      <td><a href="https://x.com/snowboat84/status/2083063168981737698">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2066494403678671041">link</a></td>
+    </tr>
+    <tr>
+      <td>89</td>
+      <td><a href="archive/量子力学研究史（中）：场、无穷大与标准模型.md">量子力学研究史（中）：场、无穷大与标准模型</a></td>
+      <td><a href="https://x.com/snowboat84/status/2084791538933194873">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2068226867941978845">link</a></td>
+    </tr>
+    <tr>
+      <td>94</td>
+      <td><a href="量子力学研究史（下）：多体、涌现与量子信息.md">量子力学研究史（下）：多体、涌现与量子信息</a></td>
+      <td><a href="https://x.com/snowboat84/status/2087341491899494624">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2069939340365526519">link</a></td>
+    </tr>
   </tbody>
 </table>
 
