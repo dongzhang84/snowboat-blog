@@ -19,6 +19,21 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2027392166075406203">link</a></td>
     </tr>
     <tr>
+      <td colspan="4" align="center"><b>深度学习里的物理元素</b></td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td><a href="archive/当物理遇上AI：深度学习里的物理元素（上）.md">当物理遇上AI：深度学习里的物理元素（上）</a></td>
+      <td><a href="https://x.com/snowboat84/status/2060145538922844179">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2043573397960099395">link</a></td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td><a href="archive/当物理遇上AI：深度学习里的物理元素（下）.md">当物理遇上AI：深度学习里的物理元素（下）</a></td>
+      <td><a href="https://x.com/snowboat84/status/2062686432335184321">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2045400658237469383">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>量子力学研究史</b></td>
     </tr>
     <tr>
