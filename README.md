@@ -277,6 +277,39 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2064320030884603483">link</a></td>
     </tr>
     <tr>
+      <td colspan="4" align="center"><b>叙事崩塌系列</b></td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td><a href="archive/NFT的叙事是如何崩塌的.md">NFT的叙事是如何崩塌的</a></td>
+      <td><a href="https://x.com/snowboat84/status/2067756975069516170">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2051126958969435411">link</a></td>
+    </tr>
+    <tr>
+      <td>58</td>
+      <td><a href="archive/互联网泡沫简史.md">互联网泡沫简史</a></td>
+      <td><a href="https://x.com/snowboat84/status/2069569161911812606">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2052942217388593179">link</a></td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td><a href="archive/区块链的叙事是如何崩塌的.md">区块链的叙事是如何崩塌的</a></td>
+      <td><a href="https://x.com/snowboat84/status/2073195935883288671">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2055917271747400825">link</a></td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td><a href="archive/元宇宙衰亡史 ：炒作，破产，谁赚走了钱？.md">元宇宙衰亡史：炒作，破产，谁赚走了钱？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2074278858988380322">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2057709629304583782">link</a></td>
+    </tr>
+    <tr>
+      <td>87</td>
+      <td><a href="archive/大数据概念兴衰史.md">大数据概念兴衰史</a></td>
+      <td><a href="https://x.com/snowboat84/status/2083346249663844656">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2066785355009991258">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>SpaceX 立志传</b></td>
     </tr>
     <tr>
