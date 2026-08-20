@@ -157,6 +157,33 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2073308700148868253">link</a></td>
     </tr>
     <tr>
+      <td colspan="4" align="center"><b>个人 AI 系统</b></td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td><a href="archive/兄弟们，真·Vibe Writing 时代到来了.md">兄弟们，真·Vibe Writing 时代到来了</a></td>
+      <td><a href="https://x.com/snowboat84/status/2047828585537548574">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2031301474458805899">link</a></td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td><a href="archive/Vibe Reading：AI 时代读书的系统化方法.md">Vibe Reading：AI 时代读书的系统化方法</a></td>
+      <td><a href="https://x.com/snowboat84/status/2050008577511973253">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2033424551938365302">link</a></td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td><a href="archive/Vibe Learning：AI 时代，学习这件事被重新组织了.md">Vibe Learning：AI 时代，学习这件事被重新组织了</a></td>
+      <td><a href="https://x.com/snowboat84/status/2052908751435477046">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2036320348023608889">link</a></td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td><a href="archive/建设个人AI系统的哲学基础.md">我打造的个人AI系统：哲学基础</a></td>
+      <td><a href="https://x.com/snowboat84/status/2068120320578629782">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2051479892148084819">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>量子力学研究史</b></td>
     </tr>
     <tr>
