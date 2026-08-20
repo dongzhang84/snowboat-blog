@@ -115,6 +115,69 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2073068990629409766">link</a></td>
     </tr>
     <tr>
+      <td colspan="4" align="center"><b>机器学习模型（和工程）</b></td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td><a href="archive/两万字科普：AI 为什么会编程——原理、历史与未来.md">两万字科普：AI 为什么会编程——原理、历史与未来</a></td>
+      <td><a href="https://x.com/snowboat84/status/2048919554882215954">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2032360512311271425">link</a></td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td><a href="archive/别再被 AI 新词绕晕了：Prompt、Context、Agent 背后的工程主线.md">别再被 AI 新词绕晕了：Prompt、Context、Agent 背后的工程主线</a></td>
+      <td><a href="https://x.com/snowboat84/status/2049286033427349809">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2032710620353664658">link</a></td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td><a href="archive/一篇文章讲清大语言模型发展史.md">一篇文章讲清大语言模型发展史</a></td>
+      <td><a href="https://x.com/snowboat84/status/2051444935547912236">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2033073416228573341">link</a></td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td><a href="archive/什么是 Diffusion Model？图片视频生成模型全网最详细介绍.md">什么是 Diffusion Model？图片视频生成模型全网最详细介绍</a></td>
+      <td><a href="https://x.com/snowboat84/status/2061598950944305295">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2044437335031403804">link</a></td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td><a href="archive/什么是世界模型？一个正在被争夺的概念.md">什么是世界模型？一个正在被争夺的概念</a></td>
+      <td><a href="https://x.com/snowboat84/status/2064135804092645410">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2046975713832710368">link</a></td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td><a href="archive/什么是具身智能？它跟 AI 的关系是什么？.md">什么是具身智能？它跟 AI 的关系是什么？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2067032626821747178">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2050131994756044748">link</a></td>
+    </tr>
+    <tr>
+      <td>69</td>
+      <td><a href="archive/Skill是什么：写给零基础.md">Skill是什么：写给零基础</a></td>
+      <td><a href="https://x.com/snowboat84/status/2074652382299132237">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2058095976175477812">link</a></td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td><a href="archive/RAG：从前世今生到技术全景.md">RAG：从前世今生到技术全景</a></td>
+      <td><a href="https://x.com/snowboat84/status/2076868301809225932">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2060189734044022501">link</a></td>
+    </tr>
+    <tr>
+      <td>75</td>
+      <td><a href="archive/什么是推理模型？.md">什么是推理模型？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2077613128746164625">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2061055676080711410">link</a></td>
+    </tr>
+    <tr>
+      <td>91</td>
+      <td><a href="archive/什么是 MoE 和 MMoE 模型？.md">什么是 MoE 和 MMoE 模型？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2085586981459828939">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2069029218298680373">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>人工智能的工程全景</b></td>
     </tr>
     <tr>
