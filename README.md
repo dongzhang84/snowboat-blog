@@ -247,6 +247,12 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2036320348023608889">link</a></td>
     </tr>
     <tr>
+      <td>51</td>
+      <td><a href="archive/Vibe Coding把我系统搞崩了，这是我对此的总结和心得.md">Vibe Coding把我系统搞崩了，我对此的总结和心得</a></td>
+      <td><a href="https://x.com/snowboat84/status/2065586279010742687">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2049039759188800384">link</a></td>
+    </tr>
+    <tr>
       <td>56</td>
       <td><a href="archive/建设个人AI系统的哲学基础.md">我打造的个人AI系统：哲学基础</a></td>
       <td><a href="https://x.com/snowboat84/status/2068120320578629782">link</a></td>
