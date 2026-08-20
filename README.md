@@ -10,6 +10,15 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
   </thead>
   <tbody>
     <tr>
+      <td colspan="4" align="center"><b>物理的黄昏</b></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td><a href="archive/学物理的八方英雄们，物理学已死，请转行搞AI.md">学物理的八方英雄们，物理学已死，请转行搞AI</a></td>
+      <td><a href="https://x.com/snowboat84/status/2044584627046920278">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2027392166075406203">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>量子力学研究史</b></td>
     </tr>
     <tr>
