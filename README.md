@@ -61,6 +61,27 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2059181316013397615">link</a></td>
     </tr>
     <tr>
+      <td colspan="4" align="center"><b>AI for Science 详细介绍</b></td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td><a href="archive/AI for Science 详细介绍（上）：范式与版图.md">AI for Science 详细介绍（上）：范式与版图</a></td>
+      <td><a href="https://x.com/snowboat84/status/2070656715515932930">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2054097439544682305">link</a></td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td><a href="archive/AI for Science 详细介绍（中）：资本与格局.md">AI for Science 详细介绍（中）：资本与格局</a></td>
+      <td><a href="https://x.com/snowboat84/status/2075095303389413496">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2058542937852720420">link</a></td>
+    </tr>
+    <tr>
+      <td>77</td>
+      <td><a href="archive/AI for Science 详细介绍（下）：机会与入场.md">AI for Science 详细介绍（下）：机会与入场</a></td>
+      <td><a href="https://x.com/snowboat84/status/2078282144619593819">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2061643008039195464">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>量子力学研究史</b></td>
     </tr>
     <tr>
