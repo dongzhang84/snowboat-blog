@@ -82,6 +82,39 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2061643008039195464">link</a></td>
     </tr>
     <tr>
+      <td colspan="4" align="center"><b>Physics for AI, AI for Physics and Physics of AI</b></td>
+    </tr>
+    <tr>
+      <td>92</td>
+      <td><a href="archive/AI for Physics 全景图.md">AI for Physics 全景图（长篇科普）</a></td>
+      <td><a href="https://x.com/snowboat84/status/2085946919277461512">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2069400751865176218">link</a></td>
+    </tr>
+    <tr>
+      <td>95</td>
+      <td><a href="机器学习的方法论总论.md">机器学习的方法论总论</a></td>
+      <td><a href="https://x.com/snowboat84/status/2087691801297838417">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2070023922616218684">link</a></td>
+    </tr>
+    <tr>
+      <td>96</td>
+      <td><a href="机器学习的开放问题总论.md">机器学习的开放问题总论</a></td>
+      <td><a href="https://x.com/snowboat84/status/2088052989735080208">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2070118344880034542">link</a></td>
+    </tr>
+    <tr>
+      <td>97</td>
+      <td><a href="Physics for AI 总纲领：一张机器学习开放问题映射表.md">Physics for AI 总纲领：一张机器学习开放问题映射表</a></td>
+      <td><a href="https://x.com/snowboat84/status/2088415601635303536">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2071793238617466286">link</a></td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td><a href="机器学习和新物理学：Physics of AI.md">机器学习和新物理学：Physics of AI</a></td>
+      <td><a href="https://x.com/snowboat84/status/2090225823366431121">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2073068990629409766">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>量子力学研究史</b></td>
     </tr>
     <tr>
