@@ -31,6 +31,27 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2069939340365526519">link</a></td>
     </tr>
     <tr>
+      <td colspan="4" align="center"><b>流体力学系列</b></td>
+    </tr>
+    <tr>
+      <td>74</td>
+      <td><a href="archive/什么是希尔伯特的第六问题？这个问题重要吗？.md">什么是希尔伯特的第六问题？这个问题重要吗？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2077249534049259588">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2060680003977745451">link</a></td>
+    </tr>
+    <tr>
+      <td>76</td>
+      <td><a href="archive/流体力学研究史.md">流体力学研究史</a></td>
+      <td><a href="https://x.com/snowboat84/status/2077983459369418941">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2061426371994333543">link</a></td>
+    </tr>
+    <tr>
+      <td>85</td>
+      <td><a href="archive/纳维-斯托克斯方程：一个方程背后的多重难题.md">纳维-斯托克斯方程：一个方程背后的多重难题</a></td>
+      <td><a href="https://x.com/snowboat84/status/2082618473776329127">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2066062944727740890">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>数学史三部曲</b></td>
     </tr>
     <tr>
