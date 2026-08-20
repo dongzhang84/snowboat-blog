@@ -34,6 +34,33 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2045400658237469383">link</a></td>
     </tr>
     <tr>
+      <td colspan="4" align="center"><b>「老三论」回顾</b></td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td><a href="archive/什么是控制论？控制论是AI的上辈子吗？.md">什么是控制论？控制论是AI的上辈子吗？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2064496706042069340">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2047548601182823378">link</a></td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td><a href="archive/什么是耗散结构理论？它和AI有关系吗？.md">什么是耗散结构理论？它和AI有关系吗？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2067399314843000842">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2050834045269979343">link</a></td>
+    </tr>
+    <tr>
+      <td>59</td>
+      <td><a href="archive/什么是”涌现“？涌现的研究史.md">什么是“涌现”？涌现的研究史</a></td>
+      <td><a href="https://x.com/snowboat84/status/2069931234328027483">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2053368054613008422">link</a></td>
+    </tr>
+    <tr>
+      <td>72</td>
+      <td><a href="archive/什么是信息论？它和AI是什么关系？.md">什么是信息论？它和AI是什么关系？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2075781603847188852">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2059181316013397615">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>量子力学研究史</b></td>
     </tr>
     <tr>
