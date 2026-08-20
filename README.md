@@ -172,6 +172,12 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2061055676080711410">link</a></td>
     </tr>
     <tr>
+      <td>80</td>
+      <td><a href="archive/强化学习沉浮史.md">强化学习沉浮史</a></td>
+      <td><a href="https://x.com/snowboat84/status/2080159169806799316">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2063606573868511864">link</a></td>
+    </tr>
+    <tr>
       <td>91</td>
       <td><a href="archive/什么是 MoE 和 MMoE 模型？.md">什么是 MoE 和 MMoE 模型？</a></td>
       <td><a href="https://x.com/snowboat84/status/2085586981459828939">link</a></td>
