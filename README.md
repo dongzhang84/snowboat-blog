@@ -2,6 +2,16 @@
 
 Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), covering AI & business, education, space exploration, physics & math, and more.
 
+## Topics
+
+### 数学史三部曲
+
+| 文章 | X | 知乎 |
+|------|---|------|
+| [气吞万里如虎：回顾十九世纪的数学英豪们](archive/气吞万里如虎：回顾十九世纪的数学英豪们.md) | [link](https://x.com/snowboat84/status/2050371067278143931) | [link](https://zhuanlan.zhihu.com/p/2033553726032565423) |
+| [我见青山多妩媚：二十世纪数学史（上）](archive/我见青山多妩媚：二十世纪数学史（上）.md) | [link](https://x.com/snowboat84/status/2055446902171406761) | [link](https://zhuanlan.zhihu.com/p/2038664998302524623) |
+| [廉颇老矣，尚能饭否：现代数学史（下）](archive/廉颇老矣，尚能饭否：现代数学史（下）.md) | [link](https://x.com/snowboat84/status/2059071134738620606) | [link](https://zhuanlan.zhihu.com/p/2042511409888613605) |
+
 ## Articles
 
 | # | Date | Article | X Post | X Views | 知乎 |
