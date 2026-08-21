@@ -283,16 +283,46 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td colspan="4" align="center"><b>AI 学习、商业和人文</b></td>
     </tr>
     <tr>
+      <td>2</td>
+      <td><a href="archive/2026 企业尸检报告：不用AI，你的公司能活过今年吗？.md">2026 企业尸检报告：不用AI，你的公司能活过今年吗？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2041672997959057517">link</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><a href="archive/2026第一季度大裁员，AI是背锅侠吗？.md">2026第一季度大裁员，AI是背锅侠吗？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2042766853404307931">link</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
       <td>6</td>
       <td><a href="archive/一人公司盈利四亿美元：是骗子，还是可复制的红利？.md">一人公司盈利四亿美元：是骗子，还是可复制的红利？</a></td>
       <td><a href="https://x.com/snowboat84/status/2043493870265422223">link</a></td>
       <td><a href="https://zhuanlan.zhihu.com/p/2026950177747903194">link</a></td>
     </tr>
     <tr>
+      <td>8</td>
+      <td><a href="archive/不会编程、没有融资、没有员工，他怎么一个人做到年入2000万.md">不会编程、没有融资、没有员工，他怎么一个人做到年入2000万</a></td>
+      <td><a href="https://x.com/snowboat84/status/2044216044575998136">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2027291547884897412">link</a></td>
+    </tr>
+    <tr>
       <td>10</td>
       <td><a href="archive/AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位.md">AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位</a></td>
       <td><a href="https://x.com/snowboat84/status/2044932338262667509">link</a></td>
       <td><a href="https://zhuanlan.zhihu.com/p/2027582531520708691">link</a></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td><a href="archive/黄仁勋和主持人吵红了脸：芯片封锁中国，美国到底能不能打赢？（长篇分析）.md">黄仁勋和主持人吵红了脸：芯片封锁中国，美国到底能不能打赢？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2046022377830801725">link</a></td>
+      <td><a href="https://www.zhihu.com/question/2028405023437014568/answer/2029458215104988529">link</a></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td><a href="archive/估值290亿美元的套壳公司，正在被自己的房东杀死.md">估值290亿美元的套壳公司，正在被自己的房东杀死</a></td>
+      <td><a href="https://x.com/snowboat84/status/2046380497627230607">link</a></td>
+      <td><a href="https://www.zhihu.com/question/1946791222762014096/answer/2029844198262673431">link</a></td>
     </tr>
     <tr>
       <td>15</td>
