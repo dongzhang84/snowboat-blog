@@ -115,6 +115,21 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2073068990629409766">link</a></td>
     </tr>
     <tr>
+      <td colspan="4" align="center"><b>AI for Math</b></td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td><a href="archive/数学照妖镜：AI 能发现新的数学定理吗？.md">数学照妖镜：AI 能发现新的数学定理吗？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2052174034041995572">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2035594900369039855">link</a></td>
+    </tr>
+    <tr>
+      <td>79</td>
+      <td><a href="archive/雅可比猜想：从 Vitushkin 的二维例子推出 Fable 的三维反例.md">雅可比猜想：从 Vitushkin 的二维例子推出 Fable 的三维反例</a></td>
+      <td><a href="https://x.com/snowboat84/status/2079683084979769478">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2063116741576859857">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>机器学习模型（和工程）</b></td>
     </tr>
     <tr>
