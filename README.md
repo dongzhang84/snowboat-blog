@@ -463,6 +463,12 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td colspan="4" align="center"><b>美国系列</b></td>
     </tr>
     <tr>
+      <td>3</td>
+      <td><a href="archive/张雪峰在美国为什么无法成功.md">张雪峰在美国为什么无法成功</a></td>
+      <td><a href="https://x.com/snowboat84/status/2042045634245746743">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2026250301347243657">link</a></td>
+    </tr>
+    <tr>
       <td>28</td>
       <td><a href="archive/一篇文章看懂美国教育全生态.md">一篇文章看懂美国教育全生态</a></td>
       <td><a href="https://x.com/snowboat84/status/2054359249917210633">link</a></td>
