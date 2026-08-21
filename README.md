@@ -454,6 +454,12 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2069939340365526519">link</a></td>
     </tr>
     <tr>
+      <td>33</td>
+      <td><a href="archive/量子计算机有前途吗？.md">量子计算机有前途吗？</a></td>
+      <td><a href="https://x.com/snowboat84/status/2056895775578456417">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2040249407132722840">link</a></td>
+    </tr>
+    <tr>
       <td colspan="4" align="center"><b>流体力学系列</b></td>
     </tr>
     <tr>
