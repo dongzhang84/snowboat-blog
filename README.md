@@ -169,6 +169,12 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
       <td><a href="https://zhuanlan.zhihu.com/p/2050131994756044748">link</a></td>
     </tr>
     <tr>
+      <td>63</td>
+      <td><a href="archive/什么是 MCP · 长篇科普.md">什么是 MCP · 长篇科普</a></td>
+      <td><a href="https://x.com/snowboat84/status/2072106695040565615">link</a></td>
+      <td><a href="https://zhuanlan.zhihu.com/p/2028278862048507118">link</a></td>
+    </tr>
+    <tr>
       <td>69</td>
       <td><a href="archive/Skill是什么：写给零基础.md">Skill是什么：写给零基础</a></td>
       <td><a href="https://x.com/snowboat84/status/2074652382299132237">link</a></td>
