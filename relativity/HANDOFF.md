@@ -1,10 +1,12 @@
 # Relativity Paper Handoff
 
-Date: 2026-08-05 (updated 2026-08-17)
+Date: 2026-08-05 (updated 2026-08-23)
 
 This memo is for continuing the relativity position paper work in Claude Code.
 
-## Status (2026-08-17)
+## Status (2026-08-23)
+
+Deposited at PhilSci-Archive: https://philsci-archive.pitt.edu/id/eprint/30800
 
 The paper is complete. Every section is written prose; no placeholder outlines
 remain. The last compile gives 14 pages: body through page 8, references from
@@ -65,31 +67,44 @@ went on to produce.
 
 ## Open Items
 
-1. Table 1 row 7 promises `problem recognition` under `yes (the gravity test)`,
+Reviewed and deliberately left alone by the author on 2026-08-23: a set of small
+English fixes (a reversed clause in Section 5, a comma splice in the Section 5
+preamble, a fragment and a tense mismatch in Section 2.4, `Observation separated
+them` in Section 2.4, and `kill` in the conclusion where Appendix C now says
+`falsify`), and the two Table 1 items below. They are recorded here so they are
+not rediscovered as new.
+
+1. Table 1 row 7 lists `problem recognition` under `yes (the gravity test)`,
    but Section 5.3 hands the problem to the system rather than testing whether
-   it can pose it. Either change the cell to `not tested here` or say in 5.3
-   that problem recognition is out of scope.
-2. Table 1 uses `the Lorentz test I` and `the Lorentz test II`. Section 5 has no
-   such names; it has one Lorentz test covering tasks 2 and 4.
-3. `main.tex` still contains about thirty commented-out draft paragraphs. Clean
-   them before the deposit.
-4. Appendix A has no cross-reference from the body. One `\Cref{app:timeline}`
-   in the conclusion would fix it.
-5. The `Position:` title line for the ICML position-paper track is present but
-   commented out.
+   it can pose it.
+2. Table 1 uses `the Lorentz test I` and `the Lorentz test II`. Section 5 has
+   one Lorentz test covering tasks 2 and 4.
+3. `main.tex` still contains commented-out draft paragraphs. They do not reach
+   the deposit, since PhilSci-Archive takes the PDF.
+4. The `Position:` title line for the ICML position-paper track is present but
+   commented out. It is not needed for PhilSci-Archive.
+
+Closed since the last update: Appendix A now has a cross-reference from the body
+at the end of Section 4; the quantum paragraph in Section 2.3 became a footnote;
+the keywords were changed to `AI for Science, LLMs, scientific discovery,
+physics intelligence, relativity`.
 
 ## Submission: PhilSci-Archive
 
-The target is PhilSci-Archive at the University of Pittsburgh, the official
-preprint archive of the Philosophy of Science Association, not arXiv.
+Deposited on 2026-08-23. Item URI:
+https://philsci-archive.pitt.edu/id/eprint/30800
 
-- Deposit format is PDF, so the ICML two-column layout can go as it is.
-- Content must be philosophy of science or of interest to philosophers of
-  science. This paper qualifies through theory choice, underdetermination of
-  theory by evidence, and the critique of Whig history.
-- The archive expects a complete paper with all sections present and the
-  language carefully edited. Open item 3 above matters for this.
-- A depositor account is required.
+- PhilSci-Archive is the preprint archive of the Philosophy of Science
+  Association, hosted by the University of Pittsburgh. Not arXiv.
+- Deposit format is PDF, so the ICML two-column layout went as it is.
+- Keywords and the subject classification are entered in the archive's own form,
+  not read from the file.
+- The deposited file is
+  `latex/rediscovering-relativity-is-not-a-single-task.pdf`. The LaTeX job is
+  still called `main`, so a compile writes `main.pdf` and the output has to be
+  renamed before it is committed. `.gitignore` tracks only the deposit filename.
+- The account record is in `private/philsci-archive-account.md`, which is not
+  pushed.
 
 ## Active Files
 

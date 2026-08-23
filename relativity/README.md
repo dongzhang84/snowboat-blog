@@ -25,8 +25,7 @@ relativity.
 
 - `latex/rediscovering-relativity-is-not-a-single-task.pdf` is the deposited
   version and the only file in `latex/` tracked by git.
-- `latex/main.tex` and `latex/refs.bib` are the sources. They are local to this
-  machine and are not in the repository.
+- `latex/main.tex` and `latex/refs.bib` are the sources.
 - `rediscovering-relativity.md` is the earlier markdown draft.
 - `HANDOFF.md` records the editing conventions, the timeline rules, and the
   remaining open items.
