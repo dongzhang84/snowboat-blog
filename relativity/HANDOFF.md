@@ -1,12 +1,15 @@
 # Relativity Paper Handoff
 
-Date: 2026-08-05 (updated 2026-08-23)
+Date: 2026-08-05 (updated 2026-08-24)
 
 This memo is for continuing the relativity position paper work in Claude Code.
 
-## Status (2026-08-23)
+## Status (2026-08-24)
 
-Deposited at PhilSci-Archive: https://philsci-archive.pitt.edu/id/eprint/30800
+Submitted to PhilSci-Archive on 2026-08-23 as item 30800 and returned to the
+author's workspace on 2026-08-24. The return is about author eligibility under
+the archive's new moderation policy, not about the content of the paper. See
+`## Submission: PhilSci-Archive` below.
 
 The paper is complete. Every section is written prose; no placeholder outlines
 remain. The last compile gives 14 pages: body through page 8, references from
@@ -91,15 +94,29 @@ physics intelligence, relativity`.
 
 ## Submission: PhilSci-Archive
 
-Deposited on 2026-08-23. Item URI:
+Submitted 2026-08-23, returned to the workspace 2026-08-24. Item URI (not
+public while it sits in the workspace):
 https://philsci-archive.pitt.edu/id/eprint/30800
+
+The moderators wrote that only four kinds of author may deposit: current and
+former faculty at institutions of higher education and research; current and
+recent postdocs and graduate students; authors with existing items in
+PhilSci-Archive; and authors formally endorsed by an author who already has work
+there. They could not verify that the account belongs to any of them, and the
+remedy they name is to add an academic email address to the profile and the
+submission and resubmit, to write to them if the decision is an error, or to
+seek an endorsement.
+
+The profile is the likely cause. It carries a gmail address and leaves
+Department, Organisation, Country, Homepage URL, and ORCID blank, so there was
+nothing to verify against. Fill those in before any resubmission.
 
 - PhilSci-Archive is the preprint archive of the Philosophy of Science
   Association, hosted by the University of Pittsburgh. Not arXiv.
 - Deposit format is PDF, so the ICML two-column layout went as it is.
 - Keywords and the subject classification are entered in the archive's own form,
   not read from the file.
-- The deposited file is
+- The submitted file is
   `latex/rediscovering-relativity-is-not-a-single-task.pdf`. The LaTeX job is
   still called `main`, so a compile writes `main.pdf` and the output has to be
   renamed before it is committed. `.gitignore` tracks only the deposit filename.

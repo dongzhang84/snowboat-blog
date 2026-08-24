@@ -10,8 +10,15 @@ Poincaré test, and the gravity test.
 
 ## Where it is deposited
 
-- Item: https://philsci-archive.pitt.edu/id/eprint/30800
+Nowhere yet. The paper was submitted to PhilSci-Archive on 2026-08-23 as item
+30800 and returned to the author's workspace on 2026-08-24 under the archive's
+new moderation policy, which restricts deposits to current or former academics,
+authors with existing items, or authors endorsed by one. The item URI is not
+public while it sits in the workspace.
+
+- Item (not public): https://philsci-archive.pitt.edu/id/eprint/30800
 - Archive: https://philsci-archive.pitt.edu/
+- Policy: https://philsci-archive.pitt.edu/policy.html
 
 PhilSci-Archive is the preprint archive of the Philosophy of Science
 Association, hosted by the University of Pittsburgh. The deposit is a PDF; the
@@ -23,7 +30,7 @@ relativity.
 
 ## Files
 
-- `latex/rediscovering-relativity-is-not-a-single-task.pdf` is the deposited
+- `latex/rediscovering-relativity-is-not-a-single-task.pdf` is the submitted
   version and the only file in `latex/` tracked by git.
 - `latex/main.tex` and `latex/refs.bib` are the sources.
 - `rediscovering-relativity.md` is the earlier markdown draft.
