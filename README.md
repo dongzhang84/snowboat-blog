@@ -368,7 +368,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
     </tr>
     <tr>
       <td>*</td>
-      <td><a href="archive/教宗《宏伟人性》中文版.md">教宗良十四世通谕《宏伟人性》（全文翻译）</a></td>
+      <td><a href="教宗《宏伟人性》中文版.md">教宗良十四世通谕《宏伟人性》（全文翻译）</a></td>
       <td>—</td>
       <td>—</td>
     </tr>
