@@ -92,19 +92,19 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
     </tr>
     <tr>
       <td>95</td>
-      <td><a href="机器学习的方法论总论.md">机器学习的方法论总论</a></td>
+      <td><a href="archive/机器学习的方法论总论.md">机器学习的方法论总论</a></td>
       <td><a href="https://x.com/snowboat84/status/2087691801297838417">link</a></td>
       <td><a href="https://zhuanlan.zhihu.com/p/2070023922616218684">link</a></td>
     </tr>
     <tr>
       <td>96</td>
-      <td><a href="机器学习的开放问题总论.md">机器学习的开放问题总论</a></td>
+      <td><a href="archive/机器学习的开放问题总论.md">机器学习的开放问题总论</a></td>
       <td><a href="https://x.com/snowboat84/status/2088052989735080208">link</a></td>
       <td><a href="https://zhuanlan.zhihu.com/p/2070118344880034542">link</a></td>
     </tr>
     <tr>
       <td>97</td>
-      <td><a href="Physics for AI 总纲领：一张机器学习开放问题映射表.md">Physics for AI 总纲领：一张机器学习开放问题映射表</a></td>
+      <td><a href="archive/Physics for AI 总纲领：一张机器学习开放问题映射表.md">Physics for AI 总纲领：一张机器学习开放问题映射表</a></td>
       <td><a href="https://x.com/snowboat84/status/2088415601635303536">link</a></td>
       <td><a href="https://zhuanlan.zhihu.com/p/2071793238617466286">link</a></td>
     </tr>
@@ -230,7 +230,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
     </tr>
     <tr>
       <td>93</td>
-      <td><a href="AI Agent 七十年演化史.md">AI Agent 七十年演化史</a></td>
+      <td><a href="archive/AI Agent 七十年演化史.md">AI Agent 七十年演化史</a></td>
       <td><a href="https://x.com/snowboat84/status/2086970112129851667">link</a></td>
       <td><a href="https://zhuanlan.zhihu.com/p/2070068609993412810">link</a></td>
     </tr>
@@ -368,13 +368,13 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
     </tr>
     <tr>
       <td>*</td>
-      <td><a href="教宗《宏伟人性》中文版.md">教宗良十四世通谕《宏伟人性》（全文翻译）</a></td>
+      <td><a href="archive/教宗《宏伟人性》中文版.md">教宗良十四世通谕《宏伟人性》（全文翻译）</a></td>
       <td>—</td>
       <td>—</td>
     </tr>
     <tr>
       <td>*</td>
-      <td><a href="经典回顾：教宗良十三世的《新事》通谕.md">经典回顾：教宗良十三世的《新事》通谕</a></td>
+      <td><a href="archive/经典回顾：教宗良十三世的《新事》通谕.md">经典回顾：教宗良十三世的《新事》通谕</a></td>
       <td>—</td>
       <td>—</td>
     </tr>
@@ -449,7 +449,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
     </tr>
     <tr>
       <td>94</td>
-      <td><a href="量子力学研究史（下）：多体、涌现与量子信息.md">量子力学研究史（下）：多体、涌现与量子信息</a></td>
+      <td><a href="archive/量子力学研究史（下）：多体、涌现与量子信息.md">量子力学研究史（下）：多体、涌现与量子信息</a></td>
       <td><a href="https://x.com/snowboat84/status/2087341491899494624">link</a></td>
       <td><a href="https://zhuanlan.zhihu.com/p/2069939340365526519">link</a></td>
     </tr>
